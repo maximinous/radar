@@ -40,4 +40,4 @@ Une tâche planifiée ajoute les nouveaux articles trois fois par jour (8h, 13h,
 
 ## Sécurité
 
-Site 100 % statique. `radar-site/_headers` impose HTTPS (HSTS), une CSP stricte (uniquement les fichiers du site), et bloque l'intégration dans d'autres sites. Les liens des sources sont filtrés (http/https uniquement) et tout le contenu est inséré comme texte.
+Site 100 % statique. `radar-site/_headers` impose HTTPS (HSTS), une CSP stricte (uniquement les fichiers du site), et bloque l'intégration dans d'autres sites. `scripts/validate.py` refuse toute URL qui n'est pas en https, et côté page les liens sont filtrés (http/https uniquement) et tout le contenu est inséré comme texte.

@@ -20,10 +20,10 @@ seen = set()
 
 def ok_url(u):
     p = urlparse(u or '')
-    return p.scheme in ('https', 'http') and bool(p.netloc)
+    return p.scheme == 'https' and bool(p.netloc)
 
 for c in cos:
-    if c.get('website') and not ok_url(c['website']): err(f"société {c['id']}: URL invalide")
+    if c.get('website') and not ok_url(c['website']): err(f"société {c['id']}: URL invalide (https obligatoire)")
 for a in arts:
     aid = a.get('id', '?')
     for k in REQ:
@@ -40,7 +40,7 @@ for a in arts:
         if (t - now).total_seconds() > 600: err(f"{aid}: addedAt dans le futur")
     except Exception: err(f"{aid}: addedAt invalide")
     for s in a.get('sources', []):
-        if not ok_url(s.get('url')): err(f"{aid}: URL de source invalide")
+        if not ok_url(s.get('url')): err(f"{aid}: URL de source invalide (https obligatoire)")
     blob = json.dumps(a, ensure_ascii=False)
     for w in BANNED:
         if w in blob: err(f"{aid}: contient {w!r}")
