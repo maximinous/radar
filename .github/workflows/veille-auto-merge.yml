@@ -1,0 +1,61 @@
+# Fusionne automatiquement dans main les branches poussées par la tâche planifiée de veille.
+# La tâche ne peut pousser que sur une branche claude/intelligent-davinci-* : ce workflow
+# vérifie qu'elle ne touche que les données, lance validate.py, puis fusionne et supprime la branche.
+name: Veille - fusion automatique
+
+on:
+  push:
+    branches: ['claude/intelligent-davinci**']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: veille-auto-merge
+  cancel-in-progress: false
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Fusionner les branches de veille
+        run: |
+          set -u
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          allowed='^radar-site/data/(articles|status|companies)\.json$'
+          failed=0
+          merged=()
+          for b in $(git ls-remote --heads origin 'claude/intelligent-davinci*' | awk '{print $2}' | sed 's#^refs/heads/##'); do
+            echo "::group::$b"
+            git fetch -q origin "$b"
+            changed=$(git diff --name-only HEAD...FETCH_HEAD)
+            if [ -z "$changed" ]; then
+              echo "Déjà dans main."
+              merged+=("$b"); echo "::endgroup::"; continue
+            fi
+            if echo "$changed" | grep -Ev "$allowed" >/dev/null; then
+              echo "::error::$b modifie des fichiers hors des données :"; echo "$changed" | grep -Ev "$allowed"
+              failed=1; echo "::endgroup::"; continue
+            fi
+            before=$(git rev-parse HEAD)
+            if ! git merge --no-ff --no-edit -m "Veille : fusion automatique de $b" FETCH_HEAD; then
+              echo "::error::$b : conflit de fusion avec main"
+              git merge --abort; failed=1; echo "::endgroup::"; continue
+            fi
+            if ! python3 scripts/validate.py; then
+              echo "::error::$b : validate.py a échoué, branche non fusionnée"
+              git reset -q --hard "$before"; failed=1; echo "::endgroup::"; continue
+            fi
+            merged+=("$b")
+            echo "::endgroup::"
+          done
+          git push origin HEAD:main
+          for b in "${merged[@]}"; do git push -q origin --delete "$b"; done
+          exit $failed
