@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Radar ROD Investment</title>
+<meta name="description" content="Veille quotidienne sur des sociétés non cotées : actualités sourcées, ce qu'elles changent pour l'entreprise, et un signal optimiste, neutre ou prudent.">
+<meta property="og:title" content="Radar ROD Investment">
+<meta property="og:description" content="Veille quotidienne sur des sociétés non cotées, mise à jour trois fois par jour.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0D6E5E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230D6E5E'/%3E%3Ccircle cx='16' cy='16' r='9' fill='none' stroke='white' stroke-width='2.2'/%3E%3Ccircle cx='16' cy='16' r='3.2' fill='white'/%3E%3Cpath d='M16 16 L23 9' stroke='white' stroke-width='2.2' stroke-linecap='round'/%3E%3C/svg%3E">
+<style>
+@font-face{font-family:'Schibsted Grotesk';font-style:normal;font-weight:400;font-display:swap;src:url(fonts/schibsted-grotesk-latin-400-normal.woff2) format('woff2')}
+@font-face{font-family:'Schibsted Grotesk';font-style:normal;font-weight:500;font-display:swap;src:url(fonts/schibsted-grotesk-latin-500-normal.woff2) format('woff2')}
+@font-face{font-family:'Schibsted Grotesk';font-style:normal;font-weight:600;font-display:swap;src:url(fonts/schibsted-grotesk-latin-600-normal.woff2) format('woff2')}
+@font-face{font-family:'Schibsted Grotesk';font-style:normal;font-weight:700;font-display:swap;src:url(fonts/schibsted-grotesk-latin-700-normal.woff2) format('woff2')}
+@font-face{font-family:'Schibsted Grotesk';font-style:normal;font-weight:800;font-display:swap;src:url(fonts/schibsted-grotesk-latin-800-normal.woff2) format('woff2')}
+@font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:400;font-display:swap;src:url(fonts/jetbrains-mono-latin-400-normal.woff2) format('woff2')}
+@font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:500;font-display:swap;src:url(fonts/jetbrains-mono-latin-500-normal.woff2) format('woff2')}
+:root{
+  --bg:#F3F5F4; --surface:#FFFFFF; --surface-2:#EEF2F0; --ink:#14201B; --muted:#5B6963; --line:#DCE3DF;
+  --accent:#0D6E5E; --accent-ink:#FFFFFF; --accent-soft:#E0EEEA;
+  --pos:#1C7C47; --pos-soft:#E2F2E8; --neu:#56626A; --neu-soft:#E9EDEF; --neg:#A4540B; --neg-soft:#FAECD9;
+  --shadow:0 1px 2px rgba(20,32,27,.06),0 8px 24px rgba(20,32,27,.06);
+  --sans:"Schibsted Grotesk",ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#0D1311; --surface:#141C19; --surface-2:#1A2420; --ink:#E3EBE7; --muted:#93A39C; --line:#26322D;
+    --accent:#5CC7AE; --accent-ink:#0B1714; --accent-soft:#15302A;
+    --pos:#62CF90; --pos-soft:#15301F; --neu:#A7B2B9; --neu-soft:#1D2528; --neg:#F0A95E; --neg-soft:#38270F;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.3);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#0D1311; --surface:#141C19; --surface-2:#1A2420; --ink:#E3EBE7; --muted:#93A39C; --line:#26322D;
+  --accent:#5CC7AE; --accent-ink:#0B1714; --accent-soft:#15302A;
+  --pos:#62CF90; --pos-soft:#15301F; --neu:#A7B2B9; --neu-soft:#1D2528; --neg:#F0A95E; --neg-soft:#38270F;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.3);
+}
+*{box-sizing:border-box}
+html{color-scheme:light}
+@media (prefers-color-scheme: dark){html{color-scheme:dark}}
+body{margin:0;-webkit-font-smoothing:antialiased}
+img{max-width:100%}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.5;padding-inline:16px;padding-block:0 48px}
+button{font:inherit;color:inherit}
+a{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:6px}
+.wrap{max-width:1160px;margin:0 auto}
+.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+
+/* Header */
+.top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px 24px;padding-block:28px 20px;border-bottom:1px solid var(--line)}
+.brand{display:flex;flex-direction:column;gap:4px}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+h1{margin:0;font-size:clamp(26px,4vw,36px);font-weight:800;letter-spacing:-.02em;line-height:1.05;text-wrap:balance}
+h1 .dot{color:var(--accent)}
+.top-meta{display:flex;flex-wrap:wrap;align-items:center;gap:10px}
+.stamp{font-size:12px;color:var(--muted)}
+.btn{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--surface);padding:8px 14px;border-radius:999px;font-size:14px;font-weight:600;cursor:pointer}
+.btn:hover{border-color:var(--accent)}
+.btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.btn.primary:disabled{opacity:.45;cursor:not-allowed}
+.btn.ghost{background:transparent}
+
+/* Onboarding */
+.onb{padding-block:28px}
+.onb h2{font-size:22px;margin:0 0 6px;letter-spacing:-.01em;text-wrap:balance}
+.onb p.lead{margin:0 0 20px;color:var(--muted);max-width:62ch}
+.pick-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
+.pick{position:relative;text-align:left;display:flex;flex-direction:column;gap:8px;padding:16px;border:1px solid var(--line);background:var(--surface);border-radius:14px;cursor:pointer;min-height:132px}
+.pick:hover{border-color:var(--muted)}
+.pick[aria-pressed="true"]{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent);background:linear-gradient(0deg,var(--accent-soft),var(--accent-soft)) , var(--surface)}
+.pick .row{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.pick .name{font-weight:700;font-size:17px}
+.pick .sector{font-size:12px;color:var(--muted);font-family:var(--mono)}
+.pick .line{font-size:13.5px;color:var(--muted)}
+.check{width:22px;height:22px;flex:none;border-radius:6px;border:1.5px solid var(--line);display:grid;place-items:center;background:var(--surface)}
+.pick[aria-pressed="true"] .check{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.check svg{width:14px;height:14px;opacity:0}
+.pick[aria-pressed="true"] .check svg{opacity:1}
+.onb-bar{position:sticky;bottom:0;margin-top:20px;padding-block:14px calc(14px + env(safe-area-inset-bottom,0px));background:var(--bg);border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between}
+.onb-bar .left{display:flex;gap:8px;flex-wrap:wrap}
+
+/* Layout */
+.grid{display:grid;grid-template-columns:260px minmax(0,1fr);gap:28px;padding-top:24px}
+@media (max-width:860px){.grid{grid-template-columns:1fr}}
+.rail{display:flex;flex-direction:column;gap:18px}
+@media (min-width:861px){.rail{position:sticky;top:calc(env(safe-area-inset-top,0px) + 16px);align-self:start}}
+.rail h3{margin:0 0 8px;font-size:11px;font-family:var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:500}
+.co-list{display:flex;flex-direction:column;gap:2px}
+@media (max-width:860px){.co-list{flex-direction:row;flex-wrap:wrap;gap:6px}}
+.co{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:8px 10px;border-radius:10px;border:1px solid transparent;background:none;cursor:pointer;text-align:left;width:100%}
+@media (max-width:860px){.co{width:auto;border-color:var(--line);background:var(--surface)}}
+.co:hover{background:var(--surface-2)}
+.co[aria-current="true"]{background:var(--surface);border-color:var(--line);box-shadow:var(--shadow)}
+.co .n{font-weight:600;font-size:14.5px}
+.co .c{font-size:12px;color:var(--muted)}
+.co.locked .n{color:var(--muted);font-weight:500}
+.co.locked svg{width:13px;height:13px;color:var(--muted)}
+.balance{display:flex;height:6px;border-radius:99px;overflow:hidden;background:var(--neu-soft);width:44px;flex:none}
+.balance span{display:block;height:100%}
+.b-pos{background:var(--pos)} .b-neu{background:var(--neu);opacity:.55} .b-neg{background:var(--neg)}
+
+.filters{display:flex;flex-wrap:wrap;gap:6px}
+.chip{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:5px 11px;font-size:13px;cursor:pointer;display:inline-flex;align-items:center;gap:6px}
+.chip[aria-pressed="true"]{border-color:var(--ink);background:var(--ink);color:var(--bg)}
+.dot-s{width:8px;height:8px;border-radius:50%;display:inline-block}
+
+/* Feed */
+.feed-head{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 16px;margin-bottom:14px}
+.feed-head h2{margin:0;font-size:20px;letter-spacing:-.01em}
+.feed-head .count{font-size:13px;color:var(--muted)}
+.cohero{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:20px;margin-bottom:18px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:16px 24px}
+@media (max-width:640px){.cohero{grid-template-columns:1fr}}
+.cohero h2{margin:0 0 4px;font-size:24px;letter-spacing:-.015em}
+.cohero p{margin:0;color:var(--muted);max-width:60ch}
+.facts{display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:12px;font-size:13px}
+.facts span b{font-weight:600;color:var(--ink)}
+.facts span{color:var(--muted)}
+.mood{display:flex;flex-direction:column;gap:8px;min-width:200px}
+.mood .bar{display:flex;height:10px;border-radius:99px;overflow:hidden;background:var(--neu-soft)}
+.mood .legend{display:flex;gap:12px;font-size:12px;color:var(--muted);flex-wrap:wrap}
+.mood .verdict{font-weight:700;font-size:15px}
+
+.feed{display:flex;flex-direction:column;gap:10px}
+.card{display:grid;grid-template-columns:4px minmax(0,1fr);gap:0 16px;padding:16px 18px 16px 0;background:var(--surface);border:1px solid var(--line);border-radius:14px;cursor:pointer;text-align:left;width:100%;overflow:hidden}
+.card:hover{border-color:var(--muted)}
+.card .stripe{border-radius:0 3px 3px 0}
+.card.pos .stripe{background:var(--pos)} .card.neu .stripe{background:var(--neu);opacity:.5} .card.neg .stripe{background:var(--neg)}
+.card .meta{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;font-size:12px;color:var(--muted);margin-bottom:6px}
+.card .meta .cname{font-weight:700;color:var(--ink);font-size:12.5px}
+.card h3{margin:0 0 6px;font-size:17px;line-height:1.3;letter-spacing:-.005em;text-wrap:balance}
+.card p{margin:0;color:var(--muted);font-size:14px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.pill{display:inline-flex;align-items:center;gap:5px;font-family:var(--mono);font-size:11px;letter-spacing:.04em;text-transform:uppercase;padding:2px 8px;border-radius:99px;font-weight:500}
+.pill.pos{background:var(--pos-soft);color:var(--pos)} .pill.neu{background:var(--neu-soft);color:var(--neu)} .pill.neg{background:var(--neg-soft);color:var(--neg)}
+.new{font-family:var(--mono);font-size:10.5px;background:var(--accent);color:var(--accent-ink);padding:1px 6px;border-radius:4px;letter-spacing:.06em}
+
+.empty{padding:36px 20px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:14px;background:var(--surface)}
+.notice{font-size:13px;color:var(--muted);padding:10px 12px;border-radius:10px;background:var(--surface-2);margin-top:14px}
+
+/* Detail sheet */
+.scrim{position:fixed;inset:0;background:rgba(8,14,12,.45);z-index:20}
+.sheet{position:fixed;top:0;right:0;bottom:0;width:min(640px,100%);background:var(--surface);z-index:21;display:flex;flex-direction:column;box-shadow:-12px 0 40px rgba(0,0,0,.18);padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+.sheet-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 20px;border-bottom:1px solid var(--line)}
+.sheet-body{overflow-y:auto;padding:22px 24px 40px;display:flex;flex-direction:column;gap:22px}
+.sheet h2{margin:0;font-size:24px;line-height:1.2;letter-spacing:-.015em;text-wrap:balance}
+.sheet .kicker{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;font-size:13px;color:var(--muted);margin-bottom:10px}
+.sheet section h4{margin:0 0 8px;font-size:11px;font-family:var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:500}
+.sheet section p{margin:0 0 10px;max-width:65ch}
+.verdict-box{border-radius:12px;padding:14px 16px;display:flex;flex-direction:column;gap:6px}
+.verdict-box.pos{background:var(--pos-soft)} .verdict-box.neu{background:var(--neu-soft)} .verdict-box.neg{background:var(--neg-soft)}
+.verdict-box .v{font-weight:700}
+.verdict-box.pos .v{color:var(--pos)} .verdict-box.neu .v{color:var(--neu)} .verdict-box.neg .v{color:var(--neg)}
+.verdict-box p{margin:0;color:var(--ink)}
+.sources{display:flex;flex-direction:column;gap:6px;padding:0;margin:0;list-style:none}
+.sources a{display:inline-flex;gap:8px;align-items:center;text-decoration:none;font-weight:500}
+.sources a:hover{text-decoration:underline}
+.x{border:none;background:var(--surface-2);width:34px;height:34px;border-radius:50%;cursor:pointer;display:grid;place-items:center}
+.disclaimer{font-size:12px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
+.foot{margin-top:40px;font-size:12px;color:var(--muted);max-width:80ch;display:flex;flex-direction:column;gap:6px}
+.foot p{margin:0}
+.loading{padding:60px 0;color:var(--muted)}
+@media (prefers-reduced-motion:no-preference){
+  .sheet{animation:slide .22s ease-out}
+  @keyframes slide{from{transform:translateX(24px);opacity:.6}to{transform:none;opacity:1}}
+}
+</style>
+
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <span class="eyebrow">ROD Investment · Veille sociétés non cotées</span>
+      <h1>Radar<span class="dot">.</span></h1>
+    </div>
+    <div class="top-meta">
+      <span class="stamp mono" id="stamp">Chargement de la veille…</span>
+      <button class="btn ghost" id="editSel" type="button" hidden>Modifier mes sociétés</button>
+    </div>
+  </header>
+
+  <main id="app"><div class="loading">Chargement de la veille…</div></main>
+
+  <footer class="foot">
+    <p>Veille d'information sur des sociétés non cotées, mise à jour automatiquement trois fois par jour à partir de sources publiques citées dans chaque article. Les signaux optimiste, neutre et prudent sont une lecture éditoriale de l'actualité. Ils ne constituent pas un conseil en investissement ni une recommandation d'achat ou de vente. Investir dans des sociétés non cotées comporte un risque de perte totale du capital.</p>
+    <p>Ce site n'est affilié à aucune des sociétés suivies ni à aucune plateforme d'investissement. Votre sélection de sociétés reste dans votre navigateur : aucun cookie, aucun compte.</p>
+    <p><a href="mentions-legales.html">Mentions légales</a></p>
+  </footer>
+</div>
+
+<div id="sheetRoot"></div>
+
+<script>
+(function(){
+  const app = document.getElementById('app');
+  const stamp = document.getElementById('stamp');
+  const editBtn = document.getElementById('editSel');
+  const sheetRoot = document.getElementById('sheetRoot');
+
+  const S = {
+    db:null, companies:[], articles:[], status:null,
+    selection:null, selLoaded:false, draft:null, mode:'feed',
+    company:null, signal:'all', open:null, storeNote:''
+  };
+  const LS_KEY = 'radar-selection-v1';
+  const SIG = {
+    optimiste:{cls:'pos', label:'Optimiste', verdict:'Signal optimiste'},
+    neutre:{cls:'neu', label:'Neutre', verdict:'Signal neutre'},
+    prudent:{cls:'neg', label:'Prudent', verdict:'Signal prudent'}
+  };
+
+  function el(tag, attrs, ...kids){
+    const n = document.createElement(tag);
+    if(attrs) for(const k in attrs){
+      const v = attrs[k];
+      if(v==null || v===false) continue;
+      if(k==='class') n.className = v;
+      else if(k.startsWith('on')) n.addEventListener(k.slice(2), v);
+      else if(k==='text') n.textContent = v;
+      else n.setAttribute(k, v===true?'':v);
+    }
+    for(const k of kids.flat()){ if(k==null||k===false) continue; n.append(k.nodeType?k:document.createTextNode(String(k))); }
+    return n;
+  }
+  function svg(path, size){
+    const s = document.createElementNS('http://www.w3.org/2000/svg','svg');
+    s.setAttribute('viewBox','0 0 24 24'); s.setAttribute('fill','none'); s.setAttribute('stroke','currentColor');
+    s.setAttribute('stroke-width','2.4'); s.setAttribute('stroke-linecap','round'); s.setAttribute('stroke-linejoin','round');
+    if(size){s.setAttribute('width',size);s.setAttribute('height',size);}
+    s.innerHTML = path; return s;
+  }
+  const ICON_CHECK = '<path d="M5 12.5l4.5 4.5L19 7.5"/>';
+  const ICON_LOCK = '<rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/>';
+  const ICON_X = '<path d="M6 6l12 12M18 6L6 18"/>';
+  const ICON_OUT = '<path d="M14 5h5v5M19 5l-8 8M18 14v4a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h4"/>';
+
+  const MONTHS = ['janv.','févr.','mars','avr.','mai','juin','juil.','août','sept.','oct.','nov.','déc.'];
+  function fmtDate(a){
+    if(a.dateLabel) return a.dateLabel;
+    const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(a.date||'');
+    if(!m) return a.date||'';
+    return (+m[3]) + ' ' + MONTHS[+m[2]-1] + ' ' + m[1];
+  }
+  function isNew(a){
+    if(!a.addedAt) return false;
+    const t = Date.parse(a.addedAt); if(isNaN(t)) return false;
+    return (Date.now()-t) < 36*3600*1000;
+  }
+  function coById(id){ return S.companies.find(c=>c.id===id); }
+  function counts(list){
+    const c={optimiste:0,neutre:0,prudent:0}; list.forEach(a=>{ if(c[a.signal]!=null) c[a.signal]++; }); return c;
+  }
+  function balanceBar(c, cls){
+    const tot = c.optimiste+c.neutre+c.prudent || 1;
+    return el('span',{class:cls||'balance','aria-hidden':'true'},
+      el('span',{class:'b-pos',style:'width:'+(c.optimiste/tot*100)+'%'}),
+      el('span',{class:'b-neu',style:'width:'+(c.neutre/tot*100)+'%'}),
+      el('span',{class:'b-neg',style:'width:'+(c.prudent/tot*100)+'%'}));
+  }
+
+  /* ---------- selection storage ---------- */
+  function lsGet(){ try{ const v = localStorage.getItem(LS_KEY); return v?JSON.parse(v):null; }catch(e){ return null; } }
+  function lsSet(v){ try{ localStorage.setItem(LS_KEY, JSON.stringify(v)); }catch(e){} }
+  function saveSelection(ids){
+    S.selection = ids.slice(); lsSet(ids); render();
+  }
+
+  /* ---------- render ---------- */
+  function render(){
+    if(!S.companies.length){
+      app.replaceChildren(el('div',{class:'loading'}, S.db===false ? 'La veille n\'a pas pu se charger. Rechargez la page dans un instant.' : 'Chargement de la veille…'));
+      return;
+    }
+    const st = S.status && S.status.lastRun;
+    stamp.textContent = st ? 'Dernière mise à jour : ' + new Date(st).toLocaleString('fr-FR',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}) : S.articles.length + ' articles';
+    if(!S.selLoaded) { app.replaceChildren(el('div',{class:'loading'},'Chargement de votre sélection…')); return; }
+    const needOnb = S.mode==='pick' || !S.selection || !S.selection.length;
+    editBtn.hidden = needOnb;
+    if(needOnb) renderPick(); else renderFeed();
+    renderSheet();
+  }
+
+  function renderPick(){
+    if(!S.draft) S.draft = new Set(S.selection||[]);
+    const first = !S.selection || !S.selection.length;
+    const cos = S.companies.slice().sort((a,b)=>(a.order||99)-(b.order||99));
+    const grid = el('div',{class:'pick-grid'}, cos.map(c=>{
+      const n = S.articles.filter(a=>a.companyId===c.id).length;
+      const on = S.draft.has(c.id);
+      return el('button',{class:'pick',type:'button','aria-pressed':String(on),onclick:()=>{ on?S.draft.delete(c.id):S.draft.add(c.id); render(); }},
+        el('div',{class:'row'}, el('span',{class:'name'},c.name), el('span',{class:'check'},svg(ICON_CHECK))),
+        el('span',{class:'sector'}, (c.sector||'') + ' · ' + n + (n>1?' articles':' article')),
+        el('span',{class:'line'}, c.oneLiner||''));
+    }));
+    const all = cos.every(c=>S.draft.has(c.id));
+    app.replaceChildren(el('section',{class:'onb'},
+      el('h2',null, first ? 'Choisissez les sociétés à suivre' : 'Modifier les sociétés suivies'),
+      el('p',{class:'lead'}, 'Chaque société cochée débloque sa page de veille et ajoute ses actualités à votre fil. Votre choix est mémorisé dans ce navigateur, sans compte ni cookie.'),
+      grid,
+      el('div',{class:'onb-bar'},
+        el('div',{class:'left'},
+          el('button',{class:'btn ghost',type:'button',onclick:()=>{ S.draft = all?new Set():new Set(cos.map(c=>c.id)); render(); }}, all?'Tout décocher':'Tout sélectionner'),
+          !first ? el('button',{class:'btn ghost',type:'button',onclick:()=>{ S.draft=null; S.mode='feed'; render(); }},'Annuler') : null),
+        el('button',{class:'btn primary',type:'button',disabled:S.draft.size===0,onclick:()=>{ const ids=[...S.draft]; S.draft=null; S.mode='feed'; if(S.company && !ids.includes(S.company)) S.company=null; saveSelection(ids); }},
+          'Débloquer ma veille (' + S.draft.size + ')'))
+    ));
+  }
+
+  function renderFeed(){
+    const sel = new Set(S.selection);
+    const cos = S.companies.slice().sort((a,b)=>(a.order||99)-(b.order||99));
+    const followed = cos.filter(c=>sel.has(c.id));
+    const locked = cos.filter(c=>!sel.has(c.id));
+    const mine = S.articles.filter(a=>sel.has(a.companyId));
+
+    const rail = el('aside',{class:'rail'},
+      el('div',null, el('h3',null,'Mes sociétés'),
+        el('div',{class:'co-list'},
+          el('button',{class:'co',type:'button','aria-current':String(!S.company),onclick:()=>{S.company=null;render();}},
+            el('span',{class:'n'},'Toutes'), el('span',{class:'c mono'}, String(mine.length))),
+          followed.map(c=>{
+            const arts = S.articles.filter(a=>a.companyId===c.id);
+            return el('button',{class:'co',type:'button','aria-current':String(S.company===c.id),onclick:()=>{S.company=c.id;render();window.scrollTo({top:0,behavior:'smooth'});}},
+              el('span',{class:'n'},c.name), balanceBar(counts(arts)));
+          }))),
+      el('div',null, el('h3',null,'Signal'),
+        el('div',{class:'filters'},
+          [['all','Tous',null],['optimiste','Optimiste','var(--pos)'],['neutre','Neutre','var(--neu)'],['prudent','Prudent','var(--neg)']].map(([k,l,col])=>
+            el('button',{class:'chip',type:'button','aria-pressed':String(S.signal===k),onclick:()=>{S.signal=k;render();}},
+              col?el('span',{class:'dot-s',style:'background:'+col}):null, l)))),
+      locked.length ? el('div',null, el('h3',null,'Non suivies'),
+        el('div',{class:'co-list'}, locked.map(c=>
+          el('button',{class:'co locked',type:'button',title:'Ajouter à ma veille',onclick:()=>{ saveSelection([...S.selection, c.id]); S.company=c.id; }},
+            el('span',{class:'n'},c.name), svg(ICON_LOCK))))) : null
+    );
+
+    let list = S.company ? mine.filter(a=>a.companyId===S.company) : mine;
+    if(S.signal!=='all') list = list.filter(a=>a.signal===S.signal);
+    list = list.slice().sort((a,b)=> (b.date||'').localeCompare(a.date||'') || (b.addedAt||'').localeCompare(a.addedAt||''));
+
+    const main = el('section',null);
+    if(S.company){
+      const c = coById(S.company);
+      const arts = S.articles.filter(a=>a.companyId===c.id);
+      const k = counts(arts); const tot = arts.length||1;
+      const lean = k.optimiste>k.prudent*2 ? ['Dynamique favorable','pos'] : k.prudent>k.optimiste ? ['Points de vigilance','neg'] : ['Dynamique contrastée','neu'];
+      main.append(el('div',{class:'cohero'},
+        el('div',null,
+          el('span',{class:'eyebrow'}, c.sector||''),
+          el('h2',null,c.name),
+          el('p',null,c.description||c.oneLiner||''),
+          el('div',{class:'facts'},
+            c.hq?el('span',null,'Siège ',el('b',null,c.hq)):null,
+            c.founded?el('span',null,'Création ',el('b',null,c.founded)):null,
+            c.leaders?el('span',null,'Dirigeants ',el('b',null,c.leaders)):null,
+            c.website?el('span',null,el('a',{href:c.website,target:'_blank',rel:'noopener'},'Site officiel')):null)),
+        el('div',{class:'mood'},
+          el('span',{class:'eyebrow'},'Tonalité de la veille'),
+          el('span',{class:'verdict',style:'color:var(--'+lean[1]+')'},lean[0]),
+          balanceBar(k,'bar'),
+          el('div',{class:'legend mono'},
+            el('span',null,k.optimiste+' optimiste'+(k.optimiste>1?'s':'')),
+            el('span',null,k.neutre+' neutre'+(k.neutre>1?'s':'')),
+            el('span',null,k.prudent+' prudent'+(k.prudent>1?'s':''))))
+      ));
+    }
+    main.append(el('div',{class:'feed-head'},
+      el('h2',null, S.company ? 'Actualités' : 'Mon fil de veille'),
+      el('span',{class:'count mono'}, list.length + (list.length>1?' articles':' article'))));
+    if(!list.length){
+      main.append(el('div',{class:'empty'}, S.signal!=='all' ? 'Aucun article avec ce signal pour le moment.' : 'Pas encore d\'actualité pour cette sélection. Le fil se complète à chaque mise à jour.'));
+    } else {
+      main.append(el('div',{class:'feed'}, list.map(a=>{
+        const s = SIG[a.signal]||SIG.neutre; const c = coById(a.companyId);
+        return el('button',{class:'card '+s.cls,type:'button',onclick:()=>{S.open=a.id;renderSheet();}},
+          el('span',{class:'stripe'}),
+          el('div',null,
+            el('div',{class:'meta'},
+              el('span',{class:'cname'},c?c.name:''),
+              el('span',{class:'mono'},fmtDate(a)),
+              el('span',{class:'pill '+s.cls},s.label),
+              isNew(a)?el('span',{class:'new'},'NOUVEAU'):null),
+            el('h3',null,a.title),
+            el('p',null,a.summary||'')));
+      })));
+    }
+    if(S.storeNote) main.append(el('div',{class:'notice'},S.storeNote));
+    app.replaceChildren(el('div',{class:'grid'}, rail, main));
+  }
+
+  let lastFocus = null;
+  function closeSheet(){ S.open=null; renderSheet(); if(lastFocus) try{lastFocus.focus();}catch(e){} }
+  function renderSheet(){
+    const a = S.open && S.articles.find(x=>x.id===S.open);
+    if(!a){ sheetRoot.replaceChildren(); document.body.style.overflow=''; return; }
+    if(!sheetRoot.firstChild) lastFocus = document.activeElement;
+    const s = SIG[a.signal]||SIG.neutre; const c = coById(a.companyId);
+    const paras = (t)=> String(t||'').split(/\n\s*\n/).filter(Boolean).map(p=>el('p',null,p));
+    const closeBtn = el('button',{class:'x',type:'button','aria-label':'Fermer',onclick:closeSheet},svg(ICON_X,18));
+    sheetRoot.replaceChildren(
+      el('div',{class:'scrim',onclick:closeSheet}),
+      el('div',{class:'sheet',role:'dialog','aria-modal':'true','aria-label':a.title},
+        el('div',{class:'sheet-head'},
+          el('span',{class:'eyebrow'}, c?c.name:''), closeBtn),
+        el('div',{class:'sheet-body'},
+          el('div',null,
+            el('div',{class:'kicker'}, el('span',{class:'mono'},fmtDate(a)), el('span',{class:'pill '+s.cls},s.label), isNew(a)?el('span',{class:'new'},'NOUVEAU'):null),
+            el('h2',null,a.title)),
+          el('section',null, el('h4',null,'Ce qui se passe'), paras(a.detail||a.summary)),
+          el('section',null, el('h4',null,'Ce que ça apporte à l\'entreprise'), paras(a.impact)),
+          el('div',{class:'verdict-box '+s.cls}, el('span',{class:'v'},s.verdict), el('p',null,a.rationale||'')),
+          (a.sources&&a.sources.length) ? el('section',null, el('h4',null,'Sources'),
+            el('ul',{class:'sources'}, a.sources.map(src=>el('li',null, el('a',{href:src.url,target:'_blank',rel:'noopener'}, src.label||src.url, svg(ICON_OUT,14)))))) : null,
+          el('p',{class:'disclaimer'},'Lecture éditoriale de l\'actualité publique de la société. Ne constitue pas un conseil en investissement.'))));
+    document.body.style.overflow='hidden';
+    closeBtn.focus();
+  }
+  document.addEventListener('keydown',e=>{ if(e.key==='Escape' && S.open) closeSheet(); });
+  editBtn.addEventListener('click',()=>{ S.mode='pick'; S.draft=null; render(); });
+
+  /* ---------- boot ---------- */
+  async function getJSON(path){
+    const r = await fetch(path, {cache:'no-cache'});
+    if(!r.ok) throw new Error(path+' '+r.status);
+    return r.json();
+  }
+  async function boot(){
+    S.selection = lsGet(); S.selLoaded = true;
+    try{
+      const [cos, arts, st] = await Promise.all([getJSON('data/companies.json'), getJSON('data/articles.json'), getJSON('data/status.json').catch(()=>null)]);
+      S.companies = cos; S.articles = arts; S.status = st;
+      if(S.selection) S.selection = S.selection.filter(id=>cos.some(c=>c.id===id));
+    }catch(e){ S.db = false; }
+    render();
+  }
+  boot();
+})();
+</script>
+
+</body>
+</html>

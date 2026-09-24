@@ -1,0 +1,97 @@
+[
+ {
+  "id": "prometheus",
+  "description": "Start-up cofondée par Jeff Bezos et Vik Bajaj, qui développe un « ingénieur général artificiel » capable d'accélérer la conception et la fabrication dans l'aéronautique, l'automobile, les semi-conducteurs et la pharmacie.",
+  "founded": "2025",
+  "hq": "San Francisco",
+  "leaders": "Jeff Bezos, Vik Bajaj (co-CEO)",
+  "name": "Prometheus",
+  "oneLiner": "IA qui conçoit et optimise des objets physiques complexes : puces, moteurs, molécules.",
+  "order": 1,
+  "sector": "IA industrielle",
+  "website": "https://en.wikipedia.org/wiki/Prometheus_(company)"
+ },
+ {
+  "id": "together-ai",
+  "description": "« Neocloud » qui loue des clusters GPU Nvidia et fournit une plateforme d'entraînement, de fine-tuning et d'inférence, surtout pour les modèles open source.",
+  "founded": "2022",
+  "hq": "San Francisco",
+  "leaders": "Vipul Ved Prakash (CEO), Percy Liang, Ce Zhang",
+  "name": "Together AI",
+  "oneLiner": "Cloud spécialisé IA : location de clusters GPU et inférence de modèles ouverts.",
+  "order": 2,
+  "sector": "Cloud IA",
+  "website": "https://www.together.ai/"
+ },
+ {
+  "id": "figure-ai",
+  "description": "Constructeur de robots humanoïdes à usage général, produits dans son usine BotQ et déployés dans l'industrie (BMW) et la logistique, avec un modèle maison vision-langage-action nommé Helix.",
+  "founded": "2022",
+  "hq": "Californie",
+  "leaders": "Brett Adcock (CEO)",
+  "name": "Figure AI",
+  "oneLiner": "Robots humanoïdes Figure 03 pilotés par son propre modèle d'IA, Helix.",
+  "order": 3,
+  "sector": "Robotique humanoïde",
+  "website": "https://www.figure.ai/"
+ },
+ {
+  "id": "mistral-ai",
+  "description": "Éditeur français de grands modèles de langage, en partie open source, de l'assistant Mistral Vibe (ex-Le Chat) et d'une infrastructure de calcul européenne, Mistral Compute.",
+  "founded": "2023",
+  "hq": "Paris",
+  "leaders": "Arthur Mensch (CEO), Guillaume Lample, Timothée Lacroix",
+  "name": "Mistral AI",
+  "oneLiner": "Champion français de l'IA générative : modèles, assistant Mistral Vibe et cloud souverain.",
+  "order": 4,
+  "sector": "Modèles de langage",
+  "website": "https://mistral.ai/"
+ },
+ {
+  "id": "deel",
+  "description": "Plateforme qui permet d'embaucher, payer et gérer des salariés et freelances partout dans le monde, via ses propres entités juridiques (Employer of Record), avec une forte couche d'IA.",
+  "founded": "2019",
+  "hq": "San Francisco",
+  "leaders": "Alex Bouaziz (CEO)",
+  "name": "Deel",
+  "oneLiner": "Plateforme de paie, RH et portage salarial international dans plus de 150 pays.",
+  "order": 5,
+  "sector": "RH et paie mondiale",
+  "website": "https://www.deel.com/"
+ },
+ {
+  "id": "erebor",
+  "description": "Banque nationale américaine lancée en février 2026, pensée pour combler le vide laissé par Silicon Valley Bank. Elle cible des clients technologiques à forte intensité de capital et règle ses opérations sur des rails blockchain.",
+  "founded": "2025",
+  "hq": "Columbus (Ohio)",
+  "leaders": "Fondée par Palmer Luckey et Joe Lonsdale",
+  "name": "Erebor Bank",
+  "oneLiner": "Banque américaine agréée pour les entreprises de l'IA, de la défense et de la crypto.",
+  "order": 6,
+  "sector": "Banque tech"
+ },
+ {
+  "id": "apollo-research",
+  "description": "Organisation londonienne qui teste les modèles d'IA avancés pour détecter les comportements trompeurs, et développe des outils de surveillance des agents IA. Devenue Public Benefit Corporation en 2026.",
+  "founded": "2023",
+  "hq": "Londres (bureau à San Francisco)",
+  "leaders": "Marius Hobbhahn (CEO)",
+  "name": "Apollo Research",
+  "oneLiner": "Évaluation et surveillance des modèles d'IA de pointe, spécialiste du « scheming ».",
+  "order": 7,
+  "sector": "Sécurité de l'IA",
+  "website": "https://www.apolloresearch.ai/"
+ },
+ {
+  "id": "neura-robotics",
+  "description": "Pionnier allemand de la robotique cognitive : bras légers, robots mobiles et humanoïde 4NE1, qui apprennent via un écosystème partagé, le Neuraverse.",
+  "founded": "2019",
+  "hq": "Metzingen (Allemagne)",
+  "leaders": "David Reger (CEO)",
+  "name": "Neura Robotics",
+  "oneLiner": "Robots collaboratifs, mobiles et humanoïdes allemands, reliés par la plateforme Neuraverse.",
+  "order": 8,
+  "sector": "Robotique cognitive",
+  "website": "https://neura-robotics.com/"
+ }
+]
