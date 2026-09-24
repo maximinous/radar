@@ -1,10 +1,58 @@
 [
  {
-  "id": "lovable-2026-09-24-chat-gratuit",
+  "addedAt": "2026-09-24T16:10:42Z",
+  "companyId": "lovable",
+  "date": "2026-09-24",
+  "detail": "Selon TechCrunch, le revenu annualisé de Lovable a franchi les 600 millions de dollars, après 500 millions en juin. En août, la société visait un rythme proche de ce niveau pour la fin de l'été, objectif désormais confirmé.\n\nLe cofondateur Fabian Hedin, qui s'exprimait au sommet HumanX d'Amsterdam, met en avant l'usage : près d'un milliard de visites mensuelles sur les apps construites avec Lovable. Deux tiers des entreprises du Fortune 500 utiliseraient l'outil, avec des clients comme Microsoft, NVIDIA et Deutsche Telekom.\n\nLors de Dreamforce (article du 16 septembre), Anton Osika avait indiqué que l'ARR avait triplé en neuf mois après le cap des 200 millions, et cité 300 restaurants McDonald's des pays nordiques équipés d'un outil bâti sur Lovable.",
+  "id": "lovable-2026-09-24-600m-arr",
+  "impact": "Confirme une croissance très rapide un mois après la levée de 400 millions de dollars à 13,3 milliards de valorisation, et renforce la crédibilité de Lovable auprès des grands comptes.",
+  "rationale": "Objectif de revenus atteint et hausse de 100 millions de dollars d'ARR en trois mois environ.",
+  "signal": "optimiste",
+  "sources": [
+   {
+    "label": "TechCrunch, 24 septembre 2026",
+    "url": "https://techcrunch.com/2026/09/24/lovables-annualized-revenue-crosses-600m-as-vibe-coding-takes-off/"
+   },
+   {
+    "label": "The Next Web, 16 septembre 2026",
+    "url": "https://thenextweb.com/news/lovable-anton-osika-dreamforce-way-past-vibes-security"
+   },
+   {
+    "label": "Dealroom, 12 août 2026",
+    "url": "https://dealroom.co/news/144597-lovable-raises-400m-at-13-3b-valuation-eyes-600m-revenue-run-rate/"
+   }
+  ],
+  "summary": "Lovable affiche désormais plus de 600 millions de dollars de revenus annualisés, contre 500 millions en juin 2026. Les applications créées sur la plateforme approchent le milliard de visites par mois.",
+  "title": "Lovable dépasse 600 millions de dollars de revenus annualisés"
+ },
+ {
+  "addedAt": "2026-09-24T16:10:42Z",
+  "companyId": "starcloud",
+  "date": "2026-09-24",
+  "detail": "Selon Reuters, un satellite prototype équipé de TPU de Google doit décoller la semaine prochaine sur la mission de covoiturage Transporter-18 de SpaceX, en partenariat avec Planet Labs. Le test vise à mesurer la résistance du matériel aux contraintes du lancement, aux radiations et aux températures extrêmes.\n\nDeux autres satellites sont prévus en 2027 pour tester des liaisons laser à haut débit entre engins. Des experts cités jugent le concept encore loin de la rentabilité commerciale, entre coûts de lancement, contraintes techniques et goulets de production.",
+  "id": "starcloud-2026-09-24-google-suncatcher",
+  "impact": "L'entrée concrète de Google en orbite valide le marché visé par Starcloud mais ajoute un concurrent aux moyens considérables, alors que Starcloud-1 tourne déjà en orbite depuis 2025.",
+  "rationale": "Validation du marché par un géant, mais aussi hausse de la pression concurrentielle sur un segment encore naissant.",
+  "signal": "neutre",
+  "sources": [
+   {
+    "label": "Reuters via Dawn, 24 septembre 2026",
+    "url": "https://www.dawn.com/news/2032357/google-plans-first-test-of-ai-chips-in-space-under-project-suncatcher"
+   },
+   {
+    "label": "Reuters via U.S. News, 24 septembre 2026",
+    "url": "https://money.usnews.com/investing/news/articles/2026-09-24/google-plans-first-test-of-ai-chips-in-space-under-project-suncatcher"
+   }
+  ],
+  "summary": "Google va tester pour la première fois ses puces TPU dans l'espace dans le cadre du Project Suncatcher. Reuters cite Starcloud parmi les acteurs qui visent aussi des centres de données en orbite basse.",
+  "title": "Google envoie ses premières puces IA en orbite, un concurrent de poids pour Starcloud"
+ },
+ {
   "addedAt": "2026-09-24T15:12:00Z",
   "companyId": "lovable",
   "date": "2026-09-24",
   "detail": "Lovable a annoncé ce 24 septembre que son mode chat devient gratuit. L'utilisateur peut discuter de son idée, demander laquelle vaut la peine d'être construite et préparer son projet sans consommer de crédits.\n\nLe même jour, la société a détaillé le fonctionnement de ses agents qui collaborent dans ces conversations.",
+  "id": "lovable-2026-09-24-chat-gratuit",
   "impact": "Supprimer la barrière du paiement au premier contact devrait attirer davantage de nouveaux utilisateurs, que Lovable espère ensuite convertir en abonnés. Le coût de calcul de ces échanges gratuits pèsera en revanche sur les marges.",
   "rationale": "Levier d'acquisition classique, dont l'effet sur les revenus reste à mesurer.",
   "signal": "neutre",
@@ -18,11 +66,37 @@
   "title": "Lovable rend son mode discussion gratuit"
  },
  {
-  "id": "mistral-ai-2026-09-16-esa",
+  "addedAt": "2026-09-24T19:59:40Z",
+  "companyId": "stripe",
+  "date": "2026-09-23",
+  "detail": "Selon les comptes déposés par Stripe Payments International Holdings, la filiale irlandaise du groupe a vu son bénéfice avant impôts passer de 101,8 à 445,5 millions de dollars sur l'exercice 2025, une hausse de plus de 337 %. Le chiffre d'affaires a progressé de 32,5 %, de 5,12 à 6,79 milliards de dollars.\n\nLa filiale a versé un dividende de 467,2 millions de dollars à sa maison mère américaine, Stripe Laboratories, en mai 2026, contre seulement 9 millions un an plus tôt. Ces chiffres, révélés le 23 septembre par la presse irlandaise, concernent le principal hub européen de Stripe, basé à Dublin.",
+  "id": "stripe-2026-09-23-dublin-benefices",
+  "impact": "Une rentabilité européenne en forte hausse conforte la valorisation de 159 milliards de dollars atteinte en février 2026 et donne à Stripe davantage de marge financière pour ses investissements en IA et en stablecoins.",
+  "rationale": "Accélération nette et vérifiable de la rentabilité sur un marché clé, via des comptes déposés officiellement.",
+  "signal": "optimiste",
+  "sources": [
+   {
+    "label": "Irish Times, 23 septembre 2026",
+    "url": "https://www.irishtimes.com/business/2026/09/23/pretax-profits-at-collison-brothers-dublin-unit-of-stripe-hit-445m/"
+   },
+   {
+    "label": "Business Post, 23 septembre 2026",
+    "url": "https://www.businesspost.ie/tech-news/stripe-reports-near-1bn-rise-in-revenues-at-dublin-subsidiary/"
+   },
+   {
+    "label": "Irish Examiner, 23 septembre 2026",
+    "url": "https://www.irishexaminer.com/business/companies/arid-41914825.html"
+   }
+  ],
+  "summary": "Le bénéfice avant impôts de la filiale dublinoise de Stripe a bondi de 101,8 à 445,5 millions de dollars en 2025, tandis que son chiffre d'affaires progressait de 32,5 %.",
+  "title": "Les bénéfices de la filiale irlandaise de Stripe sont multipliés par plus de quatre"
+ },
+ {
   "addedAt": "2026-09-24T10:20:00Z",
   "companyId": "mistral-ai",
   "date": "2026-09-23",
   "detail": "L'ESA a rendu public le 23 septembre une lettre d'intention signée avec Mistral, qui fixe un cadre de coopération stratégique. La presse française l'a reprise ce 24 septembre. Les axes : observation de la Terre, applications d'ingénierie, IA avancée pour les activités spatiales, compétences, et déploiement sur des infrastructures européennes sécurisées.\n\nLe document avait été signé à Paris le 16 septembre par Josef Aschbacher et Arthur Mensch. Il s'appuie sur deux projets existants : Orbit, un assistant IA sécurisé pour les ingénieurs, et EVE, un outil d'observation de la Terre développé par le Φ-lab de l'ESA.",
+  "id": "mistral-ai-2026-09-16-esa",
   "impact": "Une référence institutionnelle européenne de premier plan, qui conforte Mistral sur le créneau de l'IA souveraine et sécurisée. Une lettre d'intention n'engage pas encore de montant ni de commande ferme.",
   "rationale": "Signal fort de confiance publique européenne, sans engagement financier à ce stade.",
   "signal": "optimiste",
@@ -40,11 +114,63 @@
   "title": "L'Agence spatiale européenne signe une lettre d'intention avec Mistral"
  },
  {
-  "id": "starcloud-2026-09-22-bitcoin",
+  "addedAt": "2026-09-24T19:59:40Z",
+  "companyId": "mistral-ai",
+  "date": "2026-09-22",
+  "detail": "Le 22 septembre, OpenAI a lancé GPT-6 Sol et GPT-6 Luna, deux versions moins coûteuses de sa gamme GPT-6, avec une fenêtre de contexte d'un peu plus d'un million de tokens. GPT-6 Luna, la moins chère, est facturée 0,10 dollar par million de tokens en entrée et 0,50 dollar en sortie, une baisse de prix revendiquée d'environ 50 % par rapport aux modèles précédents.\n\nLe même jour, Anthropic a présenté Claude Opus 5.5, 20 % moins cher que la version précédente, avec une vitesse de sortie en hausse de plus de 30 % et des performances proches de son modèle le plus avancé pour moins de calcul. Un rapport de Sifted, cité dans la presse, estime que les modèles de Mistral ne sont pour l'instant pas compétitifs avec les meilleurs systèmes américains d'OpenAI, Anthropic ou Google DeepMind.",
+  "id": "mistral-ai-2026-09-22-concurrence-openai-anthropic",
+  "impact": "Cette double offensive tarifaire des deux principaux laboratoires américains réduit la fenêtre où Mistral peut se différencier par le prix, une semaine après sa levée de 3 milliards d'euros axée sur la souveraineté plutôt que sur la course aux modèles les plus avancés.",
+  "rationale": "Mouvement concurrentiel direct et simultané qui comprime la marge de manœuvre commerciale de Mistral sur les modèles génériques.",
+  "signal": "prudent",
+  "sources": [
+   {
+    "label": "TechCrunch, 22 septembre 2026",
+    "url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/"
+   },
+   {
+    "label": "Anthropic, 22 septembre 2026",
+    "url": "https://www.anthropic.com/claude-opus-5-5"
+   },
+   {
+    "label": "VentureBeat, 22 septembre 2026",
+    "url": "https://venturebeat.com/technology/openai-releases-gpt-6-sol-and-luna-models-slashing-api-costs-50-or-more"
+   }
+  ],
+  "summary": "OpenAI a lancé GPT-6 Sol et GPT-6 Luna, ses modèles les moins chers, tandis qu'Anthropic dévoilait Claude Opus 5.5 avec une baisse de prix de 20 %. Une même journée qui resserre l'espace de différenciation de Mistral sur le prix.",
+  "title": "OpenAI et Anthropic baissent leurs prix le même jour, la pression monte sur Mistral"
+ },
+ {
+  "addedAt": "2026-09-24T16:10:42Z",
+  "companyId": "lovable",
+  "date": "2026-09-22",
+  "detail": "L'alliance, annoncée le 22 septembre, réunit AWS, CrowdStrike, Databricks, Docker, Google Cloud, Lovable, Okta, Proofpoint, Salesforce, ServiceNow, Wiz et Zscaler. Elle travaille sur quatre sujets : recenser les agents actifs, contrôler leurs accès, surveiller leurs actions et réagir vite en cas d'incident.\n\nLe communiqué cite une prévision de Gartner : plus de 150 000 agents par grande entreprise du Fortune 500 d'ici 2028. Seules 13 % des organisations jugent leur gouvernance des agents suffisante.\n\nCôté Lovable, c'est le responsable sécurité Igor Andriushchenko qui porte l'initiative. La société, critiquée par le passé sur la sécurité des apps générées, renforce ainsi son discours auprès des entreprises.",
+  "id": "lovable-2026-09-22-blueprint-alliance",
+  "impact": "Place Lovable au même rang que les grands acteurs du cloud et de la cybersécurité sur la gouvernance des agents, un argument clé pour vendre aux grands comptes.",
+  "rationale": "Adhésion fondatrice à une coalition de premier plan qui répond au principal frein des entreprises : la sécurité.",
+  "signal": "optimiste",
+  "sources": [
+   {
+    "label": "Blog Lovable, 22 septembre 2026",
+    "url": "https://lovable.dev/blog/lovable-founding-member-blueprint-alliance"
+   },
+   {
+    "label": "Communiqué Business Wire (via FinancialContent), 22 septembre 2026",
+    "url": "https://www.financialcontent.com/article/bizwire-2026-9-22-industry-leaders-form-the-blueprint-alliance-to-advance-a-shared-architecture-for-securing-ai-agents"
+   },
+   {
+    "label": "SiliconANGLE, 22 septembre 2026",
+    "url": "https://siliconangle.com/2026/09/22/okta-adds-ai-agent-runtime-gateway-forms-blueprint-alliance-with-aws-and-crowdstrike/"
+   }
+  ],
+  "summary": "Lovable figure parmi les 12 membres fondateurs de la Blueprint Alliance, aux côtés d'AWS, Google Cloud, Salesforce, Okta ou CrowdStrike. La coalition veut définir une architecture ouverte pour sécuriser et gouverner les agents IA en entreprise.",
+  "title": "Lovable cofonde la Blueprint Alliance sur la sécurité des agents IA"
+ },
+ {
   "addedAt": "2026-09-24T15:12:00Z",
   "companyId": "starcloud",
   "date": "2026-09-22",
   "detail": "Philip Johnston a indiqué que Starcloud-2, le deuxième des quatre satellites prévus, embarquera des puces de minage de bitcoin. Il avance que ces puces coûtent environ 30 fois moins cher qu'un GPU à puissance égale, avec une énergie solaire quasi continue en orbite.\n\nLa page officielle du projet ne mentionnait pas jusque-là le minage de cryptomonnaie. Le refroidissement du matériel dans l'espace reste une difficulté technique ouverte.",
+  "id": "starcloud-2026-09-22-bitcoin",
   "impact": "Le minage offrirait un revenu possible plus tôt que les services d'IA, avec du matériel moins cher. Mais il dilue le discours sur les centres de données IA et expose la société au cours très volatil du bitcoin.",
   "rationale": "Diversification opportuniste qui brouille la stratégie, sur un satellite dont le lancement dépend de capacités de fusées limitées.",
   "signal": "prudent",
@@ -62,11 +188,11 @@
   "title": "Starcloud veut miner du bitcoin en orbite avec son deuxième satellite"
  },
  {
-  "id": "erebor-2026-09-22-syrie",
   "addedAt": "2026-09-24T11:11:34Z",
   "companyId": "erebor",
   "date": "2026-09-22",
   "detail": "L'article, publié le 22 septembre par Michael Roddan, présente Erebor comme devenue un pont financier entre les États-Unis et le Venezuela. Bloomberg avait révélé ce rôle vénézuélien le 15 mai.\n\nLa banque envisagerait maintenant la Syrie, pays longtemps visé par des sanctions américaines. Ni Erebor ni un régulateur n'ont confirmé le projet, et aucun montant ni calendrier n'est public.",
+  "id": "erebor-2026-09-22-syrie",
   "impact": "Erebor se positionne sur des corridors financiers géopolitiques que les grandes banques évitent, une niche potentielle mais exposée aux règles de sanctions.",
   "rationale": "Projet non confirmé, dans un pays à fort risque de conformité pour une jeune banque déjà surveillée politiquement.",
   "signal": "prudent",
@@ -84,11 +210,11 @@
   "title": "Erebor étudie une expansion en Syrie"
  },
  {
-  "id": "mistral-ai-2026-09-21-pimento",
   "addedAt": "2026-09-24T12:00:00Z",
   "companyId": "mistral-ai",
   "date": "2026-09-21",
   "detail": "Pimento génère, modifie et anime des visuels publicitaires en respectant l'identité d'une marque. La plateforme se connecte à Meta, TikTok, Google et Pinterest pour lire les performances des campagnes et ajuster les créations suivantes. Elle avait levé 3 millions d'euros fin 2023 auprès de Partech et Cygni Capital.\n\nC'est au moins la troisième acquisition de Mistral après Koyeb (infrastructure) et Emmi AI (physique industrielle). Le prix n'a pas été dévoilé.",
+  "id": "mistral-ai-2026-09-21-pimento",
   "impact": "Mistral ajoute une application métier prête à l'emploi au-dessus de ses modèles, avec une boucle de retour sur la performance réelle des campagnes. Cela renforce Mistral Vibe face aux assistants concurrents et ouvre un usage concret auprès des équipes marketing.",
   "rationale": "Acquisition ciblée et cohérente avec la stratégie de montée vers les applications. Son poids financier reste modeste.",
   "signal": "optimiste",
@@ -110,11 +236,11 @@
   "title": "Mistral AI rachète Pimento, spécialiste de la publicité générée par IA"
  },
  {
-  "id": "deel-2026-09-akai",
   "addedAt": "2026-09-22T08:00:00Z",
   "companyId": "deel",
   "date": "2026-09-21",
   "detail": "Deel a déployé en interne une plateforme d'agents IA, Akai, qui compterait 10 000 agents dans ses fonctions support. La société revendique 140 millions de dollars de revenu récurrent annuel supplémentaire en 90 jours sans recruter. Aucun audit indépendant ne vient confirmer ces chiffres.",
+  "id": "deel-2026-09-akai",
   "impact": "Si les chiffres se confirment, Deel augmente fortement son revenu par salarié, ce qui améliore ses marges et renforce son profil en vue d'une éventuelle introduction en Bourse.",
   "rationale": "Levier de productivité impressionnant, à confirmer par des données externes.",
   "signal": "optimiste",
@@ -128,11 +254,37 @@
   "title": "Deel dit avoir ajouté 140 millions de revenus récurrents grâce à ses agents IA"
  },
  {
-  "id": "lovable-2026-09-18-sutro",
+  "addedAt": "2026-09-24T20:26:16Z",
+  "companyId": "apollo-research",
+  "date": "2026-09-18",
+  "detail": "Le 18 septembre 2026, Anthropic et Accenture ont annoncé la constitution d'une équipe d'évaluateurs intégrés, avec un accès comparable à celui d'un salarié pour suivre l'entraînement et le déploiement des modèles. Chaque entreprise prévoit d'investir au moins 1 milliard de dollars sur cinq ans dans cette démarche, soit un engagement combiné de 2 milliards de dollars. Accenture s'appuie sur Faculty, une société d'évaluation de modèles qu'elle a rachetée.\n\nCette annonce fait suite à un plan en trois étapes publié mi-septembre par le dirigeant d'Anthropic en faveur d'évaluateurs indépendants intégrés aux laboratoires d'IA, une démarche rejointe par OpenAI. Apollo Research, aux côtés de METR et Redwood Research, était jusque là présentée dans la presse comme une candidate naturelle pour ce type de rôle. Anthropic indique poursuivre des discussions avec METR sur d'autres volets d'évaluation intégrée, sans citer Apollo dans ce premier cercle d'annonces.",
+  "id": "apollo-2026-09-18-accenture-evaluateur",
+  "impact": "Se faire devancer par un grand cabinet de conseil généraliste sur le tout premier contrat d'évaluateur intégré envoie un signal concurrentiel défavorable à Apollo, présentée jusqu'ici comme favorite naturelle dans ce débat. L'issue dépendra des prochaines vagues d'annonces qu'Anthropic dit préparer.",
+  "rationale": "Un concurrent généraliste remporte le premier accord de ce type dans un rôle où Apollo était vue comme candidate naturelle.",
+  "signal": "prudent",
+  "sources": [
+   {
+    "label": "TechCrunch, 18 septembre 2026",
+    "url": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/"
+   },
+   {
+    "label": "CNBC, 18 septembre 2026",
+    "url": "https://www.cnbc.com/2026/09/18/anthropic-accenture-ai-safety.html"
+   },
+   {
+    "label": "Accenture, communiqué, 18 septembre 2026",
+    "url": "https://newsroom.accenture.com/news/2026/accenture-and-anthropic-partner-to-build-team-of-embedded-evaluators-at-anthropic"
+   }
+  ],
+  "summary": "Anthropic a nommé Accenture, via sa filiale Faculty, premier évaluateur de sécurité intégré à ses équipes, avec un engagement croisé de 2 milliards de dollars sur cinq ans. Apollo Research, citée comme candidate naturelle à ce rôle, n'apparaît pas dans ce premier accord.",
+  "title": "Anthropic choisit Accenture, pas Apollo, comme premier évaluateur intégré"
+ },
+ {
   "addedAt": "2026-09-24T15:12:00Z",
   "companyId": "lovable",
   "date": "2026-09-18",
   "detail": "Lovable a annoncé l'acquisition de Sutro, un outil qui aide à comprendre comment fonctionne un logiciel et à lui faire confiance. Le fondateur de Sutro, Tomas Halgas, et trois ingénieurs intègrent les équipes de Lovable.\n\nLes conditions financières n'ont pas été dévoilées. Il s'agit d'une acquisition de petite taille, centrée sur l'équipe et la technologie.",
+  "id": "lovable-2026-09-18-sutro",
   "impact": "Expliquer ce que fait une application générée par IA est un frein majeur à son adoption en entreprise. Cette brique peut rassurer les clients professionnels et les équipes de sécurité.",
   "rationale": "Rachat cohérent mais de faible ampleur, sans effet financier visible à court terme.",
   "signal": "neutre",
@@ -146,11 +298,11 @@
   "title": "Lovable rachète Sutro pour rendre le logiciel plus compréhensible"
  },
  {
-  "id": "figure-ai-2026-09-18-figure-04",
   "addedAt": "2026-09-24T12:00:00Z",
   "companyId": "figure-ai",
   "date": "2026-09-18",
   "detail": "Brett Adcock présente le passage du Figure 03 au Figure 04 comme le plus grand saut entre deux générations de robots Figure, fruit des déploiements du Figure 03. Aucune spécification, performance ni date de présentation n'a été donnée ; la conception avait été figée en mai.\n\nIl admet que l'objectif d'un robot réalisant des tâches longues en autonomie chez un particulier d'ici la fin de l'année n'est pas encore atteint. Helix 2.5 couvre trois tâches précises : faire le lit, plier des serviettes et ranger des jouets. Selon une analyse publiée le 20 septembre, le taux de réussite dans des maisons inconnues passe de 9 % à 56 % grâce aux vidéos collectées via l'application Index.",
+  "id": "figure-ai-2026-09-18-figure-04",
   "impact": "La feuille de route produit reste ambitieuse et la méthode fondée sur les données montre des gains mesurables. Mais l'usage domestique autonome, qui justifie une grande partie de la valorisation, n'est pas encore là.",
   "rationale": "Progrès réels mais annonces sans calendrier, et un objectif de l'année reconnu comme manqué.",
   "signal": "neutre",
@@ -168,11 +320,11 @@
   "title": "Brett Adcock promet un saut majeur avec le Figure 04, sans date ni fiche technique"
  },
  {
-  "id": "together-ai-2026-09-18-nscale-ipo",
   "addedAt": "2026-09-24T11:11:34Z",
   "companyId": "together-ai",
   "date": "2026-09-18",
   "detail": "Le dossier a été déposé le 18 septembre. Au premier semestre 2026, Nscale a réalisé 140,6 millions de dollars de revenus, contre 10,4 millions un an plus tôt, pour une perte nette de 1,02 milliard. Plus de la moitié des revenus vient d'un seul client non nommé.\n\nLe carnet de commandes atteint 103,4 milliards de dollars, dont un accord de calcul d'environ 45 milliards avec Anthropic. La presse évoque une valorisation visée jusqu'à 35 milliards de dollars, d'autres analyses parlent de 30 milliards. Les conditions définitives ne sont pas publiées.",
+  "id": "together-ai-2026-09-18-nscale-ipo",
   "impact": "Cette introduction donnera un prix de marché public aux neoclouds et servira de référence pour la valorisation et une future cotation de Together AI.",
   "rationale": "Référence de valorisation utile, mais les pertes lourdes et la concentration client rappellent les fragilités du modèle.",
   "signal": "neutre",
@@ -194,11 +346,81 @@
   "title": "Concurrent direct : le neocloud Nscale dépose son dossier d'introduction en Bourse"
  },
  {
-  "id": "figure-2026-09-17-helix-25",
+  "addedAt": "2026-09-24T20:26:16Z",
+  "companyId": "together-ai",
+  "date": "2026-09-17",
+  "detail": "Le tour, un Series F, a été codirigé par Atreides Management, Mubadala Capital et Valor Equity Partners, avec la participation de Founders Fund, GIC, Nvidia, Qatar Investment Authority, Radical Ventures et TPG. Crusoe se présente comme le premier fournisseur d'infrastructure IA entièrement intégré verticalement, avec plus de 140 milliards de dollars de valeur de contrats cumulés.\n\nLa société veut financer l'extension de ses campus de centres de données et le déploiement de ses unités modulaires Crusoe Spark, qui alimentent la croissance de son offre Crusoe Cloud.",
+  "id": "together-ai-2026-09-17-crusoe-levee",
+  "impact": "Crusoe devient l'un des neoclouds privés les mieux capitalisés, avec une valorisation environ 3,7 fois supérieure à celle de Together AI (30,9 milliards contre 8,3 milliards de dollars). Cela renforce sa capacité à financer des campus GPU à grande échelle et intensifie la concurrence pour les contrats de capacité que vise aussi Together AI.",
+  "rationale": "Un concurrent direct devient massivement mieux capitalisé, ce qui accroît la pression compétitive sur Together AI dans la course aux infrastructures GPU.",
+  "signal": "prudent",
+  "sources": [
+   {
+    "label": "TechCrunch, 17 septembre 2026",
+    "url": "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/"
+   },
+   {
+    "label": "Crusoe, communiqué, 17 septembre 2026",
+    "url": "https://www.crusoe.ai/resources/newsroom/crusoe-announces-series-f-funding"
+   },
+   {
+    "label": "TPG, 17 septembre 2026",
+    "url": "https://www.tpg.com/news-and-insights/crusoe-raises-3-9-billion-series-f-for-its-vertically-integrated-ai-infrastructure-platform"
+   }
+  ],
+  "summary": "Le neocloud concurrent Crusoe boucle un tour de table de 3,9 milliards de dollars qui le valorise 30,9 milliards de dollars, creusant l'écart de capitalisation avec Together AI.",
+  "title": "Crusoe lève 3,9 milliards de dollars, valorisé 30,9 milliards"
+ },
+ {
+  "addedAt": "2026-09-24T19:59:40Z",
+  "companyId": "lovable",
+  "date": "2026-09-17",
+  "detail": "Lovable a présenté OJ le 17 septembre sur son blog, un outil de démarrage de previews réécrit en Rust pour remplacer Vite dans son environnement cloud, qui gère près d'un million de sandboxes éphémères par jour. Le temps médian pour obtenir un sandbox prêt passe de 14,5 à 3 secondes, et la mémoire utilisée est divisée par environ 6,5. L'outil s'appuie sur Rolldown et Oxc, les mêmes fondations Rust que Vite adopte progressivement, et reste compatible avec les plugins Vite existants.\n\nLe projet, conçu par l'ingénieur Raphael Amorim, a été rendu open source dans l'organisation GitHub de Lovable le 24 septembre. Le créateur de Vite, Evan You, a réagi publiquement : il confirme le gain de mémoire mais conteste le cadrage de certains benchmarks, précisant que seule la couche serveur de développement a été réécrite, pas l'ensemble de Vite.",
+  "id": "lovable-2026-09-17-oj-rust",
+  "impact": "Ce chantier d'infrastructure accélère l'expérience clé de Lovable, l'aperçu instantané d'une application en cours de création, et affiche une maîtrise technique qui répond aux critiques sur la fiabilité du code généré par IA.",
+  "rationale": "Avancée technique réelle et mesurable, mais la comparaison à Vite est contestée par le créateur de cet outil.",
+  "signal": "neutre",
+  "sources": [
+   {
+    "label": "Lovable, blog, 17 septembre 2026",
+    "url": "https://lovable.dev/blog/faster-previews-oj"
+   },
+   {
+    "label": "GitHub, lovablelabs/oj",
+    "url": "https://github.com/lovablelabs/oj"
+   },
+   {
+    "label": "daily.dev, 24 septembre 2026",
+    "url": "https://daily.dev/posts/lovable-s-oj-rewrites-vite-s-dev-server-in-rust-as-ai-lowers-the-cost-of-forking-open-source-hxobsiwum"
+   }
+  ],
+  "summary": "Lovable a présenté OJ, un outil de développement natif en Rust qui remplace Vite dans ses previews cloud. Rendu open source, il promet des previews nettement plus rapides et moins gourmandes en mémoire.",
+  "title": "Lovable réécrit le serveur de développement Vite en Rust avec OJ"
+ },
+ {
+  "addedAt": "2026-09-24T16:10:42Z",
+  "companyId": "stripe",
+  "date": "2026-09-17",
+  "detail": "Stripe a publié le 17 septembre des chiffres sur son activité plateformes (Connect), signés par Aakash Sahney, responsable produit de Connect. Les nouvelles plateformes sur Stripe sont en hausse de plus de 180 % sur un an sur les trois derniers mois, et les plateformes SaaS en libre-service ayant bouclé une intégration complète progressent d'environ 360 %.\n\nPlus de 55 % des nouvelles intégrations Stripe (à fin août 2026) ont été réalisées avec une aide de l'IA. Les plateformes lancées en janvier 2026 atteignent le seuil du million de dollars de volume de paiement plus vite que toutes les cohortes précédentes.",
+  "id": "stripe-2026-09-17-plateformes-saas",
+  "impact": "Ces chiffres contredisent l'idée d'un déclin du SaaS face à l'IA et montrent que Stripe capte une vague de nouvelles plateformes construites avec des outils d'IA, un relais de croissance pour Connect.",
+  "rationale": "Des indicateurs de traction en forte hausse sur un segment clé, publiés par l'entreprise elle-même.",
+  "signal": "optimiste",
+  "sources": [
+   {
+    "label": "Blog Stripe, 17 septembre 2026",
+    "url": "https://stripe.com/blog/saas-platforms-are-surging-despite-the-saaspocalypse"
+   }
+  ],
+  "summary": "Le nombre de nouvelles plateformes utilisant Stripe a progressé de plus de 180 % sur un an, selon des données publiées par l'entreprise. Stripe en a ajouté davantage en trois mois qu'au second semestre 2025.",
+  "title": "Stripe voit bondir les nouvelles plateformes SaaS sur Connect"
+ },
+ {
   "addedAt": "2026-09-22T08:00:00Z",
   "companyId": "figure-ai",
   "date": "2026-09-17",
   "detail": "Figure a présenté Helix 2.5, dont la démonstration porte sur une généralisation « zero-shot » dans 30 foyers différents, sans entraînement préalable sur ces lieux. La société enchaîne les versions de Helix depuis le début de l'année.",
+  "id": "figure-2026-09-17-helix-25",
   "impact": "Généraliser à des environnements inconnus est la condition pour vendre un robot au-delà d'une ligne d'usine préparée. C'est un pas vers le marché domestique, beaucoup plus large.",
   "rationale": "Progrès technique significatif. Il s'agit d'une démonstration de l'entreprise, pas encore d'un déploiement commercial à domicile.",
   "signal": "optimiste",
@@ -212,11 +434,37 @@
   "title": "Helix 2.5 : les robots Figure travaillent dans 30 maisons jamais vues"
  },
  {
-  "id": "apollo-2026-09-16-evaluateurs-externes",
+  "addedAt": "2026-09-24T20:26:16Z",
+  "companyId": "mistral-ai",
+  "date": "2026-09-16",
+  "detail": "Le 16 septembre 2026, un compte pseudonyme utilisant le nom mrwho publie sur un forum anglophone spécialisé une annonce intitulée Selling mistral.ai Source Code, en réclamant un paiement en Monero. Il affirme que Mistral a été compromise à deux reprises, une fois en mai et une autre fois plus récemment, via des identifiants de développeurs jamais renouvelés.\n\nMistral affirme n'avoir trouvé aucune preuve à l'appui de cette allégation et n'a pas confirmé si le code mis en vente est authentique. Des chercheurs en sécurité relient l'épisode de mai au ver Mini Shai-Hulud, attribué au groupe TeamPCP, qui avait brièvement compromis des paquets du kit de développement de Mistral les 11 et 12 mai via des dépendances TanStack piégées. Aucune donnée client n'est apparue dans les échantillons analysés, et personne n'a montré de fichier postérieur à l'incident de mai.",
+  "id": "mistral-ai-2026-09-16-fuite-code-source",
+  "impact": "L'épisode relance le doute sur la robustesse des systèmes de développement de Mistral, quelques semaines après sa levée de 3 milliards d'euros et la signature de contrats sensibles avec de grands comptes comme TotalEnergies ou Samsung. C'est un risque réputationnel pour une entreprise qui vend la sécurité de ses offres souveraines à des clients institutionnels.",
+  "rationale": "Allégation non confirmée et probablement liée à une fuite déjà connue, mais qui fragilise le discours de confiance sur la sécurité que Mistral utilise pour vendre ses offres.",
+  "signal": "prudent",
+  "sources": [
+   {
+    "label": "BleepingComputer, 16 septembre 2026",
+    "url": "https://www.bleepingcomputer.com/news/security/teampcp-hackers-advertise-mistral-ai-code-repos-for-sale/"
+   },
+   {
+    "label": "TechRadar, septembre 2026",
+    "url": "https://www.techradar.com/pro/security/mistral-denies-a-fresh-security-breach-but-the-code-on-sale-looks-a-lot-like-mays-leak"
+   },
+   {
+    "label": "Cryptoast, septembre 2026",
+    "url": "https://cryptoast.fr/mistral-ai-hacker-vend-code-source-piratage/"
+   }
+  ],
+  "summary": "Un vendeur anonyme a mis en vente sur un forum cybercriminel ce qu'il présente comme le code source de Mistral AI, affirmant deux compromissions distinctes. Mistral dit n'avoir trouvé aucune preuve d'un nouvel accès non autorisé.",
+  "title": "Un hacker affirme vendre le code source de Mistral AI"
+ },
+ {
   "addedAt": "2026-09-24T11:11:34Z",
   "companyId": "apollo-research",
   "date": "2026-09-16",
   "detail": "TechCrunch détaille l'accès envisagé : versions intermédiaires des modèles, journaux d'évaluation, entretiens avec les salariés et droit de publier. L'article rappelle qu'Apollo n'a eu que trois jours pour tester GPT-6 Astra et en a conclu que de faibles taux de mauvais comportement ne prouvaient pas grand chose.\n\nLe 17 septembre, The Verge a présenté Apollo, METR et Redwood comme les auditeurs externes de fait de l'IA de pointe. Le 22 septembre, OpenAI a publié ses principes pour les évaluations tierces, sans nommer de partenaire ni fixer de conditions d'accès.",
+  "id": "apollo-2026-09-16-evaluateurs-externes",
   "impact": "Si les labos formalisent cet accès, la demande d'évaluations indépendantes pourrait fortement croître, et Apollo fait partie des rares acteurs crédibles pour y répondre.",
   "rationale": "Le marché s'ouvre en principe, mais aucun engagement concret ni contrat n'est annoncé pour Apollo.",
   "signal": "neutre",
@@ -238,11 +486,11 @@
   "title": "Les labos veulent intégrer des évaluateurs externes, Apollo au cœur du débat"
  },
  {
-  "id": "mistral-2026-09-16-firefox",
   "addedAt": "2026-09-22T08:00:00Z",
   "companyId": "mistral-ai",
   "date": "2026-09-16",
   "detail": "Mozilla a élargi à la France la bêta de Firefox Smart Window, sa fonction de navigation assistée par IA, propulsée par Mistral. Le même mois, Mistral a aussi lancé avec d'autres acteurs français une offre d'hébergement de ses modèles en France.",
+  "id": "mistral-2026-09-16-firefox",
   "impact": "Une exposition grand public supplémentaire et une référence de partenaire reconnu, sans montant financier annoncé.",
   "rationale": "Visibilité utile, effet financier limité à court terme.",
   "signal": "neutre",
@@ -260,11 +508,11 @@
   "title": "Mistral alimente la fenêtre IA de Firefox en France"
  },
  {
-  "id": "lovable-2026-09-15-salesforce",
   "addedAt": "2026-09-24T15:12:00Z",
   "companyId": "lovable",
   "date": "2026-09-15",
   "detail": "Lovable a annoncé que les applications et agents créés sur sa plateforme peuvent fonctionner nativement dans Salesforce, via Headless 360, et dans Slack. Une équipe connecte Salesforce depuis son espace Lovable et choisit rapidement ses premières applications.\n\nSalesforce reste le système principal ; Lovable devient une couche de création rapide au-dessus. Salesforce Ventures est par ailleurs actionnaire de Lovable.",
+  "id": "lovable-2026-09-15-salesforce",
   "impact": "Lovable s'ouvre la porte des grandes entreprises clientes de Salesforce, un public bien plus solvable que les indépendants. Des apps intégrées aux outils du quotidien sont aussi plus difficiles à abandonner, ce qui améliore la fidélité.",
   "rationale": "Accès direct au marché des grands comptes via un partenaire dominant.",
   "signal": "optimiste",
@@ -282,11 +530,11 @@
   "title": "Les apps créées avec Lovable tournent désormais dans Salesforce et Slack"
  },
  {
-  "id": "mistral-ai-2026-09-15-numspot",
   "addedAt": "2026-09-24T11:11:34Z",
   "companyId": "mistral-ai",
   "date": "2026-09-15",
   "detail": "Numspot, détenu par la Banque des Territoires, Bouygues Telecom, Dassault Systèmes et Docaposte, gère le déploiement, les GPU, la supervision, la sécurité et les mises à jour. L'offre tourne sur deux régions Outscale, avec des Nvidia H200, H100 et L40, et Numspot cherche à obtenir des B300.\n\nSelon LeMagIT, 40 000 licences Mistral Vibe et Mistral Studio sont prévues à la Caisse des Dépôts et à la Banque des Territoires. La couche IaaS de Numspot est qualifiée SecNumCloud (en août selon LeMagIT, début septembre selon Le Monde Informatique). Le service Mistral managé est encore en cours de qualification, fin attendue fin 2026 ou début 2027.",
+  "id": "mistral-ai-2026-09-15-numspot",
   "impact": "Mistral gagne un canal de distribution clé en main vers le secteur public et les entreprises régulées, qui veulent l'IA sans gérer l'infrastructure.",
   "rationale": "Offre souveraine commercialisée conjointement, avec un grand client public déjà engagé.",
   "signal": "optimiste",
@@ -312,11 +560,11 @@
   "title": "Mistral et Numspot lancent une offre d'IA managée sur cloud souverain français"
  },
  {
-  "id": "figure-ai-2026-09-15-agility-digit-5",
   "addedAt": "2026-09-24T11:11:34Z",
   "companyId": "figure-ai",
   "date": "2026-09-15",
   "detail": "Digit 5 soulève jusqu'à 22,7 kg, fonctionne 90 minutes pour 9 minutes de charge et vise plus de 20 heures de travail par jour. Il est assemblé à Salem (Oregon) dans une usine conçue pour 10 000 unités par an.\n\nAgility revendique plus de 300 millions de dollars de commandes pluriannuelles à mai 2026, avec GXO, Schaeffler, Amazon et Toyota. Disponibilité générale fin 2027 aux États-Unis, au Canada, dans l'UE et au Royaume-Uni. Forbes parle d'un accès anticipé mi-2027, le communiqué dit premier semestre.",
+  "id": "figure-ai-2026-09-15-agility-digit-5",
   "impact": "La concurrence se durcit sur la logistique et l'industrie, où Figure déploie aussi ses robots, avec un rival qui met en avant des commandes chiffrées.",
   "rationale": "Un concurrent direct affiche un carnet de commandes et un calendrier commercial précis.",
   "signal": "prudent",
@@ -334,11 +582,11 @@
   "title": "Concurrent direct : Agility dévoile Digit 5 et revendique 300 millions de commandes"
  },
  {
-  "id": "mistral-ai-2026-09-15-totalenergies",
   "addedAt": "2026-09-24T07:17:59Z",
   "companyId": "mistral-ai",
   "date": "2026-09-15",
   "detail": "TotalEnergies a annoncé le 15 septembre un partenariat de trois ans, doté de plus de 100 millions d'euros. L'objectif est de créer des modèles d'IA de pointe qui assistent les géoscientifiques du groupe.\n\nCes modèles doivent aider à explorer et caractériser les gisements, générer plusieurs scénarios de développement et prolonger la durée de vie des projets existants. Un laboratoire scientifique commun est prévu, en s'appuyant sur les données géoscientifiques accumulées par le groupe.",
+  "id": "mistral-ai-2026-09-15-totalenergies",
   "impact": "Un contrat pluriannuel de cette taille avec un grand industriel renforce les revenus récurrents de Mistral et valide son positionnement sur des modèles spécialisés pour l'industrie. Il arrive une semaine après sa levée de 3 milliards d'euros.",
   "rationale": "Engagement ferme, chiffré et pluriannuel d'un client industriel de premier plan.",
   "signal": "optimiste",
@@ -360,11 +608,11 @@
   "title": "TotalEnergies engage plus de 100 millions d'euros sur trois ans avec Mistral AI"
  },
  {
-  "id": "erebor-2026-09-15-stablecoins",
   "addedAt": "2026-09-24T07:17:59Z",
   "companyId": "erebor",
   "date": "2026-09-15",
   "detail": "Depuis son lancement, Erebor convertissait gratuitement et instantanément les dépôts en USDC et USDT en dollars, à leur valeur faciale. Selon The Information, des acteurs comme Wintermute ou Galaxy Digital achetaient ces jetons légèrement sous 1 dollar sur le marché pour les faire rembourser au pair par la banque.\n\nErebor a réagi en limitant l'offre gratuite. Les comptes au profil d'arbitrage font désormais face à des frais, des exigences de dépôt ou des plafonds de remboursement, tandis que les clients classiques gardent la conversion sans frais. Wintermute indique continuer à travailler avec la banque.",
+  "id": "erebor-2026-09-15-stablecoins",
   "impact": "La banque protège ses marges en fermant une offre qui lui coûtait de l'argent. Mais l'épisode montre la difficulté de servir le secteur crypto à grande échelle et peut rendre son offre moins attractive pour certains clients institutionnels.",
   "rationale": "Correction rapide, mais qui révèle une faille de conception dans un produit phare et un risque opérationnel propre au modèle crypto.",
   "signal": "prudent",
@@ -386,11 +634,11 @@
   "title": "Erebor restreint la conversion gratuite de stablecoins après des arbitrages"
  },
  {
-  "id": "together-ai-2026-09-10-preemptible",
   "addedAt": "2026-09-24T07:17:59Z",
   "companyId": "together-ai",
   "date": "2026-09-10",
   "detail": "Together AI a ouvert en préversion publique des nœuds GPU préemptibles, tirés de sa capacité inutilisée. Ils sont facturés à 50 % du tarif à la demande, à la minute près. En cas de récupération, les tâches disposent de cinq minutes pour sauvegarder leur état avant l'arrêt.\n\nL'offre est disponible sur les clusters Kubernetes de toutes les régions, avec le support de Slurm annoncé. Le 11 septembre, la société a aussi élargi son service de fine-tuning : davantage de modèles ouverts, métriques en direct, contrôles plus fins et prix d'entraînement en baisse.",
+  "id": "together-ai-2026-09-10-preemptible",
   "impact": "Mieux rentabiliser les GPU inoccupés améliore le taux d'utilisation du parc, enjeu central pour un neocloud. Des prix plus bas attirent les équipes qui font beaucoup d'expérimentation, dans un marché très concurrentiel.",
   "rationale": "Bonne optimisation commerciale, mais la baisse de prix reflète aussi la pression concurrentielle sur les tarifs du calcul.",
   "signal": "neutre",
@@ -408,12 +656,12 @@
   "title": "Together AI lance du calcul GPU préemptible à moitié prix"
  },
  {
-  "id": "together-2026-concurrence",
   "addedAt": "2026-09-22T08:00:00Z",
   "companyId": "together-ai",
   "date": "2026-09-10",
   "dateLabel": "Sept. 2026",
   "detail": "Les principaux concurrents de Together AI sont CoreWeave, déjà coté, et Crusoe, qui a obtenu le financement le plus récent du groupe en septembre 2026. Tous se disputent les mêmes GPU et les mêmes clients qui entraînent ou servent des modèles.",
+  "id": "together-2026-concurrence",
   "impact": "La pression concurrentielle peut peser sur les prix de location et donc sur les marges. La différenciation de Together AI repose sur sa couche logicielle et sa recherche, pas seulement sur le matériel.",
   "rationale": "Pas de mauvaise nouvelle propre à la société, mais un environnement concurrentiel qui mérite d'être suivi.",
   "signal": "prudent",
@@ -427,11 +675,11 @@
   "title": "Concurrence serrée chez les neoclouds"
  },
  {
-  "id": "mistral-ai-2026-09-09-samsung",
   "addedAt": "2026-09-24T12:00:00Z",
   "companyId": "mistral-ai",
   "date": "2026-09-09",
   "detail": "Annoncé pendant le sommet franco-coréen de Paris, le partenariat prévoit l'intégration de Mistral Large et de la plateforme Mistral dans les activités semi-conducteurs de Samsung, mémoire et logique. Les usages visés : détection de défauts, optimisation des équipements, accélération des cycles de développement et stabilisation des rendements.\n\nSamsung a aussi mené la dernière levée de fonds de Mistral et prend une participation stratégique. Aucun montant n'a été communiqué pour le partenariat.",
+  "id": "mistral-ai-2026-09-09-samsung",
   "impact": "Après ASML, Mistral s'ancre chez un deuxième géant des semi-conducteurs, avec des modèles installés chez le client, un format qui répond aux exigences de confidentialité industrielles. C'est un client de référence mondial hors d'Europe.",
   "rationale": "Client industriel mondial et actionnaire stratégique, dans un secteur où les données sont très sensibles.",
   "signal": "optimiste",
@@ -449,11 +697,11 @@
   "title": "Samsung s'allie à Mistral pour l'IA dans ses usines de puces"
  },
  {
-  "id": "mistral-ai-2026-09-09-loft-orbital",
   "addedAt": "2026-09-24T10:10:00Z",
   "companyId": "mistral-ai",
   "date": "2026-09-09",
   "detail": "Annoncé à Paris le 9 septembre, le programme prévoit 50 satellites en orbite basse capables d'analyser leurs observations directement en vol et de transmettre des résultats en quelques secondes. Dix satellites doivent être lancés d'ici fin 2026. Les satellites seront produits à Abou Dhabi par Orbitworks, coentreprise de Loft Orbital et Marlan Space.\n\nMistral fournit les modèles embarqués qui permettent de piloter la constellation en langage naturel, ainsi que les services de sa boutique d'applications IA.",
+  "id": "mistral-ai-2026-09-09-loft-orbital",
   "impact": "Mistral entre dans le spatial avec une vitrine technique rare : des modèles assez compacts et fiables pour tourner en orbite. Le montant d'un milliard concerne tout le programme, la part qui revient à Mistral n'est pas précisée.",
   "rationale": "Débouché nouveau et prestigieux, avec une retombée financière pour Mistral encore inconnue.",
   "signal": "optimiste",
@@ -471,11 +719,11 @@
   "title": "Les modèles de Mistral embarqués dans une constellation de 50 satellites IA"
  },
  {
-  "id": "stripe-2026-09-08-meta-muse",
   "addedAt": "2026-09-24T15:12:00Z",
   "companyId": "stripe",
   "date": "2026-09-08",
   "detail": "Stripe a annoncé que Muse, l'agent IA personnel lancé par Meta, utilise Link pour régler des achats sur les sites marchands. L'agent s'appuie sur les moyens de paiement déjà enregistrés par l'utilisateur dans Link.\n\nC'est une nouvelle brique de la stratégie de Stripe pour le commerce réalisé par des agents IA, présentée lors de sa conférence Sessions au printemps.",
+  "id": "stripe-2026-09-08-meta-muse",
   "impact": "Être le moyen de paiement par défaut d'un agent grand public de Meta place Stripe au centre des achats réalisés par IA, un marché naissant qui pourrait devenir très important. Cela renforce aussi Link face à Apple Pay et PayPal.",
   "rationale": "Partenaire de premier plan sur un usage stratégique, même si les volumes restent à prouver.",
   "signal": "optimiste",
@@ -489,11 +737,11 @@
   "title": "Muse, l'agent IA de Meta, fait ses achats avec Link de Stripe"
  },
  {
-  "id": "mistral-2026-09-08-levee",
   "addedAt": "2026-09-22T08:00:00Z",
   "companyId": "mistral-ai",
   "date": "2026-09-08",
   "detail": "Arthur Mensch a annoncé sur France Inter une levée de 3 milliards d'euros. Selon le communiqué, les fonds serviront d'abord à la recherche et à la capacité de calcul pour entraîner des modèles plus puissants, puis à la croissance commerciale et à l'international.",
+  "id": "mistral-2026-09-08-levee",
   "impact": "Mistral réduit l'écart de moyens avec les laboratoires américains et peut entraîner des modèles plus grands. La hausse de valorisation confirme l'appétit des investisseurs pour un acteur européen souverain.",
   "rationale": "Financement important et forte revalorisation. L'écart de revenus avec OpenAI reste considérable.",
   "signal": "optimiste",
@@ -511,11 +759,11 @@
   "title": "Mistral AI lève 3 milliards d'euros et vaut 21,3 milliards"
  },
  {
-  "id": "mistral-2026-09-revenus",
   "addedAt": "2026-09-22T07:00:00Z",
   "companyId": "mistral-ai",
   "date": "2026-09-08",
   "detail": "Mistral vise un milliard d'euros de revenus en 2026, à comparer à un peu plus de 25 milliards attendus pour OpenAI. Début 2026, les revenus annuels récurrents dépassaient 400 millions de dollars. La société ne publie ni comptes consolidés ni résultat net.",
+  "id": "mistral-2026-09-revenus",
   "impact": "Atteindre l'objectif signifierait plus que doubler l'activité en un an. En l'absence de comptes, il est difficile de mesurer la rentabilité réelle face aux investissements dans les datacenters.",
   "rationale": "Trajectoire ambitieuse mais peu vérifiable, et forte dépense en infrastructure.",
   "signal": "prudent",
@@ -533,11 +781,11 @@
   "title": "Objectif d'un milliard d'euros de revenus en 2026, sans comptes publiés"
  },
  {
-  "id": "neura-2026-09-07-seco",
   "addedAt": "2026-09-22T08:00:00Z",
   "companyId": "neura-robotics",
   "date": "2026-09-07",
   "detail": "Seco concevra et fabriquera les modules de calcul basés sur Qualcomm Dragonwing qui équipent les robots Neura, dont l'humanoïde 4NE1. Les deux sociétés prévoient un Neura Gym en Italie et la collecte de données de production réelles pour automatiser la fabrication de semi-conducteurs et d'électronique.",
+  "id": "neura-2026-09-07-seco",
   "impact": "Neura sécurise un composant critique avec une chaîne d'approvisionnement européenne et gagne un accès à des données d'usine, deux atouts face aux concurrents américains et chinois.",
   "rationale": "Partenariat industriel concret qui renforce la chaîne de valeur.",
   "signal": "optimiste",
@@ -551,11 +799,11 @@
   "title": "Neura s'associe à l'italien Seco pour produire ses cerveaux de robots en Europe"
  },
  {
-  "id": "figure-2026-09-03-nscale",
   "addedAt": "2026-09-22T08:00:00Z",
   "companyId": "figure-ai",
   "date": "2026-09-03",
   "detail": "Figure et Nscale ont signé un partenariat stratégique portant sur jusqu'à 100 000 GPU sur la plateforme Vera Rubin de Nvidia. Les premiers déploiements sont prévus au second semestre 2027 à Barstow, au Texas.",
+  "id": "figure-2026-09-03-nscale",
   "impact": "Figure sécurise la puissance de calcul dont dépend la progression de ses robots. En contrepartie, c'est un engagement financier très lourd au regard de ses levées connues.",
   "rationale": "Stratégiquement logique, mais le coût et le financement de cet engagement ne sont pas détaillés.",
   "signal": "neutre",
@@ -573,11 +821,11 @@
   "title": "Accord avec Nscale pour jusqu'à 100 000 GPU Nvidia Vera Rubin"
  },
  {
-  "id": "apollo-2026-09-02-guardian",
   "addedAt": "2026-09-22T08:00:00Z",
   "companyId": "apollo-research",
   "date": "2026-09-02",
   "detail": "Dans un long entretien au Guardian, le fondateur d'Apollo Research avertit que des IA beaucoup plus capables devront agir dans l'intérêt des humains. Une étude soutenue par l'AI Security Institute britannique relève que les incidents de « tromperie » signalés par les utilisateurs ont été multipliés par cinq entre octobre 2025 et mars 2026. Yoshua Bengio a participé au même article.",
+  "id": "apollo-2026-09-02-guardian",
   "impact": "Plus le sujet devient visible, plus la demande grandit pour les évaluations et outils de surveillance qu'Apollo vend aux laboratoires et aux gouvernements.",
   "rationale": "Le contexte renforce la pertinence et la notoriété d'Apollo sur son créneau.",
   "signal": "optimiste",
@@ -591,12 +839,12 @@
   "title": "Les cas de tromperie par l'IA explosent, Apollo en première ligne"
  },
  {
-  "id": "neura-2026-09-chine",
   "addedAt": "2026-09-22T08:00:00Z",
   "companyId": "neura-robotics",
   "date": "2026-09-01",
   "dateLabel": "Sept. 2026",
   "detail": "Les livraisons mondiales d'humanoïdes ont bondi d'environ 272 % sur un an au premier semestre 2026, entre 19 000 et 22 000 unités, avec une part chinoise de 93 à 97 %. Unitree a réussi son introduction en Bourse en août. Neura, de son côté, a grandi en partie par rachat d'actifs de sociétés allemandes en difficulté.",
+  "id": "neura-2026-09-chine",
   "impact": "Le volume et les coûts chinois mettent la pression sur les prix. Neura devra s'appuyer sur la souveraineté européenne et ses partenaires industriels pour se différencier.",
   "rationale": "Environnement concurrentiel difficile en volume pour un acteur européen.",
   "signal": "prudent",
@@ -614,11 +862,11 @@
   "title": "Les fabricants chinois dominent les livraisons d'humanoïdes"
  },
  {
-  "id": "stripe-2026-08-27-paypal",
   "addedAt": "2026-09-24T15:12:00Z",
   "companyId": "stripe",
   "date": "2026-08-27",
   "detail": "Stripe et le fonds Advent International avaient proposé en juillet de racheter PayPal avec une prime de 39 %. C'aurait été la plus grosse opération de l'histoire des paiements.\n\nAprès de bons résultats trimestriels, PayPal a estimé que la hausse de son cours venait de son propre redressement et non de l'offre. Son action a dépassé le prix proposé le 13 août, les discussions se sont enlisées et l'offre a été retirée le 27 août.",
+  "id": "stripe-2026-08-27-paypal",
   "impact": "Stripe évite une intégration géante, coûteuse et risquée, et garde sa capacité d'investissement pour ses priorités : IA, stablecoins, acquisitions ciblées. Elle renonce en revanche à un gain de parts de marché immédiat face à son principal concurrent.",
   "rationale": "Pas de perte pour Stripe, mais une ambition de consolidation qui n'aboutit pas.",
   "signal": "neutre",
@@ -632,11 +880,11 @@
   "title": "Stripe et Advent renoncent à racheter PayPal"
  },
  {
-  "id": "figure-2026-08-25-index",
   "addedAt": "2026-09-22T08:00:00Z",
   "companyId": "figure-ai",
   "date": "2026-08-25",
   "detail": "Figure a présenté Index, un jeu de données physique à grande échelle construit à partir d'activités humaines réelles. La société le décrit comme le plus grand et le plus varié de son genre.",
+  "id": "figure-2026-08-25-index",
   "impact": "Les données sont le principal frein de la robotique. Posséder sa propre base renforce l'avance de Figure et rend ses modèles plus difficiles à rattraper.",
   "rationale": "Actif stratégique propriétaire qui soutient la feuille de route Helix.",
   "signal": "optimiste",
@@ -650,11 +898,11 @@
   "title": "Figure lance Index, une grande base de données d'activités humaines réelles"
  },
  {
-  "id": "erebor-2026-08-12-depots",
   "addedAt": "2026-09-22T08:00:00Z",
   "companyId": "erebor",
   "date": "2026-08-12",
   "detail": "Ouverte en février 2026, Erebor a collecté 1,1 milliard de dollars de dépôts en sept semaines, puis 4,1 milliards fin juin et 4,6 milliards fin juillet. Le revenu annualisé est estimé à 112 millions de dollars en juillet, dont 68 % d'intérêts. Les prêts, partis de zéro, atteignaient 77,2 millions fin juin. La banque vise la rentabilité d'ici la fin de l'année.",
+  "id": "erebor-2026-08-12-depots",
   "impact": "Une base de dépôts qui grossit vite fournit la matière première pour prêter. La marge d'intérêt devient le moteur principal des revenus.",
   "rationale": "Croissance commerciale très rapide pour une banque de moins d'un an.",
   "signal": "optimiste",
@@ -676,11 +924,11 @@
   "title": "Dépôts multipliés par quatre en quatre mois"
  },
  {
-  "id": "erebor-2026-08-11-levee",
   "addedAt": "2026-09-22T08:00:00Z",
   "companyId": "erebor",
   "date": "2026-08-11",
   "detail": "Selon le Financial Times, Erebor est en discussions avancées pour lever environ 1,5 milliard de dollars, pour une valorisation totale proche de 9,5 milliards, contre 4,35 milliards en décembre 2025. Les régulateurs imposent à la banque un ratio de levier d'au moins 12 % pendant ses trois premières années.",
+  "id": "erebor-2026-08-11-levee",
   "impact": "Pour une banque, les fonds propres fixent le volume de crédit possible. Cette levée permettrait d'accompagner la croissance des dépôts et d'élargir les prêts, comme une facilité de 200 millions pour Valar Atomics.",
   "rationale": "Forte demande des investisseurs. La levée n'était pas encore finalisée à la date de l'information.",
   "signal": "optimiste",
@@ -698,11 +946,11 @@
   "title": "Erebor négocie 1,5 milliard de dollars à environ 9,5 milliards de valorisation"
  },
  {
-  "id": "prometheus-2026-08-10-oakland",
   "addedAt": "2026-09-22T08:00:00Z",
   "companyId": "prometheus",
   "date": "2026-08-10",
   "detail": "D'après le San Francisco Business Times, Prometheus a loué un ancien entrepôt d'American Steel à West Oakland. Le siège reste à San Francisco, avec des bureaux à Londres et Zurich.",
+  "id": "prometheus-2026-08-10-oakland",
   "impact": "Un site industriel de ce type sert typiquement à des essais physiques et à du prototypage, étape nécessaire pour générer des données du monde réel que les modèles de Prometheus ne peuvent pas trouver sur Internet.",
   "rationale": "Signe concret de passage à l'échelle physique, mais sans annonce de client ou de résultat à ce stade.",
   "signal": "neutre",
@@ -716,11 +964,11 @@
   "title": "Prometheus s'installe dans un ancien entrepôt industriel à West Oakland"
  },
  {
-  "id": "together-2026-07-27-revenus",
   "addedAt": "2026-09-22T08:00:00Z",
   "companyId": "together-ai",
   "date": "2026-07-27",
   "detail": "Des sources citées par The Information évaluent le revenu annualisé de Together AI à environ 1 milliard de dollars, contre un rythme plus de trois fois inférieur à la mi-2025. La société n'a pas commenté.",
+  "id": "together-2026-07-27-revenus",
   "impact": "Une croissance de cette ampleur valide la demande pour l'inférence de modèles open source. Elle justifie aussi la valorisation récente, à environ 8 fois le revenu annualisé.",
   "rationale": "Traction commerciale forte. Chiffres non confirmés par la société.",
   "signal": "optimiste",
@@ -734,11 +982,11 @@
   "title": "Revenu annualisé proche du milliard de dollars, triplé en un an"
  },
  {
-  "id": "deel-2026-07-22-modele",
   "addedAt": "2026-09-22T08:00:00Z",
   "companyId": "deel",
   "date": "2026-07-22",
   "detail": "Deel est passé de 800 millions de dollars de revenu récurrent annuel en 2024 à 1,4 milliard en février 2026. L'entreprise est rentable en EBITDA depuis septembre 2022, avec une marge proche de 15 % en 2026 et une marge brute de 85 %, tout en croissant de plus de 60 % par an.",
+  "id": "deel-2026-07-22-modele",
   "impact": "Combiner forte croissance et rentabilité est rare à ce stade. Deel peut financer ses acquisitions et son développement sans dépendre de nouvelles levées.",
   "rationale": "Profil financier solide et autonome.",
   "signal": "optimiste",
@@ -752,11 +1000,11 @@
   "title": "Rentable, 1,4 milliard de revenus récurrents et plus de 60 % de croissance"
  },
  {
-  "id": "deel-2026-rippling",
   "addedAt": "2026-09-22T08:00:00Z",
   "companyId": "deel",
   "date": "2026-07-21",
   "detail": "Sur l'Employer of Record, cœur de la rentabilité de Deel, Rippling pratique des prix plus bas, autour de 499 dollars par mois contre 599 à 899 dollars chez Deel. Rippling est aussi jugé plus avancé sur l'automatisation IT des postes de travail.",
+  "id": "deel-2026-rippling",
   "impact": "Une guerre de prix pourrait réduire les marges de Deel. Son avantage tient au réseau de plus de 180 pays où il possède ses propres entités, difficile à reproduire rapidement.",
   "rationale": "Pression concurrentielle réelle sur l'activité la plus rentable.",
   "signal": "prudent",
@@ -774,11 +1022,11 @@
   "title": "Rippling attaque Deel sur les prix du portage salarial"
  },
  {
-  "id": "mistral-2026-07-21-microsoft",
   "addedAt": "2026-09-22T08:00:00Z",
   "companyId": "mistral-ai",
   "date": "2026-07-21",
   "detail": "Microsoft a élargi son accord avec Mistral : l'engagement passe par des achats de calcul plutôt que par une prise de participation, pour éviter un nouvel examen antitrust à Bruxelles. Les modèles Mistral sont distribués dans Microsoft Foundry. Mistral vise 200 MW de capacité en 2027 et 1 GW en 2030, avec un site près de Paris et un autre en construction en Suède.",
+  "id": "mistral-2026-07-21-microsoft",
   "impact": "Le partenariat apporte des revenus de calcul et un canal de distribution mondial, tout en ciblant les clients réglementés européens qui veulent des modèles utilisables hors cloud américain.",
   "rationale": "Revenus et distribution renforcés. Le rapprochement avec Microsoft peut toutefois brouiller le discours d'indépendance.",
   "signal": "optimiste",
@@ -792,11 +1040,11 @@
   "title": "Microsoft étend son partenariat avec Mistral pour plusieurs milliards"
  },
  {
-  "id": "deel-2026-07-14-rippling-proces",
   "addedAt": "2026-09-24T12:00:00Z",
   "companyId": "deel",
   "date": "2026-07-14",
   "detail": "Rippling reproche à Deel d'avoir organisé la fuite d'informations internes via l'un de ses salariés. Deel reconnaît un paiement de 6 000 dollars en novembre 2024, qu'il présente comme une aide ponctuelle à un candidat, et conteste la crédibilité du témoin. Le ministère américain de la Justice a ouvert une enquête pénale en janvier 2026.\n\nEn juillet, Deel a demandé au tribunal d'écarter ce témoin clé. Deel a aussi déposé des demandes reconventionnelles contre Rippling, notamment pour cybersquatting.",
+  "id": "deel-2026-07-14-rippling-proces",
   "impact": "Tant que le dossier n'est pas clos, il pèse sur la réputation de Deel et peut retarder ou compliquer une introduction en Bourse. Une condamnation exposerait aussi la société à des dommages financiers.",
   "rationale": "Risque juridique et réputationnel majeur, sans issue connue à ce jour.",
   "signal": "prudent",
@@ -818,11 +1066,11 @@
   "title": "Affaire d'espionnage avec Rippling : le procès et l'enquête pénale se poursuivent"
  },
  {
-  "id": "figure-2026-07-08-actions",
   "addedAt": "2026-09-22T08:00:00Z",
   "companyId": "figure-ai",
   "date": "2026-07-08",
   "detail": "Figure a publié un avis sur des tentatives non autorisées de vente de ses actions. Ce n'est pas nouveau : dès 2025, la société avait envoyé des mises en demeure à des courtiers secondaires. Entre juin et septembre 2026, les cotations secondaires ont oscillé entre 162 et 194 dollars par action.",
+  "id": "figure-2026-07-08-actions",
   "impact": "La société contrôle strictement qui entre à son capital. Pour les détenteurs, cela rappelle que la liquidité est limitée et que les prix affichés hors tours officiels sont peu fiables.",
   "rationale": "Pas d'effet sur l'activité, mais un point de vigilance sur la circulation des titres et la lisibilité du prix.",
   "signal": "prudent",
@@ -840,11 +1088,11 @@
   "title": "Figure met en garde contre des ventes non autorisées de ses actions"
  },
  {
-  "id": "erebor-2026-concentration",
   "addedAt": "2026-09-22T08:00:00Z",
   "companyId": "erebor",
   "date": "2026-07-08",
   "detail": "Erebor sert environ 500 à 600 clients qui détiennent en moyenne 7 millions de dollars de dépôts chacun, surtout dans la crypto, l'IA et la défense. En février 2026, la sénatrice Elizabeth Warren a demandé des documents à l'OCC en évoquant une possible influence politique dans l'agrément. L'avocat qui a porté le dossier d'Erebor a ensuite rejoint l'OCC.",
+  "id": "erebor-2026-concentration",
   "impact": "Une base de dépôts concentrée sur des secteurs volatils peut partir vite en cas de choc, comme l'a montré SVB. Un changement de climat politique pourrait aussi durcir la supervision.",
   "rationale": "Risques de concentration et de réputation à surveiller.",
   "signal": "prudent",
@@ -862,11 +1110,11 @@
   "title": "Clientèle concentrée et regard politique sur l'agrément"
  },
  {
-  "id": "together-2026-07-01-serie-c",
   "addedAt": "2026-09-22T08:00:00Z",
   "companyId": "together-ai",
   "date": "2026-07-01",
   "detail": "Together AI a bouclé une Série C de 800 millions de dollars, menée par Aramco Ventures, avec Vista Equity Partners, General Catalyst, Emergence Capital, Nvidia, Pegatron et d'autres. La précédente levée, 305 millions en février 2025, valorisait la société 3,3 milliards.",
+  "id": "together-2026-07-01-serie-c",
   "impact": "Dans un métier où il faut acheter des GPU avant de les louer, ce capital finance directement de la capacité supplémentaire. La présence de Nvidia au capital facilite aussi l'accès aux nouvelles générations de puces.",
   "rationale": "Forte revalorisation et investisseurs stratégiques. Le secteur reste très gourmand en capital.",
   "signal": "optimiste",
@@ -880,11 +1128,11 @@
   "title": "Together AI lève 800 millions de dollars à 8,3 milliards de valorisation"
  },
  {
-  "id": "figure-2026-06-30-bmw",
   "addedAt": "2026-09-22T08:00:00Z",
   "companyId": "figure-ai",
   "date": "2026-06-30",
   "detail": "Figure a annoncé l'arrivée du F.03 chez BMW, où le F.02 avait contribué à la production de 30 000 voitures. Selon la presse spécialisée, la production de Figure 03 a dépassé le millier d'unités et d'autres pilotes logistiques sont en cours.",
+  "id": "figure-2026-06-30-bmw",
   "impact": "Un client industriel de référence qui renouvelle avec la nouvelle génération, c'est la preuve d'un usage réel et payant, un argument fort pour convaincre d'autres industriels.",
   "rationale": "Adoption commerciale confirmée chez un grand constructeur.",
   "signal": "optimiste",
@@ -902,11 +1150,11 @@
   "title": "Le Figure 03 arrive chez BMW"
  },
  {
-  "id": "prometheus-2026-06-holding",
   "addedAt": "2026-09-22T08:00:00Z",
   "companyId": "prometheus",
   "date": "2026-06-23",
   "detail": "Plusieurs médias font état d'un projet de holding affiliée qui lèverait jusqu'à 100 milliards de dollars pour acheter des industriels traditionnels et alimenter Prometheus en données de production. Interrogés, les cofondateurs ont refusé d'en parler, tout comme de la façon dont leurs modèles sont entraînés.\n\nUne analyse sectorielle relève qu'aucune acquisition ni partenaire de conception n'a encore été annoncé.",
+  "id": "prometheus-2026-06-holding",
   "impact": "Si le montage aboutit, Prometheus disposerait d'un accès exclusif à des données d'usine, un avantage difficile à copier. S'il n'aboutit pas, la société devra obtenir ces données par des partenariats, plus lents.",
   "rationale": "La stratégie centrale repose sur un montage non confirmé et peu transparent. À surveiller : le premier rachat ou partenaire industriel nommé.",
   "signal": "prudent",
@@ -924,11 +1172,11 @@
   "title": "Holding industrielle à 100 milliards : le projet reste flou"
  },
  {
-  "id": "prometheus-2026-06-11-serie-b",
   "addedAt": "2026-09-22T08:00:00Z",
   "companyId": "prometheus",
   "date": "2026-06-11",
   "detail": "Prometheus a annoncé une Série B de 12 milliards de dollars qui valorise la société autour de 41 milliards. Jeff Bezos remet au pot aux côtés de JPMorgan Chase, Goldman Sachs et BlackRock. La société avait démarré fin 2025 avec 6,2 milliards de dollars.\n\nDans leur première longue interview, Jeff Bezos et Vik Bajaj ont décrit l'objectif : des outils d'IA qui accélèrent la boucle entre l'idée et la fabrication d'objets physiques, avec une équipe d'environ 150 personnes.",
+  "id": "prometheus-2026-06-11-serie-b",
   "impact": "Ce montant donne à Prometheus plusieurs années de financement pour recruter, acheter du calcul et constituer ses propres données industrielles, qui sont le principal goulot du secteur. La présence de grandes banques d'investissement lui ouvre aussi un réseau d'industriels clients ou partenaires.",
   "rationale": "Financement massif, investisseurs de premier plan et fondateur très engagé. La valorisation reste élevée pour une société sans produit commercialisé publiquement.",
   "signal": "optimiste",
@@ -946,11 +1194,11 @@
   "title": "Prometheus lève 12 milliards de dollars et atteint 41 milliards de valorisation"
  },
  {
-  "id": "neura-2026-06-10-serie-c",
   "addedAt": "2026-09-22T08:00:00Z",
   "companyId": "neura-robotics",
   "date": "2026-06-10",
   "detail": "Neura a annoncé une Série C pouvant atteindre 1,4 milliard de dollars, la plus grosse levée pour une société de robotique intégrée. Les investisseurs mêlent technologie (Amazon, Nvidia, Qualcomm), industrie (Bosch, Schaeffler) et institutions (Banque européenne d'investissement).",
+  "id": "neura-2026-06-10-serie-c",
   "impact": "Le financement doit accélérer la production mondiale d'humanoïdes et la plateforme d'apprentissage Neuraverse. Plusieurs investisseurs sont aussi des clients ou fournisseurs potentiels.",
   "rationale": "Tour de table stratégique de premier plan. Le montant est annoncé « jusqu'à », ce qui peut signifier des versements échelonnés.",
   "signal": "optimiste",
@@ -968,11 +1216,11 @@
   "title": "Neura Robotics annonce une Série C record jusqu'à 1,4 milliard de dollars"
  },
  {
-  "id": "apollo-2026-05-13-watcher",
   "addedAt": "2026-09-22T08:00:00Z",
   "companyId": "apollo-research",
   "date": "2026-05-13",
   "detail": "Apollo Research a ouvert un bureau à San Francisco et recrute. Une équipe « monitoring », divisée en recherche et produit, développe Watcher, un outil qui détecte les dérives des agents de code : fuite de secrets, actions hors périmètre, jusqu'aux comportements de « scheming ».",
+  "id": "apollo-2026-05-13-watcher",
   "impact": "C'est le passage d'un modèle de recherche et d'évaluation à un produit logiciel vendable à grande échelle, ce qui ouvre une source de revenus récurrents.",
   "rationale": "Diversification commerciale cohérente avec la demande du marché.",
   "signal": "optimiste",
@@ -986,11 +1234,11 @@
   "title": "Apollo ouvre San Francisco et construit Watcher, son premier produit"
  },
  {
-  "id": "apollo-2026-01-20-pbc",
   "addedAt": "2026-09-22T08:00:00Z",
   "companyId": "apollo-research",
   "date": "2026-01-20",
   "detail": "Apollo a annoncé sa sortie de la structure de sponsor fiscal pour devenir une Public Benefit Corporation. Son CEO défend l'idée de « produits de sécurité de l'AGI » à la fois utiles et rentables. La société a aussi publié ses règles sur la sécurité, la communication scientifique et les conflits d'intérêts.",
+  "id": "apollo-2026-01-20-pbc",
   "impact": "Le statut permet d'accueillir des investisseurs et de développer une activité commerciale, tout en inscrivant la mission de réduction des risques dans ses statuts.",
   "rationale": "Étape structurante. La tension entre mission et rentabilité reste à observer.",
   "signal": "neutre",
