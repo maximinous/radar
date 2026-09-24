@@ -4,6 +4,7 @@ import json, re, sys, os
 os.chdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'radar-site'))
 from datetime import datetime, timezone
 from urllib.parse import urlparse
+from difflib import SequenceMatcher
 
 errors = []
 def err(msg): errors.append(msg)
@@ -45,11 +46,27 @@ for a in arts:
     for w in BANNED:
         if w in blob: err(f"{aid}: contient {w!r}")
     if '<' in blob and re.search(r'<\s*(script|iframe|img|a)\b', blob, re.I): err(f"{aid}: contient du HTML")
+# Même URL de source, même société, 3 jours d'écart ou moins et titres proches :
+# très probablement le même événement publié deux fois, donc bloquant.
+# Sinon (page générique, autre angle tiré de la même source), simple avertissement.
 dups = {}
 for a in arts:
-    for s in a.get('sources', []): dups.setdefault(s['url'], []).append(a['id'])
+    for s in a.get('sources', []): dups.setdefault(s.get('url'), []).append(a)
+warnings = []
+for url, lst in dups.items():
+    for i, x in enumerate(lst):
+        for y in lst[i + 1:]:
+            if x['id'] == y['id']: continue
+            try: gap = abs((datetime.fromisoformat(x['date']) - datetime.fromisoformat(y['date'])).days)
+            except Exception: gap = None
+            sim = SequenceMatcher(None, x.get('title', '').lower(), y.get('title', '').lower()).ratio()
+            if x.get('companyId') == y.get('companyId') and gap is not None and gap <= 3 and sim >= 0.5:
+                err(f"{x['id']} / {y['id']}: même source, {gap} j d'écart, titres proches, doublon probable ({url})")
+            else:
+                warnings.append(f"avertissement : source partagée par {x['id']} et {y['id']} ({url})")
 if not status.get('lastRun'): err('status: lastRun manquant')
 
+if warnings: print('\n'.join(warnings))
 if errors:
     print('\n'.join(errors)); sys.exit(1)
 print(f"OK : {len(cos)} sociétés, {len(arts)} articles")
