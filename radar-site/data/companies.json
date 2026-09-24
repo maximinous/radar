@@ -129,5 +129,41 @@
   "founded": "2023",
   "leaders": "Anton Osika (CEO), Fabian Hedin",
   "website": "https://lovable.dev/"
+ },
+ {
+  "id": "kraken",
+  "description": "L'une des plus anciennes plateformes d'échange de cryptomonnaies, détenue par la holding Payward. Elle élargit son offre au trading d'actions, aux produits dérivés et aux paiements. Son introduction en Bourse, envisagée pour 2026, est repoussée à 2027 au plus tôt.",
+  "founded": "2011",
+  "hq": "San Francisco",
+  "leaders": "Arjun Sethi et Dave Ripley (co-CEO), fondée par Jesse Powell",
+  "name": "Kraken",
+  "oneLiner": "Plateforme d'échange de cryptomonnaies qui se diversifie vers les actions et les dérivés.",
+  "order": 12,
+  "sector": "Crypto et trading",
+  "website": "https://www.kraken.com/"
+ },
+ {
+  "id": "polymarket",
+  "description": "Plateforme où les utilisateurs parient sur l'issue d'événements réels (élections, économie, sport) via des contrats réglés en cryptomonnaie. Elle est devenue une référence des marchés prédictifs et concurrente directe de Kalshi.",
+  "founded": "2020",
+  "hq": "New York",
+  "leaders": "Shayne Coplan (fondateur et CEO)",
+  "name": "Polymarket",
+  "oneLiner": "Marché prédictif : on y parie sur l'issue d'événements réels.",
+  "order": 13,
+  "sector": "Marchés prédictifs",
+  "website": "https://polymarket.com/"
+ },
+ {
+  "id": "shield-ai",
+  "description": "Entreprise de défense qui développe Hivemind, un pilote IA capable de faire voler drones et avions de façon autonome sans GPS ni liaison radio, ainsi que ses propres drones comme le V-BAT.",
+  "founded": "2015",
+  "hq": "San Diego",
+  "leaders": "Gary Steele (CEO), Brandon Tseng (cofondateur et président)",
+  "name": "Shield AI",
+  "oneLiner": "Pilote IA autonome pour drones et avions militaires.",
+  "order": 14,
+  "sector": "Défense et autonomie",
+  "website": "https://shield.ai/"
  }
 ]
