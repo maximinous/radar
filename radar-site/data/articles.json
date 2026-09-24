@@ -1,5 +1,23 @@
 [
  {
+  "id": "lovable-2026-09-24-chat-gratuit",
+  "addedAt": "2026-09-24T15:12:00Z",
+  "companyId": "lovable",
+  "date": "2026-09-24",
+  "detail": "Lovable a annoncé ce 24 septembre que son mode chat devient gratuit. L'utilisateur peut discuter de son idée, demander laquelle vaut la peine d'être construite et préparer son projet sans consommer de crédits.\n\nLe même jour, la société a détaillé le fonctionnement de ses agents qui collaborent dans ces conversations.",
+  "impact": "Supprimer la barrière du paiement au premier contact devrait attirer davantage de nouveaux utilisateurs, que Lovable espère ensuite convertir en abonnés. Le coût de calcul de ces échanges gratuits pèsera en revanche sur les marges.",
+  "rationale": "Levier d'acquisition classique, dont l'effet sur les revenus reste à mesurer.",
+  "signal": "neutre",
+  "sources": [
+   {
+    "label": "Lovable, blog, 24 septembre 2026",
+    "url": "https://lovable.dev/blog"
+   }
+  ],
+  "summary": "Tout le monde peut désormais échanger gratuitement avec Lovable pour tester une idée avant de construire une application.",
+  "title": "Lovable rend son mode discussion gratuit"
+ },
+ {
   "id": "mistral-ai-2026-09-16-esa",
   "addedAt": "2026-09-24T10:20:00Z",
   "companyId": "mistral-ai",
@@ -20,6 +38,50 @@
   ],
   "summary": "Accord-cadre signé à Paris par Josef Aschbacher et Arthur Mensch, sur l'observation de la Terre, l'ingénierie et l'IA pour le spatial.",
   "title": "L'Agence spatiale européenne signe une lettre d'intention avec Mistral"
+ },
+ {
+  "id": "starcloud-2026-09-22-bitcoin",
+  "addedAt": "2026-09-24T15:12:00Z",
+  "companyId": "starcloud",
+  "date": "2026-09-22",
+  "detail": "Philip Johnston a indiqué que Starcloud-2, le deuxième des quatre satellites prévus, embarquera des puces de minage de bitcoin. Il avance que ces puces coûtent environ 30 fois moins cher qu'un GPU à puissance égale, avec une énergie solaire quasi continue en orbite.\n\nLa page officielle du projet ne mentionnait pas jusque-là le minage de cryptomonnaie. Le refroidissement du matériel dans l'espace reste une difficulté technique ouverte.",
+  "impact": "Le minage offrirait un revenu possible plus tôt que les services d'IA, avec du matériel moins cher. Mais il dilue le discours sur les centres de données IA et expose la société au cours très volatil du bitcoin.",
+  "rationale": "Diversification opportuniste qui brouille la stratégie, sur un satellite dont le lancement dépend de capacités de fusées limitées.",
+  "signal": "prudent",
+  "sources": [
+   {
+    "label": "Tom's Hardware, 22 septembre 2026",
+    "url": "https://www.tomshardware.com/tech-industry/cryptomining/well-be-the-first-to-mine-bitcoin-in-space-says-nvidia-backed-startup-starcloud-will-fire-up-its-asics-after-its-second-spacecraft-reaches-orbit-later-this-year"
+   },
+   {
+    "label": "TechSpot",
+    "url": "https://www.techspot.com/news/113942-nvidia-backed-starcloud-wants-first-mine-bitcoin-space.html"
+   }
+  ],
+  "summary": "Le CEO annonce des puces de minage à bord de Starcloud-2, prévu plus tard cette année. Un virage inattendu pour une société centrée sur l'IA.",
+  "title": "Starcloud veut miner du bitcoin en orbite avec son deuxième satellite"
+ },
+ {
+  "id": "erebor-2026-09-22-syrie",
+  "addedAt": "2026-09-24T11:11:34Z",
+  "companyId": "erebor",
+  "date": "2026-09-22",
+  "detail": "L'article, publié le 22 septembre par Michael Roddan, présente Erebor comme devenue un pont financier entre les États-Unis et le Venezuela. Bloomberg avait révélé ce rôle vénézuélien le 15 mai.\n\nLa banque envisagerait maintenant la Syrie, pays longtemps visé par des sanctions américaines. Ni Erebor ni un régulateur n'ont confirmé le projet, et aucun montant ni calendrier n'est public.",
+  "impact": "Erebor se positionne sur des corridors financiers géopolitiques que les grandes banques évitent, une niche potentielle mais exposée aux règles de sanctions.",
+  "rationale": "Projet non confirmé, dans un pays à fort risque de conformité pour une jeune banque déjà surveillée politiquement.",
+  "signal": "prudent",
+  "sources": [
+   {
+    "label": "The Information (22/09/2026)",
+    "url": "https://www.theinformation.com/articles/luckeys-erebor-bank-plots-syria-expansion"
+   },
+   {
+    "label": "Bloomberg, rôle au Venezuela (15/05/2026)",
+    "url": "https://www.bloomberg.com/news/articles/2026-05-15/thiel-backed-erebor-offers-venezuela-unlikely-banking-lifeline"
+   }
+  ],
+  "summary": "Selon The Information, la banque a dit à des salariés et investisseurs qu'elle pourrait aider la Syrie. Rien n'est officiel.",
+  "title": "Erebor étudie une expansion en Syrie"
  },
  {
   "id": "mistral-ai-2026-09-21-pimento",
@@ -66,6 +128,24 @@
   "title": "Deel dit avoir ajouté 140 millions de revenus récurrents grâce à ses agents IA"
  },
  {
+  "id": "lovable-2026-09-18-sutro",
+  "addedAt": "2026-09-24T15:12:00Z",
+  "companyId": "lovable",
+  "date": "2026-09-18",
+  "detail": "Lovable a annoncé l'acquisition de Sutro, un outil qui aide à comprendre comment fonctionne un logiciel et à lui faire confiance. Le fondateur de Sutro, Tomas Halgas, et trois ingénieurs intègrent les équipes de Lovable.\n\nLes conditions financières n'ont pas été dévoilées. Il s'agit d'une acquisition de petite taille, centrée sur l'équipe et la technologie.",
+  "impact": "Expliquer ce que fait une application générée par IA est un frein majeur à son adoption en entreprise. Cette brique peut rassurer les clients professionnels et les équipes de sécurité.",
+  "rationale": "Rachat cohérent mais de faible ampleur, sans effet financier visible à court terme.",
+  "signal": "neutre",
+  "sources": [
+   {
+    "label": "Lovable, blog, 18 septembre 2026",
+    "url": "https://lovable.dev/blog/lovable-acquires-sutro"
+   }
+  ],
+  "summary": "Le fondateur Tomas Halgas et trois ingénieurs rejoignent Lovable. Montant non communiqué.",
+  "title": "Lovable rachète Sutro pour rendre le logiciel plus compréhensible"
+ },
+ {
   "id": "figure-ai-2026-09-18-figure-04",
   "addedAt": "2026-09-24T12:00:00Z",
   "companyId": "figure-ai",
@@ -88,6 +168,32 @@
   "title": "Brett Adcock promet un saut majeur avec le Figure 04, sans date ni fiche technique"
  },
  {
+  "id": "together-ai-2026-09-18-nscale-ipo",
+  "addedAt": "2026-09-24T11:11:34Z",
+  "companyId": "together-ai",
+  "date": "2026-09-18",
+  "detail": "Le dossier a été déposé le 18 septembre. Au premier semestre 2026, Nscale a réalisé 140,6 millions de dollars de revenus, contre 10,4 millions un an plus tôt, pour une perte nette de 1,02 milliard. Plus de la moitié des revenus vient d'un seul client non nommé.\n\nLe carnet de commandes atteint 103,4 milliards de dollars, dont un accord de calcul d'environ 45 milliards avec Anthropic. La presse évoque une valorisation visée jusqu'à 35 milliards de dollars, d'autres analyses parlent de 30 milliards. Les conditions définitives ne sont pas publiées.",
+  "impact": "Cette introduction donnera un prix de marché public aux neoclouds et servira de référence pour la valorisation et une future cotation de Together AI.",
+  "rationale": "Référence de valorisation utile, mais les pertes lourdes et la concentration client rappellent les fragilités du modèle.",
+  "signal": "neutre",
+  "sources": [
+   {
+    "label": "CNBC (18/09/2026)",
+    "url": "https://www.cnbc.com/2026/09/18/nscale-ai-cloud-provider-ipo-nscl.html"
+   },
+   {
+    "label": "Tech Funding News (21/09/2026)",
+    "url": "https://techfundingnews.com/nvidia-backed-british-ai-unicorn-nscale-files-for-wall-street-ipo-after-14-6b-valuation/"
+   },
+   {
+    "label": "Startup Fortune (22/09/2026)",
+    "url": "https://startupfortune.com/nscale-files-for-a-35-billion-ipo-that-tests-the-neocloud-story/"
+   }
+  ],
+  "summary": "Nscale vise le NYSE sous le ticker NSCL. Ses revenus explosent mais ses pertes dépassent le milliard de dollars sur six mois.",
+  "title": "Concurrent direct : le neocloud Nscale dépose son dossier d'introduction en Bourse"
+ },
+ {
   "id": "figure-2026-09-17-helix-25",
   "addedAt": "2026-09-22T08:00:00Z",
   "companyId": "figure-ai",
@@ -104,6 +210,32 @@
   ],
   "summary": "Nouvelle version du modèle maison, capable de généraliser sans entraînement spécifique à des domiciles inconnus.",
   "title": "Helix 2.5 : les robots Figure travaillent dans 30 maisons jamais vues"
+ },
+ {
+  "id": "apollo-2026-09-16-evaluateurs-externes",
+  "addedAt": "2026-09-24T11:11:34Z",
+  "companyId": "apollo-research",
+  "date": "2026-09-16",
+  "detail": "TechCrunch détaille l'accès envisagé : versions intermédiaires des modèles, journaux d'évaluation, entretiens avec les salariés et droit de publier. L'article rappelle qu'Apollo n'a eu que trois jours pour tester GPT-6 Astra et en a conclu que de faibles taux de mauvais comportement ne prouvaient pas grand chose.\n\nLe 17 septembre, The Verge a présenté Apollo, METR et Redwood comme les auditeurs externes de fait de l'IA de pointe. Le 22 septembre, OpenAI a publié ses principes pour les évaluations tierces, sans nommer de partenaire ni fixer de conditions d'accès.",
+  "impact": "Si les labos formalisent cet accès, la demande d'évaluations indépendantes pourrait fortement croître, et Apollo fait partie des rares acteurs crédibles pour y répondre.",
+  "rationale": "Le marché s'ouvre en principe, mais aucun engagement concret ni contrat n'est annoncé pour Apollo.",
+  "signal": "neutre",
+  "sources": [
+   {
+    "label": "TechCrunch (16/09/2026)",
+    "url": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/"
+   },
+   {
+    "label": "The Verge (17/09/2026)",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/996563/ai-safety-research-metr-redwood-openai-anthropic"
+   },
+   {
+    "label": "OpenAI, principes des évaluations tierces (22/09/2026)",
+    "url": "https://openai.com/index/priorities-principles-third-party-assessments/"
+   }
+  ],
+  "summary": "Anthropic et OpenAI envisagent d'ouvrir leurs entraînements à des évaluateurs de sécurité indépendants. Apollo pointe le manque de temps et d'accès actuel.",
+  "title": "Les labos veulent intégrer des évaluateurs externes, Apollo au cœur du débat"
  },
  {
   "id": "mistral-2026-09-16-firefox",
@@ -126,6 +258,80 @@
   ],
   "summary": "Mozilla étend sa bêta Smart Window à la France avec les modèles de Mistral.",
   "title": "Mistral alimente la fenêtre IA de Firefox en France"
+ },
+ {
+  "id": "lovable-2026-09-15-salesforce",
+  "addedAt": "2026-09-24T15:12:00Z",
+  "companyId": "lovable",
+  "date": "2026-09-15",
+  "detail": "Lovable a annoncé que les applications et agents créés sur sa plateforme peuvent fonctionner nativement dans Salesforce, via Headless 360, et dans Slack. Une équipe connecte Salesforce depuis son espace Lovable et choisit rapidement ses premières applications.\n\nSalesforce reste le système principal ; Lovable devient une couche de création rapide au-dessus. Salesforce Ventures est par ailleurs actionnaire de Lovable.",
+  "impact": "Lovable s'ouvre la porte des grandes entreprises clientes de Salesforce, un public bien plus solvable que les indépendants. Des apps intégrées aux outils du quotidien sont aussi plus difficiles à abandonner, ce qui améliore la fidélité.",
+  "rationale": "Accès direct au marché des grands comptes via un partenaire dominant.",
+  "signal": "optimiste",
+  "sources": [
+   {
+    "label": "Lovable, blog, 15 septembre 2026",
+    "url": "https://lovable.dev/blog"
+   },
+   {
+    "label": "TipRanks, 17 septembre 2026",
+    "url": "https://www.tipranks.com/news/private-companies/lovable-deepens-salesforce-and-slack-integration-to-expand-enterprise-app-reach"
+   }
+  ],
+  "summary": "Lovable approfondit son partenariat avec Salesforce : les applications et agents construits sur Lovable s'intègrent directement aux outils de l'entreprise.",
+  "title": "Les apps créées avec Lovable tournent désormais dans Salesforce et Slack"
+ },
+ {
+  "id": "mistral-ai-2026-09-15-numspot",
+  "addedAt": "2026-09-24T11:11:34Z",
+  "companyId": "mistral-ai",
+  "date": "2026-09-15",
+  "detail": "Numspot, détenu par la Banque des Territoires, Bouygues Telecom, Dassault Systèmes et Docaposte, gère le déploiement, les GPU, la supervision, la sécurité et les mises à jour. L'offre tourne sur deux régions Outscale, avec des Nvidia H200, H100 et L40, et Numspot cherche à obtenir des B300.\n\nSelon LeMagIT, 40 000 licences Mistral Vibe et Mistral Studio sont prévues à la Caisse des Dépôts et à la Banque des Territoires. La couche IaaS de Numspot est qualifiée SecNumCloud (en août selon LeMagIT, début septembre selon Le Monde Informatique). Le service Mistral managé est encore en cours de qualification, fin attendue fin 2026 ou début 2027.",
+  "impact": "Mistral gagne un canal de distribution clé en main vers le secteur public et les entreprises régulées, qui veulent l'IA sans gérer l'infrastructure.",
+  "rationale": "Offre souveraine commercialisée conjointement, avec un grand client public déjà engagé.",
+  "signal": "optimiste",
+  "sources": [
+   {
+    "label": "Numspot, communiqué (15/09/2026)",
+    "url": "https://numspot.com/2026/09/15/numspot-mistral-proposent-la-premiere-offre-ia-managee-francaise-sur-infrastructure-cloud-souveraine/"
+   },
+   {
+    "label": "LeMagIT (15/09/2026)",
+    "url": "https://www.lemagit.fr/actualites/366650400/PaaS-IA-et-SecNumCloud-Numspot-etend-son-partenariat-avec-Mistral-AI"
+   },
+   {
+    "label": "Clubic (15/09/2026)",
+    "url": "https://www.clubic.com/actualite-629707-mistral-et-numspot-s-allient-pour-une-intelligence-artificielle-100-made-in-france.html"
+   },
+   {
+    "label": "Le Monde Informatique (16/09/2026)",
+    "url": "https://www.lemondeinformatique.fr/actualites/lire-mistral-ai-s-allie-a-numspot-pour-proposer-une-ia-hebergee-en-france-100789.html"
+   }
+  ],
+  "summary": "Numspot opère de bout en bout les modèles, Mistral Studio et Mistral Vibe sur une infrastructure hébergée en France. La Caisse des Dépôts en est le client phare.",
+  "title": "Mistral et Numspot lancent une offre d'IA managée sur cloud souverain français"
+ },
+ {
+  "id": "figure-ai-2026-09-15-agility-digit-5",
+  "addedAt": "2026-09-24T11:11:34Z",
+  "companyId": "figure-ai",
+  "date": "2026-09-15",
+  "detail": "Digit 5 soulève jusqu'à 22,7 kg, fonctionne 90 minutes pour 9 minutes de charge et vise plus de 20 heures de travail par jour. Il est assemblé à Salem (Oregon) dans une usine conçue pour 10 000 unités par an.\n\nAgility revendique plus de 300 millions de dollars de commandes pluriannuelles à mai 2026, avec GXO, Schaeffler, Amazon et Toyota. Disponibilité générale fin 2027 aux États-Unis, au Canada, dans l'UE et au Royaume-Uni. Forbes parle d'un accès anticipé mi-2027, le communiqué dit premier semestre.",
+  "impact": "La concurrence se durcit sur la logistique et l'industrie, où Figure déploie aussi ses robots, avec un rival qui met en avant des commandes chiffrées.",
+  "rationale": "Un concurrent direct affiche un carnet de commandes et un calendrier commercial précis.",
+  "signal": "prudent",
+  "sources": [
+   {
+    "label": "Agility Robotics, communiqué PR Newswire (15/09/2026)",
+    "url": "https://www.prnewswire.com/news-releases/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale-302878540.html"
+   },
+   {
+    "label": "Forbes (15/09/2026)",
+    "url": "https://www.forbes.com/sites/johnkoetsier/2026/09/15/agility-launches-digit-5-no-more-safety-cages-300-million-in-orders/"
+   }
+  ],
+  "summary": "Agility Robotics présente un humanoïde logistique qui porte 40 % de charge en plus et travaille sans cage de sécurité. Accès anticipé au premier semestre 2027.",
+  "title": "Concurrent direct : Agility dévoile Digit 5 et revendique 300 millions de commandes"
  },
  {
   "id": "mistral-ai-2026-09-15-totalenergies",
@@ -265,6 +471,24 @@
   "title": "Les modèles de Mistral embarqués dans une constellation de 50 satellites IA"
  },
  {
+  "id": "stripe-2026-09-08-meta-muse",
+  "addedAt": "2026-09-24T15:12:00Z",
+  "companyId": "stripe",
+  "date": "2026-09-08",
+  "detail": "Stripe a annoncé que Muse, l'agent IA personnel lancé par Meta, utilise Link pour régler des achats sur les sites marchands. L'agent s'appuie sur les moyens de paiement déjà enregistrés par l'utilisateur dans Link.\n\nC'est une nouvelle brique de la stratégie de Stripe pour le commerce réalisé par des agents IA, présentée lors de sa conférence Sessions au printemps.",
+  "impact": "Être le moyen de paiement par défaut d'un agent grand public de Meta place Stripe au centre des achats réalisés par IA, un marché naissant qui pourrait devenir très important. Cela renforce aussi Link face à Apple Pay et PayPal.",
+  "rationale": "Partenaire de premier plan sur un usage stratégique, même si les volumes restent à prouver.",
+  "signal": "optimiste",
+  "sources": [
+   {
+    "label": "Stripe Newsroom, 8 septembre 2026",
+    "url": "https://stripe.com/newsroom/news"
+   }
+  ],
+  "summary": "Le nouvel assistant personnel de Meta s'appuie sur Link, le portefeuille de paiement de Stripe, pour acheter sur internet au nom de l'utilisateur.",
+  "title": "Muse, l'agent IA de Meta, fait ses achats avec Link de Stripe"
+ },
+ {
   "id": "mistral-2026-09-08-levee",
   "addedAt": "2026-09-22T08:00:00Z",
   "companyId": "mistral-ai",
@@ -388,6 +612,24 @@
   ],
   "summary": "Au premier semestre 2026, 93 à 97 % des humanoïdes livrés dans le monde viennent de Chine. Unitree est entré en Bourse à Shanghai.",
   "title": "Les fabricants chinois dominent les livraisons d'humanoïdes"
+ },
+ {
+  "id": "stripe-2026-08-27-paypal",
+  "addedAt": "2026-09-24T15:12:00Z",
+  "companyId": "stripe",
+  "date": "2026-08-27",
+  "detail": "Stripe et le fonds Advent International avaient proposé en juillet de racheter PayPal avec une prime de 39 %. C'aurait été la plus grosse opération de l'histoire des paiements.\n\nAprès de bons résultats trimestriels, PayPal a estimé que la hausse de son cours venait de son propre redressement et non de l'offre. Son action a dépassé le prix proposé le 13 août, les discussions se sont enlisées et l'offre a été retirée le 27 août.",
+  "impact": "Stripe évite une intégration géante, coûteuse et risquée, et garde sa capacité d'investissement pour ses priorités : IA, stablecoins, acquisitions ciblées. Elle renonce en revanche à un gain de parts de marché immédiat face à son principal concurrent.",
+  "rationale": "Pas de perte pour Stripe, mais une ambition de consolidation qui n'aboutit pas.",
+  "signal": "neutre",
+  "sources": [
+   {
+    "label": "Axios, 1er septembre 2026",
+    "url": "https://www.axios.com/2026/09/01/paypal-takeover-stripe-advent"
+   }
+  ],
+  "summary": "L'offre à 60,50 dollars par action, soit plus de 53 milliards de dollars, a été retirée après que le cours de PayPal a dépassé le prix proposé.",
+  "title": "Stripe et Advent renoncent à racheter PayPal"
  },
  {
   "id": "figure-2026-08-25-index",

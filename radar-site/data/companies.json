@@ -93,5 +93,41 @@
   "order": 8,
   "sector": "Robotique cognitive",
   "website": "https://neura-robotics.com/"
+ },
+ {
+  "id": "stripe",
+  "name": "Stripe",
+  "sector": "Paiements",
+  "order": 9,
+  "oneLiner": "Infrastructure de paiement en ligne utilisée par des millions d'entreprises, de plus en plus tournée vers l'IA et les stablecoins.",
+  "description": "Plateforme de paiement et de services financiers pour les entreprises : encaissement, facturation, trésorerie, paiements en stablecoins via Bridge et la blockchain Tempo, et outils pour le commerce par agents IA. Valorisée 159 milliards de dollars lors de son offre de rachat d'actions de février 2026. En août 2026, elle a annoncé le rachat d'OpenRouter.",
+  "hq": "San Francisco et Dublin",
+  "founded": "2010",
+  "leaders": "Patrick Collison (CEO), John Collison (président)",
+  "website": "https://stripe.com/"
+ },
+ {
+  "id": "starcloud",
+  "name": "Starcloud",
+  "sector": "Centres de données spatiaux",
+  "order": 10,
+  "oneLiner": "Satellites équipés de GPU Nvidia pour faire tourner de l'IA en orbite, alimentés par l'énergie solaire.",
+  "description": "Start-up qui construit des centres de données en orbite : ses satellites embarquent des GPU Nvidia pour faire de l'inférence IA dans l'espace, avec une énergie solaire quasi continue. Elle a demandé à la FCC l'autorisation pour une constellation de 88 000 satellites. En août 2026, elle a levé 250 millions de dollars à 2,3 milliards de valorisation, Nvidia compris.",
+  "hq": "Woodinville (État de Washington)",
+  "founded": "2024",
+  "leaders": "Philip Johnston (CEO), Ezra Feilden, Adi Oltean",
+  "website": "https://www.starcloud.com/"
+ },
+ {
+  "id": "lovable",
+  "name": "Lovable",
+  "sector": "Création d'apps par IA",
+  "order": 11,
+  "oneLiner": "Plateforme suédoise qui permet de créer des applications complètes en décrivant simplement ce qu'on veut.",
+  "description": "Champion européen du « vibe coding » : l'utilisateur décrit son application en langage naturel et Lovable la construit, l'héberge et la fait évoluer. La société revendiquait 500 millions de dollars de revenu annualisé en juin 2026 et a levé 400 millions de dollars en août 2026 à 13,3 milliards de valorisation.",
+  "hq": "Stockholm",
+  "founded": "2023",
+  "leaders": "Anton Osika (CEO), Fabian Hedin",
+  "website": "https://lovable.dev/"
  }
 ]
