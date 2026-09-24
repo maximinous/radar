@@ -254,6 +254,32 @@
   "title": "Deel dit avoir ajouté 140 millions de revenus récurrents grâce à ses agents IA"
  },
  {
+  "addedAt": "2026-09-24T20:26:16Z",
+  "companyId": "apollo-research",
+  "date": "2026-09-18",
+  "detail": "Le 18 septembre 2026, Anthropic et Accenture ont annoncé la constitution d'une équipe d'évaluateurs intégrés, avec un accès comparable à celui d'un salarié pour suivre l'entraînement et le déploiement des modèles. Chaque entreprise prévoit d'investir au moins 1 milliard de dollars sur cinq ans dans cette démarche, soit un engagement combiné de 2 milliards de dollars. Accenture s'appuie sur Faculty, une société d'évaluation de modèles qu'elle a rachetée.\n\nCette annonce fait suite à un plan en trois étapes publié mi-septembre par le dirigeant d'Anthropic en faveur d'évaluateurs indépendants intégrés aux laboratoires d'IA, une démarche rejointe par OpenAI. Apollo Research, aux côtés de METR et Redwood Research, était jusque là présentée dans la presse comme une candidate naturelle pour ce type de rôle. Anthropic indique poursuivre des discussions avec METR sur d'autres volets d'évaluation intégrée, sans citer Apollo dans ce premier cercle d'annonces.",
+  "id": "apollo-2026-09-18-accenture-evaluateur",
+  "impact": "Se faire devancer par un grand cabinet de conseil généraliste sur le tout premier contrat d'évaluateur intégré envoie un signal concurrentiel défavorable à Apollo, présentée jusqu'ici comme favorite naturelle dans ce débat. L'issue dépendra des prochaines vagues d'annonces qu'Anthropic dit préparer.",
+  "rationale": "Un concurrent généraliste remporte le premier accord de ce type dans un rôle où Apollo était vue comme candidate naturelle.",
+  "signal": "prudent",
+  "sources": [
+   {
+    "label": "TechCrunch, 18 septembre 2026",
+    "url": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/"
+   },
+   {
+    "label": "CNBC, 18 septembre 2026",
+    "url": "https://www.cnbc.com/2026/09/18/anthropic-accenture-ai-safety.html"
+   },
+   {
+    "label": "Accenture, communiqué, 18 septembre 2026",
+    "url": "https://newsroom.accenture.com/news/2026/accenture-and-anthropic-partner-to-build-team-of-embedded-evaluators-at-anthropic"
+   }
+  ],
+  "summary": "Anthropic a nommé Accenture, via sa filiale Faculty, premier évaluateur de sécurité intégré à ses équipes, avec un engagement croisé de 2 milliards de dollars sur cinq ans. Apollo Research, citée comme candidate naturelle à ce rôle, n'apparaît pas dans ce premier accord.",
+  "title": "Anthropic choisit Accenture, pas Apollo, comme premier évaluateur intégré"
+ },
+ {
   "addedAt": "2026-09-24T15:12:00Z",
   "companyId": "lovable",
   "date": "2026-09-18",
@@ -320,6 +346,32 @@
   "title": "Concurrent direct : le neocloud Nscale dépose son dossier d'introduction en Bourse"
  },
  {
+  "addedAt": "2026-09-24T20:26:16Z",
+  "companyId": "together-ai",
+  "date": "2026-09-17",
+  "detail": "Le tour, un Series F, a été codirigé par Atreides Management, Mubadala Capital et Valor Equity Partners, avec la participation de Founders Fund, GIC, Nvidia, Qatar Investment Authority, Radical Ventures et TPG. Crusoe se présente comme le premier fournisseur d'infrastructure IA entièrement intégré verticalement, avec plus de 140 milliards de dollars de valeur de contrats cumulés.\n\nLa société veut financer l'extension de ses campus de centres de données et le déploiement de ses unités modulaires Crusoe Spark, qui alimentent la croissance de son offre Crusoe Cloud.",
+  "id": "together-ai-2026-09-17-crusoe-levee",
+  "impact": "Crusoe devient l'un des neoclouds privés les mieux capitalisés, avec une valorisation environ 3,7 fois supérieure à celle de Together AI (30,9 milliards contre 8,3 milliards de dollars). Cela renforce sa capacité à financer des campus GPU à grande échelle et intensifie la concurrence pour les contrats de capacité que vise aussi Together AI.",
+  "rationale": "Un concurrent direct devient massivement mieux capitalisé, ce qui accroît la pression compétitive sur Together AI dans la course aux infrastructures GPU.",
+  "signal": "prudent",
+  "sources": [
+   {
+    "label": "TechCrunch, 17 septembre 2026",
+    "url": "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/"
+   },
+   {
+    "label": "Crusoe, communiqué, 17 septembre 2026",
+    "url": "https://www.crusoe.ai/resources/newsroom/crusoe-announces-series-f-funding"
+   },
+   {
+    "label": "TPG, 17 septembre 2026",
+    "url": "https://www.tpg.com/news-and-insights/crusoe-raises-3-9-billion-series-f-for-its-vertically-integrated-ai-infrastructure-platform"
+   }
+  ],
+  "summary": "Le neocloud concurrent Crusoe boucle un tour de table de 3,9 milliards de dollars qui le valorise 30,9 milliards de dollars, creusant l'écart de capitalisation avec Together AI.",
+  "title": "Crusoe lève 3,9 milliards de dollars, valorisé 30,9 milliards"
+ },
+ {
   "addedAt": "2026-09-24T19:59:40Z",
   "companyId": "lovable",
   "date": "2026-09-17",
@@ -380,6 +432,32 @@
   ],
   "summary": "Nouvelle version du modèle maison, capable de généraliser sans entraînement spécifique à des domiciles inconnus.",
   "title": "Helix 2.5 : les robots Figure travaillent dans 30 maisons jamais vues"
+ },
+ {
+  "addedAt": "2026-09-24T20:26:16Z",
+  "companyId": "mistral-ai",
+  "date": "2026-09-16",
+  "detail": "Le 16 septembre 2026, un compte pseudonyme utilisant le nom mrwho publie sur un forum anglophone spécialisé une annonce intitulée Selling mistral.ai Source Code, en réclamant un paiement en Monero. Il affirme que Mistral a été compromise à deux reprises, une fois en mai et une autre fois plus récemment, via des identifiants de développeurs jamais renouvelés.\n\nMistral affirme n'avoir trouvé aucune preuve à l'appui de cette allégation et n'a pas confirmé si le code mis en vente est authentique. Des chercheurs en sécurité relient l'épisode de mai au ver Mini Shai-Hulud, attribué au groupe TeamPCP, qui avait brièvement compromis des paquets du kit de développement de Mistral les 11 et 12 mai via des dépendances TanStack piégées. Aucune donnée client n'est apparue dans les échantillons analysés, et personne n'a montré de fichier postérieur à l'incident de mai.",
+  "id": "mistral-ai-2026-09-16-fuite-code-source",
+  "impact": "L'épisode relance le doute sur la robustesse des systèmes de développement de Mistral, quelques semaines après sa levée de 3 milliards d'euros et la signature de contrats sensibles avec de grands comptes comme TotalEnergies ou Samsung. C'est un risque réputationnel pour une entreprise qui vend la sécurité de ses offres souveraines à des clients institutionnels.",
+  "rationale": "Allégation non confirmée et probablement liée à une fuite déjà connue, mais qui fragilise le discours de confiance sur la sécurité que Mistral utilise pour vendre ses offres.",
+  "signal": "prudent",
+  "sources": [
+   {
+    "label": "BleepingComputer, 16 septembre 2026",
+    "url": "https://www.bleepingcomputer.com/news/security/teampcp-hackers-advertise-mistral-ai-code-repos-for-sale/"
+   },
+   {
+    "label": "TechRadar, septembre 2026",
+    "url": "https://www.techradar.com/pro/security/mistral-denies-a-fresh-security-breach-but-the-code-on-sale-looks-a-lot-like-mays-leak"
+   },
+   {
+    "label": "Cryptoast, septembre 2026",
+    "url": "https://cryptoast.fr/mistral-ai-hacker-vend-code-source-piratage/"
+   }
+  ],
+  "summary": "Un vendeur anonyme a mis en vente sur un forum cybercriminel ce qu'il présente comme le code source de Mistral AI, affirmant deux compromissions distinctes. Mistral dit n'avoir trouvé aucune preuve d'un nouvel accès non autorisé.",
+  "title": "Un hacker affirme vendre le code source de Mistral AI"
  },
  {
   "addedAt": "2026-09-24T11:11:34Z",
