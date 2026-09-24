@@ -1,0 +1,34 @@
+# Alerte si la veille ne tourne plus : la tâche planifiée passe à 06h, 11h et 16h UTC.
+# 1h30 après chaque passage, ce workflow vérifie que radar-site/data/status.json a été mis à jour.
+# S'il échoue, GitHub envoie un e-mail (notifications Actions du compte).
+name: Veille - surveillance
+
+on:
+  schedule:
+    - cron: '30 7,12,17 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          ref: main
+
+      - name: Vérifier la fraîcheur de status.json
+        run: |
+          python3 - <<'PY'
+          import json, sys
+          from datetime import datetime, timezone
+          st = json.load(open('radar-site/data/status.json', encoding='utf-8'))
+          last = datetime.fromisoformat(st['lastRun'].replace('Z', '+00:00'))
+          age = (datetime.now(timezone.utc) - last).total_seconds() / 3600
+          print(f"Dernier passage : {st['lastRun']} ({age:.1f} h), note : {st.get('note', '')}")
+          if age > 2.5:
+              print(f"::error::La veille n'a pas publié depuis {age:.1f} h. Vérifier la tâche planifiée et le workflow de fusion.")
+              sys.exit(1)
+          PY
