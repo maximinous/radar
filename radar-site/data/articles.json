@@ -1,5 +1,31 @@
 [
  {
+  "id": "polymarket-2026-09-24-proces-new-york",
+  "addedAt": "2026-09-25T02:56:04Z",
+  "companyId": "polymarket",
+  "date": "2026-09-24",
+  "detail": "New York estime que les contrats de Polymarket sont des paris proposés sans licence de l'État. L'État avait engagé une action similaire contre Kalshi deux mois plus tôt.\n\nPolymarket poursuit Letitia James et la Gaming Commission de l'État. La société soutient que ses contrats sont des swaps, qui échappent à la régulation des États.",
+  "impact": "Polymarket risque de perdre l'accès à son marché d'origine. Le dossier alimente le conflit entre droit fédéral des dérivés et droit des jeux des États.",
+  "rationale": "Un procès d'État qui vise l'activité américaine est une menace directe, même si la riposte fédérale est engagée.",
+  "signal": "prudent",
+  "sources": [
+   {
+    "label": "CNBC, 24 septembre 2026",
+    "url": "https://www.cnbc.com/2026/09/24/new-york-sues-polymarket-us-two-months-after-filing-suit-against-kalshi-.html"
+   },
+   {
+    "label": "ABC News, 24 septembre 2026",
+    "url": "https://abcnews.com/US/new-york-attorney-general-letitia-james-files-suit/story?id=136720158"
+   },
+   {
+    "label": "Reuters via Investing.com, 24 septembre 2026",
+    "url": "https://www.investing.com/news/stock-market-news/polymarket-sues-new-york-attorney-general-to-block-regulation-of-its-prediction-market-4916415"
+   }
+  ],
+  "summary": "La procureure générale Letitia James accuse Polymarket d'exploiter des jeux d'argent illégaux sans licence. Le même jour, Polymarket l'a attaquée devant le tribunal fédéral de Manhattan.",
+  "title": "L'État de New York poursuit Polymarket, qui contre-attaque en justice"
+ },
+ {
   "addedAt": "2026-09-24T16:10:42Z",
   "companyId": "lovable",
   "date": "2026-09-24",
@@ -252,6 +278,50 @@
   ],
   "summary": "Sa plateforme interne Akai fait tourner 10 000 agents. Deel affirme ce gain en 90 jours sans aucune embauche. Chiffres autodéclarés.",
   "title": "Deel dit avoir ajouté 140 millions de revenus récurrents grâce à ses agents IA"
+ },
+ {
+  "id": "polymarket-2026-09-20-enquete-wsj-fraude",
+  "addedAt": "2026-09-25T02:56:04Z",
+  "companyId": "polymarket",
+  "date": "2026-09-20",
+  "detail": "L'attaque a commencé en février 2026 sur la plateforme américaine. Checkout.com a rejeté à un moment plus de 80 % des dépôts comme frauduleux, contre environ 1 % en norme. Une règle imposant de retirer les fonds vers la source de dépôt aurait été levée.\n\nSelon le journal, Shayne Coplan aurait demandé de continuer à croître, quitte à payer une amende plus tard. Le taux de fraude serait revenu à la normale en mai.",
+  "impact": "Ces révélations fragilisent la crédibilité de Polymarket en matière de conformité, en pleine bataille réglementaire aux États-Unis.",
+  "rationale": "Des accusations visant le PDG sur la conformité exposent la société à des risques réglementaires et de réputation.",
+  "signal": "prudent",
+  "sources": [
+   {
+    "label": "The Block, 20 septembre 2026",
+    "url": "https://www.theblock.co/news/regulation/2026-09-20-polymarket-faced-10-million-fraud-attempt-as-its-ceo-pushed-growth-over-compliance-concerns-wsj-415875"
+   },
+   {
+    "label": "The Crypto Times, 21 septembre 2026",
+    "url": "https://www.cryptotimes.io/2026/09/21/polymarket-hit-by-10m-stolen-card-fraud-attempt-as-ceo-told-staff-to-keep-growing-wsj/"
+   }
+  ],
+  "summary": "Selon le Wall Street Journal, des fraudeurs ont tenté de détourner environ 10 millions de dollars avec des cartes volées. Le PDG aurait privilégié la croissance face aux alertes de conformité.",
+  "title": "Le WSJ révèle une tentative de fraude de 10 millions de dollars sur Polymarket US"
+ },
+ {
+  "id": "polymarket-2026-09-18-fin-yahoo-finance",
+  "addedAt": "2026-09-25T02:56:04Z",
+  "companyId": "polymarket",
+  "date": "2026-09-18",
+  "detail": "Le hub de probabilités de Yahoo Finance avait été retiré dès avril, selon Bloomberg. Aucune raison n'a été donnée.\n\nYahoo se dit ouvert à d'autres partenariats de ce type. Polymarket n'a pas commenté.",
+  "impact": "Polymarket perd une grande vitrine média pour la diffusion de ses cotes.",
+  "rationale": "La fin d'un partenariat média de premier plan réduit la diffusion des données de Polymarket.",
+  "signal": "prudent",
+  "sources": [
+   {
+    "label": "Bloomberg, 18 septembre 2026",
+    "url": "https://www.bloomberg.com/news/articles/2026-09-18/yahoo-finance-and-polymarket-end-prediction-market-partnership"
+   },
+   {
+    "label": "PYMNTS, septembre 2026",
+    "url": "https://www.pymnts.com/partnerships/2026/yahoo-finance-ends-polymarket-partnership-after-closing-prediction-markets-hub/"
+   }
+  ],
+  "summary": "Yahoo Finance n'affiche plus les données de Polymarket, dont il était le partenaire exclusif depuis novembre 2025. Polymarket reste annonceur sur les sites de Yahoo.",
+  "title": "Yahoo Finance met fin à son partenariat de données avec Polymarket"
  },
  {
   "addedAt": "2026-09-24T20:26:16Z",
@@ -634,6 +704,32 @@
   "title": "Erebor restreint la conversion gratuite de stablecoins après des arbitrages"
  },
  {
+  "id": "shield-ai-2026-09-14-valorisation-20-milliards",
+  "addedAt": "2026-09-25T02:56:04Z",
+  "companyId": "shield-ai",
+  "date": "2026-09-14",
+  "detail": "En mars 2026, Shield AI avait levé 2 milliards de dollars à 12,7 milliards de valorisation. La société a levé plus de 3 milliards au total, notamment auprès d'Andreessen Horowitz.\n\nCette levée suivrait plusieurs contrats pour Hivemind : le programme d'avions de combat collaboratifs de l'US Air Force en juin, et un programme pilote d'essaims de drones du Pentagone en mai. Les discussions ne sont pas finalisées.",
+  "impact": "Si l'opération aboutit, Shield AI disposerait de moyens renforcés pour industrialiser ses appareils et étendre Hivemind, avec une valorisation parmi les plus élevées de la défense tech.",
+  "rationale": "Une forte revalorisation en quelques mois montre l'appétit des investisseurs, même si le tour n'est pas bouclé.",
+  "signal": "optimiste",
+  "sources": [
+   {
+    "label": "The Information, 14 septembre 2026",
+    "url": "https://www.theinformation.com/articles/defense-startup-shield-ai-talks-valuation-least-20-billion"
+   },
+   {
+    "label": "Reuters via TradingView, septembre 2026",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN4560PJ:0-defense-startup-shield-ai-in-talks-for-valuation-of-at-least-20-billion-the-information/"
+   },
+   {
+    "label": "Dealroom, septembre 2026",
+    "url": "https://dealroom.co/news/150864-shield-ai-in-talks-to-raise-at-20b-valuation-up-60-in-five-months/"
+   }
+  ],
+  "summary": "Selon The Information, Shield AI négocie une série H à une valorisation d'au moins 20 milliards de dollars. Ce serait environ 60 % de plus qu'en mars 2026.",
+  "title": "Shield AI discute d'une levée à au moins 20 milliards de dollars de valorisation"
+ },
+ {
   "addedAt": "2026-09-24T07:17:59Z",
   "companyId": "together-ai",
   "date": "2026-09-10",
@@ -719,6 +815,28 @@
   "title": "Les modèles de Mistral embarqués dans une constellation de 50 satellites IA"
  },
  {
+  "id": "polymarket-2026-09-08-lituanie-blocage",
+  "addedAt": "2026-09-25T02:56:04Z",
+  "companyId": "polymarket",
+  "date": "2026-09-08",
+  "detail": "Après validation par le tribunal administratif régional de Vilnius, l'autorité a ordonné aux fournisseurs d'accès de bloquer le site. Les prestataires de paiement doivent cesser les transactions avec l'opérateur Adventure One QSS.\n\nLe régulateur a annoncé la décision le 8 septembre. La presse spécialisée l'a relayée à partir du 17 septembre.",
+  "impact": "Le marché européen de Polymarket se réduit encore, plusieurs régulateurs le traitant comme un opérateur de paris.",
+  "rationale": "Un nouveau blocage national confirme l'hostilité des régulateurs européens.",
+  "signal": "prudent",
+  "sources": [
+   {
+    "label": "SBC News, 17 septembre 2026",
+    "url": "https://sbcnews.co.uk/latestnews/2026/09/17/polymarket-lithuania-ban"
+   },
+   {
+    "label": "EEGaming, 21 septembre 2026",
+    "url": "https://eegaming.org/latest-news/2026/09/21/52717/lithuania-orders-block-on-polymarket-over-unlicensed-gambling-concerns"
+   }
+  ],
+  "summary": "Le régulateur lituanien des jeux a obtenu le blocage de Polymarket, jugé comme un service de jeu en ligne sans licence. C'est la première plateforme de prédiction bloquée dans le pays.",
+  "title": "La Lituanie bloque l'accès à Polymarket"
+ },
+ {
   "addedAt": "2026-09-24T15:12:00Z",
   "companyId": "stripe",
   "date": "2026-09-08",
@@ -799,6 +917,58 @@
   "title": "Neura s'associe à l'italien Seco pour produire ses cerveaux de robots en Europe"
  },
  {
+  "id": "kraken-2026-09-06-perps-openai-anthropic",
+  "addedAt": "2026-09-25T02:56:04Z",
+  "companyId": "kraken",
+  "date": "2026-09-06",
+  "detail": "Les deux produits s'échangent sous les tickers PF_OPENAIXUSD et PF_ANTHROPICXUSD. Ils sont réglés en espèces, sans échéance, et ne donnent ni action, ni droit de vote, ni dividende.\n\nFaute de cours coté, le prix suit un indice synthétique calculé par Kraken.",
+  "impact": "Kraken se positionne sur l'exposition aux grandes sociétés non cotées de l'IA, un segment très demandé. Cela prolonge sa stratégie multi-actifs au-delà de la crypto.",
+  "rationale": "Produit attractif qui élargit l'offre de dérivés, même si les exclusions géographiques limitent sa portée.",
+  "signal": "optimiste",
+  "sources": [
+   {
+    "label": "crypto.news, 6 septembre 2026",
+    "url": "https://crypto.news/kraken-launches-openai-and-anthropic-pre-ipo-perps/"
+   },
+   {
+    "label": "Kraken Blog, septembre 2026",
+    "url": "https://blog.kraken.com/product/kraken-derivatives/trade-anthropic-and-open-ai-at-up-to-5x-leverage"
+   },
+   {
+    "label": "CoinCentral, septembre 2026",
+    "url": "https://coincentral.com/kraken-launches-pre-ipo-perpetual-futures-for-openai-and-anthropic"
+   }
+  ],
+  "summary": "Kraken propose des contrats perpétuels indexés sur la valorisation privée d'OpenAI et d'Anthropic, avec un levier maximal de 5x. Les clients des États-Unis, de l'EEE, du Canada, d'Australie et de Nouvelle-Zélande sont exclus.",
+  "title": "Kraken lance des contrats perpétuels pré-IPO sur OpenAI et Anthropic"
+ },
+ {
+  "id": "polymarket-2026-09-05-lebron-james",
+  "addedAt": "2026-09-25T02:56:04Z",
+  "companyId": "polymarket",
+  "date": "2026-09-05",
+  "detail": "La star a publié sur X une courte vidéo tournée au siège de Polymarket. Selon Front Office Sports, l'accord lui rapporterait 15 millions de dollars par an, avec des contenus centrés sur le football américain plutôt que le basket.\n\nChez le concurrent Kalshi, Giannis Antetokounmpo et Lionel Messi ont signé des accords similaires plus tôt dans l'année.",
+  "impact": "Polymarket gagne en visibilité auprès du grand public sportif, cœur de la croissance de sa plateforme américaine.",
+  "rationale": "Un ambassadeur de premier plan renforce la notoriété de la marque face à Kalshi.",
+  "signal": "optimiste",
+  "sources": [
+   {
+    "label": "CNBC, 5 septembre 2026",
+    "url": "https://www.cnbc.com/2026/09/05/lebron-james-polymarket-partnership.html"
+   },
+   {
+    "label": "Front Office Sports, septembre 2026",
+    "url": "https://frontofficesports.com/article/lebron-james-polymarket-deal-worth-15-million-year/"
+   },
+   {
+    "label": "Yogonet, 7 septembre 2026",
+    "url": "https://www.yogonet.com/international/news/2026/09/07/126259-lebron-james-announces-polymarket-partnership-as-athlete-prediction-market-deals-expand"
+   }
+  ],
+  "summary": "LeBron James a annoncé un partenariat avec Polymarket. C'est le premier joueur NBA à signer un accord individuel avec la plateforme.",
+  "title": "LeBron James devient ambassadeur de Polymarket"
+ },
+ {
   "addedAt": "2026-09-22T08:00:00Z",
   "companyId": "figure-ai",
   "date": "2026-09-03",
@@ -819,6 +989,28 @@
   ],
   "summary": "Engagement initial de 3,5 milliards de dollars, extensible au-delà de 6 milliards, pour entraîner les prochains modèles Helix.",
   "title": "Accord avec Nscale pour jusqu'à 100 000 GPU Nvidia Vera Rubin"
+ },
+ {
+  "id": "kraken-2026-09-02-ipo-reportee-2027",
+  "addedAt": "2026-09-25T02:56:04Z",
+  "companyId": "kraken",
+  "date": "2026-09-02",
+  "detail": "En mars 2026, CoinDesk avait déjà révélé la mise en pause du projet, en raison de conditions de marché difficiles. Payward avait déposé un dossier confidentiel auprès de la SEC en novembre 2025.\n\nL'activité reste en hausse. Au deuxième trimestre 2026, le revenu ajusté atteint 508 millions de dollars, en progression de 17 % sur un an. Les comptes financés montent de 42 %, à 6,6 millions.",
+  "impact": "La perspective de liquidité par la Bourse recule d'au moins un an. Kraken continue de financer sa diversification comme société non cotée.",
+  "rationale": "Nouveau report dans un marché des IPO crypto peu porteur, malgré une activité en croissance.",
+  "signal": "prudent",
+  "sources": [
+   {
+    "label": "CoinDesk, 2 septembre 2026",
+    "url": "https://www.coindesk.com/business/2026/09/02/kraken-parent-payward-pushes-ipo-back-to-mid-2027-at-earliest"
+   },
+   {
+    "label": "Blockhead, 3 septembre 2026",
+    "url": "https://www.blockhead.co/2026/09/03/kraken-parent-payward-delays-ipo-again/"
+   }
+  ],
+  "summary": "Payward, maison mère de Kraken, ne vise plus une introduction en Bourse avant le deuxième trimestre 2027. L'information vient de CoinDesk.",
+  "title": "Payward repousse l'IPO de Kraken au deuxième trimestre 2027 au plus tôt"
  },
  {
   "addedAt": "2026-09-22T08:00:00Z",
@@ -860,6 +1052,28 @@
   ],
   "summary": "Au premier semestre 2026, 93 à 97 % des humanoïdes livrés dans le monde viennent de Chine. Unitree est entré en Bourse à Shanghai.",
   "title": "Les fabricants chinois dominent les livraisons d'humanoïdes"
+ },
+ {
+  "id": "polymarket-2026-08-31-levee-1-milliard",
+  "addedAt": "2026-09-25T02:56:04Z",
+  "companyId": "polymarket",
+  "date": "2026-08-31",
+  "detail": "1789 Capital, dont Donald Trump Jr. est associé, apporterait environ 300 millions de dollars. Le fonds était déjà entré au capital en 2025.\n\nEn avril 2026, Polymarket avait levé à 15 milliards de valorisation, avec D.E. Shaw et G Squared. La hausse atteint donc environ 40 % en quelques mois.",
+  "impact": "Polymarket dispose de moyens importants pour son expansion américaine et pour faire face aux procédures réglementaires.",
+  "rationale": "Un tour de 1 milliard à valorisation en forte hausse montre l'appétit des investisseurs.",
+  "signal": "optimiste",
+  "sources": [
+   {
+    "label": "Bloomberg, 31 août 2026",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-31/polymarket-funding-round-led-by-1789-values-firm-at-21-billion"
+   },
+   {
+    "label": "CoinDesk, 1er septembre 2026",
+    "url": "https://www.coindesk.com/business/2026/09/01/trump-jr-s-firm-leads-usd1-billion-polymarket-raise-at-usd21-billion-value-report"
+   }
+  ],
+  "summary": "1789 Capital mène un tour de 1 milliard de dollars dans Polymarket, selon Bloomberg. La valorisation post-money atteint 21 milliards de dollars.",
+  "title": "Polymarket lève 1 milliard de dollars à 21 milliards de valorisation"
  },
  {
   "addedAt": "2026-09-24T15:12:00Z",
