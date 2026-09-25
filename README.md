@@ -36,7 +36,7 @@ Site statique de veille sur des sociétés non cotées, publié sur https://rada
 
 ## Mise à jour
 
-Une tâche planifiée ajoute les nouveaux articles trois fois par jour (8h, 13h, 18h, heure de Paris d'été ; passage complet le matin, passages légers limités aux nouveautés ensuite) et pousse son commit sur une branche `claude/<nom>` (le nom change quand la tâche est modifiée). Le workflow `.github/workflows/veille-auto-merge.yml` prend toute branche `claude/*` qui ne touche que `radar-site/data/`, lance `scripts/validate.py`, fusionne dans `main` puis supprime la branche. Cloudflare redéploie automatiquement.
+Une tâche planifiée ajoute les nouveaux articles trois fois par jour (8h, 13h, 18h, heure de Paris d'été ; passage complet le matin, passages légers limités aux nouveautés ensuite) et pousse son commit sur une branche `claude/<nom>` (le nom change quand la tâche est modifiée). Le workflow `.github/workflows/veille-auto-merge.yml` prend toute branche `claude/*` qui ne touche que `radar-site/data/`, fusionne ses données dans `main` avec `scripts/merge_data.py` (union des articles par id, `status.json` le plus récent), lance `scripts/validate.py`, pousse puis supprime la branche. Cloudflare redéploie automatiquement.
 
 ## Sécurité
 

@@ -1,7 +1,7 @@
 # Fusionne automatiquement dans main les branches poussées par la tâche planifiée de veille.
 # La tâche ne peut pousser que sur une branche claude/<nom> (le nom change quand la tâche est modifiée) :
-# ce workflow prend toute branche claude/* qui ne touche que les données, lance validate.py,
-# puis fusionne dans main et supprime la branche. Les autres branches claude/* sont ignorées.
+# ce workflow prend toute branche claude/* qui ne touche que les données, fusionne ses données dans main
+# (scripts/merge_data.py : union des articles par id), lance validate.py, pousse puis supprime la branche. Les autres branches claude/* sont ignorées.
 name: Veille - fusion automatique
 
 on:
@@ -20,7 +20,7 @@ jobs:
   merge:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
         with:
           ref: main
           fetch-depth: 0
@@ -45,15 +45,18 @@ jobs:
               echo "Ignorée : modifie des fichiers hors des données."
               echo "::endgroup::"; continue
             fi
-            before=$(git rev-parse HEAD)
-            if ! git merge --no-ff --no-edit -m "Veille : fusion automatique de $b" FETCH_HEAD; then
-              echo "::error::$b : conflit de fusion avec main"
-              git merge --abort; failed=1; echo "::endgroup::"; continue
+            # Fusion des données (union des articles par id) plutôt qu'une fusion git ligne à ligne :
+            # deux passages qui ajoutent chacun des articles ne se gênent plus.
+            python3 scripts/merge_data.py FETCH_HEAD
+            if git diff --quiet; then
+              echo "Rien de nouveau par rapport à main."
+              merged+=("$b"); echo "::endgroup::"; continue
             fi
             if ! python3 scripts/validate.py; then
               echo "::error::$b : validate.py a échoué, branche non fusionnée"
-              git reset -q --hard "$before"; failed=1; echo "::endgroup::"; continue
+              git checkout -- radar-site/data; failed=1; echo "::endgroup::"; continue
             fi
+            git commit -qam "Veille : fusion automatique de $b"
             merged+=("$b")
             echo "::endgroup::"
           done
