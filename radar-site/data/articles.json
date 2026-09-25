@@ -1,5 +1,67 @@
 [
  {
+  "id": "kraken-2026-09-25-ipo-oura-xstocks",
+  "companyId": "kraken",
+  "date": "2026-09-25",
+  "title": "Kraken ouvre l'IPO d'Ōura à ses clients hors États-Unis via xStocks",
+  "summary": "Kraken permet à ses clients de l'EEE et d'autres marchés de souscrire à l'introduction en Bourse d'Ōura sur le Nasdaq. Ils recevront un jeton OURAx adossé 1 pour 1 à l'action.",
+  "detail": "Les clients déposent une indication d'intérêt non contraignante dans une fourchette de 40 à 44 dollars par action, plus 5 % de frais. L'allocation est décidée par les banques du syndicat et n'est pas garantie.\n\nLe service exclut les États-Unis, le Royaume-Uni, le Canada et l'Australie. Il s'appuie sur l'offre d'accès aux IPO tokenisées annoncée par Payward en juin 2026.",
+  "impact": "Première IPO très médiatisée proposée via xStocks, un test pour la franchise d'actions tokenisées de Kraken.",
+  "signal": "neutre",
+  "rationale": "Vitrine commerciale pour xStocks, mais volumes et allocations restent inconnus.",
+  "sources": [
+   {
+    "label": "Kraken Blog, 25 septembre 2026",
+    "url": "https://blog.kraken.com/product/ipo-access/oura"
+   },
+   {
+    "label": "The Block, 3 juin 2026",
+    "url": "https://www.theblock.co/post/403495/kraken-tokenized-us-ipo-access-retail-investors-xstocks"
+   }
+  ],
+  "addedAt": "2026-09-25T10:42:09Z"
+ },
+ {
+  "id": "kraken-2026-09-24-borrow-us",
+  "companyId": "kraken",
+  "date": "2026-09-24",
+  "title": "Kraken lance Kraken Borrow pour ses clients américains",
+  "summary": "Kraken ouvre aux États-Unis Kraken Borrow, qui permet d'acheter des cryptos au-delà de son solde jusqu'à 3 fois la valeur des actifs éligibles. Le service passe par des rails régulés par la CFTC, via Bitnomial.",
+  "detail": "Le produit est disponible dans 48 États, hors New York et Maine. Au lancement, il couvre 27 paires sur Bitnomial et plus de 48 actifs acceptés en garantie.\n\nIl n'y a ni échéance ni paiement minimum, mais des intérêts quotidiens et des frais d'ouverture s'appliquent, avec liquidation automatique si la position se dégrade. L'exécution passe par NinjaTrader Clearing (Kraken Derivatives US), deux rachats récents de Payward.",
+  "impact": "Premier usage grand public des licences américaines acquises avec Bitnomial et NinjaTrader, source de revenus d'intérêts.",
+  "signal": "optimiste",
+  "rationale": "Kraken monétise ses acquisitions réglementées avec un produit de crédit simple pour le grand public américain.",
+  "sources": [
+   {
+    "label": "Kraken Blog, 24 septembre 2026",
+    "url": "https://blog.kraken.com/product/borrow/us-customers"
+   },
+   {
+    "label": "Kraken Support, septembre 2026",
+    "url": "https://support.kraken.com/articles/borrow-us"
+   }
+  ],
+  "addedAt": "2026-09-25T10:42:09Z"
+ },
+ {
+  "id": "stripe-2026-09-24-uk-ceo",
+  "companyId": "stripe",
+  "date": "2026-09-24",
+  "title": "Stripe confie sa filiale britannique à son responsable de la conformité",
+  "summary": "Marc Fungard, jusqu'ici responsable mondial de la lutte contre la criminalité financière chez Stripe et ancien de HSBC, devient CEO de l'entité britannique. Son prédécesseur Stephen O'Callaghan prend la tête de Stripe Technology Europe Ltd.",
+  "detail": "Marc Fungard a passé environ trois ans et demi chez Stripe comme responsable mondial de la criminalité financière, de la conformité et de la supervision des risques. Il a auparavant passé huit ans chez HSBC (renseignement financier, analytique de conformité) et quatre ans au Trésor américain, où il dirigeait le bureau chargé de la finance illicite.\n\nIl remplace Stephen O'Callaghan, CEO de Stripe UK depuis plus de deux ans, qui devient CEO de Stripe Technology Europe Ltd. En 2024, la filiale britannique comptait 288 salariés, dont 204 dans la vente ou la technique. Stripe n'a pas commenté.",
+  "impact": "Placer un profil conformité à la tête du Royaume-Uni montre que Stripe donne la priorité aux relations avec les régulateurs sur ses marchés clés.",
+  "signal": "neutre",
+  "rationale": "Changement de dirigeant dans une filiale importante, sans effet direct sur l'activité.",
+  "sources": [
+   {
+    "label": "eFinancialCareers, 24 septembre 2026",
+    "url": "https://www.efinancialcareers.com/news/stripe-has-put-an-ex-hsbc-compliance-guy-in-charge-of-its-uk-office"
+   }
+  ],
+  "addedAt": "2026-09-25T10:42:09Z"
+ },
+ {
   "id": "polymarket-2026-09-24-proces-new-york",
   "addedAt": "2026-09-25T02:56:04Z",
   "companyId": "polymarket",
@@ -90,6 +152,40 @@
   ],
   "summary": "Tout le monde peut désormais échanger gratuitement avec Lovable pour tester une idée avant de construire une application.",
   "title": "Lovable rend son mode discussion gratuit"
+ },
+ {
+  "id": "mistral-ai-2026-09-23-pimento-prix",
+  "companyId": "mistral-ai",
+  "date": "2026-09-23",
+  "title": "Rachat de Pimento : un prix de 12,7 millions d'euros selon Sifted, qui révèle une action Mistral à 37,5 euros",
+  "summary": "Des documents consultés par Sifted chiffrent le rachat de Pimento à 12,7 millions d'euros, en numéraire et en actions Mistral. L'Informé avançait environ 3,8 millions, Mistral ne confirmant que \"plusieurs millions\".",
+  "detail": "Selon Sifted, Mistral a payé 3,6 millions d'euros en numéraire pour 48 % de Pimento et émis 244 786 actions nouvelles pour le reste. Une source estime l'action Mistral à 37,5 euros, soit environ 9,1 millions pour la part en titres.\n\nL'Informé, repris par Maddyness le 22 septembre, évoquait plutôt 3,8 millions d'euros. Auprès de l'AFP, Mistral s'en tient à \"plusieurs millions d'euros\".\n\nPimento, fondée en 2022 par Florent Facq et Tomás Yany, revendique plus de 180 marques clientes et avait levé 3 millions d'euros en 2023. Mistral vise surtout ses ingénieurs, qui rejoindront les équipes de Vibe.",
+  "impact": "Une opération modeste, mais qui donne un rare prix de référence pour l'action Mistral non cotée et confirme l'usage des titres comme monnaie d'acquisition.",
+  "signal": "neutre",
+  "rationale": "Fait nouveau (prix et structure) sur un rachat déjà couvert, sans changement majeur de trajectoire.",
+  "sources": [
+   {
+    "label": "Sifted, septembre 2026 (exclusivité)",
+    "url": "https://sifted.eu/articles/exclusive-mistral-pimento-acquisition"
+   },
+   {
+    "label": "The Next Web, 23 septembre 2026",
+    "url": "https://thenextweb.com/news/mistral-acquires-pimento-ai-advertising"
+   },
+   {
+    "label": "Konsulteer, 23 septembre 2026",
+    "url": "https://www.konsulteer.com/article/mistral-acquires-french-adtech-startup-pimento-in-12-7m-deal"
+   },
+   {
+    "label": "Maddyness, 22 septembre 2026",
+    "url": "https://www.maddyness.com/2026/09/22/apres-avoir-leve-3-milliards-deuros-mistral-boucle-une-nouvelle-acquisition/"
+   },
+   {
+    "label": "Clubic, septembre 2026",
+    "url": "https://www.clubic.com/actualite-631003-mistral-investit-des-millions-pour-racheter-une-boite-de-pub.html"
+   }
+  ],
+  "addedAt": "2026-09-25T10:42:09Z"
  },
  {
   "addedAt": "2026-09-24T19:59:40Z",
@@ -302,6 +398,72 @@
   "title": "Le WSJ révèle une tentative de fraude de 10 millions de dollars sur Polymarket US"
  },
  {
+  "id": "figure-ai-2026-09-18-1x-neo-50000",
+  "companyId": "figure-ai",
+  "date": "2026-09-18",
+  "title": "Concurrent direct : 1X vise 50 000 robots NEO livrés en 2027",
+  "summary": "Le CEO de 1X, Bernt Børnich, fixe un objectif de 50 000 humanoïdes NEO fabriqués et livrés l'an prochain. La montée en cadence dépendra de la fiabilité, pas de la capacité d'usine.",
+  "detail": "Dans un entretien diffusé le 18 septembre, Bernt Børnich a détaillé le plan industriel de 1X : l'usine de Hayward vise environ 10 000 robots par an à pleine cadence, et un second site à San Carlos est conçu pour 100 000 unités par an, disponibles surtout fin 2027. Soit 110 000 unités de capacité annuelle cumulée en Californie.\n\nLe dirigeant précise que ces 50 000 robots mélangeront foyers, entreprises et développeurs. Le NEO est vendu 20 000 dollars ou 499 dollars par mois. Il insiste sur le vrai défi : éviter les retours clients à mesure que les volumes grimpent.",
+  "impact": "1X attaque le même marché du robot domestique que Figure, qui teste Helix 2.5 dans des maisons mais n'a pas encore d'offre grand public. Un objectif de volume aussi explicite met la pression sur le calendrier de Figure dans le foyer.",
+  "signal": "prudent",
+  "rationale": "Un concurrent direct affiche un plan de production domestique chiffré, alors que Figure reconnaît ne pas avoir atteint son objectif de robot autonome à domicile.",
+  "sources": [
+   {
+    "label": "Humanoids Daily, 19 septembre 2026",
+    "url": "https://www.humanoidsdaily.com/news/1x-50000-robots-bornich-production-data"
+   },
+   {
+    "label": "Humanoid.guide, septembre 2026",
+    "url": "https://humanoid.guide/1x-targets-50000-neo-humanoid-robot-shipments-in-2027/"
+   }
+  ],
+  "addedAt": "2026-09-25T10:42:09Z"
+ },
+ {
+  "id": "polymarket-2026-09-18-missouri-mise-en-demeure",
+  "companyId": "polymarket",
+  "date": "2026-09-18",
+  "title": "Le Missouri somme Polymarket et cinq concurrents de cesser les paris sportifs",
+  "summary": "La procureure générale du Missouri, Catherine Hanaway, a envoyé des mises en demeure à Polymarket, Kalshi, Crypto.com, Novig, Underdog et Robinhood. Elle leur donne 30 jours pour arrêter leurs contrats liés au sport.",
+  "detail": "Pour l'État, ces contrats d'événements sont des paris sportifs sans licence. Il reproche aussi des garde-fous insuffisants contre l'accès des moins de 21 ans.\n\nPolymarket conteste et affirme relever de la seule CFTC, pas d'un patchwork de règles des États. Cette action s'ajoute à la plainte de New York du 24 septembre.",
+  "impact": "Accroît le risque de fermeture de marchés sportifs État par État aux États-Unis.",
+  "signal": "prudent",
+  "rationale": "Le front réglementaire des États s'élargit contre les marchés prédictifs sportifs.",
+  "sources": [
+   {
+    "label": "KCTV5, 18 septembre 2026",
+    "url": "https://www.kctv5.com/2026/09/18/missouri-ag-sends-cease-desist-letters-prediction-market-operators/"
+   },
+   {
+    "label": "Hoodline, septembre 2026",
+    "url": "https://hoodline.com/2026/09/missouri-ag-hits-polymarket-kalshi-robinhood-with-betting-crackdown/"
+   }
+  ],
+  "addedAt": "2026-09-25T10:42:09Z"
+ },
+ {
+  "id": "stripe-2026-09-18-brown-thomas-arnotts",
+  "companyId": "stripe",
+  "date": "2026-09-18",
+  "title": "Stripe gère désormais les paiements en ligne de Brown Thomas Arnotts",
+  "summary": "Le groupe de grands magasins irlandais Brown Thomas Arnotts confie à Stripe le traitement des paiements de ses sites et applications Brown Thomas et Arnotts.",
+  "detail": "Stripe devient le prestataire de paiement en ligne de Brown Thomas Arnotts sur l'ensemble de ses canaux numériques. Les clients ont accès à Apple Pay et au paiement fractionné via Klarna.\n\nLe distributeur de luxe met en avant la capacité d'innovation de Stripe. Conor McNamara, directeur commercial de Stripe pour l'EMEA, cite des outils comme Authorization Boost et Radar pour récupérer les revenus perdus sur les refus de carte.",
+  "impact": "Un client de référence dans le commerce de luxe sur le marché d'origine des fondateurs, qui illustre l'avancée de Stripe dans la grande distribution.",
+  "signal": "optimiste",
+  "rationale": "Gain d'un grand distributeur, portée limitée à l'échelle du groupe.",
+  "sources": [
+   {
+    "label": "RTÉ, 18 septembre 2026",
+    "url": "https://www.rte.ie/news/business/2026/0918/1591970-stripe-brown-thomas-arnotts/"
+   },
+   {
+    "label": "The Irish Times, 18 septembre 2026",
+    "url": "https://www.irishtimes.com/business/2026/09/18/stripe-to-take-over-online-payments-for-brown-thomas-arnotts/"
+   }
+  ],
+  "addedAt": "2026-09-25T10:42:09Z"
+ },
+ {
   "id": "polymarket-2026-09-18-fin-yahoo-finance",
   "addedAt": "2026-09-25T02:56:04Z",
   "companyId": "polymarket",
@@ -416,6 +578,28 @@
   "title": "Concurrent direct : le neocloud Nscale dépose son dossier d'introduction en Bourse"
  },
  {
+  "id": "stripe-2026-09-17-world-money",
+  "companyId": "stripe",
+  "date": "2026-09-17",
+  "title": "Stripe alimente la nouvelle super app World Money de Sam Altman",
+  "summary": "World (Tools for Humanity, cofondé par Sam Altman et Alex Blania) a lancé World Money dans plus de 150 pays. Aux États-Unis, Stripe permet d'alimenter son compte et d'acheter des stablecoins avec Apple Pay.",
+  "detail": "World Money est une application d'épargne et de paiement en stablecoins, sans dépositaire tiers, qui intègre aussi Kalshi et Morpho. Elle prend en charge huit devises.\n\nL'intégration de Stripe permet de convertir de l'argent depuis Apple Pay en stablecoins, généralement en quelques minutes, en commençant par les utilisateurs américains.",
+  "impact": "Nouveau client grand public pour les outils crypto de Stripe, qui confirme sa place dans l'infrastructure des stablecoins.",
+  "signal": "optimiste",
+  "rationale": "Partenariat visible avec un acteur crypto très médiatisé, périmètre encore limité aux États-Unis.",
+  "sources": [
+   {
+    "label": "The Block, 17 septembre 2026",
+    "url": "https://www.theblock.co/news/business/2026-09-17-world-launches-world-money-super-app-stablecoins-stripe-integration-boosted-rewards-415394"
+   },
+   {
+    "label": "Cointelegraph, 18 septembre 2026",
+    "url": "https://cointelegraph.com/news/world-launches-self-custodial-super-app-world-money"
+   }
+  ],
+  "addedAt": "2026-09-25T10:42:09Z"
+ },
+ {
   "addedAt": "2026-09-24T20:26:16Z",
   "companyId": "together-ai",
   "date": "2026-09-17",
@@ -504,6 +688,28 @@
   "title": "Helix 2.5 : les robots Figure travaillent dans 30 maisons jamais vues"
  },
  {
+  "id": "polymarket-2026-09-16-hub-midterms",
+  "companyId": "polymarket",
+  "date": "2026-09-16",
+  "title": "Polymarket lance un hub dédié aux élections de mi-mandat 2026",
+  "summary": "Polymarket a ouvert un espace consacré aux midterms américaines, avec plus de 560 marchés actifs. Il inclut une carte électorale interactive et un suivi des résultats en direct le soir de l'élection.",
+  "detail": "Le hub couvre les courses au Sénat, à la Chambre, aux postes de gouverneur et des scrutins locaux. Des marchés dédiés suivent l'équilibre des pouvoirs entre partis.\n\nLe lancement vise le pic d'activité attendu avec l'élection de novembre, un moment clé face à Kalshi.",
+  "impact": "Doit capter l'afflux de volume lié aux élections, historiquement le point fort de Polymarket.",
+  "signal": "neutre",
+  "rationale": "Lancement produit utile au calendrier électoral, sans chiffre de traction à ce stade.",
+  "sources": [
+   {
+    "label": "PR Newswire, 16 septembre 2026",
+    "url": "https://www.prnewswire.com/news-releases/polymarket-launches-2026-midterms-hub-302880619.html"
+   },
+   {
+    "label": "Morningstar (PR Newswire), 16 septembre 2026",
+    "url": "https://www.morningstar.com/news/pr-newswire/20260916ny49476/polymarket-launches-2026-midterms-hub"
+   }
+  ],
+  "addedAt": "2026-09-25T10:42:09Z"
+ },
+ {
   "addedAt": "2026-09-24T20:26:16Z",
   "companyId": "mistral-ai",
   "date": "2026-09-16",
@@ -576,6 +782,32 @@
   ],
   "summary": "Mozilla étend sa bêta Smart Window à la France avec les modèles de Mistral.",
   "title": "Mistral alimente la fenêtre IA de Firefox en France"
+ },
+ {
+  "id": "kraken-2026-09-15-x-cashtags",
+  "companyId": "kraken",
+  "date": "2026-09-15",
+  "title": "Kraken devient partenaire de lancement du trading via les cashtags de X",
+  "summary": "X a lancé le 15 septembre un programme qui relie ses cashtags à des courtiers partenaires, dont Kraken. Aux États-Unis, un bouton Trade renvoie l'utilisateur vers Kraken pour acheter l'actif.",
+  "detail": "X a présenté son Cashtag Partner Program le 15 septembre avec cinq partenaires : Interactive Brokers, Moomoo, Gemini, Coinbase et Kraken. En touchant un cashtag comme $BTC, l'utilisateur voit le cours puis peut être redirigé vers la plateforme du partenaire.\n\nKraken a confirmé le 16 septembre couvrir près de 2 500 actifs (cryptos, actions, ETF), sur son exchange centralisé et son offre décentralisée. L'ordre s'exécute chez Kraken, X ne fait que router.",
+  "impact": "Nouveau canal d'acquisition de clients à grande échelle, partagé toutefois avec Coinbase, Gemini et deux courtiers actions.",
+  "signal": "optimiste",
+  "rationale": "Un accès direct à l'audience de X peut accélérer le recrutement de clients américains, sans exclusivité.",
+  "sources": [
+   {
+    "label": "Kraken Blog, 16 septembre 2026",
+    "url": "https://blog.kraken.com/news/kraken-is-an-official-x-cashtag-partner"
+   },
+   {
+    "label": "Unchained, 22 septembre 2026",
+    "url": "https://unchainedcrypto.com/x-adds-a-trade-button-to-cashtags-routing-us-users-to-coinbase-kraken-and-gemini/"
+   },
+   {
+    "label": "Benzinga, septembre 2026",
+    "url": "https://www.benzinga.com/crypto/cryptocurrency/26/09/61917745/elon-musk-x-launches-cashtag-trading-program-with-coinbase-kraken-gemini-for-bitcoin-stocks"
+   }
+  ],
+  "addedAt": "2026-09-25T10:42:09Z"
  },
  {
   "addedAt": "2026-09-24T15:12:00Z",
