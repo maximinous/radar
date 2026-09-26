@@ -1,5 +1,45 @@
 [
  {
+  "id": "deel-2026-09-25-rippling-breyer",
+  "companyId": "deel",
+  "date": "2026-09-25",
+  "title": "Affaire Rippling : le juge Breyer inflige trois revers à Deel",
+  "summary": "Le juge fédéral Charles Breyer refuse d'écarter le témoignage de Keith O'Brien et maintient les plaintes de Rippling. Il renvoie aussi les demandes reconventionnelles les plus lourdes de Deel vers l'arbitrage.",
+  "detail": "La décision a été rendue le vendredi 25 septembre 2026 par le tribunal fédéral de San Francisco. Deel demandait depuis juillet d'exclure le témoignage de Keith O'Brien, l'ex-salarié de Rippling au coeur des accusations d'espionnage, qui avait refusé de répondre à plus de 100 questions. Le juge juge la demande irrégulière et reproche à Deel d'avoir évité de régler ces différends.\n\nIl refuse aussi de revenir sur sa décision antérieure qui laisse avancer les plaintes de Rippling pour racket (RICO) et vol de secrets d'affaires. Les demandes reconventionnelles de Deel pour racket partent en arbitrage privé. Une partie de ses griefs de publicité mensongère survit, d'autres sont rejetés avec possibilité d'amender, et ses demandes liées au cybersquattage d'un nom de domaine deal.com sont écartées.",
+  "impact": "Le risque judiciaire reste entier pour Deel, qui voit son contre-feu affaibli alors qu'une enquête pénale du ministère de la Justice est en cours et qu'une IPO est envisagée.",
+  "signal": "prudent",
+  "rationale": "Trois décisions défavorables d'un coup prolongent un litige qui pèse sur la réputation et le calendrier boursier de Deel.",
+  "sources": [
+   {
+    "label": "Briefs, 25 septembre 2026",
+    "url": "https://www.briefs.co/news/judge-pares-back-deel-s-case-while-greenlighting-parts-of-ri/"
+   },
+   {
+    "label": "Startup Fortune, 26 septembre 2026",
+    "url": "https://startupfortune.com/deel-suffers-fresh-legal-setbacks-in-rippling-corporate-spying-case/"
+   }
+  ],
+  "addedAt": "2026-09-26T06:19:46Z"
+ },
+ {
+  "id": "polymarket-2026-09-25-fdic-paris-faillites",
+  "companyId": "polymarket",
+  "date": "2026-09-25",
+  "title": "Les paris sur la faillite de grandes banques attirent l'attention de la FDIC",
+  "summary": "Selon Bloomberg, les contrats de Polymarket sur la faillite de Wells Fargo, JPMorgan ou Bank of America inquiètent la FDIC et des élus à Washington. Ces marchés sont proposés sur la plateforme internationale, pas sur l'offre américaine régulée.",
+  "detail": "La FDIC s'est interrogée en interne sur l'intérêt économique réel de ces contrats. Elle a aussi examiné si ses règles d'éthique suffisaient à empêcher ses agents d'y parier, et a conclu que oui.\n\nLes volumes restent modestes : environ 76 000 dollars sur les faillites avant fin 2026, et 591 000 dollars sur des paris antérieurs visant juillet. La sénatrice Elizabeth Warren juge ces contrats irresponsables. Polymarket défend l'intérêt de marchés sur des événements aussi importants.",
+  "impact": "Le dossier alimente la pression réglementaire fédérale sur Polymarket, déjà en conflit avec plusieurs États.",
+  "signal": "prudent",
+  "rationale": "Nouvelle source de risque réglementaire, même si les montants en jeu sont faibles.",
+  "sources": [
+   {
+    "label": "Bloomberg via Yahoo Finance, 25 septembre 2026",
+    "url": "https://finance.yahoo.com/economy/policy/articles/polymarket-wagers-bank-failures-trigger-165851456.html"
+   }
+  ],
+  "addedAt": "2026-09-26T06:19:46Z"
+ },
+ {
   "id": "kraken-2026-09-25-ipo-oura-xstocks",
   "companyId": "kraken",
   "date": "2026-09-25",
@@ -20,6 +60,50 @@
    }
   ],
   "addedAt": "2026-09-25T10:42:09Z"
+ },
+ {
+  "id": "kraken-2026-09-24-partenariat-ledger",
+  "companyId": "kraken",
+  "date": "2026-09-24",
+  "title": "Payward et Ledger s'allient pour relier auto-conservation et trading",
+  "summary": "Payward, maison mère de Kraken, signe un partenariat stratégique avec Ledger. Les appareils Ledger pourront signer des transactions sur Kraken, et Payward devient fournisseur d'achat et de vente dans Ledger Wallet.",
+  "detail": "Les clients de Kraken pourront utiliser leurs appareils Ledger directement sur la plateforme. Payward Services sera intégré dans Ledger Wallet pour acheter, vendre et échanger des cryptos, d'abord en Europe et au Royaume-Uni par carte et virement.\n\nLes actions tokenisées xStocks doivent aussi être intégrées à Ledger Wallet. Payward indique que xStocks a dépassé 42 milliards de dollars de volume cumulé. Ledger revendique plus de 8 millions d'appareils vendus dans plus de 165 pays.",
+  "impact": "L'accord ouvre à Kraken et à xStocks la base d'utilisateurs de Ledger, un canal de distribution majeur en Europe.",
+  "signal": "optimiste",
+  "rationale": "Partenariat de distribution avec un acteur de référence de la conservation, assorti d'un chiffre de traction solide pour xStocks.",
+  "sources": [
+   {
+    "label": "Payward, communiqué, 24 septembre 2026",
+    "url": "https://www.payward.com/press-release/ledger-partnership"
+   },
+   {
+    "label": "The Cryptonomist, 24 septembre 2026",
+    "url": "https://en.cryptonomist.ch/2026/09/24/tokenized-stocks-cold-storage/"
+   },
+   {
+    "label": "Cryptoast, 25 septembre 2026",
+    "url": "https://cryptoast.fr/ledger-payward-kraken-partenariat-xstocks-actions-tokenisees-self-custody/"
+   }
+  ],
+  "addedAt": "2026-09-26T06:19:46Z"
+ },
+ {
+  "id": "kraken-2026-09-24-reap-visa",
+  "companyId": "kraken",
+  "date": "2026-09-24",
+  "title": "Reap, en cours de rachat par Payward, s'associe à Visa pour des cartes stablecoin dans plus de 100 marchés",
+  "summary": "Reap, la fintech de Hong Kong que Payward a accepté de racheter en mai, étend avec Visa ses programmes de cartes financées en stablecoins à plus de 100 marchés. Payward a relayé l'annonce sur son site.",
+  "detail": "Selon le communiqué, Visa affiche un rythme annuel de 20 milliards de dollars de règlements en stablecoins, en hausse de 15 fois sur un an, avec plus de 160 programmes de cartes. Reap emploie environ 300 personnes.\n\nLe communiqué ne précise pas si le rachat de Reap par Payward, annoncé en mai 2026 pour jusqu'à 600 millions de dollars, est finalisé. Payward liste toutefois Reap parmi ses services.",
+  "impact": "L'accord renforce la brique paiements et cartes stablecoin que Payward construit autour de Kraken.",
+  "signal": "optimiste",
+  "rationale": "Partenariat avec Visa qui donne de l'envergure à une acquisition stratégique de Payward.",
+  "sources": [
+   {
+    "label": "Payward, communiqué, 24 septembre 2026",
+    "url": "https://www.payward.com/press-release/reap-visa-stablecoin-card-programs-100-markets"
+   }
+  ],
+  "addedAt": "2026-09-26T06:19:46Z"
  },
  {
   "id": "kraken-2026-09-24-borrow-us",
@@ -332,6 +416,28 @@
   "title": "Erebor étudie une expansion en Syrie"
  },
  {
+  "id": "figure-ai-2026-09-21-boston-dynamics-atlas-rmac",
+  "companyId": "figure-ai",
+  "date": "2026-09-21",
+  "title": "Concurrent direct : Boston Dynamics ouvre un centre d'entraînement Atlas dans l'usine Hyundai de Géorgie",
+  "summary": "Boston Dynamics a mis en service un centre où ses humanoïdes Atlas apprennent des tâches automobiles, au sein de l'usine Hyundai près de Savannah. Hyundai vise 25 000 Atlas dans ses usines et Kia.",
+  "detail": "Le Robotics Metaplant Application Center (RMAC) est opérationnel sur le site Hyundai Motor Group Metaplant America. Les Atlas y apprennent d'abord la logistique et le séquencement de pièces avant assemblage, puis l'assemblage de composants d'ici 2030. Le déploiement en usine est prévu à partir de 2028.\n\nUn bâtiment environ dix fois plus grand doit accueillir le centre en 2027. Le groupe prépare aussi une capacité de production américaine de 30 000 robots par an. Boston Dynamics veut ensuite étendre la démarche à l'aéronautique, aux semi-conducteurs et à la logistique.",
+  "impact": "Boston Dynamics adossé à Hyundai avance sur le terrain de Figure : l'humanoïde en usine automobile, où Figure met en avant son déploiement chez BMW.",
+  "signal": "prudent",
+  "rationale": "Un concurrent direct dispose d'un client captif massif et d'un calendrier industriel chiffré.",
+  "sources": [
+   {
+    "label": "Humanoids Daily, 21 septembre 2026",
+    "url": "https://www.humanoidsdaily.com/news/boston-dynamics-atlas-rmac-training-center"
+   },
+   {
+    "label": "Automotive World, 22 septembre 2026",
+    "url": "https://www.automotiveworld.com/news/boston-dynamics-opens-atlas-training-hub-at-hyundai-plant/"
+   }
+  ],
+  "addedAt": "2026-09-26T06:19:46Z"
+ },
+ {
   "addedAt": "2026-09-24T12:00:00Z",
   "companyId": "mistral-ai",
   "date": "2026-09-21",
@@ -578,6 +684,46 @@
   "title": "Concurrent direct : le neocloud Nscale dépose son dossier d'introduction en Bourse"
  },
  {
+  "id": "lovable-2026-09-17-api-publique",
+  "companyId": "lovable",
+  "date": "2026-09-17",
+  "title": "Lovable ouvre une API publique pour piloter projets et espaces de travail",
+  "summary": "Lovable a publié une API REST qui permet d'automatiser la gestion des projets, des déploiements et des espaces de travail. Elle est réservée aux offres Business et Enterprise.",
+  "detail": "Selon le journal des mises à jour de Lovable, l'API est sortie le 17 septembre 2026. Elle permet de lister, modifier, publier ou supprimer des projets, de gérer les membres et de lire les statistiques d'un espace de travail.\n\nElle donne aussi accès aux analyses de sécurité et permet d'intégrer l'aperçu d'un projet dans un produit tiers via une URL valable une heure. La documentation présente la version v1 comme stable.\n\nLa création de clés d'API exige une offre Business ou Enterprise et un rôle d'administrateur. Lovable ne facture pas l'API à part.",
+  "impact": "Lovable devient une brique programmable que les entreprises peuvent brancher à leurs outils et à leurs agents, ce qui renforce son offre auprès des grands comptes.",
+  "signal": "neutre",
+  "rationale": "Lancement utile pour la conquête des entreprises, mais sans chiffre d'adoption ni couverture presse à ce stade.",
+  "sources": [
+   {
+    "label": "Lovable, journal des mises à jour, 17 septembre 2026",
+    "url": "https://docs.lovable.dev/changelog"
+   },
+   {
+    "label": "Lovable, documentation de l'API, septembre 2026",
+    "url": "https://docs.lovable.dev/integrations/lovable-api"
+   }
+  ],
+  "addedAt": "2026-09-26T06:19:46Z"
+ },
+ {
+  "id": "polymarket-2026-09-17-recrutement-jacob-horne",
+  "companyId": "polymarket",
+  "date": "2026-09-17",
+  "title": "Polymarket recrute Jacob Horne, ex-patron de Zora, pour relancer son produit onchain",
+  "summary": "Shayne Coplan a annoncé sur X l'arrivée de Jacob Horne, ancien dirigeant de Zora Labs. Il travaillera avec lui sur le produit, en priorité sur la plateforme DeFi internationale.",
+  "detail": "Ce recrutement répond aux critiques d'utilisateurs historiques. Selon eux, le produit onchain a été délaissé au profit de la plateforme américaine régulée. Polymarket fonctionne désormais avec deux environnements distincts : l'international en crypto et le marché américain régulé par la CFTC.\n\nChez Zora, Horne a développé des applications grand public onchain, dont les creator coins. Coplan a promis une réunion publique avec les utilisateurs DeFi, sans date annoncée.",
+  "impact": "Polymarket tente de reconquérir sa base crypto alors que Kalshi domine largement les volumes des marchés prédictifs.",
+  "signal": "neutre",
+  "rationale": "Renfort produit notable, mais qui signale aussi un retard reconnu sur l'offre onchain.",
+  "sources": [
+   {
+    "label": "The Coin Republic, 18 septembre 2026",
+    "url": "https://www.thecoinrepublic.com/2026/09/18/polymarket-hires-zora-founder-jacob-horne-for-major-defi-push/"
+   }
+  ],
+  "addedAt": "2026-09-26T06:19:46Z"
+ },
+ {
   "id": "stripe-2026-09-17-world-money",
   "companyId": "stripe",
   "date": "2026-09-17",
@@ -686,6 +832,46 @@
   ],
   "summary": "Nouvelle version du modèle maison, capable de généraliser sans entraînement spécifique à des domiciles inconnus.",
   "title": "Helix 2.5 : les robots Figure travaillent dans 30 maisons jamais vues"
+ },
+ {
+  "id": "kraken-2026-09-16-perps-hyperliquid",
+  "companyId": "kraken",
+  "date": "2026-09-16",
+  "title": "Payward veut ouvrir les contrats perpétuels onchain de Hyperliquid aux clients américains",
+  "summary": "Payward, maison mère de Kraken, prévoit de proposer aux clients américains des contrats perpétuels onchain sur Hyperliquid. Le projet s'appuie sur Bitnomial et NinjaTrader et reste soumis à l'aval des régulateurs.",
+  "detail": "Les marchés seraient lancés via le dispositif HIP-3 de Hyperliquid, qui permet de déployer des marchés perpétuels avec accès restreint. Bitnomial, bourse et chambre de compensation régulées par la CFTC, créerait et compenserait les contrats. NinjaTrader Clearing porterait les comptes clients.\n\nSeuls les comptes validés par NinjaTrader et Bitnomial pourraient négocier. Payward n'a donné ni date de lancement, ni grille tarifaire, ni volume attendu. Le groupe revendique 6,6 millions de comptes financés au 30 juin 2026.",
+  "impact": "Kraken capitalise sur ses rachats de Bitnomial et NinjaTrader pour se positionner en premier acteur régulé américain sur les perpétuels onchain.",
+  "signal": "optimiste",
+  "rationale": "Nouveau produit à fort potentiel sur un marché américain encore fermé, mais sans calendrier et soumis à approbation.",
+  "sources": [
+   {
+    "label": "Payward, communiqué, 16 septembre 2026",
+    "url": "https://www.payward.com/press-release/payward-hyperliquid-onchain-perpetual-futures"
+   },
+   {
+    "label": "CoinDesk, 16 septembre 2026",
+    "url": "https://www.coindesk.com/markets/2026/09/16/payward-plans-to-offer-u-s-clients-onchain-perpetual-futures-on-hyperliquid"
+   }
+  ],
+  "addedAt": "2026-09-26T06:19:46Z"
+ },
+ {
+  "id": "kraken-2026-09-16-wallet-defi-earn",
+  "companyId": "kraken",
+  "date": "2026-09-16",
+  "title": "Kraken refond son portefeuille auto-hébergé et y intègre DeFi Earn",
+  "summary": "Kraken lance une nouvelle version de Kraken Wallet, son portefeuille en auto-conservation. Elle intègre des coffres de rendement DeFi Earn et de nouvelles options de conservation.",
+  "detail": "Le portefeuille propose trois modes : phrase de récupération locale, portefeuille intégré avec connexion par email, Apple ou Google, ou les deux. Il simule les transactions et bloque les interactions jugées malveillantes avant signature.\n\nLes échanges de jetons passent par sept agrégateurs, dont Uniswap, Jupiter et CowSwap. L'application est disponible sur iOS, Android et web, avec un lien direct vers la plateforme Kraken. Aucun chiffre d'utilisateurs n'est communiqué.",
+  "impact": "Kraken renforce son offre onchain face aux portefeuilles des autres grandes plateformes et cherche à capter le rendement DeFi de ses clients.",
+  "signal": "neutre",
+  "rationale": "Mise à jour produit utile mais sans chiffres de traction publiés.",
+  "sources": [
+   {
+    "label": "Blog Kraken, 16 septembre 2026",
+    "url": "https://blog.kraken.com/product/kraken-wallet/self-custody-with-defi-earn"
+   }
+  ],
+  "addedAt": "2026-09-26T06:19:46Z"
  },
  {
   "id": "polymarket-2026-09-16-hub-midterms",
