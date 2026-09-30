@@ -1,11 +1,11 @@
-# Alerte si la veille ne tourne plus : la tâche planifiée passe à 06h, 11h et 16h UTC.
+# Alerte si la veille ne tourne plus : la tâche planifiée passe du lundi au vendredi à 06h et 12h UTC.
 # 1h30 après chaque passage, ce workflow vérifie que radar-site/data/status.json a été mis à jour.
 # S'il échoue, GitHub envoie un e-mail (notifications Actions du compte).
 name: Veille - surveillance
 
 on:
   schedule:
-    - cron: '30 7,12,17 * * *'
+    - cron: '30 7,13 * * 1-5'
   workflow_dispatch:
 
 permissions:
