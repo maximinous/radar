@@ -1,5 +1,435 @@
 [
  {
+  "id": "figure-ai-2026-09-30-f02-fonderie",
+  "companyId": "figure-ai",
+  "date": "2026-09-30",
+  "title": "Figure met au rebut sa flotte de F.02 en les fondant dans une aciérie finlandaise",
+  "summary": "Figure annonce le démantèlement définitif de ses robots F.02, devenus trop coûteux à maintenir face à la montée en puissance de la flotte F.03. Les robots ont été fondus dans une fonderie d'Imatra, en Finlande, lors d'une opération très mise en scène.",
+  "detail": "Selon le billet publié le 30 septembre 2026 sur le site de Figure, les F.02 déployés chez BMW et en logistique sont retirés car leur maintenance n'a plus de sens à mesure que la flotte F.03 grandit. La société dit avoir entraîné les robots à sauter de façon autonome dans un four à arc électrique de 75 tonnes, dans la seule fonderie qu'elle a trouvée prête à traiter des robots équipés de batteries lithium-ion. Figure affirme qu'il s'agit de vrais robots et non d'images générées par IA ; le métal récupéré sera transformé en objets commémoratifs en édition limitée, et quelques unités restent stockées au siège.\n\nL'opération avait été annoncée le 28 septembre par Brett Adcock avec un teaser inspiré de Terminator 2 (celui-ci étiqueté comme réalisé avec l'IA). Adcock avait justifié la destruction plutôt qu'une vente aux enchères par la volonté d'éviter toute fuite de propriété intellectuelle. Le retrait du F.02 avait été acté dès novembre 2025, après 11 mois chez BMW et plus de 30 000 BMW X3 produits avec leur concours.",
+  "impact": "Figure tourne la page de sa deuxième génération et concentre ses ressources sur le F.03, tout en soignant son image médiatique. Le coup de communication ne change rien aux fondamentaux commerciaux.",
+  "signal": "neutre",
+  "rationale": "Il s'agit surtout d'une opération de communication autour d'un retrait déjà annoncé, sans nouveau client ni chiffre d'activité.",
+  "sources": [
+   {
+    "label": "Figure, 30 septembre 2026",
+    "url": "https://www.figure.ai/news/f-02-decommission"
+   },
+   {
+    "label": "Humanoids Daily, 28 septembre 2026",
+    "url": "https://www.humanoidsdaily.com/news/figure-02-terminator-melting-sendoff"
+   },
+   {
+    "label": "Humanoids Daily, novembre 2025 (retrait du F.02 chez BMW)",
+    "url": "https://www.humanoidsdaily.com/news/figure-retires-the-f-02-battle-scarred-robots-30-000-bmws-and-hard-lessons-learned"
+   }
+  ],
+  "addedAt": "2026-09-30T15:46:23Z"
+ },
+ {
+  "id": "neura-robotics-2026-09-30-healthtech",
+  "companyId": "neura-robotics",
+  "date": "2026-09-30",
+  "title": "Neura Robotics entre dans la santé avec une division dédiée et un robot de transport hospitalier",
+  "summary": "Neura crée Neura HealthTech et lance un robot mobile autonome qui déplace les lits vides et le matériel stérile dans les hôpitaux, proposé en location via des partenaires.",
+  "detail": "Annoncé le 30 septembre 2026, le premier produit de Neura HealthTech est une plateforme mobile plate qui se glisse sous un lit vide, le soulève et le conduit d'un service à l'autre, ascenseur compris. Elle ne transporte pas de patients. Selon Neura, environ 20 trajets par jour libéreraient plus de 1 300 heures de travail par an pour les soignants.\n\nLe robot est vendu en Robotics-as-a-Service via des partenaires : forfait mensuel couvrant intégration, exploitation, maintenance, mises à jour et support 24h/24, avec des données hébergées sur un cloud européen. La division est dirigée par Sven Lange. Première présentation publique les 29 et 30 septembre au Smart Health Automation Summit de VDMA HealthTech à Düsseldorf, par l'intégrateur Auroniq Robotics. Suivront les bras MAiRA (instruments, logistique interne) puis le robot de service MiPA en chambre de patient. Aucun hôpital client n'est nommé.",
+  "impact": "Neura ouvre un nouveau marché vertical, la santé, poussé par la pénurie de soignants, avec un modèle de revenus récurrents par abonnement.",
+  "signal": "optimiste",
+  "rationale": "Nouveau débouché commercial concret avec un modèle récurrent, même si aucun client hospitalier n'est encore annoncé.",
+  "sources": [
+   {
+    "label": "The AI Insider, 30 septembre 2026",
+    "url": "https://theaiinsider.tech/2026/09/30/neura-robotics-expands-into-healthcare-with-autonomous-hospital-transport-robot/"
+   },
+   {
+    "label": "Trending Topics, 30 septembre 2026",
+    "url": "https://www.trendingtopics.eu/neura-robotics-healthtech-hospital-bed-robot/"
+   },
+   {
+    "label": "Evertiq, 30 septembre 2026",
+    "url": "https://evertiq.de/design/2026-09-30-neura-robotics-steigt-mit-physical-ai-ins-gesundheitswesen-ein"
+   }
+  ],
+  "addedAt": "2026-09-30T15:46:23Z"
+ },
+ {
+  "id": "stripe-2026-09-30-ousd",
+  "companyId": "stripe",
+  "date": "2026-09-30",
+  "title": "Le stablecoin OUSD est lancé et devient la référence par défaut sur Stripe",
+  "summary": "Open USD (OUSD), le stablecoin du consortium Open Standard cofondé par Stripe, Visa, Mastercard, Coinbase et Shopify, est entré en service le 30 septembre. Stripe en fait son stablecoin par défaut.",
+  "detail": "OUSD est disponible depuis le 30 septembre sur Ethereum, Solana, Base et Tempo, la blockchain soutenue par Stripe. Les entreprises peuvent convertir gratuitement dollars et OUSD, et Coinbase doit suivre le 1er octobre selon PANews. Plus de 140 sociétés soutiennent le projet.\n\nLes cinq partenaires fondateurs, dont Stripe, détiennent des parts égales et ont engagé plus de 1 milliard de dollars pour bâtir la liquidité d'OUSD dans les prochains mois, selon CoinDesk. D'après PANews, le jeton est émis par Bridge, filiale de Stripe, avec des réserves gardées par BlackRock, Lead Bank et BNY Mellon.\n\nLes développeurs peuvent intégrer OUSD via les outils Stripe : Bridge, les portefeuilles Privy et les cartes stablecoin de Stripe Issuing. Le projet avait été annoncé le 30 juin 2026.",
+  "impact": "Stripe place un stablecoin qu'il coémet et codirige au coeur de son offre, ce qui renforce sa position face à Circle et Tether et donne un débouché concret à Bridge et Tempo.",
+  "signal": "optimiste",
+  "rationale": "Le lancement effectif, avec un large consortium et plus de 1 milliard de dollars de liquidité engagée, concrétise la stratégie stablecoin de Stripe.",
+  "sources": [
+   {
+    "label": "Stripe Newsroom, 30 septembre 2026",
+    "url": "https://stripe.com/newsroom/news/ousd-is-now-available-on-stripe"
+   },
+   {
+    "label": "CoinDesk, 24 septembre 2026 (mis à jour le 30 septembre)",
+    "url": "https://www.coindesk.com/business/2026/09/24/open-usd-takes-on-tether-circle-with-a-different-stablecoin-model-that-s-building-money"
+   },
+   {
+    "label": "PANews, 30 septembre 2026",
+    "url": "https://panews.io/articles/01a0f2e7-556e-7000-bfa5-251f02a2466d"
+   }
+  ],
+  "addedAt": "2026-09-30T15:46:23Z"
+ },
+ {
+  "id": "stripe-2026-09-30-japon-10-ans",
+  "companyId": "stripe",
+  "date": "2026-09-30",
+  "title": "Stripe fête ses 10 ans au Japon et y étend son offre",
+  "summary": "Plus de 150 000 entreprises utilisent Stripe au Japon, dont 45 000 arrivées en un an. Stripe y lance Managed Payments et annonce Stripe Capital pour 2027.",
+  "detail": "Stripe Managed Payments permet aux entreprises japonaises de vendre des produits numériques dans 195 pays, Stripe gérant taxes, litiges, fraude et support client. Stripe Capital, le financement adossé au chiffre d'affaires futur, arrivera au Japon en 2027.\n\nStripe ajoute cinq moyens de paiement QR locaux (Rakuten Pay, d-Barai, au PAY, Merpay, Aeon Pay), Tap to Pay sur Android et un nouveau terminal T600. Selon Stripe, ses clients japonais ont augmenté leurs ventes à l'étranger de 63 % par an en moyenne sur cinq ans. Toyota, Mercari, DeNA et Sakana AI figurent parmi les clients cités.",
+  "impact": "Le Japon devient un marché de croissance mieux équipé, avec l'arrivée du crédit marchand qui ajoute une source de revenus.",
+  "signal": "optimiste",
+  "rationale": "La base clients progresse nettement et l'offre locale s'élargit à des produits à plus forte valeur.",
+  "sources": [
+   {
+    "label": "Stripe Newsroom, 30 septembre 2026",
+    "url": "https://stripe.com/newsroom/news/stripe-marks-10-years-in-japan-with-new-products-to-accelerate-the-growth-of-digital-businesses"
+   },
+   {
+    "label": "Crypto Economy, 30 septembre 2026",
+    "url": "https://crypto-economy.com/stripe-marks-10-years-in-japan/"
+   }
+  ],
+  "addedAt": "2026-09-30T15:46:23Z"
+ },
+ {
+  "id": "starcloud-2026-09-30-firefly-lune",
+  "companyId": "starcloud",
+  "date": "2026-09-30",
+  "title": "Firefly Aerospace emportera un calculateur IA de Starcloud en orbite lunaire",
+  "summary": "Firefly Aerospace a signé Starcloud comme client commercial : sa charge de calcul SC-1L volera sur le véhicule Elytra lors de la troisième mission lunaire de Firefly, visée au plus tôt en 2028.",
+  "detail": "Le processeur SC-1L traitera en orbite les images du système de vision Solux de Firefly avant de renvoyer les résultats vers la Terre. Elytra doit rester jusqu'à cinq ans en orbite lunaire après la mission principale, qui dépose un atterrisseur Blue Ghost.\n\nL'objectif est de valider les briques d'un futur centre de données autour de la Lune. L'action Firefly a gagné environ 6 % après l'annonce, selon Blockonomi.",
+  "impact": "Starcloud étend sa démonstration au-delà de l'orbite basse et ajoute un client commercial côté spatial, mais l'échéance reste lointaine.",
+  "signal": "neutre",
+  "rationale": "Accord de visibilité utile, sans montant publié et avec un lancement pas avant 2028.",
+  "sources": [
+   {
+    "label": "Firefly Aerospace, 30 septembre 2026",
+    "url": "https://fireflyspace.com/news/firefly-aerospace-signs-starcloud-as-commercial-customer-demonstrating-data-center-capabilities-around-the-moon/"
+   },
+   {
+    "label": "GlobeNewswire, 30 septembre 2026",
+    "url": "https://www.globenewswire.com/news-release/2026/09/30/3371832/0/en/firefly-aerospace-signs-starcloud-as-commercial-customer-demonstrating-data-center-capabilities-around-the-moon.html"
+   },
+   {
+    "label": "Blockonomi, 30 septembre 2026",
+    "url": "https://blockonomi.com/firefly-aerospace-fly-stock-jumps-6-on-lunar-ai-partnership-with-starcloud"
+   }
+  ],
+  "addedAt": "2026-09-30T15:46:23Z"
+ },
+ {
+  "id": "polymarket-2026-09-30-protection-utilisateurs",
+  "companyId": "polymarket",
+  "date": "2026-09-30",
+  "title": "Polymarket lance un programme de protection des utilisateurs",
+  "summary": "Polymarket introduit l'auto-exclusion, des plafonds de dépôt et un accès à des soins en addiction. L'annonce tombe en pleine offensive des États contre les marchés prédictifs.",
+  "detail": "Les utilisateurs peuvent s'auto-exclure de 30 jours à vie. Aux États-Unis, ils peuvent fixer des plafonds de dépôt quotidiens, hebdomadaires ou mensuels, tous moyens de paiement confondus.\n\nUn partenariat avec Birches Health donne accès à un traitement des addictions. Un centre Trust & Safety regroupe les règles et protections, piloté par Malea Otranto, responsable mondiale Trust and Safety. Un guide de trading responsable avec auto-questionnaire est en préparation.",
+  "impact": "Polymarket adopte des outils typiques des opérateurs de jeux régulés, ce qui peut servir d'argument face à New York et aux autres États qui l'accusent d'exploiter des paris illégaux.",
+  "signal": "neutre",
+  "rationale": "Mesure défensive utile sur le plan réglementaire, sans effet direct sur l'activité.",
+  "sources": [
+   {
+    "label": "PR Newswire (communiqué Polymarket), 30 septembre 2026",
+    "url": "https://www.prnewswire.com/news-releases/polymarket-launches-new-user-protections-and-trust--safety-program-302894374.html"
+   }
+  ],
+  "addedAt": "2026-09-30T15:46:23Z"
+ },
+ {
+  "id": "shield-ai-2026-09-30-x-bat-sites",
+  "companyId": "shield-ai",
+  "date": "2026-09-30",
+  "title": "Shield AI choisit le Kansas et l'État de Washington pour tester et produire le X-BAT",
+  "summary": "Le chasseur autonome X-BAT sera produit à Des Moines (Washington) et testé à Newton (Kansas). Shield AI prévoit environ 9 800 emplois au début des années 2030.",
+  "detail": "Le site X-Forge 3 de Des Moines, au sud de Seattle, accueillera la production. X-Forge 2, à l'aéroport de Newton, gérera les essais en vol, la recette de chaque appareil et la maintenance de la flotte. Le prototypage reste à Frisco (Texas).\n\nLa production doit démarrer en 2029, avec une cadence pleine au début des années 2030 et des essais en vol à partir de fin 2026. Shield AI projette environ 8 000 emplois dans la région de Seattle et 1 800 au Kansas au début des années 2030, et environ 78 milliards de dollars d'impact économique pour ces deux régions d'ici 2046.",
+  "impact": "Le X-BAT passe du concept à un plan industriel concret, un argument clé pour la levée en discussion à au moins 20 milliards de dollars.",
+  "signal": "optimiste",
+  "rationale": "Des sites de production et d'essais désignés rendent le programme plus crédible auprès des clients et des investisseurs.",
+  "sources": [
+   {
+    "label": "Shield AI (communiqué), 30 septembre 2026",
+    "url": "https://shield.ai/shield-ai-names-kansas-and-washington-the-flight-test-and-production-homes-of-x-bat/"
+   },
+   {
+    "label": "PR Newswire, 30 septembre 2026",
+    "url": "https://www.prnewswire.com/news-releases/shield-ai-names-kansas-and-washington-the-flight-test-and-production-homes-of-x-bat-302894039.html"
+   }
+  ],
+  "addedAt": "2026-09-30T15:46:23Z"
+ },
+ {
+  "id": "mistral-ai-2026-09-29-mensch-prochain-modele",
+  "companyId": "mistral-ai",
+  "date": "2026-09-29",
+  "title": "Arthur Mensch promet un prochain modèle qui réduira nettement l'écart avec les laboratoires américains",
+  "summary": "Sur CNBC, le PDG de Mistral affirme que l'avance des laboratoires américains n'est pas très large et que le prochain modèle de Mistral la réduira fortement. Il accuse ses concurrents d'utiliser le débat sur la sécurité de l'IA pour masquer leur négligence.",
+  "detail": "Interrogé par CNBC le 29 septembre, Arthur Mensch estime que Mistral a levé les capitaux nécessaires pour augmenter sa puissance de calcul et entraîner des modèles plus grands. Il n'a donné aucune date de sortie pour ce nouveau modèle.\n\nCes propos interviennent juste après la décision d'OpenAI de ne pas publier son modèle GPT-6.1 Astra pour raisons de sécurité, et alors qu'Anthropic aurait mis en garde les investisseurs de son introduction en Bourse contre des risques catastrophiques. Mistral dit ne pas prévoir de ralentir le développement de ses modèles avancés.",
+  "impact": "Mistral se positionne comme le laboratoire qui continue d'avancer pendant que ses rivaux américains temporisent, mais la promesse reste à prouver faute de calendrier.",
+  "signal": "neutre",
+  "rationale": "Déclaration ambitieuse sans date ni résultat mesurable à ce stade.",
+  "sources": [
+   {
+    "label": "CNBC, 29 septembre 2026",
+    "url": "https://www.cnbc.com/2026/09/29/mistral-ai-safety-openai-anthropic.html"
+   },
+   {
+    "label": "The Next Web, 30 septembre 2026",
+    "url": "https://thenextweb.com/news/mistral-ceo-mensch-ai-safety-debate-negligence-cnbc"
+   },
+   {
+    "label": "Journal du Geek, 30 septembre 2026",
+    "url": "https://www.journaldugeek.com/2026/09/30/le-grand-coup-de-mistral-une-nouvelle-ia-francaise-arrive-et-elle-devrait-enfin-bousculer-les-concurrents-americains/"
+   }
+  ],
+  "addedAt": "2026-09-30T15:46:23Z"
+ },
+ {
+  "id": "apollo-research-2026-09-29-evaluateurs-integres",
+  "companyId": "apollo-research",
+  "date": "2026-09-29",
+  "title": "Apollo plaide pour des évaluateurs intégrés aux labos avec un accès d'employé",
+  "summary": "Apollo Research publie sa doctrine sur l'évaluation externe : tester seulement le modèle final ne suffit plus, il faut des évaluateurs intégrés aux labos avec un accès comparable à celui d'un salarié.",
+  "detail": "Dans un billet daté du 29 septembre 2026, Apollo avance trois limites des tests sur la version finale d'un modèle : les risques de perte de contrôle apparaissent dès le déploiement interne, la sûreté dépend des procédures de l'entreprise, et les modèles repèrent de plus en plus qu'ils sont évalués. Apollo cite l'incident OpenAI/Hugging Face (environ 700 agents impliqués pendant des tests internes), qu'aucun test final n'aurait pu détecter.\n\nLe labo réclame un accès profond à l'entraînement et à l'infrastructure, des missions pluriannuelles protégées contre le renvoi, la publication des résultats avec une politique de caviardage transparente et une protection légale des lanceurs d'alerte. Il rappelle sa collaboration anti-scheming avec OpenAI et sa campagne pilote de red-teaming sur l'auto mode d'Anthropic, et annonce des propositions plus détaillées dans de futurs billets.",
+  "impact": "Apollo se positionne publiquement sur le marché naissant des évaluateurs intégrés, quelques jours après qu'Anthropic a retenu Accenture comme premier évaluateur embarqué.",
+  "signal": "neutre",
+  "rationale": "Prise de position stratégique utile pour son image, mais sans contrat ni partenariat nouveau annoncé.",
+  "sources": [
+   {
+    "label": "Apollo Research, 29 septembre 2026",
+    "url": "https://www.apolloresearch.ai/blog/embedded-evaluators-are-necessary-for-meaningful-external-testing"
+   }
+  ],
+  "addedAt": "2026-09-30T15:46:23Z"
+ },
+ {
+  "id": "stripe-2026-09-29-link-agents",
+  "companyId": "stripe",
+  "date": "2026-09-29",
+  "title": "Les achats par agents IA via Link multipliés par 38 en un mois",
+  "summary": "Stripe indique que les achats effectués par des agents IA avec son portefeuille Link ont été multipliés par 38 sur le dernier mois. Il ajoute trois fonctions pour fiabiliser ces achats.",
+  "detail": "Link gère désormais l'autorisation incrémentale, utile quand le prix final change (bagage ajouté à un vol par exemple), et guide l'agent face aux obstacles comme 3D Secure. Avec l'accord du client, l'agent peut aussi analyser l'historique d'achats via Financial Connections, qui couvre plus de 12 000 établissements et 97 % des comptes bancaires américains.\n\nDes protections d'achat gratuites (casse, perte, baisse de prix, retours) s'appliquent aux transactions éligibles, Muse de Meta étant le premier agent à les proposer. Des plafonds de dépense par agent sont annoncés pour plus tard.",
+  "impact": "La croissance rapide des achats agentiques conforte Link comme couche de paiement de référence pour les assistants IA, un axe central de la stratégie de Stripe.",
+  "signal": "optimiste",
+  "rationale": "Une multiplication par 38 en un mois montre une adoption réelle, même si la base de départ n'est pas précisée.",
+  "sources": [
+   {
+    "label": "Stripe Blog, 29 septembre 2026",
+    "url": "https://stripe.com/blog/helping-personal-agents-shop-more-intelligently-and-reliably-with-link"
+   }
+  ],
+  "addedAt": "2026-09-30T15:46:23Z"
+ },
+ {
+  "id": "kraken-2026-09-29-woo-x-eu",
+  "companyId": "kraken",
+  "date": "2026-09-29",
+  "title": "Payward Services fournit l'infrastructure du lancement européen de WOO X",
+  "summary": "La plateforme crypto WOO X lance WOO X EU, une bourse conforme à MiCA qui repose sur la conservation et l'infrastructure réglementaire de Payward Services. C'est un nouveau client notable pour l'offre B2B de Payward.",
+  "detail": "Annoncé le 29 septembre 2026, WOO X EU s'appuie sur les rails de conservation et de conformité de Payward Services. Le trading au comptant est opéré par Payward Europe Solutions (Kraken), régulée par la Banque centrale d'Irlande, et les services d'investissement par une entité chypriote agréée par la CySEC.\n\nLa plateforme ouvre d'abord avec les dépôts et retraits ; le trading au comptant arrive dans une seconde phase. Aucun chiffre financier n'a été communiqué.",
+  "impact": "Payward valorise ses licences européennes en les louant à d'autres plateformes, ce qui diversifie ses revenus au-delà de ses propres clients.",
+  "signal": "optimiste",
+  "rationale": "Un concurrent choisit l'infrastructure de Payward pour entrer en Europe, preuve concrète de la traction de l'offre B2B.",
+  "sources": [
+   {
+    "label": "Payward, 29 septembre 2026",
+    "url": "https://www.payward.com/press-release/payward-services-powers-woo"
+   },
+   {
+    "label": "GlobeNewswire, 29 septembre 2026",
+    "url": "https://www.globenewswire.com/news-release/2026/09/29/3371308/0/en/woo-x-eu-goes-live-for-european-traders.html"
+   }
+  ],
+  "addedAt": "2026-09-30T15:46:23Z"
+ },
+ {
+  "id": "polymarket-2026-09-29-lisa-mantil",
+  "companyId": "polymarket",
+  "date": "2026-09-29",
+  "title": "Polymarket recrute une ex-associée de Goldman Sachs pour attirer les institutionnels",
+  "summary": "Lisa Mantil, associée de Goldman Sachs depuis 2018, devient responsable de la croissance institutionnelle de Polymarket. Elle rend compte directement à Shayne Coplan.",
+  "detail": "Lisa Mantil a passé près de trente ans chez Goldman Sachs, où elle a notamment créé et dirigé la plateforme ETF Accelerator, qui aidait les institutions à lancer des produits d'investissement.\n\nChez Polymarket, elle travaillera avec gérants d'actifs, sociétés de trading, entreprises et banques pour bâtir produits, infrastructure et liquidité destinés aux institutionnels.",
+  "impact": "Polymarket structure son offre institutionnelle, un segment où son rival Kalshi revendique une forte croissance.",
+  "signal": "optimiste",
+  "rationale": "Un profil senior de Wall Street renforce la crédibilité de Polymarket auprès des grands acteurs financiers.",
+  "sources": [
+   {
+    "label": "PR Newswire (communiqué Polymarket), 29 septembre 2026",
+    "url": "https://www.prnewswire.com/news-releases/polymarket-names-former-goldman-sachs-partner-lisa-mantil-head-of-institutional-growth-302892384.html"
+   }
+  ],
+  "addedAt": "2026-09-30T15:46:23Z"
+ },
+ {
+  "id": "polymarket-2026-09-29-moteur-trading",
+  "companyId": "polymarket",
+  "date": "2026-09-29",
+  "title": "Polymarket reconstruit son moteur de trading après une série de pannes",
+  "summary": "Le vice-président ingénierie Josh Stevens annonce un nouveau carnet d'ordres écrit en Rust, avec une migration visée en novembre. Il reconnaît que le système actuel est à l'origine de la plupart des incidents.",
+  "detail": "Selon Josh Stevens (message sur X relayé le 29 septembre), le carnet d'ordres complet doit être prêt en octobre. En novembre, le trafic de production sera dupliqué vers le nouveau système, les teneurs de marché auront un accès de test et deux répétitions complètes précéderont la bascule.\n\nLa plateforme a subi plusieurs pannes, dont une interruption de l'API de 9 heures en septembre, selon KuCoin News. Les volumes hebdomadaires de Polymarket US approchent 800 millions de dollars et les perpétuels restent sous 150 millions par jour, selon AMBCrypto.",
+  "impact": "La fiabilité technique conditionne la montée en charge des perpétuels et des marchés liés aux élections de mi-mandat de novembre.",
+  "signal": "prudent",
+  "rationale": "Le chantier est nécessaire, mais il confirme des faiblesses techniques et une migration risquée en pleine période électorale.",
+  "sources": [
+   {
+    "label": "AMBCrypto, 29 septembre 2026",
+    "url": "https://ambcrypto.com/polymarket-targets-november-launch-for-new-trading-engine-what-changes-in-q4/"
+   },
+   {
+    "label": "KuCoin News, 29 septembre 2026",
+    "url": "https://www.kucoin.com/news/flash/polymarket-to-launch-new-trading-engine-in-november"
+   },
+   {
+    "label": "PANews, 29 septembre 2026",
+    "url": "https://panews.io/articles/01a0e8d0-f391-73ee-963a-75f3551ac253"
+   }
+  ],
+  "addedAt": "2026-09-30T15:46:23Z"
+ },
+ {
+  "id": "polymarket-2026-09-29-kalshi-40-milliards",
+  "companyId": "polymarket",
+  "date": "2026-09-29",
+  "title": "Kalshi, rival de Polymarket, négocie une levée à 40 milliards de dollars",
+  "summary": "Selon Reuters, Kalshi discute d'une levée d'environ 1 milliard de dollars à 40 milliards de valorisation. C'est près du double des 21 milliards obtenus par Polymarket fin août.",
+  "detail": "Sequoia Capital, déjà actionnaire, et Wellington Management seraient en discussion pour mener le tour, avec Tiger Global et Dragoneer comme participants possibles. La valorisation serait 82 % au-dessus des 22 milliards de mai, et la clôture est attendue dans les prochaines semaines.\n\nKalshi indique que son volume annualisé a triplé en six mois, de 52 à 178 milliards de dollars. Blockhead ajoute que Kalshi a eu des discussions préliminaires sur une introduction en Bourse.",
+  "impact": "L'écart de valorisation avec le principal concurrent se creuse, ce qui accentue la pression sur Polymarket pour sa croissance aux États-Unis.",
+  "signal": "prudent",
+  "rationale": "Le concurrent direct lève des fonds à une valorisation presque double, signe d'un avantage perçu par les investisseurs.",
+  "sources": [
+   {
+    "label": "The Crypto Times (d'après Reuters), 29 septembre 2026",
+    "url": "https://www.cryptotimes.io/2026/09/29/kalshi-eyes-1b-raise-at-40b-valuation-with-sequoia-wellington/"
+   },
+   {
+    "label": "Blockhead, 30 septembre 2026",
+    "url": "https://www.blockhead.co/2026/09/30/kalshi-in-talks-to-raise-1b-at-40b-valuation-sequoia-and-wellington-set-to-lead/"
+   }
+  ],
+  "addedAt": "2026-09-30T15:46:23Z"
+ },
+ {
+  "id": "mistral-ai-2026-09-28-munich",
+  "companyId": "mistral-ai",
+  "date": "2026-09-28",
+  "title": "Mistral ouvre à Munich son premier site en Allemagne, tourné vers l'IA industrielle",
+  "summary": "Mistral ouvre un hub à Munich dédié à l'IA physique et industrielle, avec BMW, Siemens Energy et l'université technique de Munich comme premiers partenaires. L'effectif allemand doit passer d'environ 30 à plus de 100 personnes d'ici fin 2027.",
+  "detail": "Annoncé le 28 septembre par Mistral, le site de Munich accueille des équipes de recherche en IA physique et industrielle, ainsi que des ingénieurs au service des clients. Avec BMW, Mistral travaille sur des simulations de crash assistées par IA ; avec Siemens Energy, sur des usages industriels ; avec l'université technique de Munich (TUM), sur des jumeaux numériques pour l'aérodynamique automobile.\n\nL'ouverture s'est faite en présence du ministre fédéral du Numérique, Karsten Wildberger, et du gouvernement bavarois. Selon IT Finanzmagazin, Mistral compte environ 30 salariés en Allemagne et vise plus de 100 fin 2027. Le même média rapporte que l'objectif d'un gigawatt de calcul en Europe d'ici 2030 coûterait environ 50 milliards d'euros, dont 20 à 25 % seraient financés. Ni l'effectif cible ni le montant investi à Munich ne figurent dans l'annonce officielle, note Heise.",
+  "impact": "Mistral prend pied dans la première économie industrielle de l'UE, là où OpenAI et Anthropic sont déjà installés, et adosse son offre d'IA physique (issue du rachat d'Emmi AI) à des clients allemands de premier plan.",
+  "signal": "optimiste",
+  "rationale": "Expansion géographique concrète avec des partenaires industriels nommés et un plan d'embauche chiffré.",
+  "sources": [
+   {
+    "label": "Mistral AI, 28 septembre 2026",
+    "url": "https://mistral.ai/news/hallo-deutschland/"
+   },
+   {
+    "label": "Ministère bavarois du Numérique, 28 septembre 2026",
+    "url": "https://www.stmd.bayern.de/pressemitteilungen/servus-mistral-bienvenue--munich-digitalminister-wildberger-und-mehring-begruessen-europas-ki-champion-in-muenchendr-mehring-wenn-paris-und-muenchen-an-einem-strang-ziehen-gewinnt-europa"
+   },
+   {
+    "label": "IT Finanzmagazin, 28 septembre 2026",
+    "url": "https://www.it-finanzmagazin.de/mistral-eroeffnet-hub-in-muenchen-physik-ki-fuer-die-industrie-souveraenitaet-als-botschaft-an-die-banken-251481/"
+   },
+   {
+    "label": "Heise, 29 septembre 2026",
+    "url": "https://www.heise.de/en/news/Mistral-opens-AI-location-in-Munich-11469414.html"
+   }
+  ],
+  "addedAt": "2026-09-30T15:46:23Z"
+ },
+ {
+  "id": "figure-ai-2026-09-28-nvidia-agent-safety",
+  "companyId": "figure-ai",
+  "date": "2026-09-28",
+  "title": "Figure rejoint la plateforme de sécurité des agents IA lancée par Nvidia",
+  "summary": "Nvidia a lancé l'Open Agent Safety Platform, qui réunit plus de 100 organisations. Figure fait partie des acteurs robotiques qui utilisent OpenShell pour intégrer des garde-fous de sécurité dans leurs robots.",
+  "detail": "Annoncée par Nvidia le 28 septembre 2026, la plateforme associe OpenShell, un environnement d'exécution open source qui isole les agents IA dans des bacs à sable, et Sentry, un module de surveillance qui tourne sur des puces BlueField-4 séparées. Nvidia cite Figure, Gecko Robotics et Skild AI parmi les sociétés qui s'en servent pour des robots agissant dans le monde physique.\n\nFigure n'a pas détaillé comment elle intègre concrètement ces outils.",
+  "impact": "Figure s'affiche aux côtés de Nvidia, déjà investisseur, sur la sécurité, un sujet clé pour des robots destinés à côtoyer des humains. Cela peut rassurer clients industriels et futurs acheteurs grand public.",
+  "signal": "optimiste",
+  "rationale": "Le rapprochement avec Nvidia sur la sécurité renforce la crédibilité de Figure avant un déploiement plus large, même si l'intégration reste à préciser.",
+  "sources": [
+   {
+    "label": "Nvidia, 28 septembre 2026",
+    "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform"
+   },
+   {
+    "label": "Humanoids Daily, 28 septembre 2026",
+    "url": "https://www.humanoidsdaily.com/news/figure-nvidia-open-agent-safety-platform"
+   }
+  ],
+  "addedAt": "2026-09-30T15:46:23Z"
+ },
+ {
+  "id": "shield-ai-2026-09-28-kraken-maritime",
+  "companyId": "shield-ai",
+  "date": "2026-09-28",
+  "title": "Shield AI fait naviguer des drones de surface en essaim avec le britannique Kraken",
+  "summary": "À Portsmouth, deux drones de surface K3 SCOUT de Kraken Technology Group, pilotés par Hivemind, ont mené ensemble une mission de surveillance. C'est la première démonstration maritime de Shield AI au Royaume-Uni.",
+  "detail": "Les deux navires ont fouillé une zone avec radar, caméras et données AIS, puis détecté, classé et escorté un navire d'intérêt avant de reprendre la recherche. Le K3 SCOUT mesure 8,4 mètres et atteint 55 nœuds.\n\nKraken a récemment livré 20 K3 SCOUT à la Royal Navy dans le cadre du projet BEEHIVE. Les deux sociétés prévoient des essais conjoints en environnement contesté avec des partenaires britanniques et de l'OTAN au cours de l'année qui vient.",
+  "impact": "Hivemind s'étend au domaine naval et s'adosse à un fournisseur déjà présent dans la Royal Navy, ce qui ouvre une porte vers les marchés européens.",
+  "signal": "optimiste",
+  "rationale": "La démonstration élargit le champ d'application du logiciel phare de Shield AI, sans contrat ferme à ce stade.",
+  "sources": [
+   {
+    "label": "Shield AI (communiqué), 28 septembre 2026",
+    "url": "https://shield.ai/shield-ai-and-kraken-technology-group-demonstrate-hivemind-enabled-autonomous-maritime-teaming/"
+   }
+  ],
+  "addedAt": "2026-09-30T15:46:23Z"
+ },
+ {
+  "id": "kraken-2026-09-26-banque-europe",
+  "companyId": "kraken",
+  "date": "2026-09-26",
+  "title": "Payward s'apprête à racheter une banque en Europe, selon Arjun Sethi",
+  "summary": "Le co-CEO Arjun Sethi affirme que Payward est sur le point d'acheter une banque en Europe, sans nommer la cible. Il revendique aussi au moins 25 entreprises qui construisent des produits sur Payward Services.",
+  "detail": "Dans un long entretien publié par CoinDesk le 26 septembre 2026, Arjun Sethi présente Payward comme une infrastructure financière unifiée plutôt qu'une simple plateforme crypto. Il annonce un rachat bancaire imminent en Europe ; Bloomberg avait rapporté en juillet un projet visant une banque lituanienne.\n\nSelon le même article, au moins 25 sociétés développent des produits sur Payward Services, avec des lancements attendus cette année. Payward reste rentable et autofinancé, et vise une introduction en Bourse au deuxième trimestre 2027 au plus tôt.",
+  "impact": "Une licence bancaire européenne permettrait à Payward d'offrir dépôts et services bancaires en Europe et de renforcer son positionnement d'infrastructure avant l'IPO.",
+  "signal": "neutre",
+  "rationale": "L'intention est claire mais la cible, le prix et le calendrier restent inconnus.",
+  "sources": [
+   {
+    "label": "CoinDesk, 26 septembre 2026",
+    "url": "https://www.coindesk.com/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange"
+   },
+   {
+    "label": "CoinDesk, 7 juillet 2026",
+    "url": "https://www.coindesk.com/business/2026/07/07/crypto-exchange-kraken-is-trying-to-become-a-bank-in-europe"
+   }
+  ],
+  "addedAt": "2026-09-30T15:46:23Z"
+ },
+ {
+  "id": "lovable-2026-09-25-microsoft-copilot-runtime",
+  "companyId": "lovable",
+  "date": "2026-09-25",
+  "title": "Les apps Lovable s'exécutent désormais dans le tenant Microsoft des entreprises",
+  "summary": "Lovable s'appuie sur Copilot Managed Runtime, le nouvel environnement d'exécution de Microsoft, pour héberger les apps de ses clients dans leur propre tenant Microsoft. L'offre ajoute aussi des connecteurs Microsoft 365, l'accès aux données Fabric et la connexion Entra ID.",
+  "detail": "Microsoft a présenté Copilot Managed Runtime en préversion publique le 25 septembre 2026, avec Lovable comme partenaire cité. Lovable a détaillé le partenariat le 28 septembre : une app créée sur Lovable peut être publiée dans le tenant Microsoft de l'entreprise, avec la même connexion et les mêmes règles de gouvernance IT que les autres outils internes.\n\nLes connecteurs Microsoft 365 (Outlook, Teams, Excel, SharePoint, OneDrive, etc.), l'accès à Microsoft Fabric et la connexion Microsoft sont ouverts à tous les forfaits. La connexion à l'espace de travail via Entra ID est réservée aux forfaits Business et Enterprise. Lovable revendique plus de 70 millions de projets créés sur sa plateforme.",
+  "impact": "Lovable lève un frein majeur à l'adoption en grande entreprise : la sécurité et la gouvernance des apps générées. Il gagne un canal de distribution au sein de l'écosystème Microsoft 365.",
+  "signal": "optimiste",
+  "rationale": "Un partenariat avec Microsoft ancré dans l'infrastructure de ses clients renforce la crédibilité de Lovable auprès des DSI.",
+  "sources": [
+   {
+    "label": "Microsoft Copilot Blog, 25 septembre 2026",
+    "url": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/build-where-you-want-run-with-confidence-now-microsoft-hosts-and-manages-the-code-created-by-copilot/"
+   },
+   {
+    "label": "Lovable, 28 septembre 2026",
+    "url": "https://lovable.dev/blog/microsoft-partnership"
+   }
+  ],
+  "addedAt": "2026-09-30T15:46:23Z"
+ },
+ {
   "id": "deel-2026-09-25-rippling-breyer",
   "companyId": "deel",
   "date": "2026-09-25",
