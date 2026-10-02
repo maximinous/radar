@@ -1,5 +1,23 @@
 [
  {
+  "id": "stripe-2026-10-02-dublin-200-emplois",
+  "companyId": "stripe",
+  "date": "2026-10-02",
+  "title": "Stripe annonce 200 emplois de plus à Dublin",
+  "summary": "Stripe prévoit de créer 200 postes supplémentaires dans son siège de Dublin. Ses effectifs irlandais dépassent désormais 1 000 personnes.",
+  "detail": "L'annonce a été relayée par RTÉ le 2 octobre 2026. Les effectifs de Stripe en Irlande ont progressé de plus de 35 % depuis le début de l'année.\n\nLa vice-présidente Eileen O'Mara explique cette hausse par une forte demande pour les produits de Stripe en Europe. Dublin sert de centre opérationnel pour la zone Europe, Moyen-Orient et Afrique, dans un bureau de 14 500 m² ouvert en octobre 2025.",
+  "impact": "Renforce les capacités opérationnelles de Stripe en Europe et confirme la croissance de son activité dans la région.",
+  "signal": "optimiste",
+  "rationale": "Les recrutements massifs traduisent une demande européenne soutenue.",
+  "sources": [
+   {
+    "label": "RTÉ, 2 octobre 2026",
+    "url": "https://rte.ie/news/2026/1002/1593722-stripe-jobs-dublin"
+   }
+  ],
+  "addedAt": "2026-10-02T06:20:37Z"
+ },
+ {
   "id": "apollo-research-2026-09-30-senate",
   "companyId": "apollo-research",
   "date": "2026-09-30",
