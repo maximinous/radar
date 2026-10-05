@@ -1,5 +1,63 @@
 [
  {
+  "id": "kraken-2026-10-05-sgb-settlement",
+  "companyId": "kraken",
+  "date": "2026-10-05",
+  "title": "Payward se connecte à SGB Net pour du règlement en dollars 24h/24",
+  "summary": "Payward s'intègre au réseau SGB Net de Singapore Gulf Bank pour offrir à certains clients institutionnels un règlement en dollars américains en continu.",
+  "detail": "Le service démarre avec des virements en dollars pour un groupe restreint de clients en Asie et dans le Golfe. SGB Net traite plus de 20 milliards de dollars par mois en monnaie fiat, contre 2 milliards en février 2026.\n\nSingapore Gulf Bank gagne de son côté Kraken Prime comme source de liquidité pour coter ses opérations en actifs numériques. D'autres devises et clients sont annoncés, sans calendrier. Cela suit l'arrangement similaire conclu en septembre avec SoFi pour les clients américains.",
+  "impact": "Payward étend son infrastructure de règlement hors heures bancaires vers l'Asie et le Golfe, un argument pour sa clientèle institutionnelle.",
+  "signal": "optimiste",
+  "rationale": "Nouvelle brique B2B et nouvelle zone géographique, même si le déploiement reste limité.",
+  "sources": [
+   {
+    "label": "crypto.news, 5 octobre 2026",
+    "url": "https://crypto.news/kraken-parent-payward-and-sgb-launch-24-7-settlement-for/"
+   }
+  ],
+  "addedAt": "2026-10-05T06:27:57Z"
+ },
+ {
+  "id": "figure-ai-2026-10-03-tesla-optimus-memoire",
+  "companyId": "figure-ai",
+  "date": "2026-10-03",
+  "title": "Concurrent direct : Tesla réduit la mémoire de sa puce AI5 pour produire Optimus en volume",
+  "summary": "Tesla ramène la mémoire de sa puce AI5 de 144 Go à 96 Go. Elon Musk dit que c'est le seul moyen d'avoir assez de volume pour Optimus.",
+  "detail": "Selon Not a Tesla App, l'AI5 passe de 144 Go à 96 Go de LPDDR5, et l'AI6 reçoit 144 Go de LPDDR6. Musk juge l'effet sur les performances d'Optimus négligeable, la bande passante étant le facteur limitant.\n\nSamsung a lancé une production d'essai de l'AI5 au Texas, avec une production de masse visée en 2027. Optimus et les clusters d'entraînement passent avant les véhicules pour ces puces.",
+  "impact": "Tesla cherche à industrialiser Optimus, le principal rival américain de Figure sur les humanoïdes. La pression sur les volumes et les coûts monte pour Figure.",
+  "signal": "neutre",
+  "rationale": "Un concurrent direct accélère sa production, mais l'article repose sur des déclarations de Musk non vérifiées de manière indépendante.",
+  "sources": [
+   {
+    "label": "Not a Tesla App, 3 octobre 2026",
+    "url": "https://notateslaapp.com/news/4763/tesla-cuts-ram-on-ai5-and-ai6-chips-to-boost-production"
+   }
+  ],
+  "addedAt": "2026-10-05T06:27:57Z"
+ },
+ {
+  "id": "kraken-2026-10-02-bny",
+  "companyId": "kraken",
+  "date": "2026-10-02",
+  "title": "BNY discute d'un partenariat d'infrastructure avec Payward, maison mère de Kraken",
+  "summary": "BNY et Payward négocieraient une alliance large sur les actifs numériques et les infrastructures de marché, selon CoinDesk. Rien n'est encore signé.",
+  "detail": "Le partenariat pourrait couvrir les produits crypto, la conservation, la gestion de fortune, le trading, les paiements et l'infrastructure, via Payward Services, la plateforme B2B du groupe. Une source le compare au volet infrastructure de l'accord récent avec Nasdaq.\n\nLes deux sociétés ont refusé de commenter et les discussions restent sans garantie d'aboutir. Information publiée le 2 octobre 2026.",
+  "impact": "Un accord avec une grande banque de conservation renforcerait la bascule de Payward vers l'infrastructure financière pour institutionnels, après les investissements de Nasdaq et les rachats récents.",
+  "signal": "optimiste",
+  "rationale": "Un partenaire bancaire de ce rang validerait l'offre B2B, mais l'accord reste hypothétique.",
+  "sources": [
+   {
+    "label": "CoinDesk, 2 octobre 2026",
+    "url": "https://www.coindesk.com/business/2026/09/30/bny-in-talks-with-kraken-parent-payward-over-infrastructure-partnership"
+   },
+   {
+    "label": "PYMNTS, 2 octobre 2026",
+    "url": "https://www.pymnts.com/partnerships/2026/bny-and-kraken-parent-payward-eye-global-financial-infrastructure-partnership/"
+   }
+  ],
+  "addedAt": "2026-10-05T06:27:57Z"
+ },
+ {
   "id": "stripe-2026-10-02-dublin-200-emplois",
   "companyId": "stripe",
   "date": "2026-10-02",
