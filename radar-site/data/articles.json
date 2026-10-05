@@ -1,5 +1,27 @@
 [
  {
+  "id": "polymarket-2026-10-05-justice-pays-bas",
+  "companyId": "polymarket",
+  "date": "2026-10-05",
+  "title": "Polymarket va contester en justice l'interdiction néerlandaise",
+  "summary": "Polymarket annonce qu'elle portera devant un tribunal l'interdiction de son site aux Pays-Bas. Elle conteste la qualification de jeu d'argent retenue par l'autorité néerlandaise.",
+  "detail": "L'autorité néerlandaise des jeux (KSA) avait ordonné l'arrêt du service en février et infligé une astreinte de 420 000 euros par semaine, plafonnée à 840 000 euros. Selon crypto.news, une première astreinte de 420 000 euros était devenue exigible en juillet, avec une procédure de recouvrement engagée.\n\nPolymarket soutient que les utilisateurs échangent entre eux, sans cagnotte centrale, et que ses contrats relèvent d'un produit financier supervisé par l'AFM et non de la KSA. La KSA a rejeté en juin l'objection administrative de la plateforme, et le blocage reste en vigueur.",
+  "impact": "Une décision favorable ouvrirait la voie à une régulation financière plutôt qu'au régime des jeux dans un marché européen où la plateforme est déjà bloquée.",
+  "signal": "neutre",
+  "rationale": "Le recours est un pari juridique, mais le risque est réel : des contrats proches d'options binaires, interdites aux particuliers par l'AFM depuis 2019, pourraient aussi être mal reçus.",
+  "sources": [
+   {
+    "label": "NL Times, 5 oct. 2026",
+    "url": "https://nltimes.nl/2026/10/05/us-prediction-site-polymarket-fight-dutch-ban-court"
+   },
+   {
+    "label": "crypto.news, 5 oct. 2026",
+    "url": "https://crypto.news/polymarket-to-take-dutch-ban-to-court-over-gambling-label/"
+   }
+  ],
+  "addedAt": "2026-10-05T12:30:39Z"
+ },
+ {
   "id": "kraken-2026-10-05-sgb-settlement",
   "companyId": "kraken",
   "date": "2026-10-05",
