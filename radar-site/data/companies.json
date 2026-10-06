@@ -165,5 +165,17 @@
   "order": 14,
   "sector": "Défense et autonomie",
   "website": "https://shield.ai/"
+ },
+ {
+  "id": "anthropic",
+  "description": "Laboratoire d'IA fondé par d'anciens chercheurs d'OpenAI, qui développe la famille de modèles Claude et des outils pour développeurs et entreprises. Valorisé 965 milliards de dollars après une levée de 65 milliards en mai 2026, il a déposé un projet d'introduction en Bourse à titre confidentiel.",
+  "founded": "2021",
+  "hq": "San Francisco",
+  "leaders": "Dario Amodei (CEO), Daniela Amodei (présidente)",
+  "name": "Anthropic",
+  "oneLiner": "Laboratoire d'IA qui développe les modèles Claude.",
+  "order": 15,
+  "sector": "Modèles de langage",
+  "website": "https://www.anthropic.com/"
  }
 ]
