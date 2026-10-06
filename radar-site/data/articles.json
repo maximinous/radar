@@ -80,6 +80,28 @@
   "addedAt": "2026-10-05T06:27:57Z"
  },
  {
+  "id": "anthropic-2026-10-02-frontier-academy",
+  "companyId": "anthropic",
+  "date": "2026-10-02",
+  "title": "Anthropic lance la Claude Frontier Academy, 100 millions de dollars pour former 10 000 ingénieurs",
+  "summary": "Anthropic investit 100 millions de dollars pour former 10 000 ingénieurs de déploiement d'ici fin 2027.",
+  "detail": "Le programme s'inspire de l'internat médical : formation de plusieurs jours puis résidence de 12 semaines sur de vrais projets Claude. Les premières cohortes ouvrent à San Francisco, New York et Londres, avec des équipes d'Accenture, Bain, Capgemini, Deloitte, McKinsey, Morgan Stanley et Novo Nordisk, entre autres.",
+  "impact": "Anthropic cherche à lever le goulet de talents qui freine le déploiement de Claude en entreprise, et à ancrer l'écosystème de partenaires.",
+  "signal": "optimiste",
+  "rationale": "Un investissement chiffré qui soutient l'adoption en entreprise, avec un effet mesurable seulement à moyen terme.",
+  "sources": [
+   {
+    "label": "AI Weekly, 2 oct. 2026",
+    "url": "https://aiweekly.co/alerts/anthropic-launches-claude-frontier-academy-commits-100m-to-train-10000"
+   },
+   {
+    "label": "Anthropic, 2 oct. 2026",
+    "url": "https://www.anthropic.com/news"
+   }
+  ],
+  "addedAt": "2026-10-06T08:38:05Z"
+ },
+ {
   "id": "kraken-2026-10-02-bny",
   "companyId": "kraken",
   "date": "2026-10-02",
@@ -118,6 +140,46 @@
    }
   ],
   "addedAt": "2026-10-02T06:20:37Z"
+ },
+ {
+  "id": "anthropic-2026-10-01-broadcom-pret",
+  "companyId": "anthropic",
+  "date": "2026-10-01",
+  "title": "Broadcom prêterait jusqu'à 42 milliards de dollars à Anthropic",
+  "summary": "Le prospectus révèle un financement de Broadcom allant jusqu'à 42 milliards de dollars pour louer des puces, selon Reuters.",
+  "detail": "L'accord inclut du financement de location d'équipements en plus du prêt. Anthropic deviendrait le premier client de calcul de Broadcom d'ici 2027. L'opération s'ajoute à des montages similaires avec Amazon, Microsoft, Google et Nvidia, qui nourrissent le débat sur les financements circulaires.",
+  "impact": "Anthropic obtient un financement massif pour sa capacité de calcul, mais accroît sa dette et sa dépendance envers ses fournisseurs.",
+  "signal": "prudent",
+  "rationale": "Le financement soutient la croissance mais renforce la dette et les critiques sur les montages circulaires.",
+  "sources": [
+   {
+    "label": "Yahoo Finance (Reuters), 1er oct. 2026",
+    "url": "https://finance.yahoo.com/technology/article/broadcom-to-lend-anthropic-up-to-42-billion-to-lease-chips-in-latest-circular-investing-deal-121617505.html"
+   }
+  ],
+  "addedAt": "2026-10-06T08:38:05Z"
+ },
+ {
+  "id": "anthropic-2026-10-01-barclays-claude",
+  "companyId": "anthropic",
+  "date": "2026-10-01",
+  "title": "Barclays étend Claude à l'ensemble de ses opérations",
+  "summary": "Barclays prévoit que 50 % de ses développeurs utilisent Claude Code fin 2026, puis la majorité de ses ingénieurs en 2027.",
+  "detail": "Un assistant de connaissances sous Claude sert déjà plus de 16 000 collaborateurs et a traité plus d'un million de requêtes. En marchés mondiaux, Claude trie environ 120 000 e-mails par jour. Les conditions financières ne sont pas divulguées.",
+  "impact": "Anthropic consolide un grand client bancaire européen et un usage de Claude Code à grande échelle dans un secteur régulé.",
+  "signal": "optimiste",
+  "rationale": "Des usages en production et des chiffres d'adoption concrets, sans montant de contrat publié.",
+  "sources": [
+   {
+    "label": "Anthropic, 1er oct. 2026",
+    "url": "https://www.anthropic.com/news/barclays-scales-claude"
+   },
+   {
+    "label": "FF News, 1er oct. 2026",
+    "url": "https://ffnews.com/news/barclays-scales-claude-to-upgrade-operations-and-improve-client-experience-15560521"
+   }
+  ],
+  "addedAt": "2026-10-06T08:38:05Z"
  },
  {
   "id": "apollo-research-2026-09-30-senate",
@@ -364,6 +426,28 @@
   "addedAt": "2026-09-30T15:46:23Z"
  },
  {
+  "id": "anthropic-2026-09-29-prospectus-ipo",
+  "companyId": "anthropic",
+  "date": "2026-09-29",
+  "title": "Le prospectus d'introduction en Bourse d'Anthropic fuite dans la presse",
+  "summary": "Un prospectus publié par fuite montre 4,6 milliards de dollars de revenus en 2025, une perte d'exploitation de plus de 8 milliards et 518 milliards d'engagements d'infrastructure.",
+  "detail": "Selon Reuters puis le Financial Times, la perte nette 2025 atteint près de 42 milliards, en grande partie comptable (environ 34 milliards liés à la valeur de titres convertibles). Les revenus du deuxième trimestre 2026 sont de 11,5 milliards. Près d'un quart des revenus 2025 vient de deux clients. Environ 80 des 261 pages traitent des risques, dont un risque catastrophique pour l'humanité. Les fondateurs gardent 50,1 % des droits de vote. Une valorisation au-dessus de 2 000 milliards est évoquée.",
+  "impact": "Les chiffres donnent la première vue détaillée des finances d'Anthropic avant son introduction en Bourse : croissance très forte, mais pertes et engagements élevés.",
+  "signal": "prudent",
+  "rationale": "Forte croissance, mais dépendance à deux clients, pertes opérationnelles et engagements très lourds.",
+  "sources": [
+   {
+    "label": "Trending Topics, 29 sept. 2026",
+    "url": "https://www.trendingtopics.eu/anthropic-ipo-prospectus-existential-risks/"
+   },
+   {
+    "label": "AI Weekly, 30 sept. 2026",
+    "url": "https://aiweekly.co/alerts/anthropic-ipo-prospectus-targets-2t-valuation-commits-to-518b-in-decade-long"
+   }
+  ],
+  "addedAt": "2026-10-06T08:38:05Z"
+ },
+ {
   "id": "mistral-ai-2026-09-29-mensch-prochain-modele",
   "companyId": "mistral-ai",
   "date": "2026-09-29",
@@ -512,6 +596,28 @@
    }
   ],
   "addedAt": "2026-09-30T15:46:23Z"
+ },
+ {
+  "id": "anthropic-2026-09-28-sonnet-5-5",
+  "companyId": "anthropic",
+  "date": "2026-09-28",
+  "title": "Anthropic lance Claude Sonnet 5.5, plus rapide et plus économe",
+  "summary": "Sonnet 5.5 sort au même prix que Sonnet 5, 2 dollars en entrée et 10 en sortie par million de jetons, avec une sortie plus de 30 % plus rapide.",
+  "detail": "Anthropic indique un coût par tâche jusqu'à 30 % plus bas grâce à une consommation de jetons réduite. Le modèle vise le développement logiciel, la rédaction de documents et les tableurs. Les entreprises font environ 80 % de l'activité, avec des clients comme Salesforce, Goldman Sachs et Databricks. Haiku 5.5 est attendu prochainement.",
+  "impact": "La gamme 5.5 se complète et protège la position d'Anthropic sur les usages d'entreprise à gros volume.",
+  "signal": "optimiste",
+  "rationale": "Un gain de vitesse et de coût à prix inchangé favorise l'usage en volume.",
+  "sources": [
+   {
+    "label": "Anthropic, 28 sept. 2026",
+    "url": "https://www.anthropic.com/news"
+   },
+   {
+    "label": "Deccan Chronicle, sept. 2026",
+    "url": "https://www.deccanchronicle.com/technology/anthropic-rolls-out-second-claude-55-model-as-it-builds-toward-ipo-1991523"
+   }
+  ],
+  "addedAt": "2026-10-06T08:38:05Z"
  },
  {
   "id": "mistral-ai-2026-09-28-munich",
@@ -688,6 +794,28 @@
    }
   ],
   "addedAt": "2026-09-25T10:42:09Z"
+ },
+ {
+  "id": "anthropic-2026-09-24-akamai-cloud",
+  "companyId": "anthropic",
+  "date": "2026-09-24",
+  "title": "Akamai signe un contrat cloud de 11,6 milliards de dollars avec Anthropic",
+  "summary": "Anthropic s'engage sur 11,6 milliards de dollars de services cloud auprès d'Akamai sur sept ans, avec une extension possible de 9 milliards.",
+  "detail": "Akamai émet aussi un bon de souscription pour environ 5 % de son capital en faveur d'Anthropic. Le contrat cible les charges de calcul sur processeurs classiques. Akamai prévoit environ 5,5 milliards de dollars d'investissements, un chiffre d'affaires à partir du second semestre 2027 et près de 1,7 milliard par an fin 2028. L'action a gagné plus de 20 % après la Bourse. L'annonce est datée du 24 par plusieurs médias, du 25 par The Stack.",
+  "impact": "Anthropic sécurise de la capacité de calcul supplémentaire et obtient une participation au capital d'un fournisseur, mais alourdit ses engagements d'infrastructure.",
+  "signal": "neutre",
+  "rationale": "Le contrat sécurise la capacité mais s'ajoute à plus de 500 milliards de dollars d'engagements déjà cités.",
+  "sources": [
+   {
+    "label": "The Stack, 25 sept. 2026",
+    "url": "https://www.thestack.technology/anthropic-cloud-deal-akamais/"
+   },
+   {
+    "label": "Tech Coffeehouse, 27 sept. 2026",
+    "url": "https://techcoffeehouse.com/2026/09/27/akamai-signs-11-6-billion-ai-deal-with-anthropic/"
+   }
+  ],
+  "addedAt": "2026-10-06T08:38:05Z"
  },
  {
   "id": "kraken-2026-09-24-partenariat-ledger",
@@ -948,6 +1076,24 @@
   "title": "L'Agence spatiale européenne signe une lettre d'intention avec Mistral"
  },
  {
+  "id": "anthropic-2026-09-22-opus-5-5",
+  "companyId": "anthropic",
+  "date": "2026-09-22",
+  "title": "Anthropic lance Claude Opus 5.5, 40 % moins cher à l'usage qu'Opus 5",
+  "summary": "Claude Opus 5.5 est disponible avec des prix réduits : 4 dollars en entrée et 20 dollars en sortie par million de jetons.",
+  "detail": "Anthropic affirme que le modèle égale Claude Fable 5.1 sur la plupart des tâches, pour un coût inférieur de 40 % à Opus 5. Il obtient 66,4 % sur Terminal-Bench 4.0 et 54,4 % sur FrontierCode, avec une sortie plus de 30 % plus rapide. Il est proposé sur AWS, Google Cloud et Azure. Sonnet 5.5 et Haiku 5.5 sont annoncés pour les semaines suivantes.",
+  "impact": "La baisse de prix renforce la compétitivité d'Anthropic auprès des entreprises et des développeurs, au risque de peser sur la marge unitaire.",
+  "signal": "optimiste",
+  "rationale": "Un modèle plus performant à prix réduit, diffusé sur les trois grands clouds, soutient l'adoption.",
+  "sources": [
+   {
+    "label": "Anthropic, 22 sept. 2026",
+    "url": "https://www.anthropic.com/news/claude-opus-5-5"
+   }
+  ],
+  "addedAt": "2026-10-06T08:38:05Z"
+ },
+ {
   "addedAt": "2026-09-24T19:59:40Z",
   "companyId": "mistral-ai",
   "date": "2026-09-22",
@@ -1130,6 +1276,28 @@
   ],
   "summary": "Selon le Wall Street Journal, des fraudeurs ont tenté de détourner environ 10 millions de dollars avec des cartes volées. Le PDG aurait privilégié la croissance face aux alertes de conformité.",
   "title": "Le WSJ révèle une tentative de fraude de 10 millions de dollars sur Polymarket US"
+ },
+ {
+  "id": "anthropic-2026-09-18-accenture-evaluation",
+  "companyId": "anthropic",
+  "date": "2026-09-18",
+  "title": "Anthropic et Accenture s'engagent sur l'évaluation indépendante des modèles",
+  "summary": "Anthropic s'associe à Accenture (via Faculty) pour des évaluateurs intégrés, avec au moins 1 milliard de dollars investi par chacun sur cinq ans.",
+  "detail": "Les évaluateurs travailleront à l'intérieur d'Anthropic avec un accès proche de celui d'un salarié, pour tester la sécurité des modèles : tests adverses, évaluations d'alignement, contrôle des garde-fous. Le partenariat n'est pas exclusif. Anthropic discute aussi avec METR et d'autres organisations à but non lucratif. Il fait suite à un engagement pris dans un essai de Dario Amodei.",
+  "impact": "Anthropic renforce sa crédibilité sur la sécurité, argument central de sa marque et de son dossier d'introduction en Bourse, au prix d'un engagement financier notable.",
+  "signal": "optimiste",
+  "rationale": "L'engagement est chiffré et sourcé par Anthropic, mais ses effets concrets restent à démontrer.",
+  "sources": [
+   {
+    "label": "Anthropic, 18 sept. 2026",
+    "url": "https://anthropic.com/news/accenture-embedded-evaluation"
+   },
+   {
+    "label": "AI Weekly, sept. 2026",
+    "url": "https://aiweekly.co/alerts/anthropic-accenture-commit-1b-each-to-embedded-evaluators"
+   }
+  ],
+  "addedAt": "2026-10-06T08:38:05Z"
  },
  {
   "id": "figure-ai-2026-09-18-1x-neo-50000",
@@ -1460,6 +1628,28 @@
   ],
   "summary": "Nouvelle version du modèle maison, capable de généraliser sans entraînement spécifique à des domiciles inconnus.",
   "title": "Helix 2.5 : les robots Figure travaillent dans 30 maisons jamais vues"
+ },
+ {
+  "id": "anthropic-2026-09-16-novo-nordisk",
+  "companyId": "anthropic",
+  "date": "2026-09-16",
+  "title": "Novo Nordisk s'associe à Anthropic pour accélérer la découverte de médicaments",
+  "summary": "Novo Nordisk va utiliser les modèles d'Anthropic et tester Claude Science dans certains flux de R&D, ainsi que pour le développement logiciel.",
+  "detail": "Les deux groupes vont travailler sur des blocages précis de la découverte de médicaments, autour du raisonnement biologique. Le PDG de Novo, Mike Doustdar, parle de devenir l'entreprise de santé la plus pilotée par l'IA. C'est le troisième grand accord IA de Novo en 2026, après OpenAI (avril) et AWS (août). Les termes financiers ne sont pas publiés.",
+  "impact": "Anthropic gagne un grand client pharmaceutique pour son offre scientifique, un segment où elle investit, mais Novo reste multi-fournisseurs.",
+  "signal": "optimiste",
+  "rationale": "Un client de premier plan confirme l'intérêt de l'offre Claude Science, sans engagement chiffré ni exclusivité.",
+  "sources": [
+   {
+    "label": "PharmExec, 16 sept. 2026",
+    "url": "https://pharmexec.com/view/novo-drug-discovery-collaboration-anthropic"
+   },
+   {
+    "label": "ChemAnager, 16 sept. 2026",
+    "url": "https://chemanager-online.com/en/news/novo-nordisk-and-anthropic-will-collaborate-on-drug-discovery-with-claude"
+   }
+  ],
+  "addedAt": "2026-10-06T08:38:05Z"
  },
  {
   "id": "kraken-2026-09-16-perps-hyperliquid",
@@ -1859,6 +2049,28 @@
   ],
   "summary": "Loft Orbital et Marlan Space lancent un programme d'un milliard de dollars. Mistral fournit l'IA embarquée dans les satellites.",
   "title": "Les modèles de Mistral embarqués dans une constellation de 50 satellites IA"
+ },
+ {
+  "id": "anthropic-2026-09-08-decart-abandon",
+  "companyId": "anthropic",
+  "date": "2026-09-08",
+  "title": "Anthropic renonce au rachat de Decart pour 6 milliards de dollars",
+  "summary": "Anthropic a mis fin aux discussions pour racheter la start-up israélienne Decart, environ 6 milliards de dollars, après la due diligence, selon Bloomberg.",
+  "detail": "L'offre, surtout en actions, valorisait Decart autour de 50 % au-dessus de sa levée de mai 2026 (environ 4 milliards). Decart développe des logiciels qui améliorent l'efficacité des puces pour entraîner et faire tourner des modèles. Ni Anthropic ni Decart n'ont commenté. Ce rachat aurait été le plus gros d'Anthropic et son cinquième de l'année.\n\nLes raisons ne sont pas confirmées. Les analyses citées évoquent le calendrier de l'introduction en Bourse et la dilution liée au paiement en actions.",
+  "impact": "Anthropic évite une grosse opération en actions juste avant son introduction en Bourse, mais renonce à une brique de réduction des coûts de calcul.",
+  "signal": "neutre",
+  "rationale": "Le retrait est factuel mais ses motifs ne sont pas confirmés, donc l'effet net reste difficile à juger.",
+  "sources": [
+   {
+    "label": "AI Weekly (d'après Bloomberg), 8 sept. 2026",
+    "url": "https://aiweekly.co/alerts/anthropic-pulls-out-of-6b-decart-buyout-after-diligence"
+   },
+   {
+    "label": "Bloomberg Government, sept. 2026",
+    "url": "https://news.bgov.com/capital-markets/anthropic-said-to-walk-away-from-6-billion-decart-acquisition"
+   }
+  ],
+  "addedAt": "2026-10-06T08:38:05Z"
  },
  {
   "id": "polymarket-2026-09-08-lituanie-blocage",
