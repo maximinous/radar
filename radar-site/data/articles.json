@@ -1,5 +1,27 @@
 [
  {
+  "id": "together-ai-2026-10-05-together-link",
+  "companyId": "together-ai",
+  "date": "2026-10-05",
+  "title": "Together AI lance Together Link, un outil pour utiliser ses modèles ouverts dans Claude Code et Codex",
+  "summary": "Together AI propose en bêta Together Link, une ligne de commande qui branche des modèles ouverts hébergés chez elle dans des agents de code existants. Elle annonce plus de 50 % de dépenses de modèles en moins.",
+  "detail": "L'outil s'installe en une commande et fonctionne avec Claude Code, Claude Desktop, Codex, OpenCode et Pi. Un mode Auto lit la première tâche d'une session et envoie les tâches simples vers des modèles rapides, les tâches difficiles vers des modèles plus capables. Dans Claude, les requêtes les plus dures peuvent partir vers Claude Opus, facturé côté Anthropic.\n\nLa facturation passe par la clé API Together existante, à l'usage ou par packs de crédits. Selon la documentation, Together Link reste en bêta et ses commandes, son routage et sa liste de modèles peuvent changer. Together revendique plus de 40 modèles choisis pour la production. D'après son blog, elle sert la plus grande part des tokens d'OpenRouter pour Kimi K3 (23,1 %), GLM 5.3 Flash (28,2 %) et DeepSeek V4.1 Flash (40,8 %) au 30 septembre. La page du blog est datée du 5 octobre, sans heure de première publication établie.",
+  "impact": "Together se place directement dans les outils que les développeurs utilisent déjà, ce qui peut accroître l'usage de ses modèles ouverts au détriment des modèles fermés.",
+  "signal": "optimiste",
+  "rationale": "Le produit élargit l'accès à son inférence via des agents très répandus, mais il est en bêta et dépend en partie de Claude Opus pour les tâches difficiles.",
+  "sources": [
+   {
+    "label": "Blog Together AI, 5 oct. 2026",
+    "url": "https://www.together.ai/blog/together-link-frontier-quality-open-models-in-the-harness-you-already-use"
+   },
+   {
+    "label": "Documentation Together AI, consultée le 6 oct. 2026",
+    "url": "https://docs.together.ai/docs/togetherlink"
+   }
+  ],
+  "addedAt": "2026-10-06T06:20:59Z"
+ },
+ {
   "id": "polymarket-2026-10-05-justice-pays-bas",
   "companyId": "polymarket",
   "date": "2026-10-05",
