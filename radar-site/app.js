@@ -390,9 +390,6 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
   /* ---------- export PDF (impression) ---------- */
   function logo(){
     return el('div',{class:'p-logo'},
-      sv('svg',{viewBox:'0 0 32 32',width:'30',height:'30','aria-hidden':'true'},
-        sv('rect',{width:32,height:32,rx:8,fill:'#0D6E5E'}), sv('circle',{cx:16,cy:16,r:9,fill:'none',stroke:'#fff','stroke-width':2.2}),
-        sv('circle',{cx:16,cy:16,r:3.2,fill:'#fff'}), sv('path',{d:'M16 16 L23 9',stroke:'#fff','stroke-width':2.2,'stroke-linecap':'round'})),
       el('span',{class:'p-word'}, 'Radar', el('span',{class:'dot'},'.')),
       el('span',{class:'p-tag'}, 'ROD Investment · Veille sociétés non cotées'));
   }
