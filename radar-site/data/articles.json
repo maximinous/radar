@@ -1,5 +1,27 @@
 [
  {
+  "id": "shield-ai-2026-10-06-innovaero",
+  "companyId": "shield-ai",
+  "date": "2026-10-06",
+  "title": "Shield AI et Innovaero s'allient pour doter des munitions rôdeuses australiennes de Hivemind",
+  "summary": "Shield AI a signé un protocole d'accord avec l'australien Innovaero pour intégrer son logiciel d'autonomie Hivemind aux munitions rôdeuses OWL, destinées aux forces armées australiennes.",
+  "detail": "L'accord a été annoncé le 6 octobre 2026 lors du salon Land Forces, à Perth. Hivemind est déjà intégré à l'appareil OWL-B avant les essais en vol, et des missions de frappe coordonnées entre plusieurs appareils sont simulées via l'interface tactique ATAK.\n\nShield AI affirme que le logiciel doit aider les forces australiennes à planifier plus vite, à coordonner plusieurs appareils et à opérer quand le GPS ou les communications sont dégradés. Innovaero met en avant le contrôle australien sur ces technologies critiques.",
+  "impact": "Shield AI étend Hivemind à une nouvelle classe de plateformes, les munitions rôdeuses, et renforce son ancrage industriel en Australie.",
+  "signal": "optimiste",
+  "rationale": "Un partenariat local souverain élargit l'usage de Hivemind, mais il s'agit d'un protocole d'accord sans montant ni commande annoncés.",
+  "sources": [
+   {
+    "label": "Shield AI, communiqué Innovaero, 6 oct. 2026",
+    "url": "https://shield.ai/shield-ai-and-innovaero-collaborate-on-sovereign-autonomous-loitering-munitions-for-australia/"
+   },
+   {
+    "label": "Australian Defence Magazine, 6 oct. 2026",
+    "url": "https://www.australiandefence.com.au/news/news/shield-ai-and-innovaero-to-collaborate-on-strike-capability"
+   }
+  ],
+  "addedAt": "2026-10-07T13:56:08Z"
+ },
+ {
   "id": "mistral-ai-2026-10-06-large-4",
   "companyId": "mistral-ai",
   "date": "2026-10-06",
@@ -52,6 +74,24 @@
    }
   ],
   "addedAt": "2026-10-07T06:24:01Z"
+ },
+ {
+  "id": "stripe-2026-10-05-constructor-checkout-agentique",
+  "companyId": "stripe",
+  "date": "2026-10-05",
+  "title": "Constructor lance un paiement agentique propulsé par Stripe",
+  "summary": "Constructor, spécialiste de la recherche pour le commerce en ligne, lance Agentic Checkout avec Stripe. Les clients finalisent leur achat sans quitter l'agent d'achat IA.",
+  "detail": "Le paiement passe par Link by Stripe ou d'autres moyens de paiement. Les clients actuels de Constructor, parmi lesquels Sephora, Petco et The Very Group, peuvent l'activer en mettant à jour leur bibliothèque d'interface et en ajoutant leurs identifiants Stripe.\n\nConstructor prévoit d'étendre la fonction à d'autres zones des boutiques de ses clients plus tard cette année. La société indique que ses déploiements d'agents IA ont été multipliés par dix en un an.",
+  "impact": "Stripe se place comme brique de paiement des agents d'achat IA chez de grands distributeurs, un relais de croissance du commerce agentique.",
+  "signal": "optimiste",
+  "rationale": "Un partenaire grand compte intègre Stripe au coeur de son parcours d'achat IA, sans chiffre de volume communiqué.",
+  "sources": [
+   {
+    "label": "Finovate, Stripe et Constructor, 5 oct. 2026",
+    "url": "https://finovate.com/stripe-to-power-constructors-agentic-checkout/"
+   }
+  ],
+  "addedAt": "2026-10-07T13:56:08Z"
  },
  {
   "id": "together-ai-2026-10-05-together-link",
@@ -194,6 +234,24 @@
    }
   ],
   "addedAt": "2026-10-02T06:20:37Z"
+ },
+ {
+  "id": "mistral-ai-2026-10-01-canada",
+  "companyId": "mistral-ai",
+  "date": "2026-10-01",
+  "title": "Mistral AI recrute au Canada et prévoit des bureaux à Montréal et à Toronto",
+  "summary": "Mistral veut ouvrir des bureaux à Montréal et à Toronto et recrute chercheurs, développeurs et ingénieurs déployés chez les clients. Elle vise la finance, l'énergie, l'industrie et le secteur public.",
+  "detail": "Selon The Logic, qui cite la directrice commerciale Marjorie Janiewicz, les missions de Mistral débutent à quelques centaines de milliers de dollars et peuvent grossir nettement. Les entreprises canadiennes voient, dit-elle, les limites des chatbots généralistes.\n\nEn juin 2026, le ministre québécois du Numérique avait annoncé un accord non contraignant avec Mistral pour explorer l'IA dans les services publics. Le média rappelle aussi la levée de 3 milliards d'euros de la série D et le projet de capacité de calcul d'un gigawatt d'ici 2030.",
+  "impact": "Mistral ouvre un second terrain nord-américain après les États-Unis et cherche à convertir la demande de souveraineté technologique en contrats avec de grands comptes canadiens.",
+  "signal": "optimiste",
+  "rationale": "L'expansion s'appuie sur une demande de souveraineté et un accord public déjà annoncé, mais les bureaux et les contrats restent à concrétiser.",
+  "sources": [
+   {
+    "label": "The Logic, expansion de Mistral au Canada, 1er oct. 2026",
+    "url": "https://thelogic.co/news/mistral-sovereign-ai-canada/"
+   }
+  ],
+  "addedAt": "2026-10-07T13:56:08Z"
  },
  {
   "id": "anthropic-2026-10-01-broadcom-pret",
