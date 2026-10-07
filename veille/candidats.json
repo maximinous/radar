@@ -1,0 +1,294 @@
+{
+ "generatedAt": "2026-10-07T15:07:17Z",
+ "windowHours": 36,
+ "headlinesRead": 595,
+ "count": 29,
+ "companies": [
+  {
+   "companyId": "together-ai",
+   "name": "Together AI",
+   "candidates": [
+    {
+     "date": "2026-10-06 14:44",
+     "media": "HPCwire",
+     "title": "Clockwork.io Announces $31M in Funding and Deployments at LinkedIn and Together AI",
+     "site": "https://www.hpcwire.com",
+     "overlap": 0.0,
+     "reprises": 0
+    }
+   ]
+  },
+  {
+   "companyId": "figure-ai",
+   "name": "Figure AI",
+   "candidates": [
+    {
+     "date": "2026-10-06 14:00",
+     "media": "Fredzone",
+     "title": "Figure AI précipite ses robots humanoïdes dans l’acier en fusion",
+     "site": "https://www.fredzone.org",
+     "overlap": 0.0,
+     "reprises": 0
+    }
+   ]
+  },
+  {
+   "companyId": "mistral-ai",
+   "name": "Mistral AI",
+   "candidates": [
+    {
+     "date": "2026-10-06 11:32",
+     "media": "The News International",
+     "title": "Mistral AI new model beats Chinese competitors in cybersecurity, claims CEO",
+     "site": "https://www.thenews.com.pk",
+     "overlap": 0.29,
+     "reprises": 2
+    },
+    {
+     "date": "2026-10-07 11:35",
+     "media": "International Business Times, Singapore Edition",
+     "title": "Mistral AI Unveils 1-Trillion-Parameter Large 4 Model to Challenge US and Chinese AI Rivals",
+     "site": "https://www.ibtimes.sg",
+     "overlap": 0.38,
+     "reprises": 2
+    },
+    {
+     "date": "2026-10-06 15:28",
+     "media": "L'Usine Digitale",
+     "title": "[IA Insider] Aleph Alpha, Mistral AI, Reflection... Les modèles open-weight occidentaux veulent en découdre avec leurs rivaux chinois",
+     "site": "https://www.usine-digitale.fr",
+     "overlap": 0.08,
+     "reprises": 1
+    },
+    {
+     "date": "2026-10-06 15:44",
+     "media": "Reuters",
+     "title": "France's Mistral launches AI model it says outperforms some Chinese rivals",
+     "site": "https://www.reuters.com",
+     "overlap": 0.12,
+     "reprises": 1
+    },
+    {
+     "date": "2026-10-06 16:30",
+     "media": "01net.com",
+     "title": "Mistral lance Le Chonk, la nouvelle IA française qui réduit l’écart avec ChatGPT et Claude",
+     "site": "https://www.01net.com",
+     "overlap": 0.12,
+     "reprises": 1
+    },
+    {
+     "date": "2026-10-06 12:30",
+     "media": "JDN",
+     "title": "Portée par Mistral AI, la French tech signe un mois de septembre record avec 3,78 milliards d'euros levés",
+     "site": "https://www.journaldunet.com",
+     "overlap": 0.2,
+     "reprises": 0
+    }
+   ]
+  },
+  {
+   "companyId": "erebor",
+   "name": "Erebor Bank",
+   "candidates": [
+    {
+     "date": "2026-10-06 10:14",
+     "media": "TradingView",
+     "title": "Palmer Luckey’s Erebor surges to more than $7bn in deposits since launch- FT",
+     "site": "https://www.tradingview.com",
+     "overlap": 0,
+     "reprises": 1
+    }
+   ]
+  },
+  {
+   "companyId": "apollo-research",
+   "name": "Apollo Research",
+   "candidates": [
+    {
+     "date": "2026-10-06 16:10",
+     "media": "Crypto Briefing",
+     "title": "Apollo Research wants AI evaluators inside the lab during training, not just at launch",
+     "site": "https://cryptobriefing.com",
+     "overlap": 0,
+     "reprises": 0
+    }
+   ]
+  },
+  {
+   "companyId": "stripe",
+   "name": "Stripe",
+   "candidates": [
+    {
+     "date": "2026-10-06 07:09",
+     "media": "UseTheBitcoin",
+     "title": "Stripe Plans Stablecoin Card Expansion to More Than 100 Countries",
+     "site": "https://usethebitcoin.com",
+     "overlap": 0.0,
+     "reprises": 1
+    },
+    {
+     "date": "2026-10-06 19:14",
+     "media": "timesdaily.com",
+     "title": "The Truth About Buy Verified Stripe Accounts in 2026",
+     "site": "https://www.timesdaily.com",
+     "overlap": 0.17,
+     "reprises": 0
+    },
+    {
+     "date": "2026-10-07 14:34",
+     "media": "Digital Transactions",
+     "title": "Stripe Enters a Data Deal With Federal Express",
+     "site": "https://www.digitaltransactions.net",
+     "overlap": 0.2,
+     "reprises": 0
+    }
+   ]
+  },
+  {
+   "companyId": "kraken",
+   "name": "Kraken",
+   "candidates": [
+    {
+     "date": "2026-10-07 08:32",
+     "media": "Altcoin Buzz",
+     "title": "Kraken Co-CEO Says Crypto’s New Wave Is Tied to AI and Tokenized Equities",
+     "site": "https://www.altcoinbuzz.io",
+     "overlap": 0.14,
+     "reprises": 1
+    },
+    {
+     "date": "2026-10-07 02:33",
+     "media": "TOKENPOST",
+     "title": "Payward Lists 6.6 Million Funded Kraken Accounts as Platform Expands",
+     "site": "https://www.tokenpost.com",
+     "overlap": 0.29,
+     "reprises": 0
+    },
+    {
+     "date": "2026-10-07 02:36",
+     "media": "Crypto Briefing",
+     "title": "Kraken co-CEO Arjun Sethi says the exchange has about 7 million funded accounts",
+     "site": "https://cryptobriefing.com",
+     "overlap": 0.1,
+     "reprises": 0
+    },
+    {
+     "date": "2026-10-07 10:25",
+     "media": "Pluang",
+     "title": "Kraken's parent plans US launch of Hyperliquid HIP-3 perpetual futures via regulated broker, pending approval.",
+     "site": "https://pluang.com",
+     "overlap": 0.17,
+     "reprises": 0
+    }
+   ]
+  },
+  {
+   "companyId": "polymarket",
+   "name": "Polymarket",
+   "candidates": [
+    {
+     "date": "2026-10-06 07:23",
+     "media": "CoinGape",
+     "title": "Polymarket Unveils Protocol V2, Targets Nov. 2 Switch to a Single pUSD Market",
+     "site": "https://coingape.com",
+     "overlap": 0.0,
+     "reprises": 1
+    },
+    {
+     "date": "2026-10-06 16:20",
+     "media": "Benzinga France",
+     "title": "L’accord de LeBron avec Polymarket soulève des questions pour la NBA",
+     "site": "https://fr.benzinga.com",
+     "overlap": 0.0,
+     "reprises": 1
+    },
+    {
+     "date": "2026-10-07 03:18",
+     "media": "ConseilsCrypto.com",
+     "title": "Polymarket dévoile son Protocole V2 : transition vers un marché de prédiction unique sous pUSD",
+     "site": "https://conseilscrypto.com",
+     "overlap": 0.11,
+     "reprises": 1
+    },
+    {
+     "date": "2026-10-07 13:01",
+     "media": "bloomingbit",
+     "title": "Polymarket CEO Says Chasing 100x Crypto Returns Is Like a 'Hot Potato' Game",
+     "site": "https://en.bloomingbit.io",
+     "overlap": 0.1,
+     "reprises": 1
+    },
+    {
+     "date": "2026-10-06 07:54",
+     "media": "Bitcoin Foundation",
+     "title": "Polymarket V2 Nears Launch With New Prediction Market Architecture",
+     "site": "https://bitcoinfoundation.org",
+     "overlap": 0.2,
+     "reprises": 0
+    },
+    {
+     "date": "2026-10-06 10:50",
+     "media": "Coinfomania",
+     "title": "Polymarket lance son protocole V2 avec des objectifs ambitieux",
+     "site": "https://coinfomania.com",
+     "overlap": 0.25,
+     "reprises": 0
+    }
+   ]
+  },
+  {
+   "companyId": "anthropic",
+   "name": "Anthropic",
+   "candidates": [
+    {
+     "date": "2026-10-07 13:13",
+     "media": "Firstpost",
+     "title": "Anthropic expands Claude startups program in India, offers up to $7,000 in credits to local businesses",
+     "site": "https://www.firstpost.com",
+     "overlap": 0.3,
+     "reprises": 6
+    },
+    {
+     "date": "2026-10-06 20:12",
+     "media": "Quartz",
+     "title": "Anthropic expands cyber AI access program to more security firms",
+     "site": "https://qz.com",
+     "overlap": 0.14,
+     "reprises": 3
+    },
+    {
+     "date": "2026-10-07 09:11",
+     "media": "Cyber Press",
+     "title": "Anthropic Opens Claude Access to Red Teams and Verified Cyber Defenders",
+     "site": "https://cyberpress.org",
+     "overlap": 0.12,
+     "reprises": 3
+    },
+    {
+     "date": "2026-10-06 22:02",
+     "media": "PYMNTS.com",
+     "title": "Anthropic Expands Discounts and Support for Founders",
+     "site": "https://www.pymnts.com",
+     "overlap": 0.0,
+     "reprises": 2
+    },
+    {
+     "date": "2026-10-07 07:55",
+     "media": "The Daily Star",
+     "title": "How much did Anthropic CEO Dario Amodei make last year?",
+     "site": "https://www.thedailystar.net",
+     "overlap": 0.0,
+     "reprises": 2
+    },
+    {
+     "date": "2026-10-07 08:21",
+     "media": "BDM",
+     "title": "Anthropic lance une extension Claude pour Google Docs, Sheets et Slides",
+     "site": "https://www.blogdumoderateur.com",
+     "overlap": 0.29,
+     "reprises": 2
+    }
+   ]
+  }
+ ]
+}

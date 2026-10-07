@@ -24,7 +24,31 @@
      "url": "https://www.geekwire.com/2026/bezos-ai-startup-prometheus-raises-12b-at-41b-valuation-and-the-ceos-explain-what-theyre-doing/"
     }
    }
-  ]
+  ],
+  "metrics": [
+   {
+    "label": "Total levé",
+    "value": "environ 18 milliards de dollars : 6,2 au lancement fin 2025, puis 12 en Série B",
+    "date": "2026-06-11",
+    "status": "officielle",
+    "source": {
+     "label": "TechCrunch, 11 juin 2026",
+     "url": "https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/"
+    },
+    "articleId": "prometheus-2026-06-11-serie-b"
+   },
+   {
+    "label": "Investisseurs principaux",
+    "value": "JPMorgan, Goldman Sachs, BlackRock, DST Global, Arch Venture Partners (Série B)",
+    "date": "2026-06-11",
+    "status": "officielle",
+    "source": {
+     "label": "GeekWire, 11 juin 2026",
+     "url": "https://www.geekwire.com/2026/bezos-ai-startup-prometheus-raises-12b-at-41b-valuation-and-the-ceos-explain-what-theyre-doing/"
+    }
+   }
+  ],
+  "newsQuery": "\"Prometheus\" (Bezos OR Bajaj)"
  },
  {
   "id": "together-ai",
@@ -76,7 +100,31 @@
     },
     "dateLabel": "Mars 2024"
    }
-  ]
+  ],
+  "metrics": [
+   {
+    "label": "Revenu annualisé",
+    "value": "environ 1 milliard de dollars, plus de trois fois mi-2025",
+    "date": "2026-07-27",
+    "status": "presse",
+    "source": {
+     "label": "DatacenterDynamics, 27 juillet 2026",
+     "url": "https://www.datacenterdynamics.com/en/news/together-ai-seeks-1bn-in-funding-report/"
+    },
+    "articleId": "together-2026-07-27-revenus"
+   },
+   {
+    "label": "Investisseurs principaux",
+    "value": "Aramco Ventures, Vista, General Catalyst, Nvidia (Série C)",
+    "date": "2026-07-01",
+    "status": "officielle",
+    "source": {
+     "label": "TechCrunch, 1er juillet 2026",
+     "url": "https://techcrunch.com/2026/07/01/neocloud-together-ai-raises-800m-leaps-to-8-3b-valuation/"
+    }
+   }
+  ],
+  "newsQuery": "\"Together AI\""
  },
  {
   "id": "figure-ai",
@@ -115,7 +163,31 @@
      "url": "https://techcrunch.com/2024/02/29/figure-rides-the-humanoid-robot-hype-wave-to-2-6b-valuation-and-openai-collab/"
     }
    }
-  ]
+  ],
+  "metrics": [
+   {
+    "label": "Production",
+    "value": "le F.02 a contribué à la production de 30 000 voitures chez BMW",
+    "date": "2026-06-30",
+    "status": "officielle",
+    "source": {
+     "label": "Figure AI, 30 juin 2026",
+     "url": "https://www.figure.ai/news/f-03-at-bmw"
+    },
+    "articleId": "figure-2026-06-30-bmw"
+   },
+   {
+    "label": "Investisseurs principaux",
+    "value": "Microsoft, OpenAI, Nvidia, Bezos Expeditions, Parkway (Série B)",
+    "date": "2024-02-29",
+    "status": "officielle",
+    "source": {
+     "label": "TechCrunch, 29 févr. 2024",
+     "url": "https://techcrunch.com/2024/02/29/figure-rides-the-humanoid-robot-hype-wave-to-2-6b-valuation-and-openai-collab/"
+    }
+   }
+  ],
+  "newsQuery": "\"Figure AI\" OR \"Brett Adcock\""
  },
  {
   "id": "mistral-ai",
@@ -167,7 +239,31 @@
      "url": "https://www.bloomberg.com/news/articles/2024-06-11/mistral-ai-raises-600-million-from-nvidia-samsung-and-vcs"
     }
    }
-  ]
+  ],
+  "metrics": [
+   {
+    "label": "Revenus récurrents",
+    "value": "plus de 400 millions de dollars début 2026 ; objectif de 1 milliard d'euros en 2026",
+    "date": "2026-09-08",
+    "status": "presse",
+    "source": {
+     "label": "franceinfo, 8 septembre 2026",
+     "url": "https://www.franceinfo.fr/internet/intelligence-artificielle/la-start-up-francaise-mistral-annonce-une-nouvelle-levee-de-fonds-de-trois-milliards-d-euros-portant-sa-valorisation-a-plus-de-21-milliards-d-euros_8182583.html"
+    },
+    "articleId": "mistral-2026-09-revenus"
+   },
+   {
+    "label": "Investisseurs principaux",
+    "value": "Samsung, EQT, PSG (Série D) ; ASML (Série C) ; a16z, Nvidia, Bpifrance, General Catalyst",
+    "date": "2026-09-08",
+    "status": "officielle",
+    "source": {
+     "label": "Orrick, conseil de Mistral, sept. 2026",
+     "url": "https://www.orrick.com/en/News/2026/09/Orrick-Advises-Mistral-in-its-3B-Series-D-at-21B-Post-Money-Valuation"
+    }
+   }
+  ],
+  "newsQuery": "\"Mistral AI\" OR \"Arthur Mensch\""
  },
  {
   "id": "deel",
@@ -206,7 +302,32 @@
      "url": "https://techcrunch.com/2022/05/11/fueled-by-the-remote-work-revolution-deel-more-than-doubles-valuation-to-12b-with-new-raise/"
     }
    }
-  ]
+  ],
+  "metrics": [
+   {
+    "label": "Revenu récurrent annuel",
+    "value": "1,4 milliard de dollars, rentable (EBITDA positif depuis 2022)",
+    "date": "2026-07-22",
+    "status": "presse",
+    "source": {
+     "label": "ValueAdd VC, 22 juillet 2026",
+     "url": "https://valueaddvc.com/blog/how-does-deel-make-money-global-payroll-eor-fees-and-the-business-model-breakdown"
+    },
+    "articleId": "deel-2026-07-22-modele",
+    "dateLabel": "Févr. 2026"
+   },
+   {
+    "label": "Investisseurs principaux",
+    "value": "Ribbit Capital, a16z, Coatue (Série E)",
+    "date": "2025-10-01",
+    "status": "officielle",
+    "source": {
+     "label": "Finextra, oct. 2025",
+     "url": "https://www.finextra.com/newsarticle/46771/deels-valuation-surges-past-17bn-after-fund-raise"
+    }
+   }
+  ],
+  "newsQuery": "\"Deel\" (payroll OR \"Alex Bouaziz\" OR Rippling OR \"Employer of Record\")"
  },
  {
   "id": "erebor",
@@ -258,7 +379,53 @@
     },
     "dateLabel": "Juil. 2025"
    }
-  ]
+  ],
+  "metrics": [
+   {
+    "label": "Dépôts",
+    "value": "4,6 milliards de dollars fin juillet 2026, contre 1,1 milliard fin mars",
+    "date": "2026-08-12",
+    "status": "presse",
+    "source": {
+     "label": "Sacra, profil Erebor",
+     "url": "https://sacra.com/c/erebor/"
+    },
+    "articleId": "erebor-2026-08-12-depots"
+   },
+   {
+    "label": "Revenu annualisé estimé",
+    "value": "112 millions de dollars en juillet 2026, dont 68 % d'intérêts",
+    "date": "2026-08-12",
+    "status": "presse",
+    "source": {
+     "label": "Sacra, profil Erebor",
+     "url": "https://sacra.com/c/erebor/"
+    },
+    "articleId": "erebor-2026-08-12-depots"
+   },
+   {
+    "label": "Clients",
+    "value": "environ 500 à 600, surtout IA, défense et crypto",
+    "date": "2026-07-08",
+    "status": "presse",
+    "source": {
+     "label": "TSG Invest, 8 juillet 2026",
+     "url": "https://tsginvest.com/erebor-bank/"
+    },
+    "articleId": "erebor-2026-concentration"
+   },
+   {
+    "label": "Investisseurs principaux",
+    "value": "Founders Fund, 8VC ; Lux Capital (déc. 2025)",
+    "date": "2025-12-01",
+    "status": "presse",
+    "source": {
+     "label": "The Block, d'après Axios, déc. 2025",
+     "url": "https://www.theblock.co/post/383533/banking-startup-erebor-350-million-4-billion-valuation-fdic-approval-axios"
+    }
+   }
+  ],
+  "newsQuery": "\"Erebor\" (bank OR banque OR Luckey)"
  },
  {
   "id": "apollo-research",
@@ -271,7 +438,8 @@
   "order": 7,
   "sector": "Sécurité de l'IA",
   "website": "https://www.apolloresearch.ai/",
-  "valuationNote": "Aucune valorisation publique connue."
+  "valuationNote": "Aucune valorisation publique connue.",
+  "newsQuery": "\"Apollo Research\""
  },
  {
   "id": "neura-robotics",
@@ -298,7 +466,21 @@
      "url": "https://letsdatascience.com/news/neura-robotics-raises-14b-funding-round-99f9053b"
     }
    }
-  ]
+  ],
+  "metrics": [
+   {
+    "label": "Investisseurs principaux",
+    "value": "Tether (chef de file), Amazon, Nvidia, Qualcomm, Bosch, Schaeffler, Banque européenne d'investissement (Série C)",
+    "date": "2026-06-10",
+    "status": "officielle",
+    "source": {
+     "label": "Neura Robotics, communiqué",
+     "url": "https://neura-robotics.com/record-series-c/"
+    },
+    "articleId": "neura-2026-06-10-serie-c"
+   }
+  ],
+  "newsQuery": "\"Neura Robotics\""
  },
  {
   "id": "stripe",
@@ -386,7 +568,30 @@
      "url": "https://stripe.com/newsroom/news/stripe-series-i-employee-liquidity"
     }
    }
-  ]
+  ],
+  "metrics": [
+   {
+    "label": "Volume de paiements 2025",
+    "value": "1 900 milliards de dollars, en hausse de 34 %",
+    "date": "2026-02-24",
+    "status": "officielle",
+    "source": {
+     "label": "Stripe, lettre annuelle, févr. 2026",
+     "url": "https://stripe.com/newsroom/news/stripe-2025-update"
+    }
+   },
+   {
+    "label": "Investisseurs principaux",
+    "value": "Thrive Capital, Coatue, a16z (rachat d'actions de 2026)",
+    "date": "2026-02-24",
+    "status": "officielle",
+    "source": {
+     "label": "TechCrunch, 24 févr. 2026",
+     "url": "https://techcrunch.com/2026/02/24/stripes-valuation-soars-74-to-159-billion/"
+    }
+   }
+  ],
+  "newsQuery": "\"Stripe\" (paiement OR payments OR Collison)"
  },
  {
   "id": "starcloud",
@@ -424,7 +629,30 @@
      "url": "https://www.satellitetoday.com/finance/2026/03/30/starcloud-raises-170m-to-fund-orbital-data-center-plans/"
     }
    }
-  ]
+  ],
+  "metrics": [
+   {
+    "label": "Total levé",
+    "value": "450 millions de dollars depuis 2024",
+    "date": "2026-08-21",
+    "status": "officielle",
+    "source": {
+     "label": "Via Satellite, 21 août 2026",
+     "url": "https://www.satellitetoday.com/finance/2026/08/21/starcloud-adds-250m-to-series-a-at-a-2-3b-valuation/"
+    }
+   },
+   {
+    "label": "Investisseurs principaux",
+    "value": "Manhattan West, Benchmark, EQT, Nvidia, Cisco Investments",
+    "date": "2026-08-21",
+    "status": "officielle",
+    "source": {
+     "label": "Via Satellite, 21 août 2026",
+     "url": "https://www.satellitetoday.com/finance/2026/08/21/starcloud-adds-250m-to-series-a-at-a-2-3b-valuation/"
+    }
+   }
+  ],
+  "newsQuery": "\"Starcloud\""
  },
  {
   "id": "lovable",
@@ -474,7 +702,31 @@
      "url": "https://lovable.dev/blog/200m-series-a-fundraise"
     }
    }
-  ]
+  ],
+  "metrics": [
+   {
+    "label": "Revenu annualisé",
+    "value": "plus de 600 millions de dollars",
+    "date": "2026-09-24",
+    "status": "presse",
+    "source": {
+     "label": "TechCrunch, 24 septembre 2026",
+     "url": "https://techcrunch.com/2026/09/24/lovables-annualized-revenue-crosses-600m-as-vibe-coding-takes-off/"
+    },
+    "articleId": "lovable-2026-09-24-600m-arr"
+   },
+   {
+    "label": "Investisseurs principaux",
+    "value": "Menlo Ventures, EQT (Série C) ; CapitalG (Série B) ; Accel (Série A)",
+    "date": "2026-08-12",
+    "status": "officielle",
+    "source": {
+     "label": "AI Business, août 2026",
+     "url": "https://aibusiness.com/generative-ai/euro-vibe-coding-standout-lovable-valued-at-13-3b"
+    }
+   }
+  ],
+  "newsQuery": "\"Lovable\" (Osika OR \"vibe coding\" OR AI)"
  },
  {
   "id": "kraken",
@@ -525,7 +777,42 @@
     },
     "dateLabel": "Sept. 2025"
    }
-  ]
+  ],
+  "metrics": [
+   {
+    "label": "Revenu ajusté 2025",
+    "value": "2,2 milliards de dollars (+33 %), EBITDA ajusté de 531 millions",
+    "date": "2026-02-01",
+    "status": "officielle",
+    "source": {
+     "label": "The Block, résultats 2025 de Payward",
+     "url": "https://www.theblock.co/post/388312/kraken-payward-adjusted-revenue-2025-diversifies-acquisitions-investments"
+    },
+    "dateLabel": "Début 2026"
+   },
+   {
+    "label": "Revenu ajusté T2 2026",
+    "value": "508 millions de dollars (+17 % sur un an)",
+    "date": "2026-09-02",
+    "status": "officielle",
+    "source": {
+     "label": "CoinDesk, 2 septembre 2026",
+     "url": "https://www.coindesk.com/business/2026/09/02/kraken-parent-payward-pushes-ipo-back-to-mid-2027-at-earliest"
+    },
+    "articleId": "kraken-2026-09-02-ipo-reportee-2027"
+   },
+   {
+    "label": "Investisseurs principaux",
+    "value": "Citadel Securities, Jane Street, DRW, Tribe Capital ; Nasdaq (sept. 2026)",
+    "date": "2025-11-18",
+    "status": "officielle",
+    "source": {
+     "label": "Decrypt, 18 nov. 2025",
+     "url": "https://decrypt.co/349147/crypto-exchange-kraken-raises-800-million-20-billion-valuation"
+    }
+   }
+  ],
+  "newsQuery": "\"Kraken\" (crypto OR exchange OR Payward)"
  },
  {
   "id": "polymarket",
@@ -589,7 +876,20 @@
      "url": "https://www.bloomberg.com/news/articles/2025-06-24/polymarket-is-set-to-raise-funding-at-1-billion-valuation"
     }
    }
-  ]
+  ],
+  "metrics": [
+   {
+    "label": "Investisseurs principaux",
+    "value": "ICE (jusqu'à 2 milliards de dollars) ; 1789 Capital, Founders Fund, D.E. Shaw, G Squared",
+    "date": "2025-10-07",
+    "status": "officielle",
+    "source": {
+     "label": "ICE, communiqué du 7 oct. 2025",
+     "url": "https://ir.theice.com/press/news-details/2025/ICE-Announces-Strategic-Investment-in-Polymarket/default.aspx"
+    }
+   }
+  ],
+  "newsQuery": "\"Polymarket\""
  },
  {
   "id": "shield-ai",
@@ -641,7 +941,41 @@
     },
     "dateLabel": "Mars 2025"
    }
-  ]
+  ],
+  "metrics": [
+   {
+    "label": "Revenu 2026 prévu",
+    "value": "au moins 540 millions de dollars (+80 %)",
+    "date": "2026-03-26",
+    "status": "officielle",
+    "source": {
+     "label": "Fortune, 26 mars 2026",
+     "url": "https://fortune.com/2026/03/26/shield-ai-revenue-series-g-funding-12-billion-valuation"
+    }
+   },
+   {
+    "label": "Total levé",
+    "value": "plus de 3 milliards de dollars",
+    "date": "2026-09-14",
+    "status": "presse",
+    "source": {
+     "label": "The Information, 14 septembre 2026",
+     "url": "https://www.theinformation.com/articles/defense-startup-shield-ai-talks-valuation-least-20-billion"
+    },
+    "articleId": "shield-ai-2026-09-14-valorisation-20-milliards"
+   },
+   {
+    "label": "Investisseurs principaux",
+    "value": "Advent International, JPMorgan, Blackstone (Série G) ; a16z, L3Harris, Hanwha",
+    "date": "2026-03-26",
+    "status": "officielle",
+    "source": {
+     "label": "Fortune, 26 mars 2026",
+     "url": "https://fortune.com/2026/03/26/shield-ai-revenue-series-g-funding-12-billion-valuation"
+    }
+   }
+  ],
+  "newsQuery": "\"Shield AI\""
  },
  {
   "id": "anthropic",
@@ -706,6 +1040,40 @@
     },
     "dateLabel": "Mars 2025"
    }
-  ]
+  ],
+  "metrics": [
+   {
+    "label": "Revenu annualisé",
+    "value": "plus de 47 milliards de dollars",
+    "date": "2026-05-28",
+    "status": "officielle",
+    "source": {
+     "label": "Anthropic, 28 mai 2026",
+     "url": "https://www.anthropic.com/news/series-h"
+    }
+   },
+   {
+    "label": "Revenus 2025",
+    "value": "4,6 milliards de dollars, perte d'exploitation de plus de 8 milliards",
+    "date": "2026-09-29",
+    "status": "presse",
+    "source": {
+     "label": "Trending Topics, 29 sept. 2026",
+     "url": "https://www.trendingtopics.eu/anthropic-ipo-prospectus-existential-risks/"
+    },
+    "articleId": "anthropic-2026-09-29-prospectus-ipo"
+   },
+   {
+    "label": "Investisseurs principaux",
+    "value": "Altimeter, Dragoneer, Greenoaks, Sequoia (Série H) ; Amazon, Google",
+    "date": "2026-05-28",
+    "status": "officielle",
+    "source": {
+     "label": "Anthropic, 28 mai 2026",
+     "url": "https://www.anthropic.com/news/series-h"
+    }
+   }
+  ],
+  "newsQuery": "\"Anthropic\" (Claude OR Amodei OR AI)"
  }
 ]

@@ -27,6 +27,14 @@ for c in cos:
     if c.get('website') and not ok_url(c['website']): err(f"société {c['id']}: URL invalide (https obligatoire)")
     if c.get('lastRound') and not any(x.get('id') == c['lastRound'] and x.get('companyId') == c['id'] for x in arts):
         err(f"société {c['id']}: lastRound {c['lastRound']} ne désigne aucun article de cette société")
+    for x in c.get('metrics', []):
+        if not x.get('label') or not x.get('value'): err(f"société {c['id']}: indicateur sans libellé ou sans valeur")
+        if x.get('status') not in ('officielle', 'presse'): err(f"société {c['id']}: indicateur au statut invalide")
+        if not re.fullmatch(r'\d{4}-\d{2}-\d{2}', x.get('date', '')): err(f"société {c['id']}: date d'indicateur invalide")
+        if not ok_url((x.get('source') or {}).get('url')): err(f"société {c['id']}: source d'indicateur invalide (https obligatoire)")
+        if x.get('articleId') and x['articleId'] not in {a.get('id') for a in arts}: err(f"société {c['id']}: indicateur lié à un article inconnu")
+        blob = json.dumps(x, ensure_ascii=False)
+        if '—' in blob or '–' in blob: err(f"société {c['id']}: indicateur contient un tiret long")
     for v in c.get('valuations', []):
         if v.get('status') not in ('officielle', 'presse'): err(f"société {c['id']}: valorisation au statut invalide")
         if not v.get('amount') or not v.get('round'): err(f"société {c['id']}: valorisation sans montant ou sans tour")

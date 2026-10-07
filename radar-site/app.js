@@ -9,6 +9,8 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
   const sheetRoot = document.getElementById('sheetRoot');
   const themeBtn = document.getElementById('themeBtn');
   const compareBtn = document.getElementById('compareBtn');
+  const weekBtn = document.getElementById('weekBtn');
+  const feedBtn = document.getElementById('feedBtn');
   const printRoot = document.getElementById('printRoot');
 
   const S = {
@@ -95,8 +97,11 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
   }
   function articleUrl(id){ return location.origin + location.pathname + location.search + '#' + id; }
   function companyUrl(id){ return articleUrl('societe/' + id); }
+  // Liens à partager : pages d'aperçu générées par scripts/build_share.py (titre, résumé et signal dans l'aperçu), qui redirigent ici.
+  function shareArticleUrl(id){ return location.origin + '/a/' + id; }
+  function shareCompanyUrl(id){ return location.origin + '/s/' + id; }
   // Adresse de la vue courante : fiche société (#societe/<id>), comparatif (#comparer) ou fil (aucune).
-  function viewHash(){ return S.mode==='compare' ? 'comparer' : S.company ? 'societe/' + S.company : null; }
+  function viewHash(){ return S.mode==='compare' ? 'comparer' : S.mode==='week' ? 'semaine/' + S.week : S.company ? 'societe/' + S.company : null; }
   function goCompany(id){
     if(id && !(S.selection||[]).includes(id)){ S.selection = (S.selection||[]).concat(id); lsSet(S.selection); }
     S.company = id; S.mode = 'feed'; setHash(viewHash()); render();
@@ -130,11 +135,14 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
     const st = S.status && S.status.lastRun;
     stamp.textContent = st ? 'Dernière mise à jour : ' + new Date(st).toLocaleString('fr-FR',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}) : S.articles.length + ' articles';
     if(!S.selLoaded) { app.replaceChildren(el('div',{class:'loading'},'Chargement de votre sélection…')); return; }
-    const needOnb = S.mode==='pick' || (S.mode!=='compare' && (!S.selection || !S.selection.length));
-    editBtn.hidden = needOnb || S.mode==='compare';
-    compareBtn.hidden = needOnb;
-    compareBtn.textContent = S.mode==='compare' ? 'Mon fil' : 'Comparer';
-    if(S.mode==='compare') renderCompare(); else if(needOnb) renderPick(); else renderFeed();
+    const needOnb = S.mode==='pick' || (S.mode!=='compare' && S.mode!=='week' && (!S.selection || !S.selection.length));
+    const special = S.mode==='compare' || S.mode==='week';
+    editBtn.hidden = needOnb || special;
+    compareBtn.hidden = weekBtn.hidden = needOnb && !special;
+    feedBtn.hidden = !special;
+    compareBtn.setAttribute('aria-pressed', String(S.mode==='compare'));
+    weekBtn.setAttribute('aria-pressed', String(S.mode==='week'));
+    if(S.mode==='compare') renderCompare(); else if(S.mode==='week') renderWeek(); else if(needOnb) renderPick(); else renderFeed();
     renderSheet();
   }
 
@@ -223,7 +231,7 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
           roundBox(c),
           arts.length ? el('p',{class:'since mono'}, arts.length + (arts.length>1?' articles':' article') + ' depuis le ' + fmtDate(arts.reduce((m,a)=>(a.date||'')<(m.date||'')?a:m))) : null,
           el('div',{class:'hero-actions'},
-            linkBtn(companyUrl(c.id), c.name),
+            linkBtn(shareCompanyUrl(c.id), c.name),
             exportMenu(c))),
         el('div',{class:'side'},
         valuationBox(c),
@@ -236,6 +244,8 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
             el('span',null,k.neutre+' neutre'+(k.neutre>1?'s':'')),
             el('span',null,k.prudent+' prudent'+(k.prudent>1?'s':'')))))
       ));
+      const kpis = metricsBox(c);
+      if(kpis) main.append(kpis);
       const chart = valuationChart(c);
       if(chart) main.append(el('section',{class:'valo-card'},
         el('div',{class:'valo-card-head'}, el('h3',null,'Historique de valorisation'),
@@ -364,6 +374,96 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
     return el('div',{class:'vwrap'}, el('div',{class:'vplot'}, g, tip), opts&&opts.print ? null : table);
   }
 
+  /* ---------- chiffres clés ---------- */
+  function metricsBox(c){
+    const ms = c.metrics||[];
+    if(!ms.length) return null;
+    return el('section',{class:'kpi-card'},
+      el('div',{class:'valo-card-head'}, el('h3',null,'Chiffres clés'), el('span',{class:'vlegend'},'Sources citées, officielles ou de presse')),
+      el('div',{class:'kpis'}, ms.map(x=>el('div',{class:'kpi'+(x.label==='Investisseurs principaux'?' wide':'')},
+        el('span',{class:'eyebrow'}, x.label),
+        el('span',{class:'kv'}, x.value),
+        el('span',{class:'km'},
+          el('span',{class:'mono'}, fmtDate(x)),
+          x.status==='presse' ? el('span',{class:'tagp'},'selon la presse') : null,
+          safeUrl(x.source&&x.source.url) ? el('a',{href:safeUrl(x.source.url),target:'_blank',rel:'noopener noreferrer'}, x.source.label||'Source') : null,
+          x.articleId && S.articles.some(a=>a.id===x.articleId) ? el('button',{class:'linklike',type:'button',onclick:()=>openArticle(x.articleId)},'Voir l\'article') : null)))));
+  }
+
+  /* ---------- la semaine du Radar ---------- */
+  function ymd(d){ return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0'); }
+  function today(){ return ymd(new Date()); }
+  function parseYmd(s){ const [y,m,d] = s.split('-').map(Number); return new Date(y, m-1, d); }
+  function addDays(s, n){ const d = parseYmd(s); d.setDate(d.getDate()+n); return ymd(d); }
+  function monday(s){ const d = parseYmd(s); const k = (d.getDay()+6)%7; d.setDate(d.getDate()-k); return ymd(d); }
+  function weekLabel(mon){
+    const a = parseYmd(mon), b = parseYmd(addDays(mon,6));
+    const M = ['janvier','février','mars','avril','mai','juin','juillet','août','septembre','octobre','novembre','décembre'];
+    return a.getMonth()===b.getMonth() ? 'du '+a.getDate()+' au '+b.getDate()+' '+M[b.getMonth()]+' '+b.getFullYear()
+      : 'du '+a.getDate()+' '+M[a.getMonth()]+(a.getFullYear()!==b.getFullYear()?' '+a.getFullYear():'')+' au '+b.getDate()+' '+M[b.getMonth()]+' '+b.getFullYear();
+  }
+  function weekData(mon){
+    const end = addDays(mon,6);
+    const arts = S.articles.filter(a=>a.date>=mon && a.date<=end).sort((a,b)=>(b.date||'').localeCompare(a.date||'') || (b.addedAt||'').localeCompare(a.addedAt||''));
+    const vals = [];
+    S.companies.forEach(c=>(c.valuations||[]).forEach(v=>{ if(v.date>=mon && v.date<=end) vals.push({c, v}); }));
+    vals.sort((a,b)=>usd(b.v)-usd(a.v));
+    const byCo = S.companies.map(c=>({c, arts:arts.filter(a=>a.companyId===c.id)})).filter(x=>x.arts.length).sort((a,b)=>b.arts.length-a.arts.length || fold(a.c.name).localeCompare(fold(b.c.name)));
+    return {end, arts, vals, byCo, prudent: arts.filter(a=>a.signal==='prudent'), k: counts(arts)};
+  }
+  function renderWeek(){
+    const mon = S.week, W = weekData(mon), cur = monday(today());
+    const go = m=>{ S.week = m; setHash(viewHash()); render(); window.scrollTo({top:0}); };
+    const artRow = a=>{ const s = SIG[a.signal]||SIG.neutre; const c = coById(a.companyId);
+      return el('li',{class:s.cls}, el('button',{type:'button',onclick:()=>openArticle(a.id)},
+        el('span',{class:'wmeta'}, el('span',{class:'mono'},fmtDate(a)), el('span',{class:'pill '+s.cls},s.label), isNew(a)?el('span',{class:'new'},'NOUVEAU'):null),
+        el('span',{class:'t'}, a.title), el('span',{class:'sm'}, a.summary||''))); };
+    app.replaceChildren(el('section',{class:'week'},
+      el('div',{class:'cmp-head'},
+        el('div',null, el('span',{class:'eyebrow'},'Synthèse hebdomadaire'), el('h2',null,'La semaine du Radar'), el('p',{class:'lead'}, 'Semaine '+weekLabel(mon)+'. Les faits marquants des 15 sociétés suivies.')),
+        el('div',{class:'hero-actions'},
+          el('button',{class:'btn ghost small',type:'button',onclick:()=>go(addDays(mon,-7))},'‹ Semaine précédente'),
+          el('button',{class:'btn ghost small',type:'button',disabled:mon>=cur,onclick:()=>go(addDays(mon,7))},'Semaine suivante ›'),
+          linkBtn(articleUrl('semaine/'+mon), 'La semaine du Radar'),
+          el('button',{class:'btn ghost small',type:'button',onclick:()=>exportWeek(mon)}, svg(ICON_PDF,15), el('span',null,'PDF')))),
+      el('div',{class:'wstats'},
+        el('div',{class:'kpi'}, el('span',{class:'eyebrow'},'Actualités'), el('span',{class:'kv big'}, String(W.arts.length))),
+        el('div',{class:'kpi'}, el('span',{class:'eyebrow'},'Sociétés concernées'), el('span',{class:'kv big'}, String(W.byCo.length))),
+        el('div',{class:'kpi'}, el('span',{class:'eyebrow'},'Levées et valorisations'), el('span',{class:'kv big'}, String(W.vals.length))),
+        el('div',{class:'kpi'}, el('span',{class:'eyebrow'},'Tonalité'), balanceBar(W.k,'bar'),
+          el('span',{class:'km mono'}, W.k.optimiste+' optimiste'+(W.k.optimiste>1?'s':'')+' · '+W.k.neutre+' neutre'+(W.k.neutre>1?'s':'')+' · '+W.k.prudent+' prudent'+(W.k.prudent>1?'s':'')))),
+      !W.arts.length && !W.vals.length ? el('div',{class:'empty'}, mon>=cur ? 'Pas encore d\'actualité cette semaine. Le Radar se complète à chaque passage, à 8h et 14h en semaine.' : 'Aucune actualité relayée cette semaine-là.') : null,
+      W.vals.length ? el('section',{class:'wsec'}, el('h3',null,'Levées et valorisations'),
+        el('ul',{class:'wvals'}, W.vals.map(({c,v})=>el('li',null,
+          el('button',{class:'linklike strong',type:'button',onclick:()=>goCompany(c.id)}, c.name),
+          el('span',{class:'kv'}, v.amount), el('span',{class:'sm'}, v.round+' · '+fmtDate(v)+(v.status==='presse'?' · selon la presse':' · officielle')),
+          safeUrl(v.source&&v.source.url) ? el('a',{href:safeUrl(v.source.url),target:'_blank',rel:'noopener noreferrer',class:'sm'}, v.source.label||'Source') : null)))) : null,
+      W.prudent.length ? el('section',{class:'wsec'}, el('h3',null,'Signaux prudents à surveiller'), el('ol',{class:'wlist'}, W.prudent.map(artRow))) : null,
+      W.byCo.length ? el('section',{class:'wsec'}, el('h3',null,'Faits marquants par société'),
+        W.byCo.map(({c,arts})=>el('div',{class:'wco'},
+          el('div',{class:'wco-head'}, el('button',{class:'linklike strong',type:'button',onclick:()=>goCompany(c.id)}, c.name), el('span',{class:'mono sm'}, arts.length+(arts.length>1?' actualités':' actualité')), balanceBar(counts(arts))),
+          el('ol',{class:'wlist'}, arts.map(artRow))))) : null));
+  }
+  function exportWeek(mon){
+    const W = weekData(mon);
+    const item = a=>{ const s = SIG[a.signal]||SIG.neutre; const c = coById(a.companyId);
+      return el('li',{class:s.cls}, el('div',{class:'p-nmeta'}, el('span',{class:'mono'},fmtDate(a)), el('span',{class:'pill '+s.cls},s.label)),
+        el('p',{class:'p-ntitle'}, a.title), el('p',{class:'p-nsum'}, a.summary||'')); };
+    const doc = pShell('La semaine du Radar · ' + weekLabel(mon),
+      el('span',{class:'p-eyebrow'},'Synthèse hebdomadaire'),
+      el('h1',{class:'p-title'}, el('mark',null,'La semaine du Radar')),
+      pMeta([['Période', weekLabel(mon).replace(/^du /,'Du ')], ['Actualités', String(W.arts.length)], ['Sociétés', String(W.byCo.length)]]),
+      el('div',{class:'p-cols'},
+        el('section',{class:'p-box'}, el('h4',null,'Tonalité de la semaine'), balanceBar(W.k,'bar'),
+          el('p',{class:'mono p-src'}, W.k.optimiste+' optimiste'+(W.k.optimiste>1?'s':'')+' · '+W.k.neutre+' neutre'+(W.k.neutre>1?'s':'')+' · '+W.k.prudent+' prudent'+(W.k.prudent>1?'s':''))),
+        el('section',{class:'p-box'}, el('h4',null,'Levées et valorisations'),
+          W.vals.length ? W.vals.map(({c,v})=>el('p',null, el('b',null,c.name+' : '), el('mark',null,v.amount), ' ('+v.round+(v.status==='presse'?', selon la presse':'')+')')) : el('p',null,'Aucune cette semaine.'))),
+      W.prudent.length ? el('section',null, el('h4',null,'Signaux prudents à surveiller'), el('ol',{class:'p-news'}, W.prudent.map(item))) : null,
+      W.byCo.map(({c,arts})=>el('section',null, el('h4',null, c.name+' (' + arts.length + ')'), el('ol',{class:'p-news'}, arts.map(item)))),
+      pFoot(SITE_URL + '#semaine/' + mon));
+    doPrint(doc, 'Radar - La semaine ' + weekLabel(mon));
+  }
+
   /* ---------- comparatif ---------- */
   function renderCompare(){
     const rows = S.companies.map(c=>{
@@ -483,6 +583,10 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
           el('p',{class:'p-amt',style:'color:var(--'+lean[1]+')'}, lean[0]),
           balanceBar(k,'bar'),
           el('p',{class:'mono p-src'}, k.optimiste+' optimiste'+(k.optimiste>1?'s':'')+' · '+k.neutre+' neutre'+(k.neutre>1?'s':'')+' · '+k.prudent+' prudent'+(k.prudent>1?'s':''))) ),
+      (c.metrics||[]).length ? el('section',null, el('h4',null,'Chiffres clés'),
+        el('table',{class:'p-tbl p-kpi'}, el('tbody',null, c.metrics.map(x=>el('tr',null,
+          el('td',null, el('b',null,x.label)), el('td',null, x.value), el('td',{class:'mono'}, fmtDate(x)),
+          el('td',null, ((x.source&&x.source.label)||'') + (x.status==='presse' ? ' (presse)' : ''))))))) : null,
       valuationChart(c,{print:true}) ? el('section',null, el('h4',null,'Historique de valorisation'), valuationChart(c,{print:true}),
         el('table',{class:'p-tbl'}, el('tbody',null, vals(c).map(v=>el('tr',null, el('td',{class:'mono'},fmtDate(v)), el('td',null,el('b',null,v.amount)), el('td',null,v.round), el('td',null, v.status==='presse'?'Presse':'Officielle')))))) : null,
       mode==='fil' ? el('section',null, el('h4',null,'Fil chronologique (' + arts.length + ' actualités)'),
@@ -575,6 +679,8 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
     const m = /^societe\/(.+)$/.exec(id);
     if(m && coById(m[1])){ S.open=null; goCompany(m[1]); return; }
     if(id==='comparer'){ S.open=null; S.mode='compare'; render(); return; }
+    const w = /^semaine(?:\/(\d{4}-\d{2}-\d{2}))?$/.exec(id);
+    if(w){ S.open=null; S.mode='week'; S.week = monday(w[1] || today()); render(); return; }
     if(id && S.articles.some(a=>a.id===id)){ markRead(id); S.open=id; render(); }
     else if(S.open){ S.open=null; renderSheet(); }
   }
@@ -585,7 +691,7 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
     const s = SIG[a.signal]||SIG.neutre; const c = coById(a.companyId);
     const paras = (t)=> String(t||'').split(/\n\s*\n/).filter(Boolean).map(p=>el('p',null,p));
     const closeBtn = el('button',{class:'x',type:'button','aria-label':'Fermer',onclick:closeSheet},svg(ICON_X,18));
-    const shareBtn = linkBtn(articleUrl(a.id), a.title);
+    const shareBtn = linkBtn(shareArticleUrl(a.id), a.title);
     const pdfBtn = el('button',{class:'btn ghost small',type:'button',title:'Exporter l\'article en PDF',onclick:()=>exportArticle(a)}, svg(ICON_PDF,15), el('span',null,'PDF'));
     sheetRoot.replaceChildren(
       el('div',{class:'scrim',onclick:closeSheet}),
@@ -612,6 +718,8 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
   });
   editBtn.addEventListener('click',()=>{ S.mode='pick'; S.draft=null; render(); });
   compareBtn.addEventListener('click',()=>{ S.mode = S.mode==='compare' ? 'feed' : 'compare'; setHash(viewHash()); render(); window.scrollTo({top:0}); });
+  feedBtn.addEventListener('click',()=>{ S.mode='feed'; setHash(viewHash()); render(); window.scrollTo({top:0}); });
+  weekBtn.addEventListener('click',()=>{ if(S.mode==='week'){ S.mode='feed'; } else { S.mode='week'; S.week = S.week || monday(today()); } setHash(viewHash()); render(); window.scrollTo({top:0}); });
   window.addEventListener('hashchange', readHash);
 
   /* ---------- thème : automatique (réglage du système), clair ou sombre ---------- */
