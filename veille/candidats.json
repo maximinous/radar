@@ -1,49 +1,13 @@
 {
- "generatedAt": "2026-10-07T15:07:17Z",
- "windowHours": 36,
+ "generatedAt": "2026-10-07T15:19:45Z",
+ "windowHours": 24,
  "headlinesRead": 595,
- "count": 29,
+ "count": 25,
  "companies": [
-  {
-   "companyId": "together-ai",
-   "name": "Together AI",
-   "candidates": [
-    {
-     "date": "2026-10-06 14:44",
-     "media": "HPCwire",
-     "title": "Clockwork.io Announces $31M in Funding and Deployments at LinkedIn and Together AI",
-     "site": "https://www.hpcwire.com",
-     "overlap": 0.0,
-     "reprises": 0
-    }
-   ]
-  },
-  {
-   "companyId": "figure-ai",
-   "name": "Figure AI",
-   "candidates": [
-    {
-     "date": "2026-10-06 14:00",
-     "media": "Fredzone",
-     "title": "Figure AI précipite ses robots humanoïdes dans l’acier en fusion",
-     "site": "https://www.fredzone.org",
-     "overlap": 0.0,
-     "reprises": 0
-    }
-   ]
-  },
   {
    "companyId": "mistral-ai",
    "name": "Mistral AI",
    "candidates": [
-    {
-     "date": "2026-10-06 11:32",
-     "media": "The News International",
-     "title": "Mistral AI new model beats Chinese competitors in cybersecurity, claims CEO",
-     "site": "https://www.thenews.com.pk",
-     "overlap": 0.29,
-     "reprises": 2
-    },
     {
      "date": "2026-10-07 11:35",
      "media": "International Business Times, Singapore Edition",
@@ -58,7 +22,15 @@
      "title": "[IA Insider] Aleph Alpha, Mistral AI, Reflection... Les modèles open-weight occidentaux veulent en découdre avec leurs rivaux chinois",
      "site": "https://www.usine-digitale.fr",
      "overlap": 0.08,
-     "reprises": 1
+     "reprises": 0
+    },
+    {
+     "date": "2026-10-06 15:33",
+     "media": "H24info",
+     "title": "IA: Mistral dévoile ML4, son plus grand modèle, pour revenir dans la course mondiale",
+     "site": "https://h24info.ma",
+     "overlap": 0.38,
+     "reprises": 0
     },
     {
      "date": "2026-10-06 15:44",
@@ -66,7 +38,7 @@
      "title": "France's Mistral launches AI model it says outperforms some Chinese rivals",
      "site": "https://www.reuters.com",
      "overlap": 0.12,
-     "reprises": 1
+     "reprises": 0
     },
     {
      "date": "2026-10-06 16:30",
@@ -74,29 +46,15 @@
      "title": "Mistral lance Le Chonk, la nouvelle IA française qui réduit l’écart avec ChatGPT et Claude",
      "site": "https://www.01net.com",
      "overlap": 0.12,
-     "reprises": 1
+     "reprises": 0
     },
     {
-     "date": "2026-10-06 12:30",
-     "media": "JDN",
-     "title": "Portée par Mistral AI, la French tech signe un mois de septembre record avec 3,78 milliards d'euros levés",
-     "site": "https://www.journaldunet.com",
-     "overlap": 0.2,
+     "date": "2026-10-07 07:19",
+     "media": "Afrique IT News",
+     "title": "Le Maroc lance ses propres modèles d’IA en open source avec Mistral AI",
+     "site": "https://afriqueitnews.com",
+     "overlap": 0.17,
      "reprises": 0
-    }
-   ]
-  },
-  {
-   "companyId": "erebor",
-   "name": "Erebor Bank",
-   "candidates": [
-    {
-     "date": "2026-10-06 10:14",
-     "media": "TradingView",
-     "title": "Palmer Luckey’s Erebor surges to more than $7bn in deposits since launch- FT",
-     "site": "https://www.tradingview.com",
-     "overlap": 0,
-     "reprises": 1
     }
    ]
   },
@@ -118,14 +76,6 @@
    "companyId": "stripe",
    "name": "Stripe",
    "candidates": [
-    {
-     "date": "2026-10-06 07:09",
-     "media": "UseTheBitcoin",
-     "title": "Stripe Plans Stablecoin Card Expansion to More Than 100 Countries",
-     "site": "https://usethebitcoin.com",
-     "overlap": 0.0,
-     "reprises": 1
-    },
     {
      "date": "2026-10-06 19:14",
      "media": "timesdaily.com",
@@ -187,27 +137,11 @@
    "name": "Polymarket",
    "candidates": [
     {
-     "date": "2026-10-06 07:23",
-     "media": "CoinGape",
-     "title": "Polymarket Unveils Protocol V2, Targets Nov. 2 Switch to a Single pUSD Market",
-     "site": "https://coingape.com",
-     "overlap": 0.0,
-     "reprises": 1
-    },
-    {
      "date": "2026-10-06 16:20",
      "media": "Benzinga France",
      "title": "L’accord de LeBron avec Polymarket soulève des questions pour la NBA",
      "site": "https://fr.benzinga.com",
      "overlap": 0.0,
-     "reprises": 1
-    },
-    {
-     "date": "2026-10-07 03:18",
-     "media": "ConseilsCrypto.com",
-     "title": "Polymarket dévoile son Protocole V2 : transition vers un marché de prédiction unique sous pUSD",
-     "site": "https://conseilscrypto.com",
-     "overlap": 0.11,
      "reprises": 1
     },
     {
@@ -219,19 +153,35 @@
      "reprises": 1
     },
     {
-     "date": "2026-10-06 07:54",
-     "media": "Bitcoin Foundation",
-     "title": "Polymarket V2 Nears Launch With New Prediction Market Architecture",
-     "site": "https://bitcoinfoundation.org",
-     "overlap": 0.2,
+     "date": "2026-10-06 17:01",
+     "media": "The Root",
+     "title": "Why LeBron James’ $15 Million Polymarket Partnership Is Under Fire",
+     "site": "https://www.theroot.com",
+     "overlap": 0.0,
      "reprises": 0
     },
     {
-     "date": "2026-10-06 10:50",
-     "media": "Coinfomania",
-     "title": "Polymarket lance son protocole V2 avec des objectifs ambitieux",
-     "site": "https://coinfomania.com",
-     "overlap": 0.25,
+     "date": "2026-10-06 22:43",
+     "media": "Time Magazine",
+     "title": "Digger Box Office: Polymarket Predicted Tom Cruise's Flop",
+     "site": "https://time.com",
+     "overlap": 0.14,
+     "reprises": 0
+    },
+    {
+     "date": "2026-10-06 23:45",
+     "media": "SILive.com",
+     "title": "MLB Polymarket promo code “SILIVE” enhances $25 Rays-Yankees Game 3 deal",
+     "site": "https://www.silive.com",
+     "overlap": 0.0,
+     "reprises": 0
+    },
+    {
+     "date": "2026-10-07 03:18",
+     "media": "ConseilsCrypto.com",
+     "title": "Polymarket dévoile son Protocole V2 : transition vers un marché de prédiction unique sous pUSD",
+     "site": "https://conseilscrypto.com",
+     "overlap": 0.11,
      "reprises": 0
     }
    ]
@@ -249,19 +199,11 @@
      "reprises": 6
     },
     {
-     "date": "2026-10-06 20:12",
-     "media": "Quartz",
-     "title": "Anthropic expands cyber AI access program to more security firms",
-     "site": "https://qz.com",
-     "overlap": 0.14,
-     "reprises": 3
-    },
-    {
-     "date": "2026-10-07 09:11",
-     "media": "Cyber Press",
-     "title": "Anthropic Opens Claude Access to Red Teams and Verified Cyber Defenders",
-     "site": "https://cyberpress.org",
-     "overlap": 0.12,
+     "date": "2026-10-07 09:44",
+     "media": "FourWeekMBA",
+     "title": "Anthropic Opens Mythos 5.1 to Defenders in 3 Cyber Tiers",
+     "site": "https://fourweekmba.com",
+     "overlap": 0.0,
      "reprises": 3
     },
     {
@@ -273,12 +215,20 @@
      "reprises": 2
     },
     {
-     "date": "2026-10-07 07:55",
+     "date": "2026-10-07 08:07",
+     "media": "The Hacker News",
+     "title": "Anthropic Expands Claude Access for Vetted Cyber Teams as Glasswing Finds 129,000 Flaws",
+     "site": "https://thehackernews.com",
+     "overlap": 0.18,
+     "reprises": 2
+    },
+    {
+     "date": "2026-10-07 07:56",
      "media": "The Daily Star",
      "title": "How much did Anthropic CEO Dario Amodei make last year?",
      "site": "https://www.thedailystar.net",
      "overlap": 0.0,
-     "reprises": 2
+     "reprises": 1
     },
     {
      "date": "2026-10-07 08:21",
@@ -286,7 +236,7 @@
      "title": "Anthropic lance une extension Claude pour Google Docs, Sheets et Slides",
      "site": "https://www.blogdumoderateur.com",
      "overlap": 0.29,
-     "reprises": 2
+     "reprises": 1
     }
    ]
   }
