@@ -538,6 +538,46 @@
   "addedAt": "2026-09-30T15:46:23Z"
  },
  {
+  "id": "mistral-ai-2026-09-29-maif",
+  "companyId": "mistral-ai",
+  "date": "2026-09-29",
+  "title": "La MAIF s'appuie sur Mistral AI, Scaleway et Diabolocom pour son organisation IA",
+  "summary": "La mutuelle MAIF structure son modèle opérationnel d'IA autour de trois partenaires : Mistral AI pour les modèles, Scaleway pour l'infrastructure et Diabolocom pour la plateforme.",
+  "detail": "Selon FrenchWeb, Mistral AI fournit à la MAIF des modèles et un accompagnement sur les usages génératifs. Les cas d'usage cités sont la recherche dans les bases de connaissances, les résumés d'appels, l'aide aux réponses sur les sinistres et l'analyse des courriels.\n\nLe partenariat a été annoncé en septembre, dans la continuité du programme IA de la MAIF. La mutuelle insiste sur le contrôle de ses données et la réversibilité face à ses fournisseurs. Aucun montant n'est communiqué.",
+  "impact": "Un grand assureur français choisit les modèles de Mistral pour des usages métiers, ce qui renforce sa crédibilité sur le marché des entreprises et de la souveraineté des données.",
+  "signal": "optimiste",
+  "rationale": "Un client grand compte français de plus, même si le contrat n'est pas chiffré.",
+  "sources": [
+   {
+    "label": "FrenchWeb, 29/09/2026",
+    "url": "https://www.frenchweb.fr/avec-mistral-ai-scaleway-et-diabolocom-la-maif-organise-son-modele-operationnel-de-lia/463662"
+   }
+  ],
+  "addedAt": "2026-10-07T14:07:47Z"
+ },
+ {
+  "id": "mistral-ai-2026-09-29-maroc-darija",
+  "companyId": "mistral-ai",
+  "date": "2026-09-29",
+  "title": "Le Maroc et Mistral dévoilent leurs premiers outils d'IA en open source pour la darija",
+  "summary": "Le ministère marocain de la Transition numérique et Mistral AI publient deux premières briques d'IA dédiées au Maroc, dont un modèle de reconnaissance vocale de la darija.",
+  "detail": "Les deux outils sont un classifieur qui identifie les dialectes arabes, dont la darija, et un modèle de reconnaissance vocale de type Voxtral qui transcrit l'oral en texte, y compris quand le locuteur mêle arabe, français et anglais. Ils seront disponibles en open source pour les administrations, startups, chercheurs et développeurs.\n\nCes livrables sont les premiers d'un partenariat pluriannuel, cadré par la feuille de route « AI Made in Morocco » et la stratégie Maroc Digital 2030. D'autres modèles génératifs sont en préparation.",
+  "impact": "Mistral concrétise un partenariat avec un État et étend sa présence en Afrique du Nord, avec une offre d'IA souveraine adaptée à une langue locale.",
+  "signal": "optimiste",
+  "rationale": "Un partenariat public livre ses premiers résultats concrets et ouvre un nouveau marché.",
+  "sources": [
+   {
+    "label": "Le360, 29/09/2026",
+    "url": "https://fr.le360.ma/economie/ia-le-maroc-et-mistral-devoilent-leurs-premiers-outils-souverains-adaptes-a-la-darija_CIN6M2RH4BERZE7DE22U7EIFQU/"
+   },
+   {
+    "label": "Le Matin, 29/09/2026",
+    "url": "https://lematin.ma/hi-tech/le-maroc-et-mistral-developpent-des-outils-dia-en-darija/367585"
+   }
+  ],
+  "addedAt": "2026-10-07T14:07:47Z"
+ },
+ {
   "id": "anthropic-2026-09-29-prospectus-ipo",
   "companyId": "anthropic",
   "date": "2026-09-29",
