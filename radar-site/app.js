@@ -11,9 +11,10 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
   const S = {
     db:null, companies:[], articles:[], status:null,
     selection:null, selLoaded:false, draft:null, mode:'feed',
-    company:null, signal:'all', open:null, storeNote:''
+    company:null, signal:'all', open:null, storeNote:'', page:1, pageKey:''
   };
   const LS_KEY = 'radar-selection-v1';
+  const PAGE_SIZE = 15;
   const SIG = {
     optimiste:{cls:'pos', label:'Optimiste', verdict:'Signal optimiste'},
     neutre:{cls:'neu', label:'Neutre', verdict:'Signal neutre'},
@@ -151,6 +152,12 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
     let list = S.company ? mine.filter(a=>a.companyId===S.company) : mine;
     if(S.signal!=='all') list = list.filter(a=>a.signal===S.signal);
     list = list.slice().sort((a,b)=> (b.date||'').localeCompare(a.date||'') || (b.addedAt||'').localeCompare(a.addedAt||''));
+    // Pagination : retour à la page 1 dès que la société, le signal ou la sélection change.
+    const pageKey = [S.company, S.signal, S.selection.join(',')].join('|');
+    if(S.pageKey !== pageKey){ S.pageKey = pageKey; S.page = 1; }
+    const pages = Math.max(1, Math.ceil(list.length / PAGE_SIZE));
+    S.page = Math.min(Math.max(1, S.page), pages);
+    const shown = list.slice((S.page-1)*PAGE_SIZE, S.page*PAGE_SIZE);
 
     const main = el('section',null);
     if(S.company){
@@ -178,13 +185,14 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
             el('span',null,k.prudent+' prudent'+(k.prudent>1?'s':''))))
       ));
     }
-    main.append(el('div',{class:'feed-head'},
+    const head = el('div',{class:'feed-head'},
       el('h2',null, S.company ? 'Actualités' : 'Mon fil de veille'),
-      el('span',{class:'count mono'}, list.length + (list.length>1?' articles':' article'))));
+      el('span',{class:'count mono'}, list.length + (list.length>1?' articles':' article') + (pages>1 ? ' · page '+S.page+' sur '+pages : '')));
+    main.append(head);
     if(!list.length){
       main.append(el('div',{class:'empty'}, S.signal!=='all' ? 'Aucun article avec ce signal pour le moment.' : 'Pas encore d\'actualité pour cette sélection. Le fil se complète à chaque mise à jour.'));
     } else {
-      main.append(el('div',{class:'feed'}, list.map(a=>{
+      main.append(el('div',{class:'feed'}, shown.map(a=>{
         const s = SIG[a.signal]||SIG.neutre; const c = coById(a.companyId);
         return el('button',{class:'card '+s.cls,type:'button',onclick:()=>{S.open=a.id;renderSheet();}},
           el('span',{class:'stripe'}),
@@ -197,9 +205,33 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
             el('h3',null,a.title),
             el('p',null,a.summary||'')));
       })));
+      if(pages>1) main.append(pager(S.page, pages, p=>{
+        S.page = p; render();
+        const h = app.querySelector('.feed-head');
+        if(h) h.scrollIntoView({behavior:'smooth', block:'start'});
+      }));
     }
     if(S.storeNote) main.append(el('div',{class:'notice'},S.storeNote));
     app.replaceChildren(el('div',{class:'grid'}, rail, main));
+  }
+
+  // Numéros de page affichés : la première, la dernière, et deux voisines de la page courante.
+  function pageList(cur, total){
+    const keep = new Set([1, total, cur-1, cur, cur+1]);
+    if(cur<=3) [2,3,4].forEach(n=>keep.add(n));
+    if(cur>=total-2) [total-1,total-2,total-3].forEach(n=>keep.add(n));
+    const nums = [...keep].filter(n=>n>=1 && n<=total).sort((a,b)=>a-b);
+    const out = [];
+    nums.forEach((n,i)=>{ if(i && n-nums[i-1]>1) out.push(null); out.push(n); });
+    return out;
+  }
+  function pager(cur, total, go){
+    return el('nav',{class:'pager','aria-label':'Pages du fil'},
+      el('button',{class:'pg nav',type:'button',disabled:cur<=1,'aria-label':'Page précédente',onclick:()=>go(cur-1)},'‹ Précédent'),
+      el('span',{class:'nums'}, pageList(cur,total).map(n=> n===null
+        ? el('span',{class:'gap','aria-hidden':'true'},'…')
+        : el('button',{class:'pg',type:'button','aria-current':n===cur?'page':null,'aria-label':'Page '+n,onclick:()=>go(n)},String(n)))),
+      el('button',{class:'pg nav',type:'button',disabled:cur>=total,'aria-label':'Page suivante',onclick:()=>go(cur+1)},'Suivant ›'));
   }
 
   let lastFocus = null;
