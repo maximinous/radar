@@ -7,7 +7,7 @@ Site statique de veille sur des sociétés non cotées, publié sur https://rada
 - `radar-site/` : dossier publié par Cloudflare.
 - `scripts/validate.py` : contrôle des données, à lancer avant chaque commit.
 - `index.html` : la page (aucun serveur, aucune dépendance externe).
-- `data/companies.json` : sociétés suivies (tableau d'objets `id`, `name`, `sector`, `order`, `oneLiner`, `description`, `hq`, `founded`, `leaders`, `website`).
+- `data/companies.json` : sociétés suivies (tableau d'objets `id`, `name`, `sector`, `order`, `oneLiner`, `description`, `hq`, `founded`, `leaders`, `website`, et `lastRound` facultatif : id de l'article de la dernière levée, affiché sur la fiche société).
 - `data/articles.json` : articles, triés du plus récent au plus ancien.
 - `data/status.json` : `{ "lastRun": "<ISO UTC>", "note": "<texte>" }`.
 - `fonts/` : polices auto-hébergées (licence SIL OFL).

@@ -7,13 +7,18 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
   const stamp = document.getElementById('stamp');
   const editBtn = document.getElementById('editSel');
   const sheetRoot = document.getElementById('sheetRoot');
+  const themeBtn = document.getElementById('themeBtn');
 
   const S = {
     db:null, companies:[], articles:[], status:null,
     selection:null, selLoaded:false, draft:null, mode:'feed',
-    company:null, signal:'all', open:null, storeNote:'', page:1, pageKey:''
+    company:null, signal:'all', open:null, storeNote:'', page:1, pageKey:'',
+    q:'', view:'feed', since:0
   };
   const LS_KEY = 'radar-selection-v1';
+  const LS_VISIT = 'radar-last-visit-v1';
+  const SS_SINCE = 'radar-since-v1';
+  const LS_THEME = 'radar-theme';
   const PAGE_SIZE = 10;
   const SIG = {
     optimiste:{cls:'pos', label:'Optimiste', verdict:'Signal optimiste'},
@@ -44,6 +49,11 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
   const ICON_CHECK = '<path d="M5 12.5l4.5 4.5L19 7.5"/>';
   const ICON_LOCK = '<rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/>';
   const ICON_X = '<path d="M6 6l12 12M18 6L6 18"/>';
+  const ICON_LINK = '<path d="M10 14a4.5 4.5 0 0 0 6.4 0l3-3a4.5 4.5 0 0 0-6.4-6.4l-1 1"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3 3a4.5 4.5 0 0 0 6.4 6.4l1-1"/>';
+  const ICON_SEARCH = '<circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4.2-4.2"/>';
+  const ICON_SUN = '<circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M4.6 4.6l1.4 1.4M18 18l1.4 1.4M2.5 12h2M19.5 12h2M4.6 19.4L6 18M18 6l1.4-1.4"/>';
+  const ICON_MOON = '<path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/>';
+  const ICON_AUTO = '<circle cx="12" cy="12" r="8.5"/><path d="M12 3.5v17a8.5 8.5 0 0 0 0-17z" fill="currentColor"/>';
   const ICON_OUT = '<path d="M14 5h5v5M19 5l-8 8M18 14v4a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h4"/>';
 
   const MONTHS = ['janv.','févr.','mars','avr.','mai','juin','juil.','août','sept.','oct.','nov.','déc.'];
@@ -56,11 +66,20 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
   function safeUrl(u){
     try{ const x = new URL(u, location.href); return (x.protocol==='https:'||x.protocol==='http:') ? x.href : null; }catch(e){ return null; }
   }
+  // « Nouveau » = ajouté depuis la visite précédente (repère gardé pour tout l'onglet, même après un rechargement).
   function isNew(a){
     if(!a.addedAt) return false;
     const t = Date.parse(a.addedAt); if(isNaN(t)) return false;
-    return (Date.now()-t) < 36*3600*1000;
+    return t > S.since;
   }
+  function fold(t){ return String(t||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase(); }
+  function matches(a, terms){
+    if(!terms.length) return true;
+    const c = coById(a.companyId);
+    const hay = fold([a.title, a.summary, a.detail, a.impact, c&&c.name].join(' '));
+    return terms.every(t=>hay.includes(t));
+  }
+  function articleUrl(id){ return location.origin + location.pathname + location.search + '#' + id; }
   function coById(id){ return S.companies.find(c=>c.id===id); }
   function counts(list){
     const c={optimiste:0,neutre:0,prudent:0}; list.forEach(a=>{ if(c[a.signal]!=null) c[a.signal]++; }); return c;
@@ -149,11 +168,13 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
             el('span',{class:'n'},c.name), svg(ICON_LOCK))))) : null
     );
 
+    const terms = fold(S.q).split(/\s+/).filter(Boolean);
     let list = S.company ? mine.filter(a=>a.companyId===S.company) : mine;
     if(S.signal!=='all') list = list.filter(a=>a.signal===S.signal);
+    list = list.filter(a=>matches(a, terms));
     list = list.slice().sort((a,b)=> (b.date||'').localeCompare(a.date||'') || (b.addedAt||'').localeCompare(a.addedAt||''));
-    // Pagination : retour à la page 1 dès que la société, le signal ou la sélection change.
-    const pageKey = [S.company, S.signal, S.selection.join(',')].join('|');
+    // Pagination : retour à la page 1 dès que la société, le signal, la recherche ou la sélection change.
+    const pageKey = [S.company, S.signal, S.q, S.selection.join(',')].join('|');
     if(S.pageKey !== pageKey){ S.pageKey = pageKey; S.page = 1; }
     const pages = Math.max(1, Math.ceil(list.length / PAGE_SIZE));
     S.page = Math.min(Math.max(1, S.page), pages);
@@ -174,7 +195,9 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
             c.hq?el('span',null,'Siège ',el('b',null,c.hq)):null,
             c.founded?el('span',null,'Création ',el('b',null,c.founded)):null,
             c.leaders?el('span',null,'Dirigeants ',el('b',null,c.leaders)):null,
-            safeUrl(c.website)?el('span',null,el('a',{href:safeUrl(c.website),target:'_blank',rel:'noopener noreferrer'},'Site officiel')):null)),
+            safeUrl(c.website)?el('span',null,el('a',{href:safeUrl(c.website),target:'_blank',rel:'noopener noreferrer'},'Site officiel')):null),
+          roundBox(c),
+          arts.length ? el('p',{class:'since mono'}, arts.length + (arts.length>1?' articles':' article') + ' depuis le ' + fmtDate(arts.reduce((m,a)=>(a.date||'')<(m.date||'')?a:m))) : null),
         el('div',{class:'mood'},
           el('span',{class:'eyebrow'},'Tonalité de la veille'),
           el('span',{class:'verdict',style:'color:var(--'+lean[1]+')'},lean[0]),
@@ -185,16 +208,28 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
             el('span',null,k.prudent+' prudent'+(k.prudent>1?'s':''))))
       ));
     }
+    const timeline = S.company && S.view==='timeline';
+    const fresh = list.filter(isNew).length;
     const head = el('div',{class:'feed-head'},
       el('h2',null, S.company ? 'Actualités' : 'Mon fil de veille'),
-      el('span',{class:'count mono'}, list.length + (list.length>1?' articles':' article') + (pages>1 ? ' · page '+S.page+' sur '+pages : '')));
-    main.append(head);
+      S.company ? el('div',{class:'seg',role:'group','aria-label':'Affichage'},
+        [['feed','Fil'],['timeline','Chronologie']].map(([k,l])=>
+          el('button',{type:'button','aria-pressed':String(S.view===k),onclick:()=>{S.view=k;render();}},l))) : null,
+      el('span',{class:'count mono'}, list.length + (list.length>1?' articles':' article')
+        + (fresh ? ' · '+fresh+(fresh>1?' nouveaux':' nouveau') : '')
+        + (pages>1 && !timeline ? ' · page '+S.page+' sur '+pages : '')));
+    const search = el('label',{class:'search'}, svg(ICON_SEARCH,16),
+      el('input',{id:'q',type:'search',placeholder:'Rechercher : levée, Toronto, contrat…','aria-label':'Rechercher dans le fil',autocomplete:'off',value:S.q,
+        oninput:e=>{ S.q = e.target.value; render(); }}));
+    main.append(search, head);
     if(!list.length){
-      main.append(el('div',{class:'empty'}, S.signal!=='all' ? 'Aucun article avec ce signal pour le moment.' : 'Pas encore d\'actualité pour cette sélection. Le fil se complète à chaque mise à jour.'));
+      main.append(el('div',{class:'empty'}, terms.length ? 'Aucun article ne correspond à « ' + S.q.trim() + ' ».' : S.signal!=='all' ? 'Aucun article avec ce signal pour le moment.' : 'Pas encore d\'actualité pour cette sélection. Le fil se complète à chaque mise à jour.'));
+    } else if(timeline){
+      main.append(renderTimeline(list));
     } else {
       main.append(el('div',{class:'feed'}, shown.map(a=>{
         const s = SIG[a.signal]||SIG.neutre; const c = coById(a.companyId);
-        return el('button',{class:'card '+s.cls,type:'button',onclick:()=>{S.open=a.id;renderSheet();}},
+        return el('button',{class:'card '+s.cls,type:'button',onclick:()=>openArticle(a.id)},
           el('span',{class:'stripe'}),
           el('div',null,
             el('div',{class:'meta'},
@@ -212,7 +247,39 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
       }));
     }
     if(S.storeNote) main.append(el('div',{class:'notice'},S.storeNote));
+    // Le fil est reconstruit à chaque frappe : on rend le focus et le curseur au champ de recherche.
+    const f = document.activeElement, caret = f && f.id==='q' ? f.selectionStart : null;
     app.replaceChildren(el('div',{class:'grid'}, rail, main));
+    if(caret!=null){ const q = document.getElementById('q'); q.focus(); try{ q.setSelectionRange(caret, caret); }catch(e){} }
+  }
+
+  // Dernière levée relayée par la veille : article désigné par lastRound dans companies.json.
+  function roundBox(c){
+    const a = c.lastRound && S.articles.find(x=>x.id===c.lastRound && x.companyId===c.id);
+    if(!a) return null;
+    return el('button',{class:'round',type:'button',onclick:()=>openArticle(a.id)},
+      el('span',{class:'eyebrow'},'Dernière levée relayée'),
+      el('span',{class:'t'}, a.title),
+      el('span',{class:'d mono'}, fmtDate(a)));
+  }
+
+  // Chronologie d'une société : tous ses articles, regroupés par mois, sans pagination.
+  const MONTHS_LONG = ['janvier','février','mars','avril','mai','juin','juillet','août','septembre','octobre','novembre','décembre'];
+  function renderTimeline(list){
+    const groups = [];
+    list.forEach(a=>{
+      const m = /^(\d{4})-(\d{2})/.exec(a.date||'');
+      const key = m ? MONTHS_LONG[+m[2]-1] + ' ' + m[1] : 'Sans date';
+      if(!groups.length || groups[groups.length-1].key!==key) groups.push({key, items:[]});
+      groups[groups.length-1].items.push(a);
+    });
+    return el('div',{class:'tl'}, groups.map(g=>el('section',null,
+      el('h3',{class:'tl-month'}, g.key, el('span',{class:'mono'}, String(g.items.length))),
+      el('ol',null, g.items.map(a=>{ const s = SIG[a.signal]||SIG.neutre;
+        return el('li',{class:s.cls}, el('button',{type:'button',onclick:()=>openArticle(a.id)},
+          el('span',{class:'mono d'}, fmtDate(a)),
+          el('span',{class:'t'}, a.title),
+          isNew(a)?el('span',{class:'new'},'NOUVEAU'):null)); })))));
   }
 
   // Numéros de page affichés : la première, la dernière, et deux voisines de la page courante.
@@ -235,7 +302,25 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
   }
 
   let lastFocus = null;
-  function closeSheet(){ S.open=null; renderSheet(); if(lastFocus) try{lastFocus.focus();}catch(e){} }
+  // Chaque article a son adresse (#id) : partageable, et ouverte directement au chargement.
+  function setHash(id){ try{ history.replaceState(null,'', id ? '#'+id : location.pathname+location.search); }catch(e){} }
+  function openArticle(id){ S.open=id; setHash(id); renderSheet(); }
+  function closeSheet(){ S.open=null; setHash(null); renderSheet(); if(lastFocus) try{lastFocus.focus();}catch(e){} }
+  function readHash(){
+    const id = decodeURIComponent(location.hash.slice(1));
+    if(id && S.articles.some(a=>a.id===id)){ S.open=id; renderSheet(); }
+    else if(S.open){ S.open=null; renderSheet(); }
+  }
+  async function shareArticle(a, btn){
+    const url = articleUrl(a.id);
+    if(navigator.share && matchMedia('(pointer:coarse)').matches){
+      try{ await navigator.share({title:a.title, url}); }catch(e){}
+      return;
+    }
+    try{ await navigator.clipboard.writeText(url); btn.lastChild.textContent = 'Lien copié'; }
+    catch(e){ window.prompt('Copiez le lien de l\'article :', url); return; }
+    setTimeout(()=>{ if(btn.isConnected) btn.lastChild.textContent = 'Copier le lien'; }, 2000);
+  }
   function renderSheet(){
     const a = S.open && S.articles.find(x=>x.id===S.open);
     if(!a){ sheetRoot.replaceChildren(); document.body.style.overflow=''; return; }
@@ -243,11 +328,13 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
     const s = SIG[a.signal]||SIG.neutre; const c = coById(a.companyId);
     const paras = (t)=> String(t||'').split(/\n\s*\n/).filter(Boolean).map(p=>el('p',null,p));
     const closeBtn = el('button',{class:'x',type:'button','aria-label':'Fermer',onclick:closeSheet},svg(ICON_X,18));
+    const shareBtn = el('button',{class:'btn ghost share',type:'button',onclick:()=>shareArticle(a, shareBtn)}, svg(ICON_LINK,15), el('span',null,'Copier le lien'));
     sheetRoot.replaceChildren(
       el('div',{class:'scrim',onclick:closeSheet}),
       el('div',{class:'sheet',role:'dialog','aria-modal':'true','aria-label':a.title},
         el('div',{class:'sheet-head'},
-          el('span',{class:'eyebrow'}, c?c.name:''), closeBtn),
+          el('span',{class:'eyebrow'}, c?c.name:''),
+          el('div',{class:'sheet-actions'}, shareBtn, closeBtn)),
         el('div',{class:'sheet-body'},
           el('div',null,
             el('div',{class:'kicker'}, el('span',{class:'mono'},fmtDate(a)), el('span',{class:'pill '+s.cls},s.label), isNew(a)?el('span',{class:'new'},'NOUVEAU'):null),
@@ -263,6 +350,43 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
   }
   document.addEventListener('keydown',e=>{ if(e.key==='Escape' && S.open) closeSheet(); });
   editBtn.addEventListener('click',()=>{ S.mode='pick'; S.draft=null; render(); });
+  window.addEventListener('hashchange', readHash);
+
+  /* ---------- thème : automatique (réglage du système), clair ou sombre ---------- */
+  const THEMES = {
+    auto:{next:'light', icon:ICON_AUTO, label:'Thème automatique'},
+    light:{next:'dark', icon:ICON_SUN, label:'Thème clair'},
+    dark:{next:'auto', icon:ICON_MOON, label:'Thème sombre'}
+  };
+  function getTheme(){ try{ const t = localStorage.getItem(LS_THEME); return THEMES[t] && t!=='auto' ? t : 'auto'; }catch(e){ return 'auto'; } }
+  function paintTheme(t){
+    if(t==='auto') delete document.documentElement.dataset.theme; else document.documentElement.dataset.theme = t;
+    const th = THEMES[t];
+    themeBtn.replaceChildren(svg(th.icon,16));
+    themeBtn.setAttribute('aria-label', th.label + ' (changer)');
+    themeBtn.title = th.label + ' : cliquez pour passer au ' + THEMES[th.next].label.toLowerCase();
+    themeBtn.hidden = false;
+  }
+  themeBtn.addEventListener('click',()=>{
+    const t = THEMES[getTheme()].next;
+    try{ if(t==='auto') localStorage.removeItem(LS_THEME); else localStorage.setItem(LS_THEME, t); }catch(e){}
+    paintTheme(t);
+  });
+  paintTheme(getTheme());
+
+  /* ---------- dernière visite (badge « Nouveau ») ---------- */
+  function initSince(){
+    let since = null;
+    try{ since = sessionStorage.getItem(SS_SINCE); }catch(e){}
+    if(since==null){
+      try{ since = localStorage.getItem(LS_VISIT); }catch(e){}
+      // Première visite : on signale les ajouts des dernières 36 heures.
+      if(since==null) since = String(Date.now() - 36*3600*1000);
+      try{ sessionStorage.setItem(SS_SINCE, since); }catch(e){}
+    }
+    try{ localStorage.setItem(LS_VISIT, String(Date.now())); }catch(e){}
+    S.since = +since || 0;
+  }
 
   /* ---------- boot ---------- */
   async function getJSON(path){
@@ -271,13 +395,14 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
     return r.json();
   }
   async function boot(){
-    S.selection = lsGet(); S.selLoaded = true;
+    S.selection = lsGet(); S.selLoaded = true; initSince();
     try{
       const [cos, arts, st] = await Promise.all([getJSON('data/companies.json'), getJSON('data/articles.json'), getJSON('data/status.json').catch(()=>null)]);
       S.companies = cos; S.articles = arts; S.status = st;
       if(S.selection) S.selection = S.selection.filter(id=>cos.some(c=>c.id===id));
     }catch(e){ S.db = false; }
     render();
+    readHash();
   }
   boot();
 })();

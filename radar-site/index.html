@@ -10,6 +10,7 @@
 <meta property="og:type" content="website">
 <meta name="theme-color" content="#0D6E5E">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230D6E5E'/%3E%3Ccircle cx='16' cy='16' r='9' fill='none' stroke='white' stroke-width='2.2'/%3E%3Ccircle cx='16' cy='16' r='3.2' fill='white'/%3E%3Cpath d='M16 16 L23 9' stroke='white' stroke-width='2.2' stroke-linecap='round'/%3E%3C/svg%3E">
+<script src="theme.js"></script>
 <style>
 @font-face{font-family:'Schibsted Grotesk';font-style:normal;font-weight:400;font-display:swap;src:url(fonts/schibsted-grotesk-latin-400-normal.woff2) format('woff2')}
 @font-face{font-family:'Schibsted Grotesk';font-style:normal;font-weight:500;font-display:swap;src:url(fonts/schibsted-grotesk-latin-500-normal.woff2) format('woff2')}
@@ -44,7 +45,7 @@
 }
 *{box-sizing:border-box}
 html{color-scheme:light}
-@media (prefers-color-scheme: dark){html{color-scheme:dark}}
+@media (prefers-color-scheme: dark){html:not([data-theme="light"]){color-scheme:dark}}
 body{margin:0;-webkit-font-smoothing:antialiased}
 img{max-width:100%}
 [hidden]{display:none!important}
@@ -68,6 +69,7 @@ h1 .dot{color:var(--accent)}
 .btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
 .btn.primary:disabled{opacity:.45;cursor:not-allowed}
 .btn.ghost{background:transparent}
+.btn.icon{padding:0;width:36px;height:36px;justify-content:center}
 
 /* Onboarding */
 .onb{padding-block:28px}
@@ -144,6 +146,35 @@ h1 .dot{color:var(--accent)}
 
 .empty{padding:36px 20px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:14px;background:var(--surface)}
 .notice{font-size:13px;color:var(--muted);padding:10px 12px;border-radius:10px;background:var(--surface-2);margin-top:14px}
+/* Recherche */
+.search{display:flex;align-items:center;gap:10px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:0 14px;margin-bottom:16px;color:var(--muted)}
+.search:focus-within{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
+.search svg{flex:none}
+.search input{flex:1;min-width:0;border:0;background:transparent;font:inherit;font-size:15px;color:var(--ink);padding:11px 0;outline:none}
+.search input::placeholder{color:var(--muted)}
+/* Fil / Chronologie */
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:999px;padding:2px;background:var(--surface)}
+.seg button{border:0;background:none;border-radius:999px;padding:4px 12px;font-size:13px;font-weight:600;cursor:pointer;color:var(--muted)}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+.feed-head .seg{margin-right:auto}
+/* Fiche société */
+.round{display:flex;flex-direction:column;gap:3px;text-align:left;margin-top:14px;padding:10px 12px;border:1px solid var(--line);border-radius:12px;background:var(--surface-2);cursor:pointer;max-width:60ch}
+.round:hover{border-color:var(--accent)}
+.round .t{font-weight:600;font-size:14px;line-height:1.35}
+.round .d{font-size:12px;color:var(--muted)}
+.cohero p.since{margin-top:10px;font-size:12px}
+.tl{display:flex;flex-direction:column;gap:18px}
+.tl-month{display:flex;align-items:baseline;gap:8px;margin:0 0 8px;font-size:13px;font-weight:700;text-transform:capitalize}
+.tl-month .mono{font-size:12px;color:var(--muted);font-weight:400}
+.tl ol{list-style:none;margin:0;padding:0 0 0 14px;border-left:2px solid var(--line);display:flex;flex-direction:column;gap:2px}
+.tl li{position:relative}
+.tl li::before{content:"";position:absolute;left:-20px;top:15px;width:10px;height:10px;border-radius:50%;background:var(--neu);box-shadow:0 0 0 3px var(--bg)}
+.tl li.pos::before{background:var(--pos)} .tl li.neg::before{background:var(--neg)}
+.tl li button{display:grid;grid-template-columns:96px minmax(0,1fr) auto;gap:4px 12px;align-items:baseline;width:100%;text-align:left;border:1px solid transparent;background:none;border-radius:10px;padding:8px 10px;cursor:pointer}
+.tl li button:hover{background:var(--surface);border-color:var(--line)}
+.tl .d{font-size:12px;color:var(--muted)}
+.tl .t{font-weight:600;font-size:14.5px;line-height:1.35}
+@media (max-width:560px){.tl li button{grid-template-columns:1fr auto}.tl .d{grid-column:1/-1}}
 /* Pagination du fil */
 .pager{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:20px;flex-wrap:wrap}
 .pager .nums{display:flex;align-items:center;gap:6px}
@@ -171,6 +202,8 @@ h1 .dot{color:var(--accent)}
 .sources{display:flex;flex-direction:column;gap:6px;padding:0;margin:0;list-style:none}
 .sources a{display:inline-flex;gap:8px;align-items:center;text-decoration:none;font-weight:500}
 .sources a:hover{text-decoration:underline}
+.sheet-actions{display:flex;align-items:center;gap:8px}
+.share{padding:6px 12px;font-size:13px}
 .x{border:none;background:var(--surface-2);width:34px;height:34px;border-radius:50%;cursor:pointer;display:grid;place-items:center}
 .disclaimer{font-size:12px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
 .foot{margin-top:40px;font-size:12px;color:var(--muted);max-width:80ch;display:flex;flex-direction:column;gap:6px}
@@ -193,6 +226,7 @@ h1 .dot{color:var(--accent)}
     <div class="top-meta">
       <span class="stamp mono" id="stamp">Chargement de la veille…</span>
       <button class="btn ghost" id="editSel" type="button" hidden>Modifier mes sociétés</button>
+      <button class="btn ghost icon" id="themeBtn" type="button" hidden aria-label="Thème"></button>
     </div>
   </header>
 
@@ -200,7 +234,7 @@ h1 .dot{color:var(--accent)}
 
   <footer class="foot">
     <p>Veille d'information sur des sociétés non cotées, mise à jour automatiquement deux fois par jour en semaine à partir de sources publiques citées dans chaque article. Les signaux optimiste, neutre et prudent sont une lecture éditoriale de l'actualité. Ils ne constituent pas un conseil en investissement ni une recommandation d'achat ou de vente. Investir dans des sociétés non cotées comporte un risque de perte totale du capital.</p>
-    <p>Ce site n'est affilié à aucune des sociétés suivies ni à aucune plateforme d'investissement. Votre sélection de sociétés reste dans votre navigateur : aucun cookie, aucun compte.</p>
+    <p>Ce site n'est affilié à aucune des sociétés suivies ni à aucune plateforme d'investissement. Votre sélection de sociétés, votre thème et la date de votre dernière visite restent dans votre navigateur : aucun cookie, aucun compte.</p>
     <p><a href="mentions-legales.html">Mentions légales</a></p>
   </footer>
 </div>

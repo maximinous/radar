@@ -9,7 +9,8 @@
   "oneLiner": "IA qui conçoit et optimise des objets physiques complexes : puces, moteurs, molécules.",
   "order": 1,
   "sector": "IA industrielle",
-  "website": "https://en.wikipedia.org/wiki/Prometheus_(company)"
+  "website": "https://en.wikipedia.org/wiki/Prometheus_(company)",
+  "lastRound": "prometheus-2026-06-11-serie-b"
  },
  {
   "id": "together-ai",
@@ -21,7 +22,8 @@
   "oneLiner": "Cloud spécialisé IA : location de clusters GPU et inférence de modèles ouverts.",
   "order": 2,
   "sector": "Cloud IA",
-  "website": "https://www.together.ai/"
+  "website": "https://www.together.ai/",
+  "lastRound": "together-2026-07-01-serie-c"
  },
  {
   "id": "figure-ai",
@@ -45,7 +47,8 @@
   "oneLiner": "Champion français de l'IA générative : modèles, assistant Mistral Vibe et cloud souverain.",
   "order": 4,
   "sector": "Modèles de langage",
-  "website": "https://mistral.ai/"
+  "website": "https://mistral.ai/",
+  "lastRound": "mistral-2026-09-08-levee"
  },
  {
   "id": "deel",
@@ -68,7 +71,8 @@
   "name": "Erebor Bank",
   "oneLiner": "Banque américaine agréée pour les entreprises de l'IA, de la défense et de la crypto.",
   "order": 6,
-  "sector": "Banque tech"
+  "sector": "Banque tech",
+  "lastRound": "erebor-2026-08-11-levee"
  },
  {
   "id": "apollo-research",
@@ -92,7 +96,8 @@
   "oneLiner": "Robots collaboratifs, mobiles et humanoïdes allemands, reliés par la plateforme Neuraverse.",
   "order": 8,
   "sector": "Robotique cognitive",
-  "website": "https://neura-robotics.com/"
+  "website": "https://neura-robotics.com/",
+  "lastRound": "neura-2026-06-10-serie-c"
  },
  {
   "id": "stripe",
@@ -152,7 +157,8 @@
   "oneLiner": "Marché prédictif : on y parie sur l'issue d'événements réels.",
   "order": 13,
   "sector": "Marchés prédictifs",
-  "website": "https://polymarket.com/"
+  "website": "https://polymarket.com/",
+  "lastRound": "polymarket-2026-08-31-levee-1-milliard"
  },
  {
   "id": "shield-ai",
@@ -164,7 +170,8 @@
   "oneLiner": "Pilote IA autonome pour drones et avions militaires.",
   "order": 14,
   "sector": "Défense et autonomie",
-  "website": "https://shield.ai/"
+  "website": "https://shield.ai/",
+  "lastRound": "shield-ai-2026-09-14-valorisation-20-milliards"
  },
  {
   "id": "anthropic",
