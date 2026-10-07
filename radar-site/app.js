@@ -14,7 +14,7 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
     company:null, signal:'all', open:null, storeNote:'', page:1, pageKey:''
   };
   const LS_KEY = 'radar-selection-v1';
-  const PAGE_SIZE = 15;
+  const PAGE_SIZE = 10;
   const SIG = {
     optimiste:{cls:'pos', label:'Optimiste', verdict:'Signal optimiste'},
     neutre:{cls:'neu', label:'Neutre', verdict:'Signal neutre'},
