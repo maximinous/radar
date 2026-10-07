@@ -10,7 +10,19 @@
   "order": 1,
   "sector": "IA industrielle",
   "website": "https://en.wikipedia.org/wiki/Prometheus_(company)",
-  "lastRound": "prometheus-2026-06-11-serie-b"
+  "lastRound": "prometheus-2026-06-11-serie-b",
+  "valuations": [
+   {
+    "amount": "41 milliards de dollars",
+    "round": "Série B de 12 milliards de dollars",
+    "date": "2026-06-11",
+    "status": "officielle",
+    "source": {
+     "label": "GeekWire, 11 juin 2026",
+     "url": "https://www.geekwire.com/2026/bezos-ai-startup-prometheus-raises-12b-at-41b-valuation-and-the-ceos-explain-what-theyre-doing/"
+    }
+   }
+  ]
  },
  {
   "id": "together-ai",
@@ -23,7 +35,19 @@
   "order": 2,
   "sector": "Cloud IA",
   "website": "https://www.together.ai/",
-  "lastRound": "together-2026-07-01-serie-c"
+  "lastRound": "together-2026-07-01-serie-c",
+  "valuations": [
+   {
+    "amount": "8,3 milliards de dollars",
+    "round": "Série C de 800 millions de dollars",
+    "date": "2026-07-01",
+    "status": "officielle",
+    "source": {
+     "label": "TechCrunch, 1er juillet 2026",
+     "url": "https://techcrunch.com/2026/07/01/neocloud-together-ai-raises-800m-leaps-to-8-3b-valuation/"
+    }
+   }
+  ]
  },
  {
   "id": "figure-ai",
@@ -35,7 +59,20 @@
   "oneLiner": "Robots humanoïdes Figure 03 pilotés par son propre modèle d'IA, Helix.",
   "order": 3,
   "sector": "Robotique humanoïde",
-  "website": "https://www.figure.ai/"
+  "website": "https://www.figure.ai/",
+  "valuations": [
+   {
+    "amount": "39 milliards de dollars",
+    "round": "Série C de plus de 1 milliard de dollars",
+    "date": "2025-09-01",
+    "status": "officielle",
+    "source": {
+     "label": "Seeking Alpha, sept. 2025",
+     "url": "https://seekingalpha.com/news/4495255-figure-raises-1b-in-series-c-hits-39b-valuation-to-scale-humanoid-robot-deployment"
+    },
+    "dateLabel": "Sept. 2025"
+   }
+  ]
  },
  {
   "id": "mistral-ai",
@@ -48,7 +85,19 @@
   "order": 4,
   "sector": "Modèles de langage",
   "website": "https://mistral.ai/",
-  "lastRound": "mistral-2026-09-08-levee"
+  "lastRound": "mistral-2026-09-08-levee",
+  "valuations": [
+   {
+    "amount": "21 milliards d'euros (post-money)",
+    "round": "Série D de 3 milliards d'euros",
+    "date": "2026-09-08",
+    "status": "officielle",
+    "source": {
+     "label": "Orrick, conseil de Mistral, sept. 2026",
+     "url": "https://www.orrick.com/en/News/2026/09/Orrick-Advises-Mistral-in-its-3B-Series-D-at-21B-Post-Money-Valuation"
+    }
+   }
+  ]
  },
  {
   "id": "deel",
@@ -60,7 +109,20 @@
   "oneLiner": "Plateforme de paie, RH et portage salarial international dans plus de 150 pays.",
   "order": 5,
   "sector": "RH et paie mondiale",
-  "website": "https://www.deel.com/"
+  "website": "https://www.deel.com/",
+  "valuations": [
+   {
+    "amount": "17,3 milliards de dollars",
+    "round": "Série E de 300 millions de dollars",
+    "date": "2025-10-01",
+    "status": "officielle",
+    "source": {
+     "label": "Finextra, oct. 2025",
+     "url": "https://www.finextra.com/newsarticle/46771/deels-valuation-surges-past-17bn-after-fund-raise"
+    },
+    "dateLabel": "Oct. 2025"
+   }
+  ]
  },
  {
   "id": "erebor",
@@ -72,7 +134,30 @@
   "oneLiner": "Banque américaine agréée pour les entreprises de l'IA, de la défense et de la crypto.",
   "order": 6,
   "sector": "Banque tech",
-  "lastRound": "erebor-2026-08-11-levee"
+  "lastRound": "erebor-2026-08-11-levee",
+  "valuations": [
+   {
+    "amount": "environ 9,5 milliards de dollars",
+    "round": "Levée d'environ 1,5 milliard de dollars en négociation, sur 8 milliards avant l'apport",
+    "date": "2026-08-11",
+    "status": "presse",
+    "source": {
+     "label": "CoinDesk, d'après le Financial Times, 11 août 2026",
+     "url": "https://www.coindesk.com/business/2026/08/11/crypto-friendly-bank-erebor-in-talks-to-raise-usd1-5-billion-at-usd9-5-billion-valuation-ft"
+    }
+   },
+   {
+    "amount": "4,35 milliards de dollars",
+    "round": "Tour de 350 millions de dollars",
+    "date": "2025-12-01",
+    "status": "presse",
+    "source": {
+     "label": "The Block, d'après Axios, déc. 2025",
+     "url": "https://www.theblock.co/post/383533/banking-startup-erebor-350-million-4-billion-valuation-fdic-approval-axios"
+    },
+    "dateLabel": "Déc. 2025"
+   }
+  ]
  },
  {
   "id": "apollo-research",
@@ -84,7 +169,8 @@
   "oneLiner": "Évaluation et surveillance des modèles d'IA de pointe, spécialiste du « scheming ».",
   "order": 7,
   "sector": "Sécurité de l'IA",
-  "website": "https://www.apolloresearch.ai/"
+  "website": "https://www.apolloresearch.ai/",
+  "valuationNote": "Aucune valorisation publique connue."
  },
  {
   "id": "neura-robotics",
@@ -97,7 +183,19 @@
   "order": 8,
   "sector": "Robotique cognitive",
   "website": "https://neura-robotics.com/",
-  "lastRound": "neura-2026-06-10-serie-c"
+  "lastRound": "neura-2026-06-10-serie-c",
+  "valuations": [
+   {
+    "amount": "environ 7 milliards de dollars",
+    "round": "Série C pouvant atteindre 1,4 milliard de dollars",
+    "date": "2026-06-10",
+    "status": "presse",
+    "source": {
+     "label": "Let's Data Science, d'après Bloomberg, juin 2026",
+     "url": "https://letsdatascience.com/news/neura-robotics-raises-14b-funding-round-99f9053b"
+    }
+   }
+  ]
  },
  {
   "id": "stripe",
@@ -109,7 +207,20 @@
   "hq": "San Francisco et Dublin",
   "founded": "2010",
   "leaders": "Patrick Collison (CEO), John Collison (président)",
-  "website": "https://stripe.com/"
+  "website": "https://stripe.com/",
+  "valuations": [
+   {
+    "amount": "159 milliards de dollars",
+    "round": "Offre de rachat d'actions aux salariés (tender offer)",
+    "date": "2026-02-01",
+    "status": "officielle",
+    "source": {
+     "label": "The Block, févr. 2026",
+     "url": "https://www.theblock.co/post/391075/stripe-valuation-jumps-to-159-billion-on-back-of-tender-offer"
+    },
+    "dateLabel": "Févr. 2026"
+   }
+  ]
  },
  {
   "id": "starcloud",
@@ -121,7 +232,19 @@
   "hq": "Woodinville (État de Washington)",
   "founded": "2024",
   "leaders": "Philip Johnston (CEO), Ezra Feilden, Adi Oltean",
-  "website": "https://www.starcloud.com/"
+  "website": "https://www.starcloud.com/",
+  "valuations": [
+   {
+    "amount": "2,3 milliards de dollars (post-money)",
+    "round": "Extension de Série A de 250 millions de dollars",
+    "date": "2026-08-21",
+    "status": "officielle",
+    "source": {
+     "label": "Via Satellite, 21 août 2026",
+     "url": "https://www.satellitetoday.com/finance/2026/08/21/starcloud-adds-250m-to-series-a-at-a-2-3b-valuation/"
+    }
+   }
+  ]
  },
  {
   "id": "lovable",
@@ -133,7 +256,19 @@
   "hq": "Stockholm",
   "founded": "2023",
   "leaders": "Anton Osika (CEO), Fabian Hedin",
-  "website": "https://lovable.dev/"
+  "website": "https://lovable.dev/",
+  "valuations": [
+   {
+    "amount": "13,3 milliards de dollars",
+    "round": "Série C de 400 millions de dollars",
+    "date": "2026-08-12",
+    "status": "officielle",
+    "source": {
+     "label": "AI Business, août 2026",
+     "url": "https://aibusiness.com/generative-ai/euro-vibe-coding-standout-lovable-valued-at-13-3b"
+    }
+   }
+  ]
  },
  {
   "id": "kraken",
@@ -145,7 +280,29 @@
   "oneLiner": "Plateforme d'échange de cryptomonnaies qui se diversifie vers les actions et les dérivés.",
   "order": 12,
   "sector": "Crypto et trading",
-  "website": "https://www.kraken.com/"
+  "website": "https://www.kraken.com/",
+  "valuations": [
+   {
+    "amount": "21 milliards de dollars",
+    "round": "Investissement de 100 millions de dollars de Nasdaq",
+    "date": "2026-09-10",
+    "status": "presse",
+    "source": {
+     "label": "The Block, d'après Bloomberg, 10 sept. 2026",
+     "url": "https://www.theblock.co/news/deals/2026-09-10-nasdaq-to-invest-100-million-in-kraken-parent-payward-as-firms-expand-partnership-414120"
+    }
+   },
+   {
+    "amount": "20 milliards de dollars",
+    "round": "Tour de 800 millions de dollars, dont 200 millions de Citadel Securities",
+    "date": "2025-11-18",
+    "status": "officielle",
+    "source": {
+     "label": "Decrypt, 18 nov. 2025",
+     "url": "https://decrypt.co/349147/crypto-exchange-kraken-raises-800-million-20-billion-valuation"
+    }
+   }
+  ]
  },
  {
   "id": "polymarket",
@@ -158,7 +315,29 @@
   "order": 13,
   "sector": "Marchés prédictifs",
   "website": "https://polymarket.com/",
-  "lastRound": "polymarket-2026-08-31-levee-1-milliard"
+  "lastRound": "polymarket-2026-08-31-levee-1-milliard",
+  "valuations": [
+   {
+    "amount": "21 milliards de dollars (post-money)",
+    "round": "Tour de 1 milliard de dollars mené par 1789 Capital",
+    "date": "2026-08-31",
+    "status": "presse",
+    "source": {
+     "label": "Bloomberg, 31 août 2026",
+     "url": "https://www.bloomberg.com/news/articles/2026-08-31/polymarket-funding-round-led-by-1789-values-firm-at-21-billion"
+    }
+   },
+   {
+    "amount": "environ 8 milliards de dollars avant l'apport",
+    "round": "Investissement stratégique d'ICE, jusqu'à 2 milliards de dollars",
+    "date": "2025-10-07",
+    "status": "officielle",
+    "source": {
+     "label": "ICE, communiqué du 7 oct. 2025",
+     "url": "https://ir.theice.com/press/news-details/2025/ICE-Announces-Strategic-Investment-in-Polymarket/default.aspx"
+    }
+   }
+  ]
  },
  {
   "id": "shield-ai",
@@ -171,7 +350,29 @@
   "order": 14,
   "sector": "Défense et autonomie",
   "website": "https://shield.ai/",
-  "lastRound": "shield-ai-2026-09-14-valorisation-20-milliards"
+  "lastRound": "shield-ai-2026-09-14-valorisation-20-milliards",
+  "valuations": [
+   {
+    "amount": "au moins 20 milliards de dollars",
+    "round": "Série H en discussion",
+    "date": "2026-09-14",
+    "status": "presse",
+    "source": {
+     "label": "The Information, 14 sept. 2026",
+     "url": "https://www.theinformation.com/articles/defense-startup-shield-ai-talks-valuation-least-20-billion"
+    }
+   },
+   {
+    "amount": "12,7 milliards de dollars",
+    "round": "Série G de 1,5 milliard de dollars, plus 500 millions de Blackstone en actions de préférence",
+    "date": "2026-03-26",
+    "status": "officielle",
+    "source": {
+     "label": "Fortune, 26 mars 2026",
+     "url": "https://fortune.com/2026/03/26/shield-ai-revenue-series-g-funding-12-billion-valuation"
+    }
+   }
+  ]
  },
  {
   "id": "anthropic",
@@ -183,6 +384,18 @@
   "oneLiner": "Laboratoire d'IA qui développe les modèles Claude.",
   "order": 15,
   "sector": "Modèles de langage",
-  "website": "https://www.anthropic.com/"
+  "website": "https://www.anthropic.com/",
+  "valuations": [
+   {
+    "amount": "965 milliards de dollars (post-money)",
+    "round": "Série H de 65 milliards de dollars",
+    "date": "2026-05-28",
+    "status": "officielle",
+    "source": {
+     "label": "Anthropic, 28 mai 2026",
+     "url": "https://www.anthropic.com/news/series-h"
+    }
+   }
+  ]
  }
 ]
