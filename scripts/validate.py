@@ -25,6 +25,8 @@ def ok_url(u):
 
 for c in cos:
     if c.get('website') and not ok_url(c['website']): err(f"société {c['id']}: URL invalide (https obligatoire)")
+    if c.get('lastRound') and not any(x.get('id') == c['lastRound'] and x.get('companyId') == c['id'] for x in arts):
+        err(f"société {c['id']}: lastRound {c['lastRound']} ne désigne aucun article de cette société")
 for a in arts:
     aid = a.get('id', '?')
     for k in REQ:
