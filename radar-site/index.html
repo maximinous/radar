@@ -184,6 +184,60 @@ h1 .dot{color:var(--accent)}
 .tl .d{font-size:12px;color:var(--muted)}
 .tl .t{font-weight:600;font-size:14.5px;line-height:1.35}
 @media (max-width:560px){.tl li button{grid-template-columns:1fr auto}.tl .d{grid-column:1/-1}}
+/* Actions de la fiche */
+.hero-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.btn.small{padding:6px 12px;font-size:13px}
+/* Historique de valorisation */
+.valo-card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin-bottom:18px}
+.valo-card-head{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:6px 16px;margin-bottom:6px}
+.valo-card h3{margin:0;font-size:15px}
+.vlegend{display:inline-flex;align-items:center;gap:6px;font-size:12px;color:var(--muted)}
+.vlegend .k{width:10px;height:10px;border-radius:50%;display:inline-block;border:2px solid var(--accent)}
+.vlegend .k.off{background:var(--accent)} .vlegend .k.press{background:var(--surface);margin-left:8px}
+.vplot{position:relative}
+.vchart{display:block;width:100%;height:auto;overflow:visible}
+.vchart .grid{stroke:var(--line);stroke-width:1}
+.vchart .base{stroke:var(--muted);stroke-width:1;opacity:.6}
+.vchart .ax{font:11px var(--mono);fill:var(--muted)}
+.vchart .lbl{font:600 12px var(--sans);fill:var(--ink)}
+.vchart .ln{stroke:var(--accent);stroke-width:2;stroke-linecap:round}
+.vchart .ln.dash{stroke-dasharray:5 5}
+.vchart .pt{fill:var(--accent);stroke:var(--surface);stroke-width:2}
+.vchart .pt.press{fill:var(--surface);stroke:var(--accent);stroke-width:2}
+.vchart .hit{fill:transparent;cursor:pointer;outline:none}
+.vchart .hit:focus-visible{stroke:var(--accent);stroke-width:1.5}
+.vtip{position:absolute;transform:translate(12px,-50%);background:var(--ink);color:var(--bg);border-radius:10px;padding:8px 10px;font-size:12.5px;display:flex;flex-direction:column;gap:2px;max-width:240px;pointer-events:none;z-index:2;box-shadow:var(--shadow)}
+.vtip.flip{transform:translate(calc(-100% - 12px),-50%)}
+.vtip b{font-size:13.5px}
+.vdata{margin-top:8px;font-size:13px}
+.vdata summary{cursor:pointer;color:var(--muted)}
+.vdata table{width:100%;border-collapse:collapse;margin-top:8px}
+.vdata th,.vdata td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+.vdata th{font:500 11px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+/* Comparatif */
+.cmp{padding-top:24px}
+.cmp-head{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px;margin-bottom:16px}
+.cmp h2{margin:0 0 6px;font-size:22px;letter-spacing:-.01em}
+.cmp .lead{margin:0;color:var(--muted);max-width:70ch}
+.tbl-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:14px;background:var(--surface)}
+.tbl{width:100%;min-width:880px;border-collapse:collapse;font-size:14px}
+.tbl th{position:sticky;top:0;background:var(--surface-2);text-align:left;font:500 11px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding:0;border-bottom:1px solid var(--line);white-space:nowrap}
+.tbl th > button{all:unset;cursor:pointer;display:flex;align-items:center;gap:6px;padding:10px 12px}
+.tbl th:not(:has(button)){padding:10px 12px}
+.tbl th > button:focus-visible{outline:2px solid var(--accent)}
+.tbl th .arrow{opacity:.5}
+.tbl th[aria-sort] .arrow{opacity:1;color:var(--ink)}
+.tbl td{padding:12px;border-bottom:1px solid var(--line);vertical-align:top}
+.tbl tbody tr{cursor:pointer}
+.tbl tbody tr:hover,.tbl tbody tr:focus-visible{background:var(--surface-2);outline:none}
+.tbl tbody tr:last-child td{border-bottom:0}
+.tbl .sub{display:block;font-size:12px;color:var(--muted);margin-top:2px}
+.tbl .clamp{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;max-width:28ch}
+.tbl td.v{font-weight:800;font-size:15px;white-space:nowrap}
+.tbl .num{text-align:right}
+.tbl th.num > button{justify-content:flex-end}
+.cmp-note{font-size:12px;color:var(--muted);margin-top:10px}
+#printRoot{display:none}
 /* Pagination du fil */
 .pager{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:20px;flex-wrap:wrap}
 .pager .nums{display:flex;align-items:center;gap:6px}
@@ -218,6 +272,61 @@ h1 .dot{color:var(--accent)}
 .foot{margin-top:40px;font-size:12px;color:var(--muted);max-width:80ch;display:flex;flex-direction:column;gap:6px}
 .foot p{margin:0}
 .loading{padding:60px 0;color:var(--muted)}
+/* Export PDF : une mise en page dédiée, toujours en clair, avec logo, bandeau vertical et surlignage. */
+@page{size:A4;margin:16mm 16mm 18mm 12mm;@bottom-left{content:counter(page);font:9pt "JetBrains Mono",monospace;color:#5B6963}}
+@media print{
+  html.printing body{background:#fff;padding:0}
+  html.printing body > *:not(#printRoot){display:none!important}
+  html.printing #printRoot{display:block}
+  .pdoc{--bg:#fff;--surface:#fff;--surface-2:#EEF2F0;--ink:#14201B;--muted:#5B6963;--line:#DCE3DF;--accent:#0D6E5E;--accent-soft:#E0EEEA;
+    --pos:#1C7C47;--pos-soft:#E2F2E8;--neu:#56626A;--neu-soft:#E9EDEF;--neg:#A4540B;--neg-soft:#FAECD9;
+    color:#14201B;font:10.5pt/1.55 Georgia,"Times New Roman",serif;padding-left:14mm;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .pdoc *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .p-side{position:fixed;left:0;top:0;bottom:0;width:6mm;display:flex;flex-direction:column;justify-content:space-between;align-items:center}
+  .p-side span{writing-mode:vertical-rl;transform:rotate(180deg);font:7pt "JetBrains Mono",monospace;letter-spacing:.16em;text-transform:uppercase;color:#5B6963;white-space:nowrap}
+  .p-logo{display:flex;align-items:center;gap:10px;padding-bottom:10px;border-bottom:1px solid #DCE3DF;margin-bottom:26px}
+  .p-word{font:800 20pt/1 var(--sans);letter-spacing:-.02em;color:#14201B}
+  .p-word .dot{color:#0D6E5E}
+  .p-tag{margin-left:auto;font:7.5pt "JetBrains Mono",monospace;letter-spacing:.12em;text-transform:uppercase;color:#5B6963}
+  .pdoc mark{background:#C9EEE4;color:inherit;padding:0 .12em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+  .p-eyebrow{display:block;font:7.5pt "JetBrains Mono",monospace;letter-spacing:.14em;text-transform:uppercase;color:#5B6963;margin-bottom:8px}
+  .p-title{font:700 24pt/1.18 var(--sans);letter-spacing:-.015em;margin:0 0 20px;max-width:150mm}
+  .p-meta{display:grid;grid-template-columns:repeat(3,auto);justify-content:start;gap:4px 28px;margin:0 0 18px;padding-top:8px;border-top:1px solid #DCE3DF;font-size:9.5pt}
+  .p-meta div{display:flex;flex-direction:column;gap:2px}
+  .p-meta dt{font:7pt "JetBrains Mono",monospace;letter-spacing:.12em;text-transform:uppercase;color:#5B6963}
+  .p-meta dd{margin:0;font-family:var(--sans);font-weight:600}
+  .p-lede{font:500 12pt/1.5 var(--sans);color:#3E4A45;margin:0 0 20px}
+  .pdoc section{margin:0 0 16px;break-inside:auto}
+  .pdoc h4{font:500 7.5pt "JetBrains Mono",monospace;letter-spacing:.14em;text-transform:uppercase;color:#0D6E5E;margin:0 0 6px;break-after:avoid}
+  .pdoc section p{margin:0 0 8px;text-align:justify;hyphens:auto}
+  .pdoc .verdict-box{border-left:4px solid var(--neu);border-radius:8px;padding:10px 14px;margin:4px 0 18px;break-inside:avoid}
+  .pdoc .verdict-box.pos{border-color:var(--pos)} .pdoc .verdict-box.neg{border-color:var(--neg)}
+  .pdoc .verdict-box .v{font-family:var(--sans)}
+  .pdoc .pill{font-size:7.5pt}
+  .p-sources{margin:0;padding-left:16px;font-size:9pt}
+  .p-sources li{margin-bottom:4px}
+  .p-sources b{display:block;font-family:var(--sans);font-weight:600}
+  .p-sources span{font-size:7.5pt;color:#5B6963;word-break:break-all}
+  .p-cols{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:16px}
+  .p-box{border:1px solid #DCE3DF;border-radius:10px;padding:10px 12px;margin:0!important;break-inside:avoid}
+  .p-box p{margin:0 0 3px!important;text-align:left!important}
+  .p-amt{font:800 14pt/1.25 var(--sans)}
+  .p-src{font-size:8.5pt;color:#5B6963}
+  .p-press{font-size:9pt}
+  .p-box .bar{display:flex;height:8px;border-radius:99px;overflow:hidden;background:var(--neu-soft);margin:6px 0}
+  .p-tbl{width:100%;border-collapse:collapse;font-size:8.5pt;margin-top:6px}
+  .p-tbl td{padding:4px 6px;border-bottom:1px solid #DCE3DF;vertical-align:top}
+  .pdoc .vplot{max-width:160mm}
+  .pdoc .vchart .ax{font-size:10px}
+  .p-news{list-style:none;margin:0;padding:0}
+  .p-news li{border-left:3px solid var(--neu);padding:2px 0 2px 10px;margin:0 0 10px;break-inside:avoid}
+  .p-news li.pos{border-color:var(--pos)} .p-news li.neg{border-color:var(--neg)}
+  .p-nmeta{display:flex;gap:10px;align-items:center;font-size:8pt;color:#5B6963}
+  .p-ntitle{font:700 10.5pt/1.35 var(--sans);margin:2px 0!important;text-align:left!important}
+  .p-nsum{font-size:9pt;color:#3E4A45;margin:0!important}
+  .p-foot{margin-top:22px;padding-top:10px;border-top:1px solid #DCE3DF;font-size:8pt;color:#5B6963;break-inside:avoid}
+  .p-foot p{margin:0 0 3px}
+}
 @media (prefers-reduced-motion:no-preference){
   .sheet{animation:slide .22s ease-out}
   @keyframes slide{from{transform:translateX(24px);opacity:.6}to{transform:none;opacity:1}}
@@ -234,6 +343,7 @@ h1 .dot{color:var(--accent)}
     </div>
     <div class="top-meta">
       <span class="stamp mono" id="stamp">Chargement de la veille…</span>
+      <button class="btn ghost" id="compareBtn" type="button" hidden>Comparer</button>
       <button class="btn ghost" id="editSel" type="button" hidden>Modifier mes sociétés</button>
       <button class="btn ghost icon" id="themeBtn" type="button" hidden aria-label="Thème"></button>
     </div>
@@ -249,6 +359,7 @@ h1 .dot{color:var(--accent)}
 </div>
 
 <div id="sheetRoot"></div>
+<div id="printRoot"></div>
 
 <script src="app.js" defer></script>
 

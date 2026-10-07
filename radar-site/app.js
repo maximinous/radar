@@ -8,13 +8,18 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
   const editBtn = document.getElementById('editSel');
   const sheetRoot = document.getElementById('sheetRoot');
   const themeBtn = document.getElementById('themeBtn');
+  const compareBtn = document.getElementById('compareBtn');
+  const printRoot = document.getElementById('printRoot');
 
   const S = {
     db:null, companies:[], articles:[], status:null,
     selection:null, selLoaded:false, draft:null, mode:'feed',
     company:null, signal:'all', open:null, storeNote:'', page:1, pageKey:'',
-    q:'', view:'feed', since:0
+    q:'', view:'feed', since:0, sortKey:'valo', sortDir:-1
   };
+  // Taux indicatif pour classer les valorisations en euros parmi celles en dollars (tri du comparatif uniquement).
+  const EUR_USD = 1.17;
+  const SITE_URL = 'https://radar.rod-investment.fr/';
   const LS_KEY = 'radar-selection-v1';
   const LS_VISIT = 'radar-last-visit-v1';
   const SS_SINCE = 'radar-since-v1';
@@ -54,6 +59,7 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
   const ICON_SUN = '<circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M4.6 4.6l1.4 1.4M18 18l1.4 1.4M2.5 12h2M19.5 12h2M4.6 19.4L6 18M18 6l1.4-1.4"/>';
   const ICON_MOON = '<path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/>';
   const ICON_AUTO = '<circle cx="12" cy="12" r="8.5"/><path d="M12 3.5v17a8.5 8.5 0 0 0 0-17z" fill="currentColor"/>';
+  const ICON_PDF = '<path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M12 11v6M9.5 14.5L12 17l2.5-2.5"/>';
   const ICON_OUT = '<path d="M14 5h5v5M19 5l-8 8M18 14v4a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h4"/>';
 
   const MONTHS = ['janv.','févr.','mars','avr.','mai','juin','juil.','août','sept.','oct.','nov.','déc.'];
@@ -80,6 +86,14 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
     return terms.every(t=>hay.includes(t));
   }
   function articleUrl(id){ return location.origin + location.pathname + location.search + '#' + id; }
+  function companyUrl(id){ return articleUrl('societe/' + id); }
+  // Adresse de la vue courante : fiche société (#societe/<id>), comparatif (#comparer) ou fil (aucune).
+  function viewHash(){ return S.mode==='compare' ? 'comparer' : S.company ? 'societe/' + S.company : null; }
+  function goCompany(id){
+    if(id && !(S.selection||[]).includes(id)){ S.selection = (S.selection||[]).concat(id); lsSet(S.selection); }
+    S.company = id; S.mode = 'feed'; setHash(viewHash()); render();
+    window.scrollTo({top:0,behavior:'smooth'});
+  }
   function coById(id){ return S.companies.find(c=>c.id===id); }
   function counts(list){
     const c={optimiste:0,neutre:0,prudent:0}; list.forEach(a=>{ if(c[a.signal]!=null) c[a.signal]++; }); return c;
@@ -108,9 +122,11 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
     const st = S.status && S.status.lastRun;
     stamp.textContent = st ? 'Dernière mise à jour : ' + new Date(st).toLocaleString('fr-FR',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}) : S.articles.length + ' articles';
     if(!S.selLoaded) { app.replaceChildren(el('div',{class:'loading'},'Chargement de votre sélection…')); return; }
-    const needOnb = S.mode==='pick' || !S.selection || !S.selection.length;
-    editBtn.hidden = needOnb;
-    if(needOnb) renderPick(); else renderFeed();
+    const needOnb = S.mode==='pick' || (S.mode!=='compare' && (!S.selection || !S.selection.length));
+    editBtn.hidden = needOnb || S.mode==='compare';
+    compareBtn.hidden = needOnb;
+    compareBtn.textContent = S.mode==='compare' ? 'Mon fil' : 'Comparer';
+    if(S.mode==='compare') renderCompare(); else if(needOnb) renderPick(); else renderFeed();
     renderSheet();
   }
 
@@ -150,11 +166,11 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
     const rail = el('aside',{class:'rail'},
       el('div',null, el('h3',null,'Mes sociétés'),
         el('div',{class:'co-list'},
-          el('button',{class:'co',type:'button','aria-current':String(!S.company),onclick:()=>{S.company=null;render();}},
+          el('button',{class:'co',type:'button','aria-current':String(!S.company),onclick:()=>goCompany(null)},
             el('span',{class:'n'},'Toutes'), el('span',{class:'c mono'}, String(mine.length))),
           followed.map(c=>{
             const arts = S.articles.filter(a=>a.companyId===c.id);
-            return el('button',{class:'co',type:'button','aria-current':String(S.company===c.id),onclick:()=>{S.company=c.id;render();window.scrollTo({top:0,behavior:'smooth'});}},
+            return el('button',{class:'co',type:'button','aria-current':String(S.company===c.id),onclick:()=>goCompany(c.id)},
               el('span',{class:'n'},c.name), balanceBar(counts(arts)));
           }))),
       el('div',null, el('h3',null,'Signal'),
@@ -164,7 +180,7 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
               col?el('span',{class:'dot-s',style:'background:'+col}):null, l)))),
       locked.length ? el('div',null, el('h3',null,'Non suivies'),
         el('div',{class:'co-list'}, locked.map(c=>
-          el('button',{class:'co locked',type:'button',title:'Ajouter à ma veille',onclick:()=>{ saveSelection([...S.selection, c.id]); S.company=c.id; }},
+          el('button',{class:'co locked',type:'button',title:'Ajouter à ma veille',onclick:()=>goCompany(c.id)},
             el('span',{class:'n'},c.name), svg(ICON_LOCK))))) : null
     );
 
@@ -197,7 +213,10 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
             c.leaders?el('span',null,'Dirigeants ',el('b',null,c.leaders)):null,
             safeUrl(c.website)?el('span',null,el('a',{href:safeUrl(c.website),target:'_blank',rel:'noopener noreferrer'},'Site officiel')):null),
           roundBox(c),
-          arts.length ? el('p',{class:'since mono'}, arts.length + (arts.length>1?' articles':' article') + ' depuis le ' + fmtDate(arts.reduce((m,a)=>(a.date||'')<(m.date||'')?a:m))) : null),
+          arts.length ? el('p',{class:'since mono'}, arts.length + (arts.length>1?' articles':' article') + ' depuis le ' + fmtDate(arts.reduce((m,a)=>(a.date||'')<(m.date||'')?a:m))) : null,
+          el('div',{class:'hero-actions'},
+            linkBtn(companyUrl(c.id), c.name),
+            el('button',{class:'btn ghost small',type:'button',onclick:()=>exportCompany(c)}, svg(ICON_PDF,15), el('span',null,'Exporter la fiche en PDF')))),
         el('div',{class:'side'},
         valuationBox(c),
         el('div',{class:'mood'},
@@ -209,6 +228,11 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
             el('span',null,k.neutre+' neutre'+(k.neutre>1?'s':'')),
             el('span',null,k.prudent+' prudent'+(k.prudent>1?'s':'')))))
       ));
+      const chart = valuationChart(c);
+      if(chart) main.append(el('section',{class:'valo-card'},
+        el('div',{class:'valo-card-head'}, el('h3',null,'Historique de valorisation'),
+          el('span',{class:'vlegend'}, el('span',{class:'k off'}), 'officielle', el('span',{class:'k press'}), 'selon la presse')),
+        chart));
     }
     const timeline = S.company && S.view==='timeline';
     const fresh = list.filter(isNew).length;
@@ -253,6 +277,201 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
     const f = document.activeElement, caret = f && f.id==='q' ? f.selectionStart : null;
     app.replaceChildren(el('div',{class:'grid'}, rail, main));
     if(caret!=null){ const q = document.getElementById('q'); q.focus(); try{ q.setSelectionRange(caret, caret); }catch(e){} }
+  }
+
+  /* ---------- partage ---------- */
+  // Bouton « Copier le lien » (menu de partage natif sur mobile).
+  function linkBtn(url, title){
+    const b = el('button',{class:'btn ghost small',type:'button',onclick:()=>share(url, title, b)}, svg(ICON_LINK,15), el('span',null,'Copier le lien'));
+    return b;
+  }
+  async function share(url, title, btn){
+    if(navigator.share && matchMedia('(pointer:coarse)').matches){
+      try{ await navigator.share({title, url}); }catch(e){}
+      return;
+    }
+    try{ await navigator.clipboard.writeText(url); btn.lastChild.textContent = 'Lien copié'; }
+    catch(e){ window.prompt('Copiez le lien :', url); return; }
+    setTimeout(()=>{ if(btn.isConnected) btn.lastChild.textContent = 'Copier le lien'; }, 2000);
+  }
+
+  /* ---------- valorisations ---------- */
+  function vals(c){ return (c.valuations||[]).slice().sort((a,b)=>(b.date||'').localeCompare(a.date||'')); }
+  function lastOfficial(c){ return vals(c).find(v=>v.status==='officielle'); }
+  function lastPress(c){ const o = lastOfficial(c); return vals(c).find(v=>v.status==='presse' && (!o || (v.date||'') > (o.date||''))); }
+  function usd(v){ return v ? (v.currency==='EUR' ? v.value*EUR_USD : v.value) : -1; }
+  function short(v){ // 12,7 Md$ / 21 Md€
+    if(typeof v.value!=='number') return v.amount;
+    const n = v.value>=100 ? Math.round(v.value) : Math.round(v.value*10)/10;
+    return String(n).replace('.',',') + (v.currency==='EUR' ? ' Md€' : ' Md$');
+  }
+
+  const SVGNS = 'http://www.w3.org/2000/svg';
+  function sv(tag, attrs, ...kids){
+    const n = document.createElementNS(SVGNS, tag);
+    for(const k in attrs||{}) if(attrs[k]!=null) n.setAttribute(k, attrs[k]);
+    kids.flat().forEach(k=>{ if(k!=null) n.append(k.nodeType?k:document.createTextNode(String(k))); });
+    return n;
+  }
+  function niceMax(m){ const p = Math.pow(10, Math.floor(Math.log10(m))); for(const f of [1,2,2.5,5,10]) if(f*p>=m) return f*p; return 10*p; }
+  // Courbe de valorisation : une seule série (pas de légende de série), points pleins = officielle, creux = presse.
+  function valuationChart(c, opts){
+    const pts = vals(c).filter(v=>typeof v.value==='number').reverse();
+    if(pts.length<2) return null;
+    const W = 640, H = 230, L = 52, R = 18, T = 26, B = 30;
+    const t = v=>Date.parse(v.date);
+    const t0 = t(pts[0]), t1 = t(pts[pts.length-1]), span = Math.max(t1-t0, 1);
+    const top = niceMax(Math.max(...pts.map(v=>v.value))*1.08);
+    const x = v=> L + (t(v)-t0)/span*(W-L-R);
+    const y = val=> T + (1-val/top)*(H-T-B);
+    const unit = pts[0].currency==='EUR' ? ' Md€' : ' Md$';
+    const g = sv('svg',{viewBox:'0 0 '+W+' '+H,class:'vchart',role:'img','aria-label':'Historique de valorisation de '+c.name});
+    for(let i=0;i<=4;i++){ const val = top*i/4, yy = y(val);
+      g.append(sv('line',{x1:L,x2:W-R,y1:yy,y2:yy,class:i?'grid':'base'}),
+        sv('text',{x:L-8,y:yy+4,'text-anchor':'end',class:'ax'}, String(Math.round(val*10)/10).replace('.',',')+(i===4?unit:''))); }
+    const y0 = new Date(t0).getFullYear(), y1 = new Date(t1).getFullYear();
+    for(let yr=y0; yr<=y1; yr++){ const tt = Date.UTC(yr,0,1); if(tt<t0-1 || tt>t1+1) continue;
+      const xx = L + (tt-t0)/span*(W-L-R); g.append(sv('line',{x1:xx,x2:xx,y1:H-B,y2:H-B+5,class:'base'}), sv('text',{x:xx,y:H-B+18,'text-anchor':'middle',class:'ax'},String(yr))); }
+    for(let i=1;i<pts.length;i++) g.append(sv('line',{x1:x(pts[i-1]),y1:y(pts[i-1].value),x2:x(pts[i]),y2:y(pts[i].value),class:'ln'+(pts[i].status==='presse'?' dash':'')}));
+    const maxI = pts.reduce((m,v,i)=>v.value>pts[m].value?i:m,0);
+    const tip = opts&&opts.print ? null : el('div',{class:'vtip',hidden:true});
+    pts.forEach((v,i)=>{
+      const cx = x(v), cy = y(v.value);
+      g.append(sv('circle',{cx,cy,r:5,class:'pt'+(v.status==='presse'?' press':'')}));
+      if(i===0 || i===pts.length-1 || i===maxI) g.append(sv('text',{x:Math.min(Math.max(cx,L+20),W-R-20),y:cy-11,'text-anchor':'middle',class:'lbl'}, short(v)));
+      if(tip){
+        const hit = sv('circle',{cx,cy,r:16,class:'hit',tabindex:'0','aria-label':v.amount+', '+v.round+', '+fmtDate(v)});
+        const show = ()=>{ tip.replaceChildren(el('b',null,v.amount), el('span',null,v.round), el('span',{class:'mono'}, fmtDate(v)+' · '+(v.status==='presse'?'selon la presse':'officielle')));
+          tip.hidden = false; tip.style.left = (cx/W*100)+'%'; tip.style.top = (cy/H*100)+'%'; tip.classList.toggle('flip', cx > W*0.6); };
+        hit.addEventListener('mouseenter', show); hit.addEventListener('focus', show);
+        hit.addEventListener('mouseleave', ()=>tip.hidden=true); hit.addEventListener('blur', ()=>tip.hidden=true);
+        g.append(hit);
+      }
+    });
+    const table = el('details',{class:'vdata'}, el('summary',null,'Voir les données'),
+      el('table',null, el('thead',null, el('tr',null, el('th',null,'Date'), el('th',null,'Valorisation'), el('th',null,'Tour'), el('th',null,'Statut'), el('th',null,'Source'))),
+        el('tbody',null, pts.slice().reverse().map(v=>el('tr',null, el('td',{class:'mono'},fmtDate(v)), el('td',null,v.amount), el('td',null,v.round),
+          el('td',null, v.status==='presse'?'Presse':'Officielle'),
+          el('td',null, safeUrl(v.source&&v.source.url) ? el('a',{href:safeUrl(v.source.url),target:'_blank',rel:'noopener noreferrer'}, v.source.label||'Source') : ''))))));
+    return el('div',{class:'vwrap'}, el('div',{class:'vplot'}, g, tip), opts&&opts.print ? null : table);
+  }
+
+  /* ---------- comparatif ---------- */
+  function renderCompare(){
+    const rows = S.companies.map(c=>{
+      const arts = S.articles.filter(a=>a.companyId===c.id);
+      const last = arts.reduce((m,a)=>!m || (a.date||'')>(m.date||'') ? a : m, null);
+      const off = lastOfficial(c), pr = lastPress(c);
+      return {c, arts, last, off, pr, k:counts(arts), valo: usd(off)};
+    });
+    const key = {name:r=>fold(r.c.name), valo:r=>r.valo, round:r=>(r.off||r.pr||{}).date||'', arts:r=>r.arts.length, last:r=>r.last?r.last.date:''}[S.sortKey];
+    rows.sort((a,b)=>{ const x = key(a), y = key(b); return (x<y?-1:x>y?1:0)*S.sortDir || fold(a.c.name).localeCompare(fold(b.c.name)); });
+    const th = (k,label,cls)=> el('th',{class:cls||null,'aria-sort':S.sortKey===k?(S.sortDir>0?'ascending':'descending'):null},
+      el('button',{type:'button',onclick:()=>{ if(S.sortKey===k) S.sortDir=-S.sortDir; else { S.sortKey=k; S.sortDir = k==='name'?1:-1; } render(); }},
+        label, el('span',{class:'arrow','aria-hidden':'true'}, S.sortKey===k ? (S.sortDir>0?'↑':'↓') : '↕')));
+    app.replaceChildren(el('section',{class:'cmp'},
+      el('div',{class:'cmp-head'},
+        el('div',null, el('h2',null,'Comparer les sociétés'),
+          el('p',{class:'lead'},'Les 15 sociétés suivies, avec leur dernière valorisation officielle et l\'activité de la veille. Cliquez sur un en-tête pour trier, sur une ligne pour ouvrir la fiche.')),
+        linkBtn(articleUrl('comparer'), 'Comparatif Radar')),
+      el('div',{class:'tbl-wrap'}, el('table',{class:'tbl'},
+        el('thead',null, el('tr',null, th('name','Société'), th('valo','Valorisation officielle'), th('round','Tour'), el('th',null,'Selon la presse'), th('arts','Articles','num'), el('th',null,'Tonalité'), th('last','Dernière actualité'))),
+        el('tbody',null, rows.map(r=>el('tr',{tabindex:'0',onclick:()=>goCompany(r.c.id),onkeydown:e=>{ if(e.key==='Enter') goCompany(r.c.id); }},
+          el('td',null, el('b',null,r.c.name), el('span',{class:'sub'}, r.c.sector||'')),
+          el('td',{class:'v'}, r.off ? short(r.off) : el('span',{class:'sub'}, r.c.valuationNote ? 'Aucune publique' : 'Non officielle')),
+          el('td',null, r.off ? el('span',null, r.off.round, el('span',{class:'sub mono'}, fmtDate(r.off))) : ''),
+          el('td',null, r.pr ? el('span',null, short(r.pr), el('span',{class:'sub mono'}, fmtDate(r.pr))) : ''),
+          el('td',{class:'num mono'}, String(r.arts.length)),
+          el('td',null, balanceBar(r.k), el('span',{class:'sub mono'}, r.k.optimiste+' · '+r.k.neutre+' · '+r.k.prudent)),
+          el('td',null, r.last ? el('span',null, el('span',{class:'mono'},fmtDate(r.last)), el('span',{class:'sub clamp'}, r.last.title)) : '')))))),
+      el('p',{class:'cmp-note'},'Tri par valorisation officielle (les sociétés sans valorisation officielle viennent en dernier) ; les montants en euros sont convertis au taux indicatif de 1 € = '+String(EUR_USD).replace('.',',')+' $. Tonalité : articles optimistes · neutres · prudents.')));
+  }
+
+  /* ---------- export PDF (impression) ---------- */
+  function logo(){
+    return el('div',{class:'p-logo'},
+      sv('svg',{viewBox:'0 0 32 32',width:'30',height:'30','aria-hidden':'true'},
+        sv('rect',{width:32,height:32,rx:8,fill:'#0D6E5E'}), sv('circle',{cx:16,cy:16,r:9,fill:'none',stroke:'#fff','stroke-width':2.2}),
+        sv('circle',{cx:16,cy:16,r:3.2,fill:'#fff'}), sv('path',{d:'M16 16 L23 9',stroke:'#fff','stroke-width':2.2,'stroke-linecap':'round'})),
+      el('span',{class:'p-word'}, 'Radar', el('span',{class:'dot'},'.')),
+      el('span',{class:'p-tag'}, 'ROD Investment · Veille sociétés non cotées'));
+  }
+  const FIG = /\d[\d\s,.]*\s*(milliards?|millions?|md|m€|m\$|%|dollars|euros|gigawatts?|mégawatts?)/i;
+  // Surligne les phrases qui portent un chiffre clé (montant, pourcentage, capacité).
+  function hl(text){
+    return String(text||'').split(/\n\s*\n/).filter(Boolean).map(par=>el('p',null,
+      par.split(/(?<=[.!?])\s+/).flatMap((s,i,arr)=>[ FIG.test(s) ? el('mark',null,s) : s, i<arr.length-1 ? ' ' : null ])));
+  }
+  function firstMarked(text){
+    const parts = String(text||'').split(/(?<=[.!?])\s+/);
+    return el('p',null, el('mark',null,parts[0]), parts.length>1 ? ' '+parts.slice(1).join(' ') : null);
+  }
+  function pMeta(rows){ return el('dl',{class:'p-meta'}, rows.filter(r=>r[1]).map(([k,v])=>el('div',null, el('dt',null,k), el('dd',null,v)))); }
+  function pFoot(url){
+    return el('footer',{class:'p-foot'},
+      el('p',null,'En ligne : ', el('span',{class:'mono'},url)),
+      el('p',null,'Lecture éditoriale de l\'actualité publique de la société, à partir des sources citées. Ne constitue pas un conseil en investissement. Investir dans des sociétés non cotées comporte un risque de perte totale du capital.'),
+      el('p',{class:'mono'},'Exporté le ' + new Date().toLocaleDateString('fr-FR',{day:'numeric',month:'long',year:'numeric'}) + ' depuis radar.rod-investment.fr'));
+  }
+  function pShell(rubric, ...body){
+    return el('article',{class:'pdoc'},
+      el('div',{class:'p-side'}, el('span',null,'Radar · ROD Investment'), el('span',null, rubric)),
+      logo(), ...body);
+  }
+  function doPrint(doc, filename){
+    printRoot.replaceChildren(doc);
+    const title = document.title;
+    document.title = filename;
+    document.documentElement.classList.add('printing');
+    const done = ()=>{ document.documentElement.classList.remove('printing'); document.title = title; printRoot.replaceChildren(); window.removeEventListener('afterprint', done); };
+    window.addEventListener('afterprint', done);
+    setTimeout(()=>window.print(), 50);
+  }
+  function slug(t){ return fold(t).replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,60); }
+  function exportArticle(a){
+    const s = SIG[a.signal]||SIG.neutre; const c = coById(a.companyId);
+    const doc = pShell((c?c.name:'') + ' · ' + (c&&c.sector||''),
+      el('h1',{class:'p-title'}, el('mark',null,a.title)),
+      pMeta([['Date', fmtDate(a)], ['Société', c?c.name:''], ['Signal', el('span',{class:'pill '+s.cls}, s.label)]]),
+      el('p',{class:'p-lede'}, a.summary||''),
+      el('section',null, el('h4',null,'Ce qui se passe'), hl(a.detail||a.summary)),
+      el('section',null, el('h4',null,'Ce que ça apporte à l\'entreprise'), firstMarked(a.impact)),
+      el('div',{class:'verdict-box '+s.cls}, el('span',{class:'v'},s.verdict), el('p',null,a.rationale||'')),
+      (a.sources&&a.sources.length) ? el('section',null, el('h4',null,'Sources'),
+        el('ol',{class:'p-sources'}, a.sources.filter(x=>safeUrl(x.url)).map(x=>el('li',null, el('b',null,x.label||'Source'), el('span',{class:'mono'}, x.url))))) : null,
+      pFoot(SITE_URL + '#' + a.id));
+    doPrint(doc, 'Radar - ' + (c?c.name+' - ':'') + a.title);
+  }
+  function exportCompany(c){
+    const arts = S.articles.filter(a=>a.companyId===c.id).sort((a,b)=>(b.date||'').localeCompare(a.date||''));
+    const k = counts(arts);
+    const off = lastOfficial(c), pr = lastPress(c), main = off || pr;
+    const lean = k.optimiste>k.prudent*2 ? ['Dynamique favorable','pos'] : k.prudent>k.optimiste ? ['Points de vigilance','neg'] : ['Dynamique contrastée','neu'];
+    const doc = pShell(c.name + ' · ' + (c.sector||''),
+      el('span',{class:'p-eyebrow'}, 'Fiche société · ' + (c.sector||'')),
+      el('h1',{class:'p-title'}, el('mark',null,c.name)),
+      el('p',{class:'p-lede'}, c.description||c.oneLiner||''),
+      pMeta([['Siège', c.hq], ['Création', c.founded], ['Dirigeants', c.leaders], ['Site', safeUrl(c.website)]]),
+      el('div',{class:'p-cols'},
+        el('section',{class:'p-box'}, el('h4',null, off ? 'Dernière valorisation officielle' : 'Valorisation selon la presse'),
+          main ? [el('p',{class:'p-amt'}, el('mark',null, main.amount)), el('p',null, main.round + ' · ' + fmtDate(main)),
+            el('p',{class:'p-src'}, (main.source&&main.source.label)||''),
+            !off ? el('p',{class:'p-src'},'Non confirmée par la société.') : null,
+            off && pr ? el('p',{class:'p-press'}, el('b',null,'Plus récent, selon la presse : '), pr.amount + ' (' + pr.round + ', ' + fmtDate(pr) + ').') : null]
+          : el('p',null, c.valuationNote || 'Aucune valorisation connue.')),
+        el('section',{class:'p-box'}, el('h4',null,'Tonalité de la veille'),
+          el('p',{class:'p-amt',style:'color:var(--'+lean[1]+')'}, lean[0]),
+          balanceBar(k,'bar'),
+          el('p',{class:'mono p-src'}, k.optimiste+' optimiste'+(k.optimiste>1?'s':'')+' · '+k.neutre+' neutre'+(k.neutre>1?'s':'')+' · '+k.prudent+' prudent'+(k.prudent>1?'s':''))) ),
+      valuationChart(c,{print:true}) ? el('section',null, el('h4',null,'Historique de valorisation'), valuationChart(c,{print:true}),
+        el('table',{class:'p-tbl'}, el('tbody',null, vals(c).map(v=>el('tr',null, el('td',{class:'mono'},fmtDate(v)), el('td',null,el('b',null,v.amount)), el('td',null,v.round), el('td',null, v.status==='presse'?'Presse':'Officielle')))))) : null,
+      el('section',null, el('h4',null,'Actualités relayées (' + arts.length + ')'),
+        el('ol',{class:'p-news'}, arts.map(a=>{ const s = SIG[a.signal]||SIG.neutre;
+          return el('li',{class:s.cls}, el('div',{class:'p-nmeta'}, el('span',{class:'mono'},fmtDate(a)), el('span',{class:'pill '+s.cls},s.label)),
+            el('p',{class:'p-ntitle'}, a.id===c.lastRound ? el('mark',null,a.title) : a.title),
+            el('p',{class:'p-nsum'}, a.summary||'')); }))),
+      pFoot(SITE_URL + '#societe/' + c.id));
+    doPrint(doc, 'Radar - Fiche ' + c.name);
   }
 
   // Dernière levée relayée par la veille : article désigné par lastRound dans companies.json.
@@ -325,21 +544,15 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
   // Chaque article a son adresse (#id) : partageable, et ouverte directement au chargement.
   function setHash(id){ try{ history.replaceState(null,'', id ? '#'+id : location.pathname+location.search); }catch(e){} }
   function openArticle(id){ S.open=id; setHash(id); renderSheet(); }
-  function closeSheet(){ S.open=null; setHash(null); renderSheet(); if(lastFocus) try{lastFocus.focus();}catch(e){} }
+  function closeSheet(){ S.open=null; setHash(viewHash()); renderSheet(); if(lastFocus) try{lastFocus.focus();}catch(e){} }
+  // #<id d'article> ouvre l'article, #societe/<id> la fiche société, #comparer le comparatif.
   function readHash(){
     const id = decodeURIComponent(location.hash.slice(1));
+    const m = /^societe\/(.+)$/.exec(id);
+    if(m && coById(m[1])){ S.open=null; goCompany(m[1]); return; }
+    if(id==='comparer'){ S.open=null; S.mode='compare'; render(); return; }
     if(id && S.articles.some(a=>a.id===id)){ S.open=id; renderSheet(); }
     else if(S.open){ S.open=null; renderSheet(); }
-  }
-  async function shareArticle(a, btn){
-    const url = articleUrl(a.id);
-    if(navigator.share && matchMedia('(pointer:coarse)').matches){
-      try{ await navigator.share({title:a.title, url}); }catch(e){}
-      return;
-    }
-    try{ await navigator.clipboard.writeText(url); btn.lastChild.textContent = 'Lien copié'; }
-    catch(e){ window.prompt('Copiez le lien de l\'article :', url); return; }
-    setTimeout(()=>{ if(btn.isConnected) btn.lastChild.textContent = 'Copier le lien'; }, 2000);
   }
   function renderSheet(){
     const a = S.open && S.articles.find(x=>x.id===S.open);
@@ -348,13 +561,14 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
     const s = SIG[a.signal]||SIG.neutre; const c = coById(a.companyId);
     const paras = (t)=> String(t||'').split(/\n\s*\n/).filter(Boolean).map(p=>el('p',null,p));
     const closeBtn = el('button',{class:'x',type:'button','aria-label':'Fermer',onclick:closeSheet},svg(ICON_X,18));
-    const shareBtn = el('button',{class:'btn ghost share',type:'button',onclick:()=>shareArticle(a, shareBtn)}, svg(ICON_LINK,15), el('span',null,'Copier le lien'));
+    const shareBtn = linkBtn(articleUrl(a.id), a.title);
+    const pdfBtn = el('button',{class:'btn ghost small',type:'button',title:'Exporter l\'article en PDF',onclick:()=>exportArticle(a)}, svg(ICON_PDF,15), el('span',null,'PDF'));
     sheetRoot.replaceChildren(
       el('div',{class:'scrim',onclick:closeSheet}),
       el('div',{class:'sheet',role:'dialog','aria-modal':'true','aria-label':a.title},
         el('div',{class:'sheet-head'},
           el('span',{class:'eyebrow'}, c?c.name:''),
-          el('div',{class:'sheet-actions'}, shareBtn, closeBtn)),
+          el('div',{class:'sheet-actions'}, pdfBtn, shareBtn, closeBtn)),
         el('div',{class:'sheet-body'},
           el('div',null,
             el('div',{class:'kicker'}, el('span',{class:'mono'},fmtDate(a)), el('span',{class:'pill '+s.cls},s.label), isNew(a)?el('span',{class:'new'},'NOUVEAU'):null),
@@ -370,6 +584,7 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
   }
   document.addEventListener('keydown',e=>{ if(e.key==='Escape' && S.open) closeSheet(); });
   editBtn.addEventListener('click',()=>{ S.mode='pick'; S.draft=null; render(); });
+  compareBtn.addEventListener('click',()=>{ S.mode = S.mode==='compare' ? 'feed' : 'compare'; setHash(viewHash()); render(); window.scrollTo({top:0}); });
   window.addEventListener('hashchange', readHash);
 
   /* ---------- thème : automatique (réglage du système), clair ou sombre ---------- */

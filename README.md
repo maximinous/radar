@@ -7,7 +7,7 @@ Site statique de veille sur des sociétés non cotées, publié sur https://rada
 - `radar-site/` : dossier publié par Cloudflare.
 - `scripts/validate.py` : contrôle des données, à lancer avant chaque commit.
 - `index.html` : la page (aucun serveur, aucune dépendance externe).
-- `data/companies.json` : sociétés suivies (tableau d'objets `id`, `name`, `sector`, `order`, `oneLiner`, `description`, `hq`, `founded`, `leaders`, `website`, et `lastRound` facultatif : id de l'article de la dernière levée, affiché sur la fiche société ; `valuations` : liste de valorisations `{amount, round, date, dateLabel?, status: "officielle" | "presse", source: {label, url}}`, la fiche affiche la dernière officielle et, si elle est plus récente, la dernière rapportée par la presse ; `valuationNote` quand aucune n'est connue).
+- `data/companies.json` : sociétés suivies (tableau d'objets `id`, `name`, `sector`, `order`, `oneLiner`, `description`, `hq`, `founded`, `leaders`, `website`, et `lastRound` facultatif : id de l'article de la dernière levée, affiché sur la fiche société ; `valuations` : liste de valorisations `{amount, value (en milliards), currency (USD ou EUR), round, date, dateLabel?, status: "officielle" | "presse", source: {label, url}}`, la fiche affiche la dernière officielle et, si elle est plus récente, la dernière rapportée par la presse ; `valuationNote` quand aucune n'est connue).
 - `data/articles.json` : articles, triés du plus récent au plus ancien.
 - `data/status.json` : `{ "lastRun": "<ISO UTC>", "note": "<texte>" }`.
 - `fonts/` : polices auto-hébergées (licence SIL OFL).
@@ -35,6 +35,8 @@ Site statique de veille sur des sociétés non cotées, publié sur https://rada
 `date` = date de première publication publique de l'information (pas la date de l'événement). `dateLabel` est optionnel.
 
 ## Mise à jour
+
+Adresses partageables : `#<id d'article>` ouvre un article, `#societe/<id>` la fiche d'une société, `#comparer` le comparatif. Chaque article et chaque fiche s'exportent en PDF (mise en page d'impression dédiée dans `index.html`, `@media print`).
 
 Une tâche planifiée ajoute les nouveaux articles du lundi au vendredi, deux fois par jour (8h et 14h, heure de Paris d'été ; passage complet le matin, passage léger limité aux nouveautés l'après-midi) et pousse son commit sur une branche `claude/<nom>` (le nom change quand la tâche est modifiée). Le workflow `.github/workflows/veille-auto-merge.yml` prend toute branche `claude/*` qui ne touche que `radar-site/data/`, fusionne ses données dans `main` avec `scripts/merge_data.py` (union des articles par id, `status.json` le plus récent), lance `scripts/validate.py`, pousse puis supprime la branche. Cloudflare redéploie automatiquement.
 
