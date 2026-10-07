@@ -13,7 +13,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: veille-auto-merge
+  group: veille-ecriture-main
   cancel-in-progress: false
 
 jobs:
@@ -60,6 +60,10 @@ jobs:
             merged+=("$b")
             echo "::endgroup::"
           done
+          # Pages d'aperçu de partage (radar-site/a et radar-site/s) : une poussée faite ici ne déclenche pas veille-partage.yml.
+          python3 scripts/build_share.py
+          git add -A radar-site/a radar-site/s
+          git diff --cached --quiet || git commit -qm "Partage : pages d'aperçu à jour"
           git push origin HEAD:main
           for b in "${merged[@]}"; do git push -q origin --delete "$b"; done
           exit $failed

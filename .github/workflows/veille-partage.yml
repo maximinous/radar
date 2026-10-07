@@ -1,0 +1,44 @@
+# Régénère les pages d'aperçu de partage (radar-site/a/ et radar-site/s/) quand les données changent sur main.
+# Les poussées faites par un autre workflow (fusion automatique) ne déclenchent pas celui-ci : la fusion les régénère elle-même.
+name: Veille - pages de partage
+
+on:
+  push:
+    branches: [main]
+    paths: ['radar-site/data/**', 'scripts/build_share.py']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: veille-ecriture-main
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
+        with:
+          ref: main
+
+      - name: Générer et publier
+        run: |
+          set -eu
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          python3 scripts/build_share.py
+          git add -A radar-site/a radar-site/s
+          if git diff --cached --quiet; then echo "Rien à mettre à jour."; exit 0; fi
+          git commit -qm "Partage : pages d'aperçu à jour"
+          for i in 1 2 3 4; do
+            git push origin HEAD:main && exit 0
+            # main a avancé entre-temps (passage de veille) : on repart de la nouvelle version et on régénère.
+            git fetch -q origin main && git reset -q --hard origin/main
+            python3 scripts/build_share.py
+            git add -A radar-site/a radar-site/s
+            git diff --cached --quiet && exit 0
+            git commit -qm "Partage : pages d'aperçu à jour"
+          done
+          exit 1
