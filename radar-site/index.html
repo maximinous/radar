@@ -187,6 +187,13 @@ h1 .dot{color:var(--accent)}
 /* Actions de la fiche */
 .hero-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
 .btn.small{padding:6px 12px;font-size:13px}
+/* Menu d'export */
+.xwrap{position:relative}
+.xmenu{position:absolute;top:calc(100% + 6px);left:0;z-index:5;width:min(320px,calc(100vw - 48px));background:var(--surface);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);padding:6px;display:flex;flex-direction:column}
+.xmenu button{all:unset;cursor:pointer;display:flex;flex-direction:column;gap:2px;padding:9px 10px;border-radius:8px}
+.xmenu button:hover,.xmenu button:focus-visible{background:var(--surface-2)}
+.xmenu b{font-size:14px;font-weight:600}
+.xmenu span{font-size:12.5px;color:var(--muted)}
 /* Historique de valorisation */
 .valo-card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin-bottom:18px}
 .valo-card-head{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:6px 16px;margin-bottom:6px}
@@ -324,6 +331,12 @@ h1 .dot{color:var(--accent)}
   .p-nmeta{display:flex;gap:10px;align-items:center;font-size:8pt;color:#5B6963}
   .p-ntitle{font:700 10.5pt/1.35 var(--sans);margin:2px 0!important;text-align:left!important}
   .p-nsum{font-size:9pt;color:#3E4A45;margin:0!important}
+  .p-fil{list-style:none;margin:0;padding:0;font-size:9.5pt}
+  .p-fil li{display:grid;grid-template-columns:24mm 22mm 1fr;gap:8px;align-items:baseline;padding:4px 0 4px 8px;border-left:3px solid var(--neu);border-bottom:1px solid #EEF2F0;break-inside:avoid}
+  .p-fil li.pos{border-left-color:var(--pos)} .p-fil li.neg{border-left-color:var(--neg)}
+  .p-fil .mono{font-size:8pt;color:#5B6963}
+  .p-fil .pill{justify-self:start}
+  .p-fil .t{font:600 9.5pt/1.35 var(--sans)}
   .p-foot{margin-top:22px;padding-top:10px;border-top:1px solid #DCE3DF;font-size:8pt;color:#5B6963;break-inside:avoid}
   .p-foot p{margin:0 0 3px}
 }
@@ -353,7 +366,7 @@ h1 .dot{color:var(--accent)}
 
   <footer class="foot">
     <p>Veille d'information sur des sociétés non cotées, mise à jour automatiquement deux fois par jour en semaine à partir de sources publiques citées dans chaque article. Les signaux optimiste, neutre et prudent sont une lecture éditoriale de l'actualité. Ils ne constituent pas un conseil en investissement ni une recommandation d'achat ou de vente. Investir dans des sociétés non cotées comporte un risque de perte totale du capital.</p>
-    <p>Ce site n'est affilié à aucune des sociétés suivies ni à aucune plateforme d'investissement. Votre sélection de sociétés, votre thème et la date de votre dernière visite restent dans votre navigateur : aucun cookie, aucun compte.</p>
+    <p>Ce site n'est affilié à aucune des sociétés suivies ni à aucune plateforme d'investissement. Votre sélection de sociétés, votre thème, la date de votre dernière visite et les articles déjà lus restent dans votre navigateur : aucun cookie, aucun compte.</p>
     <p><a href="mentions-legales.html">Mentions légales</a></p>
   </footer>
 </div>
@@ -361,7 +374,7 @@ h1 .dot{color:var(--accent)}
 <div id="sheetRoot"></div>
 <div id="printRoot"></div>
 
-<script src="app.js?v=2026-10-07b" defer></script>
+<script src="app.js?v=2026-10-07c" defer></script>
 
 </body>
 </html>

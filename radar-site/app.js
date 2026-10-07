@@ -23,6 +23,14 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
   const LS_KEY = 'radar-selection-v1';
   const LS_VISIT = 'radar-last-visit-v1';
   const SS_SINCE = 'radar-since-v1';
+  const LS_READ = 'radar-read-v1';
+  // Articles déjà ouverts : ils perdent leur badge « Nouveau ».
+  const READ = new Set((()=>{ try{ return JSON.parse(localStorage.getItem(LS_READ))||[]; }catch(e){ return []; } })());
+  function markRead(id){
+    if(READ.has(id)) return;
+    READ.add(id);
+    try{ localStorage.setItem(LS_READ, JSON.stringify([...READ].slice(-1000))); }catch(e){}
+  }
   const LS_THEME = 'radar-theme';
   const PAGE_SIZE = 10;
   const SIG = {
@@ -76,7 +84,7 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
   function isNew(a){
     if(!a.addedAt) return false;
     const t = Date.parse(a.addedAt); if(isNaN(t)) return false;
-    return t > S.since;
+    return t > S.since && !READ.has(a.id);
   }
   function fold(t){ return String(t||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase(); }
   function matches(a, terms){
@@ -216,7 +224,7 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
           arts.length ? el('p',{class:'since mono'}, arts.length + (arts.length>1?' articles':' article') + ' depuis le ' + fmtDate(arts.reduce((m,a)=>(a.date||'')<(m.date||'')?a:m))) : null,
           el('div',{class:'hero-actions'},
             linkBtn(companyUrl(c.id), c.name),
-            el('button',{class:'btn ghost small',type:'button',onclick:()=>exportCompany(c)}, svg(ICON_PDF,15), el('span',null,'Exporter la fiche en PDF')))),
+            exportMenu(c))),
         el('div',{class:'side'},
         valuationBox(c),
         el('div',{class:'mood'},
@@ -439,7 +447,22 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
       pFoot(SITE_URL + '#' + a.id));
     doPrint(doc, 'Radar - ' + (c?c.name+' - ':'') + a.title);
   }
-  function exportCompany(c){
+  // Menu d'export d'une fiche : fiche seule, fiche + fil chronologique, fiche + articles complets.
+  const EXPORTS = [
+    ['fiche','Fiche seule','Présentation, valorisation, tonalité et historique.'],
+    ['fil','Fiche et fil chronologique','Plus la liste des actualités : date, signal et titre.'],
+    ['complet','Fiche et articles complets','Plus chaque actualité avec son résumé.']];
+  function exportMenu(c){
+    const open = S.exportMenu===c.id;
+    return el('div',{class:'xwrap'},
+      el('button',{class:'btn ghost small',type:'button','aria-haspopup':'menu','aria-expanded':String(open),onclick:()=>{ S.exportMenu = open ? null : c.id; render(); }},
+        svg(ICON_PDF,15), el('span',null,'Exporter la fiche en PDF')),
+      open ? el('div',{class:'xmenu',role:'menu'}, EXPORTS.map(([k,t,d])=>
+        el('button',{type:'button',role:'menuitem',onclick:()=>{ S.exportMenu=null; render(); exportCompany(c,k); }},
+          el('b',null,t), el('span',null,d)))) : null);
+  }
+  document.addEventListener('click',e=>{ if(S.exportMenu && !e.target.closest('.xwrap')){ S.exportMenu=null; render(); } });
+  function exportCompany(c, mode){
     const arts = S.articles.filter(a=>a.companyId===c.id).sort((a,b)=>(b.date||'').localeCompare(a.date||''));
     const k = counts(arts);
     const off = lastOfficial(c), pr = lastPress(c), main = off || pr;
@@ -462,11 +485,15 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
           el('p',{class:'mono p-src'}, k.optimiste+' optimiste'+(k.optimiste>1?'s':'')+' · '+k.neutre+' neutre'+(k.neutre>1?'s':'')+' · '+k.prudent+' prudent'+(k.prudent>1?'s':''))) ),
       valuationChart(c,{print:true}) ? el('section',null, el('h4',null,'Historique de valorisation'), valuationChart(c,{print:true}),
         el('table',{class:'p-tbl'}, el('tbody',null, vals(c).map(v=>el('tr',null, el('td',{class:'mono'},fmtDate(v)), el('td',null,el('b',null,v.amount)), el('td',null,v.round), el('td',null, v.status==='presse'?'Presse':'Officielle')))))) : null,
-      el('section',null, el('h4',null,'Actualités relayées (' + arts.length + ')'),
+      mode==='fil' ? el('section',null, el('h4',null,'Fil chronologique (' + arts.length + ' actualités)'),
+        el('ol',{class:'p-fil'}, arts.map(a=>{ const s = SIG[a.signal]||SIG.neutre;
+          return el('li',{class:s.cls}, el('span',{class:'mono'},fmtDate(a)), el('span',{class:'pill '+s.cls},s.label),
+            el('span',{class:'t'}, a.id===c.lastRound ? el('mark',null,a.title) : a.title)); }))) : null,
+      mode==='complet' ? el('section',null, el('h4',null,'Actualités relayées (' + arts.length + ')'),
         el('ol',{class:'p-news'}, arts.map(a=>{ const s = SIG[a.signal]||SIG.neutre;
           return el('li',{class:s.cls}, el('div',{class:'p-nmeta'}, el('span',{class:'mono'},fmtDate(a)), el('span',{class:'pill '+s.cls},s.label)),
             el('p',{class:'p-ntitle'}, a.id===c.lastRound ? el('mark',null,a.title) : a.title),
-            el('p',{class:'p-nsum'}, a.summary||'')); }))),
+            el('p',{class:'p-nsum'}, a.summary||'')); }))) : null,
       pFoot(SITE_URL + '#societe/' + c.id));
     doPrint(doc, 'Radar - Fiche ' + c.name);
   }
@@ -540,7 +567,7 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
   let lastFocus = null;
   // Chaque article a son adresse (#id) : partageable, et ouverte directement au chargement.
   function setHash(id){ try{ history.replaceState(null,'', id ? '#'+id : location.pathname+location.search); }catch(e){} }
-  function openArticle(id){ S.open=id; setHash(id); renderSheet(); }
+  function openArticle(id){ markRead(id); S.open=id; setHash(id); render(); }
   function closeSheet(){ S.open=null; setHash(viewHash()); renderSheet(); if(lastFocus) try{lastFocus.focus();}catch(e){} }
   // #<id d'article> ouvre l'article, #societe/<id> la fiche société, #comparer le comparatif.
   function readHash(){
@@ -548,7 +575,7 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
     const m = /^societe\/(.+)$/.exec(id);
     if(m && coById(m[1])){ S.open=null; goCompany(m[1]); return; }
     if(id==='comparer'){ S.open=null; S.mode='compare'; render(); return; }
-    if(id && S.articles.some(a=>a.id===id)){ S.open=id; renderSheet(); }
+    if(id && S.articles.some(a=>a.id===id)){ markRead(id); S.open=id; render(); }
     else if(S.open){ S.open=null; renderSheet(); }
   }
   function renderSheet(){
@@ -579,7 +606,10 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
     document.body.style.overflow='hidden';
     closeBtn.focus();
   }
-  document.addEventListener('keydown',e=>{ if(e.key==='Escape' && S.open) closeSheet(); });
+  document.addEventListener('keydown',e=>{
+    if(e.key!=='Escape') return;
+    if(S.exportMenu){ S.exportMenu=null; render(); } else if(S.open) closeSheet();
+  });
   editBtn.addEventListener('click',()=>{ S.mode='pick'; S.draft=null; render(); });
   compareBtn.addEventListener('click',()=>{ S.mode = S.mode==='compare' ? 'feed' : 'compare'; setHash(viewHash()); render(); window.scrollTo({top:0}); });
   window.addEventListener('hashchange', readHash);
