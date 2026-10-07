@@ -27,6 +27,13 @@ for c in cos:
     if c.get('website') and not ok_url(c['website']): err(f"société {c['id']}: URL invalide (https obligatoire)")
     if c.get('lastRound') and not any(x.get('id') == c['lastRound'] and x.get('companyId') == c['id'] for x in arts):
         err(f"société {c['id']}: lastRound {c['lastRound']} ne désigne aucun article de cette société")
+    for v in c.get('valuations', []):
+        if v.get('status') not in ('officielle', 'presse'): err(f"société {c['id']}: valorisation au statut invalide")
+        if not v.get('amount') or not v.get('round'): err(f"société {c['id']}: valorisation sans montant ou sans tour")
+        if not re.fullmatch(r'\d{4}-\d{2}-\d{2}', v.get('date', '')): err(f"société {c['id']}: date de valorisation invalide")
+        if not ok_url((v.get('source') or {}).get('url')): err(f"société {c['id']}: source de valorisation invalide (https obligatoire)")
+        blob = json.dumps(v, ensure_ascii=False)
+        if '—' in blob or '–' in blob: err(f"société {c['id']}: valorisation contient un tiret long")
 for a in arts:
     aid = a.get('id', '?')
     for k in REQ:

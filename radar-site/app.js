@@ -198,6 +198,8 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
             safeUrl(c.website)?el('span',null,el('a',{href:safeUrl(c.website),target:'_blank',rel:'noopener noreferrer'},'Site officiel')):null),
           roundBox(c),
           arts.length ? el('p',{class:'since mono'}, arts.length + (arts.length>1?' articles':' article') + ' depuis le ' + fmtDate(arts.reduce((m,a)=>(a.date||'')<(m.date||'')?a:m))) : null),
+        el('div',{class:'side'},
+        valuationBox(c),
         el('div',{class:'mood'},
           el('span',{class:'eyebrow'},'Tonalité de la veille'),
           el('span',{class:'verdict',style:'color:var(--'+lean[1]+')'},lean[0]),
@@ -205,7 +207,7 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
           el('div',{class:'legend mono'},
             el('span',null,k.optimiste+' optimiste'+(k.optimiste>1?'s':'')),
             el('span',null,k.neutre+' neutre'+(k.neutre>1?'s':'')),
-            el('span',null,k.prudent+' prudent'+(k.prudent>1?'s':''))))
+            el('span',null,k.prudent+' prudent'+(k.prudent>1?'s':'')))))
       ));
     }
     const timeline = S.company && S.view==='timeline';
@@ -261,6 +263,24 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
       el('span',{class:'eyebrow'},'Dernière levée relayée'),
       el('span',{class:'t'}, a.title),
       el('span',{class:'d mono'}, fmtDate(a)));
+  }
+
+  // Valorisation : la dernière annoncée par la société (ou confirmée par un document officiel),
+  // et, si elle est plus récente, la dernière rapportée par la presse sans confirmation.
+  function valuationBox(c){
+    const vals = (c.valuations||[]).slice().sort((a,b)=>(b.date||'').localeCompare(a.date||''));
+    const off = vals.find(v=>v.status==='officielle');
+    const press = vals.find(v=>v.status==='presse' && (!off || (v.date||'') > (off.date||'')));
+    if(!off && !press) return c.valuationNote ? el('div',{class:'valo'}, el('span',{class:'eyebrow'},'Valorisation'), el('p',{class:'note'},c.valuationNote)) : null;
+    const src = v => safeUrl(v.source&&v.source.url) ? el('a',{href:safeUrl(v.source.url),target:'_blank',rel:'noopener noreferrer'}, v.source.label||'Source') : null;
+    const main = off || press;
+    return el('div',{class:'valo'},
+      el('span',{class:'eyebrow'}, off ? 'Dernière valorisation officielle' : 'Valorisation selon la presse'),
+      el('span',{class:'amt'}, main.amount),
+      el('span',{class:'rd'}, main.round + ' · ' + fmtDate(main)),
+      el('span',{class:'src'}, src(main)),
+      !off ? el('p',{class:'note'},'Non confirmée par la société.') : null,
+      off && press ? el('p',{class:'press'}, el('b',null,'Plus récent, selon la presse : '), press.amount + ' (' + press.round.charAt(0).toLowerCase() + press.round.slice(1) + ', ' + fmtDate(press) + '). ', src(press)) : null);
   }
 
   // Chronologie d'une société : tous ses articles, regroupés par mois, sans pagination.
