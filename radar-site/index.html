@@ -6,7 +6,7 @@
 <title>Radar ROD Investment</title>
 <meta name="description" content="Veille quotidienne sur des sociétés non cotées : actualités sourcées, ce qu'elles changent pour l'entreprise, et un signal optimiste, neutre ou prudent.">
 <meta property="og:title" content="Radar ROD Investment">
-<meta property="og:description" content="Veille quotidienne sur des sociétés non cotées, mise à jour trois fois par jour.">
+<meta property="og:description" content="Veille quotidienne sur des sociétés non cotées, mise à jour deux fois par jour en semaine.">
 <meta property="og:type" content="website">
 <meta name="theme-color" content="#0D6E5E">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230D6E5E'/%3E%3Ccircle cx='16' cy='16' r='9' fill='none' stroke='white' stroke-width='2.2'/%3E%3Ccircle cx='16' cy='16' r='3.2' fill='white'/%3E%3Cpath d='M16 16 L23 9' stroke='white' stroke-width='2.2' stroke-linecap='round'/%3E%3C/svg%3E">
@@ -144,6 +144,15 @@ h1 .dot{color:var(--accent)}
 
 .empty{padding:36px 20px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:14px;background:var(--surface)}
 .notice{font-size:13px;color:var(--muted);padding:10px 12px;border-radius:10px;background:var(--surface-2);margin-top:14px}
+/* Pagination du fil */
+.pager{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:20px;flex-wrap:wrap}
+.pager .nums{display:flex;align-items:center;gap:6px}
+.pg{min-width:38px;height:38px;padding:0 12px;border:1px solid var(--line);background:var(--surface);border-radius:999px;font-size:14px;font-weight:600;cursor:pointer;font-variant-numeric:tabular-nums}
+.pg:hover:not(:disabled){border-color:var(--accent)}
+.pg[aria-current="page"]{background:var(--ink);border-color:var(--ink);color:var(--bg);cursor:default}
+.pg:disabled{opacity:.4;cursor:not-allowed}
+.pager .gap{color:var(--muted);padding:0 2px}
+@media (max-width:560px){.pager .nav{flex:1 1 40%}.pager .nums{order:-1;flex:1 1 100%;justify-content:center}}
 
 /* Detail sheet */
 .scrim{position:fixed;inset:0;background:rgba(8,14,12,.45);z-index:20}
@@ -190,7 +199,7 @@ h1 .dot{color:var(--accent)}
   <main id="app"><div class="loading">Chargement de la veille…</div></main>
 
   <footer class="foot">
-    <p>Veille d'information sur des sociétés non cotées, mise à jour automatiquement trois fois par jour à partir de sources publiques citées dans chaque article. Les signaux optimiste, neutre et prudent sont une lecture éditoriale de l'actualité. Ils ne constituent pas un conseil en investissement ni une recommandation d'achat ou de vente. Investir dans des sociétés non cotées comporte un risque de perte totale du capital.</p>
+    <p>Veille d'information sur des sociétés non cotées, mise à jour automatiquement deux fois par jour en semaine à partir de sources publiques citées dans chaque article. Les signaux optimiste, neutre et prudent sont une lecture éditoriale de l'actualité. Ils ne constituent pas un conseil en investissement ni une recommandation d'achat ou de vente. Investir dans des sociétés non cotées comporte un risque de perte totale du capital.</p>
     <p>Ce site n'est affilié à aucune des sociétés suivies ni à aucune plateforme d'investissement. Votre sélection de sociétés reste dans votre navigateur : aucun cookie, aucun compte.</p>
     <p><a href="mentions-legales.html">Mentions légales</a></p>
   </footer>
