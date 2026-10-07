@@ -1,0 +1,39 @@
+# Contrôle de couverture du soir : liste les titres Google News des dernières 24 h qui ressemblent à un événement
+# mais qu'aucun article du Radar ne couvre (scripts/coverage.py). Le passage du lendemain matin examine chaque piste.
+name: Veille - contrôle de couverture
+
+on:
+  schedule:
+    - cron: '45 19 * * 1-5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: veille-ecriture-main
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
+        with:
+          ref: main
+
+      - name: Lister les pistes non couvertes
+        run: |
+          set -eu
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          python3 scripts/coverage.py 24 | tee -a "$GITHUB_STEP_SUMMARY"
+          cat veille/candidats.md >> "$GITHUB_STEP_SUMMARY"
+          git add veille
+          git diff --cached --quiet && exit 0
+          git commit -qm "Veille : contrôle de couverture du $(date -u +%d/%m)"
+          for i in 1 2 3 4; do
+            git push origin HEAD:main && exit 0
+            git pull -q --rebase origin main
+          done
+          exit 1
