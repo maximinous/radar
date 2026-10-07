@@ -1,9 +1,23 @@
 {
- "generatedAt": "2026-10-07T15:19:45Z",
+ "generatedAt": "2026-10-07T19:53:05Z",
  "windowHours": 24,
- "headlinesRead": 595,
- "count": 25,
+ "headlinesRead": 582,
+ "count": 21,
  "companies": [
+  {
+   "companyId": "together-ai",
+   "name": "Together AI",
+   "candidates": [
+    {
+     "date": "2026-10-07 09:02",
+     "media": "Stocktwits",
+     "title": "IBM Lands $240M Together AI Deal To Build Nvidia-Powered Neocloud Cluster",
+     "site": "https://stocktwits.com",
+     "overlap": 0.33,
+     "reprises": 0
+    }
+   ]
+  },
   {
    "companyId": "mistral-ai",
    "name": "Mistral AI",
@@ -17,35 +31,11 @@
      "reprises": 2
     },
     {
-     "date": "2026-10-06 15:28",
-     "media": "L'Usine Digitale",
-     "title": "[IA Insider] Aleph Alpha, Mistral AI, Reflection... Les modèles open-weight occidentaux veulent en découdre avec leurs rivaux chinois",
-     "site": "https://www.usine-digitale.fr",
-     "overlap": 0.08,
-     "reprises": 0
-    },
-    {
-     "date": "2026-10-06 15:33",
-     "media": "H24info",
-     "title": "IA: Mistral dévoile ML4, son plus grand modèle, pour revenir dans la course mondiale",
-     "site": "https://h24info.ma",
-     "overlap": 0.38,
-     "reprises": 0
-    },
-    {
-     "date": "2026-10-06 15:44",
-     "media": "Reuters",
-     "title": "France's Mistral launches AI model it says outperforms some Chinese rivals",
-     "site": "https://www.reuters.com",
-     "overlap": 0.12,
-     "reprises": 0
-    },
-    {
-     "date": "2026-10-06 16:30",
-     "media": "01net.com",
-     "title": "Mistral lance Le Chonk, la nouvelle IA française qui réduit l’écart avec ChatGPT et Claude",
-     "site": "https://www.01net.com",
-     "overlap": 0.12,
+     "date": "2026-10-06 19:57",
+     "media": "DW.com",
+     "title": "Mistral: French AI firm announces Le Chonk, a new, private model",
+     "site": "https://www.dw.com",
+     "overlap": 0.33,
      "reprises": 0
     },
     {
@@ -59,31 +49,9 @@
    ]
   },
   {
-   "companyId": "apollo-research",
-   "name": "Apollo Research",
-   "candidates": [
-    {
-     "date": "2026-10-06 16:10",
-     "media": "Crypto Briefing",
-     "title": "Apollo Research wants AI evaluators inside the lab during training, not just at launch",
-     "site": "https://cryptobriefing.com",
-     "overlap": 0,
-     "reprises": 0
-    }
-   ]
-  },
-  {
    "companyId": "stripe",
    "name": "Stripe",
    "candidates": [
-    {
-     "date": "2026-10-06 19:14",
-     "media": "timesdaily.com",
-     "title": "The Truth About Buy Verified Stripe Accounts in 2026",
-     "site": "https://www.timesdaily.com",
-     "overlap": 0.17,
-     "reprises": 0
-    },
     {
      "date": "2026-10-07 14:34",
      "media": "Digital Transactions",
@@ -137,30 +105,6 @@
    "name": "Polymarket",
    "candidates": [
     {
-     "date": "2026-10-06 16:20",
-     "media": "Benzinga France",
-     "title": "L’accord de LeBron avec Polymarket soulève des questions pour la NBA",
-     "site": "https://fr.benzinga.com",
-     "overlap": 0.0,
-     "reprises": 1
-    },
-    {
-     "date": "2026-10-07 13:01",
-     "media": "bloomingbit",
-     "title": "Polymarket CEO Says Chasing 100x Crypto Returns Is Like a 'Hot Potato' Game",
-     "site": "https://en.bloomingbit.io",
-     "overlap": 0.1,
-     "reprises": 1
-    },
-    {
-     "date": "2026-10-06 17:01",
-     "media": "The Root",
-     "title": "Why LeBron James’ $15 Million Polymarket Partnership Is Under Fire",
-     "site": "https://www.theroot.com",
-     "overlap": 0.0,
-     "reprises": 0
-    },
-    {
      "date": "2026-10-06 22:43",
      "media": "Time Magazine",
      "title": "Digger Box Office: Polymarket Predicted Tom Cruise's Flop",
@@ -183,6 +127,30 @@
      "site": "https://conseilscrypto.com",
      "overlap": 0.11,
      "reprises": 0
+    },
+    {
+     "date": "2026-10-07 07:09",
+     "media": "KuCoin",
+     "title": "Polymarket CEO Explores On-Chain Asset Linked to the Platform’s Economy",
+     "site": "https://www.kucoin.com",
+     "overlap": 0.0,
+     "reprises": 0
+    },
+    {
+     "date": "2026-10-07 08:15",
+     "media": "Pluang",
+     "title": "Polymarket launches Protocol V2 to simplify cry...",
+     "site": "https://pluang.com",
+     "overlap": 0.0,
+     "reprises": 0
+    },
+    {
+     "date": "2026-10-07 13:01",
+     "media": "bloomingbit",
+     "title": "Polymarket CEO Says Chasing 100x Crypto Returns Is Like a 'Hot Potato' Game",
+     "site": "https://en.bloomingbit.io",
+     "overlap": 0.1,
+     "reprises": 0
     }
    ]
   },
@@ -196,46 +164,46 @@
      "title": "Anthropic expands Claude startups program in India, offers up to $7,000 in credits to local businesses",
      "site": "https://www.firstpost.com",
      "overlap": 0.3,
-     "reprises": 6
-    },
-    {
-     "date": "2026-10-07 09:44",
-     "media": "FourWeekMBA",
-     "title": "Anthropic Opens Mythos 5.1 to Defenders in 3 Cyber Tiers",
-     "site": "https://fourweekmba.com",
-     "overlap": 0.0,
      "reprises": 3
     },
     {
-     "date": "2026-10-06 22:02",
-     "media": "PYMNTS.com",
-     "title": "Anthropic Expands Discounts and Support for Founders",
-     "site": "https://www.pymnts.com",
+     "date": "2026-10-07 16:54",
+     "media": "Cyber Press",
+     "title": "Anthropic Expands Cyber Verification Program With Three AI Access Tiers for Security Teams",
+     "site": "https://cyberpress.org",
+     "overlap": 0.11,
+     "reprises": 3
+    },
+    {
+     "date": "2026-10-07 15:46",
+     "media": "OODA Loop",
+     "title": "Anthropic Opens Its Most Powerful AI Models to More Security Teams",
+     "site": "https://oodaloop.com",
      "overlap": 0.0,
      "reprises": 2
     },
     {
-     "date": "2026-10-07 08:07",
-     "media": "The Hacker News",
-     "title": "Anthropic Expands Claude Access for Vetted Cyber Teams as Glasswing Finds 129,000 Flaws",
-     "site": "https://thehackernews.com",
-     "overlap": 0.18,
+     "date": "2026-10-07 19:01",
+     "media": "Yahoo",
+     "title": "Governor DeSantis Says It’s ‘Creepy AF’ That Anthropic CEO Dario Amodei Invited Religious Leaders to ‘Bless’ the AI Model and Declare It Sentient",
+     "site": "https://www.yahoo.com",
+     "overlap": 0.0,
      "reprises": 2
     },
     {
-     "date": "2026-10-07 07:56",
-     "media": "The Daily Star",
-     "title": "How much did Anthropic CEO Dario Amodei make last year?",
-     "site": "https://www.thedailystar.net",
-     "overlap": 0.0,
+     "date": "2026-10-07 10:19",
+     "media": "Benzinga",
+     "title": "Anthropic CEO Dario Amodei Took Home $18 Million in 2025 — How His Pay Compares With Google and Amazon CE",
+     "site": "https://www.benzinga.com",
+     "overlap": 0.08,
      "reprises": 1
     },
     {
-     "date": "2026-10-07 08:21",
-     "media": "BDM",
-     "title": "Anthropic lance une extension Claude pour Google Docs, Sheets et Slides",
-     "site": "https://www.blogdumoderateur.com",
-     "overlap": 0.29,
+     "date": "2026-10-07 11:30",
+     "media": "The Motley Fool",
+     "title": "This 1 Quote in Anthropic's IPO Prospectus Should Have AI Investors Buying More Nvidia Stock",
+     "site": "https://www.fool.com",
+     "overlap": 0.09,
      "reprises": 1
     }
    ]
