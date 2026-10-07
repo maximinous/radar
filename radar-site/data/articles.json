@@ -1,5 +1,59 @@
 [
  {
+  "id": "mistral-ai-2026-10-06-large-4",
+  "companyId": "mistral-ai",
+  "date": "2026-10-06",
+  "title": "Mistral AI dévoile Mistral Large 4, un modèle d'un billion de paramètres",
+  "summary": "Mistral présente en préversion Mistral Large 4, surnommé Le Chonk, un modèle multimodal d'environ 1 000 milliards de paramètres. Les poids ouverts doivent suivre d'ici la fin du mois.",
+  "detail": "Selon Mistral, le modèle est un mélange d'experts avec 49 milliards de paramètres actifs, qui combine instructions et raisonnement. Il est accessible dès maintenant en préversion via l'API de Mistral Studio, facturée 1,36 dollar par million de jetons en entrée et 4,18 dollars en sortie.\n\nMistral annonce un déploiement dans plusieurs régions du monde, dont une région européenne qu'elle exploite elle-même. Elle revendique des performances de tête parmi les modèles à poids ouverts en cybersécurité, en code (61,7 % sur DeepSWE v1.1) et en tâches d'agents (59,9 % sur AutomationBench). Ces chiffres viennent de l'entreprise et la licence des poids n'est pas précisée.",
+  "impact": "Le modèle répond à l'attente créée par Arthur Mensch fin septembre et vise à réduire l'écart avec les laboratoires américains et chinois.",
+  "signal": "optimiste",
+  "rationale": "Le lancement tient la promesse d'un nouveau modèle phare, mais les performances restent déclarées par Mistral et les poids ne sont pas encore publiés.",
+  "sources": [
+   {
+    "label": "Mistral AI, annonce de Mistral Large 4, 6 oct. 2026",
+    "url": "https://mistral.ai/news/mistral-large-4"
+   }
+  ],
+  "addedAt": "2026-10-07T06:24:01Z"
+ },
+ {
+  "id": "together-ai-2026-10-06-ibm-cloud-nvidia",
+  "companyId": "together-ai",
+  "date": "2026-10-06",
+  "title": "Together AI ouvre un cluster d'inférence NVIDIA B300 sur IBM Cloud",
+  "summary": "Together AI annonce un cluster dédié de GPU NVIDIA B300 sur IBM Cloud pour servir des modèles ouverts à l'échelle de la production. C'est, selon elle, le premier cluster d'inférence de cette taille sur IBM Cloud.",
+  "detail": "Le cluster repose sur des GPU B300 et sur le réseau Ethernet Spectrum-X de NVIDIA. NVIDIA fournit les GPU et le réseau, IBM l'infrastructure cloud et l'exploitation, Together AI la plateforme d'inférence. Together AI en est le premier client.\n\nL'entreprise indique servir des centaines de milliers de milliards de jetons par mois à plus d'un million de développeurs. Le billet ne donne ni capacité précise, ni clients, ni régions.",
+  "impact": "Together AI ajoute de la capacité d'inférence et se rapproche des grandes entreprises qui veulent des modèles ouverts sur une infrastructure de cloud établie.",
+  "signal": "optimiste",
+  "rationale": "La capacité supplémentaire soutient la croissance de la demande, mais les détails chiffrés ne sont pas publiés.",
+  "sources": [
+   {
+    "label": "Blog Together AI, 6 oct. 2026",
+    "url": "https://www.together.ai/blog/expanding-our-enterprise-inference-capacity-with-ibm-cloud-and-nvidia"
+   }
+  ],
+  "addedAt": "2026-10-07T06:24:01Z"
+ },
+ {
+  "id": "stripe-2026-10-06-fedex-dataworks",
+  "companyId": "stripe",
+  "date": "2026-10-06",
+  "title": "Stripe et FedEx Dataworks s'allient pour financer les petites entreprises",
+  "summary": "Stripe et FedEx Dataworks veulent utiliser les données logistiques de FedEx pour accorder du crédit aux PME via Stripe Capital. Une première offre commune est prévue en 2027.",
+  "detail": "Les flux d'expéditions, les stocks et la performance de livraison serviraient de signaux pour décider plus vite d'un financement, sans dépendre des relevés bancaires ni des scores de crédit. John Collison, cofondateur et président de Stripe, présente l'idée comme une façon de transformer l'activité d'une PME en accès au financement.\n\nFedEx annonce aussi qu'elle acceptera Stripe pour les paiements, avec plus de 50 moyens de paiement supplémentaires sur ses caisses dans le monde. L'annonce a été diffusée par communiqué le 6 octobre.",
+  "impact": "Stripe gagne un grand partenaire de données pour son offre de crédit et un client de paiement de premier plan.",
+  "signal": "optimiste",
+  "rationale": "Un client grand compte et une source de données différenciante renforcent Stripe Capital, même si le produit n'arrivera qu'en 2027.",
+  "sources": [
+   {
+    "label": "PYMNTS, 6 oct. 2026",
+    "url": "https://www.pymnts.com/news/b2b-payments/2026/stripe-to-power-small-business-underwriting-with-fedex-supply-chain-data/"
+   }
+  ],
+  "addedAt": "2026-10-07T06:24:01Z"
+ },
+ {
   "id": "together-ai-2026-10-05-together-link",
   "companyId": "together-ai",
   "date": "2026-10-05",
