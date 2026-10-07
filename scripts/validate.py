@@ -30,6 +30,7 @@ for c in cos:
     for v in c.get('valuations', []):
         if v.get('status') not in ('officielle', 'presse'): err(f"société {c['id']}: valorisation au statut invalide")
         if not v.get('amount') or not v.get('round'): err(f"société {c['id']}: valorisation sans montant ou sans tour")
+        if not isinstance(v.get('value'), (int, float)) or v.get('currency') not in ('USD', 'EUR'): err(f"société {c['id']}: valorisation sans valeur numérique (value, en milliards) ou devise (USD/EUR)")
         if not re.fullmatch(r'\d{4}-\d{2}-\d{2}', v.get('date', '')): err(f"société {c['id']}: date de valorisation invalide")
         if not ok_url((v.get('source') or {}).get('url')): err(f"société {c['id']}: source de valorisation invalide (https obligatoire)")
         blob = json.dumps(v, ensure_ascii=False)

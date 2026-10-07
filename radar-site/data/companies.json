@@ -14,6 +14,8 @@
   "valuations": [
    {
     "amount": "41 milliards de dollars",
+    "value": 41,
+    "currency": "USD",
     "round": "Série B de 12 milliards de dollars",
     "date": "2026-06-11",
     "status": "officielle",
@@ -39,6 +41,8 @@
   "valuations": [
    {
     "amount": "8,3 milliards de dollars",
+    "value": 8.3,
+    "currency": "USD",
     "round": "Série C de 800 millions de dollars",
     "date": "2026-07-01",
     "status": "officielle",
@@ -46,6 +50,31 @@
      "label": "TechCrunch, 1er juillet 2026",
      "url": "https://techcrunch.com/2026/07/01/neocloud-together-ai-raises-800m-leaps-to-8-3b-valuation/"
     }
+   },
+   {
+    "amount": "3,3 milliards de dollars",
+    "value": 3.3,
+    "currency": "USD",
+    "round": "Série B de 305 millions de dollars",
+    "date": "2025-02-20",
+    "status": "officielle",
+    "source": {
+     "label": "Together AI, 20 févr. 2025",
+     "url": "https://www.together.ai/blog/together-ai-announcing-305m-series-b"
+    }
+   },
+   {
+    "amount": "1,25 milliard de dollars",
+    "value": 1.25,
+    "currency": "USD",
+    "round": "Série A de 106 millions de dollars menée par Salesforce Ventures",
+    "date": "2024-03-01",
+    "status": "presse",
+    "source": {
+     "label": "TechCrunch, déc. 2024",
+     "url": "https://techcrunch.com/2024/12/20/heres-the-full-list-of-49-us-ai-startups-that-have-raised-100m-or-more-in-2024/"
+    },
+    "dateLabel": "Mars 2024"
    }
   ]
  },
@@ -63,14 +92,28 @@
   "valuations": [
    {
     "amount": "39 milliards de dollars",
+    "value": 39,
+    "currency": "USD",
     "round": "Série C de plus de 1 milliard de dollars",
-    "date": "2025-09-01",
+    "date": "2025-09-16",
     "status": "officielle",
     "source": {
      "label": "Seeking Alpha, sept. 2025",
      "url": "https://seekingalpha.com/news/4495255-figure-raises-1b-in-series-c-hits-39b-valuation-to-scale-humanoid-robot-deployment"
     },
     "dateLabel": "Sept. 2025"
+   },
+   {
+    "amount": "2,6 milliards de dollars",
+    "value": 2.6,
+    "currency": "USD",
+    "round": "Série B de 675 millions de dollars",
+    "date": "2024-02-29",
+    "status": "officielle",
+    "source": {
+     "label": "TechCrunch, 29 févr. 2024",
+     "url": "https://techcrunch.com/2024/02/29/figure-rides-the-humanoid-robot-hype-wave-to-2-6b-valuation-and-openai-collab/"
+    }
    }
   ]
  },
@@ -89,12 +132,39 @@
   "valuations": [
    {
     "amount": "21 milliards d'euros (post-money)",
+    "value": 21,
+    "currency": "EUR",
     "round": "Série D de 3 milliards d'euros",
     "date": "2026-09-08",
     "status": "officielle",
     "source": {
      "label": "Orrick, conseil de Mistral, sept. 2026",
      "url": "https://www.orrick.com/en/News/2026/09/Orrick-Advises-Mistral-in-its-3B-Series-D-at-21B-Post-Money-Valuation"
+    }
+   },
+   {
+    "amount": "11,7 milliards d'euros (post-money)",
+    "value": 11.7,
+    "currency": "EUR",
+    "round": "Série C de 1,7 milliard d'euros menée par ASML",
+    "date": "2025-09-09",
+    "status": "officielle",
+    "source": {
+     "label": "Mistral AI, sept. 2025",
+     "url": "https://mistral.ai/news/mistral-ai-raises-1-7-b-to-accelerate-technological-progress-with-ai/"
+    },
+    "dateLabel": "Sept. 2025"
+   },
+   {
+    "amount": "5,8 milliards d'euros",
+    "value": 5.8,
+    "currency": "EUR",
+    "round": "Série B de 600 millions d'euros",
+    "date": "2024-06-11",
+    "status": "presse",
+    "source": {
+     "label": "Bloomberg, 11 juin 2024",
+     "url": "https://www.bloomberg.com/news/articles/2024-06-11/mistral-ai-raises-600-million-from-nvidia-samsung-and-vcs"
     }
    }
   ]
@@ -113,6 +183,8 @@
   "valuations": [
    {
     "amount": "17,3 milliards de dollars",
+    "value": 17.3,
+    "currency": "USD",
     "round": "Série E de 300 millions de dollars",
     "date": "2025-10-01",
     "status": "officielle",
@@ -121,6 +193,18 @@
      "url": "https://www.finextra.com/newsarticle/46771/deels-valuation-surges-past-17bn-after-fund-raise"
     },
     "dateLabel": "Oct. 2025"
+   },
+   {
+    "amount": "12 milliards de dollars",
+    "value": 12,
+    "currency": "USD",
+    "round": "Extension de Série D de 50 millions de dollars",
+    "date": "2022-05-11",
+    "status": "officielle",
+    "source": {
+     "label": "TechCrunch, 11 mai 2022",
+     "url": "https://techcrunch.com/2022/05/11/fueled-by-the-remote-work-revolution-deel-more-than-doubles-valuation-to-12b-with-new-raise/"
+    }
    }
   ]
  },
@@ -138,6 +222,8 @@
   "valuations": [
    {
     "amount": "environ 9,5 milliards de dollars",
+    "value": 9.5,
+    "currency": "USD",
     "round": "Levée d'environ 1,5 milliard de dollars en négociation, sur 8 milliards avant l'apport",
     "date": "2026-08-11",
     "status": "presse",
@@ -148,6 +234,8 @@
    },
    {
     "amount": "4,35 milliards de dollars",
+    "value": 4.35,
+    "currency": "USD",
     "round": "Tour de 350 millions de dollars",
     "date": "2025-12-01",
     "status": "presse",
@@ -156,6 +244,19 @@
      "url": "https://www.theblock.co/post/383533/banking-startup-erebor-350-million-4-billion-valuation-fdic-approval-axios"
     },
     "dateLabel": "Déc. 2025"
+   },
+   {
+    "amount": "2 milliards de dollars",
+    "value": 2,
+    "currency": "USD",
+    "round": "Tour d'au moins 225 millions de dollars (Founders Fund, 8VC)",
+    "date": "2025-07-01",
+    "status": "presse",
+    "source": {
+     "label": "Benzinga, juil. 2025",
+     "url": "https://www.benzinga.com/news/topics/25/07/46506798/oculus-founder-palmer-luckeys-lord-of-the-rings-inspired-digital-bank-hits-2-billion-valuation-with-backing-from-founders-fund"
+    },
+    "dateLabel": "Juil. 2025"
    }
   ]
  },
@@ -187,6 +288,8 @@
   "valuations": [
    {
     "amount": "environ 7 milliards de dollars",
+    "value": 7,
+    "currency": "USD",
     "round": "Série C pouvant atteindre 1,4 milliard de dollars",
     "date": "2026-06-10",
     "status": "presse",
@@ -211,14 +314,77 @@
   "valuations": [
    {
     "amount": "159 milliards de dollars",
+    "value": 159,
+    "currency": "USD",
     "round": "Offre de rachat d'actions aux salariés (tender offer)",
-    "date": "2026-02-01",
+    "date": "2026-02-24",
     "status": "officielle",
     "source": {
-     "label": "The Block, févr. 2026",
-     "url": "https://www.theblock.co/post/391075/stripe-valuation-jumps-to-159-billion-on-back-of-tender-offer"
+     "label": "TechCrunch, 24 févr. 2026",
+     "url": "https://techcrunch.com/2026/02/24/stripes-valuation-soars-74-to-159-billion/"
+    }
+   },
+   {
+    "amount": "106,7 milliards de dollars",
+    "value": 106.7,
+    "currency": "USD",
+    "round": "Offre de rachat d'actions",
+    "date": "2025-09-23",
+    "status": "presse",
+    "source": {
+     "label": "Bloomberg, 23 sept. 2025",
+     "url": "https://www.bloomberg.com/news/articles/2025-09-23/stripe-s-valuation-rises-above-its-2021-peak-to-106-7-billion"
+    }
+   },
+   {
+    "amount": "91,5 milliards de dollars",
+    "value": 91.5,
+    "currency": "USD",
+    "round": "Offre de rachat d'actions aux salariés",
+    "date": "2025-02-27",
+    "status": "officielle",
+    "source": {
+     "label": "Stripe, févr. 2025",
+     "url": "https://stripe.com/newsroom/news/employee-liquidity-feb-2025"
     },
-    "dateLabel": "Févr. 2026"
+    "dateLabel": "Févr. 2025"
+   },
+   {
+    "amount": "70 milliards de dollars",
+    "value": 70,
+    "currency": "USD",
+    "round": "Offre de rachat de Sequoia à ses investisseurs",
+    "date": "2024-07-15",
+    "status": "officielle",
+    "source": {
+     "label": "TechCrunch, 15 juil. 2024",
+     "url": "https://techcrunch.com/2024/07/15/major-stripe-investor-sequoia-confirms-70b-valuation-offers-its-investors-a-payday/"
+    }
+   },
+   {
+    "amount": "65 milliards de dollars",
+    "value": 65,
+    "currency": "USD",
+    "round": "Offre de rachat d'actions aux salariés",
+    "date": "2024-02-28",
+    "status": "officielle",
+    "source": {
+     "label": "Stripe, févr. 2024",
+     "url": "https://stripe.com/newsroom/news/employee-liquidity-feb-2024"
+    },
+    "dateLabel": "Févr. 2024"
+   },
+   {
+    "amount": "50 milliards de dollars",
+    "value": 50,
+    "currency": "USD",
+    "round": "Série I de 6,5 milliards de dollars",
+    "date": "2023-03-15",
+    "status": "officielle",
+    "source": {
+     "label": "Stripe, 15 mars 2023",
+     "url": "https://stripe.com/newsroom/news/stripe-series-i-employee-liquidity"
+    }
    }
   ]
  },
@@ -236,12 +402,26 @@
   "valuations": [
    {
     "amount": "2,3 milliards de dollars (post-money)",
+    "value": 2.3,
+    "currency": "USD",
     "round": "Extension de Série A de 250 millions de dollars",
     "date": "2026-08-21",
     "status": "officielle",
     "source": {
      "label": "Via Satellite, 21 août 2026",
      "url": "https://www.satellitetoday.com/finance/2026/08/21/starcloud-adds-250m-to-series-a-at-a-2-3b-valuation/"
+    }
+   },
+   {
+    "amount": "1,1 milliard de dollars",
+    "value": 1.1,
+    "currency": "USD",
+    "round": "Série A de 170 millions de dollars (Benchmark, EQT Ventures)",
+    "date": "2026-03-30",
+    "status": "officielle",
+    "source": {
+     "label": "Via Satellite, 30 mars 2026",
+     "url": "https://www.satellitetoday.com/finance/2026/03/30/starcloud-raises-170m-to-fund-orbital-data-center-plans/"
     }
    }
   ]
@@ -260,12 +440,38 @@
   "valuations": [
    {
     "amount": "13,3 milliards de dollars",
+    "value": 13.3,
+    "currency": "USD",
     "round": "Série C de 400 millions de dollars",
     "date": "2026-08-12",
     "status": "officielle",
     "source": {
      "label": "AI Business, août 2026",
      "url": "https://aibusiness.com/generative-ai/euro-vibe-coding-standout-lovable-valued-at-13-3b"
+    }
+   },
+   {
+    "amount": "6,6 milliards de dollars",
+    "value": 6.6,
+    "currency": "USD",
+    "round": "Série B de 330 millions de dollars",
+    "date": "2025-12-18",
+    "status": "officielle",
+    "source": {
+     "label": "TechCrunch, 18 déc. 2025",
+     "url": "https://techcrunch.com/2025/12/18/vibe-coding-startup-lovable-raises-330m-at-a-6-6b-valuation/"
+    }
+   },
+   {
+    "amount": "1,8 milliard de dollars",
+    "value": 1.8,
+    "currency": "USD",
+    "round": "Série A de 200 millions de dollars",
+    "date": "2025-07-17",
+    "status": "officielle",
+    "source": {
+     "label": "Lovable, 17 juil. 2025",
+     "url": "https://lovable.dev/blog/200m-series-a-fundraise"
     }
    }
   ]
@@ -284,6 +490,8 @@
   "valuations": [
    {
     "amount": "21 milliards de dollars",
+    "value": 21,
+    "currency": "USD",
     "round": "Investissement de 100 millions de dollars de Nasdaq",
     "date": "2026-09-10",
     "status": "presse",
@@ -294,6 +502,8 @@
    },
    {
     "amount": "20 milliards de dollars",
+    "value": 20,
+    "currency": "USD",
     "round": "Tour de 800 millions de dollars, dont 200 millions de Citadel Securities",
     "date": "2025-11-18",
     "status": "officielle",
@@ -301,6 +511,19 @@
      "label": "Decrypt, 18 nov. 2025",
      "url": "https://decrypt.co/349147/crypto-exchange-kraken-raises-800-million-20-billion-valuation"
     }
+   },
+   {
+    "amount": "15 milliards de dollars",
+    "value": 15,
+    "currency": "USD",
+    "round": "Tour de 500 millions de dollars mené par Tribe Capital",
+    "date": "2025-09-01",
+    "status": "presse",
+    "source": {
+     "label": "Finance Magnates, sept. 2025",
+     "url": "https://www.financemagnates.com/cryptocurrency/kraken-secures-500m-at-15b-valuation-is-an-ipo-imminent-now/"
+    },
+    "dateLabel": "Sept. 2025"
    }
   ]
  },
@@ -319,6 +542,8 @@
   "valuations": [
    {
     "amount": "21 milliards de dollars (post-money)",
+    "value": 21,
+    "currency": "USD",
     "round": "Tour de 1 milliard de dollars mené par 1789 Capital",
     "date": "2026-08-31",
     "status": "presse",
@@ -328,13 +553,40 @@
     }
    },
    {
+    "amount": "15 milliards de dollars",
+    "value": 15,
+    "currency": "USD",
+    "round": "Tour avec D.E. Shaw et G Squared",
+    "date": "2026-04-01",
+    "status": "presse",
+    "source": {
+     "label": "Finance Magnates, 2026",
+     "url": "https://www.financemagnates.com/fintech/polymarket-seeks-valuation-above-20-billion-with-15-billion-round-in-april-went-unreported-until-now/"
+    },
+    "dateLabel": "Avr. 2026"
+   },
+   {
     "amount": "environ 8 milliards de dollars avant l'apport",
+    "value": 8,
+    "currency": "USD",
     "round": "Investissement stratégique d'ICE, jusqu'à 2 milliards de dollars",
     "date": "2025-10-07",
     "status": "officielle",
     "source": {
      "label": "ICE, communiqué du 7 oct. 2025",
      "url": "https://ir.theice.com/press/news-details/2025/ICE-Announces-Strategic-Investment-in-Polymarket/default.aspx"
+    }
+   },
+   {
+    "amount": "1 milliard de dollars",
+    "value": 1,
+    "currency": "USD",
+    "round": "Tour de 200 millions de dollars mené par Founders Fund",
+    "date": "2025-06-24",
+    "status": "presse",
+    "source": {
+     "label": "Bloomberg, 24 juin 2025",
+     "url": "https://www.bloomberg.com/news/articles/2025-06-24/polymarket-is-set-to-raise-funding-at-1-billion-valuation"
     }
    }
   ]
@@ -354,6 +606,8 @@
   "valuations": [
    {
     "amount": "au moins 20 milliards de dollars",
+    "value": 20,
+    "currency": "USD",
     "round": "Série H en discussion",
     "date": "2026-09-14",
     "status": "presse",
@@ -364,6 +618,8 @@
    },
    {
     "amount": "12,7 milliards de dollars",
+    "value": 12.7,
+    "currency": "USD",
     "round": "Série G de 1,5 milliard de dollars, plus 500 millions de Blackstone en actions de préférence",
     "date": "2026-03-26",
     "status": "officielle",
@@ -371,6 +627,19 @@
      "label": "Fortune, 26 mars 2026",
      "url": "https://fortune.com/2026/03/26/shield-ai-revenue-series-g-funding-12-billion-valuation"
     }
+   },
+   {
+    "amount": "5,3 milliards de dollars",
+    "value": 5.3,
+    "currency": "USD",
+    "round": "Série F-1 de 240 millions de dollars",
+    "date": "2025-03-06",
+    "status": "officielle",
+    "source": {
+     "label": "Latham & Watkins, conseil de Shield AI, mars 2025",
+     "url": "https://www.lw.com/en/news/2025/03/latham-watkins-advises-shield-ai-one-of-largest-growth-financing-rounds-defense-tech-space-2025"
+    },
+    "dateLabel": "Mars 2025"
    }
   ]
  },
@@ -388,6 +657,8 @@
   "valuations": [
    {
     "amount": "965 milliards de dollars (post-money)",
+    "value": 965,
+    "currency": "USD",
     "round": "Série H de 65 milliards de dollars",
     "date": "2026-05-28",
     "status": "officielle",
@@ -395,6 +666,45 @@
      "label": "Anthropic, 28 mai 2026",
      "url": "https://www.anthropic.com/news/series-h"
     }
+   },
+   {
+    "amount": "380 milliards de dollars (post-money)",
+    "value": 380,
+    "currency": "USD",
+    "round": "Série G de 30 milliards de dollars",
+    "date": "2026-02-01",
+    "status": "officielle",
+    "source": {
+     "label": "Anthropic, févr. 2026",
+     "url": "https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation"
+    },
+    "dateLabel": "Févr. 2026"
+   },
+   {
+    "amount": "183 milliards de dollars (post-money)",
+    "value": 183,
+    "currency": "USD",
+    "round": "Série F de 13 milliards de dollars",
+    "date": "2025-09-02",
+    "status": "officielle",
+    "source": {
+     "label": "Anthropic, sept. 2025",
+     "url": "https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation"
+    },
+    "dateLabel": "Sept. 2025"
+   },
+   {
+    "amount": "61,5 milliards de dollars (post-money)",
+    "value": 61.5,
+    "currency": "USD",
+    "round": "Série E de 3,5 milliards de dollars",
+    "date": "2025-03-03",
+    "status": "officielle",
+    "source": {
+     "label": "Anthropic, mars 2025",
+     "url": "https://www.anthropic.com/news/anthropic-raises-series-e-at-usd61-5b-post-money-valuation"
+    },
+    "dateLabel": "Mars 2025"
    }
   ]
  }
