@@ -1,5 +1,67 @@
 [
  {
+  "id": "anthropic-2026-10-07-haiku-5-5",
+  "companyId": "anthropic",
+  "date": "2026-10-07",
+  "title": "Anthropic lance Claude Haiku 5.5, son petit modèle le moins cher",
+  "summary": "Anthropic présente Claude Haiku 5.5, son modèle le plus rapide et le moins cher, facturé à partir de 0,10 dollar par million de jetons en entrée.",
+  "detail": "Jusqu'à 100 000 jetons par requête, le tarif est de 0,10 dollar en entrée et 0,50 dollar en sortie par million de jetons. Au-delà, tous les tarifs sont multipliés par cinq. Pour mémoire, Haiku 4.5 coûtait 1 dollar et 5 dollars.\n\nLe modèle est le premier Haiku avec des réglages d'effort. Il est disponible dans Claude.ai, Claude Code, l'API, AWS, Google Cloud et Microsoft Foundry. Anthropic cite des gains chez Box et Ask in Document. Un nouveau tokenizer produit environ 30 % de jetons en plus pour un même texte, ce qui réduit l'économie réelle.",
+  "impact": "Une baisse de prix aussi forte rend Anthropic plus compétitif sur les usages à gros volume (classification, agents secondaires, chat temps réel) et alimente la guerre des prix sur l'IA.",
+  "signal": "optimiste",
+  "rationale": "Le modèle élargit l'offre à bas coût, mais le palier tarifaire à 100 000 jetons et le tokenizer nuancent l'économie annoncée.",
+  "sources": [
+   {
+    "label": "Anthropic, 7 octobre 2026",
+    "url": "https://www.anthropic.com/claude/haiku"
+   },
+   {
+    "label": "Mixed, 8 octobre 2026 (tarifs relevés le 7 octobre)",
+    "url": "https://mixed-news.com/en/claude-haiku-5-5-100000-token-threshold-five-times-pricing/"
+   }
+  ],
+  "addedAt": "2026-10-08T06:22:47Z"
+ },
+ {
+  "id": "kraken-2026-10-07-wells-fargo",
+  "companyId": "kraken",
+  "date": "2026-10-07",
+  "title": "Wells Fargo discuterait avec Payward, maison mère de Kraken, d'un accord de liquidité crypto",
+  "summary": "Payward serait en discussions pour fournir de la liquidité de trading crypto à Wells Fargo, selon CoinDesk. Rien n'est signé.",
+  "detail": "CoinDesk s'appuie sur deux sources proches du dossier. Les termes ne sont pas connus : cryptoactifs concernés, clients autorisés, fonctionnement. Les deux groupes ont refusé de commenter.\n\nC'est la deuxième grande banque américaine citée en une semaine, après BNY. Wells Fargo avait conseillé Nasdaq sur son investissement de 100 millions de dollars dans Payward en septembre. Information publiée le 7 octobre 2026.",
+  "impact": "Un accord ferait de Payward un fournisseur d'accès au marché crypto pour une grande banque et confirmerait son virage vers l'infrastructure B2B.",
+  "signal": "optimiste",
+  "rationale": "Un partenaire bancaire de ce rang validerait l'offre B2B, mais les discussions restent non confirmées.",
+  "sources": [
+   {
+    "label": "CoinDesk, 7 octobre 2026",
+    "url": "https://www.coindesk.com/business/2026/10/05/wells-fargo-in-talks-with-kraken-parent-payward-for-crypto-trading-liquidity"
+   }
+  ],
+  "addedAt": "2026-10-08T06:22:47Z"
+ },
+ {
+  "id": "figure-ai-2026-10-07-nvidia-1-milliard",
+  "companyId": "figure-ai",
+  "date": "2026-10-07",
+  "title": "Nvidia discuterait d'un nouvel investissement d'un milliard de dollars dans Figure",
+  "summary": "Nvidia serait en discussions pour investir environ 1 milliard de dollars de plus dans Figure AI. L'information n'est pas confirmée.",
+  "detail": "Des médias relaient l'information le 7 octobre sans préciser de termes ni de valorisation. Nvidia avait participé à la Série C de plus d'un milliard de dollars de septembre 2025, à 39 milliards de dollars de valorisation.\n\nNvidia fournit déjà le matériel derrière les modèles Helix de Figure. Figure dit manquer surtout de données et de puissance de calcul. Le britannique Nscale doit lui fournir 3,5 milliards de dollars de capacité de calcul, extensible au-delà de 6 milliards.",
+  "impact": "Un tel tour renforcerait les moyens de Figure pour monter en cadence la fabrication de robots humanoïdes et la puissance de calcul.",
+  "signal": "optimiste",
+  "rationale": "Le soutien d'un investisseur déjà au capital est favorable, mais les discussions restent non confirmées et sans montant de valorisation.",
+  "sources": [
+   {
+    "label": "Crypto Briefing, 7 octobre 2026",
+    "url": "https://cryptobriefing.com/nvidia-discusses-1-billion-figure-ai-investment/"
+   },
+   {
+    "label": "The News International, 7 octobre 2026",
+    "url": "https://www.thenews.com.pk/latest/1419084-nvidia-eyes-major-investment-in-figure-ai-robotics-heres-what-to-know"
+   }
+  ],
+  "addedAt": "2026-10-08T06:22:47Z"
+ },
+ {
   "id": "shield-ai-2026-10-06-innovaero",
   "companyId": "shield-ai",
   "date": "2026-10-06",

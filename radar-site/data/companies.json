@@ -187,7 +187,8 @@
     }
    }
   ],
-  "newsQuery": "\"Figure AI\" OR \"Brett Adcock\""
+  "newsQuery": "\"Figure AI\" OR \"Brett Adcock\"",
+  "lastRound": "figure-ai-2026-10-07-nvidia-1-milliard"
  },
  {
   "id": "mistral-ai",
