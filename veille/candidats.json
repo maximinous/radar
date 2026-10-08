@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-10-08T09:01:25Z",
+ "generatedAt": "2026-10-08T19:55:41Z",
  "windowHours": 48,
- "headlinesRead": 594,
+ "headlinesRead": 600,
  "count": 30,
  "companies": [
   {
@@ -9,15 +9,7 @@
    "name": "Together AI",
    "candidates": [
     {
-     "date": "2026-10-06 14:44",
-     "media": "HPCwire",
-     "title": "Clockwork.io Announces $31M in Funding and Deployments at LinkedIn and Together AI",
-     "site": "https://www.hpcwire.com",
-     "overlap": 0.0,
-     "reprises": 0
-    },
-    {
-     "date": "2026-10-07 09:02",
+     "date": "2026-10-07 14:21",
      "media": "Stocktwits",
      "title": "IBM Lands $240M Together AI Deal To Build Nvidia-Powered Neocloud Cluster",
      "site": "https://stocktwits.com",
@@ -36,74 +28,46 @@
      "title": "Mistral AI Unveils 1-Trillion-Parameter Large 4 Model to Challenge US and Chinese AI Rivals",
      "site": "https://www.ibtimes.sg",
      "overlap": 0.38,
-     "reprises": 3
+     "reprises": 5
     },
     {
-     "date": "2026-10-06 11:32",
-     "media": "The News International",
-     "title": "Mistral AI new model beats Chinese competitors in cybersecurity, claims CEO",
-     "site": "https://www.thenews.com.pk",
-     "overlap": 0.29,
-     "reprises": 2
-    },
-    {
-     "date": "2026-10-06 15:28",
-     "media": "L'Usine Digitale",
-     "title": "[IA Insider] Aleph Alpha, Mistral AI, Reflection... Les modèles open-weight occidentaux veulent en découdre avec leurs rivaux chinois",
-     "site": "https://www.usine-digitale.fr",
-     "overlap": 0.08,
+     "date": "2026-10-08 16:25",
+     "media": "Brief IA",
+     "title": "Mistral AI lance ML4 en open-weight, priorité cybersécurité",
+     "site": "https://www.briefia.fr",
+     "overlap": 0.17,
      "reprises": 1
     },
     {
-     "date": "2026-10-06 15:44",
-     "media": "Reuters",
-     "title": "France's Mistral launches AI model it says outperforms some Chinese rivals",
-     "site": "https://www.reuters.com",
-     "overlap": 0.12,
-     "reprises": 1
-    },
-    {
-     "date": "2026-10-06 16:30",
-     "media": "01net.com",
-     "title": "Mistral lance Le Chonk, la nouvelle IA française qui réduit l’écart avec ChatGPT et Claude",
-     "site": "https://www.01net.com",
-     "overlap": 0.12,
-     "reprises": 1
-    },
-    {
-     "date": "2026-10-06 10:34",
-     "media": "https://safariindia.com/",
-     "title": "Aerospace AI Development Strengthens as Airbus Partners With Mistral AI",
-     "site": "https://safariindia.com",
-     "overlap": 0.0,
+     "date": "2026-10-06 19:57",
+     "media": "DW.com",
+     "title": "Mistral: French AI firm announces Le Chonk, a new, private model",
+     "site": "https://www.dw.com",
+     "overlap": 0.33,
      "reprises": 0
-    }
-   ]
-  },
-  {
-   "companyId": "erebor",
-   "name": "Erebor Bank",
-   "candidates": [
+    },
     {
-     "date": "2026-10-06 10:14",
-     "media": "TradingView",
-     "title": "Palmer Luckey’s Erebor surges to more than $7bn in deposits since launch- FT",
-     "site": "https://www.tradingview.com",
+     "date": "2026-10-06 20:01",
+     "media": "news.sbs.co.kr",
+     "title": "France's Mistral Unveils Open-Weight AI Model, Claiming It Outperforms Chinese Competitors",
+     "site": "https://news.sbs.co.kr",
      "overlap": 0.11,
-     "reprises": 1
-    }
-   ]
-  },
-  {
-   "companyId": "apollo-research",
-   "name": "Apollo Research",
-   "candidates": [
+     "reprises": 0
+    },
     {
-     "date": "2026-10-06 16:10",
-     "media": "Crypto Briefing",
-     "title": "Apollo Research wants AI evaluators inside the lab during training, not just at launch",
-     "site": "https://cryptobriefing.com",
-     "overlap": 0,
+     "date": "2026-10-07 07:19",
+     "media": "Afrique IT News",
+     "title": "Le Maroc lance ses propres modèles d’IA en open source avec Mistral AI",
+     "site": "https://afriqueitnews.com",
+     "overlap": 0.17,
+     "reprises": 0
+    },
+    {
+     "date": "2026-10-08 18:34",
+     "media": "Journal du Geek",
+     "title": "Adieu ChatGPT et Claude : Mistral n’est plus qu’à quelques mois des géants américains, d’après son CEO",
+     "site": "https://www.journaldugeek.com",
+     "overlap": 0.18,
      "reprises": 0
     }
    ]
@@ -113,27 +77,27 @@
    "name": "Stripe",
    "candidates": [
     {
-     "date": "2026-10-06 13:35",
-     "media": "Yahoo Finance",
-     "title": "Stripe Expands Stablecoin Cards To More Than 100 Countries",
-     "site": "https://finance.yahoo.com",
-     "overlap": 0.0,
-     "reprises": 0
-    },
-    {
-     "date": "2026-10-06 19:14",
-     "media": "timesdaily.com",
-     "title": "The Truth About Buy Verified Stripe Accounts in 2026",
-     "site": "https://www.timesdaily.com",
-     "overlap": 0.17,
-     "reprises": 0
-    },
-    {
      "date": "2026-10-07 14:34",
      "media": "Digital Transactions",
      "title": "Stripe Enters a Data Deal With Federal Express",
      "site": "https://www.digitaltransactions.net",
      "overlap": 0.2,
+     "reprises": 0
+    },
+    {
+     "date": "2026-10-08 08:06",
+     "media": "openPR.com",
+     "title": "Crypto News: Stripe Expands Stablecoin Cards to 100 Countries as Remittix Tests Crypto-to-Bank Payments",
+     "site": "https://www.openpr.com",
+     "overlap": 0.18,
+     "reprises": 0
+    },
+    {
+     "date": "2026-10-08 12:43",
+     "media": "timesdaily.com",
+     "title": "Secure and Trusted Ways to Buy Verified Stripe Accounts ...",
+     "site": "https://www.timesdaily.com",
+     "overlap": 0.0,
      "reprises": 0
     }
    ]
@@ -143,27 +107,19 @@
    "name": "Kraken",
    "candidates": [
     {
-     "date": "2026-10-07 08:32",
-     "media": "Altcoin Buzz",
-     "title": "Kraken Co-CEO Says Crypto’s New Wave Is Tied to AI and Tokenized Equities",
-     "site": "https://www.altcoinbuzz.io",
-     "overlap": 0.14,
-     "reprises": 1
-    },
-    {
-     "date": "2026-10-07 02:33",
-     "media": "TOKENPOST",
-     "title": "Payward Lists 6.6 Million Funded Kraken Accounts as Platform Expands",
-     "site": "https://www.tokenpost.com",
-     "overlap": 0.29,
-     "reprises": 0
-    },
-    {
      "date": "2026-10-07 02:36",
      "media": "Crypto Briefing",
      "title": "Kraken co-CEO Arjun Sethi says the exchange has about 7 million funded accounts",
      "site": "https://cryptobriefing.com",
      "overlap": 0.1,
+     "reprises": 0
+    },
+    {
+     "date": "2026-10-07 08:32",
+     "media": "Altcoin Buzz",
+     "title": "Kraken Co-CEO Says Crypto’s New Wave Is Tied to AI and Tokenized Equities",
+     "site": "https://www.altcoinbuzz.io",
+     "overlap": 0.14,
      "reprises": 0
     },
     {
@@ -175,11 +131,19 @@
      "reprises": 0
     },
     {
-     "date": "2026-10-08 07:55",
+     "date": "2026-10-08 07:51",
      "media": "Bitcoin Sistemi",
      "title": "US Giant Bank in Talks with Kraken: Liquidity Agreement for Crypto Transactions May Be On the Way! Here Are the Details",
      "site": "https://en.bitcoinsistemi.com",
      "overlap": 0.25,
+     "reprises": 0
+    },
+    {
+     "date": "2026-10-08 19:03",
+     "media": "Traders Union",
+     "title": "Kraken Exchange introduces trader challenge offering funding and profit sharing",
+     "site": "https://tradersunion.com",
+     "overlap": 0.0,
      "reprises": 0
     }
    ]
@@ -189,51 +153,81 @@
    "name": "Polymarket",
    "candidates": [
     {
-     "date": "2026-10-06 16:20",
-     "media": "Benzinga France",
-     "title": "L’accord de LeBron avec Polymarket soulève des questions pour la NBA",
-     "site": "https://fr.benzinga.com",
-     "overlap": 0.0,
-     "reprises": 1
-    },
-    {
-     "date": "2026-10-07 13:01",
-     "media": "bloomingbit",
-     "title": "Polymarket CEO Says Chasing 100x Crypto Returns Is Like a 'Hot Potato' Game",
-     "site": "https://en.bloomingbit.io",
-     "overlap": 0.1,
-     "reprises": 1
-    },
-    {
-     "date": "2026-10-06 10:50",
-     "media": "Coinfomania",
-     "title": "Polymarket lance son protocole V2 avec des objectifs ambitieux",
-     "site": "https://coinfomania.com",
-     "overlap": 0.25,
-     "reprises": 0
-    },
-    {
-     "date": "2026-10-06 11:56",
-     "media": "Yellow.com",
-     "title": "LeBron James décroche un contrat Polymarket à 15 M$ par an après 270 M$ échangés sur son avenir",
-     "site": "https://yellow.com",
-     "overlap": 0.25,
-     "reprises": 0
-    },
-    {
-     "date": "2026-10-06 17:01",
-     "media": "The Root",
-     "title": "Why LeBron James’ $15 Million Polymarket Partnership Is Under Fire",
-     "site": "https://www.theroot.com",
-     "overlap": 0.0,
-     "reprises": 0
-    },
-    {
      "date": "2026-10-06 22:43",
      "media": "Time Magazine",
      "title": "Digger Box Office: Polymarket Predicted Tom Cruise's Flop",
      "site": "https://time.com",
      "overlap": 0.14,
+     "reprises": 0
+    },
+    {
+     "date": "2026-10-08 01:59",
+     "media": "Syracuse.com",
+     "title": "Polymarket launches $25 promo code “CUSE” for Rays-Yankees live odds",
+     "site": "https://www.syracuse.com",
+     "overlap": 0.12,
+     "reprises": 0
+    },
+    {
+     "date": "2026-10-08 03:41",
+     "media": "CoinMarketCap",
+     "title": "Coinbase Notifies Users of CFTC Subpoena Related to Polymarket Investigation",
+     "site": "https://coinmarketcap.com",
+     "overlap": 0.0,
+     "reprises": 0
+    },
+    {
+     "date": "2026-10-08 07:06",
+     "media": "UnHerd",
+     "title": "LeBron James Polymarket deal points to a dark sporting future",
+     "site": "https://unherd.com",
+     "overlap": 0.0,
+     "reprises": 0
+    },
+    {
+     "date": "2026-10-08 13:45",
+     "media": "Syracuse.com",
+     "title": "NFL Polymarket referral code “CUSE” launches $25 Buccaneers-Cowboys bonus",
+     "site": "https://www.syracuse.com",
+     "overlap": 0.12,
+     "reprises": 0
+    }
+   ]
+  },
+  {
+   "companyId": "shield-ai",
+   "name": "Shield AI",
+   "candidates": [
+    {
+     "date": "2026-10-08 13:20",
+     "media": "Shield AI",
+     "title": "Shield AI and GEK TERNA sign strategic agreement to jointly pursue the development of an X-BAT sustainment and industrial base in Greece – Shield AI",
+     "site": "https://shield.ai",
+     "overlap": 0.0,
+     "reprises": 0
+    },
+    {
+     "date": "2026-10-08 14:32",
+     "media": "GeekWire",
+     "title": "Shield AI lands $150M Navy contract to advance AI-piloted fighter jet that will be built south of Seattle",
+     "site": "https://www.geekwire.com",
+     "overlap": 0.08,
+     "reprises": 0
+    },
+    {
+     "date": "2026-10-08 15:48",
+     "media": "TipRanks",
+     "title": "Shield AI and U.S. Navy Double Down on X-BAT with $300 Million in New Funding",
+     "site": "https://www.tipranks.com",
+     "overlap": 0.0,
+     "reprises": 0
+    },
+    {
+     "date": "2026-10-08 17:57",
+     "media": "citybiz",
+     "title": "Shield AI Secures $400M in Government and Private Funding for X-BAT Fighter Program",
+     "site": "https://www.citybiz.co",
+     "overlap": 0.0,
      "reprises": 0
     }
    ]
@@ -243,51 +237,51 @@
    "name": "Anthropic",
    "candidates": [
     {
+     "date": "2026-10-08 13:42",
+     "media": "Unite.AI",
+     "title": "Multi-Year Anthropic Deal Makes Hexaware a Claude Preferred Partner",
+     "site": "https://www.unite.ai",
+     "overlap": 0.25,
+     "reprises": 3
+    },
+    {
      "date": "2026-10-08 08:34",
      "media": "The Indian Express",
      "title": "Anthropic unveils Haiku 5.5, its third AI model in a month ahead of planned IPO",
      "site": "https://indianexpress.com",
      "overlap": 0.25,
-     "reprises": 7
+     "reprises": 2
     },
     {
-     "date": "2026-10-08 08:27",
-     "media": "Gadgets 360",
-     "title": "Anthropic Launches Claude Haiku 5.5 as Faster, Cheaper Model for High-Volume AI Tasks",
-     "site": "https://www.gadgets360.com",
-     "overlap": 0.33,
-     "reprises": 6
+     "date": "2026-10-08 13:46",
+     "media": "Moneycontrol.com",
+     "title": "Anthropic IPO investors struggle to put a price on rogue AI risk",
+     "site": "https://www.moneycontrol.com",
+     "overlap": 0.14,
+     "reprises": 2
     },
     {
-     "date": "2026-10-06 17:30",
-     "media": "Cryptopolitan",
-     "title": "Le dépôt de dossier d'IPO d'Anthropic fixe la rémunération de Dario Amodei en 2025 à 18 millions de dollars",
-     "site": "https://www.cryptopolitan.com",
-     "overlap": 0.2,
+     "date": "2026-10-08 10:44",
+     "media": "Coinpedia Fintech News",
+     "title": "Anthropic IPO: Research Firm Values AI Company At $150 Billion, Calls Offering ‘Most Ridiculous Of 2026’",
+     "site": "https://coinpedia.org",
+     "overlap": 0.08,
      "reprises": 1
     },
     {
-     "date": "2026-10-06 21:12",
-     "media": "New York Post",
-     "title": "Here’s how much Anthropic CEO Dario Amodei and his sister made last year",
-     "site": "https://nypost.com",
-     "overlap": 0.0,
+     "date": "2026-10-08 16:03",
+     "media": "AIBase",
+     "title": "AI Daily: Anthropic Launches Claude Haiku 5.5; WorkBuddy Launches Independent File Browser; Muse Now Available on iPad",
+     "site": "https://news.aibase.com",
+     "overlap": 0.17,
      "reprises": 1
     },
     {
-     "date": "2026-10-07 18:08",
-     "media": "VentureBeat",
-     "title": "Anthropic launches Claude Haiku 5.5 with 90% API price reduction, matching GPT-6 Luna",
-     "site": "https://venturebeat.com",
-     "overlap": 0.33,
-     "reprises": 1
-    },
-    {
-     "date": "2026-10-07 20:28",
-     "media": "Yahoo Finance Singapore",
-     "title": "Anthropic expands AI model suite with low-cost, high-speed Haiku 5.5 launch",
-     "site": "https://sg.finance.yahoo.com",
-     "overlap": 0.22,
+     "date": "2026-10-08 19:42",
+     "media": "CoinGape",
+     "title": "Anthropic Backs U.S. Genesis Mission With $150 Million to Expand Claude AI",
+     "site": "https://coingape.com",
+     "overlap": 0.29,
      "reprises": 1
     }
    ]
