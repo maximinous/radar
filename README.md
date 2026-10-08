@@ -40,7 +40,7 @@ Après une modification de `app.js` ou `theme.js`, changer le paramètre `?v=` d
 
 Pages de partage : `scripts/build_share.py` génère `radar-site/a/<id>.html` (articles) et `radar-site/s/<id>.html` (sociétés). Elles portent titre, résumé et signal dans leurs balises Open Graph (aperçu WhatsApp, LinkedIn, e-mail, image `radar-site/og/radar.png`) et redirigent vers le Radar. Le bouton « Copier le lien » donne ces adresses. Elles sont régénérées par `.github/workflows/veille-partage.yml` (poussée sur main) et par la fusion automatique.
 
-Contrôle de couverture : `.github/workflows/veille-couverture.yml` lance chaque soir de semaine (19h45 UTC) `scripts/coverage.py 24`, qui lit les titres Google News (requêtes `newsQuery` de `companies.json`), garde ceux qui ressemblent à un événement et qu'aucun article ne couvre, et écrit `veille/candidats.md` et `veille/candidats.json`. Le passage du lendemain matin examine chaque piste.
+Contrôle de couverture : `.github/workflows/veille-couverture.yml` lance chaque soir de semaine (19h45 UTC) `scripts/coverage.py 48`, qui lit les titres Google News (requêtes `newsQuery` de `companies.json`), garde ceux qui ressemblent à un événement et qu'aucun article ne couvre, et écrit `veille/candidats.md` et `veille/candidats.json`. Le passage du lendemain matin examine chaque piste.
 
 La semaine du Radar : `#semaine` (semaine en cours) ou `#semaine/<lundi AAAA-MM-JJ>`, calculée dans la page à partir des articles et des valorisations ; export PDF.
 

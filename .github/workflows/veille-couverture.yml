@@ -1,4 +1,4 @@
-# Contrôle de couverture du soir : liste les titres Google News des dernières 24 h qui ressemblent à un événement
+# Contrôle de couverture du soir : liste les titres Google News des dernières 48 h qui ressemblent à un événement
 # mais qu'aucun article du Radar ne couvre (scripts/coverage.py). Le passage du lendemain matin examine chaque piste.
 name: Veille - contrôle de couverture
 
@@ -27,7 +27,7 @@ jobs:
           set -eu
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          python3 scripts/coverage.py 24 | tee -a "$GITHUB_STEP_SUMMARY"
+          python3 scripts/coverage.py 48 | tee -a "$GITHUB_STEP_SUMMARY"
           cat veille/candidats.md >> "$GITHUB_STEP_SUMMARY"
           git add veille
           git diff --cached --quiet && exit 0
