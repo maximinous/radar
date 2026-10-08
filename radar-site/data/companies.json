@@ -384,14 +384,14 @@
   "metrics": [
    {
     "label": "Dépôts",
-    "value": "4,6 milliards de dollars fin juillet 2026, contre 1,1 milliard fin mars",
-    "date": "2026-08-12",
+    "value": "plus de 7 milliards de dollars début octobre 2026 selon le FT, contre 4,06 milliards au 30 juin",
+    "date": "2026-10-06",
     "status": "presse",
     "source": {
-     "label": "Sacra, profil Erebor",
-     "url": "https://sacra.com/c/erebor/"
+     "label": "Cryptopolitan, d'après le Financial Times, 7 oct. 2026",
+     "url": "https://www.cryptopolitan.com/erebor-rebuilds-crypto-banking-on-7-billion-in-deposits-lends-only-78-million/"
     },
-    "articleId": "erebor-2026-08-12-depots"
+    "articleId": "erebor-2026-10-06-depots-7-milliards"
    },
    {
     "label": "Revenu annualisé estimé",
