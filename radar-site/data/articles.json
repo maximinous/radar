@@ -124,6 +124,42 @@
   "addedAt": "2026-10-09T06:26:32Z"
  },
  {
+  "id": "perplexity-2026-10-07-hp-pc-grand-public",
+  "companyId": "perplexity",
+  "date": "2026-10-07",
+  "title": "HP annonce Perplexity Computer sur des PC grand public dès novembre",
+  "summary": "HP intègre Perplexity Computer à une sélection de PC grand public, avec un mois de Perplexity Pro offert, à partir de novembre.",
+  "detail": "L'annonce a eu lieu le 7 octobre avec la gamme de PC à puce Nvidia RTX Spark, dont les ventes débutent le 16 octobre. Les modèles précis et la date exacte de novembre n'ont pas été donnés.",
+  "impact": "Distribution directe par un grand constructeur de PC, qui expose Perplexity à de nombreux utilisateurs dès l'achat de la machine.",
+  "signal": "optimiste",
+  "rationale": "Une préinstallation sur des PC d'un grand constructeur élargit fortement l'audience potentielle.",
+  "sources": [
+   {
+    "label": "Goldesel, 7 oct. 2026",
+    "url": "https://goldesel.de/aktien/news/hp-aktie-neue-ki-pcs-und-zgx-fury-starten-ab-16-oktober"
+   }
+  ],
+  "addedAt": "2026-10-09T13:07:43Z"
+ },
+ {
+  "id": "perplexity-2026-10-07-pplx-embed-v2-late",
+  "companyId": "perplexity",
+  "date": "2026-10-07",
+  "title": "Perplexity publie pplx-embed-v2-late, deux modèles de recherche ouverts",
+  "summary": "Deux modèles d'embedding à poids ouverts (0,6 et 9 milliards de paramètres) gèrent texte, images et PDF.",
+  "detail": "Disponibles sur Hugging Face, ils reposent sur une architecture d'interaction tardive de type ColBERT, distillée depuis un modèle de 18 milliards de paramètres. Les performances annoncées, par exemple 81,3 % de nDCG@10 moyen pour le 9B sur certaines tâches, n'ont pas été vérifiées de façon indépendante.",
+  "impact": "Renforce la présence de Perplexity dans l'écosystème ouvert de la recherche et de la récupération d'information.",
+  "signal": "neutre",
+  "rationale": "Sortie technique utile, sans effet commercial direct à ce stade.",
+  "sources": [
+   {
+    "label": "Crypto Briefing, 7 oct. 2026",
+    "url": "https://cryptobriefing.com/perplexity-pplx-embed-v2-late-multimodal-models/"
+   }
+  ],
+  "addedAt": "2026-10-09T13:07:43Z"
+ },
+ {
   "id": "anthropic-2026-10-07-haiku-5-5",
   "companyId": "anthropic",
   "date": "2026-10-07",
@@ -482,6 +518,24 @@
    }
   ],
   "addedAt": "2026-10-02T06:20:37Z"
+ },
+ {
+  "id": "perplexity-2026-10-01-american-express",
+  "companyId": "perplexity",
+  "date": "2026-10-01",
+  "title": "Perplexity et American Express lancent dix « Skills » métier pour les titulaires de cartes Business",
+  "summary": "Les clients américains des cartes Amex Business accèdent à dix workflows prêts à l'emploi dans Perplexity Computer, avec des offres promotionnelles.",
+  "detail": "Les Skills couvrent par exemple les prévisions de trésorerie, la préparation fiscale ou le recrutement. Ils exigent un abonnement Perplexity Enterprise Pro (40 dollars par mois) ou Max (325 dollars par mois) et la liaison de la carte. Une offre de 125 dollars de crédit et 1 000 crédits Computer court jusqu'au 29 mars 2027.",
+  "impact": "Accès à la base de clients professionnels d'Amex et un nouveau canal de vente pour l'offre Enterprise de Perplexity.",
+  "signal": "optimiste",
+  "rationale": "Un partenariat de distribution avec un grand émetteur de cartes soutient l'adoption en entreprise.",
+  "sources": [
+   {
+    "label": "Upgraded Points, 1er oct. 2026",
+    "url": "https://upgradedpoints.com/news/amex-business-cards-perplexity-ai-benefits/"
+   }
+  ],
+  "addedAt": "2026-10-09T13:07:43Z"
  },
  {
   "id": "mistral-ai-2026-10-01-canada",
@@ -1110,6 +1164,28 @@
    }
   ],
   "addedAt": "2026-09-30T15:46:23Z"
+ },
+ {
+  "id": "perplexity-2026-09-25-davoice-proces",
+  "companyId": "perplexity",
+  "date": "2026-09-25",
+  "title": "La startup suisse DaVoice poursuit Perplexity pour vol présumé de secrets commerciaux sur la détection de mot d'activation",
+  "summary": "DaVoice accuse Perplexity d'avoir détourné sa technologie de « wake word » après une collaboration entre les deux sociétés.",
+  "detail": "La plainte, déposée le 24 septembre devant le tribunal fédéral du nord de la Californie (n° 3:26-cv-10909), invoque le détournement de secrets commerciaux, la rupture de contrat et l'inducement frauduleux. DaVoice réclame des dommages et des redevances. Perplexity juge la plainte infondée et dit que l'accord lui laissait le droit de développer des produits concurrents. Le dossier est très caviardé et les accusations ne sont pas jugées.",
+  "impact": "Nouveau litige pour Perplexity, qui touche la fonction vocale « Hey Plex » de ses intégrations sur smartphones, avec un risque de dommages et de réputation.",
+  "signal": "prudent",
+  "rationale": "Un procès pour secrets commerciaux est un risque juridique réel, même si les faits ne sont pas établis.",
+  "sources": [
+   {
+    "label": "Runtime Wire, 25 sept. 2026, d'après Reuters",
+    "url": "https://runtimewire.com/article/davoice-sues-perplexity-wake-word-trade-secrets"
+   },
+   {
+    "label": "Courthouse News, sept. 2026",
+    "url": "https://courthousenews.com/swiss-startup-accuses-perplexity-ai-of-stealing-passive-listening-tech/"
+   }
+  ],
+  "addedAt": "2026-10-09T13:07:43Z"
  },
  {
   "id": "lovable-2026-09-25-microsoft-copilot-runtime",
@@ -2188,6 +2264,24 @@
   "title": "Mistral alimente la fenêtre IA de Firefox en France"
  },
  {
+  "id": "perplexity-2026-09-15-crusoe",
+  "companyId": "perplexity",
+  "date": "2026-09-15",
+  "title": "Perplexity signe un partenariat pluriannuel avec Crusoe pour entraîner et servir ses modèles",
+  "summary": "Crusoe fournira à Perplexity des clusters Nvidia GB300 pour l'entraînement et l'inférence, dans un accord de plusieurs années dont le montant n'est pas public.",
+  "detail": "Selon la presse, l'accord couvre l'ensemble du cycle de vie des modèles, avec une maintenance du matériel assurée par Crusoe. En échange, Crusoe déploie l'offre Enterprise Max de Perplexity auprès de ses plus de 1 800 salariés. Les termes financiers et la capacité électrique allouée n'ont pas été révélés.",
+  "impact": "Perplexity sécurise de la puissance de calcul de dernière génération pour entraîner ses propres modèles, au moment où ses agents et ses usages locaux se développent.",
+  "signal": "optimiste",
+  "rationale": "Un accès pluriannuel à des GPU GB300 réduit le risque de pénurie de calcul pour Perplexity.",
+  "sources": [
+   {
+    "label": "Blockonomi, 15 sept. 2026",
+    "url": "https://blockonomi.com/perplexity-ai-partners-with-crusoe-for-nvidia-nvda-gb300-chip-access-in-major-cloud-agreement/"
+   }
+  ],
+  "addedAt": "2026-10-09T13:07:43Z"
+ },
+ {
   "id": "kraken-2026-09-15-x-cashtags",
   "companyId": "kraken",
   "date": "2026-09-15",
@@ -2338,6 +2432,24 @@
   ],
   "summary": "Des sociétés de trading exploitaient la conversion sans frais des stablecoins en dollars. La banque a durci ses conditions.",
   "title": "Erebor restreint la conversion gratuite de stablecoins après des arbitrages"
+ },
+ {
+  "id": "perplexity-2026-09-14-portable-computer-windows",
+  "companyId": "perplexity",
+  "date": "2026-09-14",
+  "title": "Perplexity lance Portable Computer sur Windows, un agent qui tourne en local sur GPU Nvidia RTX",
+  "summary": "Le pendant local de l'agent Perplexity Computer est disponible dans l'application Windows, sur PC équipés d'une carte RTX avec au moins 24 Go de mémoire.",
+  "detail": "L'agent fait tourner en local un modèle de 27 milliards de paramètres post-entraîné par Perplexity (Qwen 3.8 27B selon Nvidia). Le travail effectué en local ne consomme pas de crédits Perplexity Computer, et l'agent demande l'accord de l'utilisateur avant d'envoyer des données vers des modèles cloud. Des connecteurs comme Outlook, OneDrive, Google Drive, Gmail, Slack et GitHub sont inclus.",
+  "impact": "Perplexity étend son agent à la grande base de PC Windows haut de gamme et s'appuie sur l'écosystème Nvidia pour se différencier du cloud pur.",
+  "signal": "optimiste",
+  "rationale": "Nouveau canal de distribution pour l'agent, avec un partenaire de poids, même si le matériel requis reste cher.",
+  "sources": [
+   {
+    "label": "Blog Nvidia, 14 sept. 2026",
+    "url": "https://blogs.nvidia.com/?p=98202"
+   }
+  ],
+  "addedAt": "2026-10-09T13:07:43Z"
  },
  {
   "id": "shield-ai-2026-09-14-valorisation-20-milliards",
