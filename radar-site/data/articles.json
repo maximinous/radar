@@ -840,6 +840,28 @@
   "addedAt": "2026-09-30T15:46:23Z"
  },
  {
+  "id": "perplexity-2026-09-29-amd-ryzen-ai-max",
+  "companyId": "perplexity",
+  "date": "2026-09-29",
+  "title": "Portable Computer, l'agent local de Perplexity, arrive sur les PC AMD Ryzen AI Max",
+  "summary": "Après les PC équipés de cartes Nvidia RTX, l'agent local de Perplexity fonctionne aussi sur les PC Windows dotés des processeurs Ryzen AI Max d'AMD.",
+  "detail": "L'accès se fait par l'application Windows de Perplexity, pour les abonnés Pro et Max, en offre individuelle comme entreprise. La plateforme de développement Ryzen AI Halo d'AMD est aussi prise en charge.\n\nSelon AMD, les traitements locaux permettent d'analyser des fichiers sensibles sans les envoyer dans le cloud et ne consomment pas de crédits Perplexity Computer. Des contrôles pour les équipes informatiques (droits par dossier, bac à sable) sont inclus.",
+  "impact": "Perplexity ne dépend plus d'un seul fabricant de puces pour son agent local et élargit la base de PC compatibles, quinze jours après le lancement sur Nvidia.",
+  "signal": "optimiste",
+  "rationale": "Deuxième grand partenaire matériel en deux semaines pour le même produit.",
+  "sources": [
+   {
+    "label": "IT Brief UK, 29 sept. 2026",
+    "url": "https://itbrief.co.uk/story/amd-perplexity-bring-local-ai-to-ryzen-windows-pcs"
+   },
+   {
+    "label": "Digital Terminal, sept. 2026",
+    "url": "https://digitalterminal.in/device/amd-ryzen-ai-max-series-pcs-now-support-perplexitys-portable-computer-for-local-ai-workflows"
+   }
+  ],
+  "addedAt": "2026-10-09T13:49:22Z"
+ },
+ {
   "id": "mistral-ai-2026-09-29-maif",
   "companyId": "mistral-ai",
   "date": "2026-09-29",
@@ -1270,6 +1292,28 @@
    }
   ],
   "addedAt": "2026-09-25T10:42:09Z"
+ },
+ {
+  "id": "perplexity-2026-09-24-fast-search",
+  "companyId": "perplexity",
+  "date": "2026-09-24",
+  "title": "Perplexity lance Fast Search, un mode de recherche plus rapide et moins cher pour son API",
+  "summary": "Le nouveau mode de l'API de recherche de Perplexity, pensé pour les agents IA, coûte 1 dollar pour 1 000 requêtes.",
+  "detail": "Le mode s'active par un paramètre de l'API de recherche ou de l'outil de recherche web de l'API Agent. Selon la documentation de Perplexity, le prix de cet outil passe de 2,50 à 1 dollar pour 1 000 appels, avec une recherche environ 800 millisecondes plus rapide.\n\nSelon une reprise de l'annonce, 95 % des résultats arrivent en 230 millisecondes ou moins, grâce à un nouveau moteur de classement écrit en Rust, baptisé Photon. La qualité serait légèrement inférieure à celle de la recherche standard. En octobre, Perplexity a étendu Fast Search à la plupart des préréglages de son API Agent.",
+  "impact": "Perplexity baisse fortement le coût de sa recherche pour les développeurs d'agents, un marché où elle affronte les API de Google et des autres laboratoires.",
+  "signal": "optimiste",
+  "rationale": "Baisse de prix importante et gain de vitesse sur un produit destiné aux entreprises.",
+  "sources": [
+   {
+    "label": "Documentation Perplexity, journal des modifications, sept. 2026",
+    "url": "https://docs.perplexity.ai/changelog"
+   },
+   {
+    "label": "Pasquale Pillitteri, 24 sept. 2026",
+    "url": "https://pasqualepillitteri.it/en/news/18225/perplexity-fast-search-photon-rust-engine-en"
+   }
+  ],
+  "addedAt": "2026-10-09T13:49:22Z"
  },
  {
   "id": "anthropic-2026-09-24-akamai-cloud",
