@@ -30,10 +30,10 @@ def toks(s): return {w[:5] for w in re.findall(r"[a-z0-9]+", fold(s)) if len(w) 
 JUNK = re.compile(r"how to (buy|invest)|comment (acheter|investir)|investir dans|investing in|pre-?ipo shares|stock price|share price|"
     r"\bbest\b.*\b(services|tools|alternatives)\b|\btop \d+|alternatives? to|vs\.? |review\b|prediction:|price prediction", re.I)
 
-def feed(query):
+def feed(queries):
     out = []
-    for hl, gl, ceid in (('fr', 'FR', 'FR:fr'), ('en-US', 'US', 'US:en')):
-        q = urllib.parse.quote(f'{query} when:2d')
+    for query, (hl, gl, ceid) in [(q, l) for q in queries for l in (('fr', 'FR', 'FR:fr'), ('en-US', 'US', 'US:en'))]:
+        q = urllib.parse.quote(f'{query} when:{max(1, -(-HOURS // 24))}d')
         url = f'https://news.google.com/rss/search?q={q}&hl={hl}&gl={gl}&ceid={ceid}'
         try: xml = urllib.request.urlopen(urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'}), timeout=20).read().decode('utf-8', 'replace')
         except Exception as e: print(f'# {query} ({hl}) indisponible : {e}', file=sys.stderr); continue
@@ -58,11 +58,12 @@ for c in cos:
     known = [(toks(' '.join([a['title'], a.get('summary', ''), a.get('detail', '')]) + ' ' + ' '.join(s.get('label', '') + ' ' + s.get('url', '') for s in a.get('sources', []))), a) for a in mine]
     hosts = {urllib.parse.urlparse(s.get('url', '')).netloc.replace('www.', '') for a in mine for s in a.get('sources', [])}
     # Le titre doit nommer la société (nom, termes entre guillemets de la requête, ou premier mot du nom s'il est distinctif).
-    alias = {fold(x) for x in re.findall(r'"([^"]+)"', c['newsQuery'])} | {fold(c['name'])}
+    alias = {fold(x) for q in [c['newsQuery']] + list(c.get('newsQueriesExtra', [])) for x in re.findall(r'"([^"]+)"', q)} | {fold(c['name'])}
     first = fold(c['name']).split()[0]
     if len(first) >= 6 and first not in {'together', 'figure', 'shield', 'apollo', 'prometheus'}: alias.add(first)
     cands = []
-    for it in sorted(feed(c['newsQuery']), key=lambda x: x['date'], reverse=True):
+    queries = [c['newsQuery']] + list(c.get('newsQueriesExtra', []))
+    for it in sorted(feed(queries), key=lambda x: x['date'], reverse=True):
         total += 1
         if it['date'] < since or not EVENT.search(it['title']) or JUNK.search(it['title']): continue
         if not any(re.search(r'\b' + re.escape(x) + r'\b', fold(it['title'])) for x in alias): continue

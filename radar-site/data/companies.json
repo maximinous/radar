@@ -48,7 +48,12 @@
     }
    }
   ],
-  "newsQuery": "\"Prometheus\" (Bezos OR Bajaj)"
+  "newsQuery": "\"Prometheus\" (Bezos OR Bajaj)",
+  "newsQueriesExtra": [
+   "\"Project Prometheus\"",
+   "\"Prometheus\" Bezos",
+   "\"Vik Bajaj\""
+  ]
  },
  {
   "id": "together-ai",
@@ -124,7 +129,11 @@
     }
    }
   ],
-  "newsQuery": "\"Together AI\""
+  "newsQuery": "\"Together AI\"",
+  "newsQueriesExtra": [
+   "\"Vipul Ved Prakash\"",
+   "\"Together.ai\""
+  ]
  },
  {
   "id": "figure-ai",
@@ -188,7 +197,11 @@
    }
   ],
   "newsQuery": "\"Figure AI\" OR \"Brett Adcock\"",
-  "lastRound": "figure-ai-2026-10-07-nvidia-1-milliard"
+  "lastRound": "figure-ai-2026-10-07-nvidia-1-milliard",
+  "newsQueriesExtra": [
+   "\"Figure 03\" robot",
+   "\"Figure AI\" humanoïde"
+  ]
  },
  {
   "id": "mistral-ai",
@@ -264,7 +277,12 @@
     }
    }
   ],
-  "newsQuery": "\"Mistral AI\" OR \"Arthur Mensch\" OR (Mistral (IA OR AI OR LLM OR modèle OR model OR startup OR française OR French))"
+  "newsQuery": "\"Mistral AI\" OR \"Arthur Mensch\" OR (Mistral (IA OR AI OR LLM OR modèle OR model OR startup OR française OR French))",
+  "newsQueriesExtra": [
+   "\"Mistral\" IA",
+   "\"Mistral\" AI startup",
+   "\"Le Chat\" Mistral"
+  ]
  },
  {
   "id": "deel",
@@ -328,7 +346,12 @@
     }
    }
   ],
-  "newsQuery": "\"Deel\" (payroll OR \"Alex Bouaziz\" OR Rippling OR \"Employer of Record\")"
+  "newsQuery": "\"Deel\" (payroll OR \"Alex Bouaziz\" OR Rippling OR \"Employer of Record\")",
+  "newsQueriesExtra": [
+   "\"Alex Bouaziz\"",
+   "\"Deel\" IPO",
+   "\"Deel\" startup"
+  ]
  },
  {
   "id": "erebor",
@@ -426,7 +449,11 @@
     }
    }
   ],
-  "newsQuery": "\"Erebor\" (bank OR banque OR Luckey)"
+  "newsQuery": "\"Erebor\" (bank OR banque OR Luckey)",
+  "newsQueriesExtra": [
+   "\"Erebor\" deposits",
+   "\"Erebor\" Luckey"
+  ]
  },
  {
   "id": "apollo-research",
@@ -440,7 +467,10 @@
   "sector": "Sécurité de l'IA",
   "website": "https://www.apolloresearch.ai/",
   "valuationNote": "Aucune valorisation publique connue.",
-  "newsQuery": "\"Apollo Research\""
+  "newsQuery": "\"Apollo Research\"",
+  "newsQueriesExtra": [
+   "\"Marius Hobbhahn\""
+  ]
  },
  {
   "id": "neura-robotics",
@@ -481,7 +511,12 @@
     "articleId": "neura-2026-06-10-serie-c"
    }
   ],
-  "newsQuery": "\"Neura Robotics\""
+  "newsQuery": "\"Neura Robotics\"",
+  "newsQueriesExtra": [
+   "\"David Reger\"",
+   "\"NEURA\" robot humanoïde",
+   "\"4NE1\" robot"
+  ]
  },
  {
   "id": "stripe",
@@ -592,7 +627,14 @@
     }
    }
   ],
-  "newsQuery": "\"Stripe\" (paiement OR payments OR Collison)"
+  "newsQuery": "\"Stripe\" (paiement OR payments OR Collison)",
+  "newsQueriesExtra": [
+   "\"Stripe\" stablecoin",
+   "\"Stripe\" acquires",
+   "\"Stripe\" rachète",
+   "\"Patrick Collison\" OR \"John Collison\"",
+   "\"Stripe\" Tempo blockchain"
+  ]
  },
  {
   "id": "starcloud",
@@ -653,7 +695,11 @@
     }
    }
   ],
-  "newsQuery": "\"Starcloud\""
+  "newsQuery": "\"Starcloud\"",
+  "newsQueriesExtra": [
+   "\"Philip Johnston\" Starcloud",
+   "orbital data center Starcloud"
+  ]
  },
  {
   "id": "lovable",
@@ -727,7 +773,10 @@
     }
    }
   ],
-  "newsQuery": "\"Lovable\" (Osika OR \"vibe coding\" OR AI)"
+  "newsQuery": "\"Lovable\" (Osika OR \"vibe coding\" OR AI)",
+  "newsQueriesExtra": [
+   "\"Anton Osika\""
+  ]
  },
  {
   "id": "kraken",
@@ -813,7 +862,12 @@
     }
    }
   ],
-  "newsQuery": "\"Kraken\" (crypto OR exchange OR Payward)"
+  "newsQuery": "\"Kraken\" (crypto OR exchange OR Payward)",
+  "newsQueriesExtra": [
+   "\"Payward\"",
+   "\"Kraken\" IPO",
+   "\"Arjun Sethi\""
+  ]
  },
  {
   "id": "polymarket",
@@ -890,7 +944,10 @@
     }
    }
   ],
-  "newsQuery": "\"Polymarket\""
+  "newsQuery": "\"Polymarket\"",
+  "newsQueriesExtra": [
+   "\"Shayne Coplan\""
+  ]
  },
  {
   "id": "shield-ai",
@@ -976,7 +1033,12 @@
     }
    }
   ],
-  "newsQuery": "\"Shield AI\""
+  "newsQuery": "\"Shield AI\"",
+  "newsQueriesExtra": [
+   "\"X-BAT\"",
+   "\"V-BAT\" drone",
+   "\"Hivemind\" \"Shield AI\""
+  ]
  },
  {
   "id": "anthropic",
@@ -1075,6 +1137,103 @@
     }
    }
   ],
-  "newsQuery": "\"Anthropic\" (Claude OR Amodei OR AI)"
+  "newsQuery": "\"Anthropic\" (Claude OR Amodei OR AI)",
+  "newsQueriesExtra": [
+   "\"Dario Amodei\"",
+   "\"Claude\" Anthropic IA"
+  ]
+ },
+ {
+  "id": "perplexity",
+  "name": "Perplexity",
+  "sector": "Recherche IA",
+  "order": 16,
+  "oneLiner": "Moteur de réponses par IA, navigateur Comet et agents autonomes.",
+  "description": "Moteur de recherche conversationnel qui répond aux questions en citant ses sources, complété par le navigateur Comet et Perplexity Computer, une plateforme d'agents IA autonomes. Concurrent direct de Google sur la recherche.",
+  "hq": "San Francisco",
+  "founded": "2022",
+  "leaders": "Aravind Srinivas (CEO), Denis Yarats, Johnny Ho, Andy Konwinski",
+  "website": "https://www.perplexity.ai/",
+  "newsQuery": "\"Perplexity AI\" OR \"Aravind Srinivas\"",
+  "newsQueriesExtra": [
+   "\"Perplexity\" Comet navigateur OR browser",
+   "\"Perplexity Computer\"",
+   "\"Perplexity\" valuation OR funding OR levée",
+   "\"Perplexity\" lawsuit OR procès OR plainte",
+   "\"Perplexity\" partenariat OR partnership OR acquires"
+  ],
+  "valuations": [
+   {
+    "amount": "plus de 30 milliards de dollars",
+    "value": 30,
+    "currency": "USD",
+    "round": "Tour en discussion, avec Nvidia",
+    "date": "2026-08-24",
+    "status": "presse",
+    "source": {
+     "label": "Tech Startups, d'après The Information, 24 août 2026",
+     "url": "https://techstartups.com/2026/08/24/nvidia-in-talks-to-invest-in-perplexity-at-30-billion-valuation-as-revenue-tops-750-million/"
+    }
+   },
+   {
+    "amount": "20 milliards de dollars",
+    "value": 20,
+    "currency": "USD",
+    "round": "Tour de 200 millions de dollars",
+    "date": "2025-09-10",
+    "status": "presse",
+    "source": {
+     "label": "TechCrunch, d'après The Information, 10 sept. 2025",
+     "url": "https://techcrunch.com/2025/09/10/perplexity-reportedly-raised-200m-at-20b-valuation/"
+    }
+   },
+   {
+    "amount": "18 milliards de dollars",
+    "value": 18,
+    "currency": "USD",
+    "round": "Extension de 100 millions de dollars",
+    "date": "2025-07-17",
+    "status": "presse",
+    "source": {
+     "label": "Bloomberg, 17 juil. 2025",
+     "url": "https://www.bloomberg.com/news/articles/2025-07-17/ai-startup-perplexity-valued-at-18-billion-with-new-funding"
+    }
+   },
+   {
+    "amount": "14 milliards de dollars",
+    "value": 14,
+    "currency": "USD",
+    "round": "Tour d'environ 500 millions de dollars mené par Accel",
+    "date": "2025-05-12",
+    "status": "presse",
+    "source": {
+     "label": "Business Standard, d'après le WSJ, mai 2025",
+     "url": "https://www.business-standard.com/technology/tech-news/ai-firm-perplexity-eyes-14-billion-in-valuation-in-fresh-funding-round-125051201339_1.html"
+    },
+    "dateLabel": "Mai 2025"
+   }
+  ],
+  "metrics": [
+   {
+    "label": "Revenu annualisé",
+    "value": "plus de 750 millions de dollars, contre moins de 250 millions début 2026",
+    "date": "2026-08-24",
+    "status": "presse",
+    "source": {
+     "label": "Tech Startups, d'après The Information, 24 août 2026",
+     "url": "https://techstartups.com/2026/08/24/nvidia-in-talks-to-invest-in-perplexity-at-30-billion-valuation-as-revenue-tops-750-million/"
+    }
+   },
+   {
+    "label": "Investisseurs principaux",
+    "value": "Accel (tour de mai 2025) ; Nvidia en discussion pour un nouvel investissement",
+    "date": "2026-08-24",
+    "status": "presse",
+    "source": {
+     "label": "PYMNTS, août 2026",
+     "url": "https://www.pymnts.com/news/artificial-intelligence/2026/nvidia-considers-backing-perplexity-30-billion-dollar-valuation/"
+    }
+   }
+  ]
  }
 ]
