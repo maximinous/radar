@@ -264,7 +264,7 @@
     }
    }
   ],
-  "newsQuery": "\"Mistral AI\" OR \"Arthur Mensch\""
+  "newsQuery": "\"Mistral AI\" OR \"Arthur Mensch\" OR (Mistral (IA OR AI OR LLM OR modèle OR model OR startup OR française OR French))"
  },
  {
   "id": "deel",

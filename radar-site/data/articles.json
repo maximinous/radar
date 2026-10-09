@@ -1,5 +1,31 @@
 [
  {
+  "id": "mistral-ai-2026-10-08-ecosia",
+  "companyId": "mistral-ai",
+  "date": "2026-10-08",
+  "title": "Ecosia abandonne Mistral pour des modèles ouverts, dont des modèles chinois",
+  "summary": "Le moteur de recherche berlinois Ecosia arrête d'utiliser Mistral et passe à des modèles ouverts comme Qwen, GLM ou Kimi, via la plateforme allemande Melious.",
+  "detail": "Son patron, Christian Kroll, l'a annoncé à POLITICO le 8 octobre. Il juge les modèles de Mistral en retard d'environ un an sur la concurrence et cite des pannes régulières : Ecosia serait un client trop gros pour l'infrastructure actuelle de Mistral.\n\nSelon lui, le changement divise environ par deux les coûts tout en améliorant la qualité. Ecosia avait remplacé OpenAI par Mistral en mai. Kroll évoque aussi la part du nucléaire dans l'électricité française et le poids d'investisseurs comme Nvidia et Samsung.",
+  "impact": "Perte d'un client européen très visible, utilisé par des services publics, au moment où Mistral met en avant la souveraineté. Les critiques sur la qualité et la capacité de service touchent ses deux arguments commerciaux principaux.",
+  "signal": "prudent",
+  "rationale": "Départ public d'un client de référence, motivé par la qualité et la fiabilité, deux jours après le lancement de Mistral Large 4.",
+  "sources": [
+   {
+    "label": "heise online, oct. 2026",
+    "url": "https://www.heise.de/en/news/Adieu-Mistral-Ecosia-switches-to-Chinese-open-source-AI-models-11481432.html"
+   },
+   {
+    "label": "TechNode, 9 oct. 2026",
+    "url": "https://technode.com/2026/10/09/ecosia-switches-from-mistral-to-open-weight-ai-models-including-qwen-glm-and-kimi/"
+   },
+   {
+    "label": "EU-Startups, oct. 2026",
+    "url": "https://www.eu-startups.com/2026/10/ecosia-founder-clarifies-move-away-from-mistral-its-about-open-models-not-china/"
+   }
+  ],
+  "addedAt": "2026-10-09T12:52:23Z"
+ },
+ {
   "id": "shield-ai-2026-10-08-x-bat-400-millions",
   "companyId": "shield-ai",
   "date": "2026-10-08",
@@ -278,6 +304,24 @@
    }
   ],
   "addedAt": "2026-10-07T06:24:01Z"
+ },
+ {
+  "id": "stripe-2026-10-05-cartes-stablecoin-100-pays",
+  "companyId": "stripe",
+  "date": "2026-10-05",
+  "title": "Stripe veut étendre ses cartes stablecoin à plus de 100 pays d'ici fin 2026",
+  "summary": "Lancées avec Visa en mars dans 18 pays, surtout en Amérique latine, les cartes adossées à des stablecoins de Stripe doivent couvrir plus de 100 pays d'ici la fin de l'année.",
+  "detail": "L'annonce date du 5 octobre. Le programme repose sur Bridge, racheté en 2024 pour 1,1 milliard de dollars, et sur Privy, racheté en 2025. Kraken et Ramp l'utilisent déjà.\n\nLes dépenses par cartes stablecoin ont atteint environ 1,2 milliard de dollars en septembre 2026, trois fois plus qu'un an plus tôt. L'objectif reste un plan : il faudra passer les règles et licences de nombreux pays.",
+  "impact": "Stripe transforme ses rachats crypto en produit mondial et se place au centre des paiements en stablecoins, au-delà de son métier historique d'encaissement.",
+  "signal": "optimiste",
+  "rationale": "Forte croissance des volumes et expansion géographique d'ampleur, même si l'objectif n'est pas encore atteint.",
+  "sources": [
+   {
+    "label": "Crypto Briefing, 5 oct. 2026",
+    "url": "https://cryptobriefing.com/stripe-stablecoin-card-program-100-countries/"
+   }
+  ],
+  "addedAt": "2026-10-09T12:52:23Z"
  },
  {
   "id": "stripe-2026-10-05-constructor-checkout-agentique",
@@ -3042,6 +3086,24 @@
   ],
   "summary": "Tether, Qualcomm, Amazon, Nvidia, Bosch, Schaeffler et la BEI au tour de table.",
   "title": "Neura Robotics annonce une Série C record jusqu'à 1,4 milliard de dollars"
+ },
+ {
+  "id": "mistral-ai-2026-05-28-airbus",
+  "companyId": "mistral-ai",
+  "date": "2026-05-28",
+  "title": "Airbus s'allie à Mistral AI pour l'IA dans l'aéronautique, la défense et l'espace",
+  "summary": "Airbus prend des licences pour toute la gamme de produits de Mistral AI et l'utilisera dans ses avions, hélicoptères, activités de défense et d'espace.",
+  "detail": "L'accord, signé à Paris le 28 mai 2026, prévoit des déploiements sur site ou dans des clouds de confiance, y compris pour des usages militaires. Airbus obtient aussi un accès aux chercheurs de Mistral et une influence sur sa feuille de route.\n\nLes pistes citées : rédaction automatique de documentation technique, simulations et optimisation de pièces, IA embarquée à bord des avions et des engins spatiaux, cyberenquêtes et aide au code pour la défense. Aucun montant n'est communiqué.",
+  "impact": "Un client industriel européen de premier plan, sur des usages sensibles, conforte le positionnement souverain de Mistral dans la défense et l'industrie.",
+  "signal": "optimiste",
+  "rationale": "Contrat large avec un grand donneur d'ordre européen, qui couvre toute la gamme de produits.",
+  "sources": [
+   {
+    "label": "Airbus, communiqué du 28 mai 2026",
+    "url": "https://www.airbus.com/en/newsroom/press-releases/2026-05-airbus-partners-with-mistral-ai-to-strengthen-the-use-of-artificial-intelligence-in-sovereign"
+   }
+  ],
+  "addedAt": "2026-10-09T12:52:23Z"
  },
  {
   "addedAt": "2026-09-22T08:00:00Z",
