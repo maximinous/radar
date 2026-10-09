@@ -1,5 +1,103 @@
 [
  {
+  "id": "shield-ai-2026-10-08-x-bat-400-millions",
+  "companyId": "shield-ai",
+  "date": "2026-10-08",
+  "title": "La Navy ajoute 150 millions de dollars pour le X-BAT de Shield AI, 400 millions au total",
+  "summary": "La Navy valide 150 millions de dollars de plus pour le chasseur sans pilote X-BAT, et Shield AI engage autant de fonds propres. Avec l'accord d'août, l'effort atteint environ 400 millions de dollars.",
+  "detail": "Il s'agit d'une modification d'un accord de type Other Transaction existant, associée au programme RIMES lancé avec la DIU et le bureau aviation de la Navy. Shield AI apporte 150 millions de dollars de capitaux privés en face, après 50 millions en août pour 50 millions côté Navy.\n\nL'entreprise mène en parallèle l'avion, les systèmes de mission, l'adaptation aux navires et la production. Les essais en vol sont attendus d'ici la fin de 2026, avec une production dans la région de Seattle et des essais au Kansas.",
+  "impact": "Le financement public confirme que la Navy porte le X-BAT et réduit le risque de développement, mais Shield AI doit aussi engager 200 millions de dollars de ses propres fonds sur l'ensemble de l'effort.",
+  "signal": "optimiste",
+  "rationale": "Un client public majeur double sa mise sur un programme clé, avec un calendrier de vol annoncé pour 2026.",
+  "sources": [
+   {
+    "label": "Breaking Defense, 8 oct. 2026",
+    "url": "https://breakingdefense.com/2026/10/navy-shield-ai-pour-big-bucks-into-x-bat-drone-development/"
+   },
+   {
+    "label": "GeekWire, 8 oct. 2026",
+    "url": "https://www.geekwire.com/2026/shield-ai-lands-150m-navy-contract-to-advance-ai-piloted-fighter-jet-that-will-be-built-south-of-seattle/"
+   }
+  ],
+  "addedAt": "2026-10-09T06:26:32Z"
+ },
+ {
+  "id": "shield-ai-2026-10-08-gek-terna-grece",
+  "companyId": "shield-ai",
+  "date": "2026-10-08",
+  "title": "Shield AI signe un protocole avec GEK TERNA pour un pôle X-BAT en Grèce",
+  "summary": "Shield AI et le groupe grec GEK TERNA signent à Athènes un protocole d'accord pour produire des pièces et assurer le soutien du X-BAT en Grèce.",
+  "detail": "Le texte n'est pas un contrat ferme : les rôles, la répartition du travail et les sites seront fixés dans des accords définitifs encore en négociation. GEK TERNA piloterait la base de fournisseurs grecs, dont des PME, et un bureau local du programme.\n\nLa Grèce servirait de pôle de formation, de logistique et de maintenance pour Chypre, les Balkans et l'Europe du Sud-Est. Les essais en vol du X-BAT sont attendus fin 2026 et la production en 2029.",
+  "impact": "Une implantation industrielle en Europe du Sud-Est ouvre un marché d'exportation et un ancrage local pour le X-BAT, sans engagement ferme à ce stade.",
+  "signal": "optimiste",
+  "rationale": "Un partenaire industriel local s'engage, mais seul un protocole d'accord est signé.",
+  "sources": [
+   {
+    "label": "Securities.io, 8 oct. 2026",
+    "url": "https://www.securities.io/greek-sustainment-base-for-x-bat-targeted-in-new-shield-ai-mou/"
+   }
+  ],
+  "addedAt": "2026-10-09T06:26:32Z"
+ },
+ {
+  "id": "anthropic-2026-10-08-cyber-mission",
+  "companyId": "anthropic",
+  "date": "2026-10-08",
+  "title": "Anthropic lance l'Anthropic Cyber Mission pour protéger infrastructures critiques et logiciels libres",
+  "summary": "Anthropic crée un effort de long terme pour aider les défenseurs, avec un programme pour les infrastructures critiques et un service gratuit de scan de projets open source.",
+  "detail": "Le Critical Infrastructure Defense Program donne à un premier groupe de prestataires de sécurité des modèles Claude de pointe, des ingénieurs sur site et de la recherche sur les menaces. Parmi les fondateurs : Accenture, Booz Allen, CrowdStrike, Deloitte, Palo Alto Networks, PwC et Rockwell Automation.\n\nL'OSS Scanner propose aux projets inscrits des scans périodiques gratuits, avec preuve de concept et correctif suggéré. Anthropic vise plus de 90 % de vrais positifs. Project Glasswing est fusionné dans le Cyber Verification Program élargi. Aucun montant global n'est annoncé.",
+  "impact": "Anthropic positionne Claude comme outil de défense auprès de grands intégrateurs et d'éditeurs de cybersécurité, ce qui élargit ses usages en entreprise et dans le public.",
+  "signal": "optimiste",
+  "rationale": "Des partenaires de premier plan rejoignent d'emblée le programme, même si aucun budget n'est publié.",
+  "sources": [
+   {
+    "label": "Anthropic, 8 oct. 2026",
+    "url": "https://www.anthropic.com/news/anthropic-cyber-mission"
+   }
+  ],
+  "addedAt": "2026-10-09T06:26:32Z"
+ },
+ {
+  "id": "anthropic-2026-10-08-genesis-150-millions",
+  "companyId": "anthropic",
+  "date": "2026-10-08",
+  "title": "Anthropic s'engage à hauteur de 150 millions de dollars sur la Genesis Mission américaine",
+  "summary": "Anthropic promet 150 millions de dollars sur trois ans, surtout en accès à Claude et en crédits API, pour des projets de recherche de plus de 15 agences fédérales.",
+  "detail": "L'annonce a eu lieu au sommet « Science: A New Golden Age » organisé à Washington par le bureau scientifique de la Maison-Blanche. Claude, Claude Code et des crédits API iront à plusieurs centaines de projets, avec formation et appui technique, notamment sur la fusion et l'informatique quantique.\n\nLes agences incluent la NASA, les NIH et la NSF. Ce soutien prolonge le partenariat noué avec le département de l'Énergie en décembre. Le montant correspond à des accès et des crédits, pas à des subventions en numéraire.",
+  "impact": "L'engagement renforce l'ancrage d'Anthropic auprès de l'État fédéral américain et crée une base d'utilisateurs scientifiques, au prix d'un coût surtout en capacité de calcul.",
+  "signal": "optimiste",
+  "rationale": "Un grand programme public élargit les usages de Claude, avec un coût essentiellement en crédits.",
+  "sources": [
+   {
+    "label": "Crypto Briefing, 8 oct. 2026",
+    "url": "https://cryptobriefing.com/anthropic-150m-genesis-mission-ai-research/"
+   },
+   {
+    "label": "CoinGape, 8 oct. 2026",
+    "url": "https://coingape.com/anthropic-backs-u-s-genesis-mission-with-150-million-to-expand-claude-ai/"
+   }
+  ],
+  "addedAt": "2026-10-09T06:26:32Z"
+ },
+ {
+  "id": "anthropic-2026-10-08-politique-usage",
+  "companyId": "anthropic",
+  "date": "2026-10-08",
+  "title": "Anthropic publie une nouvelle politique d'usage, en vigueur le 12 novembre",
+  "summary": "Anthropic met à jour ses règles d'utilisation, avec de nouvelles limites sur les armes autonomes, la surveillance et la cruauté envers ses modèles.",
+  "detail": "Le texte entre en vigueur le 12 novembre 2026. Il interdit aussi d'armer des drones ou véhicules autonomes avec Claude, et réécrit la section sur la surveillance et les forces de l'ordre : pas de suivi sans consentement ni de choix de personnes à enquêter ou arrêter.\n\nLes équipements qui agissent physiquement doivent avoir un opérateur capable de les arrêter. Une interdiction vise les abus soutenus et inutiles envers les modèles, limitée aux cas extrêmes. L'interdiction du ciblage électoral personnalisé est retirée, le ciblage trompeur restant prohibé.",
+  "impact": "Des règles plus précises pour les agents autonomes cadrent les usages sensibles et peuvent peser sur certains clients de défense ou de sécurité.",
+  "signal": "neutre",
+  "rationale": "Mise à jour surtout clarificatrice, avec des effets limités et encore à mesurer.",
+  "sources": [
+   {
+    "label": "Anthropic, 8 oct. 2026",
+    "url": "https://www.anthropic.com/news/2026-usage-policy-update"
+   }
+  ],
+  "addedAt": "2026-10-09T06:26:32Z"
+ },
+ {
   "id": "anthropic-2026-10-07-haiku-5-5",
   "companyId": "anthropic",
   "date": "2026-10-07",
