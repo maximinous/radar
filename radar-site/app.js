@@ -420,7 +420,7 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
         el('span',{class:'t'}, a.title), el('span',{class:'sm'}, a.summary||''))); };
     app.replaceChildren(el('section',{class:'week'},
       el('div',{class:'cmp-head'},
-        el('div',null, el('span',{class:'eyebrow'},'Synthèse hebdomadaire'), el('h2',null,'La semaine du Radar'), el('p',{class:'lead'}, 'Semaine '+weekLabel(mon)+'. Les faits marquants des 15 sociétés suivies.')),
+        el('div',null, el('span',{class:'eyebrow'},'Synthèse hebdomadaire'), el('h2',null,'La semaine du Radar'), el('p',{class:'lead'}, 'Semaine '+weekLabel(mon)+'. Les faits marquants des '+S.companies.length+' sociétés suivies.')),
         el('div',{class:'hero-actions'},
           el('button',{class:'btn ghost small',type:'button',onclick:()=>go(addDays(mon,-7))},'‹ Semaine précédente'),
           el('button',{class:'btn ghost small',type:'button',disabled:mon>=cur,onclick:()=>go(addDays(mon,7))},'Semaine suivante ›'),
@@ -480,7 +480,7 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
     app.replaceChildren(el('section',{class:'cmp'},
       el('div',{class:'cmp-head'},
         el('div',null, el('h2',null,'Comparer les sociétés'),
-          el('p',{class:'lead'},'Les 15 sociétés suivies, avec leur dernière valorisation officielle et l\'activité de la veille. Cliquez sur un en-tête pour trier, sur une ligne pour ouvrir la fiche.')),
+          el('p',{class:'lead'},'Les '+S.companies.length+' sociétés suivies, avec leur dernière valorisation officielle et l\'activité de la veille. Cliquez sur un en-tête pour trier, sur une ligne pour ouvrir la fiche.')),
         linkBtn(articleUrl('comparer'), 'Comparatif Radar')),
       el('div',{class:'tbl-wrap'}, el('table',{class:'tbl'},
         el('thead',null, el('tr',null, th('name','Société'), th('valo','Valorisation officielle'), th('round','Tour'), el('th',null,'Selon la presse'), th('arts','Articles','num'), el('th',null,'Tonalité'), th('last','Dernière actualité'))),
