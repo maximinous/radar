@@ -16,7 +16,7 @@ ids = {c['id'] for c in cos}
 # Sociétés autorisées sur le site public. Toute autre société (par exemple suivie seulement sur la page privée)
 # bloque la publication : l'ajouter ici est une décision explicite de Max, pas de la tâche de veille.
 PUBLIC_IDS = {'prometheus', 'together-ai', 'figure-ai', 'mistral-ai', 'deel', 'erebor', 'apollo-research', 'neura-robotics',
-              'stripe', 'starcloud', 'lovable', 'kraken', 'polymarket', 'shield-ai', 'anthropic', 'perplexity'}
+              'stripe', 'starcloud', 'lovable', 'kraken', 'polymarket', 'shield-ai', 'anthropic', 'perplexity', 'crusoe'}
 for i in sorted(ids - PUBLIC_IDS):
     err(f"société {i}: non autorisée sur le site public (page privée uniquement) ; retire-la de companies.json et ses articles de articles.json")
 BANNED = ['—', '–', 'Fundora']
