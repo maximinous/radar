@@ -2103,7 +2103,7 @@
   "date": "2026-09-17",
   "title": "Crusoe lève 3,9 milliards de dollars en série F, valorisée 30,9 milliards",
   "summary": "Le constructeur de centres de données IA triple presque sa valorisation en onze mois, avec une première clôture menée par Atreides, Mubadala Capital et Valor Equity Partners.",
-  "detail": "La série F valorise Crusoe 30,9 milliards de dollars après l'opération, contre plus de 10 milliards lors de la série E d'octobre 2025. Founders Fund, GIC, Nvidia, le fonds souverain du Qatar et TPG participent aussi. Bloomberg avait révélé le tour le 3 septembre.\n\nCrusoe revendique plus de 140 milliards de dollars de contrats signés, plus de 6 GW de capacité sous contrat dont 1 GW en service, et des réservations Crusoe Cloud multipliées par plus de 20 sur un an. Le même jour, la société a fait entrer trois administrateurs : Thomas Seifert (directeur financier de Cloudflare), Bill Stein (ancien CEO de Digital Realty) et JB Straubel (fondateur de Redwood Materials).",
+  "detail": "La série F valorise Crusoe 30,9 milliards de dollars après l'opération, contre plus de 10 milliards lors de la série E d'octobre 2025. Founders Fund, GIC, Nvidia, le fonds souverain du Qatar et TPG participent aussi. Bloomberg avait révélé le tour le 3 septembre. Les fonds financeront aussi Spark, de petits centres de données modulaires fabriqués par Crusoe et transportables par camion.\n\nCrusoe revendique plus de 140 milliards de dollars de contrats signés, plus de 6 GW de capacité sous contrat dont 1 GW en service, et des réservations Crusoe Cloud multipliées par plus de 20 sur un an. Le même jour, la société a fait entrer trois administrateurs : Thomas Seifert (directeur financier de Cloudflare), Bill Stein (ancien CEO de Digital Realty) et JB Straubel (fondateur de Redwood Materials).",
   "impact": "Crusoe dispose de moyens pour financer de nouveaux campus et se renforce face aux néo-clouds cotés, avec un conseil d'administration qui prépare une éventuelle introduction en Bourse.",
   "signal": "optimiste",
   "rationale": "Tour de grande taille, investisseurs de premier rang et carnet de contrats publié par la société.",
@@ -2119,6 +2119,10 @@
    {
     "label": "Communiqué Crusoe (conseil), 17 sept. 2026",
     "url": "https://www.crusoe.ai/resources/newsroom/crusoe-appoints-seifert-stein-straubel-board-of-directors"
+   },
+   {
+    "label": "TechCrunch, 17 sept. 2026",
+    "url": "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/"
    }
   ],
   "addedAt": "2026-10-10T09:33:46Z"
