@@ -1310,6 +1310,17 @@
   ],
   "metrics": [
    {
+    "label": "Inférence gérée (revenu annuel contractualisé)",
+    "value": "plus de 100 millions de dollars, moins d'un an après le lancement",
+    "date": "2026-09-23",
+    "status": "officielle",
+    "source": {
+     "label": "Communiqué Crusoe, 23 sept. 2026",
+     "url": "https://www.crusoe.ai/resources/newsroom/crusoe-thinking-machines-lab-inference-partnership"
+    },
+    "articleId": "crusoe-2026-09-23-thinking-machines"
+   },
+   {
     "label": "Valeur totale des contrats",
     "value": "plus de 140 milliards de dollars",
     "date": "2026-09-17",

@@ -1,5 +1,23 @@
 [
  {
+  "id": "crusoe-2026-10-08-genesis-mission",
+  "companyId": "crusoe",
+  "date": "2026-10-08",
+  "title": "Crusoe promet 50 millions de dollars de crédits de calcul à la mission Genesis de la Maison-Blanche",
+  "summary": "La société offre ces crédits sur trois ans aux chercheurs des agences fédérales américaines, et rejoint le réseau national de calcul comme partenaire de lancement.",
+  "detail": "L'annonce a été faite par Chase Lochmiller au sommet scientifique de la Maison-Blanche le 8 octobre. Les crédits couvrent le calcul haute performance et l'inférence sur Crusoe Cloud, avec un appui technique. Crusoe dit toucher des chercheurs de plus de 15 agences, dont le DOE, la NASA, les NIH et la NSF.",
+  "impact": "Crusoe se rapproche de l'administration américaine et des clients du secteur public, au prix d'un engagement de calcul gratuit.",
+  "signal": "optimiste",
+  "rationale": "Visibilité institutionnelle et position de partenaire de lancement, pour un coût en crédits annoncé.",
+  "sources": [
+   {
+    "label": "Communiqué Crusoe, 8 oct. 2026",
+    "url": "https://www.crusoe.ai/resources/newsroom/crusoe-pledges-50-million-in-compute-to-white-house"
+   }
+  ],
+  "addedAt": "2026-10-10T09:37:27Z"
+ },
+ {
   "id": "mistral-ai-2026-10-08-ecosia",
   "companyId": "mistral-ai",
   "date": "2026-10-08",
@@ -456,6 +474,28 @@
    }
   ],
   "addedAt": "2026-10-05T06:27:57Z"
+ },
+ {
+  "id": "crusoe-2026-10-02-jayton-campus",
+  "companyId": "crusoe",
+  "date": "2026-10-02",
+  "title": "Crusoe dépose un projet de campus à 4,8 milliards de dollars à Jayton, au Texas",
+  "summary": "Deux bâtiments de centre de données sont déclarés auprès du régulateur texan, pour une mise en service visée en 2029.",
+  "detail": "Selon les dépôts relayés par Data Center Dynamics et Baxtel, chaque bâtiment fait environ 759 000 pieds carrés. La construction est prévue pour janvier 2027 et l'exploitation en mai et juillet 2029. Les bâtiments sont décrits comme annexes du projet Hyper, centré sur Childress. Aucun locataire ni puissance n'est indiqué pour Jayton, et ces chiffres sont préliminaires.",
+  "impact": "Le projet élargit le pipeline de campus de Crusoe au Texas, mais il reste au stade du dépôt réglementaire.",
+  "signal": "neutre",
+  "rationale": "Projet chiffré mais préliminaire, sans client ni puissance annoncés.",
+  "sources": [
+   {
+    "label": "Data Center Dynamics, 2 oct. 2026",
+    "url": "https://datacenterdynamics.com/en/news/crusoe-files-for-48bn-data-center-campus-in-jayton-texas"
+   },
+   {
+    "label": "Baxtel, oct. 2026",
+    "url": "https://baxtel.com/news/crusoe-plans-4-8bn-data-center-campus-in-jayton-texas"
+   }
+  ],
+  "addedAt": "2026-10-10T09:37:27Z"
  },
  {
   "id": "anthropic-2026-10-02-frontier-academy",
@@ -1074,6 +1114,24 @@
   "addedAt": "2026-09-30T15:46:23Z"
  },
  {
+  "id": "crusoe-2026-09-28-armstrong-google",
+  "companyId": "crusoe",
+  "date": "2026-09-28",
+  "title": "Crusoe confirme développer le campus de Google dans le comté d'Armstrong, au Texas",
+  "summary": "La société se présente comme développeur du campus de centres de données IA bâti pour Google près d'Amarillo, avec plus de 5 500 ouvriers par jour sur le chantier.",
+  "detail": "Le chantier a démarré en juin 2025. Le campus se raccorde au parc éolien Goodnight 1 de 265,5 MW, déjà en service, et un second parc de même puissance est en construction. Le refroidissement liquide en circuit fermé limite la consommation d'eau. Le montant de l'investissement et la capacité du campus ne sont pas publiés.",
+  "impact": "Crusoe rend public son rôle sur un projet pour un hyperscaler majeur, qui s'ajoute à ses campus d'Abilene.",
+  "signal": "optimiste",
+  "rationale": "Rôle de développeur confirmé pour Google, mais sans chiffre de capacité ou de coût.",
+  "sources": [
+   {
+    "label": "Communiqué Crusoe, 28 sept. 2026",
+    "url": "https://www.crusoe.ai/resources/newsroom/crusoe-developing-data-center-campus-in-armstrong-county-texas"
+   }
+  ],
+  "addedAt": "2026-10-10T09:37:27Z"
+ },
+ {
   "id": "anthropic-2026-09-28-sonnet-5-5",
   "companyId": "anthropic",
   "date": "2026-09-28",
@@ -1186,6 +1244,24 @@
    }
   ],
   "addedAt": "2026-09-30T15:46:23Z"
+ },
+ {
+  "id": "crusoe-2026-09-25-boom-turbines",
+  "companyId": "crusoe",
+  "date": "2026-09-25",
+  "title": "Crusoe abandonne son accord de 1,25 milliard de dollars sur les turbines de Boom Supersonic",
+  "summary": "Le PDG de Boom annonce la fin du partenariat, Crusoe dit que son plan énergétique n'a pas changé mais que Boom n'est pas le bon choix aujourd'hui.",
+  "detail": "L'accord portait sur 29 turbines de 42 MW, avec des premières livraisons prévues en 2027. Selon TechCrunch, le PDG de Boom, Blake Scholl, a annoncé la rupture sur X, puis supprimé une phrase disant que les turbines ne faisaient plus partie du mix énergétique principal de Crusoe à court terme.\n\nCrusoe affirme qu'elle compte toujours recourir à des turbines, mais pas celles de Boom. Son campus d'Abilene est alimenté par le réseau, avec des turbines à gaz en secours seulement.",
+  "impact": "Crusoe se libère d'un engagement de fourniture d'énergie sur une technologie non éprouvée, au prix d'un flou sur ses futures sources d'électricité sur site.",
+  "signal": "neutre",
+  "rationale": "Annulation d'un gros contrat fournisseur, sans effet déclaré sur les chantiers en cours.",
+  "sources": [
+   {
+    "label": "TechCrunch, 25 sept. 2026",
+    "url": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/"
+   }
+  ],
+  "addedAt": "2026-10-10T09:37:27Z"
  },
  {
   "id": "perplexity-2026-09-25-davoice-proces",
@@ -1512,6 +1588,28 @@
   ],
   "summary": "Tout le monde peut désormais échanger gratuitement avec Lovable pour tester une idée avant de construire une application.",
   "title": "Lovable rend son mode discussion gratuit"
+ },
+ {
+  "id": "crusoe-2026-09-23-thinking-machines",
+  "companyId": "crusoe",
+  "date": "2026-09-23",
+  "title": "Thinking Machines Lab signe un contrat d'inférence de 65 millions de dollars par an avec Crusoe",
+  "summary": "Crusoe servira les modèles ouverts du laboratoire sur un déploiement dédié, et annonce plus de 100 millions de dollars de revenu annuel contractualisé en inférence gérée.",
+  "detail": "Le déploiement tourne sur des systèmes NVIDIA HGX B200 reliés en InfiniBand Quantum-2, avec un engagement de niveau de service. Il servira notamment les modèles Inkling, GLM 5.2 et 5.3 et les variantes affinées du laboratoire. Les deux sociétés envisagent d'étendre à l'inférence par lots pour générer des données synthétiques.\n\nCrusoe indique que son service d'inférence gérée dépasse 100 millions de dollars de revenu récurrent annuel contractualisé, moins d'un an après son lancement. Il s'agit de revenu contractualisé, non de revenu comptabilisé.",
+  "impact": "Le contrat valide l'offre d'inférence gérée de Crusoe et diversifie ses revenus au-delà de la location de grands campus.",
+  "signal": "optimiste",
+  "rationale": "Contrat chiffré par la société, avec un indicateur de traction pour l'inférence.",
+  "sources": [
+   {
+    "label": "Communiqué Crusoe, 23 sept. 2026",
+    "url": "https://www.crusoe.ai/resources/newsroom/crusoe-thinking-machines-lab-inference-partnership"
+   },
+   {
+    "label": "The Next Web, sept. 2026",
+    "url": "https://thenextweb.com/news/crusoe-thinking-machines-lab-65m-inference-deal"
+   }
+  ],
+  "addedAt": "2026-10-10T09:37:27Z"
  },
  {
   "id": "mistral-ai-2026-09-23-pimento-prix",
@@ -2334,6 +2432,28 @@
   "title": "Mistral alimente la fenêtre IA de Firefox en France"
  },
  {
+  "id": "crusoe-2026-09-15-perplexity-partenariat",
+  "companyId": "crusoe",
+  "date": "2026-09-15",
+  "title": "Crusoe devient fournisseur d'infrastructure de Perplexity pour entraîner et servir ses modèles",
+  "summary": "Perplexity fera tourner tout le cycle de vie de ses modèles sur Crusoe Cloud dans un partenariat pluriannuel, sans montant publié.",
+  "detail": "L'entraînement se fera sur des clusters NVIDIA GB300 NVL72 et la mise en production passera par le service Crusoe Managed Inference. Crusoe adopte en retour Perplexity Enterprise Pro et Max pour ses 1 800 salariés. Les termes financiers, les volumes et le calendrier ne sont pas communiqués.",
+  "impact": "Crusoe gagne un client grand compte de l'IA grand public pour son cloud et son offre d'inférence gérée, face à des concurrents déjà présents chez Perplexity.",
+  "signal": "optimiste",
+  "rationale": "Nouveau client notable sur l'entraînement et l'inférence, même si le contrat n'est pas chiffré.",
+  "sources": [
+   {
+    "label": "Communiqué Crusoe, 15 sept. 2026",
+    "url": "https://www.crusoe.ai/resources/newsroom/crusoe-perplexity-partnership"
+   },
+   {
+    "label": "Crypto Briefing, sept. 2026",
+    "url": "https://cryptobriefing.com/crusoe-perplexity-multiyear-cloud-deal/"
+   }
+  ],
+  "addedAt": "2026-10-10T09:37:27Z"
+ },
+ {
   "id": "perplexity-2026-09-15-crusoe",
   "companyId": "perplexity",
   "date": "2026-09-15",
@@ -2502,6 +2622,28 @@
   ],
   "summary": "Des sociétés de trading exploitaient la conversion sans frais des stablecoins en dollars. La banque a durci ses conditions.",
   "title": "Erebor restreint la conversion gratuite de stablecoins après des arbitrages"
+ },
+ {
+  "id": "crusoe-2026-09-14-tulsa",
+  "companyId": "crusoe",
+  "date": "2026-09-14",
+  "title": "Crusoe ouvre une deuxième usine à Tulsa pour fabriquer ses équipements électriques",
+  "summary": "Le site de 400 000 pieds carrés porte l'empreinte industrielle de Crusoe à environ 1 million de pieds carrés aux États-Unis.",
+  "detail": "Les usines de Tulsa produisent des appareillages électriques moyenne et basse tension, des armoires, des commandes industrielles et des barres de cuivre sur mesure. Crusoe compte plus de 300 ouvriers qualifiés sur les deux sites, contre 100 attendus à l'ouverture de la première usine en 2024. Plus de 2 500 tableaux de distribution ont déjà été livrés au site de Stargate à Abilene.\n\nLa société dit pouvoir livrer des composants en quelques jours, contre des mois dans l'industrie. L'inauguration s'est tenue en présence du gouverneur de l'Oklahoma, Kevin Stitt.",
+  "impact": "La fabrication interne réduit la dépendance aux fournisseurs d'équipements électriques, un goulot d'étranglement des chantiers de centres de données.",
+  "signal": "optimiste",
+  "rationale": "Capacité de production doublée et utilisée sur le plus gros chantier de la société, chiffres donnés par Crusoe.",
+  "sources": [
+   {
+    "label": "Communiqué Crusoe, 14 sept. 2026",
+    "url": "https://www.crusoe.ai/resources/newsroom/crusoe-opens-second-tulsa-factory-ai-infrastructure"
+   },
+   {
+    "label": "Light Reading, sept. 2026",
+    "url": "https://www.lightreading.com/ai-machine-learning/crusoe-opens-second-tulsa-manufacturing-facility"
+   }
+  ],
+  "addedAt": "2026-10-10T09:37:27Z"
  },
  {
   "id": "perplexity-2026-09-14-portable-computer-windows",
