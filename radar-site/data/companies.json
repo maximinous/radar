@@ -1235,5 +1235,123 @@
     }
    }
   ]
+ },
+ {
+  "id": "crusoe",
+  "name": "Crusoe",
+  "sector": "Infrastructure IA",
+  "order": 17,
+  "oneLiner": "Centres de données IA alimentés en énergie et cloud GPU, de la centrale au modèle.",
+  "description": "Ancienne Crusoe Energy Systems, la société construit et exploite des campus de centres de données pour l'IA, dont le site d'Abilene au Texas utilisé par OpenAI, et vend de la puissance de calcul via Crusoe Cloud et un service d'inférence. Elle maîtrise toute la chaîne : accès à l'énergie, fabrication de composants, bâtiments et logiciel.",
+  "hq": "Denver et San Francisco",
+  "founded": "2018",
+  "leaders": "Chase Lochmiller (cofondateur et CEO), Cully Cavness (cofondateur et président)",
+  "website": "https://www.crusoe.ai/",
+  "newsQuery": "\"Crusoe Energy\" OR \"Crusoe Cloud\" OR \"Chase Lochmiller\"",
+  "newsQueriesExtra": [
+   "\"Crusoe\" data center OR datacenter",
+   "\"Crusoe\" \"centre de données\" OR \"centres de données\"",
+   "\"Crusoe\" AI infrastructure",
+   "\"Crusoe\" Abilene OR Stargate",
+   "\"Crusoe\" funding OR valuation OR IPO OR levée",
+   "\"Crusoe\" partnership OR partenariat OR contract OR acquires"
+  ],
+  "lastRound": "crusoe-2026-09-17-serie-f",
+  "valuations": [
+   {
+    "amount": "30,9 milliards de dollars",
+    "value": 30.9,
+    "currency": "USD",
+    "round": "Série F de 3,9 milliards de dollars (première clôture)",
+    "date": "2026-09-17",
+    "status": "officielle",
+    "source": {
+     "label": "Communiqué Crusoe, 17 sept. 2026",
+     "url": "https://www.crusoe.ai/resources/newsroom/crusoe-announces-series-f-funding"
+    }
+   },
+   {
+    "amount": "plus de 10 milliards de dollars",
+    "value": 10,
+    "currency": "USD",
+    "round": "Série E de 1,375 milliard de dollars",
+    "date": "2025-10-23",
+    "status": "officielle",
+    "source": {
+     "label": "Pulse 2.0, d'après le communiqué de Crusoe, oct. 2025",
+     "url": "https://pulse2.com/crusoe-1-375-billion-at-10-billion-valuation-raised-to-advance-future-of-ai-infrastructure"
+    }
+   },
+   {
+    "amount": "2,8 milliards de dollars",
+    "value": 2.8,
+    "currency": "USD",
+    "round": "Série D de 600 millions de dollars menée par Founders Fund",
+    "date": "2024-12-12",
+    "status": "presse",
+    "source": {
+     "label": "The AI Insider, d'après Reuters, déc. 2024",
+     "url": "https://theaiinsider.tech/2024/12/14/crusoe-raises-600m-series-d-at-2-8b-valuation-led-by-founders-fund/"
+    }
+   },
+   {
+    "amount": "1,75 milliard de dollars",
+    "value": 1.75,
+    "currency": "USD",
+    "round": "Série C de 350 millions de dollars menée par G2 Venture Partners",
+    "date": "2022-04-21",
+    "status": "presse",
+    "dateLabel": "Avr. 2022",
+    "source": {
+     "label": "TokenInsight, avr. 2022",
+     "url": "https://tokeninsight.com/en/news/bitcoin-clean-energy-miner-crusoe-energy-closes-350-million-series-c-funding-round-at-1.75-billion-valuation"
+    }
+   }
+  ],
+  "metrics": [
+   {
+    "label": "Valeur totale des contrats",
+    "value": "plus de 140 milliards de dollars",
+    "date": "2026-09-17",
+    "status": "officielle",
+    "source": {
+     "label": "Communiqué Crusoe, 17 sept. 2026",
+     "url": "https://www.crusoe.ai/resources/newsroom/crusoe-announces-series-f-funding"
+    },
+    "articleId": "crusoe-2026-09-17-serie-f"
+   },
+   {
+    "label": "Capacité sous contrat",
+    "value": "plus de 6 GW bruts, dont 1 GW livré et en service",
+    "date": "2026-09-17",
+    "status": "officielle",
+    "source": {
+     "label": "Communiqué Crusoe, 17 sept. 2026",
+     "url": "https://www.crusoe.ai/resources/newsroom/crusoe-announces-series-f-funding"
+    },
+    "articleId": "crusoe-2026-09-17-serie-f"
+   },
+   {
+    "label": "Salariés",
+    "value": "plus de 1 800 dans cinq pays",
+    "date": "2026-09-17",
+    "status": "officielle",
+    "source": {
+     "label": "Communiqué Crusoe, 17 sept. 2026",
+     "url": "https://www.crusoe.ai/resources/newsroom/crusoe-announces-series-f-funding"
+    }
+   },
+   {
+    "label": "Investisseurs principaux",
+    "value": "Atreides, Mubadala Capital et Valor Equity Partners (série F) ; aussi Founders Fund, GIC, Nvidia, QIA, TPG",
+    "date": "2026-09-17",
+    "status": "officielle",
+    "source": {
+     "label": "Communiqué Crusoe, 17 sept. 2026",
+     "url": "https://www.crusoe.ai/resources/newsroom/crusoe-announces-series-f-funding"
+    },
+    "articleId": "crusoe-2026-09-17-serie-f"
+   }
+  ]
  }
 ]
