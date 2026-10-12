@@ -1,5 +1,45 @@
 [
  {
+  "id": "kraken-2026-10-12-vara-licence-complete",
+  "companyId": "kraken",
+  "date": "2026-10-12",
+  "title": "Kraken obtient l'approbation complète de la VARA à Dubaï",
+  "summary": "Payward, maison mère de Kraken, a reçu l'approbation de marché complète du régulateur de Dubaï. Kraken prévoit d'ouvrir ses services aux clients des Émirats arabes unis dans les prochaines semaines.",
+  "detail": "C'est la dernière étape du processus de licence de la VARA, après une autorisation préliminaire obtenue en mai 2026. Elle couvre les clients particuliers, professionnels et institutionnels.\n\nAu lancement, les clients pourront trader au comptant et sur marge avec des paires en dirhams, et déposer ou retirer des dirhams. Les particuliers auront aussi accès au staking on-chain et aux xStocks, les institutionnels au trading OTC et à Kraken Prime. Les dérivés crypto et d'autres produits de rendement sont prévus plus tard en 2026 et en 2027, sous réserve d'une approbation distincte. Aucune date de lancement précise n'est donnée.",
+  "impact": "Kraken peut servir légalement la clientèle des Émirats, un marché crypto actif, avec une offre complète à partir de son carnet d'ordres mondial.",
+  "signal": "optimiste",
+  "rationale": "Une licence réglementaire complète lève le dernier obstacle à l'ouverture d'un marché régional important.",
+  "sources": [
+   {
+    "label": "FX News Group, 12/10/2026",
+    "url": "https://fxnewsgroup.com/forex-news/cryptocurrency/payward-secures-varas-full-market-approval-kraken-targets-go-live-for-uae-clients-in-the-coming-weeks/"
+   },
+   {
+    "label": "Finance Magnates, 12/10/2026",
+    "url": "https://www.financemagnates.com/cryptocurrency/exchange/kraken-gets-final-dubai-crypto-license-plans-uae-launch-within-weeks/"
+   }
+  ],
+  "addedAt": "2026-10-12T12:34:38Z"
+ },
+ {
+  "id": "anthropic-2026-10-12-hcltech-partenariat",
+  "companyId": "anthropic",
+  "date": "2026-10-12",
+  "title": "HCLTech devient partenaire Global Premier d'Anthropic",
+  "summary": "HCLTech signe un partenariat Global Premier avec Anthropic et crée une unité dédiée à Claude. Le groupe indien intégrera Claude et Claude Code à sa plateforme AI Force et à ses logiciels.",
+  "detail": "HCLTech met en place une unité commerciale dédiée, un centre d'excellence pour l'IA agentique et des environnements sandbox sécurisés, avec des ingénieurs de déploiement. HCLSoftware devient éditeur partenaire et intégrera Claude dans des produits comme BigFix et AppScan.\n\nAnthropic rappelle son engagement de 100 millions de dollars pour former 10 000 ingénieurs de déploiement d'ici fin 2027, avec plus de 175 000 certifications Claude délivrées à ce jour.",
+  "impact": "Anthropic étend son réseau de grands intégrateurs, un canal clé pour déployer Claude chez les grandes entreprises.",
+  "signal": "optimiste",
+  "rationale": "Un nouvel intégrateur de premier plan ajoute de la capacité de vente et de déploiement en entreprise.",
+  "sources": [
+   {
+    "label": "Unite.AI, 12/10/2026",
+    "url": "https://www.unite.ai/hcltech-forms-anthropic-business-unit-under-global-premier-partnership/"
+   }
+  ],
+  "addedAt": "2026-10-12T12:34:38Z"
+ },
+ {
   "id": "mistral-ai-2026-10-10-bund-sap",
   "companyId": "mistral-ai",
   "date": "2026-10-10",
