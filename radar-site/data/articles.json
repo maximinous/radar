@@ -3585,7 +3585,7 @@
   "date": "2026-07-20",
   "title": "Fluidstack confirme une série A de 830 millions de dollars, valorisée 7,5 milliards",
   "summary": "La société a rendu public un tour mené par Situational Awareness, le fonds de Leopold Aschenbrenner, bouclé dès janvier 2026.",
-  "detail": "Les autres investisseurs ne sont pas nommés. La presse avait évoqué au premier semestre un tour d'environ 700 millions de dollars à 7 milliards de valorisation.\n\nLes fonds doivent accélérer le déploiement de calcul pour les laboratoires d'IA, dont les centres de données sur mesure d'Anthropic au Texas et à New York. Fluidstack annonce le recrutement de centaines de personnes.",
+  "detail": "Les autres investisseurs ne sont pas nommés. Bloomberg avait évoqué en décembre 2025 un tour d'environ 700 millions de dollars à 7 milliards de valorisation, puis le Telegraph avait rapporté le 6 avril 2026 une levée bouclée de plus de 750 millions.\n\nLes fonds doivent accélérer le déploiement de calcul pour les laboratoires d'IA, dont les centres de données sur mesure d'Anthropic au Texas et à New York. Fluidstack annonce le recrutement de centaines de personnes.",
   "impact": "Première levée en fonds propres de cette taille pour Fluidstack, qui finance jusque-là surtout ses projets par la dette et les contrats de location.",
   "signal": "optimiste",
   "rationale": "Montant important et confirmation officielle de la valorisation.",
@@ -3597,6 +3597,10 @@
    {
     "label": "SiliconANGLE, 21 juil. 2026",
     "url": "https://siliconangle.com/2026/07/21/ai-data-center-builder-fluidstack-raises-830m-7-5b-valuation/"
+   },
+   {
+    "label": "Dealroom, d'après The Telegraph, 6 avr. 2026",
+    "url": "https://dealroom.co/news/127233-fluidstack-raises-750m-at-7b-as-google-and-anthropic-anchor-its-ai-data/"
    }
   ],
   "addedAt": "2026-10-12T20:45:00Z"
