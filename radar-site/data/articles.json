@@ -3017,6 +3017,32 @@
   "title": "LeBron James devient ambassadeur de Polymarket"
  },
  {
+  "id": "fluidstack-2026-09-03-levee-jane-street",
+  "companyId": "fluidstack",
+  "date": "2026-09-03",
+  "title": "Fluidstack lève 1,5 milliard de dollars auprès de Jane Street, valorisée 18 milliards",
+  "summary": "Selon Forbes, le constructeur de centres de données d'Anthropic a bouclé un tour de 1,5 milliard de dollars mené par le fonds quantitatif Jane Street, à une valorisation de 18 milliards.",
+  "detail": "La valorisation fait plus que doubler par rapport aux 7,5 milliards de la série A rendue publique en juillet. Bloomberg avait révélé en avril des discussions pour 1 milliard de dollars au même niveau de valorisation. La société n'a pas publié de communiqué.\n\nSelon un mémo d'investisseur cité par Forbes, les revenus seraient passés d'environ 200 millions de dollars en 2025 à 660 millions projetés en 2026. Le total levé en fonds propres dépasserait 2,6 milliards de dollars.",
+  "impact": "Fluidstack se finance pour construire les campus promis à Anthropic et à ses autres clients, alors que Google garantit une partie de ses engagements de location.",
+  "signal": "optimiste",
+  "rationale": "Valorisation plus que doublée en quelques semaines, avec un investisseur de premier rang, même si les chiffres ne sont pas confirmés par la société.",
+  "sources": [
+   {
+    "label": "Forbes, 3 sept. 2026",
+    "url": "https://www.forbes.com/sites/iainmartin/2026/09/03/a-tiny-startup-helping-google-take-on-nvidia-is-now-worth-18-billion/"
+   },
+   {
+    "label": "Tech Times, d'après Forbes, 5 sept. 2026",
+    "url": "https://www.techtimes.com/articles/326746/20260905/fluidstack-closes-15b-revenue-soars-18m-660m-projected-while-owning-zero-chips.htm"
+   },
+   {
+    "label": "Bloomberg, 14 avr. 2026",
+    "url": "https://www.bloomberg.com/news/articles/2026-04-14/jane-street-in-talks-to-back-fluidstack-at-18-billion-valuation"
+   }
+  ],
+  "addedAt": "2026-10-12T20:45:00Z"
+ },
+ {
   "addedAt": "2026-09-22T08:00:00Z",
   "companyId": "figure-ai",
   "date": "2026-09-03",
@@ -3300,6 +3326,28 @@
   ],
   "summary": "Des milliers de GPU Vera Rubin en Europe et un mode de déploiement capable de fonctionner sans connexion au cloud.",
   "title": "Microsoft étend son partenariat avec Mistral pour plusieurs milliards"
+ },
+ {
+  "id": "fluidstack-2026-07-20-serie-a",
+  "companyId": "fluidstack",
+  "date": "2026-07-20",
+  "title": "Fluidstack confirme une série A de 830 millions de dollars, valorisée 7,5 milliards",
+  "summary": "La société a rendu public un tour mené par Situational Awareness, le fonds de Leopold Aschenbrenner, bouclé dès janvier 2026.",
+  "detail": "Les autres investisseurs ne sont pas nommés. La presse avait évoqué au premier semestre un tour d'environ 700 millions de dollars à 7 milliards de valorisation.\n\nLes fonds doivent accélérer le déploiement de calcul pour les laboratoires d'IA, dont les centres de données sur mesure d'Anthropic au Texas et à New York. Fluidstack annonce le recrutement de centaines de personnes.",
+  "impact": "Première levée en fonds propres de cette taille pour Fluidstack, qui finance jusque-là surtout ses projets par la dette et les contrats de location.",
+  "signal": "optimiste",
+  "rationale": "Montant important et confirmation officielle de la valorisation.",
+  "sources": [
+   {
+    "label": "Fluidstack, 20 juil. 2026",
+    "url": "https://fluidstack.io/news/series-a-announcement"
+   },
+   {
+    "label": "SiliconANGLE, 21 juil. 2026",
+    "url": "https://siliconangle.com/2026/07/21/ai-data-center-builder-fluidstack-raises-830m-7-5b-valuation/"
+   }
+  ],
+  "addedAt": "2026-10-12T20:45:00Z"
  },
  {
   "addedAt": "2026-09-24T12:00:00Z",
