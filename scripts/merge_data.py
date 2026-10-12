@@ -2,7 +2,8 @@
 """Fusionne dans l'arbre de travail (main) les données d'une branche de veille : python3 scripts/merge_data.py <ref>.
 
 Contrairement à une fusion git ligne à ligne, deux passages qui ajoutent chacun des articles ne créent pas de conflit :
-- articles : union par id (la version de main gagne en cas de doublon), tri du plus récent au plus ancien ;
+- articles : union par id, tri du plus récent au plus ancien ; un article modifié sur la branche et inchangé sur main
+  prend la version de la branche (passage d'enrichissement), sinon la version de main gagne ;
 - sociétés : ajout des nouvelles ; une société modifiée sur la branche et inchangée sur main prend la version de la branche ;
 - status : le lastRun le plus récent.
 N'écrit que les fichiers qui changent. Affiche le nombre d'articles et de sociétés ajoutés.
@@ -26,9 +27,15 @@ def save(name, data):
 base = subprocess.check_output(['git', 'merge-base', 'HEAD', ref], text=True).strip()
 
 arts, b_arts = load('articles.json'), load_ref(ref, 'articles.json') or []
-known = {a['id'] for a in arts}
+base_arts = {a.get('id'): a for a in load_ref(base, 'articles.json') or []}
+known = {a['id']: i for i, a in enumerate(arts)}
 new_arts = [a for a in b_arts if a.get('id') not in known]
-if new_arts:
+edited = 0
+for a in b_arts:
+    i = known.get(a.get('id'))
+    if i is not None and a != arts[i] and arts[i] == base_arts.get(a['id']) and a != base_arts.get(a['id']):
+        arts[i] = a; edited += 1
+if new_arts or edited:
     arts = sorted(arts + new_arts, key=lambda a: (a.get('date', ''), a.get('addedAt', '')), reverse=True)
     save('articles.json', arts)
 
@@ -46,4 +53,4 @@ if changed: save('companies.json', cos)
 st, b_st = load('status.json'), load_ref(ref, 'status.json')
 if b_st and b_st.get('lastRun', '') > st.get('lastRun', ''): save('status.json', b_st)
 
-print(f"{len(new_arts)} article(s) et {added_cos} société(s) ajoutés depuis {ref}")
+print(f"{len(new_arts)} article(s) ajouté(s), {edited} enrichi(s) et {added_cos} société(s) ajoutée(s) depuis {ref}")

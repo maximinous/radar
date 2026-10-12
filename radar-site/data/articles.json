@@ -1313,7 +1313,7 @@
   "date": "2026-09-25",
   "title": "Cipher prolonge à 20 ans le bail de Fluidstack à Barber Lake, plus de 9 milliards de dollars de revenus",
   "summary": "Cipher Digital a modifié le bail de Fluidstack à Colorado City (Texas), qui passe de 10 à 20 ans et porte les revenus contractuels du site à plus de 9 milliards de dollars.",
-  "detail": "Un laboratoire d'IA non nommé s'est engagé à louer le site pour 10 années supplémentaires, soit environ 5,2 milliards de dollars de plus. Les salles seraient livrées du T4 2026 au T1 2027.\n\nCipher supporte les premiers 359,3 millions de dollars de dépassement de budget, le locataire couvrant ensuite la moitié.",
+  "detail": "Un laboratoire d'IA non nommé s'est engagé à louer le site pour 10 années supplémentaires, soit environ 5,2 milliards de dollars de plus. Les salles seraient livrées du T4 2026 au T1 2027.\n\nCipher supporte les premiers 359,3 millions de dollars de dépassement de budget, le locataire couvrant ensuite la moitié.\n\nLe bail initial, signé en septembre 2025, portait sur 168 MW pour environ 3 milliards de dollars sur 10 ans, avec une garantie de Google de 1,4 milliard. Fluidstack l'avait étendu en novembre 2025 à tout le site (300 MW). Les revenus contractuels de Barber Lake passent ainsi de 3,8 à plus de 9 milliards de dollars.",
   "impact": "Le site, loué par Fluidstack, voit sa durée contractuelle doubler avec un engagement ferme d'un laboratoire d'IA.",
   "signal": "optimiste",
   "rationale": "L'allongement du bail adossé à un laboratoire d'IA renforce la visibilité sur le site.",
@@ -1321,6 +1321,14 @@
    {
     "label": "Cipher Digital, communiqué, 25 sept. 2026",
     "url": "https://www.sec.gov/Archives/edgar/data/0001819989/000181998926000043/barberlakeleaseamendmentpr.htm"
+   },
+   {
+    "label": "Cipher Mining, communiqué, nov. 2025",
+    "url": "https://www.nasdaq.com/press-release/cipher-mining-signs-additional-56-mw-10-year-ai-hosting-agreement-fluidstack-2025-11"
+   },
+   {
+    "label": "The Block, 25 sept. 2025",
+    "url": "https://www.theblock.co/post/372315/cipher-mining-google-backed-3-billion-usd-ai-hosting-deal"
    }
   ],
   "addedAt": "2026-10-12T20:50:56Z"
@@ -2779,7 +2787,7 @@
   "date": "2026-09-10",
   "title": "Le Pentagone négocierait un prêt de 5 milliards de dollars à Fluidstack",
   "summary": "Selon le Wall Street Journal, le Bureau du capital stratégique du Pentagone est en discussions pour prêter environ 5 milliards de dollars à Fluidstack.",
-  "detail": "Le prêt servirait à renforcer la chaîne d'approvisionnement et les capacités de fabrication de composants de centres de données, et non à financer directement une nouvelle installation d'IA. Il serait le plus gros prêt de ce bureau, qui a déjà financé des producteurs de terres rares et de drones.\n\nLe ministère de la Défense et Fluidstack n'ont pas commenté, et les termes ne sont pas connus.",
+  "detail": "Le prêt servirait à renforcer la chaîne d'approvisionnement et les capacités de fabrication de composants de centres de données, et non à financer directement une nouvelle installation d'IA. Il serait le plus gros prêt de ce bureau, qui a déjà financé des producteurs de terres rares et de drones.\n\nLe ministère de la Défense et Fluidstack n'ont pas commenté, et ni le taux, ni la durée, ni les garanties ne sont connus. Aucun accord signé n'avait été annoncé au 12 octobre.",
   "impact": "Un prêt public marquerait l'entrée de Fluidstack dans la politique industrielle de défense américaine.",
   "signal": "optimiste",
   "rationale": "Un financement fédéral de cette taille serait un soutien notable, mais il reste au stade des discussions.",
@@ -2787,6 +2795,10 @@
    {
     "label": "Reuters, d'après le WSJ, 10 sept. 2026 (via The Star, 11 sept.)",
     "url": "https://www.thestar.com.my/tech/tech-news/2026/09/11/pentagon-in-talks-to-lend-5-billion-to-ai-cloud-startup-fluidstack-wsj-reports"
+   },
+   {
+    "label": "DCD, 11 sept. 2026",
+    "url": "https://www.datacenterdynamics.com/en/news/pentagon-in-talks-to-loan-fluidstack-5bn-report/"
    }
   ],
   "addedAt": "2026-10-12T20:50:56Z"
@@ -2797,7 +2809,7 @@
   "date": "2026-09-10",
   "title": "Fluidstack lance les travaux d'un campus de 4 milliards de dollars dans le comté de Cameron (Texas)",
   "summary": "Fluidstack a annoncé le début de la construction de la première phase d'un campus de centres de données de 4 milliards de dollars près de Harlingen.",
-  "detail": "Le site couvre plus de 1 100 acres. Le projet annonce plus de 2 500 emplois de construction et plusieurs centaines d'emplois permanents. Le comté a délivré un permis de chantier, et la société cherche une solution pour l'évacuation des eaux après le report par Harlingen d'un accord de drainage.\n\nLa capacité n'est pas précisée dans l'article de KRGV ; un suivi tiers évoque jusqu'à 1,5 GW, non confirmé.",
+  "detail": "Le site couvre plus de 1 100 acres. Le projet annonce plus de 2 500 emplois de construction et plusieurs centaines d'emplois permanents. Le comté a délivré un permis de chantier, et la société cherche une solution pour l'évacuation des eaux après le report par Harlingen, le 3 septembre, d'un accord qui lui aurait permis de rejeter ses eaux pluviales dans un canal de la ville. Fluidstack dit financer elle-même son énergie et son eau.\n\nLa capacité n'est pas précisée dans l'article de KRGV ; un suivi tiers évoque jusqu'à 1,5 GW, non confirmé.",
   "impact": "Le projet donne à Fluidstack un nouveau grand campus en construction au Texas.",
   "signal": "optimiste",
   "rationale": "Le chantier démarre, avec des réserves locales sur le drainage et l'eau.",
@@ -2805,6 +2817,10 @@
    {
     "label": "KRGV, 10 sept. 2026",
     "url": "https://www.krgv.com/news/fluidstack-breaks-ground-on-4-billion-data-center-campus-in-cameron-county"
+   },
+   {
+    "label": "KRGV, 3 sept. 2026",
+    "url": "https://www.krgv.com/news/harlingen-tables-fluidstack-data-center-drainage-request-after-public-pushback"
    }
   ],
   "addedAt": "2026-10-12T20:50:56Z"
@@ -3479,7 +3495,7 @@
   "date": "2026-07-07",
   "title": "Fluidstack prépare un centre de données dans le comté d'Okmulgee (Oklahoma), face à l'opposition locale",
   "summary": "Fluidstack projette un campus dans le comté d'Okmulgee, qui suscite l'opposition d'habitants et d'un collectif local.",
-  "detail": "La société a ouvert un site d'information public et dit ne pas demander d'incitations fiscales locales. Une réunion publique a eu lieu le 20 juillet. Les habitants craignent bruit, santé, valeur immobilière et impact sur le réseau électrique ; taille et capacité ne sont pas précisées.\n\nLe 31 août, le comté a refusé un permis de zone inondable pour le projet, sans préjudice, en relevant six problèmes dans la demande. Le promoteur peut corriger et redéposer.",
+  "detail": "La société a ouvert un site d'information public et dit ne pas demander d'incitations fiscales locales. Lors d'une réunion publique le 20 juillet, Fluidstack a annoncé 7 millions de dollars de contributions aux établissements scolaires du comté et un début de travaux à l'automne sur un terrain de 200 acres, près de la réserve naturelle de Deep Fork. Les habitants craignent bruit, santé, valeur immobilière et impact sur le réseau électrique ; taille et capacité ne sont pas précisées.\n\nLe 31 août, le comté a refusé un permis de zone inondable pour le projet, sans préjudice, en relevant six problèmes dans la demande. Le promoteur peut corriger et redéposer.",
   "impact": "Le projet avance mais se heurte à des obstacles locaux et réglementaires avant toute construction.",
   "signal": "prudent",
   "rationale": "Opposition publique et permis de zone inondable refusé retardent le projet, même si le refus est révisable.",
@@ -3487,6 +3503,10 @@
    {
     "label": "FOX23, 7 juil. 2026",
     "url": "https://fox23.com/news/local/community-pushes-back-against-planned-okmulgee-county-data-center"
+   },
+   {
+    "label": "KJRH, 20 juil. 2026",
+    "url": "https://www.kjrh.com/news/local-news/data-center-developer-seeks-to-change-impressions-at-sole-okmulgee-public-info-event"
    },
    {
     "label": "Your Okmulgee, 2 sept. 2026",
