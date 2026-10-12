@@ -1,96 +1,20 @@
 {
- "generatedAt": "2026-10-09T19:53:21Z",
+ "generatedAt": "2026-10-12T19:56:04Z",
  "windowHours": 48,
- "headlinesRead": 1048,
- "count": 33,
+ "headlinesRead": 773,
+ "count": 15,
  "companies": [
-  {
-   "companyId": "prometheus",
-   "name": "Prometheus",
-   "candidates": [
-    {
-     "date": "2026-10-08 15:37",
-     "media": "Yellow.com",
-     "title": "Jeff Bezos Says AI May Not Kill Jobs As Prometheus Raises $12B",
-     "site": "https://yellow.com",
-     "overlap": 0,
-     "reprises": 2
-    },
-    {
-     "date": "2026-10-08 06:57",
-     "media": "Unisba Media",
-     "title": "FULL DISCUSSION: Jeff Bezos Unveils Prometheus AI, Predicts Space Computing Will Transform The World Kampala (2RzdSdTDAN)",
-     "site": "https://media.unisba.ac.id",
-     "overlap": 0,
-     "reprises": 1
-    }
-   ]
-  },
-  {
-   "companyId": "figure-ai",
-   "name": "Figure AI",
-   "candidates": [
-    {
-     "date": "2026-10-09 14:23",
-     "media": "The Rundown AI",
-     "title": "Brett Adcock’s Hark launches an AI assistant with devices planned for 2027",
-     "site": "https://www.therundown.ai",
-     "overlap": 0.12,
-     "reprises": 0
-    }
-   ]
-  },
   {
    "companyId": "mistral-ai",
    "name": "Mistral AI",
    "candidates": [
     {
-     "date": "2026-10-08 13:54",
+     "date": "2026-10-12 18:27",
      "media": "DD India",
      "title": "France’s Mistral launches AI model it says outperforms some Chinese rivals",
      "site": "https://ddindia.co.in",
      "overlap": 0.38,
      "reprises": 1
-    },
-    {
-     "date": "2026-10-08 16:25",
-     "media": "Brief IA",
-     "title": "Mistral AI lance ML4 en open-weight, priorité cybersécurité",
-     "site": "https://www.briefia.fr",
-     "overlap": 0.33,
-     "reprises": 1
-    },
-    {
-     "date": "2026-10-08 18:34",
-     "media": "Journal du Geek",
-     "title": "Adieu ChatGPT et Claude : Mistral n’est plus qu’à quelques mois des géants américains, d’après son CEO",
-     "site": "https://www.journaldugeek.com",
-     "overlap": 0.18,
-     "reprises": 1
-    },
-    {
-     "date": "2026-10-09 04:51",
-     "media": "mezha.net",
-     "title": "Mistral unveils ML4 and claims it can rival closed AI models",
-     "site": "https://mezha.net",
-     "overlap": 0.14,
-     "reprises": 1
-    },
-    {
-     "date": "2026-10-08 10:46",
-     "media": "SNRT News",
-     "title": "IA : Mistral dévoile son plus grand modèle et tente de revenir dans la course mondiale",
-     "site": "https://snrtnews.com",
-     "overlap": 0.38,
-     "reprises": 0
-    },
-    {
-     "date": "2026-10-09 07:04",
-     "media": "Brief IA",
-     "title": "Mistral investit 3 Md€ dans le calcul et lance Large 4",
-     "site": "https://www.briefia.fr",
-     "overlap": 0.25,
-     "reprises": 0
     }
    ]
   },
@@ -99,65 +23,33 @@
    "name": "Stripe",
    "candidates": [
     {
-     "date": "2026-10-08 08:06",
-     "media": "openPR.com",
-     "title": "Crypto News: Stripe Expands Stablecoin Cards to 100 Countries as Remittix Tests Crypto-to-Bank Payments",
-     "site": "https://www.openpr.com",
-     "overlap": 0.36,
-     "reprises": 1
-    },
-    {
-     "date": "2026-10-07 20:31",
-     "media": "Stocktwits",
-     "title": "PYPL Stock Slips 2% After-Hours — Stripe Weighs Next Move On PayPal While Pursuing $10B OpenRouter Acquisition",
-     "site": "https://stocktwits.com",
-     "overlap": 0.07,
-     "reprises": 0
-    },
-    {
-     "date": "2026-10-08 12:43",
-     "media": "timesdaily.com",
-     "title": "Secure and Trusted Ways to Buy Verified Stripe Accounts ...",
-     "site": "https://www.timesdaily.com",
+     "date": "2026-10-12 15:25",
+     "media": "Pluang",
+     "title": "Stripe, Mastercard, and Circle expand stablecoi...",
+     "site": "https://pluang.com",
      "overlap": 0.0,
+     "reprises": 2
+    },
+    {
+     "date": "2026-10-11 15:21",
+     "media": "Stocktwits",
+     "title": "PYPL Stock Rises After Report Says Stripe And Advent May Be Ready To Raise Their PayPal Bid",
+     "site": "https://stocktwits.com",
+     "overlap": 0.08,
      "reprises": 0
     }
    ]
   },
   {
-   "companyId": "kraken",
-   "name": "Kraken",
+   "companyId": "lovable",
+   "name": "Lovable",
    "candidates": [
     {
-     "date": "2026-10-09 10:48",
-     "media": "Yellow.com",
-     "title": "MEXC et Payward mettent en avant leur partenariat alors que la crypto et la finance traditionnelle convergent à TOKEN2049",
-     "site": "https://yellow.com",
-     "overlap": 0.25,
-     "reprises": 2
-    },
-    {
-     "date": "2026-10-08 07:51",
-     "media": "Bitcoin Sistemi",
-     "title": "US Giant Bank in Talks with Kraken: Liquidity Agreement for Crypto Transactions May Be On the Way! Here Are the Details",
-     "site": "https://en.bitcoinsistemi.com",
-     "overlap": 0.25,
-     "reprises": 1
-    },
-    {
-     "date": "2026-10-08 19:03",
-     "media": "Traders Union",
-     "title": "Kraken Exchange introduces trader challenge offering funding and profit sharing",
-     "site": "https://tradersunion.com",
-     "overlap": 0.0,
-     "reprises": 0
-    },
-    {
-     "date": "2026-10-09 07:43",
-     "media": "Blockhead",
-     "title": "Reap's Daren Guo Says Payward Deal Sped Up an Existing Roadmap, With Agentic Payments Next",
-     "site": "https://www.blockhead.co",
-     "overlap": 0.08,
+     "date": "2026-10-12 09:11",
+     "media": "CBN.com.cy",
+     "title": "Capacitor Partners becomes a Lovable Solution Partner",
+     "site": "https://www.cbn.com.cy",
+     "overlap": 0,
      "reprises": 0
     }
    ]
@@ -167,51 +59,35 @@
    "name": "Polymarket",
    "candidates": [
     {
-     "date": "2026-10-09 16:45",
-     "media": "OregonLive.com",
-     "title": "Polymarket launches $25 promo code “OREGON” for UCLA-Oregon",
-     "site": "https://www.oregonlive.com",
-     "overlap": 0.2,
+     "date": "2026-10-12 16:45",
+     "media": "MassLive.com",
+     "title": "NFL Polymarket promo code “MASS” enhances $25 Bills-Rams deal",
+     "site": "https://www.masslive.com",
+     "overlap": 0.12,
      "reprises": 2
     },
     {
-     "date": "2026-10-08 05:26",
-     "media": "디지털투데이",
-     "title": "Polymarket CEO says investors should stop chasing 100x crypto wins",
-     "site": "https://www.digitaltoday.co.kr",
+     "date": "2026-10-10 23:45",
+     "media": "OregonLive.com",
+     "title": "Polymarket launches new $25 referral code “OREGON” for USC-Penn State live odds",
+     "site": "https://www.oregonlive.com",
      "overlap": 0.11,
-     "reprises": 1
+     "reprises": 0
     },
     {
-     "date": "2026-10-08 16:45",
-     "media": "Cleveland.com",
-     "title": "MLB Polymarket promo code “CLEVE” updates $25 Guardians-White Sox Game 4 deal",
-     "site": "https://www.cleveland.com",
-     "overlap": 0.1,
-     "reprises": 1
-    },
-    {
-     "date": "2026-10-08 23:45",
-     "media": "Cleveland.com",
-     "title": "Polymarket referral code “CLEVE” launches $25 bonus in OH for Buccaneers-Cowboys tonight",
-     "site": "https://www.cleveland.com",
-     "overlap": 0.12,
-     "reprises": 1
-    },
-    {
-     "date": "2026-10-09 07:05",
-     "media": "Yahoo Sports",
-     "title": "LeBron James is worth over $1 billion, and his Polymarket deal tops his NBA paycheck",
-     "site": "https://sports.yahoo.com",
-     "overlap": 0.1,
-     "reprises": 1
-    },
-    {
-     "date": "2026-10-08 04:39",
-     "media": "KuCoin",
-     "title": "Polymarket CEO Warns '100x' Token Hype Drives Irrational Exuberance",
-     "site": "https://www.kucoin.com",
+     "date": "2026-10-11 12:24",
+     "media": "Stocktwits",
+     "title": "DKNG, FLUT Stocks Drop After Reported Fundraising Talks At Kalshi, Polymarket At $20B Valuation",
+     "site": "https://stocktwits.com",
      "overlap": 0.0,
+     "reprises": 0
+    },
+    {
+     "date": "2026-10-11 13:45",
+     "media": "Syracuse.com",
+     "title": "NFL Polymarket referral code “CUSE” launches $25 bonus for Week 5",
+     "site": "https://www.syracuse.com",
+     "overlap": 0.14,
      "reprises": 0
     }
    ]
@@ -221,28 +97,12 @@
    "name": "Shield AI",
    "candidates": [
     {
-     "date": "2026-10-08 17:57",
-     "media": "citybiz",
-     "title": "Shield AI Secures $400M in Government and Private Funding for X-BAT Fighter Program",
-     "site": "https://www.citybiz.co",
-     "overlap": 0.38,
-     "reprises": 2
-    },
-    {
-     "date": "2026-10-09 13:16",
-     "media": "Aerospace Global News",
-     "title": "US Navy boosts X-BAT funding ahead of planned 2026 flight testing",
-     "site": "https://aerospaceglobalnews.com",
-     "overlap": 0.33,
-     "reprises": 2
-    },
-    {
-     "date": "2026-10-08 19:40",
-     "media": "Aviacionline",
-     "title": "Shield AI accelerates X-BAT development and prepares its industrial expansion in Europe with a hub in Greece",
-     "site": "https://www.aviacionline.com",
-     "overlap": 0.22,
-     "reprises": 1
+     "date": "2026-10-12 19:09",
+     "media": "GuruFocus",
+     "title": "GE Aerospace Partners with Shield AI and WZL-2 to Boost F110 Eng",
+     "site": "https://www.gurufocus.com",
+     "overlap": 0.0,
+     "reprises": 6
     }
    ]
   },
@@ -251,73 +111,51 @@
    "name": "Anthropic",
    "candidates": [
     {
-     "date": "2026-10-09 11:58",
-     "media": "Business Insider Africa",
-     "title": "Anthropic wants users to be nicer to Claude. Here's what smart people are saying about its move to ban abusive behavior.",
-     "site": "https://africa.businessinsider.com",
-     "overlap": 0.07,
-     "reprises": 5
+     "date": "2026-10-12 18:58",
+     "media": "Barron's",
+     "title": "Anthropic Deal Report Gives IREN Stock Early Boost Before Gains Fade",
+     "site": "https://www.barrons.com",
+     "overlap": 0.1,
+     "reprises": 4
     },
     {
-     "date": "2026-10-09 14:40",
-     "media": "Tech Edition",
-     "title": "Anthropic launches Claude Dashboards and Motion for data visualisation",
-     "site": "https://www.techedt.com",
-     "overlap": 0.17,
-     "reprises": 5
+     "date": "2026-10-12 12:30",
+     "media": "Yahoo Finance",
+     "title": "IREN Climbs 4% on Report of Unconfirmed Anthropic Cloud Deal; TeraWulf and Applied Digital Hold Flat",
+     "site": "https://finance.yahoo.com",
+     "overlap": 0.09,
+     "reprises": 3
     },
     {
-     "date": "2026-10-09 00:26",
-     "media": "Developpez.com",
-     "title": "Anthropic annonce que son assistant IA Claude s'intègre désormais à Google Workspace pour modifier vos documents Google Docs, Sheets et Slides",
-     "site": "https://intelligence-artificielle.developpez.com",
-     "overlap": 0.23,
-     "reprises": 2
+     "date": "2026-10-12 15:23",
+     "media": "TIKR.com",
+     "title": "IREN Stock Jumps 4% Following Landmark Cloud Computing Deal With Anthropic",
+     "site": "https://www.tikr.com",
+     "overlap": 0.12,
+     "reprises": 3
     },
     {
-     "date": "2026-10-09 19:22",
-     "media": "Bloomberg.com",
-     "title": "Anthropic IPO Forces Question of How to Price Rogue AI Risk",
-     "site": "https://www.bloomberg.com",
+     "date": "2026-10-12 04:33",
+     "media": "TradingView",
+     "title": "ANTHROPIC, une IPO à 2000 milliards avant Thanksgiving ? pour SP:SPX par Swissquote",
+     "site": "https://fr.tradingview.com",
      "overlap": 0.14,
-     "reprises": 2
-    },
-    {
-     "date": "2026-10-08 06:24",
-     "media": "lebigdata.fr",
-     "title": "Anthropic lance Haiku 5.5 : le nouveau rival de GPT-6 Luna vaut-il mieux ?",
-     "site": "https://www.lebigdata.fr",
-     "overlap": 0.38,
      "reprises": 1
     },
     {
-     "date": "2026-10-08 09:07",
-     "media": "Siècle Digital",
-     "title": "Anthropic ouvre davantage l’accès à Claude Mythos, une IA aussi puissante que redoutée",
-     "site": "https://siecledigital.fr",
-     "overlap": 0.25,
-     "reprises": 1
-    }
-   ]
-  },
-  {
-   "companyId": "perplexity",
-   "name": "Perplexity",
-   "candidates": [
-    {
-     "date": "2026-10-08 13:17",
-     "media": "The Times of India",
-     "title": "Popular VC Paul Graham disagrees with Amazon ‘ban’ on Meta's Muse and Perplexity's Comet AI; says that bl",
-     "site": "https://timesofindia.indiatimes.com",
-     "overlap": 0.0,
+     "date": "2026-10-12 12:04",
+     "media": "PC Astuces",
+     "title": "Claude passe à la vitesse supérieure : Anthropic dévoile deux nouvelles fonctions impressionnantes",
+     "site": "https://actu.pcastuces.com",
+     "overlap": 0.22,
      "reprises": 1
     },
     {
-     "date": "2026-10-09 09:05",
-     "media": "آي-فون إسلام",
-     "title": "Perplexity launches health platform with Apple Health… Your smart doctor now knows you well!",
-     "site": "https://iphoneislam.com",
-     "overlap": 0.0,
+     "date": "2026-10-12 17:31",
+     "media": "The Information",
+     "title": "Meta Unveils New AI Models to Challenge OpenAI and Anthropic",
+     "site": "https://www.theinformation.com",
+     "overlap": 0.2,
      "reprises": 1
     }
    ]
