@@ -4334,6 +4334,24 @@
   "addedAt": "2026-10-12T21:14:04Z"
  },
  {
+  "id": "fluidstack-2025-02-20-serie-a-200m",
+  "date": "2025-02-20",
+  "title": "Fluidstack chercherait jusqu'à 200 millions de dollars pour son supercalculateur français",
+  "summary": "Selon Bloomberg, Fluidstack discute avec des investisseurs d'une série A pouvant atteindre 200 millions de dollars, dix jours après l'annonce de son projet d'1 GW en France.",
+  "detail": "La société n'avait levé jusque-là qu'environ 4,5 millions de dollars en fonds propres. Le projet français, évalué à 10 milliards d'euros, devait ouvrir en 2026 et s'appuyer surtout sur l'énergie nucléaire. Un porte-parole n'a pas commenté.\n\nLa série A sera finalement bouclée en janvier 2026, pour 830 millions de dollars.",
+  "impact": "Fluidstack doit passer d'un modèle peu capitalisé à des levées importantes pour financer des projets de cette taille.",
+  "signal": "neutre",
+  "rationale": "Discussions non confirmées, pour un montant modeste au regard du projet annoncé.",
+  "sources": [
+   {
+    "label": "Verdict, d'après Bloomberg, 20 févr. 2025",
+    "url": "https://www.verdict.co.uk/fluidstack-in-talks-to-raise-200m-fors-ai-supercomputer/"
+   }
+  ],
+  "addedAt": "2026-10-12T21:21:34Z",
+  "companyId": "fluidstack"
+ },
+ {
   "id": "fluidstack-2025-02-10-france-1gw",
   "companyId": "fluidstack",
   "date": "2025-02-10",
