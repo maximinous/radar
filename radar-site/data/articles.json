@@ -4452,6 +4452,24 @@
   "addedAt": "2026-10-12T21:14:04Z"
  },
  {
+  "id": "fluidstack-2025-02-21-doutes-france",
+  "date": "2025-02-21",
+  "title": "Le projet français de Fluidstack à 10 milliards d'euros suscite des doutes sur ses moyens",
+  "summary": "FrenchWeb souligne l'écart entre le supercalculateur annoncé et la taille de Fluidstack, qui n'avait levé qu'environ 4,5 millions de dollars en fonds propres.",
+  "detail": "La société, présentée comme une jeune pousse peu connue, cherche alors 100 à 200 millions de dollars en série A, bien loin du coût d'un site d'1 GW. Son principal investisseur cité est Cacti Ventures, un petit fonds. FrenchWeb rappelle que son concurrent CoreWeave avait levé plus de 3 milliards de dollars et que les clients revendiqués, comme Mistral AI, Poolside ou Meta, ne sont pas vérifiés.\n\nFluidstack renoncera au projet en mars 2026 pour se recentrer sur les États-Unis.",
+  "impact": "Les doutes sur la capacité de financement pèsent sur la crédibilité du projet français dès son annonce.",
+  "signal": "prudent",
+  "rationale": "Analyse de presse critique sur l'adéquation entre l'ambition affichée et les moyens de la société.",
+  "sources": [
+   {
+    "label": "FrenchWeb, 21 févr. 2025",
+    "url": "https://www.frenchweb.fr/laccord-entre-la-france-et-fluidstack-pour-un-supercalculateur-a-10-milliards-interroge/451487"
+   }
+  ],
+  "addedAt": "2026-10-12T21:26:20Z",
+  "companyId": "fluidstack"
+ },
+ {
   "id": "fluidstack-2025-02-20-serie-a-200m",
   "date": "2025-02-20",
   "title": "Fluidstack chercherait jusqu'à 200 millions de dollars pour son supercalculateur français",
