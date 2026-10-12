@@ -4290,6 +4290,28 @@
   "addedAt": "2026-10-12T21:14:04Z"
  },
  {
+  "id": "fluidstack-2025-03-14-ddn-mistral",
+  "date": "2025-03-14",
+  "title": "Fluidstack, DDN et Mistral AI s'allient sur l'infrastructure d'IA pour les entreprises",
+  "summary": "Fluidstack et Mistral AI ont retenu la plateforme de stockage de DDN pour entraîner et déployer les grands modèles de Mistral, dans une alliance à trois annoncée à Paris.",
+  "detail": "Les trois sociétés présentent une offre plus flexible et moins coûteuse pour les entreprises qui déploient de l'IA. Aucun montant ni volume n'est communiqué. César Maklary, président de Fluidstack, et le directeur technique de Mistral commentent l'accord.\n\nL'annonce intervient dix jours après le projet de supercalculateur de Fluidstack et Eclairion pour Mistral en Essonne.",
+  "impact": "Fluidstack consolide sa relation avec Mistral, son principal client européen, et s'appuie sur un fournisseur de stockage de référence.",
+  "signal": "optimiste",
+  "rationale": "Partenariat avec un client de premier plan, sans chiffres publiés.",
+  "sources": [
+   {
+    "label": "Business Wire, 14 mars 2025",
+    "url": "https://www.businesswire.com/news/home/20250314156945/en"
+   },
+   {
+    "label": "SDxCentral, 14 mars 2025",
+    "url": "https://www.sdxcentral.com/news/ddn-and-fluidstack-partner-with-mistral-ai-to-enhance-ai-infrastructure/"
+   }
+  ],
+  "addedAt": "2026-10-12T21:22:07Z",
+  "companyId": "fluidstack"
+ },
+ {
   "id": "fluidstack-2025-03-03-mistral-eclairion",
   "companyId": "fluidstack",
   "date": "2025-03-03",
