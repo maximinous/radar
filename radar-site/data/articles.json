@@ -4126,6 +4126,28 @@
   "addedAt": "2026-10-12T21:14:04Z"
  },
  {
+  "id": "fluidstack-2025-12-16-boost-run",
+  "date": "2025-12-16",
+  "title": "Fluidstack signe un contrat de deux ans avec Boost Run pour 1 152 GPU B300",
+  "summary": "Boost Run annonce un contrat de deux ans d'environ 127 millions de dollars avec Fluidstack pour des clusters d'entraînement et d'inférence.",
+  "detail": "Selon les dépôts de Boost Run auprès de la SEC, l'accord avec la filiale Fluidstack Infrastructure 1 date du 6 novembre 2025. Il porte sur 1 152 puces Nvidia B300 pour deux ans à partir de la livraison, prévue en février 2026, avec environ 63,6 millions de dollars de frais engagés, dont 12,7 millions payés d'avance. Les deux montants publiés ne se recoupent pas exactement.",
+  "impact": "Fluidstack complète ses propres campus par de la capacité louée à d'autres opérateurs pour servir ses clients plus vite.",
+  "signal": "neutre",
+  "rationale": "Contrat de taille modeste au regard des engagements de Fluidstack, dont les chiffres diffèrent selon les documents.",
+  "sources": [
+   {
+    "label": "Boost Run, formulaire S-4 (SEC), 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/2090646/000149315226002095/forms-4.htm"
+   },
+   {
+    "label": "Boost Run, communiqué, déc. 2025",
+    "url": "https://www.nasdaq.com/press-release/boost-run-expands-ai-infrastructure-ecosystem-additional-gpu-data-center-financing"
+   }
+  ],
+  "addedAt": "2026-10-12T21:24:24Z",
+  "companyId": "fluidstack"
+ },
+ {
   "id": "fluidstack-2025-12-04-siege-new-york",
   "companyId": "fluidstack",
   "date": "2025-12-04",
