@@ -7,6 +7,9 @@ Usage :
       et fusionne les résultats. C'est l'usage normal du passage de veille.
   python3 scripts/news_feed.py '<requête>' [jours] [--liens]
       Une requête libre, syntaxe Google News, par ex. '"Mistral AI" OR "Arthur Mensch"'.
+  python3 scripts/news_feed.py --societe <id> --depuis AAAA-MM-JJ
+      Rattrapage long : interroge Google News mois par mois depuis cette date (une fenêtre after:/before: par mois),
+      car un flux est plafonné à 100 titres et une fenêtre de plusieurs mois en perd beaucoup.
 Jours par défaut : 2. Affiche une ligne par titre : date UTC | média | titre | site du média (et le lien Google News avec --liens).
 Les liens Google News sont des redirections : pour lire l'article, cherche le titre exact (WebSearch) ou ouvre le site du média.
 Plusieurs requêtes simples valent mieux qu'une seule longue : Google News perd des résultats quand on imbrique OR et parenthèses.
@@ -21,11 +24,22 @@ def queries_for(cid):
     if not c: sys.exit(f'société inconnue : {cid}')
     return [q for q in [c.get('newsQuery')] + list(c.get('newsQueriesExtra', [])) if q]
 
+def windows(since):
+    """Fenêtres mensuelles 'after:A before:B' depuis la date donnée jusqu'à demain."""
+    from datetime import date, timedelta
+    d, end, out = date.fromisoformat(since), date.today() + timedelta(days=1), []
+    while d < end:
+        n = (d.replace(day=1) + timedelta(days=32)).replace(day=1)
+        out.append(f'after:{(d - timedelta(days=1)).isoformat()} before:{min(n, end).isoformat()}')
+        d = n
+    return out
+
 def fetch(query, days):
     """Titres Google News (FR et EN) pour une requête : liste de (date, média, titre, site, lien)."""
     rows = []
+    span = days if days.startswith('after:') else f'when:{days}d'
     for hl, gl, ceid in (('fr', 'FR', 'FR:fr'), ('en-US', 'US', 'US:en')):
-        q = urllib.parse.quote(f'{query} when:{days}d')
+        q = urllib.parse.quote(f'{query} {span}')
         url = f'https://news.google.com/rss/search?q={q}&hl={hl}&gl={gl}&ceid={ceid}'
         try:
             xml = urllib.request.urlopen(urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'}), timeout=20).read().decode('utf-8', 'replace')
@@ -56,7 +70,15 @@ if __name__ == '__main__':
         name, queries, rest = args[1], queries_for(args[1]), args[2:]
     else:
         name, queries, rest = args[0], [args[0]], args[1:]
-    days = rest[0] if rest else '2'
-    rows = merged(queries, days)
-    print(f'# {name} : {len(rows)} titres sur {days} jour(s), {len(queries)} requête(s)')
+    if rest[:1] == ['--depuis']:
+        rows, seen = [], set()
+        for w in windows(rest[1]):
+            for r in merged(queries, w):
+                if r[2].lower()[:80] not in seen: seen.add(r[2].lower()[:80]); rows.append(r)
+        rows.sort(reverse=True); days = 'mois par mois depuis le ' + rest[1]
+    else:
+        days = rest[0] if rest else '2'
+        rows = merged(queries, days)
+    span = days if days.startswith('mois') else f'{days} jour(s)'
+    print(f'# {name} : {len(rows)} titres sur {span}, {len(queries)} requête(s)')
     for r in rows: print(' | '.join(r if links else r[:4]))

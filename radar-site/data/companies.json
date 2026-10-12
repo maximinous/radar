@@ -1364,5 +1364,97 @@
     "articleId": "crusoe-2026-09-17-serie-f"
    }
   ]
+ },
+ {
+  "id": "fluidstack",
+  "name": "Fluidstack",
+  "sector": "Infrastructure IA",
+  "order": 18,
+  "oneLiner": "Construit et exploite des centres de données IA sur mesure pour les grands laboratoires.",
+  "description": "Fondée à Oxford, la société conçoit, construit et exploite des campus de calcul pour les laboratoires d'IA, sans posséder elle-même de grands parcs de puces. Anthropic l'a choisie fin 2025 pour ses centres de données sur mesure au Texas et à New York, et elle travaille aussi avec Google et l'opérateur TeraWulf.",
+  "hq": "New York (siège déplacé de Londres en décembre 2025)",
+  "founded": "2017",
+  "leaders": "Gary Wu (cofondateur et CEO), César Maklary (cofondateur et président), Jamie Cox (cofondateur)",
+  "website": "https://www.fluidstack.io/",
+  "newsQuery": "\"Fluidstack\"",
+  "newsQueriesExtra": [
+   "\"Fluidstack\" Anthropic",
+   "\"Fluidstack\" data center OR datacenter OR \"centre de données\"",
+   "\"Fluidstack\" funding OR valuation OR levée OR valorisation",
+   "\"Fluidstack\" TeraWulf OR Cipher OR Google",
+   "\"Gary Wu\" OR \"César Maklary\" Fluidstack"
+  ],
+  "lastRound": "fluidstack-2026-09-03-levee-jane-street",
+  "valuations": [
+   {
+    "amount": "18 milliards de dollars",
+    "value": 18,
+    "currency": "USD",
+    "round": "Tour de 1,5 milliard de dollars mené par Jane Street",
+    "date": "2026-09-03",
+    "status": "presse",
+    "source": {
+     "label": "Forbes, 3 sept. 2026",
+     "url": "https://www.forbes.com/sites/iainmartin/2026/09/03/a-tiny-startup-helping-google-take-on-nvidia-is-now-worth-18-billion/"
+    }
+   },
+   {
+    "amount": "7,5 milliards de dollars",
+    "value": 7.5,
+    "currency": "USD",
+    "round": "Série A de 830 millions de dollars menée par Situational Awareness (bouclée en janvier 2026)",
+    "date": "2026-07-20",
+    "status": "officielle",
+    "source": {
+     "label": "Fluidstack, 20 juil. 2026",
+     "url": "https://fluidstack.io/news/series-a-announcement"
+    }
+   }
+  ],
+  "metrics": [
+   {
+    "label": "Revenus",
+    "value": "environ 200 millions de dollars en 2025, 660 millions projetés en 2026 (mémo d'un investisseur), contre 66 millions en 2024",
+    "date": "2026-09-05",
+    "status": "presse",
+    "source": {
+     "label": "Tech Times, d'après Forbes, 5 sept. 2026",
+     "url": "https://www.techtimes.com/articles/326746/20260905/fluidstack-closes-15b-revenue-soars-18m-660m-projected-while-owning-zero-chips.htm"
+    },
+    "articleId": "fluidstack-2026-09-03-levee-jane-street"
+   },
+   {
+    "label": "Total levé",
+    "value": "plus de 2,6 milliards de dollars en fonds propres",
+    "date": "2026-09-05",
+    "status": "presse",
+    "source": {
+     "label": "Tech Times, d'après Forbes, 5 sept. 2026",
+     "url": "https://www.techtimes.com/articles/326746/20260905/fluidstack-closes-15b-revenue-soars-18m-660m-projected-while-owning-zero-chips.htm"
+    },
+    "articleId": "fluidstack-2026-09-03-levee-jane-street"
+   },
+   {
+    "label": "Client principal",
+    "value": "Anthropic : programme de 50 milliards de dollars de centres de données au Texas et à New York, mis en service à partir de 2026",
+    "date": "2025-11-12",
+    "status": "officielle",
+    "source": {
+     "label": "Anthropic, 12 nov. 2025",
+     "url": "https://www.anthropic.com/news/anthropic-invests-50-billion-in-american-ai-infrastructure"
+    }
+   },
+   {
+    "label": "Investisseurs principaux",
+    "value": "Jane Street (tour de septembre 2026) ; Situational Awareness (série A)",
+    "date": "2026-09-03",
+    "status": "presse",
+    "source": {
+     "label": "Forbes, 3 sept. 2026",
+     "url": "https://www.forbes.com/sites/iainmartin/2026/09/03/a-tiny-startup-helping-google-take-on-nvidia-is-now-worth-18-billion/"
+    },
+    "articleId": "fluidstack-2026-09-03-levee-jane-street"
+   }
+  ]
  }
 ]
