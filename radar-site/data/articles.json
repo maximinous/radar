@@ -3167,6 +3167,24 @@
   "title": "LeBron James devient ambassadeur de Polymarket"
  },
  {
+  "id": "fluidstack-2026-09-03-harlingen-drainage",
+  "date": "2026-09-03",
+  "title": "Harlingen reporte l'accord de drainage du campus texan de Fluidstack face aux habitants",
+  "summary": "Sous la pression d'habitants venus en séance, la commission municipale de Harlingen a ajourné l'accord qui aurait permis à Fluidstack de rejeter les eaux pluviales de son campus dans un canal de la ville.",
+  "detail": "Les élus attendent une réunion publique d'information de Fluidstack avant de se prononcer. La ville a aussi changé ses règles : tout projet industriel de plus d'un acre qui veut se raccorder au réseau de drainage passera désormais par une audience publique.\n\nUne semaine plus tard, Fluidstack a malgré tout lancé la première phase de son campus de 4 milliards de dollars dans le comté de Cameron.",
+  "impact": "La contestation locale ajoute une incertitude sur l'évacuation des eaux du site et sur son calendrier.",
+  "signal": "prudent",
+  "rationale": "Blocage municipal et opposition d'habitants sur un point technique nécessaire au projet.",
+  "sources": [
+   {
+    "label": "KRGV, 3 sept. 2026",
+    "url": "https://www.krgv.com/news/harlingen-tables-fluidstack-data-center-drainage-request-after-public-pushback"
+   }
+  ],
+  "addedAt": "2026-10-12T21:33:50Z",
+  "companyId": "fluidstack"
+ },
+ {
   "id": "fluidstack-2026-09-03-fondateurs-milliardaires",
   "companyId": "fluidstack",
   "date": "2026-09-03",
