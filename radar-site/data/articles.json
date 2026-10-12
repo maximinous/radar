@@ -3446,6 +3446,24 @@
   "addedAt": "2026-10-12T21:14:04Z"
  },
  {
+  "id": "fluidstack-2026-08-05-terawulf-cb3",
+  "date": "2026-08-05",
+  "title": "TeraWulf livre à Fluidstack le bâtiment CB-3 de Lake Mariner",
+  "summary": "TeraWulf a achevé début juillet la livraison du bâtiment CB-3 loué à Fluidstack sur son campus de Lake Mariner (New York), portant sa capacité louée et facturée à 102 MW.",
+  "detail": "Cette livraison déclenche 600 millions de dollars de garanties de Google sur les loyers de Fluidstack. La première salle du bâtiment CB-4 est en recette, avec des loyers attendus au second semestre 2026, et le CB-5 doit être livré par phases à partir de début 2027. TeraWulf construit 336 MW pour ces deux bâtiments.\n\nLe même communiqué confirme la cession de la part de 50,1 % de TeraWulf dans la coentreprise d'Abernathy pour environ 530 millions de dollars.",
+  "impact": "Les premiers bâtiments loués par Fluidstack à New York entrent en service, ce qui commence à transformer ses contrats en revenus.",
+  "signal": "optimiste",
+  "rationale": "Mise en service effective d'une capacité contractée, avec la garantie de Google activée.",
+  "sources": [
+   {
+    "label": "TeraWulf, résultats du T2 2026 (SEC), 5 août 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001083301/000108330126000162/a_wulfearningsreleaseq22026.htm"
+   }
+  ],
+  "addedAt": "2026-10-12T21:23:58Z",
+  "companyId": "fluidstack"
+ },
+ {
   "id": "perplexity-2026-08-04-appel-amazon",
   "companyId": "perplexity",
   "date": "2026-08-04",
@@ -3864,6 +3882,32 @@
   ],
   "summary": "Une équipe dédiée développe un outil de surveillance des agents de code, pensé pour la production.",
   "title": "Apollo ouvre San Francisco et construit Watcher, son premier produit"
+ },
+ {
+  "id": "fluidstack-2026-04-27-hut8-obligations",
+  "date": "2026-04-27",
+  "title": "Hut 8 finance par 3,25 milliards de dollars d'obligations le campus loué à Fluidstack en Louisiane",
+  "summary": "Hut 8 a placé 3,25 milliards de dollars d'obligations garanties pour construire les 245 MW de River Bend, entièrement loués à Fluidstack pour 15 ans.",
+  "detail": "Les titres portent un coupon de 6,192 %, arrivent à échéance en novembre 2042 et sont notés BBB- par S&P et Fitch, une note de qualité grâce au bail de Fluidstack garanti par Google. L'opération, annoncée le 27 avril, a été bouclée le 30 avril.\n\nLe campus de St. Francisville doit entrer en service au deuxième trimestre 2027. Axios a publié le 7 octobre des images du chantier.",
+  "impact": "Le financement du site louisianais de Fluidstack pour Anthropic est sécurisé, sans dette sur le bilan de Fluidstack.",
+  "signal": "optimiste",
+  "rationale": "Financement de qualité obtenu sur la base du contrat de Fluidstack.",
+  "sources": [
+   {
+    "label": "King & Spalding, 30 avr. 2026",
+    "url": "https://www.kslaw.com/news-and-insights/king-spalding-advises-hut-8-on-landmark-river-bend-data-center-project-backed-by-investment-grade-financing"
+   },
+   {
+    "label": "DCD, avr. 2026",
+    "url": "https://www.datacenterdynamics.com/en/news/hut-8-selling-325bn-in-bonds-to-finance-google-and-anthropic-backed-river-bend-ai-data-center-campus/"
+   },
+   {
+    "label": "Axios, 7 oct. 2026",
+    "url": "https://www.axios.com/local/new-orleans/2026/10/07/data-center-louisiana-hut-8-anthropic"
+   }
+  ],
+  "addedAt": "2026-10-12T21:23:58Z",
+  "companyId": "fluidstack"
  },
  {
   "id": "fluidstack-2026-04-20-indiana-obligations",
