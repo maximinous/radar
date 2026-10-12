@@ -62,6 +62,28 @@
   "addedAt": "2026-10-12T06:30:33Z"
  },
  {
+  "id": "crusoe-2026-10-08-stonewall",
+  "companyId": "crusoe",
+  "date": "2026-10-08",
+  "title": "L'abattement fiscal du centre de données de Crusoe dans le comté de Stonewall est de nouveau reporté",
+  "summary": "Le comté de Stonewall, au Texas, a annulé une deuxième audience publique sur l'abattement fiscal demandé pour un projet de centre de données de Crusoe.",
+  "detail": "Les commissaires attendent les examens de l'État sur les centres de données, qui pourraient durer jusqu'en décembre. Une audience prévue le lundi suivant a aussi été annulée. Les conditions de l'abattement ne sont pas publiées.",
+  "impact": "Le calendrier du projet texan de Crusoe dans ce comté glisse.",
+  "signal": "prudent",
+  "rationale": "Report répété d'un avantage fiscal nécessaire au projet.",
+  "sources": [
+   {
+    "label": "Double Mountain Chronicle, 8 oct. 2026",
+    "url": "https://doublemountainchronicle.com/news/crusoe-data-center-tax-deal-stalls-again"
+   },
+   {
+    "label": "Double Mountain Chronicle, oct. 2026",
+    "url": "https://doublemountainchronicle.com/news/stonewall-county-cancels-mondays-crusoe-tax-abatement-hearing"
+   }
+  ],
+  "addedAt": "2026-10-12T21:10:28Z"
+ },
+ {
   "id": "crusoe-2026-10-08-genesis-mission",
   "companyId": "crusoe",
   "date": "2026-10-08",
@@ -302,6 +324,24 @@
   "addedAt": "2026-10-08T06:22:47Z"
  },
  {
+  "id": "perplexity-2026-10-06-rings-ai",
+  "companyId": "perplexity",
+  "date": "2026-10-06",
+  "title": "Rings AI rend son connecteur disponible dans Perplexity Computer",
+  "summary": "Rings AI et Perplexity annoncent un partenariat qui ajoute le connecteur de Rings AI à l'agent Perplexity Computer.",
+  "detail": "L'annonce, relayée par une brève de Reuters, ne donne ni conditions financières ni calendrier. Elle s'ajoute aux nombreux connecteurs que Perplexity intègre à son agent pour accéder aux outils de travail des utilisateurs.",
+  "impact": "Chaque nouveau connecteur élargit ce que Perplexity Computer peut faire pour les entreprises.",
+  "signal": "neutre",
+  "rationale": "Partenariat de petite taille, sans montant, qui enrichit l'offre d'agents.",
+  "sources": [
+   {
+    "label": "The Daily Guardian, d'après Reuters, 6 oct. 2026",
+    "url": "https://thedailyguardian.com/world/brief-rings-ai-says-co-and-perplexity-announce-partnership-763651/"
+   }
+  ],
+  "addedAt": "2026-10-12T21:10:28Z"
+ },
+ {
   "id": "polymarket-2026-10-06-protocole-v2",
   "companyId": "polymarket",
   "date": "2026-10-06",
@@ -536,6 +576,24 @@
    }
   ],
   "addedAt": "2026-10-05T06:27:57Z"
+ },
+ {
+  "id": "crusoe-2026-10-02-bellevue-46000",
+  "companyId": "crusoe",
+  "date": "2026-10-02",
+  "title": "Crusoe ajoute 46 000 pieds carrés de bureaux à Bellevue",
+  "summary": "Deux semaines après sa série F, Crusoe loue environ 46 475 pieds carrés supplémentaires au Key Center de Bellevue, propriété de Kilroy Realty.",
+  "detail": "Le nouveau bail multiplie plusieurs fois la surface de ses bureaux de la région, après celui de 11 200 pieds carrés signé en avril. Les effectifs prévus ne sont pas publiés.",
+  "impact": "Crusoe prépare une forte hausse de ses équipes d'ingénierie près de Seattle.",
+  "signal": "optimiste",
+  "rationale": "Une extension de bureaux de cette taille traduit des recrutements importants.",
+  "sources": [
+   {
+    "label": "The Registry, 2 oct. 2026",
+    "url": "https://news.theregistryps.com/crusoe-adds-46000-sqft-at-key-center-in-bellevue-weeks-after-3-9-billion-raise/"
+   }
+  ],
+  "addedAt": "2026-10-12T21:10:28Z"
  },
  {
   "id": "crusoe-2026-10-02-jayton-campus",
@@ -1894,6 +1952,24 @@
   ],
   "summary": "Selon The Information, la banque a dit à des salariés et investisseurs qu'elle pourrait aider la Syrie. Rien n'est officiel.",
   "title": "Erebor étudie une expansion en Syrie"
+ },
+ {
+  "id": "crusoe-2026-09-21-abilene-oracle",
+  "companyId": "crusoe",
+  "date": "2026-09-21",
+  "title": "Oracle réduit ses équipes sur le campus d'Abilene loué à Crusoe",
+  "summary": "Selon des témoignages d'employés relayés par la presse, des licenciements d'Oracle ont touché vers le 14 septembre le personnel du campus Stargate d'Abilene, propriété de Crusoe.",
+  "detail": "Oracle loue le site à Crusoe dans un contrat de long terme, évalué à plus d'un milliard de dollars par an selon des sources non nommées. Ces mêmes sources indiquent qu'OpenAI ne prévoit pas de s'étendre davantage sur ce site.\n\nOracle n'a pas commenté. Les informations reposent surtout sur des messages d'employés.",
+  "impact": "Le bail avec Oracle n'est pas remis en cause, mais une pause dans l'extension d'Abilene limiterait la croissance du site phare de Crusoe.",
+  "signal": "prudent",
+  "rationale": "Signal de ralentissement sur le campus le plus connu de Crusoe, encore peu étayé.",
+  "sources": [
+   {
+    "label": "People Matters, 21 sept. 2026",
+    "url": "https://www.peoplematters.in/news/strategic-hr/oracle-cuts-jobs-at-abilene-data-centre-tied-to-openais-stargate-project-52214"
+   }
+  ],
+  "addedAt": "2026-10-12T21:10:28Z"
  },
  {
   "id": "figure-ai-2026-09-21-boston-dynamics-atlas-rmac",
@@ -3322,6 +3398,46 @@
   "title": "Prometheus s'installe dans un ancien entrepôt industriel à West Oakland"
  },
  {
+  "id": "perplexity-2026-08-04-appel-amazon",
+  "companyId": "perplexity",
+  "date": "2026-08-04",
+  "title": "La cour d'appel annule l'injonction d'Amazon contre l'agent Comet de Perplexity",
+  "summary": "La cour d'appel fédérale du 9e circuit lève l'interdiction faite à Comet de faire des achats sur Amazon, jugeant que l'accès est le fait de l'utilisateur et non de Perplexity.",
+  "detail": "Les juges estiment qu'Amazon a peu de chances de gagner sur le fondement des lois contre la fraude informatique, car l'agent n'agit que sur instruction de l'utilisateur. La décision se limite aux faits du dossier et ne fixe pas de règle générale pour les agents IA.\n\nLe procès continue devant le tribunal fédéral de San Francisco. Amazon peut demander un nouvel examen ou saisir la Cour suprême.",
+  "impact": "Perplexity peut relancer son agent d'achat sur Amazon et obtient un argument juridique important pour ses agents.",
+  "signal": "optimiste",
+  "rationale": "Victoire en appel sur un dossier structurant, même si le fond du litige reste à juger.",
+  "sources": [
+   {
+    "label": "Engadget, 4 août 2026",
+    "url": "https://www.engadget.com/2230471/"
+   },
+   {
+    "label": "Retail Insight Network, août 2026",
+    "url": "https://www.retail-insight-network.com/news/us-court-overturns-amazon-injunction-perplexity/"
+   }
+  ],
+  "addedAt": "2026-10-12T21:10:28Z"
+ },
+ {
+  "id": "crusoe-2026-08-04-dallas-23springs",
+  "companyId": "crusoe",
+  "date": "2026-08-04",
+  "title": "Crusoe prend des bureaux dans la tour 23Springs, la plus haute d'Uptown Dallas",
+  "summary": "Crusoe fait partie des trois nouveaux locataires de 23Springs, qui porte le taux d'occupation de la tour à 93 %.",
+  "detail": "La surface louée n'est pas publiée. La tour de 26 étages a ouvert en août 2025. La presse locale a présenté en septembre cette arrivée comme la première implantation de Crusoe au Texas en bureaux, alors que la société y construit plusieurs campus.",
+  "impact": "Crusoe se rapproche de ses grands chantiers texans avec une présence à Dallas.",
+  "signal": "neutre",
+  "rationale": "Ouverture de bureau, utile mais sans effet direct sur les revenus.",
+  "sources": [
+   {
+    "label": "CoStar, 4 août 2026",
+    "url": "https://www.costar.com/article/2068418757/ai-helps-drive-leasing-at-uptown-dallas"
+   }
+  ],
+  "addedAt": "2026-10-12T21:10:28Z"
+ },
+ {
   "addedAt": "2026-09-22T08:00:00Z",
   "companyId": "together-ai",
   "date": "2026-07-27",
@@ -3698,6 +3814,28 @@
   "addedAt": "2026-10-12T20:50:56Z"
  },
  {
+  "id": "crusoe-2026-04-15-bellevue",
+  "companyId": "crusoe",
+  "date": "2026-04-15",
+  "title": "Crusoe loue 11 200 pieds carrés au Key Center de Bellevue",
+  "summary": "Crusoe signe un bail d'environ 1 000 m² dans la tour Key Center, au centre de Bellevue, près de Seattle.",
+  "detail": "La société avait ouvert un premier bureau de 7 400 pieds carrés dans le même immeuble en 2025, pour une quinzaine de salariés. Crusoe a aussi des bureaux à San Francisco, Sunnyvale, Dublin et Tel Aviv.",
+  "impact": "Crusoe renforce sa présence dans la région de Seattle, vivier d'ingénieurs du cloud.",
+  "signal": "neutre",
+  "rationale": "Expansion de bureaux sans effet direct sur l'activité.",
+  "sources": [
+   {
+    "label": "The Registry, 15 avr. 2026",
+    "url": "https://news.theregistryps.com/crusoe-energy-systems-anchors-ai-expansion-with-11200-sqft-key-center-lease-in-bellevue/"
+   },
+   {
+    "label": "Connect CRE, 2025",
+    "url": "https://www.connectcre.com/stories/ai-infrastructure-startup-crusoe-opens-bellevue-office/"
+   }
+  ],
+  "addedAt": "2026-10-12T21:10:28Z"
+ },
+ {
   "id": "fluidstack-2026-03-18-abandon-france",
   "companyId": "fluidstack",
   "date": "2026-03-18",
@@ -3724,6 +3862,50 @@
   "addedAt": "2026-10-12T20:50:56Z"
  },
  {
+  "id": "perplexity-2026-03-10-amazon-injonction",
+  "companyId": "perplexity",
+  "date": "2026-03-10",
+  "title": "Amazon obtient une injonction contre l'agent d'achat Comet de Perplexity",
+  "summary": "Une juge fédérale de San Francisco interdit provisoirement à Comet d'accéder aux pages protégées par mot de passe d'Amazon, comme le compte, l'historique de commandes et le paiement.",
+  "detail": "Amazon poursuit Perplexity depuis novembre 2025 au titre de la loi fédérale contre la fraude informatique et d'une loi californienne. La juge Maxine Chesney estime qu'Amazon apporte des preuves solides d'accès non autorisé aux comptes Prime, même avec l'accord des utilisateurs.\n\nL'injonction est suspendue sept jours pour permettre à Perplexity de faire appel. Les pages publiques d'Amazon restent accessibles à Comet.",
+  "impact": "Le revers freine l'agent d'achat de Perplexity sur le premier site marchand américain et crée un précédent pour les agents IA.",
+  "signal": "prudent",
+  "rationale": "Décision de justice défavorable sur un usage phare de Comet, même provisoire.",
+  "sources": [
+   {
+    "label": "CNBC, 10 mars 2026",
+    "url": "https://www.cnbc.com/2026/03/10/amazon-wins-court-order-to-block-perplexitys-ai-shopping-agent.html"
+   },
+   {
+    "label": "GeekWire, mars 2026",
+    "url": "https://www.geekwire.com/2026/judge-blocks-perplexitys-ai-bot-from-shopping-on-amazon-in-early-test-of-agentic-commerce/"
+   }
+  ],
+  "addedAt": "2026-10-12T21:10:28Z"
+ },
+ {
+  "id": "perplexity-2026-02-22-samsung-galaxy-s26",
+  "companyId": "perplexity",
+  "date": "2026-02-22",
+  "title": "Samsung intègre Perplexity comme agent IA sur les Galaxy S26",
+  "summary": "Samsung ajoute Perplexity à ses nouveaux smartphones haut de gamme, à côté de Gemini de Google, avec une commande vocale dédiée « Hey Plex ».",
+  "detail": "L'agent se lance par le bouton latéral ou la voix et peut agir dans les applications Samsung, comme Notes, Galerie ou Rappels, sans les ouvrir. Les Galaxy S26 sortent le 26 février.\n\nSelon Perplexity, c'est la première fois qu'une société autre que Google obtient un accès de ce niveau au système d'un téléphone Samsung, et Bixby s'appuie aussi sur ses API de recherche.",
+  "impact": "Perplexity gagne une distribution préinstallée sur les téléphones du premier fabricant Android, un canal clé face à Google.",
+  "signal": "optimiste",
+  "rationale": "Accord de distribution à très grande échelle avec un fabricant de premier rang.",
+  "sources": [
+   {
+    "label": "The Asia Business Daily, 22 févr. 2026",
+    "url": "https://view.asiae.co.kr/en/article/2026022211111399245"
+   },
+   {
+    "label": "Trending Topics, févr. 2026",
+    "url": "https://www.trendingtopics.eu/samsung-opens-galaxy-s26-to-perplexity-ai-with-hey-plex-command/"
+   }
+  ],
+  "addedAt": "2026-10-12T21:10:28Z"
+ },
+ {
   "id": "fluidstack-2026-02-20-google-100m",
   "companyId": "fluidstack",
   "date": "2026-02-20",
@@ -3740,6 +3922,28 @@
    }
   ],
   "addedAt": "2026-10-12T20:50:56Z"
+ },
+ {
+  "id": "crusoe-2026-02-19-pret-amd",
+  "companyId": "crusoe",
+  "date": "2026-02-19",
+  "title": "AMD garantirait un prêt de 300 millions de dollars à Crusoe pour acheter ses puces",
+  "summary": "Selon The Information, Goldman Sachs prête 300 millions de dollars à Crusoe, garantis par les puces AMD Instinct achetées, pour un centre de données dans l'Ohio.",
+  "detail": "AMD s'engagerait à louer les puces si Crusoe ne trouve pas de clients, ce qui aurait permis un taux d'environ 6 %. Le site est construit par 5C, un développeur soutenu par Brookfield.\n\nAMD et Goldman Sachs n'ont pas commenté, et Crusoe n'a pas répondu. Nvidia a déjà utilisé ce type de montage, par exemple avec CoreWeave.",
+  "impact": "Crusoe finance du calcul AMD à bas coût, avec un filet de sécurité sur la demande, et diversifie ses fournisseurs au-delà de Nvidia.",
+  "signal": "neutre",
+  "rationale": "Financement avantageux mais non confirmé, et qui accroît l'endettement lié aux puces.",
+  "sources": [
+   {
+    "label": "Sherwood News, d'après The Information, févr. 2026",
+    "url": "https://sherwood.news/markets/amd-to-effectively-guarantee-a-loan-to-ai-startup-crusoe-that-will-be-used/"
+   },
+   {
+    "label": "DCD, févr. 2026",
+    "url": "https://www.datacenterdynamics.com/en/news/amd-underwrites-300m-crusoe-loan-so-data-center-firm-can-buy-its-ai-chips-report/"
+   }
+  ],
+  "addedAt": "2026-10-12T21:10:28Z"
  },
  {
   "addedAt": "2026-09-22T08:00:00Z",
