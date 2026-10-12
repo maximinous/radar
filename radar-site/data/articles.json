@@ -3984,6 +3984,24 @@
   "addedAt": "2026-10-12T20:50:56Z"
  },
  {
+  "id": "fluidstack-2026-03-13-risque-retards",
+  "date": "2026-03-13",
+  "title": "Un cabinet d'avocats pointe le risque des retards de chantier dans les baux de Fluidstack garantis par Google",
+  "summary": "Le cabinet Quinn Emanuel relève que la garantie de Google sur les loyers de Fluidstack ne joue qu'une fois les bâtiments livrés, ce qui laisse le risque de chantier aux prêteurs.",
+  "detail": "Selon cette note, Fluidstack peut résilier ses baux si la construction dépasse de plus de 180 jours la date de livraison prévue, et la garantie de Google ne serait alors jamais activée. Fitch avait jugé le calendrier du chantier de TeraWulf à Lake Mariner « un peu agressif ». Google aurait engagé plus de 5 milliards de dollars de garanties à travers les contrats de Fluidstack.\n\nLe cabinet y voit une source possible de litiges dans le financement des centres de données d'IA, sans procédure en cours contre Fluidstack.",
+  "impact": "Le modèle de Fluidstack, qui loue des sites financés par d'autres grâce à la garantie de Google, reste exposé aux retards de construction de ses partenaires.",
+  "signal": "prudent",
+  "rationale": "Analyse juridique qui souligne un risque structurel sur les contrats, alors que plusieurs chantiers ont déjà glissé.",
+  "sources": [
+   {
+    "label": "Quinn Emanuel, note aux clients, 13 mars 2026",
+    "url": "https://www.quinnemanuel.com/the-firm/publications/client-alert-emerging-litigation-risks-in-financing-ai-data-centers-boom/"
+   }
+  ],
+  "addedAt": "2026-10-12T21:33:20Z",
+  "companyId": "fluidstack"
+ },
+ {
   "id": "perplexity-2026-03-10-amazon-injonction",
   "companyId": "perplexity",
   "date": "2026-03-10",
