@@ -1,5 +1,27 @@
 [
  {
+  "id": "mistral-ai-2026-10-10-bund-sap",
+  "companyId": "mistral-ai",
+  "date": "2026-10-10",
+  "title": "Berlin met de côté le contrat-cadre d'IA publique avec Mistral et SAP",
+  "summary": "Le ministère fédéral du Numérique n'a plus de projet d'achat avec Mistral, et le contrat-cadre franco-allemand prévu pour mi-2026 n'est pas signé.",
+  "detail": "Selon la Welt, relayée par Politico, un porte-parole du ministère explique que les entreprises poursuivent leur coopération de façon autonome. Le partenariat avait été annoncé par Berlin et Paris le 18 novembre 2025 : logiciel administratif souverain, agents numériques et laboratoires d'innovation communs. Ni le gouvernement ni Mistral n'ont donné de raison. SAP indique à la Welt que les deux sociétés continuent de travailler ensemble sur des solutions d'IA souveraine, et SAP fait partie du consortium T-Systems qui construit le cloud IA de l'État fédéral.",
+  "impact": "Mistral perd, pour l'instant, un débouché public allemand de référence, mais garde son alliance commerciale avec SAP.",
+  "signal": "prudent",
+  "rationale": "Le retrait de l'État fédéral affaiblit un contrat public phare, sans motif officiel ni rupture avec SAP.",
+  "sources": [
+   {
+    "label": "Dr. Web, 10 oct. 2026 (reprend Welt et Politico)",
+    "url": "https://www.drweb.de/mistral-sap-bund-verwaltungs-ki-rahmenvertrag/"
+   },
+   {
+    "label": "Basic Tutorials, 12 oct. 2026",
+    "url": "https://basic-tutorials.com/news/federal-government-scraps-mistral-ai-framework-agreement-with-sap-off-the-table-for-now/"
+   }
+  ],
+  "addedAt": "2026-10-12T06:30:33Z"
+ },
+ {
   "id": "crusoe-2026-10-08-genesis-mission",
   "companyId": "crusoe",
   "date": "2026-10-08",
