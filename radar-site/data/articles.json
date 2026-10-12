@@ -1976,24 +1976,6 @@
   "title": "Erebor étudie une expansion en Syrie"
  },
  {
-  "id": "crusoe-2026-09-21-abilene-oracle",
-  "companyId": "crusoe",
-  "date": "2026-09-21",
-  "title": "Oracle réduit ses équipes sur le campus d'Abilene loué à Crusoe",
-  "summary": "Selon des témoignages d'employés relayés par la presse, des licenciements d'Oracle ont touché vers le 14 septembre le personnel du campus Stargate d'Abilene, propriété de Crusoe.",
-  "detail": "Oracle loue le site à Crusoe dans un contrat de long terme, évalué à plus d'un milliard de dollars par an selon des sources non nommées. Ces mêmes sources indiquent qu'OpenAI ne prévoit pas de s'étendre davantage sur ce site.\n\nOracle n'a pas commenté. Les informations reposent surtout sur des messages d'employés.",
-  "impact": "Le bail avec Oracle n'est pas remis en cause, mais une pause dans l'extension d'Abilene limiterait la croissance du site phare de Crusoe.",
-  "signal": "prudent",
-  "rationale": "Signal de ralentissement sur le campus le plus connu de Crusoe, encore peu étayé.",
-  "sources": [
-   {
-    "label": "People Matters, 21 sept. 2026",
-    "url": "https://www.peoplematters.in/news/strategic-hr/oracle-cuts-jobs-at-abilene-data-centre-tied-to-openais-stargate-project-52214"
-   }
-  ],
-  "addedAt": "2026-10-12T21:10:28Z"
- },
- {
   "id": "figure-ai-2026-09-21-boston-dynamics-atlas-rmac",
   "companyId": "figure-ai",
   "date": "2026-09-21",
