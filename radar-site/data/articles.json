@@ -1516,6 +1516,28 @@
   "addedAt": "2026-09-25T10:42:09Z"
  },
  {
+  "id": "fluidstack-2026-09-24-cameron-1-5gw",
+  "companyId": "fluidstack",
+  "date": "2026-09-24",
+  "title": "Fluidstack réserve 1,5 GW pour son campus du comté de Cameron et envisage une extension",
+  "summary": "Fluidstack a réservé 1,5 GW auprès d'AEP-Texas pour son campus de 1 100 acres près de Harlingen, tout en précisant qu'il pourrait en utiliser moins.",
+  "detail": "La première phase coûte 4 milliards de dollars, avec plus de 2 500 emplois de construction et plusieurs centaines d'emplois permanents. Lors d'une présentation du 21 mai, la société a évoqué un second projet près de Rio Hondo, pouvant ajouter 5,85 GW entre 2029 et 2033. Le refroidissement est en circuit fermé et le bruit limité à 65 décibels pendant le chantier.\n\nLa société dit vouloir d'abord achever le campus autorisé.",
+  "impact": "L'enveloppe de puissance en discussion dépasse de loin la première phase.",
+  "signal": "neutre",
+  "rationale": "La réservation et l'extension sont des intentions, pas des engagements fermes.",
+  "sources": [
+   {
+    "label": "MyRGV, 24 sept. 2026",
+    "url": "https://myrgv.com/local-news/2026/09/24/fluidstack-reserving-1-5gw-for-data-center-expansion-considered/"
+   },
+   {
+    "label": "Fluidstack, 21 sept. 2026",
+    "url": "https://fluidstack.io/community/building-compute-in-cameron-county"
+   }
+  ],
+  "addedAt": "2026-10-12T21:14:04Z"
+ },
+ {
   "id": "perplexity-2026-09-24-fast-search",
   "companyId": "perplexity",
   "date": "2026-09-24",
@@ -3163,6 +3185,28 @@
   "title": "LeBron James devient ambassadeur de Polymarket"
  },
  {
+  "id": "fluidstack-2026-09-03-fondateurs-milliardaires",
+  "companyId": "fluidstack",
+  "date": "2026-09-03",
+  "title": "Forbes : les trois cofondateurs de Fluidstack deviennent milliardaires",
+  "summary": "Selon Forbes, la valorisation de plus de 18 milliards de dollars fait de Gary Wu, Jamie Cox et César Maklary des milliardaires.",
+  "detail": "Forbes estime leur fortune à environ un milliard de dollars chacun, d'après des documents d'entreprise sur leurs participations. Gary Wu a 31 ans, Jamie Cox et César Maklary 29 ans. Cox a quitté Oxford, devenu boursier Thiel, avant de fonder la société en 2017 avec Wu. La société n'a pas commenté.",
+  "impact": "Les fondateurs restent très présents au capital malgré les tours successifs.",
+  "signal": "neutre",
+  "rationale": "L'information reflète la valorisation, sans fait opérationnel nouveau.",
+  "sources": [
+   {
+    "label": "Forbes Pérou, 4 sept. 2026",
+    "url": "https://forbes.pe/negocios/2026-09-04/una-pequena-empresa-emergente-que-ayudaba-a-google-a-competir-con-nvidia-ahora-vale-us18-mil-millones/"
+   },
+   {
+    "label": "Forbes, 3 sept. 2026",
+    "url": "https://www.forbes.com/sites/iainmartin/2026/09/03/a-tiny-startup-helping-google-take-on-nvidia-is-now-worth-18-billion/"
+   }
+  ],
+  "addedAt": "2026-10-12T21:14:04Z"
+ },
+ {
   "id": "fluidstack-2026-09-03-levee-jane-street",
   "companyId": "fluidstack",
   "date": "2026-09-03",
@@ -3396,6 +3440,28 @@
   ],
   "summary": "La société a signé un bail sur un ancien site American Steel, dans l'est de la baie de San Francisco.",
   "title": "Prometheus s'installe dans un ancien entrepôt industriel à West Oakland"
+ },
+ {
+  "id": "fluidstack-2026-08-06-sullivan-indiana",
+  "companyId": "fluidstack",
+  "date": "2026-08-06",
+  "title": "Fluidstack présente son campus du comté de Sullivan (Indiana) lors d'une réunion publique",
+  "summary": "Fluidstack a tenu à Merom une réunion publique sur son campus de centres de données, affirmant qu'il ne consommerait presque pas d'eau.",
+  "detail": "Le refroidissement est en circuit fermé et WIN Energy fournira l'électricité sans effet sur les tarifs de ses membres. Des syndicats ont manifesté contre le faible recours à la main-d'oeuvre locale, la société répondant que les syndicats locaux ont déjà près de 600 millions de dollars de contrats. Fluidstack promet 50 millions de dollars au comté.\n\nDCD a ensuite décrit, le 11 août, un projet de 2,1 GW sur 1 000 acres au Heartland Industrial Park, avec une mise en service visée en 2027.",
+  "impact": "Le projet avance vers la construction avec des engagements locaux chiffrés.",
+  "signal": "neutre",
+  "rationale": "Le projet progresse, mais des tensions sur la main-d'oeuvre locale apparaissent.",
+  "sources": [
+   {
+    "label": "WTHI, 6 août 2026",
+    "url": "https://www.wthitv.com/2026/08/06/fluidstack-hosts-open-house-sullivan-county-data-center-campus/"
+   },
+   {
+    "label": "DCD, via InforCapital, 11 août 2026",
+    "url": "https://inforcapital.com/news/fluidstack-shares-details-of-planned-data-center-in-sullivan-county-indiana/"
+   }
+  ],
+  "addedAt": "2026-10-12T21:14:04Z"
  },
  {
   "id": "perplexity-2026-08-04-appel-amazon",
@@ -3966,5 +4032,327 @@
   ],
   "summary": "La structure quitte son sponsor fiscal pour devenir une société à mission, capable de lever des fonds et de vendre des produits.",
   "title": "Apollo Research devient une Public Benefit Corporation"
+ },
+ {
+  "id": "fluidstack-2025-12-17-hut8-river-bend",
+  "companyId": "fluidstack",
+  "date": "2025-12-17",
+  "title": "Hut 8 loue 245 MW à Fluidstack à River Bend (Louisiane), environ 7 milliards de dollars sur 15 ans",
+  "summary": "Hut 8 signe un bail de 15 ans avec Fluidstack pour Anthropic à River Bend, garanti par Google, avec un droit sur jusqu'à 1 000 MW supplémentaires.",
+  "detail": "Le bail triple net porte sur au moins 245 MW de charge informatique, environ 7 milliards de dollars sur la durée de base et jusqu'à environ 17,7 milliards avec trois prolongations de 5 ans. Le premier centre est attendu au deuxième trimestre 2027, alimenté par Entergy Louisiana. Le partenariat peut atteindre 2 295 MW au total, JPMorgan et Goldman Sachs finançant.",
+  "impact": "Fluidstack ajoute un troisième exploitant de sites et un campus pour Anthropic.",
+  "signal": "optimiste",
+  "rationale": "Le bail long, garanti par Google, renforce la visibilité.",
+  "sources": [
+   {
+    "label": "The Block, 17 déc. 2025",
+    "url": "https://www.theblock.co/post/382981/hut-8-shares-surge-bitcoin-miner-inks-ai-deal-anthropic-fluidstack-7-billion-usd-data-center-lease"
+   },
+   {
+    "label": "DCD, 17 déc. 2025",
+    "url": "https://www.datacenterdynamics.com/en/news/hut-8-signs-245mw-capacity-deal-with-fluidstack-as-part-of-multi-gigawatt-partnership-with-anthropic/"
+   }
+  ],
+  "addedAt": "2026-10-12T21:14:04Z"
+ },
+ {
+  "id": "fluidstack-2025-12-04-siege-new-york",
+  "companyId": "fluidstack",
+  "date": "2025-12-04",
+  "title": "Fluidstack transfère son siège mondial à Midtown Manhattan",
+  "summary": "La société installe son siège mondial à New York et annonce plus de 1 000 emplois dans l'État.",
+  "detail": "Le communiqué cite environ 300 postes permanents au salaire moyen de 144 000 dollars et plus de 800 emplois de construction pour le projet new-yorkais. Fluidstack veut aussi recruter à Austin et à San Francisco en 2026. Anthropic est citée comme partenaire.",
+  "impact": "Le centre de gravité de la société passe de Londres aux États-Unis, où se trouvent ses grands projets.",
+  "signal": "optimiste",
+  "rationale": "Le déménagement accompagne ses projets américains et ses recrutements.",
+  "sources": [
+   {
+    "label": "PR Newswire, 4 déc. 2025",
+    "url": "https://www.prnewswire.com/news-releases/fluidstack-expands-us-investment-by-relocating-global-headquarters-to-new-york-city-302633160.html"
+   }
+  ],
+  "addedAt": "2026-10-12T21:14:04Z"
+ },
+ {
+  "id": "fluidstack-2025-12-04-levee-700m",
+  "companyId": "fluidstack",
+  "date": "2025-12-04",
+  "title": "Fluidstack négocierait 700 millions de dollars sur une valorisation de 7 milliards, selon Bloomberg",
+  "summary": "Selon Bloomberg, Situational Awareness serait en discussions pour mener un tour d'environ 700 millions de dollars valorisant Fluidstack autour de 7 milliards.",
+  "detail": "Google serait aussi en discussions pour y participer et Goldman Sachs agirait comme banquier. Le tour n'était pas confirmé à cette date. Il a ensuite été annoncé en 2026 sous forme d'une série A de 830 millions de dollars à 7,5 milliards.",
+  "impact": "Premier signe d'un tour de financement après le contrat Anthropic.",
+  "signal": "optimiste",
+  "rationale": "L'intérêt d'investisseurs de premier plan se confirme, mais il s'agit de négociations non confirmées.",
+  "sources": [
+   {
+    "label": "Bloomberg, 4 déc. 2025",
+    "url": "https://news.bgov.com/private-equity/data-center-startup-fluidstack-in-talks-for-7-billion-valuation"
+   },
+   {
+    "label": "DCD, 5 déc. 2025",
+    "url": "https://www.datacenterdynamics.com/en/news/neocloud-fluidstack-in-talks-to-raise-700m-at-7bn-valuation-report/"
+   }
+  ],
+  "addedAt": "2026-10-12T21:14:04Z"
+ },
+ {
+  "id": "fluidstack-2025-11-20-cipher-extension",
+  "companyId": "fluidstack",
+  "date": "2025-11-20",
+  "title": "Cipher étend de 39 MW le bail de Fluidstack à Barber Lake, environ 830 millions de dollars",
+  "summary": "Fluidstack loue 39 MW de charge informatique supplémentaires à Cipher, ce qui lui donne l'ensemble des 300 MW du site de Colorado City.",
+  "detail": "Le contrat représente environ 830 millions de dollars sur 10 ans, jusqu'à environ 2 milliards avec deux prolongations. Google relève sa garantie de 333 millions de dollars, à environ 1,73 milliard au total. Cipher apporte environ 118 millions de dollars de fonds propres et la livraison est attendue d'ici janvier 2027.",
+  "impact": "Fluidstack occupe désormais tout le site de Barber Lake.",
+  "signal": "optimiste",
+  "rationale": "Une extension rapide garantie par Google confirme l'appétit de la société.",
+  "sources": [
+   {
+    "label": "Cipher Mining, communiqué, 20 nov. 2025",
+    "url": "https://www.nasdaq.com/press-release/cipher-mining-signs-additional-56-mw-10-year-ai-hosting-agreement-fluidstack-2025-11"
+   },
+   {
+    "label": "DCD, 21 nov. 2025",
+    "url": "https://www.datacenterdynamics.com/en/news/fluidstack-signs-additional-39mw-lease-with-cipher-mining-in-texas-backed-by-google/"
+   }
+  ],
+  "addedAt": "2026-10-12T21:14:04Z"
+ },
+ {
+  "id": "fluidstack-2025-11-12-anthropic-50md",
+  "companyId": "fluidstack",
+  "date": "2025-11-12",
+  "title": "Anthropic choisit Fluidstack pour son programme de 50 milliards de dollars de centres de données",
+  "summary": "Anthropic investit 50 milliards de dollars dans l'infrastructure américaine et confie à Fluidstack ses premiers sites au Texas et à New York.",
+  "detail": "Les centres sont conçus sur mesure pour Anthropic, avec d'autres sites prévus et une mise en service progressive à partir de 2026. Anthropic annonce environ 800 emplois permanents et 2 400 emplois de construction. Fluidstack est retenue pour sa capacité à livrer rapidement des gigawatts.",
+  "impact": "C'est le contrat fondateur de la société avec un grand laboratoire.",
+  "signal": "optimiste",
+  "rationale": "Un client majeur engage un programme de 50 milliards de dollars.",
+  "sources": [
+   {
+    "label": "Anthropic, 12 nov. 2025",
+    "url": "https://www.anthropic.com/news/anthropic-invests-50-billion-in-american-ai-infrastructure"
+   },
+   {
+    "label": "DCD, 12 nov. 2025",
+    "url": "https://www.datacenterdynamics.com/en/news/anthropic-plans-50bn-us-data-center-spend-starting-with-fluidstack-sites-in-texas-and-new-york/"
+   }
+  ],
+  "addedAt": "2026-10-12T21:14:04Z"
+ },
+ {
+  "id": "fluidstack-2025-11-06-clustermax-gold",
+  "companyId": "fluidstack",
+  "date": "2025-11-06",
+  "title": "SemiAnalysis décerne à Fluidstack la note Gold de son classement ClusterMAX 2.0",
+  "summary": "Fluidstack fait partie des six fournisseurs de cloud GPU notés au niveau Gold ou supérieur dans ClusterMAX 2.0 de SemiAnalysis.",
+  "detail": "SemiAnalysis cite la rapidité de résolution des problèmes, un modèle d'ingénierie déployée chez le client et la capacité de transformer une infrastructure ordinaire en service de haut niveau. Le communiqué indique 80 puis 84 fournisseurs évalués selon les passages.\n\nL'information vient de la société elle-même.",
+  "impact": "La distinction sert d'argument commercial auprès des laboratoires d'IA.",
+  "signal": "optimiste",
+  "rationale": "Un classement tiers reconnu valide la qualité de service, mais l'annonce est faite par la société.",
+  "sources": [
+   {
+    "label": "Fluidstack, 6 nov. 2025",
+    "url": "https://fluidstack.io/blog/fluidstack-awarded-clustermax-gold-by-semianalysis"
+   }
+  ],
+  "addedAt": "2026-10-12T21:14:04Z"
+ },
+ {
+  "id": "fluidstack-2025-10-28-terawulf-abernathy",
+  "companyId": "fluidstack",
+  "date": "2025-10-28",
+  "title": "Fluidstack et TeraWulf lancent une coentreprise de 168 MW à Abernathy (Texas), environ 9,5 milliards de dollars",
+  "summary": "TeraWulf détient 51 % d'une coentreprise avec Fluidstack qui développe 168 MW à Abernathy, sous un bail de 25 ans d'environ 9,5 milliards de dollars.",
+  "detail": "Google garantit environ 1,3 milliard de dollars des obligations de bail de Fluidstack. Le coût est estimé à 8 à 10 millions de dollars par MW, avec une livraison au second semestre 2026. TeraWulf a une option sur 51 % du prochain projet de 168 MW de Fluidstack. La plateforme cliente est décrite comme un acteur hyperscale de l'IA.",
+  "impact": "Fluidstack devient partenaire direct d'une coentreprise, ce qui annonce son passage au développement de sites.",
+  "signal": "optimiste",
+  "rationale": "Le contrat de 25 ans est garanti en partie par Google.",
+  "sources": [
+   {
+    "label": "The Block, 28 oct. 2025",
+    "url": "https://www.theblock.co/post/376561/terawulf-expands-ai-push-9-5-billion-usd-google-backed-fluidstack-joint-venture-stock-jumps"
+   },
+   {
+    "label": "TheEnergyMag, 28 oct. 2025",
+    "url": "https://www.theenergymag.com/news/2025-10-28/terawulf-fluidstack-texas-ai"
+   }
+  ],
+  "addedAt": "2026-10-12T21:14:04Z"
+ },
+ {
+  "id": "fluidstack-2025-09-25-cipher-barber-lake-initial",
+  "companyId": "fluidstack",
+  "date": "2025-09-25",
+  "title": "Cipher signe avec Fluidstack un bail de 168 MW à Barber Lake, environ 3 milliards de dollars sur 10 ans",
+  "summary": "Cipher Mining loue 168 MW à Fluidstack à Colorado City (Texas), avec une garantie de 1,4 milliard de dollars de Google.",
+  "detail": "Le contrat dure 10 ans avec deux options de 5 ans, pour environ 3 milliards de dollars de revenus, jusqu'à environ 7 milliards avec les prolongations. Il repose sur 244 MW bruts. Google reçoit des bons de souscription sur environ 24 millions d'actions Cipher (environ 5,4 % pro forma). Cipher a lancé en parallèle une émission de 800 millions de dollars d'obligations convertibles.",
+  "impact": "Fluidstack ajoute un second exploitant de sites à son portefeuille après TeraWulf.",
+  "signal": "optimiste",
+  "rationale": "Un nouveau bail garanti par Google élargit la base de sites.",
+  "sources": [
+   {
+    "label": "The Block, 25 sept. 2025",
+    "url": "https://www.theblock.co/post/372315/cipher-mining-google-backed-3-billion-usd-ai-hosting-deal"
+   },
+   {
+    "label": "DCD, 25 sept. 2025",
+    "url": "https://www.datacenterdynamics.com/en/news/cipher-mining-secures-fluidstack-as-a-customer-and-google-as-an-investor/"
+   }
+  ],
+  "addedAt": "2026-10-12T21:14:04Z"
+ },
+ {
+  "id": "fluidstack-2025-08-18-terawulf-cb5",
+  "companyId": "fluidstack",
+  "date": "2025-08-18",
+  "title": "Fluidstack exerce son option sur 160 MW supplémentaires à Lake Mariner, Google garantit 3,2 milliards au total",
+  "summary": "Fluidstack loue le bâtiment CB-5 de TeraWulf (160 MW), portant sa capacité à environ 360 MW sur le campus, pour environ 6,7 milliards de dollars de revenus contractuels.",
+  "detail": "Google ajoute 1,4 milliard de dollars de garantie, soit environ 3,2 milliards au total, et reçoit des bons de souscription sur 32,5 millions d'actions, ce qui porte sa part pro forma à environ 14 %. Les conditions sont celles des premiers baux CB-3 et CB-4, avec une mise en service attendue au second semestre 2026.\n\nTeraWulf a aussi annoncé une émission de 400 millions de dollars d'obligations convertibles.",
+  "impact": "La capacité louée par Fluidstack sur le campus passe presque à 360 MW en quatre jours.",
+  "signal": "optimiste",
+  "rationale": "Une extension rapide, toujours garantie par Google, confirme la demande.",
+  "sources": [
+   {
+    "label": "TeraWulf, communiqué (8-K), 18 août 2025",
+    "url": "https://www.sec.gov/Archives/edgar/data/1083301/000110465925079463/tm2523651d3_ex99-1.htm"
+   },
+   {
+    "label": "DCD, 19 août 2025",
+    "url": "https://www.datacenterdynamics.com/en/news/fluidstack-to-lease-another-160mw-of-capacity-from-terawulf-at-new-york-campus-google-to-increase-stake-in-cryptominer/"
+   }
+  ],
+  "addedAt": "2026-10-12T21:14:04Z"
+ },
+ {
+  "id": "fluidstack-2025-08-14-terawulf-lake-mariner",
+  "companyId": "fluidstack",
+  "date": "2025-08-14",
+  "title": "TeraWulf loue à Fluidstack plus de 200 MW à Lake Mariner, avec une garantie de 1,8 milliard de Google",
+  "summary": "TeraWulf a signé avec Fluidstack deux baux de 10 ans à Lake Mariner (État de New York), d'environ 3,7 milliards de dollars, garantis en partie par Google.",
+  "detail": "Les baux portent sur plus de 200 MW de charge informatique (environ 250 MW bruts), jusqu'à 8,7 milliards avec deux prolongations de 5 ans. Google garantit 1,8 milliard de dollars des obligations de Fluidstack et reçoit des bons de souscription sur environ 41 millions d'actions TeraWulf, soit environ 8 % pro forma.\n\nUne première phase d'environ 40 MW est attendue au premier semestre 2026 et la totalité fin 2026. Fluidstack dispose d'une exclusivité de 30 jours sur un bâtiment supplémentaire (CB-5).",
+  "impact": "C'est le premier grand contrat de bail de la société avec un exploitant de sites, adossé à la signature de Google.",
+  "signal": "optimiste",
+  "rationale": "La garantie de Google réduit le risque de contrepartie du bail.",
+  "sources": [
+   {
+    "label": "TeraWulf, communiqué (8-K), 14 août 2025",
+    "url": "https://www.sec.gov/Archives/edgar/data/1083301/000110465925078084/tm2523008d2_ex99-1.htm"
+   },
+   {
+    "label": "DCD, 14 août 2025",
+    "url": "https://www.datacenterdynamics.com/en/news/cryptominer-terawulf-secures-200mw-lease-with-fluidstack-google-to-take-stake-in-company/"
+   }
+  ],
+  "addedAt": "2026-10-12T21:14:04Z"
+ },
+ {
+  "id": "fluidstack-2025-04-01-macquarie",
+  "companyId": "fluidstack",
+  "date": "2025-04-01",
+  "title": "Fluidstack obtient de Macquarie un financement de GPU pour les laboratoires d'IA européens",
+  "summary": "Macquarie Group finance des GPU pour Fluidstack, qui peut ainsi fournir du calcul à des laboratoires comme Mistral, Character.AI et Poolside.",
+  "detail": "Le financement, garanti par les GPU, permet à Fluidstack de proposer du calcul sans exiger de contrat pluriannuel. Les deux groupes prévoient d'élargir leur collaboration et de bâtir de nouveaux modèles de financement. Le montant n'est pas communiqué. La société revendiquait alors plus de 100 000 GPU sous gestion.",
+  "impact": "Un financement adossé aux actifs réduit le besoin de fonds propres pour acheter des puces.",
+  "signal": "optimiste",
+  "rationale": "Un grand financeur s'engage, même si le montant reste inconnu.",
+  "sources": [
+   {
+    "label": "HPCwire, communiqué, 1er avr. 2025",
+    "url": "https://www.hpcwire.com/off-the-wire/fluidstack-and-macquarie-group-announce-gpu-financing-deal-to-power-ai-labs-across-europe/"
+   },
+   {
+    "label": "DCD, 2 avr. 2025",
+    "url": "https://datacenterdynamics.com/en/news/fluidstack-and-macquarie-group-announce-european-gpu-financing-deal"
+   }
+  ],
+  "addedAt": "2026-10-12T21:14:04Z"
+ },
+ {
+  "id": "fluidstack-2025-03-25-borealis-dell-nvidia",
+  "companyId": "fluidstack",
+  "date": "2025-03-25",
+  "title": "Fluidstack déploie des clusters GPU en Islande avec Borealis, Dell et Nvidia",
+  "summary": "Fluidstack s'associe à Borealis Data Center, Dell et Nvidia pour déployer et gérer des clusters de GPU H200 en Islande et dans les pays nordiques.",
+  "detail": "Les clusters reposent sur des serveurs Dell PowerEdge XE9680 avec des GPU Nvidia HGX H200 et un réseau InfiniBand Quantum-2. Ils sont hébergés chez Borealis et fonctionnent, selon le communiqué, à l'énergie 100 % renouvelable (hydroélectricité et géothermie).\n\nLe communiqué ne donne ni le nombre de GPU ni le montant.",
+  "impact": "La société élargit son offre de calcul en Europe avec des capacités à bas coût énergétique.",
+  "signal": "neutre",
+  "rationale": "Le partenariat est concret mais sans chiffre de taille ni de contrat client.",
+  "sources": [
+   {
+    "label": "Silicon UK, communiqué Fluidstack, 25 mars 2025",
+    "url": "https://www.silicon.co.uk/press-release/fluidstack-to-deploy-energy-efficient-exascale-gpu-clusters-in-europe-in-collaboration-with-borealis-data-center-dell-technologies-and-nvidia"
+   },
+   {
+    "label": "DCD, 31 mars 2025",
+    "url": "https://www.datacenterdynamics.com/en/news/fluidstack-partners-with-nvidia-borealis-and-dell-for-exascale-gpu-clusters/"
+   }
+  ],
+  "addedAt": "2026-10-12T21:14:04Z"
+ },
+ {
+  "id": "fluidstack-2025-03-03-mistral-eclairion",
+  "companyId": "fluidstack",
+  "date": "2025-03-03",
+  "title": "Fluidstack et Eclairion livrent à Mistral AI un supercalculateur de plus de 18 000 GPU en Essonne",
+  "summary": "Fluidstack et le français Eclairion construisent pour Mistral AI ce qu'ils présentent comme le plus grand supercalculateur GPU d'Europe, à Bruyères-le-Châtel.",
+  "detail": "Le site d'Eclairion, à environ 40 km au sud de Paris, offre 40 MW avec une extension prévue au-delà de 100 MW. La capacité dépasse 18 000 GPU, avec une première tranche opérationnelle à l'été 2025 puis un déploiement échelonné. L'électricité est annoncée décarbonée.\n\nLe projet s'inscrit dans l'engagement de Fluidstack pour un supercalculateur d'1 GW en France.",
+  "impact": "Mistral AI devient un client de référence européen pour la société.",
+  "signal": "optimiste",
+  "rationale": "Un contrat avec un laboratoire d'IA majeur confirme la demande pour son offre.",
+  "sources": [
+   {
+    "label": "Silicon UK, communiqué Fluidstack, 3 mars 2025",
+    "url": "https://www.silicon.co.uk/press-release/fluidstack-delivering-europes-largest-ai-supercomputer-to-mistral-ai-in-2025"
+   },
+   {
+    "label": "HPCwire, 5 mars 2025",
+    "url": "https://www.hpcwire.com/?p=179184"
+   }
+  ],
+  "addedAt": "2026-10-12T21:14:04Z"
+ },
+ {
+  "id": "fluidstack-2025-02-26-direction",
+  "companyId": "fluidstack",
+  "date": "2025-02-26",
+  "title": "Fluidstack recrute un directeur des opérations venu de The Trade Desk et trois autres cadres",
+  "summary": "Fluidstack renforce sa direction avec Rob Perdue (COO), Dan Carpenter (ventes), Mike McDonald (produit) et Katherine Ollerhead (juridique).",
+  "detail": "Rob Perdue, basé à New York, était COO de The Trade Desk et a codirigé son introduction en bourse de 2016. Dan Carpenter vient d'AWS et d'Omniva et pilotera la stratégie commerciale mondiale. Mike McDonald, ancien de Google, Microsoft et Crusoe, dirige le produit et l'ingénierie. Katherine Ollerhead, ancienne directrice juridique de Canonical, supervise conformité et sécurité.\n\nLes parcours sont ceux donnés par la société dans son communiqué.",
+  "impact": "L'équipe se structure pour une phase de croissance rapide, avec des profils d'entreprises cotées et de cloud.",
+  "signal": "optimiste",
+  "rationale": "Des recrutements de haut niveau accompagnent le changement d'échelle.",
+  "sources": [
+   {
+    "label": "Silicon UK, communiqué Fluidstack, 26 févr. 2025",
+    "url": "https://www.silicon.co.uk/press-release/fluidstack-strengthens-leadership-team-with-key-executive-hires-to-drive-next-phase-of-growth"
+   },
+   {
+    "label": "Business Wire, 26 févr. 2025",
+    "url": "https://www.businesswire.com/news/home/20250226026828/en"
+   }
+  ],
+  "addedAt": "2026-10-12T21:14:04Z"
+ },
+ {
+  "id": "fluidstack-2025-02-10-france-1gw",
+  "companyId": "fluidstack",
+  "date": "2025-02-10",
+  "title": "Fluidstack annonce un supercalculateur d'1 GW en France pour 10 milliards d'euros",
+  "summary": "Fluidstack a signé un protocole d'accord avec l'État français pour construire un supercalculateur d'IA d'1 GW alimenté par le nucléaire, avec une première phase de 10 milliards d'euros.",
+  "detail": "Le texte a été signé au Sommet pour l'action sur l'IA à Paris par les ministres Eric Lombard et Marc Ferracci et par le cofondateur César Maklary. La phase 1 prévoit environ 500 000 puces d'IA de nouvelle génération et une mise en service en 2026. Le raccordement serait assuré par RTE, avec récupération de la chaleur fatale et une capacité portée au-delà d'1 GW d'ici 2028.\n\nLe site n'était pas encore désigné. Il s'agit d'un protocole d'accord, pas d'un contrat ferme.",
+  "impact": "C'est la première annonce de très grande échelle de la société, qui passe de fournisseur de GPU à constructeur de campus de calcul.",
+  "signal": "optimiste",
+  "rationale": "Le soutien affiché de l'État donne de la visibilité, mais il ne s'agit que d'un protocole d'accord.",
+  "sources": [
+   {
+    "label": "Silicon UK, communiqué Fluidstack, 10 févr. 2025",
+    "url": "https://www.silicon.co.uk/press-release/fluidstack-to-build-1gw-ai-supercomputer-in-france"
+   },
+   {
+    "label": "Business Wire, 10 févr. 2025",
+    "url": "https://www.businesswire.com/news/home/20250210579531/en"
+   }
+  ],
+  "addedAt": "2026-10-12T21:14:04Z"
  }
 ]
