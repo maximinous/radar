@@ -1308,6 +1308,24 @@
   "addedAt": "2026-09-30T15:46:23Z"
  },
  {
+  "id": "fluidstack-2026-09-25-cipher-barber-lake",
+  "companyId": "fluidstack",
+  "date": "2026-09-25",
+  "title": "Cipher prolonge à 20 ans le bail de Fluidstack à Barber Lake, plus de 9 milliards de dollars de revenus",
+  "summary": "Cipher Digital a modifié le bail de Fluidstack à Colorado City (Texas), qui passe de 10 à 20 ans et porte les revenus contractuels du site à plus de 9 milliards de dollars.",
+  "detail": "Un laboratoire d'IA non nommé s'est engagé à louer le site pour 10 années supplémentaires, soit environ 5,2 milliards de dollars de plus. Les salles seraient livrées du T4 2026 au T1 2027.\n\nCipher supporte les premiers 359,3 millions de dollars de dépassement de budget, le locataire couvrant ensuite la moitié.",
+  "impact": "Le site, loué par Fluidstack, voit sa durée contractuelle doubler avec un engagement ferme d'un laboratoire d'IA.",
+  "signal": "optimiste",
+  "rationale": "L'allongement du bail adossé à un laboratoire d'IA renforce la visibilité sur le site.",
+  "sources": [
+   {
+    "label": "Cipher Digital, communiqué, 25 sept. 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001819989/000181998926000043/barberlakeleaseamendmentpr.htm"
+   }
+  ],
+  "addedAt": "2026-10-12T20:50:56Z"
+ },
+ {
   "id": "crusoe-2026-09-25-boom-turbines",
   "companyId": "crusoe",
   "date": "2026-09-25",
@@ -2756,6 +2774,42 @@
   "title": "Shield AI discute d'une levée à au moins 20 milliards de dollars de valorisation"
  },
  {
+  "id": "fluidstack-2026-09-10-pentagone-pret",
+  "companyId": "fluidstack",
+  "date": "2026-09-10",
+  "title": "Le Pentagone négocierait un prêt de 5 milliards de dollars à Fluidstack",
+  "summary": "Selon le Wall Street Journal, le Bureau du capital stratégique du Pentagone est en discussions pour prêter environ 5 milliards de dollars à Fluidstack.",
+  "detail": "Le prêt servirait à renforcer la chaîne d'approvisionnement et les capacités de fabrication de composants de centres de données, et non à financer directement une nouvelle installation d'IA. Il serait le plus gros prêt de ce bureau, qui a déjà financé des producteurs de terres rares et de drones.\n\nLe ministère de la Défense et Fluidstack n'ont pas commenté, et les termes ne sont pas connus.",
+  "impact": "Un prêt public marquerait l'entrée de Fluidstack dans la politique industrielle de défense américaine.",
+  "signal": "optimiste",
+  "rationale": "Un financement fédéral de cette taille serait un soutien notable, mais il reste au stade des discussions.",
+  "sources": [
+   {
+    "label": "Reuters, d'après le WSJ, 10 sept. 2026 (via The Star, 11 sept.)",
+    "url": "https://www.thestar.com.my/tech/tech-news/2026/09/11/pentagon-in-talks-to-lend-5-billion-to-ai-cloud-startup-fluidstack-wsj-reports"
+   }
+  ],
+  "addedAt": "2026-10-12T20:50:56Z"
+ },
+ {
+  "id": "fluidstack-2026-09-10-cameron-county",
+  "companyId": "fluidstack",
+  "date": "2026-09-10",
+  "title": "Fluidstack lance les travaux d'un campus de 4 milliards de dollars dans le comté de Cameron (Texas)",
+  "summary": "Fluidstack a annoncé le début de la construction de la première phase d'un campus de centres de données de 4 milliards de dollars près de Harlingen.",
+  "detail": "Le site couvre plus de 1 100 acres. Le projet annonce plus de 2 500 emplois de construction et plusieurs centaines d'emplois permanents. Le comté a délivré un permis de chantier, et la société cherche une solution pour l'évacuation des eaux après le report par Harlingen d'un accord de drainage.\n\nLa capacité n'est pas précisée dans l'article de KRGV ; un suivi tiers évoque jusqu'à 1,5 GW, non confirmé.",
+  "impact": "Le projet donne à Fluidstack un nouveau grand campus en construction au Texas.",
+  "signal": "optimiste",
+  "rationale": "Le chantier démarre, avec des réserves locales sur le drainage et l'eau.",
+  "sources": [
+   {
+    "label": "KRGV, 10 sept. 2026",
+    "url": "https://www.krgv.com/news/fluidstack-breaks-ground-on-4-billion-data-center-campus-in-cameron-county"
+   }
+  ],
+  "addedAt": "2026-10-12T20:50:56Z"
+ },
+ {
   "addedAt": "2026-09-24T07:17:59Z",
   "companyId": "together-ai",
   "date": "2026-09-10",
@@ -3420,6 +3474,46 @@
   "title": "Clientèle concentrée et regard politique sur l'agrément"
  },
  {
+  "id": "fluidstack-2026-07-07-okmulgee",
+  "companyId": "fluidstack",
+  "date": "2026-07-07",
+  "title": "Fluidstack prépare un centre de données dans le comté d'Okmulgee (Oklahoma), face à l'opposition locale",
+  "summary": "Fluidstack projette un campus dans le comté d'Okmulgee, qui suscite l'opposition d'habitants et d'un collectif local.",
+  "detail": "La société a ouvert un site d'information public et dit ne pas demander d'incitations fiscales locales. Une réunion publique a eu lieu le 20 juillet. Les habitants craignent bruit, santé, valeur immobilière et impact sur le réseau électrique ; taille et capacité ne sont pas précisées.\n\nLe 31 août, le comté a refusé un permis de zone inondable pour le projet, sans préjudice, en relevant six problèmes dans la demande. Le promoteur peut corriger et redéposer.",
+  "impact": "Le projet avance mais se heurte à des obstacles locaux et réglementaires avant toute construction.",
+  "signal": "prudent",
+  "rationale": "Opposition publique et permis de zone inondable refusé retardent le projet, même si le refus est révisable.",
+  "sources": [
+   {
+    "label": "FOX23, 7 juil. 2026",
+    "url": "https://fox23.com/news/local/community-pushes-back-against-planned-okmulgee-county-data-center"
+   },
+   {
+    "label": "Your Okmulgee, 2 sept. 2026",
+    "url": "https://www.yourokmulgee.com/article/6020,commissioners-hear-details-behind-denial-of-data-center-floodplain-permit"
+   }
+  ],
+  "addedAt": "2026-10-12T20:50:56Z"
+ },
+ {
+  "id": "fluidstack-2026-07-06-terawulf-abernathy",
+  "companyId": "fluidstack",
+  "date": "2026-07-06",
+  "title": "Fluidstack rachète la part de 50,1 % de TeraWulf dans la coentreprise d'Abernathy (Texas)",
+  "summary": "TeraWulf cède sa participation de 50,1 % dans la coentreprise du campus d'Abernathy à un groupe d'investisseurs mené par Fluidstack, qui continuera de diriger le projet.",
+  "detail": "La coentreprise avait été créée en 2025 pour un campus de 168 MW de charge informatique critique. TeraWulf y avait investi environ 450 millions de dollars et vend avec une prime sur ce capital, sans préciser le prix ni la date de clôture.\n\nLe même jour, TeraWulf a annoncé un bail de 20 ans avec Anthropic à Hawesville (Kentucky), pour environ 19 milliards de dollars de revenus contractuels.",
+  "impact": "Fluidstack prend le contrôle total d'un campus qu'elle exploite, au moment où son partenaire se recentre sur d'autres sites.",
+  "signal": "neutre",
+  "rationale": "La prise de contrôle renforce la position de Fluidstack, mais le prix et le financement ne sont pas publics.",
+  "sources": [
+   {
+    "label": "TeraWulf, communiqué, 6 juil. 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001083301/000110465926080583/tm2619468d1_ex99-1.htm"
+   }
+  ],
+  "addedAt": "2026-10-12T20:50:56Z"
+ },
+ {
   "addedAt": "2026-09-22T08:00:00Z",
   "companyId": "together-ai",
   "date": "2026-07-01",
@@ -3560,6 +3654,72 @@
   ],
   "summary": "Une équipe dédiée développe un outil de surveillance des agents de code, pensé pour la production.",
   "title": "Apollo ouvre San Francisco et construit Watcher, son premier produit"
+ },
+ {
+  "id": "fluidstack-2026-04-20-indiana-obligations",
+  "companyId": "fluidstack",
+  "date": "2026-04-20",
+  "title": "Coentreprise avec Fluidstack : 5,7 milliards de dollars d'obligations pour un campus de 430 MW dans l'Indiana",
+  "summary": "La coentreprise Meridian Compute, partenaire de Fluidstack et de Next Frontier (Coatue), a placé 5,7 milliards de dollars de billets garantis à 6,25 % pour financer deux centres de données à New Lebanon (Indiana).",
+  "detail": "Les billets arrivent à échéance en 2031. Ils financent l'achat d'environ 140 acres, deux centres de données de 245 MW et 185 MW (430 MW au total) et une sous-station dédiée. Latham & Watkins, conseil de l'émetteur, parle du plus gros financement lié à l'IA sur le marché des obligations à haut rendement.\n\nLe WSJ a présenté le 1er mai Next Frontier, le véhicule de Coatue qui achète des terrains pour des campus d'IA, avec ce projet de l'Indiana comme premier dossier. Fluidstack est partenaire de la coentreprise et locataire du site.",
+  "impact": "Fluidstack sécurise le financement d'un campus de taille significative sans porter la dette sur son propre bilan.",
+  "signal": "optimiste",
+  "rationale": "Un financement record sur le marché obligataire valide la solidité perçue du modèle de campus loués à des laboratoires d'IA.",
+  "sources": [
+   {
+    "label": "Latham & Watkins, 20 avr. 2026",
+    "url": "https://www.lw.com/en/news/2026/04/latham-advises-on-meridian-arc-holdco-senior-secured-notes-offering-to-finance-ai-data-center"
+   },
+   {
+    "label": "TheEnergyMag, d'après le WSJ, 3 mai 2026",
+    "url": "https://www.theenergymag.com/news/2026-05-03/coatue-ai-data-center-next-frontier"
+   }
+  ],
+  "addedAt": "2026-10-12T20:50:56Z"
+ },
+ {
+  "id": "fluidstack-2026-03-18-abandon-france",
+  "companyId": "fluidstack",
+  "date": "2026-03-18",
+  "title": "Fluidstack renonce au supercalculateur de 10 milliards d'euros à Bosquel et à un projet lié à Mistral",
+  "summary": "Selon Bloomberg, Fluidstack se retire du projet d'un gigawatt à Bosquel (Somme), présenté en 2025 comme une annonce phare de l'IA en France, ainsi que d'un projet au sud de Paris avec Mistral AI et Eclairion.",
+  "detail": "Les autorités locales ont rouvert le site à d'autres candidats, sans développeur retenu à ce stade. Fluidstack n'avait pas confirmé officiellement le retrait quand FrenchWeb l'a contactée le 23 mars.\n\nBloomberg relie ce choix au recentrage sur les États-Unis, où la société a décroché l'accord de 50 milliards de dollars avec Anthropic et travaille avec Cipher Digital et TeraWulf avec le soutien de Google.",
+  "impact": "Fluidstack concentre ses ressources sur les États-Unis et abandonne sa principale implantation européenne annoncée.",
+  "signal": "prudent",
+  "rationale": "La société perd un projet emblématique en France, même si le recentrage sur des contrats américains plus importants est assumé.",
+  "sources": [
+   {
+    "label": "Bloomberg, 18 mars 2026",
+    "url": "https://www.bloomberg.com/news/articles/2026-03-18/fluidstack-drops-out-of-marquee-10-billion-ai-project-in-france"
+   },
+   {
+    "label": "TheEnergyMag, 19 mars 2026",
+    "url": "https://www.theenergymag.com/news/2026-03-19/fluidstack-drop-ai-france"
+   },
+   {
+    "label": "FrenchWeb, 23 mars 2026",
+    "url": "https://www.frenchweb.fr/fluidstack-une-deconvenue-pour-la-strategie-francaise-de-lia/460904"
+   }
+  ],
+  "addedAt": "2026-10-12T20:50:56Z"
+ },
+ {
+  "id": "fluidstack-2026-02-20-google-100m",
+  "companyId": "fluidstack",
+  "date": "2026-02-20",
+  "title": "Google serait en discussions pour investir environ 100 millions de dollars dans Fluidstack",
+  "summary": "Selon le Wall Street Journal, Google négocie une prise de participation d'environ 100 millions de dollars dans Fluidstack, qui serait valorisée autour de 7,5 milliards.",
+  "detail": "L'information n'est pas confirmée par les sociétés. Elle s'inscrit dans l'effort de Google pour soutenir les partenaires de centres de données qui utilisent ses puces TPU.\n\nSiliconANGLE rappelle que Hut 8 et TeraWulf, qui ont signé des contrats avec Fluidstack, bénéficient déjà de garanties de Google, et que Fluidstack travaille avec Anthropic sur son programme de 50 milliards de dollars de centres de données aux États-Unis.",
+  "impact": "Un investissement de Google renforcerait le lien entre Fluidstack et l'écosystème TPU, en plus des garanties de location déjà accordées.",
+  "signal": "optimiste",
+  "rationale": "Un soutien financier direct de Google serait un signal fort, mais les discussions ne sont pas confirmées.",
+  "sources": [
+   {
+    "label": "SiliconANGLE, d'après le Wall Street Journal, 20 févr. 2026",
+    "url": "https://siliconangle.com/2026/02/20/google-reportedly-invest-100m-ai-cloud-operator-fluidstack/"
+   }
+  ],
+  "addedAt": "2026-10-12T20:50:56Z"
  },
  {
   "addedAt": "2026-09-22T08:00:00Z",
