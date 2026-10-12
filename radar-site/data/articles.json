@@ -335,7 +335,7 @@
   "rationale": "Partenariat de petite taille, sans montant, qui enrichit l'offre d'agents.",
   "sources": [
    {
-    "label": "The Daily Guardian, d'après Reuters, 6 oct. 2026",
+    "label": "Reuters, brève reprise par The Daily Guardian, 6 oct. 2026",
     "url": "https://thedailyguardian.com/world/brief-rings-ai-says-co-and-perplexity-announce-partnership-763651/"
    }
   ],
@@ -1974,24 +1974,6 @@
   ],
   "summary": "Selon The Information, la banque a dit à des salariés et investisseurs qu'elle pourrait aider la Syrie. Rien n'est officiel.",
   "title": "Erebor étudie une expansion en Syrie"
- },
- {
-  "id": "crusoe-2026-09-21-abilene-oracle",
-  "companyId": "crusoe",
-  "date": "2026-09-21",
-  "title": "Oracle réduit ses équipes sur le campus d'Abilene loué à Crusoe",
-  "summary": "Selon des témoignages d'employés relayés par la presse, des licenciements d'Oracle ont touché vers le 14 septembre le personnel du campus Stargate d'Abilene, propriété de Crusoe.",
-  "detail": "Oracle loue le site à Crusoe dans un contrat de long terme, évalué à plus d'un milliard de dollars par an selon des sources non nommées. Ces mêmes sources indiquent qu'OpenAI ne prévoit pas de s'étendre davantage sur ce site.\n\nOracle n'a pas commenté. Les informations reposent surtout sur des messages d'employés.",
-  "impact": "Le bail avec Oracle n'est pas remis en cause, mais une pause dans l'extension d'Abilene limiterait la croissance du site phare de Crusoe.",
-  "signal": "prudent",
-  "rationale": "Signal de ralentissement sur le campus le plus connu de Crusoe, encore peu étayé.",
-  "sources": [
-   {
-    "label": "People Matters, 21 sept. 2026",
-    "url": "https://www.peoplematters.in/news/strategic-hr/oracle-cuts-jobs-at-abilene-data-centre-tied-to-openais-stargate-project-52214"
-   }
-  ],
-  "addedAt": "2026-10-12T21:10:28Z"
  },
  {
   "id": "figure-ai-2026-09-21-boston-dynamics-atlas-rmac",
@@ -3950,6 +3932,24 @@
   "addedAt": "2026-10-12T21:10:28Z"
  },
  {
+  "id": "crusoe-2026-03-09-abilene-extension",
+  "companyId": "crusoe",
+  "date": "2026-03-09",
+  "title": "OpenAI et Oracle auraient renoncé à agrandir le campus d'Abilene construit par Crusoe",
+  "summary": "Selon des informations de presse du début mars, OpenAI et Oracle ont mis de côté l'extension du campus Stargate d'Abilene, au Texas. Oracle dément tout retard.",
+  "detail": "Oracle affirme que deux bâtiments du campus sont pleinement en service, que le reste avance selon le calendrier et qu'il travaille main dans la main avec Crusoe. Le groupe dit aussi avoir loué 4,5 GW supplémentaires ailleurs pour tenir ses engagements envers OpenAI.\n\nL'action Oracle a reculé après ces informations. Ni la capacité concernée ni les termes du bail de Crusoe ne sont précisés.",
+  "impact": "Si elle se confirme, la pause limiterait la croissance du site le plus connu de Crusoe, sans remettre en cause les bâtiments déjà loués.",
+  "signal": "prudent",
+  "rationale": "Information de presse défavorable sur le site phare de Crusoe, démentie en partie par Oracle.",
+  "sources": [
+   {
+    "label": "Capacity, 9 mars 2026",
+    "url": "https://capacityglobal.com/news/oracle-and-openai-abandon-texas-ai-data-centre-expansion/"
+   }
+  ],
+  "addedAt": "2026-10-12T21:14:41Z"
+ },
+ {
   "id": "perplexity-2026-02-22-samsung-galaxy-s26",
   "companyId": "perplexity",
   "date": "2026-02-22",
@@ -4001,12 +4001,12 @@
   "rationale": "Financement avantageux mais non confirmé, et qui accroît l'endettement lié aux puces.",
   "sources": [
    {
-    "label": "Sherwood News, d'après The Information, févr. 2026",
-    "url": "https://sherwood.news/markets/amd-to-effectively-guarantee-a-loan-to-ai-startup-crusoe-that-will-be-used/"
-   },
-   {
     "label": "DCD, févr. 2026",
     "url": "https://www.datacenterdynamics.com/en/news/amd-underwrites-300m-crusoe-loan-so-data-center-firm-can-buy-its-ai-chips-report/"
+   },
+   {
+    "label": "Sherwood News, d'après The Information, févr. 2026",
+    "url": "https://sherwood.news/markets/amd-to-effectively-guarantee-a-loan-to-ai-startup-crusoe-that-will-be-used/"
    }
   ],
   "addedAt": "2026-10-12T21:10:28Z"
