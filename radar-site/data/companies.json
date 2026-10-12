@@ -1409,6 +1409,18 @@
      "label": "Fluidstack, 20 juil. 2026",
      "url": "https://fluidstack.io/news/series-a-announcement"
     }
+   },
+   {
+    "amount": "7 milliards de dollars",
+    "value": 7,
+    "currency": "USD",
+    "round": "Tour d'environ 700 millions de dollars en discussion (devenu la série A)",
+    "date": "2025-12-04",
+    "status": "presse",
+    "source": {
+     "label": "Bloomberg, 4 déc. 2025",
+     "url": "https://news.bgov.com/private-equity/data-center-startup-fluidstack-in-talks-for-7-billion-valuation"
+    }
    }
   ],
   "metrics": [
