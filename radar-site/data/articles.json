@@ -3194,7 +3194,7 @@
   "date": "2026-09-03",
   "title": "Fluidstack lève 1,5 milliard de dollars auprès de Jane Street, valorisée 18 milliards",
   "summary": "Selon Forbes, le constructeur de centres de données d'Anthropic a bouclé un tour de 1,5 milliard de dollars mené par le fonds quantitatif Jane Street, à une valorisation de 18 milliards.",
-  "detail": "La valorisation fait plus que doubler par rapport aux 7,5 milliards de la série A rendue publique en juillet. Bloomberg avait révélé en avril des discussions pour 1 milliard de dollars au même niveau de valorisation. La société n'a pas publié de communiqué.\n\nSelon un mémo d'investisseur cité par Forbes, les revenus seraient passés d'environ 200 millions de dollars en 2025 à 660 millions projetés en 2026. Le total levé en fonds propres dépasserait 2,6 milliards de dollars.",
+  "detail": "La valorisation fait plus que doubler par rapport aux 7,5 milliards de la série A rendue publique en juillet. Bloomberg avait révélé en avril des discussions pour 1 milliard de dollars au même niveau de valorisation. La société n'a pas publié de communiqué.\n\nSelon un mémo d'investisseur cité par Forbes, les revenus seraient passés d'environ 200 millions de dollars en 2025 à 660 millions projetés en 2026. Le total levé en fonds propres dépasserait 2,6 milliards de dollars.\n\nSelon Forbes, Fluidstack semble être le premier exploitant connu de centres de données à puces TPU de Google hors de Google. Google garantit ses baux avec TeraWulf, Cipher et Hut 8, pour un peu moins d'1 GW au total. Meta, Jane Street et Black Forest Labs figurent aussi parmi ses clients.",
   "impact": "Fluidstack se finance pour construire les campus promis à Anthropic et à ses autres clients, alors que Google garantit une partie de ses engagements de location.",
   "signal": "optimiste",
   "rationale": "Valorisation plus que doublée en quelques semaines, avec un investisseur de premier rang, même si les chiffres ne sont pas confirmés par la société.",
@@ -3736,6 +3736,32 @@
   ],
   "summary": "Après la génération précédente, le nouveau robot prend le relais à l'usine BMW de Spartanburg. La production dépasse les 1 000 unités.",
   "title": "Le Figure 03 arrive chez BMW"
+ },
+ {
+  "id": "fluidstack-2026-06-26-glendale-arizona",
+  "date": "2026-06-26",
+  "title": "Fluidstack loue 1,1 million de pieds carrés à Glendale, en Arizona",
+  "summary": "Fluidstack prend deux bâtiments industriels entiers sur le parc Luke Field de Glendale, près de Phoenix, soit environ 100 000 m².",
+  "detail": "Le bâtiment A fait environ 695 000 pieds carrés et le bâtiment B environ 455 000, sur un campus de 2,4 millions de pieds carrés développé par Lincoln Property Company. Le locataire a été identifié par un document de financement déposé le 5 juin dans le comté de Maricopa. Les courtiers, tenus au secret, le décrivent comme un fournisseur d'équipements et de services pour centres de données, et non comme un site de calcul.\n\nForbes a confirmé en septembre ce bail de deux bâtiments signé en juin.",
+  "impact": "Fluidstack se dote d'une grande base logistique et industrielle pour accélérer la construction de ses campus.",
+  "signal": "optimiste",
+  "rationale": "Investissement d'infrastructure important, cohérent avec la montée en charge des chantiers.",
+  "sources": [
+   {
+    "label": "CoStar, 26 juin 2026",
+    "url": "https://www.costar.com/article/505261488/artificial-intelligence-company-signs-full-building-industrial-lease-in-glendale-arizona"
+   },
+   {
+    "label": "KTAR, juin 2026",
+    "url": "https://ktar.com/arizona-real-estate/firm-linked-data-centers-signs-west-valley-lease/5883750/"
+   },
+   {
+    "label": "Forbes Australie, 3 sept. 2026",
+    "url": "https://www.forbes.com.au/?p=205341"
+   }
+  ],
+  "addedAt": "2026-10-12T21:23:12Z",
+  "companyId": "fluidstack"
  },
  {
   "addedAt": "2026-09-22T08:00:00Z",
