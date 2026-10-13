@@ -1,20 +1,20 @@
 {
- "generatedAt": "2026-10-12T19:56:04Z",
+ "generatedAt": "2026-10-13T20:06:16Z",
  "windowHours": 48,
- "headlinesRead": 773,
- "count": 15,
+ "headlinesRead": 990,
+ "count": 20,
  "companies": [
   {
-   "companyId": "mistral-ai",
-   "name": "Mistral AI",
+   "companyId": "deel",
+   "name": "Deel",
    "candidates": [
     {
-     "date": "2026-10-12 18:27",
-     "media": "DD India",
-     "title": "France’s Mistral launches AI model it says outperforms some Chinese rivals",
-     "site": "https://ddindia.co.in",
-     "overlap": 0.38,
-     "reprises": 1
+     "date": "2026-10-13 10:06",
+     "media": "SMBtech",
+     "title": "Scattered Payroll Data Leaves Businesses Exposed To Fraud And Breaches, Deel Warns",
+     "site": "https://smbtech.au",
+     "overlap": 0,
+     "reprises": 0
     }
    ]
   },
@@ -23,33 +23,49 @@
    "name": "Stripe",
    "candidates": [
     {
+     "date": "2026-10-13 19:54",
+     "media": "Pluang",
+     "title": "Ripple partners with Stripe-owned Privy to embe...",
+     "site": "https://pluang.com",
+     "overlap": 0,
+     "reprises": 10
+    },
+    {
      "date": "2026-10-12 15:25",
      "media": "Pluang",
      "title": "Stripe, Mastercard, and Circle expand stablecoi...",
      "site": "https://pluang.com",
-     "overlap": 0.0,
+     "overlap": 0,
      "reprises": 2
-    },
-    {
-     "date": "2026-10-11 15:21",
-     "media": "Stocktwits",
-     "title": "PYPL Stock Rises After Report Says Stripe And Advent May Be Ready To Raise Their PayPal Bid",
-     "site": "https://stocktwits.com",
-     "overlap": 0.08,
-     "reprises": 0
     }
    ]
   },
   {
-   "companyId": "lovable",
-   "name": "Lovable",
+   "companyId": "kraken",
+   "name": "Kraken",
    "candidates": [
     {
-     "date": "2026-10-12 09:11",
-     "media": "CBN.com.cy",
-     "title": "Capacitor Partners becomes a Lovable Solution Partner",
-     "site": "https://www.cbn.com.cy",
-     "overlap": 0,
+     "date": "2026-10-12 04:05",
+     "media": "CoinMarketCap",
+     "title": "Kraken Launches Open-Source, Self-Custodial Crypto Wallet",
+     "site": "https://coinmarketcap.com",
+     "overlap": 0.29,
+     "reprises": 0
+    },
+    {
+     "date": "2026-10-12 21:00",
+     "media": "EnterpriseAM",
+     "title": "More focus on homegrown food, Kraken makes its comeback as Al Mazaya wants out, EFG launches liquidity services",
+     "site": "https://enterpriseam.com",
+     "overlap": 0.15,
+     "reprises": 0
+    },
+    {
+     "date": "2026-10-13 13:08",
+     "media": "Yahoo Finance",
+     "title": "Snappy Kraken Announces 2027 Return of Jolt!, the Wealth Management Industry’s First and Only Growth-Focused Conference",
+     "site": "https://finance.yahoo.com",
+     "overlap": 0.08,
      "reprises": 0
     }
    ]
@@ -59,35 +75,51 @@
    "name": "Polymarket",
    "candidates": [
     {
-     "date": "2026-10-12 16:45",
-     "media": "MassLive.com",
-     "title": "NFL Polymarket promo code “MASS” enhances $25 Bills-Rams deal",
-     "site": "https://www.masslive.com",
-     "overlap": 0.12,
-     "reprises": 2
+     "date": "2026-10-12 02:39",
+     "media": "CoinMarketCap",
+     "title": "Prediction Markets News: Kalshi, Polymarket Push Multi-Billion Raise as Legal Pressure Escalates",
+     "site": "https://coinmarketcap.com",
+     "overlap": 0,
+     "reprises": 1
     },
     {
-     "date": "2026-10-10 23:45",
+     "date": "2026-10-13 01:45",
      "media": "OregonLive.com",
-     "title": "Polymarket launches new $25 referral code “OREGON” for USC-Penn State live odds",
+     "title": "New $25 Polymarket referral code “OREGON” launches for NFL Week 4 games",
      "site": "https://www.oregonlive.com",
-     "overlap": 0.11,
+     "overlap": 0,
+     "reprises": 1
+    },
+    {
+     "date": "2026-10-13 18:19",
+     "media": "Protos | Informed crypto news",
+     "title": "Kalshi and Polymarket won’t be part of FTC sports gambling probe, report",
+     "site": "https://protos.com",
+     "overlap": 0,
+     "reprises": 1
+    },
+    {
+     "date": "2026-10-11 23:45",
+     "media": "Cleveland.com",
+     "title": "NFL Polymarket promo code “CLEVE” updates $25 deal for Ravens-Falcons",
+     "site": "https://www.cleveland.com",
+     "overlap": 0,
      "reprises": 0
     },
     {
-     "date": "2026-10-11 12:24",
-     "media": "Stocktwits",
-     "title": "DKNG, FLUT Stocks Drop After Reported Fundraising Talks At Kalshi, Polymarket At $20B Valuation",
-     "site": "https://stocktwits.com",
-     "overlap": 0.0,
+     "date": "2026-10-13 03:46",
+     "media": "CoinMarketCap",
+     "title": "Polymarket Partners With PrizePicks To Launch U.S. Prediction Markets",
+     "site": "https://coinmarketcap.com",
+     "overlap": 0,
      "reprises": 0
     },
     {
-     "date": "2026-10-11 13:45",
-     "media": "Syracuse.com",
-     "title": "NFL Polymarket referral code “CUSE” launches $25 bonus for Week 5",
-     "site": "https://www.syracuse.com",
-     "overlap": 0.14,
+     "date": "2026-10-13 11:43",
+     "media": "Cryptonews",
+     "title": "Anthropic IPO Polymarket: $2T Bet Meets 21.5% Bankruptcy Odds",
+     "site": "https://cryptonews.com",
+     "overlap": 0,
      "reprises": 0
     }
    ]
@@ -97,12 +129,12 @@
    "name": "Shield AI",
    "candidates": [
     {
-     "date": "2026-10-12 19:09",
-     "media": "GuruFocus",
-     "title": "GE Aerospace Partners with Shield AI and WZL-2 to Boost F110 Eng",
-     "site": "https://www.gurufocus.com",
+     "date": "2026-10-13 17:18",
+     "media": "Bitget",
+     "title": "FLOKI’s TokenFi unveils Shield AI – Can it help ‘build the future of Web3’?",
+     "site": "https://www.bitget.com",
      "overlap": 0.0,
-     "reprises": 6
+     "reprises": 1
     }
    ]
   },
@@ -111,35 +143,27 @@
    "name": "Anthropic",
    "candidates": [
     {
-     "date": "2026-10-12 18:58",
-     "media": "Barron's",
-     "title": "Anthropic Deal Report Gives IREN Stock Early Boost Before Gains Fade",
-     "site": "https://www.barrons.com",
-     "overlap": 0.1,
-     "reprises": 4
-    },
-    {
-     "date": "2026-10-12 12:30",
-     "media": "Yahoo Finance",
-     "title": "IREN Climbs 4% on Report of Unconfirmed Anthropic Cloud Deal; TeraWulf and Applied Digital Hold Flat",
-     "site": "https://finance.yahoo.com",
-     "overlap": 0.09,
+     "date": "2026-10-12 16:06",
+     "media": "Brief IA",
+     "title": "Anthropic Launches Motion and Claude Dashboards in Beta",
+     "site": "https://www.briefia.fr",
+     "overlap": 0.2,
      "reprises": 3
     },
     {
-     "date": "2026-10-12 15:23",
-     "media": "TIKR.com",
-     "title": "IREN Stock Jumps 4% Following Landmark Cloud Computing Deal With Anthropic",
-     "site": "https://www.tikr.com",
-     "overlap": 0.12,
-     "reprises": 3
+     "date": "2026-10-13 14:44",
+     "media": "Mashable",
+     "title": "Meta launches Muse Wonder, catching OpenAI, Anthropic: How to try it, benchmark results",
+     "site": "https://mashable.com",
+     "overlap": 0.0,
+     "reprises": 2
     },
     {
      "date": "2026-10-12 04:33",
      "media": "TradingView",
      "title": "ANTHROPIC, une IPO à 2000 milliards avant Thanksgiving ? pour SP:SPX par Swissquote",
      "site": "https://fr.tradingview.com",
-     "overlap": 0.14,
+     "overlap": 0.29,
      "reprises": 1
     },
     {
@@ -151,11 +175,33 @@
      "reprises": 1
     },
     {
-     "date": "2026-10-12 17:31",
-     "media": "The Information",
-     "title": "Meta Unveils New AI Models to Challenge OpenAI and Anthropic",
-     "site": "https://www.theinformation.com",
-     "overlap": 0.2,
+     "date": "2026-10-11 21:06",
+     "media": "FinanceFeeds",
+     "title": "Anthropic’s 14 October Investor Day Nears, but Its S-1 Still Isn’t Public: The IPO Timeline Explained",
+     "site": "https://financefeeds.com",
+     "overlap": 0.09,
+     "reprises": 0
+    },
+    {
+     "date": "2026-10-12 01:57",
+     "media": "TradingView",
+     "title": "IREN's Mystery Customer Is Anthropic? Fresh Buzz Pushes Stock Higher",
+     "site": "https://fr.tradingview.com",
+     "overlap": 0.12,
+     "reprises": 0
+    }
+   ]
+  },
+  {
+   "companyId": "perplexity",
+   "name": "Perplexity",
+   "candidates": [
+    {
+     "date": "2026-10-12 17:19",
+     "media": "آي-فون إسلام",
+     "title": "Perplexity launches health platform with Apple Health… Your smart doctor now knows you well!",
+     "site": "https://iphoneislam.com",
+     "overlap": 0.0,
      "reprises": 1
     }
    ]
