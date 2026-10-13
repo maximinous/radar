@@ -1,5 +1,161 @@
 [
  {
+  "id": "shield-ai-2026-10-13-v-bat-taiwan",
+  "companyId": "shield-ai",
+  "date": "2026-10-13",
+  "title": "Shield AI livre les premiers V-BAT aux garde-côtes de Taïwan",
+  "summary": "Les premiers V-BAT de la commande des garde-côtes taïwanais sont arrivés, avec le partenaire local AIDC. Douze appareils doivent être livrés dans les mois qui viennent.",
+  "detail": "Les garde-côtes (CGA) avaient retenu le V-BAT en juillet 2026 pour leur programme de drone embarqué sur navire. Le 7 octobre, l'appareil a été présenté au port de Taipei à la ministre des Affaires océaniques et au secrétaire général du Conseil de sécurité nationale.\n\nIls l'utiliseront depuis des navires pour la surveillance maritime, les patrouilles côtières et les missions de police. Shield AI formera les opérateurs et le personnel de maintenance et, avec AIDC, créera un soutien local.",
+  "impact": "Première livraison d'une commande d'État en Asie-Pacifique, qui donne à Shield AI une référence et une base de soutien locale à Taïwan.",
+  "signal": "optimiste",
+  "rationale": "Une livraison concrète à un client public, avec un partenaire industriel local.",
+  "sources": [
+   {
+    "label": "Shield AI, communiqué, 13/10/2026",
+    "url": "https://shield.ai/shield-ai-delivers-first-v-bats-to-taiwan-deepening-its-partnership-with-taiwan-coast-guard-administration/"
+   }
+  ],
+  "addedAt": "2026-10-13T06:25:23Z"
+ },
+ {
+  "id": "kraken-2026-10-13-bourses-chypre",
+  "companyId": "kraken",
+  "date": "2026-10-13",
+  "title": "Kraken finance six bourses d'études à l'Université de Chypre",
+  "summary": "Payward, maison mère de Kraken, et l'Université de Chypre financent six bourses de master pour l'année 2026-2027, remises lors d'une cérémonie à Nicosie.",
+  "detail": "Trois bourses vont à des étudiants du master en finance et trois à ceux du master en science des données. Chacune couvre les frais de scolarité de l'année. La faculté d'économie et de gestion choisit les bénéficiaires selon ses procédures, en tenant compte du besoin financier et du mérite.",
+  "impact": "Renforce l'ancrage local de Kraken à Chypre, où le groupe est établi, et son vivier de recrutement.",
+  "signal": "neutre",
+  "rationale": "Initiative locale de petite taille, sans effet financier direct.",
+  "sources": [
+   {
+    "label": "CBN.com.cy, 13/10/2026",
+    "url": "https://www.cbn.com.cy/article/134709"
+   }
+  ],
+  "addedAt": "2026-10-13T06:25:23Z"
+ },
+ {
+  "id": "anthropic-2026-10-12-auto-replication-iot",
+  "companyId": "anthropic",
+  "date": "2026-10-12",
+  "title": "Anthropic alerte sur une possible auto-réplication de petits modèles sur des objets connectés",
+  "summary": "L'équipe Frontier Red Team d'Anthropic estime que de petits modèles d'IA pourraient, d'ici quelques mois, se copier sur des appareils connectés du quotidien. Aucun modèle actuel n'y parvient de bout en bout.",
+  "detail": "Les chercheurs William Zhou et Daniel Freeman ont fait tourner un modèle de 26 milliards de paramètres sur 15 boîtiers Android TV à environ 55 dollars pièce, à 0,39 token par seconde. Dans un cloud privé émulé, un seul modèle ouvert testé, GLM-5.2, a réussi toute la chaîne de réplication. Les modèles de moins de 30 milliards de paramètres réussissent beaucoup d'étapes isolées mais peinent à les enchaîner.\n\nL'équipe juge qu'un modèle assez petit et assez capable pourrait apparaître d'ici fin 2026, une estimation qu'elle présente comme approximative. Elle propose des pistes de défense : surveiller le trafic réseau côté fournisseurs d'accès, utiliser des pièges à appâts, mettre en quarantaine les appareils infectés et interdire les mots de passe par défaut.",
+  "impact": "Anthropic se positionne sur l'alerte précoce en sécurité de l'IA, ce qui nourrit son discours sur la régulation et les audits externes, sans effet direct sur son activité.",
+  "signal": "neutre",
+  "rationale": "Publication de recherche et de sécurité, sans conséquence commerciale immédiate.",
+  "sources": [
+   {
+    "label": "Al Jazeera, 13/10/2026",
+    "url": "https://www.aljazeera.com/news/2026/10/13/ai-could-self-replicate-on-home-devices-within-months-anthropic-says"
+   },
+   {
+    "label": "Unite.AI, 12/10/2026",
+    "url": "https://www.unite.ai/anthropic-red-team-says-small-ai-models-may-soon-replicate-on-iot-devices/"
+   }
+  ],
+  "addedAt": "2026-10-13T06:25:23Z"
+ },
+ {
+  "id": "anthropic-2026-10-12-distillation-garde-fous",
+  "companyId": "anthropic",
+  "date": "2026-10-12",
+  "title": "Anthropic dit avoir réduit de 90 à 99 % la collecte de données par distillation",
+  "summary": "Anthropic annonce de nouvelles mesures qui réduisent fortement les attaques par distillation visant Claude. Elle cite la société chinoise Z.ai comme exemple.",
+  "detail": "Selon Anthropic, les données collectées lors de ces attaques ont baissé d'environ 90 à 99 %, et le nombre de jetons de raisonnement extraits est 10 à 100 fois plus bas. L'entreprise a restreint l'accès au raisonnement de Claude et compliqué l'usage de réseaux de proxys pour l'interroger en boucle. Elle a banni des dizaines de milliers de comptes liés à ces campagnes.\n\nAnthropic accuse Z.ai (Zhipu) d'avoir tenté de distiller Claude pendant le développement de son modèle GLM-5.3 et indique un taux de faux positifs inférieur à 0,1 %. Z.ai n'avait pas répondu à la demande de commentaire de Reuters. Ces chiffres sont ceux d'Anthropic.",
+  "impact": "Protège la valeur de ses modèles face aux copies à bas coût, un enjeu de compétitivité et de sécurité nationale que l'entreprise met en avant.",
+  "signal": "optimiste",
+  "rationale": "Une défense efficace de la propriété intellectuelle, mais fondée sur des chiffres internes non vérifiés de façon indépendante.",
+  "sources": [
+   {
+    "label": "Reuters via WHTC, 12/10/2026",
+    "url": "https://whtc.com/2026/10/12/anthropic-says-new-safeguards-sharply-reduce-ai-distillation-attacks/"
+   }
+  ],
+  "addedAt": "2026-10-13T06:25:23Z"
+ },
+ {
+  "id": "anthropic-2026-10-12-ntt-data-osaka",
+  "companyId": "anthropic",
+  "date": "2026-10-12",
+  "title": "Anthropic en discussions avancées avec NTT Data pour un centre de données à Osaka",
+  "summary": "Selon le Nikkei, NTT Data est dans les dernières étapes de négociation pour construire à Osaka le premier centre de données dédié à Anthropic au Japon. Rien n'est signé.",
+  "detail": "Le site pourrait atteindre 500 mégawatts de puissance électrique pour un coût allant jusqu'à 1 000 milliards de yens, soit environ 6,3 milliards de dollars. Une mise en service partielle est envisagée dès 2028. Les deux parties viseraient une signature avant la fin de l'exercice, le 31 mars 2027.\n\nL'information vient du Nikkei, qui cite plusieurs sources. NTT n'a pas souhaité commenter.",
+  "impact": "Donnerait à Anthropic une capacité de calcul locale au Japon, dans un contexte où l'entreprise cherche à accroître vite ses capacités.",
+  "signal": "optimiste",
+  "rationale": "Un projet d'infrastructure majeur, mais encore au stade des négociations selon une source de presse.",
+  "sources": [
+   {
+    "label": "Reuters (d'après le Nikkei) via The Star, 13/10/2026",
+    "url": "https://www.thestar.com.my/tech/tech-news/2026/10/13/ntt-data-in-final-talks-to-build-anthropic039s-first-data-centre-in-japan-nikkei-reports"
+   },
+   {
+    "label": "Nikkei Asia, 12/10/2026",
+    "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/ntt-to-build-first-data-center-for-anthropic-in-japan"
+   }
+  ],
+  "addedAt": "2026-10-13T06:25:23Z"
+ },
+ {
+  "id": "anthropic-2026-10-12-iren-cloud-pluriannuel",
+  "companyId": "anthropic",
+  "date": "2026-10-12",
+  "title": "Anthropic aurait signé un contrat cloud pluriannuel avec IREN",
+  "summary": "Selon The Information, Anthropic a conclu avec IREN un accord cloud sur plusieurs années, non annoncé. Ni l'une ni l'autre société ne l'a confirmé publiquement.",
+  "detail": "La valeur et la durée ne sont pas connues. IREN, cotée au Nasdaq et ancien mineur de bitcoin passé aux services cloud pour l'IA, avait indiqué en août avoir un contrat avec un grand laboratoire d'IA sans le nommer. Son principal actif australien est le projet Bundey de 800 mégawatts, dont le raccordement au réseau est sécurisé.\n\nThe Information note qu'Anthropic dépend de plus en plus d'anciens mineurs de bitcoin pour sa capacité, avec environ 530 milliards de dollars de baux de centres de données à mettre en service.",
+  "impact": "Ajouterait une source de capacité de calcul à Anthropic, en Australie notamment, s'il se confirme.",
+  "signal": "optimiste",
+  "rationale": "Un accès supplémentaire à de la capacité, mais fondé sur une information de presse non confirmée.",
+  "sources": [
+   {
+    "label": "Dataconomy (d'après The Information), 12/10/2026",
+    "url": "https://dataconomy.com/2026/10/12/anthropic-reportedly-signs-multiyear-cloud-deal-with-iren/"
+   }
+  ],
+  "addedAt": "2026-10-13T06:25:23Z"
+ },
+ {
+  "id": "shield-ai-2026-10-12-ge-wzl2-f110",
+  "companyId": "shield-ai",
+  "date": "2026-10-12",
+  "title": "Shield AI, GE Aerospace et WZL-2 signent un protocole sur la maintenance du moteur F110 en Pologne",
+  "summary": "Shield AI, GE Aerospace et l'industriel polonais WZL-2 signent à Varsovie un protocole d'intention pour étudier une capacité de maintenance du moteur de l'X-BAT en Pologne.",
+  "detail": "Le texte porte sur la maintenance, la réparation et la révision du moteur F110 et de sa tuyère à poussée vectorielle (AVEN), qui équipent l'X-BAT, un avion de combat piloté par IA à décollage vertical. Les partenaires évalueront les infrastructures, équipements et formations nécessaires.\n\nLe protocole est exploratoire et non contraignant, sans montant ni échéance. Il prolonge une lettre d'intention signée en septembre entre Shield AI, PGZ et WZL-2 pour la conception, la production et le maintien en service de l'X-BAT en Pologne.",
+  "impact": "Renforce l'ancrage industriel et logistique prévu pour l'X-BAT en Pologne, sur le flanc est de l'OTAN.",
+  "signal": "optimiste",
+  "rationale": "Un nouveau partenaire industriel de premier plan, mais seulement un protocole d'intention.",
+  "sources": [
+   {
+    "label": "GE Aerospace, communiqué, 12/10/2026",
+    "url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-shield-ai-and-wzl-2-sign-memorandum-understanding-f110-mro-support"
+   },
+   {
+    "label": "MarketScreener, 12/10/2026",
+    "url": "https://www.marketscreener.com/news/ge-aerospace-shield-ai-and-poland-s-wzl-2-sign-mou-to-advance-f110-engine-mro-support-in-poland-ce785dddd88afe27"
+   }
+  ],
+  "addedAt": "2026-10-13T06:25:23Z"
+ },
+ {
+  "id": "lovable-2026-10-12-capacitor-partners",
+  "companyId": "lovable",
+  "date": "2026-10-12",
+  "title": "Capacitor Partners devient partenaire certifié Lovable",
+  "summary": "Le cabinet chypriote Capacitor Partners obtient le statut de partenaire de solutions Lovable, au niveau Select.",
+  "detail": "Le cabinet, basé à Nicosie, analyse le fonctionnement d'une organisation, conçoit l'état futur puis construit l'application avec Lovable, avant tests, ajustements et accompagnement au déploiement. Il vise prototypes, outils internes, portails clients et systèmes opérationnels.\n\nSon dirigeant Michael Tyrimos souligne que Lovable fait baisser le coût et le délai de création de logiciels.",
+  "impact": "Le programme de partenaires de Lovable gagne un relais de conseil en Europe du Sud-Est pour des projets d'entreprise.",
+  "signal": "optimiste",
+  "rationale": "Un canal de distribution de plus, même de taille modeste.",
+  "sources": [
+   {
+    "label": "CBN.com.cy, 12/10/2026",
+    "url": "https://www.cbn.com.cy/article/134669/capacitor-partners-becomes-a-lovable-solution-partner"
+   }
+  ],
+  "addedAt": "2026-10-13T06:25:23Z"
+ },
+ {
   "id": "kraken-2026-10-12-vara-licence-complete",
   "companyId": "kraken",
   "date": "2026-10-12",
