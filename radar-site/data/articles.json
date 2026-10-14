@@ -1,5 +1,103 @@
 [
  {
+  "id": "anthropic-2026-10-13-scion-source-control",
+  "companyId": "anthropic",
+  "date": "2026-10-13",
+  "title": "Anthropic remplace git par Scion, son propre système de contrôle de version",
+  "summary": "Anthropic explique avoir migré son monorepo vers Scion, un outil interne conçu pour absorber le code produit par Claude. Les fusions quotidiennes sont passées d'environ 2 500 en mai à plus de 30 000 en septembre.",
+  "detail": "Anthropic indique que ses miroirs git ne tenaient plus la charge : l'historique de la branche principale approche 100 Go et la CI lance environ 25 millions de checkouts par jour. Scion a été conçu et le monorepo migré en cinq mois par une équipe de sept personnes.\n\nAnthropic annonce une infrastructure 200 fois plus légère en CPU et mémoire que les anciens miroirs, des checkouts environ 100 fois plus rapides et 25 % de capacité CPU gagnée pour la CI. Une réécriture du pipeline d'ingestion par Claude a divisé la mémoire par 20. L'entreprise précise que Scion ne remplace pas git en général et n'est pas proposé tel quel.",
+  "impact": "Montre à quel point Claude accélère le développement interne d'Anthropic et l'oblige à refondre ses outils d'ingénierie.",
+  "signal": "neutre",
+  "rationale": "Publication technique avec des chiffres de la société elle-même, sans effet direct sur son activité commerciale.",
+  "sources": [
+   {
+    "label": "Anthropic, Redesigning source control at Anthropic, 13/10/2026",
+    "url": "https://www.anthropic.com/engineering/redesigning-source-control"
+   }
+  ],
+  "addedAt": "2026-10-14T06:24:04Z"
+ },
+ {
+  "id": "anthropic-2026-10-13-reexamen-pentagone",
+  "companyId": "anthropic",
+  "date": "2026-10-13",
+  "title": "Anthropic demande un nouvel examen de la décision sur le Pentagone",
+  "summary": "Anthropic a déposé le 13 octobre une requête de réexamen devant la cour d'appel du circuit de Washington. Elle vise l'arrêt du 25 septembre qui a confirmé sa désignation comme risque pour la chaîne d'approvisionnement.",
+  "detail": "La requête, signée par le cabinet WilmerHale, demande un réexamen par la même formation ou par l'ensemble des juges. Anthropic conteste l'interprétation de la loi par la majorité (2 juges contre 1), l'absence de préavis et la lecture du lien avec la liberté d'expression, en citant une décision du 27 août d'un tribunal de San Francisco.\n\nL'arrêt du 25 septembre fait suite au refus d'Anthropic de lever ses limites d'usage pour les armes autonomes et la surveillance de masse. Le mandat est suspendu depuis cette date. Quinze mémoires amicus ont été déposés.",
+  "impact": "Dernier recours devant cette cour avant une éventuelle saisine de la Cour suprême, alors que la désignation continue d'écarter Claude des contrats du Pentagone.",
+  "signal": "prudent",
+  "rationale": "Le litige reste ouvert et la décision actuelle est défavorable à Anthropic.",
+  "sources": [
+   {
+    "label": "Unite.AI, 13/10/2026",
+    "url": "https://www.unite.ai/anthropic-asks-d-c-circuit-to-rehear-pentagon-supply-chain-risk-case/"
+   }
+  ],
+  "addedAt": "2026-10-14T06:24:04Z"
+ },
+ {
+  "id": "anthropic-2026-10-13-workday-sana-claude-cowork",
+  "companyId": "anthropic",
+  "date": "2026-10-13",
+  "title": "Workday déploie son assistant Sana dans Claude Cowork",
+  "summary": "Lors de Workday Rising, Workday a annoncé que son assistant Sana fonctionnera dans les outils de travail des salariés, dont Claude. Sana dans Claude Cowork est disponible en accès anticipé.",
+  "detail": "Sana sera aussi présent dans Gemini Enterprise, Microsoft Copilot, Teams et Slack. Dans l'exemple de Workday, Sana repère dans Claude une note de frais non déposée et prépare le rapport pour validation.\n\nWorkday indique plus de 11 500 organisations clientes, dont plus de 65 % du Fortune 500. Une presse spécialisée évoque aussi un accord plus large avec Anthropic et le rachat de C1.ai par Workday, que le communiqué consulté ne mentionne pas.",
+  "impact": "Claude Cowork devient un point d'accès aux données RH et finance de Workday, ce qui élargit sa présence en entreprise.",
+  "signal": "optimiste",
+  "rationale": "Intégration avec un éditeur qui compte plus de 11 500 clients, même si elle est partagée avec d'autres assistants.",
+  "sources": [
+   {
+    "label": "Workday, communiqué, 13/10/2026",
+    "url": "https://newsroom.workday.com/2026-10-13-Workday-to-Bring-Sana-Everywhere-Employees-Work,-Including-Claude,-Gemini-Enterprise,-Microsoft-Copilot,-Microsoft-Teams,-and-Slack"
+   },
+   {
+    "label": "Brief IA, 13/10/2026",
+    "url": "https://briefia.fr/article/workday-acquiert-c1-ai-et-conclut-un-accord-avec-anthropic"
+   }
+  ],
+  "addedAt": "2026-10-14T06:24:04Z"
+ },
+ {
+  "id": "stripe-2026-10-13-privy-xrp-ledger",
+  "companyId": "stripe",
+  "date": "2026-10-13",
+  "title": "Privy, filiale de Stripe, apporte ses portefeuilles au XRP Ledger avec Ripple",
+  "summary": "Privy, détenue par Stripe, s'associe à Ripple pour proposer ses portefeuilles programmables sur le XRP Ledger. Les développeurs pourront gérer des portefeuilles XRPL, signer des transactions et activer les paiements x402 pour le commerce agentique.",
+  "detail": "L'intégration prend en charge XRP, RLUSD et d'autres actifs numériques. Privy annonce des contrôles de politique et la prise en charge des frais de gaz pour la suite.\n\nPrivy cite pour le XRPL plus de 8 millions de comptes financés et plus de 1 000 milliards de dollars de valeur transférée.",
+  "impact": "Étend la couche portefeuilles de Stripe à une nouvelle blockchain, au service des stablecoins et des paiements d'agents IA.",
+  "signal": "optimiste",
+  "rationale": "Nouveau réseau pris en charge par une filiale de Stripe, dans un domaine où le groupe investit.",
+  "sources": [
+   {
+    "label": "Privy, annonce, 13/10/2026",
+    "url": "https://www.privy.io/blog/building-payments-and-agentic-commerce-with-the-xrp-ledger"
+   },
+   {
+    "label": "The Block, 13/10/2026",
+    "url": "https://www.theblock.co/news/business/2026-10-13-stripe-privy-ripple-xrp-ledger-wallets-418463"
+   }
+  ],
+  "addedAt": "2026-10-14T06:24:04Z"
+ },
+ {
+  "id": "crusoe-2026-10-13-run-ai-cmk",
+  "companyId": "crusoe",
+  "date": "2026-10-13",
+  "title": "Crusoe prend en charge NVIDIA Run:ai, désormais open source, sur son Kubernetes managé",
+  "summary": "Crusoe annonce que Crusoe Managed Kubernetes est compatible avec NVIDIA Run:ai, publié en open source dans la plateforme NVIDIA DSX. Crusoe et NVIDIA ont validé entraînement distribué, partage fractionné de GPU et inférence.",
+  "detail": "Run:ai orchestre les charges IA : quotas par projet, partage des GPU entre équipes et fractionnement d'un GPU. Crusoe fournit un guide d'installation pour les clusters CMK neufs ou existants et rappelle ses contributions open source, dont NVSentinel.\n\nL'article ne donne aucun chiffre de performance ou de coût.",
+  "impact": "Renforce l'offre cloud de Crusoe auprès des équipes qui veulent un orchestrateur GPU standard et ouvert.",
+  "signal": "optimiste",
+  "rationale": "Intégration validée avec NVIDIA, mais sans chiffre d'impact commercial.",
+  "sources": [
+   {
+    "label": "Crusoe, blog, 13/10/2026",
+    "url": "https://www.crusoe.ai/resources/blog/run-ai-open-source-release"
+   }
+  ],
+  "addedAt": "2026-10-14T06:24:04Z"
+ },
+ {
   "id": "shield-ai-2026-10-13-v-bat-taiwan",
   "companyId": "shield-ai",
   "date": "2026-10-13",
