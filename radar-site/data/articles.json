@@ -1,5 +1,45 @@
 [
  {
+  "id": "kraken-2026-10-14-saldo-bank",
+  "companyId": "kraken",
+  "date": "2026-10-14",
+  "title": "Payward, maison mère de Kraken, rachète Saldo Bank pour entrer dans la banque européenne",
+  "summary": "Payward a signé un accord définitif pour acquérir Saldo Finance, holding de la banque lituanienne Saldo Bank. Le prix n'est pas communiqué.",
+  "detail": "Le rachat porte sur Saldo Finance Oy, société finlandaise qui détient Saldo Bank UAB, banque spécialisée agréée par la BCE et supervisée par la Banque de Lituanie. Elle emploie plus de 90 personnes et opère en Lituanie, en Finlande, en Suède et en Allemagne, avec un passeport pour les Pays-Bas.\n\nL'opération reste soumise à des autorisations réglementaires et sa clôture est attendue en 2027. Certains services prévus, comme la rémunération des dépôts et l'élargissement du crédit, dépendent aussi de ces autorisations. Le co-PDG Arjun Sethi présente l'UE comme point de départ d'une ambition mondiale. Bloomberg avait fait état en juillet de discussions avec une banque lituanienne non nommée.",
+  "impact": "Une licence bancaire européenne permettrait à Kraken de proposer comptes, paiements et crédit à ses clients du continent, au-delà de l'échange crypto.",
+  "signal": "optimiste",
+  "rationale": "Un accord définitif ouvre la voie à un statut de banque dans l'UE, mais la clôture dépend d'autorisations et n'est pas attendue avant 2027.",
+  "sources": [
+   {
+    "label": "Invest Lithuania, communiqué Payward, 14/10/2026",
+    "url": "https://investlithuania.com/news/payward-to-acquire-saldo-bank-expanding-payward-banking-across-europe/"
+   },
+   {
+    "label": "Decrypt, 14/10/2026",
+    "url": "https://decrypt.co/380912/kraken-owner-payward-to-buy-lithuanias-saldo-bank-in-eu-push"
+   }
+  ],
+  "addedAt": "2026-10-14T12:24:57Z"
+ },
+ {
+  "id": "neura-robotics-2026-10-14-neuron-ai",
+  "companyId": "neura-robotics",
+  "date": "2026-10-14",
+  "title": "NEURA Robotics présente Neuron AI, son modèle de fondation pour l'IA physique",
+  "summary": "NEURA Robotics dévoile Neuron AI, un modèle multimodal qui fusionne vision 3D, toucher, son et langage, avec une mémoire.",
+  "detail": "Le modèle combine vision 3D, force et toucher, audio, état du robot et langage dans une représentation commune, et produit un flux d'actions unique. Il garde en mémoire les objets sortis du champ de la caméra et utilise le toucher et le son pour confirmer des tâches que la vision seule ne permet pas de vérifier.\n\nIl est entraîné sur des données réelles issues des NEURA Gyms, de la simulation et de démonstrations humaines captées par combinaisons à capteurs, et partagé entre cinq types de robots NEURA. Le humanoïde 4NE1 a enchaîné onze minutes de tâches de linge sans intervention lors du NVIDIA GTC Berlin 2026. La disponibilité commerciale n'est pas précisée.",
+  "impact": "Un modèle maison renforce la maîtrise de la pile logicielle de NEURA et peut accélérer le déploiement de ses robots dans l'industrie.",
+  "signal": "optimiste",
+  "rationale": "Le lancement complète la série C annoncée en juin, mais aucune date d'accès client ni performance chiffrée n'est donnée.",
+  "sources": [
+   {
+    "label": "EU-Startups, 14/10/2026",
+    "url": "https://www.eu-startups.com/2026/10/german-robotics-unicorn-neura-launches-neuron-ai-to-advance-physical-ai-and-humanoid-robotics/"
+   }
+  ],
+  "addedAt": "2026-10-14T12:24:57Z"
+ },
+ {
   "id": "anthropic-2026-10-13-scion-source-control",
   "companyId": "anthropic",
   "date": "2026-10-13",
