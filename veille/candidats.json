@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-13T20:06:16Z",
+ "generatedAt": "2026-10-14T20:09:40Z",
  "windowHours": 48,
- "headlinesRead": 990,
- "count": 20,
+ "headlinesRead": 1107,
+ "count": 23,
  "companies": [
   {
    "companyId": "deel",
@@ -15,6 +15,14 @@
      "site": "https://smbtech.au",
      "overlap": 0,
      "reprises": 0
+    },
+    {
+     "date": "2026-10-14 12:07",
+     "media": "Business News This Week",
+     "title": "DualEntry and Deel Partner on Global HR and Finance",
+     "site": "https://businessnewsthisweek.com",
+     "overlap": 0,
+     "reprises": 0
     }
    ]
   },
@@ -23,20 +31,26 @@
    "name": "Stripe",
    "candidates": [
     {
-     "date": "2026-10-13 19:54",
-     "media": "Pluang",
-     "title": "Ripple partners with Stripe-owned Privy to embe...",
-     "site": "https://pluang.com",
-     "overlap": 0,
-     "reprises": 10
-    },
+     "date": "2026-10-14 03:23",
+     "media": "OneSafe",
+     "title": "Ripple’s Stripe Deal: What It Means for Stablecoin Payments",
+     "site": "https://www.onesafe.io",
+     "overlap": 0.33,
+     "reprises": 1
+    }
+   ]
+  },
+  {
+   "companyId": "lovable",
+   "name": "Lovable",
+   "candidates": [
     {
-     "date": "2026-10-12 15:25",
-     "media": "Pluang",
-     "title": "Stripe, Mastercard, and Circle expand stablecoi...",
-     "site": "https://pluang.com",
-     "overlap": 0,
-     "reprises": 2
+     "date": "2026-10-14 12:00",
+     "media": "Yahoo",
+     "title": "2025: Lovable's CEO describes novel 'vibe coding'",
+     "site": "https://www.yahoo.com",
+     "overlap": 0.0,
+     "reprises": 1
     }
    ]
   },
@@ -45,12 +59,20 @@
    "name": "Kraken",
    "candidates": [
     {
-     "date": "2026-10-12 04:05",
-     "media": "CoinMarketCap",
-     "title": "Kraken Launches Open-Source, Self-Custodial Crypto Wallet",
-     "site": "https://coinmarketcap.com",
-     "overlap": 0.29,
-     "reprises": 0
+     "date": "2026-10-14 13:07",
+     "media": "CoinDesk",
+     "title": "Payward vise une licence bancaire européenne avec l'acquisition de Saldo Bank, dont les actifs s'élèvent à 190 millions de dollars",
+     "site": "https://www.coindesk.com",
+     "overlap": 0.36,
+     "reprises": 14
+    },
+    {
+     "date": "2026-10-13 20:20",
+     "media": "Traders Union",
+     "title": "Kraken delays public listing as it expands token-sale push in U.S. crypto market",
+     "site": "https://tradersunion.com",
+     "overlap": 0.22,
+     "reprises": 1
     },
     {
      "date": "2026-10-12 21:00",
@@ -61,11 +83,11 @@
      "reprises": 0
     },
     {
-     "date": "2026-10-13 13:08",
-     "media": "Yahoo Finance",
-     "title": "Snappy Kraken Announces 2027 Return of Jolt!, the Wealth Management Industry’s First and Only Growth-Focused Conference",
-     "site": "https://finance.yahoo.com",
-     "overlap": 0.08,
+     "date": "2026-10-13 14:03",
+     "media": "FinanceFeeds",
+     "title": "Wells Fargo Q3: EPS Beat, Revenue Miss, Silence on Kraken",
+     "site": "https://financefeeds.com",
+     "overlap": 0.0,
      "reprises": 0
     }
    ]
@@ -75,12 +97,20 @@
    "name": "Polymarket",
    "candidates": [
     {
-     "date": "2026-10-12 02:39",
-     "media": "CoinMarketCap",
-     "title": "Prediction Markets News: Kalshi, Polymarket Push Multi-Billion Raise as Legal Pressure Escalates",
-     "site": "https://coinmarketcap.com",
+     "date": "2026-10-14 14:26",
+     "media": "Pluang",
+     "title": "Polymarket hints at future token launch amid IP...",
+     "site": "https://pluang.com",
      "overlap": 0,
-     "reprises": 1
+     "reprises": 6
+    },
+    {
+     "date": "2026-10-13 16:45",
+     "media": "Syracuse.com",
+     "title": "Polymarket launches $25 promo code “OREGON” for Guardians-Rays Game 2",
+     "site": "https://www.syracuse.com",
+     "overlap": 0,
+     "reprises": 2
     },
     {
      "date": "2026-10-13 01:45",
@@ -88,37 +118,29 @@
      "title": "New $25 Polymarket referral code “OREGON” launches for NFL Week 4 games",
      "site": "https://www.oregonlive.com",
      "overlap": 0,
-     "reprises": 1
+     "reprises": 0
     },
     {
-     "date": "2026-10-13 18:19",
-     "media": "Protos | Informed crypto news",
-     "title": "Kalshi and Polymarket won’t be part of FTC sports gambling probe, report",
-     "site": "https://protos.com",
-     "overlap": 0,
-     "reprises": 1
-    },
-    {
-     "date": "2026-10-11 23:45",
-     "media": "Cleveland.com",
-     "title": "NFL Polymarket promo code “CLEVE” updates $25 deal for Ravens-Falcons",
-     "site": "https://www.cleveland.com",
+     "date": "2026-10-14 03:34",
+     "media": "Coinfomania",
+     "title": "Shayne Coplan Sparks Airdrop Speculation with Token Launch",
+     "site": "https://coinfomania.com",
      "overlap": 0,
      "reprises": 0
     },
     {
-     "date": "2026-10-13 03:46",
-     "media": "CoinMarketCap",
-     "title": "Polymarket Partners With PrizePicks To Launch U.S. Prediction Markets",
-     "site": "https://coinmarketcap.com",
+     "date": "2026-10-14 09:49",
+     "media": "icobench.com",
+     "title": "Polymarket Coin Still Unconfirmed as ICE Equity Funding Advances",
+     "site": "https://icobench.com",
      "overlap": 0,
      "reprises": 0
     },
     {
-     "date": "2026-10-13 11:43",
-     "media": "Cryptonews",
-     "title": "Anthropic IPO Polymarket: $2T Bet Meets 21.5% Bankruptcy Odds",
-     "site": "https://cryptonews.com",
+     "date": "2026-10-14 13:00",
+     "media": "TronWeekly",
+     "title": "Polymarket IPO Competes With Token Launch As Valuation Tops $20 Billion",
+     "site": "https://www.tronweekly.com",
      "overlap": 0,
      "reprises": 0
     }
@@ -135,6 +157,14 @@
      "site": "https://www.bitget.com",
      "overlap": 0.0,
      "reprises": 1
+    },
+    {
+     "date": "2026-10-13 21:35",
+     "media": "bankingnews.gr",
+     "title": "Deal of death: Peristeris' GEK TERNA brings US lethal AI drones «X-BAT» to Greece - Inconceivable national danger",
+     "site": "https://www.bankingnews.gr",
+     "overlap": 0.23,
+     "reprises": 1
     }
    ]
   },
@@ -143,66 +173,66 @@
    "name": "Anthropic",
    "candidates": [
     {
-     "date": "2026-10-12 16:06",
-     "media": "Brief IA",
-     "title": "Anthropic Launches Motion and Claude Dashboards in Beta",
-     "site": "https://www.briefia.fr",
-     "overlap": 0.2,
+     "date": "2026-10-14 15:41",
+     "media": "www.marketscreener.com",
+     "title": "ZS Joins Anthropic's Claude Partner Network As A Select Partner To Help Enterprises Put AI Into Production",
+     "site": "https://www.marketscreener.com",
+     "overlap": 0.3,
      "reprises": 3
     },
     {
-     "date": "2026-10-13 14:44",
-     "media": "Mashable",
-     "title": "Meta launches Muse Wonder, catching OpenAI, Anthropic: How to try it, benchmark results",
-     "site": "https://mashable.com",
-     "overlap": 0.0,
+     "date": "2026-10-14 17:19",
+     "media": "Tbreak UAE",
+     "title": "Anthropic’s international chief says open-weight AI models carry ‘more risk by definition’",
+     "site": "https://tbreak.com",
+     "overlap": 0.3,
      "reprises": 2
     },
     {
-     "date": "2026-10-12 04:33",
-     "media": "TradingView",
-     "title": "ANTHROPIC, une IPO à 2000 milliards avant Thanksgiving ? pour SP:SPX par Swissquote",
-     "site": "https://fr.tradingview.com",
-     "overlap": 0.29,
+     "date": "2026-10-13 08:02",
+     "media": "Capital.fr",
+     "title": "Meta lance Muse Wonder, son nouveau modèle d’IA pour rivaliser avec OpenAI et Anthropic",
+     "site": "https://www.capital.fr",
+     "overlap": 0.25,
      "reprises": 1
     },
     {
-     "date": "2026-10-12 12:04",
-     "media": "PC Astuces",
-     "title": "Claude passe à la vitesse supérieure : Anthropic dévoile deux nouvelles fonctions impressionnantes",
-     "site": "https://actu.pcastuces.com",
+     "date": "2026-10-13 08:08",
+     "media": "lebigdata.fr",
+     "title": "Copilot s’ouvre à Claude : Microsoft officialise sa stratégie multi-LLM en entreprise",
+     "site": "https://www.lebigdata.fr",
+     "overlap": 0.33,
+     "reprises": 1
+    },
+    {
+     "date": "2026-10-14 09:06",
+     "media": "Unite.AI",
+     "title": "Anthropic signe un protocole d’accord avec le gouvernement de Singapour à l’occasion de l’ouverture de son nouveau bureau",
+     "site": "https://www.unite.ai",
      "overlap": 0.22,
      "reprises": 1
     },
     {
-     "date": "2026-10-11 21:06",
-     "media": "FinanceFeeds",
-     "title": "Anthropic’s 14 October Investor Day Nears, but Its S-1 Still Isn’t Public: The IPO Timeline Explained",
-     "site": "https://financefeeds.com",
-     "overlap": 0.09,
-     "reprises": 0
-    },
-    {
-     "date": "2026-10-12 01:57",
-     "media": "TradingView",
-     "title": "IREN's Mystery Customer Is Anthropic? Fresh Buzz Pushes Stock Higher",
-     "site": "https://fr.tradingview.com",
-     "overlap": 0.12,
+     "date": "2026-10-13 03:22",
+     "media": "Firstpost",
+     "title": "'Huge shortage': Anthropic CEO Dario Amodei turns to Elon Musk amid AI chip crunch",
+     "site": "https://www.firstpost.com",
+     "overlap": 0.0,
      "reprises": 0
     }
    ]
   },
   {
-   "companyId": "perplexity",
-   "name": "Perplexity",
+   "companyId": "crusoe",
+   "name": "Crusoe",
    "candidates": [
     {
-     "date": "2026-10-12 17:19",
-     "media": "آي-فون إسلام",
-     "title": "Perplexity launches health platform with Apple Health… Your smart doctor now knows you well!",
-     "site": "https://iphoneislam.com",
-     "overlap": 0.0,
-     "reprises": 1
+     "date": "2026-10-14 08:02",
+     "media": "Parametric Architecture",
+     "title": "Crusoe Raises Powerful $3.9B to Scale Modular AI Centers",
+     "site": "https://parametric-architecture.com",
+     "overlap": 0.2,
+     "reprises": 4
     }
    ]
   }
