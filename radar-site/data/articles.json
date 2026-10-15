@@ -1,5 +1,93 @@
 [
  {
+  "id": "anthropic-2026-10-14-revenu-t3",
+  "companyId": "anthropic",
+  "date": "2026-10-14",
+  "title": "Anthropic annoncerait à ses investisseurs 16,8 milliards de dollars de revenus au troisième trimestre",
+  "summary": "Selon Reuters et Bloomberg, Anthropic a indiqué à des investisseurs que son chiffre d'affaires trimestriel a atteint 16,8 milliards de dollars, en hausse de 45 % sur le trimestre précédent. Le groupe prépare une introduction en bourse.",
+  "detail": "Les chiffres viennent d'une réunion avec des investisseurs à San Francisco, rapportée par Reuters d'après une personne présente. Anthropic ne les a pas publiés. Le premier trimestre aurait été à 4,7 milliards de dollars et le deuxième à environ 11,6 milliards (11,5 selon une autre reprise).\n\nBloomberg indique que la société se dit rentable sur une base ajustée. Reuters écrit que l'introduction en bourse, visant une valorisation de plus de 2 000 milliards de dollars, pourrait être repoussée après les élections américaines de novembre. Plusieurs analystes jugent que la croissance ralentit par rapport aux trimestres précédents.",
+  "impact": "Confirme une montée en charge très rapide des revenus et nourrit le dossier d'introduction en bourse, tout en exposant l'entreprise à un débat sur le ralentissement de la croissance.",
+  "signal": "optimiste",
+  "rationale": "Les revenus progressent de 45 % en un trimestre et la société se dit rentable en ajusté, même si le rythme ralentit et que les chiffres ne sont pas publiés officiellement.",
+  "sources": [
+   {
+    "label": "Reuters, relayé par investinglive, 14/10/2026",
+    "url": "https://investinglive.com/stocks/anthropic-q3-revenue-rises-45-to-16-8-billion-ahead-of-ipo/"
+   },
+   {
+    "label": "Bloomberg Law, 14/10/2026",
+    "url": "https://news.bloomberglaw.com/ip-law/anthropic-revenue-hits-16-8-billion-in-quarter-before-ipo-1"
+   },
+   {
+    "label": "Business Standard, 15/10/2026",
+    "url": "https://www.business-standard.com/amp/world-news/anthropic-s-revenue-rises-45-to-16-8-billion-in-q3-ahead-of-ipo-126101500124_1.html"
+   }
+  ],
+  "addedAt": "2026-10-15T06:17:26Z"
+ },
+ {
+  "id": "anthropic-2026-10-14-singapour-bureau-mou",
+  "companyId": "anthropic",
+  "date": "2026-10-14",
+  "title": "Anthropic ouvre un bureau à Singapour et signe un protocole d'accord avec le gouvernement",
+  "summary": "Anthropic ouvre son cinquième bureau en Asie-Pacifique à Singapour. Elle signe un protocole d'accord avec le ministère du Développement numérique et de l'Information sur la sécurité de l'IA et son adoption.",
+  "detail": "Le texte a été signé par le cofondateur Ben Mann et le secrétaire permanent du ministère, Chng Kai Fong, en présence de la ministre Josephine Teo, en marge de la Singapore International Cyber Week. Il couvre la sécurité et l'évaluation des modèles, la recherche sur l'adoption de l'IA et un usage responsable dans les secteurs public et privé, avec des échanges techniques avec les institutions singapouriennes de sûreté de l'IA.\n\nAnthropic cite plus de 1 500 ingénieurs de GovTech qui utilisent Claude Code et un assistant commercial de Grab qui économise environ 40 000 heures par trimestre. Singapour est deuxième sur 121 pays pour l'usage de Claude.ai rapporté à sa population. Aucun investissement ni effectif n'est annoncé.",
+  "impact": "Renforce la présence locale d'Anthropic en Asie du Sud-Est et ses liens avec une administration publique qui utilise déjà Claude.",
+  "signal": "optimiste",
+  "rationale": "Un accord public et une implantation locale appuyés par des clients grands comptes déjà actifs, sans engagement financier chiffré.",
+  "sources": [
+   {
+    "label": "Anthropic, ouverture du bureau de Singapour, 14/10/2026",
+    "url": "https://www.anthropic.com/news/singapore-office-opening"
+   },
+   {
+    "label": "The Next Web, 14/10/2026",
+    "url": "https://thenextweb.com/news/anthropic-singapore-office-government-mou"
+   }
+  ],
+  "addedAt": "2026-10-15T06:17:26Z"
+ },
+ {
+  "id": "anthropic-2026-10-14-midterms-vote",
+  "companyId": "anthropic",
+  "date": "2026-10-14",
+  "title": "Anthropic prépare Claude aux élections américaines et affichera des informations de vote officielles",
+  "summary": "Anthropic annonce que Claude.ai affichera bientôt des informations de vote par État fournies par Democracy Works, puis les résultats officiels le soir du scrutin. Elle dit aussi avoir banni des comptes liés à des opérations d'influence.",
+  "detail": "Les modèles Claude Opus 5.5, Sonnet 5.5 et Haiku 5.5 obtiennent 99 % à l'évaluation interne d'impartialité politique. Trois groupes extérieurs ont relevé des lacunes, comme des précisions non demandées et un équilibre inégal sur certains sujets, que l'entreprise dit corriger.\n\nSur un échantillon de 250 000 conversations de fin septembre, environ 0,51 % portent sur les élections ou le vote et 0,002 % enfreignent la politique d'intégrité électorale. Anthropic dit avoir banni des comptes d'opérateurs qui produisaient de fausses informations favorables à des récits russes, iraniens et nord-coréens, et d'autres motivés par l'argent publicitaire.",
+  "impact": "Réduit le risque politique et de réputation autour des élections de novembre et montre le type de contrôles qu'Anthropic met en avant face aux régulateurs.",
+  "signal": "neutre",
+  "rationale": "Mesures de conformité et de sécurité annoncées par la société, sans effet financier direct.",
+  "sources": [
+   {
+    "label": "Anthropic, élections américaines de mi-mandat 2026, 14/10/2026",
+    "url": "https://www.anthropic.com/news/2026-us-midterms"
+   }
+  ],
+  "addedAt": "2026-10-15T06:17:26Z"
+ },
+ {
+  "id": "polymarket-2026-10-14-campagne-bigelow",
+  "companyId": "polymarket",
+  "date": "2026-10-14",
+  "title": "Polymarket lance sa première campagne publicitaire politique américaine, réalisée par Kathryn Bigelow",
+  "summary": "Polymarket diffuse depuis le 14 octobre trois spots pour les élections de mi-mandat, dont deux réalisés par Kathryn Bigelow. La campagne vise un public plus large que celui des traders habituels.",
+  "detail": "La campagne est produite par Smuggler. Le collectif argentin Pantera a réalisé le troisième spot. Les trois films mettent en scène des histoires fictives liées à des sujets de campagne, comme le prix des courses et de l'essence, ou une employée de campagne qui devient lanceuse d'alerte.\n\nAd Age décrit le message comme celui d'un baromètre en temps réel des chances électorales. Le budget n'est pas communiqué.",
+  "impact": "Marque un passage de Polymarket vers la publicité grand public, au moment où le secteur des marchés de prédiction attire l'attention des régulateurs.",
+  "signal": "neutre",
+  "rationale": "Opération de visibilité sans chiffre d'activité, dans un contexte réglementaire encore incertain.",
+  "sources": [
+   {
+    "label": "Adweek, 14/10/2026",
+    "url": "https://www.adweek.com/creativity/polymarket-taps-kathryn-bigelow-to-court-a-wider-audience-in-midterm-ad-blitz/"
+   },
+   {
+    "label": "Ad Age, 14/10/2026",
+    "url": "https://adage.com/creativity/work/aa-polymarket-watch-the-midterms-move/"
+   }
+  ],
+  "addedAt": "2026-10-15T06:17:26Z"
+ },
+ {
   "id": "kraken-2026-10-14-saldo-bank",
   "companyId": "kraken",
   "date": "2026-10-14",

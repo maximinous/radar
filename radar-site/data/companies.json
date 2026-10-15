@@ -1135,6 +1135,17 @@
      "label": "Anthropic, 28 mai 2026",
      "url": "https://www.anthropic.com/news/series-h"
     }
+   },
+   {
+    "label": "Revenu trimestriel",
+    "value": "16,8 milliards de dollars au T3 2026, en hausse de 45 % sur le T2 (chiffre non publié par la société)",
+    "date": "2026-10-14",
+    "status": "presse",
+    "source": {
+     "label": "Reuters via investinglive, 14/10/2026",
+     "url": "https://investinglive.com/stocks/anthropic-q3-revenue-rises-45-to-16-8-billion-ahead-of-ipo/"
+    },
+    "articleId": "anthropic-2026-10-14-revenu-t3"
    }
   ],
   "newsQuery": "\"Anthropic\" (Claude OR Amodei OR AI)",
