@@ -1,5 +1,143 @@
 [
  {
+  "id": "mistral-ai-2026-10-15-cern-lpm",
+  "companyId": "mistral-ai",
+  "date": "2026-10-15",
+  "title": "Mistral AI et le CERN signent une lettre d'intention pour un « Large Physics Model »",
+  "summary": "Le CERN et Mistral AI ont signé une lettre d'intention pour un partenariat de long terme sur des modèles de fondation pour la science. Le premier projet vise la physique des hautes énergies.",
+  "detail": "Le « Large Physics Model » serait un modèle de fondation pour la physique des collisionneurs, entraîné sur des milliards de collisions proton-proton simulées au LHC. Il doit couvrir la reconstruction des collisions, l'identification des particules, la détection de signaux inattendus et l'évaluation de futurs détecteurs, et remplacer certains algorithmes spécialisés.\n\nLe CERN stocke environ un exaoctet de données expérimentales et attend un volume de collisions multiplié par dix avec la mise à niveau prévue vers 2030. Johannes Brandstetter, vice-président IA pour l'ingénierie chez Mistral, porte le projet côté Mistral. Aucun calendrier ni budget n'a été communiqué.",
+  "impact": "Un partenariat avec une institution scientifique de référence renforce la crédibilité de Mistral dans l'IA pour la science et l'industrie, après le rachat d'Emmi AI.",
+  "signal": "optimiste",
+  "rationale": "Un partenaire de premier plan valide la stratégie scientifique de Mistral, mais il ne s'agit que d'une lettre d'intention sans calendrier ni budget.",
+  "sources": [
+   {
+    "label": "CERN, communiqué repris par Mirage News, 15/10/2026",
+    "url": "https://www.miragenews.com/cern-mistral-team-up-to-accelerate-ai-for-1761033/"
+   },
+   {
+    "label": "Reuters via Devdiscourse, 15/10/2026",
+    "url": "https://www.devdiscourse.com/article/international/3992995-cern-and-mistral-partner-to-build-ai-foundation-models-for-physics"
+   }
+  ],
+  "addedAt": "2026-10-15T12:23:45Z"
+ },
+ {
+  "id": "deel-2026-10-15-dualentry",
+  "companyId": "deel",
+  "date": "2026-10-15",
+  "title": "DualEntry et Deel s'associent pour relier paie internationale et comptabilité",
+  "summary": "L'ERP DualEntry annonce un partenariat avec Deel pour synchroniser les paiements de Deel avec la comptabilité.",
+  "detail": "Les entités juridiques de Deel se rattachent aux sociétés de DualEntry et les éléments de paie aux comptes du grand livre. Les paiements faits via Deel sont enregistrés en écritures de journal, selon le type de travailleur : prestataires, salariés en EOR ou PEO, salariés de Deel Payroll.\n\nLe communiqué, diffusé par Business Wire, ne donne aucun chiffre. Il vise à éviter la ressaisie manuelle des données de paie dans l'ERP quand les effectifs grandissent.",
+  "impact": "Une intégration comptable native élargit l'écosystème de Deel et facilite son adoption par les équipes finance.",
+  "signal": "neutre",
+  "rationale": "Intégration utile mais de portée limitée, sans chiffre ni engagement commercial annoncé.",
+  "sources": [
+   {
+    "label": "HRTech Series, communiqué Business Wire, 15/10/2026",
+    "url": "https://techrseries.com/hr/dualentry-and-deel-partner-to-simplify-global-hr-and-finance-operations/"
+   }
+  ],
+  "addedAt": "2026-10-15T12:23:45Z"
+ },
+ {
+  "id": "erebor-2026-10-15-opportunity-initiative",
+  "companyId": "erebor",
+  "date": "2026-10-15",
+  "title": "Erebor Bank lance une initiative nationale d'aide aux banques locales, présidée par Marcia Fudge",
+  "summary": "Erebor Bank annonce une « Nationwide Opportunity Initiative » présidée par l'ancienne secrétaire au Logement Marcia Fudge, avec 20 millions de dollars engagés à Columbus.",
+  "detail": "L'initiative veut apporter des ressources aux institutions financières locales proches des opportunités commerciales urbaines et rurales. Elle démarre à Columbus, dans l'Ohio, puis doit s'étendre à l'État et au pays. Adelphi Bank, banque détenue par des minorités à Columbus, est le premier partenaire.\n\nLes programmes couvriront le logement, la formation à l'emploi et la santé. Erebor présente ce montant comme l'un des plus importants jamais engagés par une jeune banque lors de ses douze premiers mois. Le cofondateur et PDG Owen Rapaport dit que ces institutions n'avaient pas jusqu'ici de partenaire national.",
+  "impact": "L'initiative donne à Erebor un ancrage politique et territorial hors de la tech et sert son image de banque nationale.",
+  "signal": "optimiste",
+  "rationale": "L'engagement est chiffré et soutenu par une personnalité reconnue, mais il provient d'un seul communiqué de la banque.",
+  "sources": [
+   {
+    "label": "PR Newswire, communiqué Erebor Bank, 15/10/2026",
+    "url": "https://www.prnewswire.com/news-releases/erebor-bank-na-announces-nationwide-opportunity-initiative-with-secretary-marcia-fudge-as-chair-302909306.html"
+   }
+  ],
+  "addedAt": "2026-10-15T12:23:45Z"
+ },
+ {
+  "id": "anthropic-2026-10-15-levine-pause-ipo",
+  "companyId": "anthropic",
+  "date": "2026-10-15",
+  "title": "Le contrôleur de New York demande à Anthropic de repousser son introduction en Bourse",
+  "summary": "Mark Levine, contrôleur financier de la ville de New York, a écrit à Dario Amodei pour demander de reporter l'IPO américaine tant que les enjeux de sécurité et de gouvernance ne sont pas traités.",
+  "detail": "Selon CNBC, repris par Reuters, la lettre demande à Anthropic de se concentrer sur ces risques sans précédent avant de se coter. L'introduction est attendue en novembre, pour une valorisation visée de plus de 2 000 milliards de dollars selon des médias.\n\nAnthropic et le bureau du contrôleur n'avaient pas répondu à Reuters à la publication. Un autre article du jour rapporte que le chiffre d'affaires du troisième trimestre aurait progressé de 45 % sur le trimestre précédent.",
+  "impact": "La demande d'un grand gestionnaire de fonds publics ajoute une pression de gouvernance autour de l'IPO, sans pouvoir contraignant.",
+  "signal": "prudent",
+  "rationale": "Une demande officielle de report d'un investisseur institutionnel peut peser sur l'image de l'IPO, mais elle n'est pas contraignante et Anthropic n'a pas répondu.",
+  "sources": [
+   {
+    "label": "Reuters via Investing.com, d'après CNBC, 15/10/2026",
+    "url": "https://www.investing.com/news/stock-market-news/nyc-comptroller-levine-urges-anthropic-to-pause-us-ipo-cnbc-reports-4951541"
+   }
+  ],
+  "addedAt": "2026-10-15T12:23:45Z"
+ },
+ {
+  "id": "deel-2026-10-14-tempo-zones",
+  "companyId": "deel",
+  "date": "2026-10-14",
+  "title": "Deel devient le premier client en production du système de confidentialité Zones de Tempo",
+  "summary": "La blockchain de paiements Tempo met Zones en production avec Deel comme premier utilisateur. Le système masque les soldes et les paiements des prestataires.",
+  "detail": "Selon Tempo, Zones cache l'expéditeur, le destinataire et le montant des transferts internes, ainsi que les soldes, visibles seulement par le titulaire et l'opérateur de la Zone. Les dépôts de trésorerie de Deel restent publics sur le réseau. L'opérateur peut voir l'activité et suspendre des transferts pour la conformité.\n\nTempo cite plus de 40 000 entreprises clientes de Deel et 150 pays couverts. Le portefeuille en stablecoins de Deel, lancé en juin sur Tempo, a été étendu en août à des prestataires dans environ 80 pays. Les sources divergent sur la maturité : Tempo parle de disponibilité générale, alors que Digital Today indique un accès limité et une version d'aperçu sans transferts entre comptes ordinaires.",
+  "impact": "La confidentialité des paiements répond à un frein pour verser des salaires et des honoraires en stablecoins à grande échelle, ce qui consolide l'offre de paie crypto de Deel.",
+  "signal": "optimiste",
+  "rationale": "Deel est le premier à passer en production sur une technologie de confidentialité attendue des entreprises, mais la maturité du produit reste débattue.",
+  "sources": [
+   {
+    "label": "Tempo, billet officiel, 14/10/2026",
+    "url": "https://tempo.xyz/blog/privacy-is-live-on-tempo/"
+   },
+   {
+    "label": "The Defiant, 14/10/2026",
+    "url": "https://thedefiant.io/converge/tradfi-and-fintech/tempo-takes-zones-privacy-system-into-production-with-deel"
+   },
+   {
+    "label": "Digital Today, 15/10/2026",
+    "url": "https://www.digitaltoday.co.kr/en/view/115237/tempo-secures-deel-as-first-customer-for-zones-privacy-system"
+   }
+  ],
+  "addedAt": "2026-10-15T12:23:45Z"
+ },
+ {
+  "id": "crusoe-2026-10-14-spark-exemplar",
+  "companyId": "crusoe",
+  "date": "2026-10-14",
+  "title": "Crusoe annonce que ses usines d'IA modulaires Spark atteignent le niveau NVIDIA Exemplar",
+  "summary": "Crusoe dit que ses modules Spark équipés de NVIDIA HGX B300 ont atteint la cible Exemplar sur huit modèles, comme un centre de données classique.",
+  "detail": "Les tests suivent les recettes NVIDIA Exemplar Cloud avec Megatron-Bridge, sur huit modèles dont DeepSeek-V3, Kimi K2, Llama 3.1 405B et Qwen3 235B, en BF16, FP8 et NVFP4. Toutes les configurations ont atteint la cible, mais la page ne publie pas de débit absolu.\n\nCrusoe met en avant un déploiement en 90 jours au minimum et des systèmes testés au Nevada alimentés surtout par le solaire et des batteries de seconde vie. Ces résultats sont des mesures de Crusoe, sans validation indépendante.",
+  "impact": "Des performances égales à celles des centres de données classiques appuient la vente des modules Spark, qui se déploient plus vite.",
+  "signal": "optimiste",
+  "rationale": "Le résultat soutient l'argument commercial du modulaire, mais il vient de Crusoe seule et sans chiffre absolu.",
+  "sources": [
+   {
+    "label": "Crusoe, billet de blog, 14/10/2026",
+    "url": "https://www.crusoe.ai/resources/blog/crusoe-spark-achieve-nvidia-exemplar-performance"
+   }
+  ],
+  "addedAt": "2026-10-15T12:23:45Z"
+ },
+ {
+  "id": "polymarket-2026-10-14-coplan-token",
+  "companyId": "polymarket",
+  "date": "2026-10-14",
+  "title": "Shayne Coplan relance les rumeurs d'un token Polymarket au TOKEN2049",
+  "summary": "Le fondateur de Polymarket a évoqué à Singapour un actif on-chain doté d'une « utilité programmable réelle », sans confirmer de lancement.",
+  "detail": "Lors d'un entretien avec Balaji Srinivasan, Shayne Coplan a parlé d'un actif lié à l'économie de la plateforme, sans dire comment il fonctionnerait ni ce que recevraient les détenteurs. Polymarket n'a annoncé ni événement de génération de token, ni critères d'airdrop, ni date de snapshot.\n\nLe directeur marketing avait confirmé en octobre 2025 un projet de token et d'airdrop, et la société mère a déposé en février 2026 des marques POLY et $POLY.",
+  "impact": "Un token pourrait étendre l'économie de Polymarket, mais rien n'est annoncé de concret.",
+  "signal": "neutre",
+  "rationale": "Simple allusion d'un dirigeant, sans annonce ni calendrier.",
+  "sources": [
+   {
+    "label": "CryptoPotato, 14/10/2026",
+    "url": "https://cryptopotato.com/shayne-coplan-renews-speculation-about-polymarket-token/"
+   }
+  ],
+  "addedAt": "2026-10-15T12:23:45Z"
+ },
+ {
   "id": "anthropic-2026-10-14-revenu-t3",
   "companyId": "anthropic",
   "date": "2026-10-14",
