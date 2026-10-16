@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-10-16T11:53:43Z",
+ "generatedAt": "2026-10-16T20:02:31Z",
  "windowHours": 48,
- "headlinesRead": 1079,
+ "headlinesRead": 1015,
  "count": 35,
- "priorityCount": 7,
+ "priorityCount": 5,
  "companies": [
   {
    "companyId": "mistral-ai",
@@ -24,6 +24,24 @@
      "title": "Mistral’s Arthur Mensch: Why Open-Weight Models Won’t Save Europe",
      "site": "https://www.trendingtopics.eu",
      "overlap": 0.11,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-10-16 12:56",
+     "media": "JDN",
+     "title": "Des revenus et des compétences : les vraies raisons de la stratégie chinoise de Mistral",
+     "site": "https://www.journaldunet.com",
+     "overlap": 0.17,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-10-16 12:56",
+     "media": "Cybernews",
+     "title": "Mistral CEO warns Europe to build frontier AI or surrender",
+     "site": "https://cybernews.com",
+     "overlap": 0.17,
      "reprises": 0,
      "priority": false
     }
@@ -49,15 +67,6 @@
    "name": "Stripe",
    "candidates": [
     {
-     "date": "2026-10-15 23:18",
-     "media": "Stocktwits",
-     "title": "PYPL Stock Slips 2% After-Hours — Stripe Weighs Next Move On PayPal While Pursuing $10B OpenRouter Acquisition",
-     "site": "https://stocktwits.com",
-     "overlap": 0.0,
-     "reprises": 0,
-     "priority": true
-    },
-    {
      "date": "2026-10-16 00:29",
      "media": "FinanceX Magazine",
      "title": "Stripe Buys Parafin, FedEx Pipes Shipping Data Into Credit, and SME Lending Quietly Reinvents Itself",
@@ -81,7 +90,7 @@
      "title": "Stripe Partners With Plasma to Scale Stablecoin Cards Across 100+ Countries",
      "site": "https://crypto-economy.com",
      "overlap": 0.38,
-     "reprises": 6,
+     "reprises": 7,
      "priority": false
     },
     {
@@ -90,24 +99,15 @@
      "title": "Crypto News: Remittix Prepares $0.46 Final Presale Tier as Ripple Partners With Stripe-Owned Privy",
      "site": "https://www.streetinsider.com",
      "overlap": 0.27,
-     "reprises": 2,
+     "reprises": 0,
      "priority": false
     },
     {
-     "date": "2026-10-15 19:59",
-     "media": "Cryptonews.net",
+     "date": "2026-10-15 19:39",
+     "media": "Bitcoin Sistemi",
      "title": "Major Payment Company Stripe Partners with This Altcoin Project",
-     "site": "https://cryptonews.net",
+     "site": "https://en.bitcoinsistemi.com",
      "overlap": 0.14,
-     "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-10-14 18:30",
-     "media": "TradingView",
-     "title": "Payoneer (PAYO) Launches Stripe-Powered Checkout in Singapore",
-     "site": "https://fr.tradingview.com",
-     "overlap": 0.0,
      "reprises": 0,
      "priority": false
     },
@@ -123,41 +123,26 @@
    ]
   },
   {
-   "companyId": "lovable",
-   "name": "Lovable",
-   "candidates": [
-    {
-     "date": "2026-10-14 12:00",
-     "media": "Yahoo",
-     "title": "2025: Lovable's CEO describes novel 'vibe coding'",
-     "site": "https://www.yahoo.com",
-     "overlap": 0.0,
-     "reprises": 1,
-     "priority": false
-    }
-   ]
-  },
-  {
    "companyId": "kraken",
    "name": "Kraken",
    "candidates": [
     {
-     "date": "2026-10-14 13:07",
-     "media": "CoinDesk",
-     "title": "Payward vise une licence bancaire européenne avec l'acquisition de Saldo Bank, dont les actifs s'élèvent à 190 millions de dollars",
-     "site": "https://www.coindesk.com",
-     "overlap": 0.36,
-     "reprises": 5,
+     "date": "2026-10-15 11:35",
+     "media": "Traders Union",
+     "title": "Kraken parent to acquire Saldo Bank in new deal, Laura Shin reports",
+     "site": "https://tradersunion.com",
+     "overlap": 0.38,
+     "reprises": 4,
      "priority": true
     },
     {
-     "date": "2026-10-15 00:46",
-     "media": "Coinspot.io",
-     "title": "Kraken buys a bank in Lithuania: what it means for EU clients",
-     "site": "https://coinspot.io",
-     "overlap": 0.33,
-     "reprises": 1,
-     "priority": true
+     "date": "2026-10-16 13:17",
+     "media": "CCN.com",
+     "title": "473 Million XRP in Play: Evernorth Names Ripple, Coinbase, Kraken and BitGo as Institutional Partners",
+     "site": "https://www.ccn.com",
+     "overlap": 0.09,
+     "reprises": 2,
+     "priority": false
     },
     {
      "date": "2026-10-14 21:30",
@@ -165,7 +150,7 @@
      "title": "Crypto Regulation: Kraken Parent Payward Targets Saldo Bank to Expand Into Lending and Cards",
      "site": "https://www.thecoinrepublic.com",
      "overlap": 0.36,
-     "reprises": 25,
+     "reprises": 1,
      "priority": false
     },
     {
@@ -174,16 +159,7 @@
      "title": "Crypto Banking: What Kraken's Bank Deal Signals",
      "site": "https://www.onesafe.io",
      "overlap": 0.33,
-     "reprises": 6,
-     "priority": false
-    },
-    {
-     "date": "2026-10-16 08:29",
-     "media": "Yahoo Finance",
-     "title": "473 Million XRP in Play: Evernorth Names Ripple, Coinbase, Kraken and BitGo as Institutional Partners",
-     "site": "https://finance.yahoo.com",
-     "overlap": 0.09,
-     "reprises": 1,
+     "reprises": 0,
      "priority": false
     },
     {
@@ -192,6 +168,15 @@
      "title": "Aave News: AAVE DAO Approves Kraken's Ink Foundation White-Label Lending Protocol Launch",
      "site": "https://coinmarketcap.com",
      "overlap": 0.27,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-10-16 01:50",
+     "media": "Daily Faceoff",
+     "title": "Kraken’s Brandon Montour leaves game with lower-body injury",
+     "site": "https://www.dailyfaceoff.com",
+     "overlap": 0.0,
      "reprises": 0,
      "priority": false
     }
@@ -211,47 +196,47 @@
      "priority": false
     },
     {
-     "date": "2026-10-15 05:45",
-     "media": "Crypto Briefing",
+     "date": "2026-10-15 05:35",
+     "media": "TradingView",
      "title": "Polymarket CEO makes the case for prediction markets over speculative crypto bets",
-     "site": "https://cryptobriefing.com",
+     "site": "https://www.tradingview.com",
      "overlap": 0.33,
      "reprises": 1,
      "priority": false
     },
     {
-     "date": "2026-10-14 14:26",
+     "date": "2026-10-15 16:45",
+     "media": "Cleveland.com",
+     "title": "MLB Polymarket promo code “CLEVE” upgrades $25 Rays-Guardians Game 3 deal",
+     "site": "https://www.cleveland.com",
+     "overlap": 0.0,
+     "reprises": 1,
+     "priority": false
+    },
+    {
+     "date": "2026-10-15 23:45",
+     "media": "SILive.com",
+     "title": "NFL Polymarket promo code “SILIVE” extends $25 Seahawks-Broncos deal",
+     "site": "https://www.silive.com",
+     "overlap": 0.0,
+     "reprises": 1,
+     "priority": false
+    },
+    {
+     "date": "2026-10-15 06:05",
      "media": "Pluang",
-     "title": "Polymarket hints at future token launch amid IP...",
+     "title": "Polymarket CEO warns against chasing crypto tok...",
      "site": "https://pluang.com",
+     "overlap": 0.17,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-10-15 13:00",
+     "media": "The Paypers",
+     "title": "Polymarket weighs IPO and native token for expansion",
+     "site": "https://thepaypers.com",
      "overlap": 0.2,
-     "reprises": 0,
-     "priority": false
-    },
-    {
-     "date": "2026-10-14 15:00",
-     "media": "The Block",
-     "title": "StarkWare launches OffMarket to let Polymarket users trade more privately",
-     "site": "https://www.theblock.co",
-     "overlap": 0.12,
-     "reprises": 0,
-     "priority": false
-    },
-    {
-     "date": "2026-10-14 16:11",
-     "media": "Yahoo Finance",
-     "title": "Fanatics CEO Warns $7 Billion Betting Ad War Looms as Kalshi, Polymarket Join Fight",
-     "site": "https://finance.yahoo.com",
-     "overlap": 0.0,
-     "reprises": 0,
-     "priority": false
-    },
-    {
-     "date": "2026-10-14 23:45",
-     "media": "MassLive.com",
-     "title": "MLB Polymarket promo code “MASS” upgrades $25 Brewers-Dodgers Game 3 deal",
-     "site": "https://www.masslive.com",
-     "overlap": 0.0,
      "reprises": 0,
      "priority": false
     }
@@ -262,12 +247,12 @@
    "name": "Shield AI",
    "candidates": [
     {
-     "date": "2026-10-16 11:22",
+     "date": "2026-10-16 12:27",
      "media": "Raksha Anirveda",
      "title": "X-BAT Prototype Nears Reveal as Funding Hits $400 Million",
      "site": "https://raksha-anirveda.com",
      "overlap": 0.25,
-     "reprises": 2,
+     "reprises": 1,
      "priority": false
     }
    ]
@@ -277,30 +262,21 @@
    "name": "Anthropic",
    "candidates": [
     {
-     "date": "2026-10-16 10:25",
+     "date": "2026-10-16 10:44",
      "media": "Arise News",
      "title": "Anthropic Faces Lower IPO Valuation Expectations As Investors Question Growth Momentum",
      "site": "https://www.arise.tv",
      "overlap": 0.33,
-     "reprises": 10,
+     "reprises": 9,
      "priority": false
     },
     {
-     "date": "2026-10-14 23:26",
-     "media": "New York Post",
-     "title": "Anthropic revenue surges 45% to nearly $17B in third quarter as AI giant gears up for IPO",
-     "site": "https://nypost.com",
-     "overlap": 0.33,
-     "reprises": 3,
-     "priority": false
-    },
-    {
-     "date": "2026-10-15 04:44",
-     "media": "IOL",
-     "title": "Rolling in it … Anthropic says revenue jumped to nearly $17B last quarter: reports",
-     "site": "https://iol.co.za",
-     "overlap": 0.22,
-     "reprises": 3,
+     "date": "2026-10-16 00:00",
+     "media": "Bloomberg.com",
+     "title": "Watch Anthropic Should Delay IPO to Address AI Safety Risks, Says NYC Comptroller",
+     "site": "https://www.bloomberg.com",
+     "overlap": 0.3,
+     "reprises": 8,
      "priority": false
     },
     {
@@ -322,12 +298,21 @@
      "priority": false
     },
     {
-     "date": "2026-10-15 06:39",
-     "media": "Pasquale Pillitteri",
-     "title": "Claude Code desktop dévoile les sessions imbriquées et les environnements enregistrés",
-     "site": "https://pasqualepillitteri.it",
-     "overlap": 0.38,
-     "reprises": 1,
+     "date": "2026-10-14 23:26",
+     "media": "New York Post",
+     "title": "Anthropic revenue surges 45% to nearly $17B in third quarter as AI giant gears up for IPO",
+     "site": "https://nypost.com",
+     "overlap": 0.33,
+     "reprises": 2,
+     "priority": false
+    },
+    {
+     "date": "2026-10-15 04:44",
+     "media": "IOL",
+     "title": "Rolling in it … Anthropic says revenue jumped to nearly $17B last quarter: reports",
+     "site": "https://iol.co.za",
+     "overlap": 0.22,
+     "reprises": 2,
      "priority": false
     }
    ]
@@ -341,17 +326,17 @@
      "media": "Performance Marketing World",
      "title": "Billion Dollar Boy acquires Creator Authority and Reddit sues Perplexity: Latest industry moves",
      "site": "https://www.performancemarketingworld.com",
-     "overlap": 0,
+     "overlap": 0.0,
      "reprises": 2,
      "priority": true
     },
     {
-     "date": "2026-10-16 00:44",
-     "media": "SiliconANGLE",
-     "title": "Perplexity AI open-sources its secure AI agent sandbox SPACE",
-     "site": "https://siliconangle.com",
-     "overlap": 0,
-     "reprises": 6,
+     "date": "2026-10-16 18:10",
+     "media": "Forkast News",
+     "title": "Perplexity Ships Its Search Agent’s Sandbox as Open Source — and the Sandbox Layer Just Got Another Entrant",
+     "site": "https://forkast.news",
+     "overlap": 0.36,
+     "reprises": 4,
      "priority": false
     },
     {
@@ -359,7 +344,7 @@
      "media": "Business Today",
      "title": "Isha Ambani-led Reliance Retail, OYO, Perplexity lead funding among U35-led businesses, Hurun Report shows",
      "site": "https://www.businesstoday.in",
-     "overlap": 0,
+     "overlap": 0.0,
      "reprises": 0,
      "priority": false
     },
@@ -368,8 +353,23 @@
      "media": "GuruFocus",
      "title": "Cybersecurity Sector Dips as Perplexity Launches AI Sandbox; Gen Digital (GEN) Navigates Market Shifts",
      "site": "https://www.gurufocus.com",
-     "overlap": 0,
+     "overlap": 0.1,
      "reprises": 0,
+     "priority": false
+    }
+   ]
+  },
+  {
+   "companyId": "crusoe",
+   "name": "Crusoe",
+   "candidates": [
+    {
+     "date": "2026-10-14 21:36",
+     "media": "Stocktwits",
+     "title": "Meta Reportedly Locks Down A New Data Center Deal With Crusoe",
+     "site": "https://stocktwits.com",
+     "overlap": 0.0,
+     "reprises": 3,
      "priority": false
     }
    ]
