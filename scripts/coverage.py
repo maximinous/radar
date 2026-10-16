@@ -21,6 +21,9 @@ EVENT = re.compile(r"\b(l[eè]ve|lev[ée]e|raises?|raised|funding|financement|va
     r"nomm|appoint|hires?|recrute|ceo|d[ée]part|leaves|steps down|proc[eè]s|lawsuit|sues?|poursuit|enqu[eê]te|probe|investigation|"
     r"r[ée]gulat|regulator|fine|amende|interdi|ban|licenciement|layoffs?|revenue|revenus|chiffre d'affaires|arr|bureau|office|"
     r"expands?|expansion|ouvre|opens?|data ?cent|usine|factory|gigawatt|tender)\b", re.I)
+# Rachats et levées de fonds : un candidat qui en contient un passe dans la liste « À traiter en priorité » et n'est jamais coupé.
+PRIORITY = re.compile(r"\b(rach[eè]te|rach[eè]tent|rachat|acquiert|acquisition|acquires?|acquired|buys?|bought|merger|fusion|"
+    r"l[eè]ve|lev[ée]e de fonds|raises?|raised|funding round|s[ée]rie [a-h]|series [a-h])\b", re.I)
 STOP = set('le la les de des du un une et en au aux pour par sur avec dans son sa ses ce cette qui que a the of to and in for on with by at from as its is an new'.split())
 
 def fold(s): return ''.join(ch for ch in unicodedata.normalize('NFD', s.lower()) if unicodedata.category(ch) != 'Mn')
@@ -75,21 +78,30 @@ for c in cos:
         best = max((len(t & k) / max(1, len(t)) for k, _ in known), default=0)
         host = urllib.parse.urlparse(it['site']).netloc.replace('www.', '')
         if best >= 0.4 or (host and host in hosts and best >= 0.25): continue
-        cands.append({'date': it['date'].strftime('%Y-%m-%d %H:%M'), 'media': it['media'], 'title': it['title'], 'site': it['site'], 'overlap': round(best, 2), 'reprises': 0, '_t': t})
+        cands.append({'date': it['date'].strftime('%Y-%m-%d %H:%M'), 'media': it['media'], 'title': it['title'], 'site': it['site'], 'overlap': round(best, 2), 'reprises': 0, 'priority': bool(PRIORITY.search(it['title'])), '_t': t})
     for x in cands: x.pop('_t')
     # Les histoires reprises par plusieurs médias passent en premier ; 6 pistes au plus par société.
     cands.sort(key=lambda x: (-x['reprises'], x['date']), reverse=False)
-    if cands: res.append({'companyId': c['id'], 'name': c['name'], 'candidates': cands[:6]})
+    # Toutes les pistes prioritaires sont gardées ; les autres sont limitées pour garder la liste lisible.
+    keep = [x for x in cands if x['priority']] + [x for x in cands if not x['priority']][:6]
+    if keep: res.append({'companyId': c['id'], 'name': c['name'], 'candidates': keep})
 
 os.makedirs('veille', exist_ok=True)
+prio = [dict(x, name=r['name']) for r in res for x in r['candidates'] if x['priority']]
 out = {'generatedAt': now.strftime('%Y-%m-%dT%H:%M:%SZ'), 'windowHours': HOURS, 'headlinesRead': total,
-       'count': sum(len(r['candidates']) for r in res), 'companies': res}
+       'count': sum(len(r['candidates']) for r in res), 'priorityCount': len(prio), 'companies': res}
 json.dump(out, open('veille/candidats.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 lines = [f"# Candidats non couverts ({out['count']})", '',
          f"Contrôle du {out['generatedAt']} sur {HOURS} h : {total} titres Google News lus, filtrés sur les mots d'événement, "
          "puis comparés aux articles publiés. Ce sont des pistes, pas des articles : chacune doit être ouverte et vérifiée.", '']
+fmt = lambda x: f"- {x['date']} | {x['media']} | {x['title']} | {x['site']}" + (f" (+{x['reprises']} reprise{'s' if x['reprises'] > 1 else ''})" if x['reprises'] else '')
+if prio:
+    lines += [f"## À traiter en priorité ({len(prio)})", '',
+              "Rachat ou levée de fonds : chaque piste doit être publiée dans le passage "
+              "si une source fiable la confirme, ou justifiée dans le bilan (doublon avec l'id, ancienne, homonyme, non vérifiable).", '']
+    lines += [f"- **{x['name']}** " + fmt(x)[2:] for x in prio] + ['']
 for r in res:
     lines += [f"## {r['name']} ({len(r['candidates'])})", '']
-    lines += [f"- {x['date']} | {x['media']} | {x['title']} | {x['site']}" + (f" (+{x['reprises']} reprise{'s' if x['reprises'] > 1 else ''})" if x['reprises'] else '') for x in r['candidates']] + ['']
+    lines += [fmt(x) for x in r['candidates']] + ['']
 open('veille/candidats.md', 'w', encoding='utf-8').write('\n'.join(lines))
-print(f"{total} titres lus, {out['count']} candidat(s) non couvert(s) pour {len(res)} société(s)")
+print(f"{total} titres lus, {out['count']} candidat(s) non couvert(s) pour {len(res)} société(s), dont {len(prio)} prioritaire(s)")
