@@ -1,5 +1,27 @@
 [
  {
+  "id": "perplexity-2026-10-15-space-open-source",
+  "companyId": "perplexity",
+  "date": "2026-10-15",
+  "title": "Perplexity publie SPACE, son bac à sable pour agents, en open source",
+  "summary": "Perplexity met en accès libre SPACE, la plateforme d'isolation qui fait tourner les sessions de son agent Computer, sur GitHub.",
+  "detail": "SPACE repose sur des micro machines virtuelles Firecracker, avec pause, reprise et instantanés. Selon SiliconANGLE, Perplexity a testé neuf modèles de pointe chargés de s'échapper : aucun n'y est parvenu, mais certains ont contourné des restrictions réseau, corrigées depuis. Le nombre de tentatives est donné à 118 par SiliconANGLE et à 108 par Crypto Briefing.\n\nSiliconANGLE cite CoreWeave, Akamai et Crusoe parmi les partenaires qui déploient SPACE. Le code est publié sous licence Apache 2.0 selon Crypto Briefing, le SiliconANGLE ne précisant pas la licence.",
+  "impact": "Perplexity cherche à faire de SPACE une référence pour l'exécution sécurisée d'agents et à élargir son écosystème d'infrastructure.",
+  "signal": "optimiste",
+  "rationale": "Ouvrir le code attire des partenaires d'infrastructure et renforce l'argument de sécurité de Computer.",
+  "sources": [
+   {
+    "label": "SiliconANGLE, 15/10/2026",
+    "url": "https://siliconangle.com/2026/10/15/perplexity-ai-open-sources-its-secure-ai-agent-sandbox-space/"
+   },
+   {
+    "label": "Crypto Briefing, 15/10/2026",
+    "url": "https://cryptobriefing.com/perplexity-open-sources-space-agent-sandbox/"
+   }
+  ],
+  "addedAt": "2026-10-16T12:16:15Z"
+ },
+ {
   "id": "mistral-ai-2026-10-15-timestral",
   "companyId": "mistral-ai",
   "date": "2026-10-15",
@@ -274,6 +296,28 @@
    }
   ],
   "addedAt": "2026-10-15T12:23:45Z"
+ },
+ {
+  "id": "polymarket-2026-10-14-starkware-offmarket",
+  "companyId": "polymarket",
+  "date": "2026-10-14",
+  "title": "StarkWare ouvre OffMarket pour trader sur Polymarket de façon plus privée",
+  "summary": "StarkWare lance au public OffMarket, un service qui permet de placer des ordres sur Polymarket sans lier publiquement les positions à son compte.",
+  "detail": "OffMarket s'appuie sur une preuve à divulgation nulle sur Starknet et envoie les ordres vers les carnets existants de Polymarket, aux mêmes prix. Les dépôts sont plafonnés à 1 000 USDC par compte et les frais habituels de Polymarket s'appliquent. Selon The Block, le service existait en accès limité depuis août.\n\nOffMarket n'est pas un produit de Polymarket et n'a pas de partenariat formel : il passe par le programme de constructeurs vérifiés de Polymarket. StarkWare dit que Polymarket est au courant du projet.",
+  "impact": "Un écosystème de services tiers se construit autour de Polymarket, au profit de la liquidité, avec des questions de conformité à suivre.",
+  "signal": "neutre",
+  "rationale": "Initiative d'un tiers, sans partenariat formel, avec un plafond de dépôt bas et une confidentialité partielle.",
+  "sources": [
+   {
+    "label": "The Block, 14/10/2026",
+    "url": "https://theblock.co/news/ecosystems/2026-10-14-starkware-launches-offmarket-to-let-polymarket-users-trade-more-privately-418567"
+   },
+   {
+    "label": "Crypto Briefing, 14/10/2026",
+    "url": "https://cryptobriefing.com/starkware-offmarket-private-polymarket-trading/"
+   }
+  ],
+  "addedAt": "2026-10-16T12:16:15Z"
  },
  {
   "id": "mistral-ai-2026-10-14-new-material",
