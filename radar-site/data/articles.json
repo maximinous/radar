@@ -1,5 +1,27 @@
 [
  {
+  "id": "stripe-2026-10-15-plasma-cartes-multidevises",
+  "companyId": "stripe",
+  "date": "2026-10-15",
+  "title": "Stripe et Plasma co-développent des cartes stablecoin multidevises",
+  "summary": "Stripe s'associe à Plasma, une blockchain dédiée aux stablecoins, pour étendre ses cartes au-delà du dollar : euro, réal brésilien, peso mexicain et peso colombien.",
+  "detail": "Plasma intervient comme partenaire de conception. Les détenteurs pourront payer depuis plusieurs soldes, la devise étant choisie automatiquement à l'achat, ce qui réduit les frais de change. Le service de cartes stablecoin de Stripe fonctionne dans plus de 30 pays et vise plus de 100 pays en 2027.\n\nLe jeton XPL de Plasma a gagné environ 10 % après l'annonce.",
+  "impact": "Stripe élargit son offre de cartes stablecoin à de nouvelles devises et à l'Amérique latine.",
+  "signal": "optimiste",
+  "rationale": "Partenariat qui étend un produit en croissance, sans date de lancement précise.",
+  "sources": [
+   {
+    "label": "GlobeNewswire, communiqué, 15 oct. 2026",
+    "url": "https://www.globenewswire.com/news-release/2026/10/15/3381757/0/en/stripe-and-plasma-co-develop-a-new-multi-currency-card-experience.html"
+   },
+   {
+    "label": "Traders Union, 15 oct. 2026",
+    "url": "https://tradersunion.com/news/cryptocurrency-news/show/3835112-plasma-surges-10-14percent-today-on/"
+   }
+  ],
+  "addedAt": "2026-10-16T00:43:18Z"
+ },
+ {
   "id": "mistral-ai-2026-10-15-cern-lpm",
   "companyId": "mistral-ai",
   "date": "2026-10-15",
@@ -1300,6 +1322,28 @@
    }
   ],
   "addedAt": "2026-10-06T08:38:05Z"
+ },
+ {
+  "id": "anthropic-2026-09-30-enquete-ftc",
+  "companyId": "anthropic",
+  "date": "2026-09-30",
+  "title": "La FTC enquête sur Anthropic, OpenAI et d'autres laboratoires d'IA",
+  "summary": "L'autorité américaine de protection des consommateurs confirme une enquête sur les risques que les produits d'Anthropic, d'OpenAI et d'autres laboratoires font peser sur les consommateurs.",
+  "detail": "Selon le New York Post, la FTC prépare des demandes formelles d'information, proches de citations à comparaître, qui pourraient obliger des dirigeants à témoigner. Le groupe de recherche METR, qui a étudié des incidents de sécurité pour Anthropic et OpenAI, serait aussi sollicité. Le cadre est la loi fédérale sur les pratiques déloyales.\n\nLa FTC indique être en phase d'enquête et ne demande aucun changement aux sociétés à ce stade. Une enquête peut se clore sans suite.",
+  "impact": "Anthropic s'expose à une procédure réglementaire au moment où elle prépare son introduction en Bourse.",
+  "signal": "prudent",
+  "rationale": "Enquête fédérale ouverte, dont l'issue reste incertaine.",
+  "sources": [
+   {
+    "label": "The Next Web, d'après le New York Post, CNBC et CBS, 30 sept. 2026",
+    "url": "https://thenextweb.com/news/ftc-probe-openai-anthropic-ai-labs-metr"
+   },
+   {
+    "label": "ITV News, 30 sept. 2026",
+    "url": "https://www.itv.com/news/2026-09-30/ftc-is-investigating-openai-and-anthropic-over-safety-risks"
+   }
+  ],
+  "addedAt": "2026-10-16T00:43:18Z"
  },
  {
   "id": "apollo-research-2026-09-30-senate",
@@ -4170,6 +4214,28 @@
   "addedAt": "2026-10-12T20:45:00Z"
  },
  {
+  "id": "perplexity-2026-07-15-space-sandbox",
+  "companyId": "perplexity",
+  "date": "2026-07-15",
+  "title": "Perplexity lance SPACE, un bac à sable sécurisé pour ses agents",
+  "summary": "Perplexity présente SPACE, la plateforme qui isole chaque tâche de son agent Computer dans une micro machine virtuelle détruite à la fin de la tâche.",
+  "detail": "Les sessions peuvent être mises en pause, reprises ou dupliquées, et les mots de passe restent hors du bac à sable. Perplexity indique qu'aucune des 108 tentatives d'évasion testées n'a réussi, mais que quatre modèles ont contourné un filtrage réseau partiel, une faille corrigée depuis.",
+  "impact": "Perplexity renforce la sécurité de son agent, un argument clé pour vendre Computer aux entreprises.",
+  "signal": "optimiste",
+  "rationale": "Lancement technique qui répond au principal frein à l'adoption des agents.",
+  "sources": [
+   {
+    "label": "Perplexity Research, juil. 2026",
+    "url": "https://research.perplexity.ai/articles/making-space-secure-and-efficient-runtimes-for-long-running-agents"
+   },
+   {
+    "label": "SiliconANGLE, 15 juil. 2026",
+    "url": "https://siliconangle.com/2026/07/15/perplexity-launches-secure-sandbox-make-ai-agents-secure-powerful/"
+   }
+  ],
+  "addedAt": "2026-10-16T00:43:18Z"
+ },
+ {
   "addedAt": "2026-09-24T12:00:00Z",
   "companyId": "deel",
   "date": "2026-07-14",
@@ -4546,6 +4612,24 @@
    }
   ],
   "addedAt": "2026-10-12T21:10:28Z"
+ },
+ {
+  "id": "polymarket-2026-04-06-refonte-plateforme",
+  "companyId": "polymarket",
+  "date": "2026-04-06",
+  "title": "Polymarket annonce une refonte complète de sa plateforme et son propre stablecoin",
+  "summary": "Polymarket prépare de nouveaux contrats, un carnet d'ordres repensé et Polymarket USD, une monnaie stable adossée un pour un à l'USDC.",
+  "detail": "Polymarket USD remplacera l'USDC.e utilisé jusque-là. Le nouveau moteur doit accélérer l'exécution et réduire les écarts de prix. Les carnets d'ordres seront remis à zéro pendant une maintenance annoncée à l'avance, et la plupart des utilisateurs migreront automatiquement.",
+  "impact": "Polymarket gagne la maîtrise de sa monnaie de règlement et modernise sa technologie avant son retour aux États-Unis.",
+  "signal": "neutre",
+  "rationale": "Chantier technique important, avec un risque d'exécution lors de la migration.",
+  "sources": [
+   {
+    "label": "Bitcoin Magazine, 6 avr. 2026",
+    "url": "https://bitcoinmagazine.com/news/polymarket-unveils-exchange-overhaul"
+   }
+  ],
+  "addedAt": "2026-10-16T00:43:18Z"
  },
  {
   "id": "fluidstack-2026-03-18-abandon-france",
