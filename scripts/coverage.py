@@ -22,8 +22,8 @@ EVENT = re.compile(r"\b(l[eè]ve|lev[ée]e|raises?|raised|funding|financement|va
     r"r[ée]gulat|regulator|fine|amende|interdi|ban|licenciement|layoffs?|revenue|revenus|chiffre d'affaires|arr|bureau|office|"
     r"expands?|expansion|ouvre|opens?|data ?cent|usine|factory|gigawatt|tender)\b", re.I)
 # Rachats et levées de fonds : un candidat qui en contient un passe dans la liste « À traiter en priorité » et n'est jamais coupé.
-PRIORITY = re.compile(r"\b(rach[eè]te|rach[eè]tent|rachat|acquiert|acquisition|acquires?|acquired|buys?|bought|merger|fusion|"
-    r"l[eè]ve|lev[ée]e de fonds|raises?|raised|funding round|s[ée]rie [a-h]|series [a-h])\b", re.I)
+PRIORITY = re.compile(r"\b(?:(?:rach[eè]te|rach[eè]tent|rachat|acquiert|acquisition|acquires?|acquired|buys?|bought|merger|fusion|"
+    r"lev[ée]e de fonds|funding round|s[ée]rie [a-h]|series [a-h])\b|(?:l[eè]ve|raises?|raised) [\d$€])", re.I)
 STOP = set('le la les de des du un une et en au aux pour par sur avec dans son sa ses ce cette qui que a the of to and in for on with by at from as its is an new'.split())
 
 def fold(s): return ''.join(ch for ch in unicodedata.normalize('NFD', s.lower()) if unicodedata.category(ch) != 'Mn')
@@ -31,7 +31,7 @@ def fold(s): return ''.join(ch for ch in unicodedata.normalize('NFD', s.lower())
 def toks(s): return {w[:5] for w in re.findall(r"[a-z0-9]+", fold(s)) if len(w) > 2 and w not in STOP}
 # Contenus sans fait nouveau : guides d'achat d'actions, classements, cours de bourse.
 JUNK = re.compile(r"how to (buy|invest)|comment (acheter|investir)|investir dans|investing in|pre-?ipo shares|stock price|share price|"
-    r"\bbest\b.*\b(services|tools|alternatives)\b|\btop \d+|alternatives? to|vs\.? |review\b|prediction:|price prediction", re.I)
+    r"\bbest\b.*\b(services|tools|alternatives)\b|\btop \d+|alternatives? to|vs\.? |review\b|prediction:|price prediction|best crypto|crypto to buy|\b100x\b", re.I)
 
 def feed(queries):
     out = []
