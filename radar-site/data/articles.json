@@ -76,6 +76,32 @@
   "addedAt": "2026-10-15T12:23:45Z"
  },
  {
+  "id": "mistral-ai-2026-10-14-new-material",
+  "companyId": "mistral-ai",
+  "date": "2026-10-14",
+  "title": "Mistral AI rachète le studio New Material, sa quatrième acquisition de l'année",
+  "summary": "Mistral AI acquiert New Material, un studio qui conçoit des produits intégrant l'IA, dont l'équipe formera une nouvelle unité « Solutions Design ».",
+  "detail": "Fondé il y a six ans, New Material a travaillé pour Ford, Rafael Nadal, le Wellcome Trust et de grands cabinets d'avocats américains, dans l'automobile, la distribution, le droit et la santé. La nouvelle unité co-développera des solutions avec les clients de Mistral et fera remonter les retours de terrain vers ses produits. Le montant n'est pas communiqué.\n\nAprès Koyeb en février, Emmi AI en mai et Pimento en septembre, c'est la quatrième acquisition connue de Mistral en 2026.",
+  "impact": "Mistral renforce sa capacité à déployer l'IA chez les grands comptes, face aux équipes de services d'OpenAI et d'Anthropic.",
+  "signal": "optimiste",
+  "rationale": "Rachat ciblé qui complète l'offre entreprise, dans une série d'acquisitions régulière.",
+  "sources": [
+   {
+    "label": "New Material, 14 oct. 2026",
+    "url": "https://newmaterial.ai/stories/newmaterial-joins-mistral"
+   },
+   {
+    "label": "L'Usine Digitale, 15 oct. 2026",
+    "url": "https://www.usine-digitale.fr/intelligence-artificielle/mistral-ai/mistral-ai-multiplie-les-acquisitions-pour-maitriser-toute-la-chaine-de-valeur-de-lia-en-entreprise.W764N2AOE5BFJC6OTKGPDC72ZE.html"
+   },
+   {
+    "label": "Dealroom, 15 oct. 2026",
+    "url": "https://dealroom.co/news/162811-mistral-buys-design-agency-new-material-to-build-enterprise-ai-team/"
+   }
+  ],
+  "addedAt": "2026-10-16T00:38:24Z"
+ },
+ {
   "id": "deel-2026-10-14-tempo-zones",
   "companyId": "deel",
   "date": "2026-10-14",
@@ -4408,6 +4434,32 @@
   "addedAt": "2026-10-09T12:52:23Z"
  },
  {
+  "id": "mistral-ai-2026-05-19-emmi-ai",
+  "companyId": "mistral-ai",
+  "date": "2026-05-19",
+  "title": "Mistral AI rachète Emmi AI, spécialiste autrichien de l'IA pour la simulation physique",
+  "summary": "Mistral acquiert Emmi AI, dont les modèles accélèrent ou remplacent les simulations d'ingénierie dans l'énergie, l'automobile, les semi-conducteurs et l'aéronautique.",
+  "detail": "Plus de 30 chercheurs et ingénieurs rejoignent les équipes science et IA appliquée de Mistral, qui veut bâtir une offre complète pour l'ingénierie industrielle. Les conditions ne sont pas publiées ; selon French Tech Journal, l'opération avoisinerait 300 millions d'euros en numéraire et en actions, un chiffre non confirmé.\n\nC'est la deuxième acquisition de Mistral en 2026, après Koyeb.",
+  "impact": "Mistral prend pied dans l'IA industrielle, un marché où ses modèles généralistes étaient peu présents.",
+  "signal": "optimiste",
+  "rationale": "Acquisition de compétences rares qui ouvre un nouveau marché.",
+  "sources": [
+   {
+    "label": "The Next Web, mai 2026",
+    "url": "https://thenextweb.com/news/mistral-emmi-ai-physics-vienna-industrial"
+   },
+   {
+    "label": "LIAA (agence lettone), 19 mai 2026",
+    "url": "https://liaa.business.gov.lv/en/news/mistral-ai-acquires-latvian-co-founded-physics-ai-platform-emmi-ai"
+   },
+   {
+    "label": "French Tech Journal, mai 2026",
+    "url": "https://www.frenchtechjournal.com/mistral-ai-buys-viennas-emmi-ai-in-eur300m-bid-to-own-europes-factory-floor/"
+   }
+  ],
+  "addedAt": "2026-10-16T00:38:24Z"
+ },
+ {
   "addedAt": "2026-09-22T08:00:00Z",
   "companyId": "apollo-research",
   "date": "2026-05-13",
@@ -4640,6 +4692,28 @@
    }
   ],
   "addedAt": "2026-10-12T21:10:28Z"
+ },
+ {
+  "id": "mistral-ai-2026-02-17-koyeb",
+  "companyId": "mistral-ai",
+  "date": "2026-02-17",
+  "title": "Mistral AI rachète Koyeb pour renforcer son offre de cloud",
+  "summary": "Mistral acquiert la jeune pousse parisienne Koyeb, plateforme d'infrastructure sans serveur pour l'IA, intégrée à Mistral Compute.",
+  "detail": "Koyeb, fondée par d'anciens salariés de Scaleway, permet aux développeurs de faire tourner des charges d'IA avec mise à l'échelle automatique, sur une dizaine de centres de données. Son équipe, d'une quinzaine de personnes, rejoint Mistral. Le montant n'est pas communiqué et la plateforme continue de fonctionner pour les clients existants.\n\nC'est la première acquisition de Mistral en 2026.",
+  "impact": "Mistral se dote d'une brique logicielle pour vendre de la puissance de calcul en concurrence avec les clouds américains.",
+  "signal": "optimiste",
+  "rationale": "Petite acquisition cohérente avec la stratégie de cloud souverain.",
+  "sources": [
+   {
+    "label": "Trending Topics, févr. 2026",
+    "url": "https://www.trendingtopics.eu/mistral-acquires-french-startup-koyeb-for-cloud-offensive/"
+   },
+   {
+    "label": "Pulse 2.0, 19 févr. 2026",
+    "url": "https://pulse2.com/mistral-ai-acquiring-koyeb-to-advance-buildout-of-ai-infrastructure"
+   }
+  ],
+  "addedAt": "2026-10-16T00:38:24Z"
  },
  {
   "addedAt": "2026-09-22T08:00:00Z",
