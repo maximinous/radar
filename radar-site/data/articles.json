@@ -1,5 +1,183 @@
 [
  {
+  "id": "mistral-ai-2026-10-15-timestral",
+  "companyId": "mistral-ai",
+  "date": "2026-10-15",
+  "title": "Mistral AI lance Timestral, sa première famille de modèles de prévision de séries temporelles",
+  "summary": "Mistral publie Timestral, quatre modèles de fondation de 5 à 209 millions de paramètres pour la prévision probabiliste de séries temporelles.",
+  "detail": "Les modèles acceptent un contexte de 32 768 pas de temps et produisent 21 quantiles, en zero-shot ou après fine-tuning via Mistral Forge. Selon Mistral, le modèle de 209 millions de paramètres arrive premier sur les benchmarks GIFT-Eval, TIME et fev-bench, et celui de 28 millions dépasse Chronos-2, environ quatre fois plus grand.\n\nLe code est public sur GitHub, les poids sont sur Hugging Face sous licence MIT modifiée, et un déploiement sur site, en VPC ou en environnement isolé est possible. Les performances sont celles annoncées par Mistral, un rapport technique doit suivre.",
+  "impact": "Mistral élargit son offre au-delà des modèles de langage, vers des cas d'usage industriels comme l'énergie ou la finance.",
+  "signal": "optimiste",
+  "rationale": "Nouveau produit ouvert et déployable en entreprise, mais les résultats ne sont pas encore validés par des tiers.",
+  "sources": [
+   {
+    "label": "Mistral AI, 15 oct. 2026",
+    "url": "https://mistral.ai/news/timestral"
+   }
+  ],
+  "addedAt": "2026-10-16T06:17:36Z"
+ },
+ {
+  "id": "together-ai-2026-10-15-muse-spark-open",
+  "companyId": "together-ai",
+  "date": "2026-10-15",
+  "title": "Together AI propose Muse Spark Open de Meta dès le jour du lancement",
+  "summary": "Le modèle à poids ouverts de Meta, Muse Spark Open, est disponible sur l'infrastructure serverless et dédiée de Together AI.",
+  "detail": "Le modèle compte 816 milliards de paramètres au total, dont 42 milliards actifs par jeton, avec une fenêtre de contexte de 1 million de jetons et des entrées texte, image, audio et vidéo. Together AI le positionne pour le code agentique, l'usage d'ordinateur et l'automatisation web.\n\nLes tarifs publiés sont de 1,25 dollar par million de jetons en entrée, 4,25 dollars en sortie et 0,15 dollar pour les jetons en entrée mis en cache. Les capacités citées viennent des entreprises et n'ont pas été vérifiées de façon indépendante.",
+  "impact": "Together AI confirme sa capacité à héberger les grands modèles ouverts dès leur sortie, argument clé face aux autres fournisseurs d'inférence.",
+  "signal": "optimiste",
+  "rationale": "Accès immédiat à un modèle ouvert très médiatisé, sans chiffre d'usage publié.",
+  "sources": [
+   {
+    "label": "Together AI, blog, 15 oct. 2026",
+    "url": "https://www.together.ai/blog"
+   },
+   {
+    "label": "Blockchain News, 15 oct. 2026",
+    "url": "https://blockchain.news/news/meta-muse-spark-open-goes-live-on-together-ai"
+   }
+  ],
+  "addedAt": "2026-10-16T06:17:36Z"
+ },
+ {
+  "id": "lovable-2026-10-15-deploy-azure",
+  "companyId": "lovable",
+  "date": "2026-10-15",
+  "title": "Lovable ouvre en préversion privée le déploiement dans l'abonnement Azure du client",
+  "summary": "Les clients Enterprise de Lovable peuvent faire tourner leurs applications et leurs données dans leur propre abonnement Microsoft Azure.",
+  "detail": "L'éditeur et l'agent restent hébergés chez Lovable, tandis que les applications publiées, la base PostgreSQL et les journaux sont placés dans un réseau virtuel du client. Les composants se connectent à Lovable uniquement en sortie, et une clé gérée par le client permet de révoquer l'accès à tout moment.\n\nLa fonction est réservée à certains clients Enterprise et n'offre pas encore toutes les fonctions de l'hébergement Lovable.",
+  "impact": "Lovable répond aux exigences de souveraineté des grands comptes, après les options Microsoft et AWS.",
+  "signal": "optimiste",
+  "rationale": "Étape utile pour vendre aux grandes entreprises, mais encore en préversion privée.",
+  "sources": [
+   {
+    "label": "Lovable, blog, 15 oct. 2026",
+    "url": "https://lovable.dev/blog/deploy-on-azure"
+   },
+   {
+    "label": "Lovable, page blog, 15 oct. 2026",
+    "url": "https://lovable.dev/blog"
+   }
+  ],
+  "addedAt": "2026-10-16T06:17:36Z"
+ },
+ {
+  "id": "lovable-2026-10-15-modeles-ia-apps",
+  "companyId": "lovable",
+  "date": "2026-10-15",
+  "title": "Lovable intègre dans les applications créées GPT-Live, Claude, Gemini, Perplexity et d'autres modèles",
+  "summary": "Les applications bâties sur Lovable peuvent désormais appeler directement plusieurs modèles et outils d'IA tiers.",
+  "detail": "La liste comprend GPT-Live d'OpenAI pour la voix en temps réel, les derniers modèles Claude, Gemini 4 Argon, Gemini Omni et Lyria de Google, Perplexity pour les réponses web citées, Firecrawl, Parallel et Jev de Typesafe AI. L'utilisateur peut nommer un outil dans le chat ou laisser Lovable choisir.",
+  "impact": "Lovable devient un point d'accès unique à de nombreux modèles, ce qui simplifie la création d'applications dotées d'IA.",
+  "signal": "optimiste",
+  "rationale": "Élargit la valeur de la plateforme sans coût apparent pour l'utilisateur.",
+  "sources": [
+   {
+    "label": "Lovable, blog, 15 oct. 2026",
+    "url": "https://lovable.dev/blog/the-ai-you-already-use-now-powering-the-apps-you-create"
+   }
+  ],
+  "addedAt": "2026-10-16T06:17:36Z"
+ },
+ {
+  "id": "shield-ai-2026-10-15-thunder-tiger-seasharks",
+  "companyId": "shield-ai",
+  "date": "2026-10-15",
+  "title": "Shield AI intègre Hivemind aux drones de surface SeaShark de Thunder Tiger en six semaines",
+  "summary": "Le logiciel d'autonomie Hivemind a été intégré aux drones de surface SeaShark 600 et 800 du taïwanais Thunder Tiger, avec une démonstration en mer.",
+  "detail": "Selon Shield AI, il s'est écoulé environ six semaines entre le début de l'intégration et la démonstration à Dapeng Bay. Deux SeaShark se sont partagé une zone de patrouille, ont fusionné les données radar et AIS d'un navire en une piste unique, puis sont passés de la patrouille à l'escorte sans reconfiguration manuelle.\n\nUne simulation de Shield AI estime qu'avec cinq drones, l'autonomie adaptative couvrirait environ 8,3 fois plus de surface qu'une patrouille à schéma fixe. Ce résultat est une simulation, pas une mesure réelle.",
+  "impact": "Hivemind élargit son terrain au maritime de surface, avec un partenaire industriel taïwanais.",
+  "signal": "optimiste",
+  "rationale": "Démonstration concrète et rapide, mais les chiffres de couverture viennent d'une simulation de Shield AI.",
+  "sources": [
+   {
+    "label": "Shield AI, 15 oct. 2026",
+    "url": "https://shield.ai/six-weeks-to-sea-hivemind-brings-thunder-tigers-seasharks-together/"
+   }
+  ],
+  "addedAt": "2026-10-16T06:17:36Z"
+ },
+ {
+  "id": "anthropic-2026-10-15-evaluateurs-independants",
+  "companyId": "anthropic",
+  "date": "2026-10-15",
+  "title": "Anthropic donne un accès de type employé à six évaluateurs de METR",
+  "summary": "Anthropic détaille un dispositif à trois niveaux pour des évaluateurs indépendants, dont METR, SecureBio et Faculty (Accenture).",
+  "detail": "Six personnes de METR disposent d'un accès proche de celui des équipes internes d'évaluation des risques, avec matériel, bureaux et outils d'Anthropic. METR publiera ses analyses sans veto d'Anthropic, qui peut seulement faire retirer des catégories d'informations prédéfinies.\n\nSecureBio relit le chapitre armes chimiques et biologiques du rapport de risque d'août 2026, et Faculty doit mener des évaluations plus larges et du red-teaming. Au moment de l'annonce, METR n'avait publié aucun résultat.",
+  "impact": "Anthropic cherche à renforcer sa crédibilité en matière de sécurité à l'approche de son introduction en Bourse.",
+  "signal": "neutre",
+  "rationale": "Geste de transparence réel, dont la portée dépendra des publications de METR.",
+  "sources": [
+   {
+    "label": "Anthropic, 15 oct. 2026",
+    "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators"
+   },
+   {
+    "label": "Crypto Briefing, 15 oct. 2026",
+    "url": "https://cryptobriefing.com/anthropic-metr-securebio-ai-safety-evaluation/"
+   }
+  ],
+  "addedAt": "2026-10-16T06:17:36Z"
+ },
+ {
+  "id": "anthropic-2026-10-15-valorisation-ipo-1500-milliards",
+  "companyId": "anthropic",
+  "date": "2026-10-15",
+  "title": "Selon Reuters, des investisseurs évoquent une valorisation d'environ 1 500 milliards de dollars pour l'IPO d'Anthropic",
+  "summary": "Après la journée investisseurs, certains participants discutent d'une valorisation de 1 500 milliards de dollars, contre environ 2 000 milliards évoqués auparavant.",
+  "detail": "D'après Reuters, repris par Investing.com, la réunion s'est tenue mercredi 14 octobre à San Francisco avec Dario Amodei et la directrice financière Krishna Rao. Anthropic y a indiqué un chiffre d'affaires de 16,8 milliards de dollars au troisième trimestre, en hausse de 45 % sur le deuxième trimestre (11,6 milliards), et un bénéfice ajusté.\n\nCertains investisseurs jugent décevant le ralentissement de la croissance séquentielle. Ces chiffres de valorisation viennent de sources anonymes, pas d'Anthropic.",
+  "impact": "Une valorisation plus basse réduirait le montant levé en Bourse pour une introduction visée en novembre.",
+  "signal": "prudent",
+  "rationale": "Information de presse sur une révision à la baisse des attentes, non confirmée par la société.",
+  "sources": [
+   {
+    "label": "Reuters via Investing.com, 15 oct. 2026",
+    "url": "https://www.investing.com/news/stock-market-news/some-investors-push-anthropic-to-cut-ipo-valuation-to-15-trillion--report-4952696"
+   }
+  ],
+  "addedAt": "2026-10-16T06:17:36Z"
+ },
+ {
+  "id": "stripe-2026-10-15-wix-symphony-link",
+  "companyId": "stripe",
+  "date": "2026-10-15",
+  "title": "Symphony by Wix intègre le portefeuille Link de Stripe pour que des agents IA paient pour les petites entreprises",
+  "summary": "Les agents de Symphony by Wix peuvent payer des achats approuvés par le propriétaire via Link, le portefeuille de Stripe.",
+  "detail": "Symphony affiche le marchand et le montant exact, le propriétaire approuve dans l'application Link, et Link fournit un identifiant de paiement à usage unique. L'agent ne reçoit pas les données de la carte sous-jacente, et un changement de total exige une nouvelle approbation.\n\nWix cite les frais d'enregistrement, le réapprovisionnement ou le paiement de factures. Une approbation par achat est la version actuelle, un budget approuvé une fois est présenté comme une évolution future.",
+  "impact": "Link gagne un partenaire de distribution pour les paiements effectués par des agents IA.",
+  "signal": "optimiste",
+  "rationale": "Premier usage de Link par une plateforme tierce de grande taille, avec un déploiement encore progressif.",
+  "sources": [
+   {
+    "label": "Wix, blog, 15 oct. 2026",
+    "url": "https://www.wix.com/blog/symphony-wix-link-stripe-ai-agent-payments"
+   },
+   {
+    "label": "GlobeNewswire via Manila Times, 15 oct. 2026",
+    "url": "https://www.manilatimes.net/2026/10/15/tmt-newswire/globenewswire/symphony-by-wix-integrates-links-wallet-for-agents-built-by-stripe-enabling-ai-agents-to-make-payments-on-behalf-of-small-businesses/2446659"
+   }
+  ],
+  "addedAt": "2026-10-16T06:17:36Z"
+ },
+ {
+  "id": "kraken-2026-10-15-firelight-vault-usdc",
+  "companyId": "kraken",
+  "date": "2026-10-15",
+  "title": "Firelight ajoute 30,5 millions de dollars de couverture au vault USDC de Kraken",
+  "summary": "Le protocole Firelight couvre le vault USDC de Kraken contre certains risques, avec un plafond par adresse.",
+  "detail": "La couverture totale atteint 30,5 millions de dollars, avec un plafond de 100 000 dollars par adresse et par période. Les paiements éventuels sont gérés par Sentora et ne sont pas garantis par Kraken.",
+  "impact": "Kraken renforce l'attrait de ses produits de rendement en stablecoin pour les utilisateurs prudents.",
+  "signal": "neutre",
+  "rationale": "Protection limitée et fournie par un tiers, sans engagement de Kraken.",
+  "sources": [
+   {
+    "label": "The Defiant, 15 oct. 2026",
+    "url": "https://thedefiant.io/news/defi/firelight-adds-30-5-million-of-cover-to-kraken-usdc-vault"
+   }
+  ],
+  "addedAt": "2026-10-16T06:17:36Z"
+ },
+ {
   "id": "stripe-2026-10-15-plasma-cartes-multidevises",
   "companyId": "stripe",
   "date": "2026-10-15",
