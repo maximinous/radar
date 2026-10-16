@@ -1,25 +1,10 @@
 {
- "generatedAt": "2026-10-16T06:12:31Z",
+ "generatedAt": "2026-10-16T11:53:43Z",
  "windowHours": 48,
- "headlinesRead": 1143,
- "count": 38,
- "priorityCount": 9,
+ "headlinesRead": 1079,
+ "count": 35,
+ "priorityCount": 7,
  "companies": [
-  {
-   "companyId": "together-ai",
-   "name": "Together AI",
-   "candidates": [
-    {
-     "date": "2026-10-15 20:30",
-     "media": "Blockchain News",
-     "title": "Meta Muse Spark Open goes live on Together AI",
-     "site": "https://blockchain.news",
-     "overlap": 0,
-     "reprises": 1,
-     "priority": false
-    }
-   ]
-  },
   {
    "companyId": "mistral-ai",
    "name": "Mistral AI",
@@ -29,7 +14,7 @@
      "media": "Startup Fortune",
      "title": "Mistral Releases Le Chonk, a 1 Trillion Parameter Open Weight Model",
      "site": "https://startupfortune.com",
-     "overlap": 0.14,
+     "overlap": 0.29,
      "reprises": 0,
      "priority": false
     },
@@ -64,11 +49,29 @@
    "name": "Stripe",
    "candidates": [
     {
-     "date": "2026-10-15 20:05",
+     "date": "2026-10-15 23:18",
+     "media": "Stocktwits",
+     "title": "PYPL Stock Slips 2% After-Hours — Stripe Weighs Next Move On PayPal While Pursuing $10B OpenRouter Acquisition",
+     "site": "https://stocktwits.com",
+     "overlap": 0.0,
+     "reprises": 0,
+     "priority": true
+    },
+    {
+     "date": "2026-10-16 00:29",
      "media": "FinanceX Magazine",
      "title": "Stripe Buys Parafin, FedEx Pipes Shipping Data Into Credit, and SME Lending Quietly Reinvents Itself",
      "site": "https://www.financexmagazine.com",
      "overlap": 0.0,
+     "reprises": 0,
+     "priority": true
+    },
+    {
+     "date": "2026-10-16 04:01",
+     "media": "Tekedia",
+     "title": "Stripe Raises $500 Million to Buy More Bitcoin as BlackRock Reports $205 Billion in Quarterly Inflows",
+     "site": "https://www.tekedia.com",
+     "overlap": 0.08,
      "reprises": 0,
      "priority": true
     },
@@ -109,7 +112,7 @@
      "priority": false
     },
     {
-     "date": "2026-10-15 16:02",
+     "date": "2026-10-16 07:02",
      "media": "Traders Union",
      "title": "XPL climbs over 10% after strategic deal with Stripe to broaden payments utility",
      "site": "https://tradersunion.com",
@@ -144,16 +147,7 @@
      "title": "Payward vise une licence bancaire européenne avec l'acquisition de Saldo Bank, dont les actifs s'élèvent à 190 millions de dollars",
      "site": "https://www.coindesk.com",
      "overlap": 0.36,
-     "reprises": 6,
-     "priority": true
-    },
-    {
-     "date": "2026-10-14 22:05",
-     "media": "openPR.com",
-     "title": "Next 100x Crypto Update October 2026: Kraken's Owner Buys a Bank",
-     "site": "https://www.openpr.com",
-     "overlap": 0.33,
-     "reprises": 4,
+     "reprises": 5,
      "priority": true
     },
     {
@@ -162,16 +156,7 @@
      "title": "Kraken buys a bank in Lithuania: what it means for EU clients",
      "site": "https://coinspot.io",
      "overlap": 0.33,
-     "reprises": 4,
-     "priority": true
-    },
-    {
-     "date": "2026-10-14 20:45",
-     "media": "TechBullion",
-     "title": "Best Crypto to Buy Now: Pepeto, ETH or ZEC as Kraken's 100+ License Push Reaches Dubai",
-     "site": "https://techbullion.com",
-     "overlap": 0.25,
-     "reprises": 0,
+     "reprises": 1,
      "priority": true
     },
     {
@@ -193,12 +178,12 @@
      "priority": false
     },
     {
-     "date": "2026-10-14 14:14",
-     "media": "Crypto Economy",
-     "title": "Evernorth Partners With Ripple, Coinbase, BitGo, and Kraken for $648M XRP Treasury",
-     "site": "https://crypto-economy.com",
-     "overlap": 0.0,
-     "reprises": 0,
+     "date": "2026-10-16 08:29",
+     "media": "Yahoo Finance",
+     "title": "473 Million XRP in Play: Evernorth Names Ripple, Coinbase, Kraken and BitGo as Institutional Partners",
+     "site": "https://finance.yahoo.com",
+     "overlap": 0.09,
+     "reprises": 1,
      "priority": false
     },
     {
@@ -226,15 +211,6 @@
      "priority": false
     },
     {
-     "date": "2026-10-14 14:26",
-     "media": "Pluang",
-     "title": "Polymarket hints at future token launch amid IP...",
-     "site": "https://pluang.com",
-     "overlap": 0.2,
-     "reprises": 1,
-     "priority": false
-    },
-    {
      "date": "2026-10-15 05:45",
      "media": "Crypto Briefing",
      "title": "Polymarket CEO makes the case for prediction markets over speculative crypto bets",
@@ -244,11 +220,11 @@
      "priority": false
     },
     {
-     "date": "2026-10-14 09:49",
-     "media": "icobench.com",
-     "title": "Polymarket Coin Still Unconfirmed as ICE Equity Funding Advances",
-     "site": "https://icobench.com",
-     "overlap": 0.0,
+     "date": "2026-10-14 14:26",
+     "media": "Pluang",
+     "title": "Polymarket hints at future token launch amid IP...",
+     "site": "https://pluang.com",
+     "overlap": 0.2,
      "reprises": 0,
      "priority": false
     },
@@ -269,6 +245,30 @@
      "overlap": 0.0,
      "reprises": 0,
      "priority": false
+    },
+    {
+     "date": "2026-10-14 23:45",
+     "media": "MassLive.com",
+     "title": "MLB Polymarket promo code “MASS” upgrades $25 Brewers-Dodgers Game 3 deal",
+     "site": "https://www.masslive.com",
+     "overlap": 0.0,
+     "reprises": 0,
+     "priority": false
+    }
+   ]
+  },
+  {
+   "companyId": "shield-ai",
+   "name": "Shield AI",
+   "candidates": [
+    {
+     "date": "2026-10-16 11:22",
+     "media": "Raksha Anirveda",
+     "title": "X-BAT Prototype Nears Reveal as Funding Hits $400 Million",
+     "site": "https://raksha-anirveda.com",
+     "overlap": 0.25,
+     "reprises": 2,
+     "priority": false
     }
    ]
   },
@@ -277,39 +277,12 @@
    "name": "Anthropic",
    "candidates": [
     {
-     "date": "2026-10-15 11:00",
-     "media": "Scientific American",
-     "title": "Anthropic’s AI worm research raises new fears about smart device security",
-     "site": "https://www.scientificamerican.com",
-     "overlap": 0.25,
-     "reprises": 0,
-     "priority": true
-    },
-    {
-     "date": "2026-10-15 15:19",
-     "media": "Legis1",
-     "title": "Federal Anthropic Restrictions Raise AI Competition Concerns",
-     "site": "https://legis1.com",
-     "overlap": 0.2,
-     "reprises": 0,
-     "priority": true
-    },
-    {
-     "date": "2026-10-16 05:06",
-     "media": "Stocktwits",
-     "title": "Anthropic IPO: Some Investors Reportedly Weigh Lower $1.5 Trillion Valuation As AI Lab’s Revenue Growth Slows",
-     "site": "https://stocktwits.com",
-     "overlap": 0.25,
-     "reprises": 7,
-     "priority": false
-    },
-    {
-     "date": "2026-10-16 03:36",
-     "media": "Dunya News",
-     "title": "Investors temper Anthropic IPO valuation expectations over revenue growth slowdown, sources say",
-     "site": "https://dunyanews.tv",
-     "overlap": 0.27,
-     "reprises": 6,
+     "date": "2026-10-16 10:25",
+     "media": "Arise News",
+     "title": "Anthropic Faces Lower IPO Valuation Expectations As Investors Question Growth Momentum",
+     "site": "https://www.arise.tv",
+     "overlap": 0.33,
+     "reprises": 10,
      "priority": false
     },
     {
@@ -340,6 +313,15 @@
      "priority": false
     },
     {
+     "date": "2026-10-16 08:59",
+     "media": "GB News",
+     "title": "Anthropic's valuation could fall by £379billion as growth slows",
+     "site": "https://www.gbnews.com",
+     "overlap": 0.17,
+     "reprises": 3,
+     "priority": false
+    },
+    {
      "date": "2026-10-15 06:39",
      "media": "Pasquale Pillitteri",
      "title": "Claude Code desktop dévoile les sessions imbriquées et les environnements enregistrés",
@@ -355,21 +337,21 @@
    "name": "Perplexity",
    "candidates": [
     {
+     "date": "2026-10-16 08:57",
+     "media": "Performance Marketing World",
+     "title": "Billion Dollar Boy acquires Creator Authority and Reddit sues Perplexity: Latest industry moves",
+     "site": "https://www.performancemarketingworld.com",
+     "overlap": 0,
+     "reprises": 2,
+     "priority": true
+    },
+    {
      "date": "2026-10-16 00:44",
      "media": "SiliconANGLE",
      "title": "Perplexity AI open-sources its secure AI agent sandbox SPACE",
      "site": "https://siliconangle.com",
      "overlap": 0,
      "reprises": 6,
-     "priority": false
-    },
-    {
-     "date": "2026-10-15 22:14",
-     "media": "https://www.ababnews.com/",
-     "title": "Perplexity CEO Aravind Srinivas: Neocloud Must Own a Complete Agent Inference Platform, Not Just Rent GPUs",
-     "site": "https://www.ababnews.com",
-     "overlap": 0,
-     "reprises": 1,
      "priority": false
     },
     {
@@ -389,21 +371,6 @@
      "overlap": 0,
      "reprises": 0,
      "priority": false
-    }
-   ]
-  },
-  {
-   "companyId": "crusoe",
-   "name": "Crusoe",
-   "candidates": [
-    {
-     "date": "2026-10-14 08:02",
-     "media": "Parametric Architecture",
-     "title": "Crusoe Raises Powerful $3.9B to Scale Modular AI Centers",
-     "site": "https://parametric-architecture.com",
-     "overlap": 0.2,
-     "reprises": 4,
-     "priority": true
     }
    ]
   }
