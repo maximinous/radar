@@ -1,11 +1,11 @@
 # Contrôle de couverture : liste les titres Google News des dernières 48 h qui ressemblent à un événement
 # mais qu'aucun article du Radar ne couvre (scripts/coverage.py). Il tourne juste avant chaque passage de la veille
-# (05h50 et 11h50 UTC) et le soir, pour que chaque passage parte d'une liste fraîche, pistes prioritaires en tête.
+# (05h25 et 11h25 UTC, GitHub pouvant retarder de 20 minutes ou plus) et le soir, pour que chaque passage parte d'une liste fraîche, pistes prioritaires en tête.
 name: Veille - contrôle de couverture
 
 on:
   schedule:
-    - cron: '50 5,11 * * 1-5'
+    - cron: '25 5,11 * * 1-5'
     - cron: '45 19 * * 1-5'
   workflow_dispatch:
 
