@@ -1,5 +1,27 @@
 [
  {
+  "id": "mistral-ai-2026-10-19-docusign-mcp",
+  "companyId": "mistral-ai",
+  "date": "2026-10-19",
+  "title": "Docusign annonce un connecteur MCP dédié à Mistral",
+  "summary": "Docusign a présenté à Momentum Paris son serveur MCP ouvert aux agents d'IA et annonce un connecteur pour Mistral, attendu d'ici la fin de l'année.",
+  "detail": "Le connecteur permettrait aux agents de Mistral de travailler sur des contrats Docusign, au même niveau que Claude ou ChatGPT. Vibe, l'assistant de Mistral, se branche déjà sur le serveur de démonstration via un connecteur personnalisé.\n\nIT Social souligne que Docusign reste une société de droit américain soumise au Cloud Act : la souveraineté du connecteur ne couvre que le modèle qui analyse le contrat, pas le service qui le stocke. Docusign n'a pas cité Mistral dans son communiqué du 4 septembre sur l'ouverture du serveur MCP à tous les agents.",
+  "impact": "Mistral gagne une intégration dans un outil de gestion de contrats très répandu en entreprise, utile pour son offre d'agents auprès des clients européens.",
+  "signal": "optimiste",
+  "rationale": "Un éditeur majeur prévoit une intégration de production, mais elle n'est pas encore disponible.",
+  "sources": [
+   {
+    "label": "IT Social, 19/10/2026",
+    "url": "https://itsocial.fr/cybersecurite/cybersecurite-actualites/serveur-mcp-docusign-ouvre-ses-contrats-aux-agents-dia-et-annonce-des-connecteurs-souverains-avec-mistral/"
+   },
+   {
+    "label": "Docusign, communiqué du 04/09/2026 sur le serveur MCP",
+    "url": "https://www.docusign.com/company/news-center/docusign-agreement-layer-for-the-agentic-enterprise-coming-to-every-agent"
+   }
+  ],
+  "addedAt": "2026-10-19T12:25:30Z"
+ },
+ {
   "id": "anthropic-2026-10-18-fonds-interet-public",
   "companyId": "anthropic",
   "date": "2026-10-18",
