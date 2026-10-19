@@ -1,30 +1,36 @@
 {
- "generatedAt": "2026-10-19T11:57:30Z",
+ "generatedAt": "2026-10-19T20:11:21Z",
  "windowHours": 48,
- "headlinesRead": 733,
- "count": 24,
- "priorityCount": 5,
+ "headlinesRead": 831,
+ "count": 20,
+ "priorityCount": 3,
  "companies": [
+  {
+   "companyId": "together-ai",
+   "name": "Together AI",
+   "candidates": [
+    {
+     "date": "2026-10-19 17:53",
+     "media": "Unite.AI",
+     "title": "Together AI lance Together Post-Training, un service destiné aux modèles personnalisés",
+     "site": "https://www.unite.ai",
+     "overlap": 0.29,
+     "reprises": 3,
+     "priority": false
+    }
+   ]
+  },
   {
    "companyId": "mistral-ai",
    "name": "Mistral AI",
    "candidates": [
     {
-     "date": "2026-10-19 07:06",
-     "media": "it social",
-     "title": "Serveur MCP : Docusign ouvre ses contrats aux agents d’IA et annonce des connecteurs avec Mistral",
-     "site": "https://itsocial.fr",
-     "overlap": 0.12,
+     "date": "2026-10-19 19:18",
+     "media": "ActuIA",
+     "title": "Mistral Large 4 devancé d'un point par Muse Spark Open, mais devant lui sur les épreuves d'agent",
+     "site": "https://www.actuia.com",
+     "overlap": 0.1,
      "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-10-17 15:02",
-     "media": "Menow",
-     "title": "Mistral lance Timestral : son IA de prévision peut tourner sans carte graphique",
-     "site": "https://www.menow.fr",
-     "overlap": 0.38,
-     "reprises": 0,
      "priority": false
     }
    ]
@@ -34,47 +40,20 @@
    "name": "Stripe",
    "candidates": [
     {
-     "date": "2026-10-18 19:30",
+     "date": "2026-10-19 12:51",
      "media": "Startup Fortune",
-     "title": "Stripe Agrees to Buy AI Model Router OpenRouter for $7.5 Billion",
+     "title": "Stripe agrees to buy OpenRouter for 7.5 billion dollars",
+     "site": "https://startupfortune.com",
+     "overlap": 0.2,
+     "reprises": 3,
+     "priority": true
+    },
+    {
+     "date": "2026-10-18 10:50",
+     "media": "Startup Fortune",
+     "title": "Stripe's $7.5 billion OpenRouter deal hands it the AI model dial",
      "site": "https://startupfortune.com",
      "overlap": 0.0,
-     "reprises": 7,
-     "priority": true
-    },
-    {
-     "date": "2026-10-17 14:00",
-     "media": "CoinDesk",
-     "title": "Polygon considère l'acquisition de Coinme comme une entrée dans le secteur des paiements dominé par Visa, Stripe",
-     "site": "https://www.coindesk.com",
-     "overlap": 0.3,
-     "reprises": 1,
-     "priority": true
-    },
-    {
-     "date": "2026-10-17 14:00",
-     "media": "CoinDesk",
-     "title": "Polygon Labs completes Coinme acquisition to challenge Visa and Stripe in global payments",
-     "site": "https://www.coindesk.com",
-     "overlap": 0.11,
-     "reprises": 0,
-     "priority": true
-    },
-    {
-     "date": "2026-10-17 19:08",
-     "media": "openPR.com",
-     "title": "Crypto News: Stripe and Visa Advance Stablecoin Payments as Remittix Brings Its PayFi Ecosystem Toward Launch",
-     "site": "https://www.openpr.com",
-     "overlap": 0.25,
-     "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-10-17 19:29",
-     "media": "Yahoo Finance",
-     "title": "Polygon CEO Sees Coinme Deal as Entry to Payments Business Led by Visa, Stripe",
-     "site": "https://finance.yahoo.com",
-     "overlap": 0.2,
      "reprises": 1,
      "priority": false
     },
@@ -136,15 +115,6 @@
    "name": "Polymarket",
    "candidates": [
     {
-     "date": "2026-10-18 13:45",
-     "media": "Syracuse.com",
-     "title": "NFL Polymarket referral code “CUSE” launches $25 bonus for Week 6",
-     "site": "https://www.syracuse.com",
-     "overlap": 0.14,
-     "reprises": 1,
-     "priority": false
-    },
-    {
      "date": "2026-10-18 23:45",
      "media": "SILive.com",
      "title": "NFL Polymarket promo code “SILIVE” upgrades $25 Cowboys-Packers deal",
@@ -163,11 +133,11 @@
      "priority": false
     },
     {
-     "date": "2026-10-17 23:45",
-     "media": "MassLive",
-     "title": "Saturday Night Football Polymarket promo code “MASS” launches $25 deal for Notre Dame-BYU",
-     "site": "https://www.masslive.com",
-     "overlap": 0.09,
+     "date": "2026-10-18 13:45",
+     "media": "Syracuse.com",
+     "title": "NFL Polymarket referral code “CUSE” launches $25 bonus for Week 6",
+     "site": "https://www.syracuse.com",
+     "overlap": 0.14,
      "reprises": 0,
      "priority": false
     },
@@ -187,21 +157,12 @@
    "name": "Anthropic",
    "candidates": [
     {
-     "date": "2026-10-18 08:01",
-     "media": "Storyboard18",
-     "title": "Anthropic CEO Dario Amodei spends up to 40% of his time building company culture",
-     "site": "https://www.storyboard18.com",
-     "overlap": 0.22,
+     "date": "2026-10-19 17:00",
+     "media": "Global News",
+     "title": "News publishers launch copyright suit against AI company Anthropic in Ontario",
+     "site": "https://globalnews.ca",
+     "overlap": 0.38,
      "reprises": 3,
-     "priority": false
-    },
-    {
-     "date": "2026-10-17 18:07",
-     "media": "Pasquale Pillitteri",
-     "title": "Anthropic dévoile les circuits quantiques de Claude Mythos 5, jusqu'à 39 fois plus efficaces",
-     "site": "https://pasqualepillitteri.it",
-     "overlap": 0.33,
-     "reprises": 2,
      "priority": false
     },
     {
@@ -214,11 +175,20 @@
      "priority": false
     },
     {
-     "date": "2026-10-17 18:01",
-     "media": "Pasquale Pillitteri",
-     "title": "Claude dévoile l'origine des courbes ECDSA, les seeds étaient des horodatages",
-     "site": "https://pasqualepillitteri.it",
-     "overlap": 0.12,
+     "date": "2026-10-19 19:46",
+     "media": "AOL.com",
+     "title": "Nscale, Anthropic in talks for $45 billion cloud computing deal, Bloomberg News reports",
+     "site": "https://www.aol.com",
+     "overlap": 0.33,
+     "reprises": 2,
+     "priority": false
+    },
+    {
+     "date": "2026-10-18 08:01",
+     "media": "Storyboard18",
+     "title": "Anthropic CEO Dario Amodei spends up to 40% of his time building company culture",
+     "site": "https://www.storyboard18.com",
+     "overlap": 0.22,
      "reprises": 1,
      "priority": false
     },
@@ -232,11 +202,11 @@
      "priority": false
     },
     {
-     "date": "2026-10-19 03:46",
-     "media": "Benzinga",
-     "title": "'This Is What I Will Be Doing’: Elon Musk Says He’ll Give Shares To The Public After Anthropic Announces 5% Fund",
-     "site": "https://www.benzinga.com",
-     "overlap": 0.31,
+     "date": "2026-10-19 12:00",
+     "media": "Business AM",
+     "title": "Anthropic lance un fonds destiné à rétablir la confiance dans l'IA et à soutenir le marché du travail",
+     "site": "https://fr.businessam.be",
+     "overlap": 0.12,
      "reprises": 1,
      "priority": false
     }
