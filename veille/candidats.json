@@ -1,14 +1,23 @@
 {
- "generatedAt": "2026-10-19T05:54:15Z",
+ "generatedAt": "2026-10-19T11:57:30Z",
  "windowHours": 48,
- "headlinesRead": 668,
- "count": 22,
+ "headlinesRead": 733,
+ "count": 24,
  "priorityCount": 5,
  "companies": [
   {
    "companyId": "mistral-ai",
    "name": "Mistral AI",
    "candidates": [
+    {
+     "date": "2026-10-19 07:06",
+     "media": "it social",
+     "title": "Serveur MCP : Docusign ouvre ses contrats aux agents d’IA et annonce des connecteurs avec Mistral",
+     "site": "https://itsocial.fr",
+     "overlap": 0.12,
+     "reprises": 1,
+     "priority": false
+    },
     {
      "date": "2026-10-17 15:02",
      "media": "Menow",
@@ -34,15 +43,6 @@
      "priority": true
     },
     {
-     "date": "2026-10-18 00:58",
-     "media": "Coinspot.io",
-     "title": "Polygon Labs Acquisition of Coinme: Entry Into the Payments Business With Visa and Stripe",
-     "site": "https://coinspot.io",
-     "overlap": 0.22,
-     "reprises": 3,
-     "priority": true
-    },
-    {
      "date": "2026-10-17 14:00",
      "media": "CoinDesk",
      "title": "Polygon considère l'acquisition de Coinme comme une entrée dans le secteur des paiements dominé par Visa, Stripe",
@@ -52,11 +52,29 @@
      "priority": true
     },
     {
+     "date": "2026-10-17 14:00",
+     "media": "CoinDesk",
+     "title": "Polygon Labs completes Coinme acquisition to challenge Visa and Stripe in global payments",
+     "site": "https://www.coindesk.com",
+     "overlap": 0.11,
+     "reprises": 0,
+     "priority": true
+    },
+    {
      "date": "2026-10-17 19:08",
      "media": "openPR.com",
      "title": "Crypto News: Stripe and Visa Advance Stablecoin Payments as Remittix Brings Its PayFi Ecosystem Toward Launch",
      "site": "https://www.openpr.com",
      "overlap": 0.25,
+     "reprises": 1,
+     "priority": false
+    },
+    {
+     "date": "2026-10-17 19:29",
+     "media": "Yahoo Finance",
+     "title": "Polygon CEO Sees Coinme Deal as Entry to Payments Business Led by Visa, Stripe",
+     "site": "https://finance.yahoo.com",
+     "overlap": 0.2,
      "reprises": 1,
      "priority": false
     },
@@ -107,7 +125,7 @@
      "media": "TradingView",
      "title": "Analyse technique de MUUSD Multi Collateral Perpetual Futures Contract (KRAKEN: MUUSD.PM)",
      "site": "https://fr.tradingview.com",
-     "overlap": 0.12,
+     "overlap": 0.25,
      "reprises": 0,
      "priority": false
     }
@@ -146,7 +164,7 @@
     },
     {
      "date": "2026-10-17 23:45",
-     "media": "MassLive.com",
+     "media": "MassLive",
      "title": "Saturday Night Football Polymarket promo code “MASS” launches $25 deal for Notre Dame-BYU",
      "site": "https://www.masslive.com",
      "overlap": 0.09,
@@ -174,7 +192,7 @@
      "title": "Anthropic CEO Dario Amodei spends up to 40% of his time building company culture",
      "site": "https://www.storyboard18.com",
      "overlap": 0.22,
-     "reprises": 4,
+     "reprises": 3,
      "priority": false
     },
     {
@@ -187,30 +205,12 @@
      "priority": false
     },
     {
-     "date": "2026-10-19 05:19",
-     "media": "Indian Television Dot Com",
-     "title": "Anthropic sets aside 5 per cent of shares for public benefit fund ahead of planned IPO",
-     "site": "https://indiantelevision.com",
-     "overlap": 0.27,
-     "reprises": 2,
-     "priority": false
-    },
-    {
-     "date": "2026-10-17 06:26",
-     "media": "Pasquale Pillitteri",
-     "title": "Claude dévoile un prototype sur les feux de forêt fait avec Opus 5.5",
-     "site": "https://pasqualepillitteri.it",
-     "overlap": 0.29,
-     "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-10-17 11:49",
-     "media": "Pasquale Pillitteri",
-     "title": "Replit annonce son départ d'Anthropic, rupture contestée",
-     "site": "https://pasqualepillitteri.it",
+     "date": "2026-10-19 02:46",
+     "media": "ABC News - Breaking News, Latest News and Videos",
+     "title": "Exclusive: Anthropic CEO calls for stronger regulation of AI",
+     "site": "https://abcnews.com",
      "overlap": 0.2,
-     "reprises": 1,
+     "reprises": 2,
      "priority": false
     },
     {
@@ -219,6 +219,24 @@
      "title": "Claude dévoile l'origine des courbes ECDSA, les seeds étaient des horodatages",
      "site": "https://pasqualepillitteri.it",
      "overlap": 0.12,
+     "reprises": 1,
+     "priority": false
+    },
+    {
+     "date": "2026-10-19 01:00",
+     "media": "WSJ",
+     "title": "What to Know About the Obscure Trust Looming Over Anthropic’s IPO",
+     "site": "https://www.wsj.com",
+     "overlap": 0.12,
+     "reprises": 1,
+     "priority": false
+    },
+    {
+     "date": "2026-10-19 03:46",
+     "media": "Benzinga",
+     "title": "'This Is What I Will Be Doing’: Elon Musk Says He’ll Give Shares To The Public After Anthropic Announces 5% Fund",
+     "site": "https://www.benzinga.com",
+     "overlap": 0.31,
      "reprises": 1,
      "priority": false
     }
