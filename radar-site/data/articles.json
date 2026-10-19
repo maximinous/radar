@@ -1,5 +1,173 @@
 [
  {
+  "id": "anthropic-2026-10-18-fonds-interet-public",
+  "companyId": "anthropic",
+  "date": "2026-10-18",
+  "title": "Anthropic réserve 5 % de ses actions à un fonds d'intérêt public avant son introduction en Bourse",
+  "summary": "Anthropic s'engage à placer 5 % de ses actions dans un fonds d'intérêt public, avec des compléments possibles de 2 points quand sa valeur progresse. L'engagement reste soumis à l'approbation des actionnaires.",
+  "detail": "Le fonds serait une société détenue à 100 % par Anthropic, pas une association. Il pourrait financer de grands dons à des associations ou des versements directs à certaines populations, notamment face aux effets de l'IA sur l'emploi. Anthropic a déjà engagé 200 millions de dollars pour étudier ces effets. Le conseil pourrait ajouter 2 points d'actions pour chaque hausse de 50 % de la valeur de l'entreprise.\n\nAucun fonds de ce type ne peut servir au lobbying ni aux dons politiques, selon Bloomberg. La gouvernance et les premières attributions ne sont pas fixées : Anthropic promet des précisions dans les prochains mois. Bloomberg indique aussi que la préparation commerciale de l'introduction en Bourse pourrait démarrer dès la semaine du 9 novembre.",
+  "impact": "Le geste répond aux critiques sur l'impact social de l'IA et cadre l'image de l'entreprise à l'approche de son introduction en Bourse, au prix d'une dilution de 5 % pour les actionnaires actuels.",
+  "signal": "neutre",
+  "rationale": "Un engagement fort mais encore conditionnel, dont la gouvernance et le calendrier ne sont pas connus.",
+  "sources": [
+   {
+    "label": "Anthropic, annonce, 18/10/2026",
+    "url": "https://www.anthropic.com/news/public-benefit-fund"
+   },
+   {
+    "label": "TechCrunch, 18/10/2026",
+    "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/"
+   },
+   {
+    "label": "Bloomberg, 18/10/2026",
+    "url": "https://www.bloomberg.com/news/articles/2026-10-18/anthropic-plans-to-shift-some-shares-into-new-public-good-fund"
+   },
+   {
+    "label": "CNBC, 18/10/2026",
+    "url": "https://www.cnbc.com/2026/10/18/anthropic-ai-public-benefit-fund.html"
+   }
+  ],
+  "addedAt": "2026-10-19T06:20:05Z"
+ },
+ {
+  "id": "shield-ai-2026-10-18-taiwan-292-v-bat",
+  "companyId": "shield-ai",
+  "date": "2026-10-18",
+  "title": "Taïwan prévoit d'acheter 292 drones V-BAT à Shield AI, dont 280 pour la marine",
+  "summary": "Le Taipei Times, citant le rapport du ministère de la Défense pour 2027, annonce l'achat de 292 V-BAT : 280 pour la marine et 12 pour les garde-côtes, pour environ 37,2 milliards de dollars taïwanais.",
+  "detail": "Le programme naval, baptisé Yuan Xiao, court sur quatre ans pour 36 milliards de dollars taïwanais, avec 140 systèmes de contrôle et 82 véhicules de transport. Sur les 280 appareils, 212 iraient au commandement de combat côtier et aux unités de missiles antinavires Hsiung Feng. Les 12 drones des garde-côtes, pour 1,2 milliard de dollars taïwanais, ont déjà été livrés en premier lot selon Shield AI.\n\nTaïwan pourrait devenir le premier utilisateur du V-BAT hors des États-Unis. Le président de Shield AI, Brandon Tseng, indique que la part de composants taïwanais devrait passer de 16 % à 25 %. AIDC assurera la logistique, la maintenance et la formation.",
+  "impact": "La commande, si elle est confirmée, serait de loin la plus grosse série du V-BAT, qui dépasse les 250 appareils vendus aux États-Unis et à l'OTAN fin 2024.",
+  "signal": "optimiste",
+  "rationale": "Un volume très élevé pour un client étatique, même si les chiffres viennent d'un budget et non d'un contrat signé.",
+  "sources": [
+   {
+    "label": "Taipei Times, 18/10/2026",
+    "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/10/18/2003866167"
+   },
+   {
+    "label": "Shield AI, communiqué, 13/10/2026",
+    "url": "https://shield.ai/shield-ai-delivers-first-v-bats-to-taiwan-deepening-its-partnership-with-taiwan-coast-guard-administration/"
+   }
+  ],
+  "addedAt": "2026-10-19T06:20:05Z"
+ },
+ {
+  "id": "neura-robotics-2026-10-18-forbes-reger-gyms",
+  "companyId": "neura-robotics",
+  "date": "2026-10-18",
+  "title": "Forbes : David Reger, fondateur de NEURA Robotics, parie sur les « gyms » pour entraîner les humanoïdes",
+  "summary": "Forbes consacre un portrait à David Reger, qui détiendrait environ 20 % de NEURA, valorisée autour de 7 milliards de dollars, et mise sur des centres d'entraînement pour robots.",
+  "detail": "Selon Forbes, les clients pourront louer des cellules d'entraînement avec simulation et suivi pour apprendre des tâches aux robots achetés à NEURA. Les compétences seraient stockées sur la plateforme Neuraverse et transférables à d'autres machines. Peu de ces gyms existent : les premiers sites phares ouvrent à la fin de l'année au plus tôt.\n\nNEURA affirme avoir un carnet de commandes potentiel de 11 milliards de dollars, dont environ 80 % lié aux humanoïdes, aux gyms et à Neuraverse. Forbes rappelle que ces chiffres sont des déclarations de la société et que les derniers comptes publics qu'il a trouvés datent de 2022.",
+  "impact": "La stratégie de collecte de données par les gyms nourrit le modèle Neuron AI et différencie NEURA de ses rivaux humanoïdes.",
+  "signal": "neutre",
+  "rationale": "Une ambition forte, mais des chiffres déclaratifs et des sites encore largement à construire.",
+  "sources": [
+   {
+    "label": "Forbes, 18/10/2026",
+    "url": "https://www.forbes.com/sites/ninabambysheva/2026/10/18/germanys-new-robot-billionaire-is-betting-big-on-humanoid-gyms/"
+   }
+  ],
+  "addedAt": "2026-10-19T06:20:05Z"
+ },
+ {
+  "id": "anthropic-2026-10-16-emploi-juniors",
+  "companyId": "anthropic",
+  "date": "2026-10-16",
+  "title": "Anthropic publie une étude interne : les embauches de profils juniors techniques sont passées de 27 % à 9 %",
+  "summary": "Une étude d'Anthropic sur son propre emploi montre que la part des recrutements juniors dans les équipes techniques a nettement reculé depuis début 2025, alors que l'usage des agents IA augmente.",
+  "detail": "La part des juniors dans les effectifs techniques est passée de 21 % à 14 % depuis début 2025, et celle des embauches juniors techniques de 27 % à 9 %. Le nombre de validations de code par ingénieur a été multiplié par environ 5 en six mois. En août 2026, les agents interactifs travaillaient environ six heures pour chaque heure d'un employé.\n\nL'étude reconnaît ses limites : elle porte sur une seule entreprise très tournée vers l'IA et ses pratiques peuvent ne pas se généraliser.",
+  "impact": "Anthropic fournit des données de première main sur l'effet de ses outils sur l'organisation du travail, un argument de poids pour ses offres d'agents en entreprise.",
+  "signal": "neutre",
+  "rationale": "Des chiffres de productivité forts, mais un effet social sensible sur l'emploi des débutants.",
+  "sources": [
+   {
+    "label": "Anthropic, étude « How employment is changing at Anthropic », 16/10/2026",
+    "url": "https://anthropic.com/research/employment-at-anthropic"
+   }
+  ],
+  "addedAt": "2026-10-19T06:20:05Z"
+ },
+ {
+  "id": "anthropic-2026-10-16-everwind-canada",
+  "companyId": "anthropic",
+  "date": "2026-10-16",
+  "title": "Anthropic signerait son premier bail de centre de données au Canada avec EverWind",
+  "summary": "Selon Reuters, Anthropic a signé un bail avec EverWind pour de la capacité à Point Tupper, en Nouvelle-Écosse. EverWind annonce un projet de 10 milliards de dollars sans nommer son client.",
+  "detail": "Reuters affirme qu'il s'agit du premier accord de centre de données d'Anthropic au Canada. EverWind a présenté le même jour un projet qu'elle décrit comme le plus gros investissement privé de l'histoire de la Nouvelle-Écosse, et parle d'un développeur d'IA de pointe non nommé.\n\nSelon la presse canadienne reprise par les agrégateurs, le bail serait de 20 ans pour une première phase de 95 mégawatts. Ces chiffres viennent d'EverWind et n'ont pas été vérifiés directement sur une page de la société.",
+  "impact": "Un site de plus pour la capacité de calcul d'Anthropic, hors des États-Unis, dans une région riche en énergie.",
+  "signal": "optimiste",
+  "rationale": "Une expansion de capacité confirmée par Reuters, même si EverWind ne nomme pas son client.",
+  "sources": [
+   {
+    "label": "Reuters, repris par The Daily Guardian, 16/10/2026",
+    "url": "https://thedailyguardian.com/news/science-tech/anthropic-signs-lease-for-first-canadian-data-center-766710/"
+   },
+   {
+    "label": "CTV News, EverWind, 16/10/2026",
+    "url": "https://www.ctvnews.ca/atlantic/nova-scotia/article/everwind-says-10b-ai-data-centre-proposal-largest-private-investment-in-ns-history/"
+   }
+  ],
+  "addedAt": "2026-10-19T06:20:05Z"
+ },
+ {
+  "id": "anthropic-2026-10-16-replit-rupture",
+  "companyId": "anthropic",
+  "date": "2026-10-16",
+  "title": "Le PDG de Replit dit avoir cessé de travailler avec Anthropic, ce que des proches du dossier contestent",
+  "summary": "Amjad Masad affirme que Replit n'utilise plus Anthropic pour des raisons de coût, de partenariat et de performance. Des sources proches de l'accord disent qu'il est toujours en place.",
+  "detail": "Le dirigeant s'est exprimé sur scène au TechCrunch Disrupt. Il a ensuite précisé que les utilisateurs peuvent toujours choisir les modèles d'Anthropic, mais que ChatGPT est désormais le choix par défaut. Replit comptait jusqu'ici parmi les cinq premiers clients d'Anthropic, selon TechCrunch.\n\nDes personnes familières du partenariat contestent cette version et citent des publications de Replit de fin septembre qui mentionnent encore les modèles Claude. TechCrunch n'a pas obtenu de commentaire d'Anthropic.",
+  "impact": "Si le passage par défaut à OpenAI se confirme, Anthropic pourrait perdre une part importante des dépenses d'un grand client.",
+  "signal": "prudent",
+  "rationale": "Perte possible d'un gros client, mais l'information est contestée et non confirmée par Anthropic.",
+  "sources": [
+   {
+    "label": "TechCrunch, 16/10/2026 (mis à jour le 17/10)",
+    "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/"
+   },
+   {
+    "label": "AI News Weekly, 16/10/2026",
+    "url": "https://aiweekly.co/alerts/replit-ceo-says-company-dropped-anthropic-for-openai-but-insiders-dispute-the"
+   }
+  ],
+  "addedAt": "2026-10-19T06:20:05Z"
+ },
+ {
+  "id": "kraken-2026-10-16-unified-wallet-eea",
+  "companyId": "kraken",
+  "date": "2026-10-16",
+  "title": "Kraken ouvre son Unified Wallet aux clients de l'Espace économique européen",
+  "summary": "Les clients de Kraken Pro dans l'EEE peuvent utiliser un seul solde comme garantie pour trader des contrats à terme, sans transférer de fonds entre portefeuilles.",
+  "detail": "L'Unified Wallet regroupe les soldes spot, de marge et de contrats à terme. Plus de 40 cryptomonnaies, ainsi que le dollar, l'euro et l'or, peuvent servir de garantie, avec un ratio qui varie selon le marché. Les gains et pertes latents comptent comme marge pour d'autres positions.\n\nLa marge croisée est le mode par défaut, avec la marge isolée pour certains contrats Multi-M. Kraken signale le compromis : une perte sur les contrats à terme peut puiser dans tout le solde éligible.",
+  "impact": "Un produit de dérivés plus simple pour les clients européens, qui rapproche Kraken de ses concurrents sur ce segment.",
+  "signal": "optimiste",
+  "rationale": "Un lancement produit utile qui élargit l'offre de dérivés en Europe.",
+  "sources": [
+   {
+    "label": "Kraken, blog, 16/10/2026",
+    "url": "https://blog.kraken.com/product/unified-wallet/now-available-in-the-eea"
+   }
+  ],
+  "addedAt": "2026-10-19T06:20:05Z"
+ },
+ {
+  "id": "deel-2026-10-16-golden-state",
+  "companyId": "deel",
+  "date": "2026-10-16",
+  "title": "Deel devient partenaire de Golden State (Warriors, Valkyries) et y déploie son produit d'agents IA",
+  "summary": "Selon HR Brew, Deel a lancé en octobre un partenariat avec la franchise Golden State, qui utilise aussi son nouveau produit de gestion d'agents IA. Un accord pluriannuel avec Arsenal avait été annoncé en mai.",
+  "detail": "Le nom de Deel apparaît dans le Chase Center, y compris sur le parquet. Golden State regroupe les Warriors, les Valkyries et les Santa Cruz Warriors. Alex Bouaziz explique que l'entreprise calcule la valeur de notoriété de ces partenariats et que des dirigeants de grandes sociétés se sont manifestés grâce à eux.\n\nChez Arsenal, Deel aide le club à regrouper ses anciens systèmes de paie et de ressources humaines sur une seule plateforme.",
+  "impact": "Ces partenariats renforcent la notoriété de Deel auprès de grands comptes et servent de vitrine à ses offres de paie internationale.",
+  "signal": "optimiste",
+  "rationale": "Un nouveau client et une visibilité accrue, sans chiffre financier publié.",
+  "sources": [
+   {
+    "label": "HR Brew, 16/10/2026",
+    "url": "https://www.hr-brew.com/stories/deel-arsenal-golden-state-teams-partnerships"
+   }
+  ],
+  "addedAt": "2026-10-19T06:20:05Z"
+ },
+ {
   "id": "perplexity-2026-10-15-space-open-source",
   "companyId": "perplexity",
   "date": "2026-10-15",
