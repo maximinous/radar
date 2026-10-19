@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-16T20:02:31Z",
+ "generatedAt": "2026-10-19T05:54:15Z",
  "windowHours": 48,
- "headlinesRead": 1015,
- "count": 35,
+ "headlinesRead": 668,
+ "count": 22,
  "priorityCount": 5,
  "companies": [
   {
@@ -10,55 +10,13 @@
    "name": "Mistral AI",
    "candidates": [
     {
-     "date": "2026-10-14 21:34",
-     "media": "Startup Fortune",
-     "title": "Mistral Releases Le Chonk, a 1 Trillion Parameter Open Weight Model",
-     "site": "https://startupfortune.com",
-     "overlap": 0.29,
+     "date": "2026-10-17 15:02",
+     "media": "Menow",
+     "title": "Mistral lance Timestral : son IA de prévision peut tourner sans carte graphique",
+     "site": "https://www.menow.fr",
+     "overlap": 0.38,
      "reprises": 0,
      "priority": false
-    },
-    {
-     "date": "2026-10-15 15:41",
-     "media": "www.trendingtopics.eu",
-     "title": "Mistral’s Arthur Mensch: Why Open-Weight Models Won’t Save Europe",
-     "site": "https://www.trendingtopics.eu",
-     "overlap": 0.11,
-     "reprises": 0,
-     "priority": false
-    },
-    {
-     "date": "2026-10-16 12:56",
-     "media": "JDN",
-     "title": "Des revenus et des compétences : les vraies raisons de la stratégie chinoise de Mistral",
-     "site": "https://www.journaldunet.com",
-     "overlap": 0.17,
-     "reprises": 0,
-     "priority": false
-    },
-    {
-     "date": "2026-10-16 12:56",
-     "media": "Cybernews",
-     "title": "Mistral CEO warns Europe to build frontier AI or surrender",
-     "site": "https://cybernews.com",
-     "overlap": 0.17,
-     "reprises": 0,
-     "priority": false
-    }
-   ]
-  },
-  {
-   "companyId": "deel",
-   "name": "Deel",
-   "candidates": [
-    {
-     "date": "2026-10-14 20:24",
-     "media": "Orange Actualités",
-     "title": "What's up New York : Deel, la plateforme californienne de recrutement et de gestion de paie, lève 425 millions de dollars - 18/10",
-     "site": "https://actu.orange.fr",
-     "overlap": 0.09,
-     "reprises": 0,
-     "priority": true
     }
    ]
   },
@@ -67,56 +25,47 @@
    "name": "Stripe",
    "candidates": [
     {
-     "date": "2026-10-16 00:29",
-     "media": "FinanceX Magazine",
-     "title": "Stripe Buys Parafin, FedEx Pipes Shipping Data Into Credit, and SME Lending Quietly Reinvents Itself",
-     "site": "https://www.financexmagazine.com",
+     "date": "2026-10-18 19:30",
+     "media": "Startup Fortune",
+     "title": "Stripe Agrees to Buy AI Model Router OpenRouter for $7.5 Billion",
+     "site": "https://startupfortune.com",
      "overlap": 0.0,
-     "reprises": 0,
-     "priority": true
-    },
-    {
-     "date": "2026-10-16 04:01",
-     "media": "Tekedia",
-     "title": "Stripe Raises $500 Million to Buy More Bitcoin as BlackRock Reports $205 Billion in Quarterly Inflows",
-     "site": "https://www.tekedia.com",
-     "overlap": 0.08,
-     "reprises": 0,
-     "priority": true
-    },
-    {
-     "date": "2026-10-15 20:25",
-     "media": "Crypto Economy",
-     "title": "Stripe Partners With Plasma to Scale Stablecoin Cards Across 100+ Countries",
-     "site": "https://crypto-economy.com",
-     "overlap": 0.38,
      "reprises": 7,
+     "priority": true
+    },
+    {
+     "date": "2026-10-18 00:58",
+     "media": "Coinspot.io",
+     "title": "Polygon Labs Acquisition of Coinme: Entry Into the Payments Business With Visa and Stripe",
+     "site": "https://coinspot.io",
+     "overlap": 0.22,
+     "reprises": 3,
+     "priority": true
+    },
+    {
+     "date": "2026-10-17 14:00",
+     "media": "CoinDesk",
+     "title": "Polygon considère l'acquisition de Coinme comme une entrée dans le secteur des paiements dominé par Visa, Stripe",
+     "site": "https://www.coindesk.com",
+     "overlap": 0.3,
+     "reprises": 1,
+     "priority": true
+    },
+    {
+     "date": "2026-10-17 19:08",
+     "media": "openPR.com",
+     "title": "Crypto News: Stripe and Visa Advance Stablecoin Payments as Remittix Brings Its PayFi Ecosystem Toward Launch",
+     "site": "https://www.openpr.com",
+     "overlap": 0.25,
+     "reprises": 1,
      "priority": false
     },
     {
-     "date": "2026-10-15 02:12",
-     "media": "StreetInsider",
-     "title": "Crypto News: Remittix Prepares $0.46 Final Presale Tier as Ripple Partners With Stripe-Owned Privy",
-     "site": "https://www.streetinsider.com",
-     "overlap": 0.27,
-     "reprises": 0,
-     "priority": false
-    },
-    {
-     "date": "2026-10-15 19:39",
-     "media": "Bitcoin Sistemi",
-     "title": "Major Payment Company Stripe Partners with This Altcoin Project",
-     "site": "https://en.bitcoinsistemi.com",
-     "overlap": 0.14,
-     "reprises": 0,
-     "priority": false
-    },
-    {
-     "date": "2026-10-16 07:02",
-     "media": "Traders Union",
-     "title": "XPL climbs over 10% after strategic deal with Stripe to broaden payments utility",
-     "site": "https://tradersunion.com",
-     "overlap": 0.11,
+     "date": "2026-10-18 16:11",
+     "media": "Small Business Trends",
+     "title": "Stripe Empowers Businesses with No-Cost Open USD Stablecoin Integration",
+     "site": "https://smallbiztrends.com",
+     "overlap": 0.29,
      "reprises": 0,
      "priority": false
     }
@@ -127,56 +76,38 @@
    "name": "Kraken",
    "candidates": [
     {
-     "date": "2026-10-15 11:35",
-     "media": "Traders Union",
-     "title": "Kraken parent to acquire Saldo Bank in new deal, Laura Shin reports",
-     "site": "https://tradersunion.com",
-     "overlap": 0.38,
-     "reprises": 4,
+     "date": "2026-10-18 20:44",
+     "media": "openPR.com",
+     "title": "Cryptocurrency News: Kraken's Owner Buys a Bank Across 5 EU Markets, and Early Pepeto Buyers May Celebrate",
+     "site": "https://www.openpr.com",
+     "overlap": 0.33,
+     "reprises": 2,
      "priority": true
     },
     {
-     "date": "2026-10-16 13:17",
-     "media": "CCN.com",
-     "title": "473 Million XRP in Play: Evernorth Names Ripple, Coinbase, Kraken and BitGo as Institutional Partners",
-     "site": "https://www.ccn.com",
-     "overlap": 0.09,
-     "reprises": 2,
-     "priority": false
+     "date": "2026-10-17 20:18",
+     "media": "Crowdfund Insider",
+     "title": "Binance.US Eyes $1B Valuation in New Funding Round to Compete with Coinbase and Kraken in US Markets",
+     "site": "https://www.crowdfundinsider.com",
+     "overlap": 0.0,
+     "reprises": 0,
+     "priority": true
     },
     {
-     "date": "2026-10-14 21:30",
-     "media": "The Coin Republic",
-     "title": "Crypto Regulation: Kraken Parent Payward Targets Saldo Bank to Expand Into Lending and Cards",
-     "site": "https://www.thecoinrepublic.com",
-     "overlap": 0.36,
+     "date": "2026-10-18 14:20",
+     "media": "TOKENPOST",
+     "title": "Kraken expands toward unified banking, brokerage and crypto platform",
+     "site": "https://www.tokenpost.com",
+     "overlap": 0.29,
      "reprises": 1,
      "priority": false
     },
     {
-     "date": "2026-10-15 02:43",
-     "media": "OneSafe",
-     "title": "Crypto Banking: What Kraken's Bank Deal Signals",
-     "site": "https://www.onesafe.io",
-     "overlap": 0.33,
-     "reprises": 0,
-     "priority": false
-    },
-    {
-     "date": "2026-10-15 03:49",
-     "media": "CoinMarketCap",
-     "title": "Aave News: AAVE DAO Approves Kraken's Ink Foundation White-Label Lending Protocol Launch",
-     "site": "https://coinmarketcap.com",
-     "overlap": 0.27,
-     "reprises": 0,
-     "priority": false
-    },
-    {
-     "date": "2026-10-16 01:50",
-     "media": "Daily Faceoff",
-     "title": "Kraken’s Brandon Montour leaves game with lower-body injury",
-     "site": "https://www.dailyfaceoff.com",
-     "overlap": 0.0,
+     "date": "2026-10-18 05:43",
+     "media": "TradingView",
+     "title": "Analyse technique de MUUSD Multi Collateral Perpetual Futures Contract (KRAKEN: MUUSD.PM)",
+     "site": "https://fr.tradingview.com",
+     "overlap": 0.12,
      "reprises": 0,
      "priority": false
     }
@@ -187,72 +118,48 @@
    "name": "Polymarket",
    "candidates": [
     {
-     "date": "2026-10-15 06:30",
-     "media": "The Motley Fool",
-     "title": "Polymarket CEO Shayne Coplan Says Crypto Investors Can Achieve Superior Returns With Prediction Markets. Here's Why He's Right.",
-     "site": "https://www.fool.com",
-     "overlap": 0.27,
-     "reprises": 3,
-     "priority": false
-    },
-    {
-     "date": "2026-10-15 05:35",
-     "media": "TradingView",
-     "title": "Polymarket CEO makes the case for prediction markets over speculative crypto bets",
-     "site": "https://www.tradingview.com",
-     "overlap": 0.33,
+     "date": "2026-10-18 13:45",
+     "media": "Syracuse.com",
+     "title": "NFL Polymarket referral code “CUSE” launches $25 bonus for Week 6",
+     "site": "https://www.syracuse.com",
+     "overlap": 0.14,
      "reprises": 1,
      "priority": false
     },
     {
-     "date": "2026-10-15 16:45",
-     "media": "Cleveland.com",
-     "title": "MLB Polymarket promo code “CLEVE” upgrades $25 Rays-Guardians Game 3 deal",
-     "site": "https://www.cleveland.com",
-     "overlap": 0.0,
-     "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-10-15 23:45",
+     "date": "2026-10-18 23:45",
      "media": "SILive.com",
-     "title": "NFL Polymarket promo code “SILIVE” extends $25 Seahawks-Broncos deal",
+     "title": "NFL Polymarket promo code “SILIVE” upgrades $25 Cowboys-Packers deal",
      "site": "https://www.silive.com",
      "overlap": 0.0,
      "reprises": 1,
      "priority": false
     },
     {
-     "date": "2026-10-15 06:05",
-     "media": "Pluang",
-     "title": "Polymarket CEO warns against chasing crypto tok...",
-     "site": "https://pluang.com",
-     "overlap": 0.17,
+     "date": "2026-10-17 22:00",
+     "media": "Bonus.com",
+     "title": "Polymarket Token Rumors Fuel Airdrop Speculation Without Official Launch",
+     "site": "https://www.bonus.com",
+     "overlap": 0.38,
      "reprises": 0,
      "priority": false
     },
     {
-     "date": "2026-10-15 13:00",
-     "media": "The Paypers",
-     "title": "Polymarket weighs IPO and native token for expansion",
-     "site": "https://thepaypers.com",
-     "overlap": 0.2,
+     "date": "2026-10-17 23:45",
+     "media": "MassLive.com",
+     "title": "Saturday Night Football Polymarket promo code “MASS” launches $25 deal for Notre Dame-BYU",
+     "site": "https://www.masslive.com",
+     "overlap": 0.09,
      "reprises": 0,
      "priority": false
-    }
-   ]
-  },
-  {
-   "companyId": "shield-ai",
-   "name": "Shield AI",
-   "candidates": [
+    },
     {
-     "date": "2026-10-16 12:27",
-     "media": "Raksha Anirveda",
-     "title": "X-BAT Prototype Nears Reveal as Funding Hits $400 Million",
-     "site": "https://raksha-anirveda.com",
-     "overlap": 0.25,
-     "reprises": 1,
+     "date": "2026-10-18 19:50",
+     "media": "The Block",
+     "title": "Crypto.com, Novig sue Missouri over sports event contracts; Kalshi, Polymarket, Robinhood hold off",
+     "site": "https://www.theblock.co",
+     "overlap": 0.15,
+     "reprises": 0,
      "priority": false
     }
    ]
@@ -262,99 +169,57 @@
    "name": "Anthropic",
    "candidates": [
     {
-     "date": "2026-10-16 10:44",
-     "media": "Arise News",
-     "title": "Anthropic Faces Lower IPO Valuation Expectations As Investors Question Growth Momentum",
-     "site": "https://www.arise.tv",
-     "overlap": 0.33,
-     "reprises": 9,
-     "priority": false
-    },
-    {
-     "date": "2026-10-16 00:00",
-     "media": "Bloomberg.com",
-     "title": "Watch Anthropic Should Delay IPO to Address AI Safety Risks, Says NYC Comptroller",
-     "site": "https://www.bloomberg.com",
-     "overlap": 0.3,
-     "reprises": 8,
-     "priority": false
-    },
-    {
-     "date": "2026-10-15 05:11",
-     "media": "Benzinga",
-     "title": "Anthropic's Q3 Revenue Surged 45% to $16.8 Billion, Profitable on Adjusted Basis as Dario Amodei Courts I",
-     "site": "https://www.benzinga.com",
+     "date": "2026-10-18 08:01",
+     "media": "Storyboard18",
+     "title": "Anthropic CEO Dario Amodei spends up to 40% of his time building company culture",
+     "site": "https://www.storyboard18.com",
      "overlap": 0.22,
-     "reprises": 3,
-     "priority": false
-    },
-    {
-     "date": "2026-10-16 08:59",
-     "media": "GB News",
-     "title": "Anthropic's valuation could fall by £379billion as growth slows",
-     "site": "https://www.gbnews.com",
-     "overlap": 0.17,
-     "reprises": 3,
-     "priority": false
-    },
-    {
-     "date": "2026-10-14 23:26",
-     "media": "New York Post",
-     "title": "Anthropic revenue surges 45% to nearly $17B in third quarter as AI giant gears up for IPO",
-     "site": "https://nypost.com",
-     "overlap": 0.33,
-     "reprises": 2,
-     "priority": false
-    },
-    {
-     "date": "2026-10-15 04:44",
-     "media": "IOL",
-     "title": "Rolling in it … Anthropic says revenue jumped to nearly $17B last quarter: reports",
-     "site": "https://iol.co.za",
-     "overlap": 0.22,
-     "reprises": 2,
-     "priority": false
-    }
-   ]
-  },
-  {
-   "companyId": "perplexity",
-   "name": "Perplexity",
-   "candidates": [
-    {
-     "date": "2026-10-16 08:57",
-     "media": "Performance Marketing World",
-     "title": "Billion Dollar Boy acquires Creator Authority and Reddit sues Perplexity: Latest industry moves",
-     "site": "https://www.performancemarketingworld.com",
-     "overlap": 0.0,
-     "reprises": 2,
-     "priority": true
-    },
-    {
-     "date": "2026-10-16 18:10",
-     "media": "Forkast News",
-     "title": "Perplexity Ships Its Search Agent’s Sandbox as Open Source — and the Sandbox Layer Just Got Another Entrant",
-     "site": "https://forkast.news",
-     "overlap": 0.36,
      "reprises": 4,
      "priority": false
     },
     {
-     "date": "2026-10-15 08:01",
-     "media": "Business Today",
-     "title": "Isha Ambani-led Reliance Retail, OYO, Perplexity lead funding among U35-led businesses, Hurun Report shows",
-     "site": "https://www.businesstoday.in",
-     "overlap": 0.0,
-     "reprises": 0,
+     "date": "2026-10-17 18:07",
+     "media": "Pasquale Pillitteri",
+     "title": "Anthropic dévoile les circuits quantiques de Claude Mythos 5, jusqu'à 39 fois plus efficaces",
+     "site": "https://pasqualepillitteri.it",
+     "overlap": 0.33,
+     "reprises": 2,
      "priority": false
     },
     {
-     "date": "2026-10-15 18:56",
-     "media": "GuruFocus",
-     "title": "Cybersecurity Sector Dips as Perplexity Launches AI Sandbox; Gen Digital (GEN) Navigates Market Shifts",
-     "site": "https://www.gurufocus.com",
-     "overlap": 0.1,
-     "reprises": 0,
+     "date": "2026-10-19 05:19",
+     "media": "Indian Television Dot Com",
+     "title": "Anthropic sets aside 5 per cent of shares for public benefit fund ahead of planned IPO",
+     "site": "https://indiantelevision.com",
+     "overlap": 0.27,
+     "reprises": 2,
+     "priority": false
+    },
+    {
+     "date": "2026-10-17 06:26",
+     "media": "Pasquale Pillitteri",
+     "title": "Claude dévoile un prototype sur les feux de forêt fait avec Opus 5.5",
+     "site": "https://pasqualepillitteri.it",
+     "overlap": 0.29,
+     "reprises": 1,
+     "priority": false
+    },
+    {
+     "date": "2026-10-17 11:49",
+     "media": "Pasquale Pillitteri",
+     "title": "Replit annonce son départ d'Anthropic, rupture contestée",
+     "site": "https://pasqualepillitteri.it",
+     "overlap": 0.2,
+     "reprises": 1,
+     "priority": false
+    },
+    {
+     "date": "2026-10-17 18:01",
+     "media": "Pasquale Pillitteri",
+     "title": "Claude dévoile l'origine des courbes ECDSA, les seeds étaient des horodatages",
+     "site": "https://pasqualepillitteri.it",
+     "overlap": 0.12,
+     "reprises": 1,
      "priority": false
     }
    ]
@@ -364,12 +229,12 @@
    "name": "Crusoe",
    "candidates": [
     {
-     "date": "2026-10-14 21:36",
-     "media": "Stocktwits",
-     "title": "Meta Reportedly Locks Down A New Data Center Deal With Crusoe",
-     "site": "https://stocktwits.com",
-     "overlap": 0.0,
-     "reprises": 3,
+     "date": "2026-10-18 10:48",
+     "media": "Boursorama",
+     "title": "Microsoft se retire d'un accord avec Nscale concernant un centre de données au Royaume-Uni, selon le Telegraph",
+     "site": "https://www.boursorama.com",
+     "overlap": 0.18,
+     "reprises": 1,
      "priority": false
     }
    ]

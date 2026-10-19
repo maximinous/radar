@@ -1,75 +1,53 @@
-# Candidats non couverts (35)
+# Candidats non couverts (22)
 
-Contrôle du 2026-10-16T20:02:31Z sur 48 h : 1015 titres Google News lus, filtrés sur les mots d'événement, puis comparés aux articles publiés. Ce sont des pistes, pas des articles : chacune doit être ouverte et vérifiée.
+Contrôle du 2026-10-19T05:54:15Z sur 48 h : 668 titres Google News lus, filtrés sur les mots d'événement, puis comparés aux articles publiés. Ce sont des pistes, pas des articles : chacune doit être ouverte et vérifiée.
 
 ## À traiter en priorité (5)
 
 Rachat ou levée de fonds : chaque piste doit être publiée dans le passage si une source fiable la confirme, ou justifiée dans le bilan (doublon avec l'id, ancienne, homonyme, non vérifiable).
 
-- **Deel** 2026-10-14 20:24 | Orange Actualités | What's up New York : Deel, la plateforme californienne de recrutement et de gestion de paie, lève 425 millions de dollars - 18/10 | https://actu.orange.fr
-- **Stripe** 2026-10-16 00:29 | FinanceX Magazine | Stripe Buys Parafin, FedEx Pipes Shipping Data Into Credit, and SME Lending Quietly Reinvents Itself | https://www.financexmagazine.com
-- **Stripe** 2026-10-16 04:01 | Tekedia | Stripe Raises $500 Million to Buy More Bitcoin as BlackRock Reports $205 Billion in Quarterly Inflows | https://www.tekedia.com
-- **Kraken** 2026-10-15 11:35 | Traders Union | Kraken parent to acquire Saldo Bank in new deal, Laura Shin reports | https://tradersunion.com (+4 reprises)
-- **Perplexity** 2026-10-16 08:57 | Performance Marketing World | Billion Dollar Boy acquires Creator Authority and Reddit sues Perplexity: Latest industry moves | https://www.performancemarketingworld.com (+2 reprises)
+- **Stripe** 2026-10-18 19:30 | Startup Fortune | Stripe Agrees to Buy AI Model Router OpenRouter for $7.5 Billion | https://startupfortune.com (+7 reprises)
+- **Stripe** 2026-10-18 00:58 | Coinspot.io | Polygon Labs Acquisition of Coinme: Entry Into the Payments Business With Visa and Stripe | https://coinspot.io (+3 reprises)
+- **Stripe** 2026-10-17 14:00 | CoinDesk | Polygon considère l'acquisition de Coinme comme une entrée dans le secteur des paiements dominé par Visa, Stripe | https://www.coindesk.com (+1 reprise)
+- **Kraken** 2026-10-18 20:44 | openPR.com | Cryptocurrency News: Kraken's Owner Buys a Bank Across 5 EU Markets, and Early Pepeto Buyers May Celebrate | https://www.openpr.com (+2 reprises)
+- **Kraken** 2026-10-17 20:18 | Crowdfund Insider | Binance.US Eyes $1B Valuation in New Funding Round to Compete with Coinbase and Kraken in US Markets | https://www.crowdfundinsider.com
 
-## Mistral AI (4)
+## Mistral AI (1)
 
-- 2026-10-14 21:34 | Startup Fortune | Mistral Releases Le Chonk, a 1 Trillion Parameter Open Weight Model | https://startupfortune.com
-- 2026-10-15 15:41 | www.trendingtopics.eu | Mistral’s Arthur Mensch: Why Open-Weight Models Won’t Save Europe | https://www.trendingtopics.eu
-- 2026-10-16 12:56 | JDN | Des revenus et des compétences : les vraies raisons de la stratégie chinoise de Mistral | https://www.journaldunet.com
-- 2026-10-16 12:56 | Cybernews | Mistral CEO warns Europe to build frontier AI or surrender | https://cybernews.com
+- 2026-10-17 15:02 | Menow | Mistral lance Timestral : son IA de prévision peut tourner sans carte graphique | https://www.menow.fr
 
-## Deel (1)
+## Stripe (5)
 
-- 2026-10-14 20:24 | Orange Actualités | What's up New York : Deel, la plateforme californienne de recrutement et de gestion de paie, lève 425 millions de dollars - 18/10 | https://actu.orange.fr
+- 2026-10-18 19:30 | Startup Fortune | Stripe Agrees to Buy AI Model Router OpenRouter for $7.5 Billion | https://startupfortune.com (+7 reprises)
+- 2026-10-18 00:58 | Coinspot.io | Polygon Labs Acquisition of Coinme: Entry Into the Payments Business With Visa and Stripe | https://coinspot.io (+3 reprises)
+- 2026-10-17 14:00 | CoinDesk | Polygon considère l'acquisition de Coinme comme une entrée dans le secteur des paiements dominé par Visa, Stripe | https://www.coindesk.com (+1 reprise)
+- 2026-10-17 19:08 | openPR.com | Crypto News: Stripe and Visa Advance Stablecoin Payments as Remittix Brings Its PayFi Ecosystem Toward Launch | https://www.openpr.com (+1 reprise)
+- 2026-10-18 16:11 | Small Business Trends | Stripe Empowers Businesses with No-Cost Open USD Stablecoin Integration | https://smallbiztrends.com
 
-## Stripe (6)
+## Kraken (4)
 
-- 2026-10-16 00:29 | FinanceX Magazine | Stripe Buys Parafin, FedEx Pipes Shipping Data Into Credit, and SME Lending Quietly Reinvents Itself | https://www.financexmagazine.com
-- 2026-10-16 04:01 | Tekedia | Stripe Raises $500 Million to Buy More Bitcoin as BlackRock Reports $205 Billion in Quarterly Inflows | https://www.tekedia.com
-- 2026-10-15 20:25 | Crypto Economy | Stripe Partners With Plasma to Scale Stablecoin Cards Across 100+ Countries | https://crypto-economy.com (+7 reprises)
-- 2026-10-15 02:12 | StreetInsider | Crypto News: Remittix Prepares $0.46 Final Presale Tier as Ripple Partners With Stripe-Owned Privy | https://www.streetinsider.com
-- 2026-10-15 19:39 | Bitcoin Sistemi | Major Payment Company Stripe Partners with This Altcoin Project | https://en.bitcoinsistemi.com
-- 2026-10-16 07:02 | Traders Union | XPL climbs over 10% after strategic deal with Stripe to broaden payments utility | https://tradersunion.com
+- 2026-10-18 20:44 | openPR.com | Cryptocurrency News: Kraken's Owner Buys a Bank Across 5 EU Markets, and Early Pepeto Buyers May Celebrate | https://www.openpr.com (+2 reprises)
+- 2026-10-17 20:18 | Crowdfund Insider | Binance.US Eyes $1B Valuation in New Funding Round to Compete with Coinbase and Kraken in US Markets | https://www.crowdfundinsider.com
+- 2026-10-18 14:20 | TOKENPOST | Kraken expands toward unified banking, brokerage and crypto platform | https://www.tokenpost.com (+1 reprise)
+- 2026-10-18 05:43 | TradingView | Analyse technique de MUUSD Multi Collateral Perpetual Futures Contract (KRAKEN: MUUSD.PM) | https://fr.tradingview.com
 
-## Kraken (6)
+## Polymarket (5)
 
-- 2026-10-15 11:35 | Traders Union | Kraken parent to acquire Saldo Bank in new deal, Laura Shin reports | https://tradersunion.com (+4 reprises)
-- 2026-10-16 13:17 | CCN.com | 473 Million XRP in Play: Evernorth Names Ripple, Coinbase, Kraken and BitGo as Institutional Partners | https://www.ccn.com (+2 reprises)
-- 2026-10-14 21:30 | The Coin Republic | Crypto Regulation: Kraken Parent Payward Targets Saldo Bank to Expand Into Lending and Cards | https://www.thecoinrepublic.com (+1 reprise)
-- 2026-10-15 02:43 | OneSafe | Crypto Banking: What Kraken's Bank Deal Signals | https://www.onesafe.io
-- 2026-10-15 03:49 | CoinMarketCap | Aave News: AAVE DAO Approves Kraken's Ink Foundation White-Label Lending Protocol Launch | https://coinmarketcap.com
-- 2026-10-16 01:50 | Daily Faceoff | Kraken’s Brandon Montour leaves game with lower-body injury | https://www.dailyfaceoff.com
-
-## Polymarket (6)
-
-- 2026-10-15 06:30 | The Motley Fool | Polymarket CEO Shayne Coplan Says Crypto Investors Can Achieve Superior Returns With Prediction Markets. Here's Why He's Right. | https://www.fool.com (+3 reprises)
-- 2026-10-15 05:35 | TradingView | Polymarket CEO makes the case for prediction markets over speculative crypto bets | https://www.tradingview.com (+1 reprise)
-- 2026-10-15 16:45 | Cleveland.com | MLB Polymarket promo code “CLEVE” upgrades $25 Rays-Guardians Game 3 deal | https://www.cleveland.com (+1 reprise)
-- 2026-10-15 23:45 | SILive.com | NFL Polymarket promo code “SILIVE” extends $25 Seahawks-Broncos deal | https://www.silive.com (+1 reprise)
-- 2026-10-15 06:05 | Pluang | Polymarket CEO warns against chasing crypto tok... | https://pluang.com
-- 2026-10-15 13:00 | The Paypers | Polymarket weighs IPO and native token for expansion | https://thepaypers.com
-
-## Shield AI (1)
-
-- 2026-10-16 12:27 | Raksha Anirveda | X-BAT Prototype Nears Reveal as Funding Hits $400 Million | https://raksha-anirveda.com (+1 reprise)
+- 2026-10-18 13:45 | Syracuse.com | NFL Polymarket referral code “CUSE” launches $25 bonus for Week 6 | https://www.syracuse.com (+1 reprise)
+- 2026-10-18 23:45 | SILive.com | NFL Polymarket promo code “SILIVE” upgrades $25 Cowboys-Packers deal | https://www.silive.com (+1 reprise)
+- 2026-10-17 22:00 | Bonus.com | Polymarket Token Rumors Fuel Airdrop Speculation Without Official Launch | https://www.bonus.com
+- 2026-10-17 23:45 | MassLive.com | Saturday Night Football Polymarket promo code “MASS” launches $25 deal for Notre Dame-BYU | https://www.masslive.com
+- 2026-10-18 19:50 | The Block | Crypto.com, Novig sue Missouri over sports event contracts; Kalshi, Polymarket, Robinhood hold off | https://www.theblock.co
 
 ## Anthropic (6)
 
-- 2026-10-16 10:44 | Arise News | Anthropic Faces Lower IPO Valuation Expectations As Investors Question Growth Momentum | https://www.arise.tv (+9 reprises)
-- 2026-10-16 00:00 | Bloomberg.com | Watch Anthropic Should Delay IPO to Address AI Safety Risks, Says NYC Comptroller | https://www.bloomberg.com (+8 reprises)
-- 2026-10-15 05:11 | Benzinga | Anthropic's Q3 Revenue Surged 45% to $16.8 Billion, Profitable on Adjusted Basis as Dario Amodei Courts I | https://www.benzinga.com (+3 reprises)
-- 2026-10-16 08:59 | GB News | Anthropic's valuation could fall by £379billion as growth slows | https://www.gbnews.com (+3 reprises)
-- 2026-10-14 23:26 | New York Post | Anthropic revenue surges 45% to nearly $17B in third quarter as AI giant gears up for IPO | https://nypost.com (+2 reprises)
-- 2026-10-15 04:44 | IOL | Rolling in it … Anthropic says revenue jumped to nearly $17B last quarter: reports | https://iol.co.za (+2 reprises)
-
-## Perplexity (4)
-
-- 2026-10-16 08:57 | Performance Marketing World | Billion Dollar Boy acquires Creator Authority and Reddit sues Perplexity: Latest industry moves | https://www.performancemarketingworld.com (+2 reprises)
-- 2026-10-16 18:10 | Forkast News | Perplexity Ships Its Search Agent’s Sandbox as Open Source — and the Sandbox Layer Just Got Another Entrant | https://forkast.news (+4 reprises)
-- 2026-10-15 08:01 | Business Today | Isha Ambani-led Reliance Retail, OYO, Perplexity lead funding among U35-led businesses, Hurun Report shows | https://www.businesstoday.in
-- 2026-10-15 18:56 | GuruFocus | Cybersecurity Sector Dips as Perplexity Launches AI Sandbox; Gen Digital (GEN) Navigates Market Shifts | https://www.gurufocus.com
+- 2026-10-18 08:01 | Storyboard18 | Anthropic CEO Dario Amodei spends up to 40% of his time building company culture | https://www.storyboard18.com (+4 reprises)
+- 2026-10-17 18:07 | Pasquale Pillitteri | Anthropic dévoile les circuits quantiques de Claude Mythos 5, jusqu'à 39 fois plus efficaces | https://pasqualepillitteri.it (+2 reprises)
+- 2026-10-19 05:19 | Indian Television Dot Com | Anthropic sets aside 5 per cent of shares for public benefit fund ahead of planned IPO | https://indiantelevision.com (+2 reprises)
+- 2026-10-17 06:26 | Pasquale Pillitteri | Claude dévoile un prototype sur les feux de forêt fait avec Opus 5.5 | https://pasqualepillitteri.it (+1 reprise)
+- 2026-10-17 11:49 | Pasquale Pillitteri | Replit annonce son départ d'Anthropic, rupture contestée | https://pasqualepillitteri.it (+1 reprise)
+- 2026-10-17 18:01 | Pasquale Pillitteri | Claude dévoile l'origine des courbes ECDSA, les seeds étaient des horodatages | https://pasqualepillitteri.it (+1 reprise)
 
 ## Crusoe (1)
 
-- 2026-10-14 21:36 | Stocktwits | Meta Reportedly Locks Down A New Data Center Deal With Crusoe | https://stocktwits.com (+3 reprises)
+- 2026-10-18 10:48 | Boursorama | Microsoft se retire d'un accord avec Nscale concernant un centre de données au Royaume-Uni, selon le Telegraph | https://www.boursorama.com (+1 reprise)
