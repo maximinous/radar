@@ -1,5 +1,115 @@
 [
  {
+  "id": "stripe-2026-10-20-israel-gm",
+  "companyId": "stripe",
+  "date": "2026-10-20",
+  "title": "Stripe prépare son lancement en Israël et recrute un directeur général du marché local",
+  "summary": "Selon Globes, Stripe cherche un directeur général pour Israël, marché qu'elle juge stratégique, alors que ses services de paiement n'y sont pas encore disponibles.",
+  "detail": "L'offre d'emploi demande au futur dirigeant de définir la stratégie locale, de bâtir l'équipe commerciale et de dialoguer avec les banques, les fintechs, les régulateurs et les autorités. Elle exige au moins 15 ans d'expérience et l'hébreu comme l'anglais.\n\nAucune date de lancement n'est donnée. Globes avait rapporté que Stripe peinait depuis quatre ans à obtenir une licence de compensation locale.",
+  "impact": "Le recrutement montre que Stripe poursuit son expansion géographique en Israël, où elle n'opère pas encore pleinement.",
+  "signal": "neutre",
+  "rationale": "Signal d'intention fondé sur une offre d'emploi, sans date de lancement ni licence confirmée.",
+  "sources": [
+   {
+    "label": "Globes, 20/10/2026",
+    "url": "https://en.globes.co.il/en/article-payments-giant-stripe-to-launch-israel-operations-1001560134"
+   }
+  ],
+  "addedAt": "2026-10-20T12:20:41Z"
+ },
+ {
+  "id": "polymarket-2026-10-20-gouvernance-coplan",
+  "companyId": "polymarket",
+  "date": "2026-10-20",
+  "title": "Bloomberg : des investisseurs de Polymarket pressent Shayne Coplan de changer sa gestion",
+  "summary": "Selon Bloomberg, Founders Fund a constaté en 2025 que le PDG avait utilisé des fonds de l'entreprise pour des vols privés et un loyer, et a exigé un assainissement des contrôles financiers.",
+  "detail": "Bloomberg indique que ICE et Founders Fund ont fait du recrutement d'un directeur financier une condition de leur investissement. Shayne Coplan a embauché le premier directeur financier de la société en septembre. Un directeur des opérations a été recommandé mais pas encore nommé.\n\nPolymarket affirme que le jet servait à des besoins professionnels et que les dépenses ont été signalées aux investisseurs. L'article intervient alors que la société cherche à lever des fonds sur la base d'une valorisation de 21 milliards de dollars, et que Kalshi gagne du terrain. Nous n'avons pas pu lire l'article complet, seulement son résumé.",
+  "impact": "Les questions de gouvernance pèsent sur l'image de la société au moment de sa levée de fonds et face à Kalshi.",
+  "signal": "prudent",
+  "rationale": "Des critiques sur l'usage des fonds du dirigeant, même contestées par la société, fragilisent la confiance des investisseurs.",
+  "sources": [
+   {
+    "label": "Bloomberg, 20/10/2026",
+    "url": "https://www.bloomberg.com/news/articles/2026-10-20/polymarket-investors-push-ceo-coplan-for-change-as-kalshi-gains-ground"
+   }
+  ],
+  "addedAt": "2026-10-20T12:20:40Z"
+ },
+ {
+  "id": "perplexity-2026-10-20-valarian-souverain",
+  "companyId": "perplexity",
+  "date": "2026-10-20",
+  "title": "Perplexity s'associe à Valarian pour déployer Perplexity Computer sur les serveurs des institutions",
+  "summary": "Perplexity et la société britannique Valarian proposent de faire tourner Perplexity Computer dans l'infrastructure des États et des entreprises, y compris en réseau isolé du web.",
+  "detail": "La plateforme ACRA de Valarian applique les règles d'accès de l'institution et regroupe les charges de travail dans des enclaves aux droits distincts. Des modèles ouverts comme Nemotron, GLM, Kimi, DeepSeek-R1 ou Qwen peuvent y être exécutés. Les déploiements commencent le 20 octobre, pour la finance, l'administration et la défense.\n\nSelon City AM, Perplexity revendique plus de 45 millions d'utilisateurs, et la ministre britannique de l'IA Kanishka Narayan a salué l'accord. Valarian a levé 50 millions de dollars en juillet.",
+  "impact": "L'accord ouvre à Perplexity les secteurs réglementés où la sécurité des données freinait l'adoption.",
+  "signal": "optimiste",
+  "rationale": "Un nouveau canal vers des clients publics et financiers sensibles, avec un soutien officiel au Royaume-Uni.",
+  "sources": [
+   {
+    "label": "Business Wire, 20/10/2026",
+    "url": "https://www.businesswire.com/news/home/20261020000000/en/Perplexity-Partners-With-Valarian-to-Offer-Sovereign-Intelligence-at-Scale"
+   },
+   {
+    "label": "Unite.AI, 20/10/2026",
+    "url": "https://www.unite.ai/valarian-partnership-puts-perplexity-computer-on-institutional-servers/"
+   },
+   {
+    "label": "City AM, 20/10/2026",
+    "url": "https://www.cityam.com/ai-giant-perplexity-taps-london-startup-valarian-in-sovereign-tech-drive/"
+   }
+  ],
+  "addedAt": "2026-10-20T12:20:39Z"
+ },
+ {
+  "id": "mistral-ai-2026-10-20-credit-agricole",
+  "companyId": "mistral-ai",
+  "date": "2026-10-20",
+  "title": "Crédit Agricole s'allie à Mistral pour déployer l'IA à l'échelle industrielle",
+  "summary": "Crédit Agricole Artificial Intelligence, la nouvelle société d'IA du groupe bancaire, signe un partenariat avec Mistral pour accélérer le déploiement de l'IA dans le groupe.",
+  "detail": "Les projets cités sont un agent conversationnel pour les clients des banques de proximité, la transformation agentique de processus clés et la cybersécurité, présentée comme un axe majeur. Le groupe veut aussi adapter de grands modèles de langage à ses données avec la technologie de Mistral, pour gagner en performance et consommer moins de calcul.\n\nAucun montant ni durée n'est communiqué. En juin, la banque avait indiqué être en discussions avancées avec Mistral, sans exclusivité.",
+  "impact": "Un grand groupe bancaire français de plus rejoint les clients de Mistral, après BNP Paribas, HSBC et la Caisse des Dépôts.",
+  "signal": "optimiste",
+  "rationale": "Un client grand compte de référence confirme la traction de Mistral dans la banque, même sans chiffre publié.",
+  "sources": [
+   {
+    "label": "Zonebourse via Boursorama, 20/10/2026",
+    "url": "https://www.boursorama.com/bourse/actualites/credit-agricole-s-allie-a-mistral-pour-un-deploiement-industriel-de-l-ia-9b4da15ba7c71a9ab6984bdb9789f990"
+   },
+   {
+    "label": "Option Finance, 20/10/2026",
+    "url": "https://www.optionfinance.fr/info-financiere-en-continu/d/2026-10-20-credit-agricole-sallie-a-mistral-pour-un-deploiement-industriel-de-lia.html"
+   }
+  ],
+  "addedAt": "2026-10-20T12:20:38Z"
+ },
+ {
+  "id": "neura-robotics-2026-10-20-nxai-memoire",
+  "companyId": "neura-robotics",
+  "date": "2026-10-20",
+  "title": "NEURA Robotics s'associe à l'autrichien NXAI pour doter ses robots d'une mémoire",
+  "summary": "NEURA Robotics et NXAI, société de Sepp Hochreiter, vont intégrer l'architecture xLSTM à la plateforme Neuraverse pour donner une mémoire de travail et une mémoire épisodique aux robots cognitifs.",
+  "detail": "Le modèle de NXAI, fondé sur xLSTM, doit être proposé sur Neuraverse à côté de Neuron AI, le modèle multimodal de NEURA. Les entreprises pourront l'affiner, le tester dans les NEURA Gyms puis le déployer sur des robots compatibles. L'annonce parle d'un projet, pas d'une version déjà disponible.\n\nLa mémoire de travail suit l'état de la tâche en cours, la mémoire épisodique réutilise les expériences passées. Les clients gardent la maîtrise de leurs données et décident s'ils partagent leurs compétences robotiques. Aucun montant n'est communiqué.",
+  "impact": "Une mémoire durable complète Neuron AI et renforce l'offre logicielle de NEURA autour de Neuraverse, au-delà du matériel.",
+  "signal": "optimiste",
+  "rationale": "Un partenariat technologique qui étoffe la plateforme, sans engagement financier ni calendrier précis.",
+  "sources": [
+   {
+    "label": "AI Insider, 20/10/2026",
+    "url": "https://theaiinsider.tech/2026/10/20/neura-robotics-nxai-partner-to-build-memory-system-for-physical-ai/"
+   },
+   {
+    "label": "Unite.AI, 20/10/2026",
+    "url": "https://www.unite.ai/neura-robotics-nxai-team-up-to-give-cognitive-robots-lasting-memory/"
+   },
+   {
+    "label": "EU-Startups, 20/10/2026",
+    "url": "https://www.eu-startups.com/2026/10/germanys-neura-robotics-shows-no-signs-of-slowing-down-as-it-teams-up-with-austrias-nxai-for-physical-ai/"
+   }
+  ],
+  "addedAt": "2026-10-20T12:20:37Z"
+ },
+ {
   "id": "anthropic-2026-10-19-nscale-second-contrat",
   "companyId": "anthropic",
   "date": "2026-10-19",
