@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-20T11:53:51Z",
+ "generatedAt": "2026-10-20T20:07:12Z",
  "windowHours": 48,
- "headlinesRead": 905,
- "count": 28,
+ "headlinesRead": 973,
+ "count": 27,
  "priorityCount": 6,
  "companies": [
   {
@@ -26,29 +26,41 @@
      "overlap": 0.33,
      "reprises": 0,
      "priority": false
-    }
-   ]
-  },
-  {
-   "companyId": "neura-robotics",
-   "name": "Neura Robotics",
-   "candidates": [
+    },
     {
-     "date": "2026-10-20 10:53",
-     "media": "EU-Startups",
-     "title": "Germany’s NEURA Robotics shows no signs of slowing down as it teams up with Austria’s NXAI for physical AI",
-     "site": "https://www.eu-startups.com",
-     "overlap": 0.22,
-     "reprises": 2,
+     "date": "2026-10-20 12:16",
+     "media": "AI Magazine",
+     "title": "Mistral AI: Sovereign AI and a €21bn Valuation Push",
+     "site": "https://aimagazine.com",
+     "overlap": 0.0,
+     "reprises": 0,
      "priority": false
     },
     {
-     "date": "2026-10-20 11:23",
-     "media": "AI Insider",
-     "title": "Neura Robotics, NXAI Partner to Build Memory System for Physical AI",
-     "site": "https://theaiinsider.tech",
-     "overlap": 0.17,
-     "reprises": 1,
+     "date": "2026-10-20 14:41",
+     "media": "Les Echos",
+     "title": "« S'ils nous voient comme concurrents, tant pis ou tant mieux » : OVHcloud lance son match avec Mistral en s'attaquant aux modèles d'IA",
+     "site": "https://www.lesechos.fr",
+     "overlap": 0.15,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-10-20 16:03",
+     "media": "Frandroid",
+     "title": "OVHcloud promet son propre LLM open source « très en avance sur son temps », et Octave Klaba tacle Mistral",
+     "site": "https://www.frandroid.com",
+     "overlap": 0.08,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-10-20 17:19",
+     "media": "The Decoder",
+     "title": "Mistral AI launches Voxtral 3, a full voice agent stack that listens, thinks, and talks in real time",
+     "site": "https://the-decoder.com",
+     "overlap": 0.08,
+     "reprises": 0,
      "priority": false
     }
    ]
@@ -57,15 +69,6 @@
    "companyId": "stripe",
    "name": "Stripe",
    "candidates": [
-    {
-     "date": "2026-10-19 21:30",
-     "media": "Startup Fortune",
-     "title": "Stripe Will Buy OpenRouter, the AI Traffic Cop, for $7.5 Billion",
-     "site": "https://startupfortune.com",
-     "overlap": 0.0,
-     "reprises": 3,
-     "priority": true
-    },
     {
      "date": "2026-10-20 09:29",
      "media": "Startup Fortune",
@@ -76,38 +79,29 @@
      "priority": true
     },
     {
-     "date": "2026-10-19 15:47",
-     "media": "FourWeekMBA",
-     "title": "AI Agents Buy Through Stripe as JPMorgan and Amazon Bar Them",
-     "site": "https://fourweekmba.com",
-     "overlap": 0.14,
-     "reprises": 0,
+     "date": "2026-10-19 21:30",
+     "media": "Startup Fortune",
+     "title": "Stripe Will Buy OpenRouter, the AI Traffic Cop, for $7.5 Billion",
+     "site": "https://startupfortune.com",
+     "overlap": 0.0,
+     "reprises": 1,
      "priority": true
     },
     {
-     "date": "2026-10-18 14:11",
-     "media": "Traders Union",
-     "title": "Mastercard, Visa and Stripe expand stablecoin payments as transaction volumes rise",
-     "site": "https://tradersunion.com",
+     "date": "2026-10-20 15:33",
+     "media": "FX News Group",
+     "title": "Stripe announces multiyear global partnership with Mercedes-AMG PETRONAS F1 Team",
+     "site": "https://fxnewsgroup.com",
      "overlap": 0.12,
-     "reprises": 2,
+     "reprises": 3,
      "priority": false
     },
     {
-     "date": "2026-10-18 16:11",
-     "media": "Small Business Trends",
-     "title": "Stripe Empowers Businesses with No-Cost Open USD Stablecoin Integration",
-     "site": "https://smallbiztrends.com",
+     "date": "2026-10-20 17:21",
+     "media": "Unite.AI",
+     "title": "Sierra Partners with Stripe to Bring Payments Into AI Agent Calls",
+     "site": "https://www.unite.ai",
      "overlap": 0.29,
-     "reprises": 0,
-     "priority": false
-    },
-    {
-     "date": "2026-10-20 11:27",
-     "media": "Globes - Israel Business News",
-     "title": "Payments giant Stripe to launch Israel operations",
-     "site": "https://en.globes.co.il",
-     "overlap": 0.2,
      "reprises": 0,
      "priority": false
     }
@@ -123,7 +117,7 @@
      "title": "Cryptocurrency News: Kraken's Owner Buys a Bank Across 5 EU Markets, and Early Pepeto Buyers May Celebrate",
      "site": "https://www.openpr.com",
      "overlap": 0.33,
-     "reprises": 1,
+     "reprises": 0,
      "priority": true
     },
     {
@@ -134,15 +128,6 @@
      "overlap": 0.2,
      "reprises": 0,
      "priority": true
-    },
-    {
-     "date": "2026-10-18 14:20",
-     "media": "TOKENPOST",
-     "title": "Kraken expands toward unified banking, brokerage and crypto platform",
-     "site": "https://www.tokenpost.com",
-     "overlap": 0.29,
-     "reprises": 1,
-     "priority": false
     }
    ]
   },
@@ -151,12 +136,39 @@
    "name": "Polymarket",
    "candidates": [
     {
-     "date": "2026-10-20 02:40",
-     "media": "KuCoin",
-     "title": "Pump.fun Launches Pre-IPO Tokens for OpenAI and Polymarket, Driving an 8% Surge in PUMP Price",
-     "site": "https://www.kucoin.com",
-     "overlap": 0.1,
-     "reprises": 2,
+     "date": "2026-10-20 16:05",
+     "media": "Dealroom",
+     "title": "Polymarket's investors made its CEO repay private-jet and rent spending, and now push for a COO as Kalshi pulls ahead",
+     "site": "https://app.dealroom.co",
+     "overlap": 0.36,
+     "reprises": 3,
+     "priority": false
+    },
+    {
+     "date": "2026-10-20 11:09",
+     "media": "bloomingbit",
+     "title": "Polymarket Seeks Funding at $21 Billion Valuation Amid CEO Management Controversies",
+     "site": "https://en.bloomingbit.io",
+     "overlap": 0.25,
+     "reprises": 1,
+     "priority": false
+    },
+    {
+     "date": "2026-10-20 15:54",
+     "media": "Benzinga",
+     "title": "Polymarket CEO Used Company Funds for Private Jet Flights, Rent: Bloomberg - Intercontinental Exchange (N",
+     "site": "https://www.benzinga.com",
+     "overlap": 0.36,
+     "reprises": 1,
+     "priority": false
+    },
+    {
+     "date": "2026-10-20 17:06",
+     "media": "Yahoo Sports",
+     "title": "LeBron Polymarket contract, explained: What to know about 76ers star's controversial deal with prediction marker",
+     "site": "https://sports.yahoo.com",
+     "overlap": 0.36,
+     "reprises": 1,
      "priority": false
     },
     {
@@ -165,42 +177,15 @@
      "title": "NFL Polymarket promo code “SILIVE” updates $25 Commanders-49ers deal",
      "site": "https://www.silive.com",
      "overlap": 0.12,
-     "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-10-20 10:30",
-     "media": "Bloomberg.com",
-     "title": "Private Jets, Investor Pressure Push Polymarket CEO to Grow Up",
-     "site": "https://www.bloomberg.com",
-     "overlap": 0.14,
-     "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-10-20 11:09",
-     "media": "bloomingbit",
-     "title": "Polymarket Seeks New Funding at $21 Billion Valuation",
-     "site": "https://en.bloomingbit.io",
-     "overlap": 0.0,
-     "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-10-20 09:13",
-     "media": "Gambling Insider",
-     "title": "The Gambling Wire: Polymarket Takes Ohio to Court, CFTC Opens the Floor and Kalshi Hits Snooze on SCOTUS",
-     "site": "https://www.gamblinginsider.com",
-     "overlap": 0.08,
      "reprises": 0,
      "priority": false
     },
     {
-     "date": "2026-10-20 10:04",
-     "media": "Action Network",
-     "title": "Polymarket Sign Up Bonus: Trade NBA Opening Day With Code ACTION, $25 Bonus",
-     "site": "https://www.actionnetwork.com",
-     "overlap": 0.12,
+     "date": "2026-10-20 02:26",
+     "media": "Coinpedia",
+     "title": "Pump.fun Spikes 8% After Pre-IPO Token Launch for OpenAI, Polymarket",
+     "site": "https://coinpedia.org",
+     "overlap": 0.11,
      "reprises": 0,
      "priority": false
     }
@@ -211,48 +196,66 @@
    "name": "Anthropic",
    "candidates": [
     {
+     "date": "2026-10-20 13:00",
+     "media": "The Motley Fool",
+     "title": "Not Anthropic. Not OpenAI. This Is the Artificial Intelligence (AI) Stock I'd Buy Before the Next Mega-IPO.",
+     "site": "https://www.fool.com",
+     "overlap": 0.27,
+     "reprises": 2,
+     "priority": true
+    },
+    {
      "date": "2026-10-20 10:39",
      "media": "PYMNTS.com",
      "title": "OpenAI Racing to Raise $30 Billion Ahead of Anthropic Listing",
      "site": "https://www.pymnts.com",
      "overlap": 0.33,
-     "reprises": 2,
+     "reprises": 0,
      "priority": true
     },
     {
-     "date": "2026-10-19 21:31",
-     "media": "The Motley Fool",
-     "title": "Dario Amodei Predicted at Davos in January 2025 That AI Could Surpass Humans \"at Almost Everything\" Within Two to Three Years. With Anthropic Now Filing for a $2 Trillion IPO, Is That Timeline Still on Track?",
-     "site": "https://www.fool.com",
-     "overlap": 0.17,
-     "reprises": 4,
+     "date": "2026-10-20 17:58",
+     "media": "Northeast Times",
+     "title": "Former Google CEO Eric Schmidt Holds 1% Stake in Anthropic Ahead of Public Offering",
+     "site": "https://northeasttimes.com",
+     "overlap": 0.2,
+     "reprises": 5,
      "priority": false
     },
     {
-     "date": "2026-10-20 07:46",
-     "media": "OfficeChai",
-     "title": "Former Google CEO Eric Schmidt Owns 1% Of Anthropic Because Of His Early Investment In The Company",
-     "site": "https://officechai.com",
+     "date": "2026-10-20 16:54",
+     "media": "StartUp Beat",
+     "title": "Making Sense reaches Claude Select tier as companies seek AI partners with track record",
+     "site": "https://startupbeat.com",
      "overlap": 0.18,
      "reprises": 3,
      "priority": false
     },
     {
-     "date": "2026-10-19 01:00",
-     "media": "WSJ",
-     "title": "What to Know About the Obscure Trust Looming Over Anthropic’s IPO",
-     "site": "https://www.wsj.com",
-     "overlap": 0.12,
-     "reprises": 1,
+     "date": "2026-10-20 10:47",
+     "media": "ABC News - Breaking News, Latest News and Videos",
+     "title": "Exclusive: Anthropic CEO calls for stronger regulation of AI",
+     "site": "https://abcnews.com",
+     "overlap": 0.2,
+     "reprises": 2,
      "priority": false
     },
     {
-     "date": "2026-10-19 09:41",
-     "media": "AI Magazine",
-     "title": "Anthropic: Claude, Enterprise AI Agents and $965bn Valuation",
-     "site": "https://aimagazine.com",
-     "overlap": 0.2,
-     "reprises": 1,
+     "date": "2026-10-20 13:55",
+     "media": "Yahoo Finance",
+     "title": "Anthropic Will Be The Last AI IPO Of 2026, As Industry Collapses",
+     "site": "https://finance.yahoo.com",
+     "overlap": 0.33,
+     "reprises": 2,
+     "priority": false
+    },
+    {
+     "date": "2026-10-20 16:43",
+     "media": "Los Angeles Times",
+     "title": "Eric Schmidt’s 1% Anthropic stake could be worth tens of billions at IPO",
+     "site": "https://www.latimes.com",
+     "overlap": 0.25,
+     "reprises": 2,
      "priority": false
     },
     {
@@ -263,15 +266,6 @@
      "overlap": 0.12,
      "reprises": 1,
      "priority": false
-    },
-    {
-     "date": "2026-10-19 12:41",
-     "media": "شبكة تواصل الإخبارية",
-     "title": "Anthropic raises prospect of AI cash handouts for the public",
-     "site": "https://twaslnews1.twaslnews.com",
-     "overlap": 0.2,
-     "reprises": 1,
-     "priority": false
     }
    ]
   },
@@ -280,21 +274,12 @@
    "name": "Perplexity",
    "candidates": [
     {
-     "date": "2026-10-20 11:00",
-     "media": "Business Wire",
-     "title": "Perplexity Partners With Valarian to Offer Sovereign Intelligence at Scale",
-     "site": "https://www.businesswire.com",
-     "overlap": 0.0,
-     "reprises": 3,
-     "priority": false
-    },
-    {
-     "date": "2026-10-20 11:34",
-     "media": "Unite.AI",
-     "title": "Valarian Partnership Puts Perplexity Computer on Institutional Servers",
-     "site": "https://www.unite.ai",
+     "date": "2026-10-20 17:45",
+     "media": "Traders Union",
+     "title": "Zachary Perret: Perplexity AI finance tools to launch in Europe and UK",
+     "site": "https://tradersunion.com",
      "overlap": 0.17,
-     "reprises": 1,
+     "reprises": 0,
      "priority": false
     }
    ]
