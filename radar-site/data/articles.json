@@ -1,5 +1,111 @@
 [
  {
+  "id": "anthropic-2026-10-19-nscale-second-contrat",
+  "companyId": "anthropic",
+  "date": "2026-10-19",
+  "title": "Anthropic négocierait un second contrat de 45 milliards de dollars avec Nscale",
+  "summary": "Selon Bloomberg et Reuters, Nscale et Anthropic discutent d'un deuxième contrat d'environ 45 milliards de dollars de puissance de calcul, sur le même campus de Virginie-Occidentale.",
+  "detail": "Le contrat porterait sur un second bâtiment de 460 MW sur le campus Monarch de Nscale, équipé de puces Nvidia Vera Rubin. Un premier contrat de 45 milliards de dollars sur six ans, signé en août, couvre déjà un bâtiment du même site, avec des livraisons à partir de fin 2027.\n\nAnthropic détient aussi un droit de premier refus sur un troisième bâtiment prévu. Reuters, qui cite une source, précise que les discussions sont en cours et que les termes peuvent changer. Anthropic n'a pas répondu à sa demande de commentaire.",
+  "impact": "Un second contrat de cette taille sécuriserait pour Anthropic une capacité de calcul considérable au-delà de 2027, au moment où l'entreprise prépare son introduction en Bourse.",
+  "signal": "optimiste",
+  "rationale": "Un accès garanti à davantage de calcul soutient la croissance, même si l'accord n'est ni signé ni confirmé par les parties.",
+  "sources": [
+   {
+    "label": "Reuters, 19/10/2026",
+    "url": "https://www.ksl.com/article/51638329/nscale-anthropic-in-talks-for-45-billion-cloud-computing-deal-bloomberg-news-reports"
+   },
+   {
+    "label": "Bloomberg via AI Weekly, 19/10/2026",
+    "url": "https://aiweekly.co/alerts/nscale-anthropic-in-talks-for-second-45b-west-virginia-deal"
+   }
+  ],
+  "addedAt": "2026-10-20T06:19:21Z"
+ },
+ {
+  "id": "anthropic-2026-10-19-editeurs-canadiens-proces",
+  "companyId": "anthropic",
+  "date": "2026-10-19",
+  "title": "Des éditeurs de presse canadiens poursuivent Anthropic devant un tribunal de l'Ontario",
+  "summary": "Postmedia, Torstar, The Globe and Mail et La Presse Canadienne accusent Anthropic d'avoir utilisé leurs contenus pour développer Claude sans licence.",
+  "detail": "La plainte a été déposée le 6 octobre et a d'abord été révélée par le site Cartt.ca. Les éditeurs invoquent la violation du droit d'auteur, l'enrichissement injustifié, le non-respect des conditions d'utilisation de leurs sites et le contournement de mesures techniques de protection. Ils dénoncent aussi une collecte continue de leurs contenus en réponse aux requêtes des utilisateurs.\n\nLe montant des dommages demandés n'est pas précisé dans les articles consultés. Anthropic n'avait pas répondu à une demande de commentaire, et les allégations n'ont pas été prouvées devant un tribunal. Les mêmes éditeurs, avec CBC/Radio-Canada, poursuivent déjà OpenAI.",
+  "impact": "Ce litige ajoute un risque juridique au Canada sur l'usage de contenus de presse pour entraîner les modèles, en plus des autres actions en droit d'auteur visant Anthropic.",
+  "signal": "prudent",
+  "rationale": "Une nouvelle procédure en droit d'auteur augmente l'exposition juridique, sans résultat connu à ce stade.",
+  "sources": [
+   {
+    "label": "La Presse Canadienne via CP24, 19/10/2026",
+    "url": "https://www.cp24.com/local/toronto/2026/10/19/news-publishers-launch-copyright-suit-against-ai-company-anthropic-in-ontario/"
+   },
+   {
+    "label": "CBC, 19/10/2026",
+    "url": "https://www.cbc.ca/news/business/anthropic-postmedia-torstar-globe-canadian-press-copyright-lawsuit-9.7387205"
+   }
+  ],
+  "addedAt": "2026-10-20T06:19:21Z"
+ },
+ {
+  "id": "together-ai-2026-10-19-post-training",
+  "companyId": "together-ai",
+  "date": "2026-10-19",
+  "title": "Together AI lance Together Post-Training pour créer des modèles sur mesure",
+  "summary": "Le service permet de construire des modèles personnalisés par apprentissage par renforcement et fine-tuning supervisé, avec des GPU dédiés.",
+  "detail": "Les clients définissent eux-mêmes leur boucle d'entraînement (données, environnements, agents) et Together gère l'infrastructure. Au lancement, le service prend en charge Muse Spark Open, GLM 5.3, Kimi K3 et Qwen 3.8-27B, avec LoRA, fine-tuning complet sur certains modèles et apprentissage par renforcement asynchrone.\n\nLe tarif d'introduction est de 9 dollars par heure de GPU B200 pendant six semaines, facturé à la minute. Deel et Jack & Jill figurent parmi les premiers utilisateurs cités. Les utilisateurs de l'API Tinker peuvent migrer en changeant une ligne d'import.",
+  "impact": "Together étend son offre au-delà de l'inférence vers l'entraînement personnalisé, ce qui peut fidéliser les clients qui adaptent des modèles ouverts à leurs usages.",
+  "signal": "optimiste",
+  "rationale": "Un nouveau produit à forte valeur ajoutée, déjà utilisé par des clients nommés.",
+  "sources": [
+   {
+    "label": "Together AI, 19/10/2026",
+    "url": "https://www.together.ai/blog/together-post-training"
+   },
+   {
+    "label": "Unite.AI, 19/10/2026",
+    "url": "https://www.unite.ai/together-ai-launches-together-post-training-service-for-custom-models/"
+   }
+  ],
+  "addedAt": "2026-10-20T06:19:21Z"
+ },
+ {
+  "id": "shield-ai-2026-10-19-des-moines-x-bat",
+  "companyId": "shield-ai",
+  "date": "2026-10-19",
+  "title": "Shield AI s'installe dans un site de 405 680 pieds carrés à Des Moines pour produire le X-BAT",
+  "summary": "Panattoni annonce que Shield AI sera locataire d'un bâtiment en construction à Des Moines, dans l'État de Washington, destiné à la production du X-BAT.",
+  "detail": "Le site, situé au 1800 S. 216th Street, couvre environ 405 680 pieds carrés et doit ouvrir au printemps 2027. Il servira de site de production du X-BAT, l'avion à décollage vertical piloté par IA de Shield AI.\n\nL'opération repose sur un partenariat public-privé entre le Port de Seattle, la ville de Des Moines, Panattoni et Shield AI. Les conditions du bail ne sont pas communiquées.",
+  "impact": "Ce site concrétise le choix de l'État de Washington pour produire le X-BAT et prépare la montée en cadence de l'appareil.",
+  "signal": "optimiste",
+  "rationale": "Un site de production dédié avance l'industrialisation du X-BAT, avec une ouverture prévue en 2027.",
+  "sources": [
+   {
+    "label": "Connect CRE, 19/10/2026",
+    "url": "https://www.connectcre.com/stories/panattoni-secures-shield-ai-as-tenant-at-des-moines-creek-business-park-west/"
+   }
+  ],
+  "addedAt": "2026-10-20T06:19:21Z"
+ },
+ {
+  "id": "polymarket-2026-10-19-marche-cornell-retire",
+  "companyId": "polymarket",
+  "date": "2026-10-19",
+  "title": "Polymarket retire un marché sur l'affaire Cornell après un tollé",
+  "summary": "La plateforme a supprimé un marché qui portait sur d'éventuelles poursuites contre sept hommes accusés dans une affaire à Cornell, après des critiques visant aussi ses ambassadeurs.",
+  "detail": "Le marché, réservé à la plateforme internationale, avait cumulé 451 633 dollars de volume selon Front Office Sports avant son retrait le 19 octobre. Des militantes et une pétition ont ciblé les personnalités qui font la promotion de Polymarket, dont LeBron James.\n\nSelon le New York Post, la page a été retirée après que le journal a contacté l'entreprise. Un porte-parole de Polymarket a défendu le principe des marchés prédictifs, qui produiraient une information plus neutre. En avril, Polymarket avait déjà retiré un marché sur un militaire américain disparu.",
+  "impact": "L'épisode alimente le risque réputationnel et pèse sur la relation de Polymarket avec ses ambassadeurs et ses partenaires sportifs.",
+  "signal": "prudent",
+  "rationale": "Un second retrait de marché après un tollé en six mois expose les règles de modération de la plateforme.",
+  "sources": [
+   {
+    "label": "Front Office Sports, 19/10/2026",
+    "url": "https://frontofficesports.com/article/polymarket-athlete-endorsers-under-fire-over-cornell-7-market/"
+   },
+   {
+    "label": "New York Post, 19/10/2026",
+    "url": "https://www.msn.com/en-us/news/other/polymarket-removes-bets-on-cornell-7-gang-rape-case-as-activists-target-lebron-james-celebrity-endorsers/ar-AA2fBLZQ"
+   }
+  ],
+  "addedAt": "2026-10-20T06:19:21Z"
+ },
+ {
   "id": "mistral-ai-2026-10-19-docusign-mcp",
   "companyId": "mistral-ai",
   "date": "2026-10-19",
