@@ -1,21 +1,21 @@
 {
- "generatedAt": "2026-10-19T20:11:21Z",
+ "generatedAt": "2026-10-20T05:53:45Z",
  "windowHours": 48,
- "headlinesRead": 831,
- "count": 20,
- "priorityCount": 3,
+ "headlinesRead": 872,
+ "count": 21,
+ "priorityCount": 4,
  "companies": [
   {
    "companyId": "together-ai",
    "name": "Together AI",
    "candidates": [
     {
-     "date": "2026-10-19 17:53",
-     "media": "Unite.AI",
-     "title": "Together AI lance Together Post-Training, un service destiné aux modèles personnalisés",
-     "site": "https://www.unite.ai",
-     "overlap": 0.29,
-     "reprises": 3,
+     "date": "2026-10-19 19:27",
+     "media": "Blockchain News",
+     "title": "Together AI launches Post-Training service for custom models",
+     "site": "https://blockchain.news",
+     "overlap": 0.17,
+     "reprises": 5,
      "priority": false
     }
    ]
@@ -30,7 +30,16 @@
      "title": "Mistral Large 4 devancé d'un point par Muse Spark Open, mais devant lui sur les épreuves d'agent",
      "site": "https://www.actuia.com",
      "overlap": 0.1,
-     "reprises": 1,
+     "reprises": 2,
+     "priority": false
+    },
+    {
+     "date": "2026-10-19 18:46",
+     "media": "ET Enterprise AI",
+     "title": "Mistral CEO says 'whoever controls AI models controls the ecosystem'",
+     "site": "https://enterpriseai.economictimes.indiatimes.com",
+     "overlap": 0.33,
+     "reprises": 0,
      "priority": false
     }
    ]
@@ -40,13 +49,22 @@
    "name": "Stripe",
    "candidates": [
     {
-     "date": "2026-10-19 12:51",
+     "date": "2026-10-19 21:30",
      "media": "Startup Fortune",
-     "title": "Stripe agrees to buy OpenRouter for 7.5 billion dollars",
+     "title": "Stripe Will Buy OpenRouter, the AI Traffic Cop, for $7.5 Billion",
      "site": "https://startupfortune.com",
-     "overlap": 0.2,
-     "reprises": 3,
+     "overlap": 0.0,
+     "reprises": 5,
      "priority": true
+    },
+    {
+     "date": "2026-10-18 14:11",
+     "media": "Traders Union",
+     "title": "Mastercard, Visa and Stripe expand stablecoin payments as transaction volumes rise",
+     "site": "https://tradersunion.com",
+     "overlap": 0.12,
+     "reprises": 2,
+     "priority": false
     },
     {
      "date": "2026-10-18 10:50",
@@ -78,15 +96,15 @@
      "title": "Cryptocurrency News: Kraken's Owner Buys a Bank Across 5 EU Markets, and Early Pepeto Buyers May Celebrate",
      "site": "https://www.openpr.com",
      "overlap": 0.33,
-     "reprises": 2,
+     "reprises": 1,
      "priority": true
     },
     {
-     "date": "2026-10-17 20:18",
-     "media": "Crowdfund Insider",
-     "title": "Binance.US Eyes $1B Valuation in New Funding Round to Compete with Coinbase and Kraken in US Markets",
-     "site": "https://www.crowdfundinsider.com",
-     "overlap": 0.0,
+     "date": "2026-10-19 21:20",
+     "media": "Traders Union",
+     "title": "Henri Arslanian: Kraken buys European bank amid regulatory moves and CBDC exploration",
+     "site": "https://tradersunion.com",
+     "overlap": 0.2,
      "reprises": 0,
      "priority": true
     },
@@ -98,15 +116,6 @@
      "overlap": 0.29,
      "reprises": 1,
      "priority": false
-    },
-    {
-     "date": "2026-10-18 05:43",
-     "media": "TradingView",
-     "title": "Analyse technique de MUUSD Multi Collateral Perpetual Futures Contract (KRAKEN: MUUSD.PM)",
-     "site": "https://fr.tradingview.com",
-     "overlap": 0.25,
-     "reprises": 0,
-     "priority": false
     }
    ]
   },
@@ -115,30 +124,21 @@
    "name": "Polymarket",
    "candidates": [
     {
-     "date": "2026-10-18 23:45",
+     "date": "2026-10-20 01:10",
      "media": "SILive.com",
-     "title": "NFL Polymarket promo code “SILIVE” upgrades $25 Cowboys-Packers deal",
+     "title": "NFL Polymarket promo code “SILIVE” updates $25 Commanders-49ers deal",
      "site": "https://www.silive.com",
      "overlap": 0.0,
+     "reprises": 2,
+     "priority": false
+    },
+    {
+     "date": "2026-10-20 02:40",
+     "media": "KuCoin",
+     "title": "Pump.fun Launches Pre-IPO Tokens for OpenAI and Polymarket, Driving an 8% Surge in PUMP Price",
+     "site": "https://www.kucoin.com",
+     "overlap": 0.1,
      "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-10-17 22:00",
-     "media": "Bonus.com",
-     "title": "Polymarket Token Rumors Fuel Airdrop Speculation Without Official Launch",
-     "site": "https://www.bonus.com",
-     "overlap": 0.38,
-     "reprises": 0,
-     "priority": false
-    },
-    {
-     "date": "2026-10-18 13:45",
-     "media": "Syracuse.com",
-     "title": "NFL Polymarket referral code “CUSE” launches $25 bonus for Week 6",
-     "site": "https://www.syracuse.com",
-     "overlap": 0.14,
-     "reprises": 0,
      "priority": false
     },
     {
@@ -157,47 +157,47 @@
    "name": "Anthropic",
    "candidates": [
     {
-     "date": "2026-10-19 17:00",
-     "media": "Global News",
-     "title": "News publishers launch copyright suit against AI company Anthropic in Ontario",
-     "site": "https://globalnews.ca",
+     "date": "2026-10-20 00:11",
+     "media": "Firstpost",
+     "title": "OpenAI rushing to raise $30 billion before Anthropic’s IPO. What is at stake?",
+     "site": "https://www.firstpost.com",
      "overlap": 0.38,
-     "reprises": 3,
+     "reprises": 1,
+     "priority": true
+    },
+    {
+     "date": "2026-10-20 03:16",
+     "media": "Cryptonews.net",
+     "title": "Nscale and Anthropic in talks for $45 billion computing deal",
+     "site": "https://cryptonews.net",
+     "overlap": 0.2,
+     "reprises": 9,
      "priority": false
     },
     {
-     "date": "2026-10-19 02:46",
-     "media": "ABC News - Breaking News, Latest News and Videos",
-     "title": "Exclusive: Anthropic CEO calls for stronger regulation of AI",
-     "site": "https://abcnews.com",
+     "date": "2026-10-19 21:31",
+     "media": "The Motley Fool",
+     "title": "Dario Amodei Predicted at Davos in January 2025 That AI Could Surpass Humans \"at Almost Everything\" Within Two to Three Years. With Anthropic Now Filing for a $2 Trillion IPO, Is That Timeline Still on Track?",
+     "site": "https://www.fool.com",
+     "overlap": 0.17,
+     "reprises": 5,
+     "priority": false
+    },
+    {
+     "date": "2026-10-19 13:32",
+     "media": "Yahoo Finance",
+     "title": "Can Anthropic’s Shadow Board Cripple Its IPO?",
+     "site": "https://finance.yahoo.com",
      "overlap": 0.2,
      "reprises": 2,
      "priority": false
     },
     {
-     "date": "2026-10-19 19:46",
-     "media": "AOL.com",
-     "title": "Nscale, Anthropic in talks for $45 billion cloud computing deal, Bloomberg News reports",
-     "site": "https://www.aol.com",
-     "overlap": 0.33,
-     "reprises": 2,
-     "priority": false
-    },
-    {
-     "date": "2026-10-18 08:01",
-     "media": "Storyboard18",
-     "title": "Anthropic CEO Dario Amodei spends up to 40% of his time building company culture",
-     "site": "https://www.storyboard18.com",
-     "overlap": 0.22,
-     "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-10-19 01:00",
-     "media": "WSJ",
-     "title": "What to Know About the Obscure Trust Looming Over Anthropic’s IPO",
-     "site": "https://www.wsj.com",
-     "overlap": 0.12,
+     "date": "2026-10-19 09:41",
+     "media": "AI Magazine",
+     "title": "Anthropic: Claude, Enterprise AI Agents and $965bn Valuation",
+     "site": "https://aimagazine.com",
+     "overlap": 0.2,
      "reprises": 1,
      "priority": false
     },
@@ -207,6 +207,15 @@
      "title": "Anthropic lance un fonds destiné à rétablir la confiance dans l'IA et à soutenir le marché du travail",
      "site": "https://fr.businessam.be",
      "overlap": 0.12,
+     "reprises": 1,
+     "priority": false
+    },
+    {
+     "date": "2026-10-19 12:41",
+     "media": "شبكة تواصل الإخبارية",
+     "title": "Anthropic raises prospect of AI cash handouts for the public",
+     "site": "https://twaslnews1.twaslnews.com",
+     "overlap": 0.2,
      "reprises": 1,
      "priority": false
     }
