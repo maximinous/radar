@@ -1,25 +1,10 @@
 {
- "generatedAt": "2026-10-20T05:53:45Z",
+ "generatedAt": "2026-10-20T11:53:51Z",
  "windowHours": 48,
- "headlinesRead": 872,
- "count": 21,
- "priorityCount": 4,
+ "headlinesRead": 905,
+ "count": 28,
+ "priorityCount": 6,
  "companies": [
-  {
-   "companyId": "together-ai",
-   "name": "Together AI",
-   "candidates": [
-    {
-     "date": "2026-10-19 19:27",
-     "media": "Blockchain News",
-     "title": "Together AI launches Post-Training service for custom models",
-     "site": "https://blockchain.news",
-     "overlap": 0.17,
-     "reprises": 5,
-     "priority": false
-    }
-   ]
-  },
   {
    "companyId": "mistral-ai",
    "name": "Mistral AI",
@@ -45,6 +30,30 @@
    ]
   },
   {
+   "companyId": "neura-robotics",
+   "name": "Neura Robotics",
+   "candidates": [
+    {
+     "date": "2026-10-20 10:53",
+     "media": "EU-Startups",
+     "title": "Germany’s NEURA Robotics shows no signs of slowing down as it teams up with Austria’s NXAI for physical AI",
+     "site": "https://www.eu-startups.com",
+     "overlap": 0.22,
+     "reprises": 2,
+     "priority": false
+    },
+    {
+     "date": "2026-10-20 11:23",
+     "media": "AI Insider",
+     "title": "Neura Robotics, NXAI Partner to Build Memory System for Physical AI",
+     "site": "https://theaiinsider.tech",
+     "overlap": 0.17,
+     "reprises": 1,
+     "priority": false
+    }
+   ]
+  },
+  {
    "companyId": "stripe",
    "name": "Stripe",
    "candidates": [
@@ -54,7 +63,25 @@
      "title": "Stripe Will Buy OpenRouter, the AI Traffic Cop, for $7.5 Billion",
      "site": "https://startupfortune.com",
      "overlap": 0.0,
-     "reprises": 5,
+     "reprises": 3,
+     "priority": true
+    },
+    {
+     "date": "2026-10-20 09:29",
+     "media": "Startup Fortune",
+     "title": "Stripe buys OpenRouter for 7.5 billion dollars and the pipe stops being neutral",
+     "site": "https://startupfortune.com",
+     "overlap": 0.12,
+     "reprises": 3,
+     "priority": true
+    },
+    {
+     "date": "2026-10-19 15:47",
+     "media": "FourWeekMBA",
+     "title": "AI Agents Buy Through Stripe as JPMorgan and Amazon Bar Them",
+     "site": "https://fourweekmba.com",
+     "overlap": 0.14,
+     "reprises": 0,
      "priority": true
     },
     {
@@ -67,20 +94,20 @@
      "priority": false
     },
     {
-     "date": "2026-10-18 10:50",
-     "media": "Startup Fortune",
-     "title": "Stripe's $7.5 billion OpenRouter deal hands it the AI model dial",
-     "site": "https://startupfortune.com",
-     "overlap": 0.0,
-     "reprises": 1,
-     "priority": false
-    },
-    {
      "date": "2026-10-18 16:11",
      "media": "Small Business Trends",
      "title": "Stripe Empowers Businesses with No-Cost Open USD Stablecoin Integration",
      "site": "https://smallbiztrends.com",
      "overlap": 0.29,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-10-20 11:27",
+     "media": "Globes - Israel Business News",
+     "title": "Payments giant Stripe to launch Israel operations",
+     "site": "https://en.globes.co.il",
+     "overlap": 0.2,
      "reprises": 0,
      "priority": false
     }
@@ -124,29 +151,56 @@
    "name": "Polymarket",
    "candidates": [
     {
-     "date": "2026-10-20 01:10",
-     "media": "SILive.com",
-     "title": "NFL Polymarket promo code “SILIVE” updates $25 Commanders-49ers deal",
-     "site": "https://www.silive.com",
-     "overlap": 0.0,
-     "reprises": 2,
-     "priority": false
-    },
-    {
      "date": "2026-10-20 02:40",
      "media": "KuCoin",
      "title": "Pump.fun Launches Pre-IPO Tokens for OpenAI and Polymarket, Driving an 8% Surge in PUMP Price",
      "site": "https://www.kucoin.com",
      "overlap": 0.1,
+     "reprises": 2,
+     "priority": false
+    },
+    {
+     "date": "2026-10-20 01:10",
+     "media": "SILive.com",
+     "title": "NFL Polymarket promo code “SILIVE” updates $25 Commanders-49ers deal",
+     "site": "https://www.silive.com",
+     "overlap": 0.12,
      "reprises": 1,
      "priority": false
     },
     {
-     "date": "2026-10-18 19:50",
-     "media": "The Block",
-     "title": "Crypto.com, Novig sue Missouri over sports event contracts; Kalshi, Polymarket, Robinhood hold off",
-     "site": "https://www.theblock.co",
-     "overlap": 0.15,
+     "date": "2026-10-20 10:30",
+     "media": "Bloomberg.com",
+     "title": "Private Jets, Investor Pressure Push Polymarket CEO to Grow Up",
+     "site": "https://www.bloomberg.com",
+     "overlap": 0.14,
+     "reprises": 1,
+     "priority": false
+    },
+    {
+     "date": "2026-10-20 11:09",
+     "media": "bloomingbit",
+     "title": "Polymarket Seeks New Funding at $21 Billion Valuation",
+     "site": "https://en.bloomingbit.io",
+     "overlap": 0.0,
+     "reprises": 1,
+     "priority": false
+    },
+    {
+     "date": "2026-10-20 09:13",
+     "media": "Gambling Insider",
+     "title": "The Gambling Wire: Polymarket Takes Ohio to Court, CFTC Opens the Floor and Kalshi Hits Snooze on SCOTUS",
+     "site": "https://www.gamblinginsider.com",
+     "overlap": 0.08,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-10-20 10:04",
+     "media": "Action Network",
+     "title": "Polymarket Sign Up Bonus: Trade NBA Opening Day With Code ACTION, $25 Bonus",
+     "site": "https://www.actionnetwork.com",
+     "overlap": 0.12,
      "reprises": 0,
      "priority": false
     }
@@ -157,22 +211,13 @@
    "name": "Anthropic",
    "candidates": [
     {
-     "date": "2026-10-20 00:11",
-     "media": "Firstpost",
-     "title": "OpenAI rushing to raise $30 billion before Anthropic’s IPO. What is at stake?",
-     "site": "https://www.firstpost.com",
-     "overlap": 0.38,
-     "reprises": 1,
+     "date": "2026-10-20 10:39",
+     "media": "PYMNTS.com",
+     "title": "OpenAI Racing to Raise $30 Billion Ahead of Anthropic Listing",
+     "site": "https://www.pymnts.com",
+     "overlap": 0.33,
+     "reprises": 2,
      "priority": true
-    },
-    {
-     "date": "2026-10-20 03:16",
-     "media": "Cryptonews.net",
-     "title": "Nscale and Anthropic in talks for $45 billion computing deal",
-     "site": "https://cryptonews.net",
-     "overlap": 0.2,
-     "reprises": 9,
-     "priority": false
     },
     {
      "date": "2026-10-19 21:31",
@@ -180,16 +225,25 @@
      "title": "Dario Amodei Predicted at Davos in January 2025 That AI Could Surpass Humans \"at Almost Everything\" Within Two to Three Years. With Anthropic Now Filing for a $2 Trillion IPO, Is That Timeline Still on Track?",
      "site": "https://www.fool.com",
      "overlap": 0.17,
-     "reprises": 5,
+     "reprises": 4,
      "priority": false
     },
     {
-     "date": "2026-10-19 13:32",
-     "media": "Yahoo Finance",
-     "title": "Can Anthropic’s Shadow Board Cripple Its IPO?",
-     "site": "https://finance.yahoo.com",
-     "overlap": 0.2,
-     "reprises": 2,
+     "date": "2026-10-20 07:46",
+     "media": "OfficeChai",
+     "title": "Former Google CEO Eric Schmidt Owns 1% Of Anthropic Because Of His Early Investment In The Company",
+     "site": "https://officechai.com",
+     "overlap": 0.18,
+     "reprises": 3,
+     "priority": false
+    },
+    {
+     "date": "2026-10-19 01:00",
+     "media": "WSJ",
+     "title": "What to Know About the Obscure Trust Looming Over Anthropic’s IPO",
+     "site": "https://www.wsj.com",
+     "overlap": 0.12,
+     "reprises": 1,
      "priority": false
     },
     {
@@ -222,15 +276,24 @@
    ]
   },
   {
-   "companyId": "crusoe",
-   "name": "Crusoe",
+   "companyId": "perplexity",
+   "name": "Perplexity",
    "candidates": [
     {
-     "date": "2026-10-18 10:48",
-     "media": "Boursorama",
-     "title": "Microsoft se retire d'un accord avec Nscale concernant un centre de données au Royaume-Uni, selon le Telegraph",
-     "site": "https://www.boursorama.com",
-     "overlap": 0.18,
+     "date": "2026-10-20 11:00",
+     "media": "Business Wire",
+     "title": "Perplexity Partners With Valarian to Offer Sovereign Intelligence at Scale",
+     "site": "https://www.businesswire.com",
+     "overlap": 0.0,
+     "reprises": 3,
+     "priority": false
+    },
+    {
+     "date": "2026-10-20 11:34",
+     "media": "Unite.AI",
+     "title": "Valarian Partnership Puts Perplexity Computer on Institutional Servers",
+     "site": "https://www.unite.ai",
+     "overlap": 0.17,
      "reprises": 1,
      "priority": false
     }
