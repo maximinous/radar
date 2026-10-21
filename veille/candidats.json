@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-10-21T05:53:36Z",
+ "generatedAt": "2026-10-21T11:55:26Z",
  "windowHours": 48,
- "headlinesRead": 924,
+ "headlinesRead": 967,
  "count": 30,
  "priorityCount": 7,
  "companies": [
@@ -14,8 +14,8 @@
      "media": "ActuIA",
      "title": "Mistral Large 4 devancé d'un point par Muse Spark Open, mais devant lui sur les épreuves d'agent",
      "site": "https://www.actuia.com",
-     "overlap": 0.1,
-     "reprises": 2,
+     "overlap": 0.2,
+     "reprises": 1,
      "priority": false
     },
     {
@@ -50,16 +50,7 @@
      "media": "Frandroid",
      "title": "OVHcloud promet son propre LLM open source « très en avance sur son temps », et Octave Klaba tacle Mistral",
      "site": "https://www.frandroid.com",
-     "overlap": 0.08,
-     "reprises": 0,
-     "priority": false
-    },
-    {
-     "date": "2026-10-20 17:17",
-     "media": "lefilia.fr",
-     "title": "Mistral AI lance Voxtral 3, une solution complète d'agents vocaux qui écoute, réfléchit et parle en temps réel",
-     "site": "https://www.lefilia.fr",
-     "overlap": 0.18,
+     "overlap": 0.17,
      "reprises": 0,
      "priority": false
     }
@@ -86,24 +77,6 @@
      "overlap": 0.0,
      "reprises": 1,
      "priority": true
-    },
-    {
-     "date": "2026-10-20 15:33",
-     "media": "FX News Group",
-     "title": "Stripe announces multiyear global partnership with Mercedes-AMG PETRONAS F1 Team",
-     "site": "https://fxnewsgroup.com",
-     "overlap": 0.12,
-     "reprises": 3,
-     "priority": false
-    },
-    {
-     "date": "2026-10-20 17:21",
-     "media": "Unite.AI",
-     "title": "Sierra Partners with Stripe to Bring Payments Into AI Agent Calls",
-     "site": "https://www.unite.ai",
-     "overlap": 0.29,
-     "reprises": 0,
-     "priority": false
     }
    ]
   },
@@ -146,6 +119,15 @@
      "overlap": 0.12,
      "reprises": 1,
      "priority": false
+    },
+    {
+     "date": "2026-10-21 03:12",
+     "media": "CoinMarketCap",
+     "title": "Kraken Eyes $20B IPO After Raising $800M in Two Months",
+     "site": "https://coinmarketcap.com",
+     "overlap": 0.0,
+     "reprises": 1,
+     "priority": false
     }
    ]
   },
@@ -154,12 +136,30 @@
    "name": "Polymarket",
    "candidates": [
     {
-     "date": "2026-10-20 19:03",
-     "media": "Dealroom",
-     "title": "Polymarket's investors made its CEO repay private-jet and rent spending, and now push for a COO as Kalshi pulls ahead",
-     "site": "https://app.dealroom.co",
-     "overlap": 0.36,
-     "reprises": 2,
+     "date": "2026-10-21 01:30",
+     "media": "The Market Periodical",
+     "title": "Le titre SpaceX sous pression alors que les traders de Polymarket parient sur une fusion avec Tesla",
+     "site": "https://themarketperiodical.com",
+     "overlap": 0.22,
+     "reprises": 0,
+     "priority": true
+    },
+    {
+     "date": "2026-10-21 03:34",
+     "media": "The Market Periodical",
+     "title": "SpaceX Stock on Edge as Polymarket Traders Bet on a Tesla Merger",
+     "site": "https://themarketperiodical.com",
+     "overlap": 0.0,
+     "reprises": 0,
+     "priority": true
+    },
+    {
+     "date": "2026-10-21 09:20",
+     "media": "Inshorts",
+     "title": "Polymarket CEO used company funds for private jets, future investors uncover 'theft' | Thiel told Coplan to appoint a COO but he hasn't | Inshorts",
+     "site": "https://inshorts.com",
+     "overlap": 0.17,
+     "reprises": 3,
      "priority": false
     },
     {
@@ -172,29 +172,29 @@
      "priority": false
     },
     {
-     "date": "2026-10-21 04:00",
-     "media": "RG.org",
-     "title": "Polymarket US Sues Ohio Regulators Over Sports Gaming License Rules",
-     "site": "https://rg.org",
-     "overlap": 0.25,
-     "reprises": 1,
+     "date": "2026-10-21 06:36",
+     "media": "Hindustan Times",
+     "title": "Polymarket CEO Shayne Coplan used company money for private jet trips, rent: report | Trending",
+     "site": "https://www.hindustantimes.com",
+     "overlap": 0.33,
+     "reprises": 2,
      "priority": false
     },
     {
-     "date": "2026-10-20 11:09",
-     "media": "bloomingbit",
-     "title": "Polymarket Seeks Funding at $21 Billion Valuation Amid CEO Management Controversies",
-     "site": "https://en.bloomingbit.io",
-     "overlap": 0.25,
+     "date": "2026-10-20 19:03",
+     "media": "Dealroom",
+     "title": "Polymarket's investors made its CEO repay private-jet and rent spending, and now push for a COO as Kalshi pulls ahead",
+     "site": "https://app.dealroom.co",
+     "overlap": 0.36,
      "reprises": 0,
      "priority": false
     },
     {
-     "date": "2026-10-20 15:54",
-     "media": "Yahoo Finance",
-     "title": "ICE-Backed Polymarket CEO Used Company Money for Private Jets, Rent, Bloomberg Reports",
-     "site": "https://finance.yahoo.com",
-     "overlap": 0.27,
+     "date": "2026-10-20 20:44",
+     "media": "SBC Americas",
+     "title": "Polymarket Sues Ohio Over 'Discriminatory' Betting Rules",
+     "site": "https://sbcamericas.com",
+     "overlap": 0.33,
      "reprises": 0,
      "priority": false
     },
@@ -214,22 +214,13 @@
    "name": "Anthropic",
    "candidates": [
     {
-     "date": "2026-10-20 12:45",
-     "media": "24/7 Wall St.",
-     "title": "OpenAI Is Racing to Raise $30 Billion Before Anthropic Goes Public",
-     "site": "https://247wallst.com",
-     "overlap": 0.29,
-     "reprises": 1,
-     "priority": true
-    },
-    {
-     "date": "2026-10-20 13:00",
+     "date": "2026-10-19 21:31",
      "media": "The Motley Fool",
-     "title": "Not Anthropic. Not OpenAI. This Is the Artificial Intelligence (AI) Stock I'd Buy Before the Next Mega-IPO.",
+     "title": "Dario Amodei Predicted at Davos in January 2025 That AI Could Surpass Humans \"at Almost Everything\" Within Two to Three Years. With Anthropic Now Filing for a $2 Trillion IPO, Is That Timeline Still on Track?",
      "site": "https://www.fool.com",
-     "overlap": 0.18,
-     "reprises": 1,
-     "priority": true
+     "overlap": 0.17,
+     "reprises": 3,
+     "priority": false
     },
     {
      "date": "2026-10-21 02:11",
@@ -237,15 +228,6 @@
      "title": "Google former CEO Eric Schmidt held about 1 percent stake in Anthropic, report",
      "site": "https://www.digitaltoday.co.kr",
      "overlap": 0.1,
-     "reprises": 4,
-     "priority": false
-    },
-    {
-     "date": "2026-10-21 04:46",
-     "media": "조선일보",
-     "title": "Anthropic's $80.7B Loss Despite Revenue Surge",
-     "site": "https://www.chosun.com",
-     "overlap": 0.0,
      "reprises": 3,
      "priority": false
     },
@@ -259,30 +241,30 @@
      "priority": false
     },
     {
-     "date": "2026-10-19 21:31",
-     "media": "The Motley Fool",
-     "title": "Dario Amodei Predicted at Davos in January 2025 That AI Could Surpass Humans \"at Almost Everything\" Within Two to Three Years. With Anthropic Now Filing for a $2 Trillion IPO, Is That Timeline Still on Track?",
-     "site": "https://www.fool.com",
-     "overlap": 0.17,
-     "reprises": 2,
-     "priority": false
-    },
-    {
-     "date": "2026-10-20 10:47",
-     "media": "ABC News - Breaking News, Latest News and Videos",
-     "title": "Exclusive: Anthropic CEO calls for stronger regulation of AI",
-     "site": "https://abcnews.com",
-     "overlap": 0.2,
-     "reprises": 2,
-     "priority": false
-    },
-    {
      "date": "2026-10-20 13:55",
      "media": "Yahoo Finance",
      "title": "Anthropic Will Be The Last AI IPO Of 2026, As Industry Collapses",
      "site": "https://finance.yahoo.com",
      "overlap": 0.33,
      "reprises": 2,
+     "priority": false
+    },
+    {
+     "date": "2026-10-21 10:03",
+     "media": "EIN Presswire",
+     "title": "Simform Achieves Select Tier in Anthropic's Claude Partner Network Services Track",
+     "site": "https://www.einpresswire.com",
+     "overlap": 0.11,
+     "reprises": 2,
+     "priority": false
+    },
+    {
+     "date": "2026-10-19 12:00",
+     "media": "Business AM",
+     "title": "Anthropic lance un fonds destiné à rétablir la confiance dans l'IA et à soutenir le marché du travail",
+     "site": "https://fr.businessam.be",
+     "overlap": 0.12,
+     "reprises": 1,
      "priority": false
     }
    ]
@@ -292,21 +274,45 @@
    "name": "Perplexity",
    "candidates": [
     {
-     "date": "2026-10-19 10:00",
-     "media": "TechJuice",
-     "title": "Canva and Perplexity Partner for AI-Powered Design Creation",
-     "site": "https://www.techjuice.pk",
-     "overlap": 0.2,
-     "reprises": 0,
-     "priority": false
-    },
-    {
      "date": "2026-10-20 17:45",
      "media": "Traders Union",
      "title": "Zachary Perret: Perplexity AI finance tools to launch in Europe and UK",
      "site": "https://tradersunion.com",
      "overlap": 0.17,
      "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-10-21 08:08",
+     "media": "Times Now",
+     "title": "Perplexity Launches AI Computer For Mac, Lets Users Complete Tasks Without Internet",
+     "site": "https://www.timesnownews.com",
+     "overlap": 0.11,
+     "reprises": 0,
+     "priority": false
+    }
+   ]
+  },
+  {
+   "companyId": "crusoe",
+   "name": "Crusoe",
+   "candidates": [
+    {
+     "date": "2026-10-21 11:34",
+     "media": "The Manila Times",
+     "title": "Crusoe Introduces Crusoe Spark™ Liquid, Its Next-Generation Modular AI Factory to Power Crusoe Cloud",
+     "site": "https://www.manilatimes.net",
+     "overlap": 0,
+     "reprises": 2,
+     "priority": false
+    },
+    {
+     "date": "2026-10-21 11:45",
+     "media": "EIN Presswire",
+     "title": "Polar Expands Partnership with Crusoe in Norway with New 40MW AI Infrastructure Development",
+     "site": "https://www.einpresswire.com",
+     "overlap": 0,
+     "reprises": 2,
      "priority": false
     }
    ]
