@@ -1,5 +1,89 @@
 [
  {
+  "id": "crusoe-2026-10-21-polar-norvege-40mw",
+  "companyId": "crusoe",
+  "date": "2026-10-21",
+  "title": "Crusoe et Polar étendent leur partenariat en Norvège avec 40 MW supplémentaires",
+  "summary": "Polar Data Centers et Crusoe annoncent une nouvelle phase de 40 MW de capacité informatique à refroidissement liquide sur le campus de Tørdal, en Norvège.",
+  "detail": "Le site existant, DRA01, fournit 12 MW alimentés à 100 % par l'hydroélectricité et héberge Crusoe Cloud. Le partenariat avait été annoncé en juin 2025. La nouvelle phase, DRA02, doit entrer en service fin 2027.\n\nCrusoe prévoit d'y déployer des systèmes NVIDIA Vera Rubin NVL72. Le communiqué ne nomme aucun client. Il précise que DRA01 a reçu le prix du centre de données livré avec le plus de succès aux Data Centre World Awards 2026.",
+  "impact": "Crusoe quadruple environ sa capacité en Norvège et renforce sa présence européenne, avec une énergie propre pour son offre cloud.",
+  "signal": "optimiste",
+  "rationale": "Une extension de capacité de plus de trois fois la taille du site existant, confirmée par le communiqué commun.",
+  "sources": [
+   {
+    "label": "Crusoe, communiqué, 21/10/2026",
+    "url": "https://www.crusoe.ai/resources/newsroom/polar-crusoe-partnership-expansion"
+   },
+   {
+    "label": "The Manila Times, 21/10/2026",
+    "url": "https://www.manilatimes.net"
+   }
+  ],
+  "addedAt": "2026-10-21T12:20:23Z"
+ },
+ {
+  "id": "crusoe-2026-10-21-spark-liquid",
+  "companyId": "crusoe",
+  "date": "2026-10-21",
+  "title": "Crusoe lance Spark Liquid, sa sixième génération d'usine d'IA modulaire",
+  "summary": "Crusoe présente Spark Liquid, un module à refroidissement liquide de 3,5 MW conçu pour les systèmes NVIDIA GB300 et Vera Rubin NVL72.",
+  "detail": "Annoncé à Denver le 21 octobre 2026, le module offre selon Crusoe une densité de calcul multipliée par 5 par rapport aux générations précédentes. Le refroidissement direct en boucle fermée ne consomme pas d'eau. Crusoe dit réduire le temps de construction sur site de plusieurs années à quelques mois.\n\nLa production se fera au Colorado et rejoindra l'usine de Brighton en 2027. Spark est déjà déployé en production pour des clients de Crusoe Cloud, dont Ollama aux États-Unis.",
+  "impact": "Crusoe industrialise la construction de ses sites et vise des déploiements plus rapides pour les prochaines générations de puces NVIDIA.",
+  "signal": "optimiste",
+  "rationale": "Un produit propre qui accélère les déploiements, même si les volumes et les dates de livraison restent à confirmer.",
+  "sources": [
+   {
+    "label": "Crusoe, communiqué, 21/10/2026",
+    "url": "https://www.crusoe.ai/resources/newsroom/crusoe-introduces-crusoe-spark-liquid"
+   },
+   {
+    "label": "Data Center Dynamics, 21/10/2026",
+    "url": "https://www.datacenterdynamics.com"
+   }
+  ],
+  "addedAt": "2026-10-21T12:20:23Z"
+ },
+ {
+  "id": "crusoe-2026-10-21-nvidia-dsx-pod",
+  "companyId": "crusoe",
+  "date": "2026-10-21",
+  "title": "Crusoe annonce la prise en charge de la référence NVIDIA DSX POD pour Spark",
+  "summary": "La plateforme modulaire Crusoe Spark prendra en charge NVIDIA DSX POD, une architecture de référence modulaire pour la plateforme Vera Rubin.",
+  "detail": "Crusoe déploie des centres modulaires depuis 2020 et dit pouvoir fournir de la capacité d'IA productive en trois mois au minimum. Son usine de Brighton, dans le Colorado, couvre environ 32 700 m². La capacité Vera Rubin sera proposée via Crusoe Cloud, via des unités dédiées en Edge Zones ou en ajout à des sites existants.\n\nUn responsable NVIDIA salue l'apport de Crusoe aux usines d'IA modulaires.",
+  "impact": "Crusoe aligne son format modulaire sur la référence de NVIDIA, ce qui facilite l'adoption de ses unités auprès de clients et de sites tiers.",
+  "signal": "optimiste",
+  "rationale": "L'alignement avec la référence NVIDIA renforce la position de Crusoe dans l'écosystème modulaire.",
+  "sources": [
+   {
+    "label": "Crusoe, communiqué, 21/10/2026",
+    "url": "https://www.crusoe.ai/resources/newsroom/crusoe-nvidia-dsx-modular-standardization"
+   },
+   {
+    "label": "Yahoo Finance, 21/10/2026",
+    "url": "https://finance.yahoo.com"
+   }
+  ],
+  "addedAt": "2026-10-21T12:20:23Z"
+ },
+ {
+  "id": "perplexity-2026-10-20-computer-local-mac",
+  "companyId": "perplexity",
+  "date": "2026-10-20",
+  "title": "Perplexity Computer peut désormais fonctionner entièrement en local sur Mac",
+  "summary": "Perplexity annonce que son agent Computer peut tourner en local dans son application pour Mac, avec un mode hybride cloud et local.",
+  "detail": "Le mode local utilise Qwen 3.6 ou PPLX Pro, une version post-entraînée de Qwen. Perplexity recommande 36 Go de mémoire ou plus sur un Mac Apple silicon. Le mode hybride, qui combine modèles cloud et locaux, démarre à 24 Go.\n\nLe modèle, la planification et le traitement des fichiers restent sur l'appareil, et l'exécution du code se fait dans des environnements isolés. L'accès web ou aux applications cloud demande l'accord de l'utilisateur. La fonction est réservée aux abonnés Pro, Max et Enterprise.",
+  "impact": "Perplexity répond aux préoccupations de confidentialité et réduit son coût de calcul cloud sur ses abonnés payants.",
+  "signal": "optimiste",
+  "rationale": "Un nouveau mode d'usage qui élargit l'offre payante, avec un prérequis matériel élevé.",
+  "sources": [
+   {
+    "label": "MacRumors, 20/10/2026",
+    "url": "https://www.macrumors.com/2026/10/20/perplexity-computer-local-mac/"
+   }
+  ],
+  "addedAt": "2026-10-21T12:20:23Z"
+ },
+ {
   "id": "anthropic-2026-10-20-s1-actualise",
   "companyId": "anthropic",
   "date": "2026-10-20",
