@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-10-20T20:07:12Z",
+ "generatedAt": "2026-10-21T05:53:36Z",
  "windowHours": 48,
- "headlinesRead": 973,
- "count": 27,
- "priorityCount": 6,
+ "headlinesRead": 924,
+ "count": 30,
+ "priorityCount": 7,
  "companies": [
   {
    "companyId": "mistral-ai",
@@ -55,11 +55,11 @@
      "priority": false
     },
     {
-     "date": "2026-10-20 17:19",
-     "media": "The Decoder",
-     "title": "Mistral AI launches Voxtral 3, a full voice agent stack that listens, thinks, and talks in real time",
-     "site": "https://the-decoder.com",
-     "overlap": 0.08,
+     "date": "2026-10-20 17:17",
+     "media": "lefilia.fr",
+     "title": "Mistral AI lance Voxtral 3, une solution complète d'agents vocaux qui écoute, réfléchit et parle en temps réel",
+     "site": "https://www.lefilia.fr",
+     "overlap": 0.18,
      "reprises": 0,
      "priority": false
     }
@@ -112,22 +112,40 @@
    "name": "Kraken",
    "candidates": [
     {
-     "date": "2026-10-18 20:44",
-     "media": "openPR.com",
-     "title": "Cryptocurrency News: Kraken's Owner Buys a Bank Across 5 EU Markets, and Early Pepeto Buyers May Celebrate",
-     "site": "https://www.openpr.com",
-     "overlap": 0.33,
-     "reprises": 0,
+     "date": "2026-10-20 21:47",
+     "media": "CoinMarketCap",
+     "title": "Payward Closes Bitnomial Acquisition, Gains Full US Derivatives Licenses",
+     "site": "https://coinmarketcap.com",
+     "overlap": 0.12,
+     "reprises": 2,
      "priority": true
     },
     {
      "date": "2026-10-19 21:20",
      "media": "Traders Union",
-     "title": "Henri Arslanian: Kraken buys European bank amid regulatory moves and CBDC exploration",
+     "title": "Henri Arslanian : Kraken rachète une banque européenne dans un contexte d'évolutions réglementaires et d'exploration des CBDC",
      "site": "https://tradersunion.com",
-     "overlap": 0.2,
-     "reprises": 0,
+     "overlap": 0.1,
+     "reprises": 1,
      "priority": true
+    },
+    {
+     "date": "2026-10-20 00:42",
+     "media": "OneSafe",
+     "title": "Crypto Banking Takes a Leap with Kraken’s Bank Buy",
+     "site": "https://www.onesafe.io",
+     "overlap": 0.17,
+     "reprises": 1,
+     "priority": true
+    },
+    {
+     "date": "2026-10-19 20:16",
+     "media": "CryptoRank",
+     "title": "Kraken Parent Payward Moves Into European Banking With Saldo Deal",
+     "site": "https://cryptorank.io",
+     "overlap": 0.12,
+     "reprises": 1,
+     "priority": false
     }
    ]
   },
@@ -136,12 +154,30 @@
    "name": "Polymarket",
    "candidates": [
     {
-     "date": "2026-10-20 16:05",
+     "date": "2026-10-20 19:03",
      "media": "Dealroom",
      "title": "Polymarket's investors made its CEO repay private-jet and rent spending, and now push for a COO as Kalshi pulls ahead",
      "site": "https://app.dealroom.co",
      "overlap": 0.36,
-     "reprises": 3,
+     "reprises": 2,
+     "priority": false
+    },
+    {
+     "date": "2026-10-20 23:45",
+     "media": "SILive.com",
+     "title": "Polymarket code “SILIVE” launches $25 referral promo for 76ers-Knicks",
+     "site": "https://www.silive.com",
+     "overlap": 0.14,
+     "reprises": 2,
+     "priority": false
+    },
+    {
+     "date": "2026-10-21 04:00",
+     "media": "RG.org",
+     "title": "Polymarket US Sues Ohio Regulators Over Sports Gaming License Rules",
+     "site": "https://rg.org",
+     "overlap": 0.25,
+     "reprises": 1,
      "priority": false
     },
     {
@@ -150,42 +186,24 @@
      "title": "Polymarket Seeks Funding at $21 Billion Valuation Amid CEO Management Controversies",
      "site": "https://en.bloomingbit.io",
      "overlap": 0.25,
-     "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-10-20 15:54",
-     "media": "Benzinga",
-     "title": "Polymarket CEO Used Company Funds for Private Jet Flights, Rent: Bloomberg - Intercontinental Exchange (N",
-     "site": "https://www.benzinga.com",
-     "overlap": 0.36,
-     "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-10-20 17:06",
-     "media": "Yahoo Sports",
-     "title": "LeBron Polymarket contract, explained: What to know about 76ers star's controversial deal with prediction marker",
-     "site": "https://sports.yahoo.com",
-     "overlap": 0.36,
-     "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-10-20 01:10",
-     "media": "SILive.com",
-     "title": "NFL Polymarket promo code “SILIVE” updates $25 Commanders-49ers deal",
-     "site": "https://www.silive.com",
-     "overlap": 0.12,
      "reprises": 0,
      "priority": false
     },
     {
-     "date": "2026-10-20 02:26",
-     "media": "Coinpedia",
-     "title": "Pump.fun Spikes 8% After Pre-IPO Token Launch for OpenAI, Polymarket",
-     "site": "https://coinpedia.org",
-     "overlap": 0.11,
+     "date": "2026-10-20 15:54",
+     "media": "Yahoo Finance",
+     "title": "ICE-Backed Polymarket CEO Used Company Money for Private Jets, Rent, Bloomberg Reports",
+     "site": "https://finance.yahoo.com",
+     "overlap": 0.27,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-10-20 23:45",
+     "media": "MassLive.com",
+     "title": "Polymarket launches $25 promo code “MASS” for NBA opening night",
+     "site": "https://www.masslive.com",
+     "overlap": 0.14,
      "reprises": 0,
      "priority": false
     }
@@ -196,39 +214,57 @@
    "name": "Anthropic",
    "candidates": [
     {
+     "date": "2026-10-20 12:45",
+     "media": "24/7 Wall St.",
+     "title": "OpenAI Is Racing to Raise $30 Billion Before Anthropic Goes Public",
+     "site": "https://247wallst.com",
+     "overlap": 0.29,
+     "reprises": 1,
+     "priority": true
+    },
+    {
      "date": "2026-10-20 13:00",
      "media": "The Motley Fool",
      "title": "Not Anthropic. Not OpenAI. This Is the Artificial Intelligence (AI) Stock I'd Buy Before the Next Mega-IPO.",
      "site": "https://www.fool.com",
-     "overlap": 0.27,
-     "reprises": 2,
+     "overlap": 0.18,
+     "reprises": 1,
      "priority": true
     },
     {
-     "date": "2026-10-20 10:39",
-     "media": "PYMNTS.com",
-     "title": "OpenAI Racing to Raise $30 Billion Ahead of Anthropic Listing",
-     "site": "https://www.pymnts.com",
-     "overlap": 0.33,
-     "reprises": 0,
-     "priority": true
-    },
-    {
-     "date": "2026-10-20 17:58",
-     "media": "Northeast Times",
-     "title": "Former Google CEO Eric Schmidt Holds 1% Stake in Anthropic Ahead of Public Offering",
-     "site": "https://northeasttimes.com",
-     "overlap": 0.2,
-     "reprises": 5,
+     "date": "2026-10-21 02:11",
+     "media": "디지털투데이",
+     "title": "Google former CEO Eric Schmidt held about 1 percent stake in Anthropic, report",
+     "site": "https://www.digitaltoday.co.kr",
+     "overlap": 0.1,
+     "reprises": 4,
      "priority": false
     },
     {
-     "date": "2026-10-20 16:54",
-     "media": "StartUp Beat",
-     "title": "Making Sense reaches Claude Select tier as companies seek AI partners with track record",
-     "site": "https://startupbeat.com",
-     "overlap": 0.18,
+     "date": "2026-10-21 04:46",
+     "media": "조선일보",
+     "title": "Anthropic's $80.7B Loss Despite Revenue Surge",
+     "site": "https://www.chosun.com",
+     "overlap": 0.0,
      "reprises": 3,
+     "priority": false
+    },
+    {
+     "date": "2026-10-21 05:07",
+     "media": "Education Times",
+     "title": "Who is Eric Schmidt? His education, career journey from Google CEO to Anthropic AI investor",
+     "site": "https://www.educationtimes.com",
+     "overlap": 0.2,
+     "reprises": 3,
+     "priority": false
+    },
+    {
+     "date": "2026-10-19 21:31",
+     "media": "The Motley Fool",
+     "title": "Dario Amodei Predicted at Davos in January 2025 That AI Could Surpass Humans \"at Almost Everything\" Within Two to Three Years. With Anthropic Now Filing for a $2 Trillion IPO, Is That Timeline Still on Track?",
+     "site": "https://www.fool.com",
+     "overlap": 0.17,
+     "reprises": 2,
      "priority": false
     },
     {
@@ -248,24 +284,6 @@
      "overlap": 0.33,
      "reprises": 2,
      "priority": false
-    },
-    {
-     "date": "2026-10-20 16:43",
-     "media": "Los Angeles Times",
-     "title": "Eric Schmidt’s 1% Anthropic stake could be worth tens of billions at IPO",
-     "site": "https://www.latimes.com",
-     "overlap": 0.25,
-     "reprises": 2,
-     "priority": false
-    },
-    {
-     "date": "2026-10-19 12:00",
-     "media": "Business AM",
-     "title": "Anthropic lance un fonds destiné à rétablir la confiance dans l'IA et à soutenir le marché du travail",
-     "site": "https://fr.businessam.be",
-     "overlap": 0.12,
-     "reprises": 1,
-     "priority": false
     }
    ]
   },
@@ -273,6 +291,15 @@
    "companyId": "perplexity",
    "name": "Perplexity",
    "candidates": [
+    {
+     "date": "2026-10-19 10:00",
+     "media": "TechJuice",
+     "title": "Canva and Perplexity Partner for AI-Powered Design Creation",
+     "site": "https://www.techjuice.pk",
+     "overlap": 0.2,
+     "reprises": 0,
+     "priority": false
+    },
     {
      "date": "2026-10-20 17:45",
      "media": "Traders Union",

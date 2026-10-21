@@ -1,17 +1,18 @@
-# Candidats non couverts (27)
+# Candidats non couverts (30)
 
-Contrôle du 2026-10-20T20:07:12Z sur 48 h : 973 titres Google News lus, filtrés sur les mots d'événement, puis comparés aux articles publiés. Ce sont des pistes, pas des articles : chacune doit être ouverte et vérifiée.
+Contrôle du 2026-10-21T05:53:36Z sur 48 h : 924 titres Google News lus, filtrés sur les mots d'événement, puis comparés aux articles publiés. Ce sont des pistes, pas des articles : chacune doit être ouverte et vérifiée.
 
-## À traiter en priorité (6)
+## À traiter en priorité (7)
 
 Rachat ou levée de fonds : chaque piste doit être publiée dans le passage si une source fiable la confirme, ou justifiée dans le bilan (doublon avec l'id, ancienne, homonyme, non vérifiable).
 
 - **Stripe** 2026-10-20 09:29 | Startup Fortune | Stripe buys OpenRouter for 7.5 billion dollars and the pipe stops being neutral | https://startupfortune.com (+3 reprises)
 - **Stripe** 2026-10-19 21:30 | Startup Fortune | Stripe Will Buy OpenRouter, the AI Traffic Cop, for $7.5 Billion | https://startupfortune.com (+1 reprise)
-- **Kraken** 2026-10-18 20:44 | openPR.com | Cryptocurrency News: Kraken's Owner Buys a Bank Across 5 EU Markets, and Early Pepeto Buyers May Celebrate | https://www.openpr.com
-- **Kraken** 2026-10-19 21:20 | Traders Union | Henri Arslanian: Kraken buys European bank amid regulatory moves and CBDC exploration | https://tradersunion.com
-- **Anthropic** 2026-10-20 13:00 | The Motley Fool | Not Anthropic. Not OpenAI. This Is the Artificial Intelligence (AI) Stock I'd Buy Before the Next Mega-IPO. | https://www.fool.com (+2 reprises)
-- **Anthropic** 2026-10-20 10:39 | PYMNTS.com | OpenAI Racing to Raise $30 Billion Ahead of Anthropic Listing | https://www.pymnts.com
+- **Kraken** 2026-10-20 21:47 | CoinMarketCap | Payward Closes Bitnomial Acquisition, Gains Full US Derivatives Licenses | https://coinmarketcap.com (+2 reprises)
+- **Kraken** 2026-10-19 21:20 | Traders Union | Henri Arslanian : Kraken rachète une banque européenne dans un contexte d'évolutions réglementaires et d'exploration des CBDC | https://tradersunion.com (+1 reprise)
+- **Kraken** 2026-10-20 00:42 | OneSafe | Crypto Banking Takes a Leap with Kraken’s Bank Buy | https://www.onesafe.io (+1 reprise)
+- **Anthropic** 2026-10-20 12:45 | 24/7 Wall St. | OpenAI Is Racing to Raise $30 Billion Before Anthropic Goes Public | https://247wallst.com (+1 reprise)
+- **Anthropic** 2026-10-20 13:00 | The Motley Fool | Not Anthropic. Not OpenAI. This Is the Artificial Intelligence (AI) Stock I'd Buy Before the Next Mega-IPO. | https://www.fool.com (+1 reprise)
 
 ## Mistral AI (6)
 
@@ -20,7 +21,7 @@ Rachat ou levée de fonds : chaque piste doit être publiée dans le passage si 
 - 2026-10-20 12:16 | AI Magazine | Mistral AI: Sovereign AI and a €21bn Valuation Push | https://aimagazine.com
 - 2026-10-20 14:41 | Les Echos | « S'ils nous voient comme concurrents, tant pis ou tant mieux » : OVHcloud lance son match avec Mistral en s'attaquant aux modèles d'IA | https://www.lesechos.fr
 - 2026-10-20 16:03 | Frandroid | OVHcloud promet son propre LLM open source « très en avance sur son temps », et Octave Klaba tacle Mistral | https://www.frandroid.com
-- 2026-10-20 17:19 | The Decoder | Mistral AI launches Voxtral 3, a full voice agent stack that listens, thinks, and talks in real time | https://the-decoder.com
+- 2026-10-20 17:17 | lefilia.fr | Mistral AI lance Voxtral 3, une solution complète d'agents vocaux qui écoute, réfléchit et parle en temps réel | https://www.lefilia.fr
 
 ## Stripe (4)
 
@@ -29,31 +30,34 @@ Rachat ou levée de fonds : chaque piste doit être publiée dans le passage si 
 - 2026-10-20 15:33 | FX News Group | Stripe announces multiyear global partnership with Mercedes-AMG PETRONAS F1 Team | https://fxnewsgroup.com (+3 reprises)
 - 2026-10-20 17:21 | Unite.AI | Sierra Partners with Stripe to Bring Payments Into AI Agent Calls | https://www.unite.ai
 
-## Kraken (2)
+## Kraken (4)
 
-- 2026-10-18 20:44 | openPR.com | Cryptocurrency News: Kraken's Owner Buys a Bank Across 5 EU Markets, and Early Pepeto Buyers May Celebrate | https://www.openpr.com
-- 2026-10-19 21:20 | Traders Union | Henri Arslanian: Kraken buys European bank amid regulatory moves and CBDC exploration | https://tradersunion.com
+- 2026-10-20 21:47 | CoinMarketCap | Payward Closes Bitnomial Acquisition, Gains Full US Derivatives Licenses | https://coinmarketcap.com (+2 reprises)
+- 2026-10-19 21:20 | Traders Union | Henri Arslanian : Kraken rachète une banque européenne dans un contexte d'évolutions réglementaires et d'exploration des CBDC | https://tradersunion.com (+1 reprise)
+- 2026-10-20 00:42 | OneSafe | Crypto Banking Takes a Leap with Kraken’s Bank Buy | https://www.onesafe.io (+1 reprise)
+- 2026-10-19 20:16 | CryptoRank | Kraken Parent Payward Moves Into European Banking With Saldo Deal | https://cryptorank.io (+1 reprise)
 
 ## Polymarket (6)
 
-- 2026-10-20 16:05 | Dealroom | Polymarket's investors made its CEO repay private-jet and rent spending, and now push for a COO as Kalshi pulls ahead | https://app.dealroom.co (+3 reprises)
-- 2026-10-20 11:09 | bloomingbit | Polymarket Seeks Funding at $21 Billion Valuation Amid CEO Management Controversies | https://en.bloomingbit.io (+1 reprise)
-- 2026-10-20 15:54 | Benzinga | Polymarket CEO Used Company Funds for Private Jet Flights, Rent: Bloomberg - Intercontinental Exchange (N | https://www.benzinga.com (+1 reprise)
-- 2026-10-20 17:06 | Yahoo Sports | LeBron Polymarket contract, explained: What to know about 76ers star's controversial deal with prediction marker | https://sports.yahoo.com (+1 reprise)
-- 2026-10-20 01:10 | SILive.com | NFL Polymarket promo code “SILIVE” updates $25 Commanders-49ers deal | https://www.silive.com
-- 2026-10-20 02:26 | Coinpedia | Pump.fun Spikes 8% After Pre-IPO Token Launch for OpenAI, Polymarket | https://coinpedia.org
+- 2026-10-20 19:03 | Dealroom | Polymarket's investors made its CEO repay private-jet and rent spending, and now push for a COO as Kalshi pulls ahead | https://app.dealroom.co (+2 reprises)
+- 2026-10-20 23:45 | SILive.com | Polymarket code “SILIVE” launches $25 referral promo for 76ers-Knicks | https://www.silive.com (+2 reprises)
+- 2026-10-21 04:00 | RG.org | Polymarket US Sues Ohio Regulators Over Sports Gaming License Rules | https://rg.org (+1 reprise)
+- 2026-10-20 11:09 | bloomingbit | Polymarket Seeks Funding at $21 Billion Valuation Amid CEO Management Controversies | https://en.bloomingbit.io
+- 2026-10-20 15:54 | Yahoo Finance | ICE-Backed Polymarket CEO Used Company Money for Private Jets, Rent, Bloomberg Reports | https://finance.yahoo.com
+- 2026-10-20 23:45 | MassLive.com | Polymarket launches $25 promo code “MASS” for NBA opening night | https://www.masslive.com
 
 ## Anthropic (8)
 
-- 2026-10-20 13:00 | The Motley Fool | Not Anthropic. Not OpenAI. This Is the Artificial Intelligence (AI) Stock I'd Buy Before the Next Mega-IPO. | https://www.fool.com (+2 reprises)
-- 2026-10-20 10:39 | PYMNTS.com | OpenAI Racing to Raise $30 Billion Ahead of Anthropic Listing | https://www.pymnts.com
-- 2026-10-20 17:58 | Northeast Times | Former Google CEO Eric Schmidt Holds 1% Stake in Anthropic Ahead of Public Offering | https://northeasttimes.com (+5 reprises)
-- 2026-10-20 16:54 | StartUp Beat | Making Sense reaches Claude Select tier as companies seek AI partners with track record | https://startupbeat.com (+3 reprises)
+- 2026-10-20 12:45 | 24/7 Wall St. | OpenAI Is Racing to Raise $30 Billion Before Anthropic Goes Public | https://247wallst.com (+1 reprise)
+- 2026-10-20 13:00 | The Motley Fool | Not Anthropic. Not OpenAI. This Is the Artificial Intelligence (AI) Stock I'd Buy Before the Next Mega-IPO. | https://www.fool.com (+1 reprise)
+- 2026-10-21 02:11 | 디지털투데이 | Google former CEO Eric Schmidt held about 1 percent stake in Anthropic, report | https://www.digitaltoday.co.kr (+4 reprises)
+- 2026-10-21 04:46 | 조선일보 | Anthropic's $80.7B Loss Despite Revenue Surge | https://www.chosun.com (+3 reprises)
+- 2026-10-21 05:07 | Education Times | Who is Eric Schmidt? His education, career journey from Google CEO to Anthropic AI investor | https://www.educationtimes.com (+3 reprises)
+- 2026-10-19 21:31 | The Motley Fool | Dario Amodei Predicted at Davos in January 2025 That AI Could Surpass Humans "at Almost Everything" Within Two to Three Years. With Anthropic Now Filing for a $2 Trillion IPO, Is That Timeline Still on Track? | https://www.fool.com (+2 reprises)
 - 2026-10-20 10:47 | ABC News - Breaking News, Latest News and Videos | Exclusive: Anthropic CEO calls for stronger regulation of AI | https://abcnews.com (+2 reprises)
 - 2026-10-20 13:55 | Yahoo Finance | Anthropic Will Be The Last AI IPO Of 2026, As Industry Collapses | https://finance.yahoo.com (+2 reprises)
-- 2026-10-20 16:43 | Los Angeles Times | Eric Schmidt’s 1% Anthropic stake could be worth tens of billions at IPO | https://www.latimes.com (+2 reprises)
-- 2026-10-19 12:00 | Business AM | Anthropic lance un fonds destiné à rétablir la confiance dans l'IA et à soutenir le marché du travail | https://fr.businessam.be (+1 reprise)
 
-## Perplexity (1)
+## Perplexity (2)
 
+- 2026-10-19 10:00 | TechJuice | Canva and Perplexity Partner for AI-Powered Design Creation | https://www.techjuice.pk
 - 2026-10-20 17:45 | Traders Union | Zachary Perret: Perplexity AI finance tools to launch in Europe and UK | https://tradersunion.com
