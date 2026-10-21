@@ -1146,6 +1146,17 @@
      "url": "https://investinglive.com/stocks/anthropic-q3-revenue-rises-45-to-16-8-billion-ahead-of-ipo/"
     },
     "articleId": "anthropic-2026-10-14-revenu-t3"
+   },
+   {
+    "label": "Résultats du premier semestre 2026",
+    "value": "16,3 milliards de dollars de revenus, perte nette de 80,7 milliards dont environ 72 milliards de charge comptable (projet de prospectus, non publié par la société)",
+    "date": "2026-10-20",
+    "status": "presse",
+    "source": {
+     "label": "Wall Street Journal via Crypto Briefing, 20/10/2026",
+     "url": "https://cryptobriefing.com/anthropic-ipo-draft-revenue-net-loss/"
+    },
+    "articleId": "anthropic-2026-10-20-s1-actualise"
    }
   ],
   "newsQuery": "\"Anthropic\" (Claude OR Amodei OR AI)",

@@ -1,5 +1,111 @@
 [
  {
+  "id": "anthropic-2026-10-20-s1-actualise",
+  "companyId": "anthropic",
+  "date": "2026-10-20",
+  "title": "Anthropic : le prospectus actualisé fait état de 16,3 milliards de dollars de revenus et de 80,7 milliards de perte au premier semestre",
+  "summary": "Selon le Wall Street Journal, qui a consulté une version actualisée du projet de prospectus, Anthropic a réalisé 16,3 milliards de dollars de revenus au premier semestre 2026, pour une perte nette de 80,7 milliards.",
+  "detail": "Environ 72 milliards de la perte viennent d'une charge comptable sans effet sur la trésorerie, liée à la réévaluation d'instruments de financement. Hors cette charge, la perte serait proche de 8,7 milliards. Les dépenses de calcul et d'infrastructure s'élèvent à environ 9 milliards sur la période.\n\nLes engagements de calcul dépassent 600 milliards de dollars, non résiliables, avec jusqu'à 150 milliards supplémentaires en négociation. Deux clients pèsent environ 20 % des revenus. Le document avertit aussi qu'un incident catastrophique lié à l'IA pourrait dépasser les capacités d'assurance, et que les grands fournisseurs de cloud voient de plus en plus Anthropic comme un concurrent. Anthropic n'a pas commenté.",
+  "impact": "Le document donne la première vue détaillée de la trajectoire financière d'Anthropic avant son introduction en bourse : une croissance très rapide, adossée à des engagements de calcul considérables.",
+  "signal": "neutre",
+  "rationale": "Les revenus progressent fortement, mais la perte, les engagements de calcul et la concentration client pèsent sur le tableau.",
+  "sources": [
+   {
+    "label": "Wall Street Journal, relayé par Crypto Briefing, 20/10/2026",
+    "url": "https://cryptobriefing.com/anthropic-ipo-draft-revenue-net-loss/"
+   },
+   {
+    "label": "ZeroHedge, détail du prospectus actualisé, 20/10/2026",
+    "url": "https://www.zerohedge.com/ai/807-billion-red-ink-and-600-billion-tab-inside-anthropics-updated-ipo-prospectus"
+   }
+  ],
+  "addedAt": "2026-10-21T06:18:55Z"
+ },
+ {
+  "id": "stripe-2026-10-20-mercedes-amg-f1",
+  "companyId": "stripe",
+  "date": "2026-10-20",
+  "title": "Stripe devient partenaire mondial des paiements de l'écurie Mercedes-AMG PETRONAS F1",
+  "summary": "Stripe et l'écurie Mercedes-AMG PETRONAS F1 annoncent un partenariat mondial pluriannuel. Stripe devient partenaire officiel des paiements et partenaire officiel de l'équipe.",
+  "detail": "Stripe fournira sa technologie aux opérations financières de l'écurie, pour gérer des transactions dans plusieurs marchés et devises : produits dérivés, expériences, partenaires, paiements internationaux. Les premiers déploiements sont prévus lors de courses de fin 2026, en commençant par la boutique de l'équipe.\n\nLe logo de Stripe apparaîtra sur les monoplaces et les supports de l'équipe à partir de la première course de la saison 2027. Les conditions financières ne sont pas publiées.",
+  "impact": "Le partenariat donne à Stripe une vitrine mondiale et un client de prestige pour ses outils de paiement.",
+  "signal": "optimiste",
+  "rationale": "Un partenariat de marque et de produit avec une écurie de premier plan, sans coût ni risque identifié pour Stripe.",
+  "sources": [
+   {
+    "label": "Stripe, 20/10/2026",
+    "url": "https://stripe.com/newsroom/news/mercedes-and-stripe"
+   },
+   {
+    "label": "FX News Group, 20/10/2026",
+    "url": "https://fxnewsgroup.com/forex-news/payments/stripe-announces-multiyear-global-partnership-with-mercedes-amg-petronas-f1-team/"
+   }
+  ],
+  "addedAt": "2026-10-21T06:18:55Z"
+ },
+ {
+  "id": "stripe-2026-10-20-sierra-paiements-appels",
+  "companyId": "stripe",
+  "date": "2026-10-20",
+  "title": "Sierra intègre Stripe pour permettre aux agents d'IA d'encaisser des paiements pendant un appel",
+  "summary": "Sierra annonce un partenariat avec Stripe : un client peut payer au téléphone pendant un échange avec un agent d'IA, qui ne voit jamais les données de la carte.",
+  "detail": "Au moment du paiement, l'agent passe en mode sécurisé et le client saisit sa carte sur le clavier du téléphone. Stripe traite le paiement, puis l'agent confirme la transaction.\n\nLe spécialiste des paiements de santé Cedar compte parmi les premiers utilisateurs : selon Sierra, 71,3 % des appels où un patient commence un paiement aboutissent. L'application Sierra est listée sur la place de marché d'applications Stripe.",
+  "impact": "Stripe étend son rôle de brique de paiement aux agents vocaux d'IA.",
+  "signal": "optimiste",
+  "rationale": "Un cas d'usage concret, avec un premier client et un taux de réussite chiffré par le partenaire.",
+  "sources": [
+   {
+    "label": "Unite.AI, 20/10/2026",
+    "url": "https://www.unite.ai/sierra-partners-with-stripe-to-bring-payments-into-ai-agent-calls/"
+   }
+  ],
+  "addedAt": "2026-10-21T06:18:55Z"
+ },
+ {
+  "id": "mistral-ai-2026-10-20-voxtral-3",
+  "companyId": "mistral-ai",
+  "date": "2026-10-20",
+  "title": "Mistral AI lance Voxtral 3, une pile complète pour les agents vocaux",
+  "summary": "Mistral présente Voxtral 3 : modèles de transcription, voix de synthèse et kit de développement pour agents vocaux en temps réel, dans plus de 50 langues.",
+  "detail": "La gamme comprend trois modèles de transcription (de 0,0035 à 0,008 dollar la minute), un modèle de synthèse vocale à 13 dollars le million de caractères et un kit pour agents, construit sur LiveKit, à partir de 0,04 dollar la minute. La latence du modèle temps réel est inférieure à 500 ms.\n\nMistral affirme que son modèle Small Transcribe 3 dépasse Whisper, Scribe v2 et Gemini 3.5 Transcribe, sur la base de ses propres tests. Le déploiement est possible via l'API avec des points d'accès européens, américains et mondiaux, ou sur site sur demande.",
+  "impact": "Mistral s'attaque au marché de la voix, face à ElevenLabs et aux modèles de transcription des grands laboratoires, avec des prix bas et un hébergement possible en Europe.",
+  "signal": "optimiste",
+  "rationale": "Un lancement produit complet avec des prix agressifs, même si les comparaisons de performance viennent de Mistral.",
+  "sources": [
+   {
+    "label": "Mistral AI, 20/10/2026",
+    "url": "https://mistral.ai/news/voxtral-3"
+   },
+   {
+    "label": "The Decoder, 20/10/2026",
+    "url": "https://the-decoder.com/mistral-ai-launches-voxtral-3-a-full-voice-agent-stack-that-listens-thinks-and-talks-in-real-time/"
+   }
+  ],
+  "addedAt": "2026-10-21T06:18:55Z"
+ },
+ {
+  "id": "polymarket-2026-10-20-plainte-ohio",
+  "companyId": "polymarket",
+  "date": "2026-10-20",
+  "title": "Polymarket US attaque en justice les règles de l'Ohio sur les paris sportifs",
+  "summary": "Polymarket US a déposé une plainte fédérale contre le régulateur des jeux de l'Ohio, qu'elle accuse d'imposer des règles discriminatoires et contraires à la Constitution.",
+  "detail": "La plainte, déposée devant le tribunal fédéral du sud de l'Ohio, vise l'obligation pour les opérateurs agréés d'avoir une présence locale et des serveurs dans l'État. Polymarket y voit une atteinte à la clause de commerce et du protectionnisme. La date de dépôt varie selon les sources, entre le 16 et le 20 octobre.\n\nLe recours répond aux mises en demeure envoyées début octobre à dix opérateurs de contrats sportifs. Polymarket soutient aussi que ces contrats relèvent de la compétence fédérale de la CFTC.",
+  "impact": "L'issue du litige pèsera sur la capacité de Polymarket à proposer des contrats sportifs dans l'Ohio, après l'arrêt de la cour d'appel qui a donné raison à l'État contre Kalshi.",
+  "signal": "prudent",
+  "rationale": "Un contentieux réglementaire ouvert, dans un contexte judiciaire défavorable aux plateformes de marchés prédictifs.",
+  "sources": [
+   {
+    "label": "Deadspin, 20/10/2026",
+    "url": "https://deadspin.com/prediction-markets/legal-news/polymarket-us-files-federal-suit-against-ohios-gaming-regulation-structure/"
+   },
+   {
+    "label": "Law360, 20/10/2026",
+    "url": "https://www.law360.com/articles/2540228/polymarket-calls-ohio-s-gaming-enforcement-unconstitutional"
+   }
+  ],
+  "addedAt": "2026-10-21T06:18:55Z"
+ },
+ {
   "id": "stripe-2026-10-20-israel-gm",
   "companyId": "stripe",
   "date": "2026-10-20",
