@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-10-22T11:55:09Z",
+ "generatedAt": "2026-10-22T20:10:07Z",
  "windowHours": 48,
- "headlinesRead": 991,
- "count": 27,
- "priorityCount": 3,
+ "headlinesRead": 972,
+ "count": 31,
+ "priorityCount": 5,
  "companies": [
   {
    "companyId": "together-ai",
@@ -25,30 +25,12 @@
    "name": "Mistral AI",
    "candidates": [
     {
-     "date": "2026-10-20 12:16",
-     "media": "AI Magazine",
-     "title": "Mistral AI: Sovereign AI and a €21bn Valuation Push",
-     "site": "https://aimagazine.com",
-     "overlap": 0.0,
-     "reprises": 0,
-     "priority": false
-    },
-    {
-     "date": "2026-10-20 14:41",
-     "media": "Les Echos",
-     "title": "« S'ils nous voient comme concurrents, tant pis ou tant mieux » : OVHcloud lance son match avec Mistral en s'attaquant aux modèles d'IA",
-     "site": "https://www.lesechos.fr",
-     "overlap": 0.15,
-     "reprises": 0,
-     "priority": false
-    },
-    {
-     "date": "2026-10-20 16:03",
-     "media": "Frandroid",
-     "title": "OVHcloud promet son propre LLM open source « très en avance sur son temps », et Octave Klaba tacle Mistral",
-     "site": "https://www.frandroid.com",
-     "overlap": 0.17,
-     "reprises": 0,
+     "date": "2026-10-22 13:16",
+     "media": "news.lavx.hu",
+     "title": "Mistral CEO and Yann LeCun back Swiss robotics startup Enact in $30 million pre-seed round",
+     "site": "https://news.lavx.hu",
+     "overlap": 0.08,
+     "reprises": 1,
      "priority": false
     },
     {
@@ -63,6 +45,21 @@
    ]
   },
   {
+   "companyId": "deel",
+   "name": "Deel",
+   "candidates": [
+    {
+     "date": "2026-10-22 17:19",
+     "media": "CPA Practice Advisor",
+     "title": "Deel Launches AI Lab and LLMs",
+     "site": "https://www.cpapracticeadvisor.com",
+     "overlap": 0.33,
+     "reprises": 1,
+     "priority": false
+    }
+   ]
+  },
+  {
    "companyId": "erebor",
    "name": "Erebor Bank",
    "candidates": [
@@ -72,8 +69,23 @@
      "title": "Robinhood’s Retail Fund Buys $30 Million Stake in Erebor Bank, Co-Founded by Palmer Luckey",
      "site": "https://www.benzinga.com",
      "overlap": 0.33,
-     "reprises": 4,
+     "reprises": 3,
      "priority": true
+    }
+   ]
+  },
+  {
+   "companyId": "neura-robotics",
+   "name": "Neura Robotics",
+   "candidates": [
+    {
+     "date": "2026-10-22 14:25",
+     "media": "Informationsdienst Wissenschaft",
+     "title": "Making robots smarter: New TUM RoboGym robotics center opens in collaboration with NEURA",
+     "site": "https://idw-online.de",
+     "overlap": 0.0,
+     "reprises": 2,
+     "priority": false
     }
    ]
   },
@@ -81,6 +93,15 @@
    "companyId": "stripe",
    "name": "Stripe",
    "candidates": [
+    {
+     "date": "2026-10-21 21:55",
+     "media": "GeekWire",
+     "title": "Microsoft taps Stripe co-founder John Collison for its board as two longtime directors depart",
+     "site": "https://www.geekwire.com",
+     "overlap": 0.3,
+     "reprises": 2,
+     "priority": false
+    },
     {
      "date": "2026-10-21 16:04",
      "media": "CoinMarketCap",
@@ -91,12 +112,12 @@
      "priority": false
     },
     {
-     "date": "2026-10-21 21:55",
-     "media": "GeekWire",
-     "title": "Microsoft taps Stripe co-founder John Collison for its board as two longtime directors depart",
-     "site": "https://www.geekwire.com",
-     "overlap": 0.3,
-     "reprises": 1,
+     "date": "2026-10-20 23:01",
+     "media": "Sportcal",
+     "title": "AbbVie continues sports push with McLaren; Mercedes and Stripe partner",
+     "site": "https://www.sportcal.com",
+     "overlap": 0.29,
+     "reprises": 0,
      "priority": false
     }
    ]
@@ -115,6 +136,15 @@
      "priority": true
     },
     {
+     "date": "2026-10-22 03:22",
+     "media": "CoinMarketCap",
+     "title": "Dash (DASH) Surges 3.03% on Privacy Coin Rotation and Kraken Buy",
+     "site": "https://coinmarketcap.com",
+     "overlap": 0.0,
+     "reprises": 0,
+     "priority": true
+    },
+    {
      "date": "2026-10-21 03:12",
      "media": "CoinMarketCap",
      "title": "Kraken Eyes $20B IPO After Raising $800M in Two Months",
@@ -126,8 +156,17 @@
     {
      "date": "2026-10-22 05:32",
      "media": "Cowcotland.com",
-     "title": "08:32 Amateurs d'oreilles de chat, Razer dévoile son nouveau casque Kraken Kitty V3",
+     "title": "Amateurs d'oreilles de chat, Razer dévoile son nouveau casque Kraken Kitty V3",
      "site": "https://www.cowcotland.com",
+     "overlap": 0.0,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-10-22 13:08",
+     "media": "Yahoo Finance",
+     "title": "Snappy Kraken Introduces Office Hub, Bringing a Missing Layer of Marketing Administration to Wealth Management Firms",
+     "site": "https://finance.yahoo.com",
      "overlap": 0.0,
      "reprises": 0,
      "priority": false
@@ -139,12 +178,21 @@
    "name": "Polymarket",
    "candidates": [
     {
+     "date": "2026-10-22 18:27",
+     "media": "Reuters",
+     "title": "Polymarket, Kalshi expand political donations as firms face state, federal scrutiny",
+     "site": "https://www.reuters.com",
+     "overlap": 0.11,
+     "reprises": 4,
+     "priority": false
+    },
+    {
      "date": "2026-10-21 10:46",
      "media": "Yahoo Finance",
      "title": "ICE-Backed Polymarket CEO Used Company Money for Private Jets, Rent, Bloomberg Reports",
      "site": "https://finance.yahoo.com",
      "overlap": 0.27,
-     "reprises": 3,
+     "reprises": 2,
      "priority": false
     },
     {
@@ -157,38 +205,29 @@
      "priority": false
     },
     {
-     "date": "2026-10-21 18:12",
-     "media": "Crypto Briefing",
-     "title": "Polymarket reportedly eyes $21B valuation as investors push for a COO",
-     "site": "https://cryptobriefing.com",
-     "overlap": 0.29,
-     "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-10-22 11:39",
-     "media": "Reuters",
-     "title": "Polymarket, Kalshi expand political donations as firms face state, federal scrutiny",
-     "site": "https://www.reuters.com",
-     "overlap": 0.11,
-     "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-10-20 16:05",
-     "media": "Dealroom",
-     "title": "Polymarket's investors made its CEO repay private-jet and rent spending, and now push for a COO as Kalshi pulls ahead",
-     "site": "https://app.dealroom.co",
-     "overlap": 0.36,
-     "reprises": 0,
-     "priority": false
-    },
-    {
      "date": "2026-10-20 23:45",
      "media": "SILive.com",
      "title": "Polymarket code “SILIVE” launches $25 referral promo for 76ers-Knicks",
      "site": "https://www.silive.com",
      "overlap": 0.14,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-10-21 00:18",
+     "media": "Yahoo Sports",
+     "title": "Dillon Brooks Roasting LeBron James’ 76ers Move And Polymarket Deal In New Kalshi Ad Goes Viral",
+     "site": "https://sports.yahoo.com",
+     "overlap": 0.18,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-10-21 14:37",
+     "media": "TOKENPOST",
+     "title": "Dragonfly Partner Disputes Private-Jet Claim About Polymarket CEO",
+     "site": "https://www.tokenpost.com",
+     "overlap": 0.25,
      "reprises": 0,
      "priority": false
     }
@@ -208,25 +247,25 @@
      "priority": true
     },
     {
-     "date": "2026-10-22 06:44",
-     "media": "Windows Report",
-     "title": "Anthropic Launches Claude Duet, an AI Agent That Works Across Your Apps While You Sleep",
-     "site": "https://windowsreport.com",
-     "overlap": 0.33,
-     "reprises": 15,
+     "date": "2026-10-22 16:43",
+     "media": "New York Post",
+     "title": "Chinese AI firm DeepSeek raises $15B in latest challenge to OpenAI, Anthropic: report",
+     "site": "https://nypost.com",
+     "overlap": 0.11,
+     "reprises": 0,
+     "priority": true
+    },
+    {
+     "date": "2026-10-22 14:09",
+     "media": "Android Headlines",
+     "title": "Anthropic Launches Claude Duet to Handle Your Work Before You Ask",
+     "site": "https://www.androidheadlines.com",
+     "overlap": 0.22,
+     "reprises": 4,
      "priority": false
     },
     {
-     "date": "2026-10-22 03:53",
-     "media": "조선일보",
-     "title": "Anthropic Posts Massive Loss Despite Revenue Surge",
-     "site": "https://www.chosun.com",
-     "overlap": 0.33,
-     "reprises": 3,
-     "priority": false
-    },
-    {
-     "date": "2026-10-22 10:45",
+     "date": "2026-10-22 11:10",
      "media": "PYMNTS.com",
      "title": "Anthropic Could File IPO Paperwork as Soon as Friday",
      "site": "https://www.pymnts.com",
@@ -235,29 +274,38 @@
      "priority": false
     },
     {
-     "date": "2026-10-21 11:51",
-     "media": "Crypto Briefing",
-     "title": "Eric Schmidt’s Anthropic stake is reportedly half the size of CEO Dario Amodei’s",
-     "site": "https://cryptobriefing.com",
-     "overlap": 0.11,
+     "date": "2026-10-21 23:20",
+     "media": "Billionaires.Africa",
+     "title": "American AI billionaire Dario Amodei's Anthropic posts $16.3 billion first-half revenue",
+     "site": "https://www.billionaires.africa",
+     "overlap": 0.25,
      "reprises": 2,
      "priority": false
     },
     {
-     "date": "2026-10-21 12:00",
-     "media": "Dealroom",
-     "title": "Anthropic's Dario Amodei answers a safety critic point by point, conceding three mistakes as the company heads for IPO",
-     "site": "https://app.dealroom.co",
-     "overlap": 0.08,
+     "date": "2026-10-22 16:48",
+     "media": "The Globe and Mail",
+     "title": "Could Anthropic's Compute Spend Outpace Its Revenue Growth?",
+     "site": "https://www.theglobeandmail.com",
+     "overlap": 0.17,
      "reprises": 2,
      "priority": false
     },
     {
-     "date": "2026-10-21 09:29",
-     "media": "Axios",
-     "title": "Why Anthropic can't afford to delay its IPO",
-     "site": "https://www.axios.com",
-     "overlap": 0.2,
+     "date": "2026-10-22 07:07",
+     "media": "TradingView",
+     "title": "Anthropic IPO Faces New Hurdle As NYC Comptroller Urges Delay: Claude Parent's Market Debut Odds Slide",
+     "site": "https://www.tradingview.com",
+     "overlap": 0.15,
+     "reprises": 1,
+     "priority": false
+    },
+    {
+     "date": "2026-10-22 16:29",
+     "media": "Reuters",
+     "title": "Anthropic IPO stands alone as AI market jitters sideline others",
+     "site": "https://www.reuters.com",
+     "overlap": 0.14,
      "reprises": 1,
      "priority": false
     }
@@ -267,15 +315,6 @@
    "companyId": "perplexity",
    "name": "Perplexity",
    "candidates": [
-    {
-     "date": "2026-10-20 17:45",
-     "media": "Traders Union",
-     "title": "Zachary Perret: Perplexity AI finance tools to launch in Europe and UK",
-     "site": "https://tradersunion.com",
-     "overlap": 0.17,
-     "reprises": 0,
-     "priority": false
-    },
     {
      "date": "2026-10-21 08:08",
      "media": "Times Now",
@@ -292,12 +331,27 @@
    "name": "Crusoe",
    "candidates": [
     {
-     "date": "2026-10-21 08:51",
-     "media": "CNBC",
-     "title": "Crusoe CEO: Neoclouds will consolidate into handful of large operators",
-     "site": "https://www.cnbc.com",
-     "overlap": 0.12,
-     "reprises": 0,
+     "date": "2026-10-22 15:02",
+     "media": "Crusoe",
+     "title": "Crusoe and NBSF Announce $700M AI Factory Power Facility",
+     "site": "https://www.crusoe.ai",
+     "overlap": 0.0,
+     "reprises": 3,
+     "priority": false
+    }
+   ]
+  },
+  {
+   "companyId": "fluidstack",
+   "name": "Fluidstack",
+   "candidates": [
+    {
+     "date": "2026-10-22 05:00",
+     "media": "Winston-Salem Journal",
+     "title": "Fluidstack open house set for Oct. 28 in Wytheville",
+     "site": "https://journalnow.com",
+     "overlap": 0,
+     "reprises": 1,
      "priority": false
     }
    ]
