@@ -1,5 +1,27 @@
 [
  {
+  "id": "stripe-2026-10-21-treasury-agents",
+  "companyId": "stripe",
+  "date": "2026-10-21",
+  "title": "Stripe lance Treasury for agents, pour gérer la trésorerie via des agents d'IA",
+  "summary": "Stripe permet à des agents comme ChatGPT ou Claude de consulter les soldes, payer des factures et déplacer des fonds depuis Stripe Treasury.",
+  "detail": "Selon Stripe, les agents peuvent aujourd'hui consulter les soldes, payer des factures, transférer des fonds entre comptes et convertir des devises. La création de cartes est annoncée comme prochaine, et les plafonds de dépenses pour agents sont attendus dans les semaines à venir.\n\nLes startups choisissent les comptes et données accessibles, le mode lecture seule ou action, et les moments où une validation humaine est requise. L'accès passe par le serveur MCP de Stripe. Les comptes courants sont fournis par Fifth Third Bank, Stripe précisant n'être pas une banque.",
+  "impact": "Stripe étend son offre de services financiers aux agents d'IA et renforce sa place dans les paiements pilotés par des agents.",
+  "signal": "optimiste",
+  "rationale": "Un nouveau produit s'appuie sur l'infrastructure existante et suit la tendance des paiements par agents, sans chiffre de traction.",
+  "sources": [
+   {
+    "label": "Stripe, communiqué, 21/10/2026",
+    "url": "https://stripe.com/newsroom/news/treasury-for-agents"
+   },
+   {
+    "label": "Small Business Trends, 22/10/2026",
+    "url": "https://smallbiztrends.com/stripe-launches-treasury-for-agents/"
+   }
+  ],
+  "addedAt": "2026-10-22T12:18:39Z"
+ },
+ {
   "id": "erebor-2026-10-21-robinhood-rvi",
   "companyId": "erebor",
   "date": "2026-10-21",
