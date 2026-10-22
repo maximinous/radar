@@ -1,8 +1,357 @@
 {
- "generatedAt": "2026-10-21T20:08:03Z",
+ "generatedAt": "2026-10-22T05:53:27Z",
  "windowHours": 48,
- "headlinesRead": 0,
- "count": 0,
- "priorityCount": 0,
- "companies": []
+ "headlinesRead": 994,
+ "count": 32,
+ "priorityCount": 5,
+ "companies": [
+  {
+   "companyId": "together-ai",
+   "name": "Together AI",
+   "candidates": [
+    {
+     "date": "2026-10-22 01:02",
+     "media": "Stocktwits",
+     "title": "IBM Lands $240M Together AI Deal To Build Nvidia-Powered Neocloud Cluster",
+     "site": "https://stocktwits.com",
+     "overlap": 0.0,
+     "reprises": 1,
+     "priority": false
+    }
+   ]
+  },
+  {
+   "companyId": "mistral-ai",
+   "name": "Mistral AI",
+   "candidates": [
+    {
+     "date": "2026-10-20 11:27",
+     "media": "Presse-citron",
+     "title": "Une nouvelle IA française arrive fin novembre : après Mistral, c’est OVHCloud qui se lance dans la course",
+     "site": "https://www.presse-citron.net",
+     "overlap": 0.2,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-10-20 12:16",
+     "media": "AI Magazine",
+     "title": "Mistral AI: Sovereign AI and a €21bn Valuation Push",
+     "site": "https://aimagazine.com",
+     "overlap": 0.0,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-10-20 14:41",
+     "media": "Les Echos",
+     "title": "« S'ils nous voient comme concurrents, tant pis ou tant mieux » : OVHcloud lance son match avec Mistral en s'attaquant aux modèles d'IA",
+     "site": "https://www.lesechos.fr",
+     "overlap": 0.15,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-10-20 16:03",
+     "media": "Frandroid",
+     "title": "OVHcloud promet son propre LLM open source « très en avance sur son temps », et Octave Klaba tacle Mistral",
+     "site": "https://www.frandroid.com",
+     "overlap": 0.17,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-10-21 12:04",
+     "media": "Brief IA",
+     "title": "Mistral Unveils Voxtral 3, Ranked 3rd Globally in Transcription",
+     "site": "https://www.briefia.fr",
+     "overlap": 0.33,
+     "reprises": 0,
+     "priority": false
+    }
+   ]
+  },
+  {
+   "companyId": "deel",
+   "name": "Deel",
+   "candidates": [
+    {
+     "date": "2026-10-21 16:28",
+     "media": "VentureBeat",
+     "title": "Deel launches Pangaea AI models for HR and payroll, betting specialists can cut the cost of answers by 98%",
+     "site": "https://venturebeat.com",
+     "overlap": 0.0,
+     "reprises": 1,
+     "priority": false
+    }
+   ]
+  },
+  {
+   "companyId": "erebor",
+   "name": "Erebor Bank",
+   "candidates": [
+    {
+     "date": "2026-10-21 16:43",
+     "media": "Benzinga",
+     "title": "Robinhood’s Retail Fund Buys $30 Million Stake in Erebor Bank, Co-Founded by Palmer Luckey",
+     "site": "https://www.benzinga.com",
+     "overlap": 0,
+     "reprises": 3,
+     "priority": true
+    }
+   ]
+  },
+  {
+   "companyId": "stripe",
+   "name": "Stripe",
+   "candidates": [
+    {
+     "date": "2026-10-20 09:29",
+     "media": "Startup Fortune",
+     "title": "Stripe buys OpenRouter for 7.5 billion dollars and the pipe stops being neutral",
+     "site": "https://startupfortune.com",
+     "overlap": 0.0,
+     "reprises": 1,
+     "priority": true
+    },
+    {
+     "date": "2026-10-21 16:04",
+     "media": "CoinMarketCap",
+     "title": "Plasma (XPL) Surges 8.94% Amid Token Unlock, Stripe Partnership",
+     "site": "https://coinmarketcap.com",
+     "overlap": 0.14,
+     "reprises": 1,
+     "priority": false
+    },
+    {
+     "date": "2026-10-21 21:55",
+     "media": "GeekWire",
+     "title": "Microsoft taps Stripe co-founder John Collison for its board as two longtime directors depart",
+     "site": "https://www.geekwire.com",
+     "overlap": 0.1,
+     "reprises": 1,
+     "priority": false
+    },
+    {
+     "date": "2026-10-22 01:49",
+     "media": "KuCoin",
+     "title": "Stripe and Anthropic partner to integrate Claude Duet with Link Proxy Wallet",
+     "site": "https://www.kucoin.com",
+     "overlap": 0.25,
+     "reprises": 0,
+     "priority": false
+    }
+   ]
+  },
+  {
+   "companyId": "kraken",
+   "name": "Kraken",
+   "candidates": [
+    {
+     "date": "2026-10-20 21:47",
+     "media": "CoinMarketCap",
+     "title": "Payward Closes Bitnomial Acquisition, Gains Full US Derivatives Licenses",
+     "site": "https://coinmarketcap.com",
+     "overlap": 0.12,
+     "reprises": 2,
+     "priority": true
+    },
+    {
+     "date": "2026-10-21 03:12",
+     "media": "CoinMarketCap",
+     "title": "Kraken Eyes $20B IPO After Raising $800M in Two Months",
+     "site": "https://coinmarketcap.com",
+     "overlap": 0.0,
+     "reprises": 1,
+     "priority": false
+    }
+   ]
+  },
+  {
+   "companyId": "polymarket",
+   "name": "Polymarket",
+   "candidates": [
+    {
+     "date": "2026-10-21 01:30",
+     "media": "The Market Periodical",
+     "title": "Le titre SpaceX sous pression alors que les traders de Polymarket parient sur une fusion avec Tesla",
+     "site": "https://themarketperiodical.com",
+     "overlap": 0.22,
+     "reprises": 0,
+     "priority": true
+    },
+    {
+     "date": "2026-10-21 09:20",
+     "media": "Inshorts",
+     "title": "Polymarket CEO used company funds for private jets, future investors uncover 'theft' | Thiel told Coplan to appoint a COO but he hasn't | Inshorts",
+     "site": "https://inshorts.com",
+     "overlap": 0.17,
+     "reprises": 3,
+     "priority": false
+    },
+    {
+     "date": "2026-10-21 10:46",
+     "media": "Yahoo Finance",
+     "title": "ICE-Backed Polymarket CEO Used Company Money for Private Jets, Rent, Bloomberg Reports",
+     "site": "https://finance.yahoo.com",
+     "overlap": 0.27,
+     "reprises": 2,
+     "priority": false
+    },
+    {
+     "date": "2026-10-20 19:03",
+     "media": "Dealroom",
+     "title": "Polymarket's investors made its CEO repay private-jet and rent spending, and now push for a COO as Kalshi pulls ahead",
+     "site": "https://app.dealroom.co",
+     "overlap": 0.36,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-10-21 00:18",
+     "media": "Yahoo Sports",
+     "title": "Dillon Brooks Roasting LeBron James’ 76ers Move And Polymarket Deal In New Kalshi Ad Goes Viral",
+     "site": "https://sports.yahoo.com",
+     "overlap": 0.18,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-10-21 13:22",
+     "media": "Gaming America",
+     "title": "Radio Show Host Regular Joe Giganti Sues Wisconsin Over Polymarket Election Wagers",
+     "site": "https://gamingamerica.com",
+     "overlap": 0.09,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-10-21 14:37",
+     "media": "TOKENPOST",
+     "title": "Dragonfly Partner Disputes Private-Jet Claim About Polymarket CEO",
+     "site": "https://www.tokenpost.com",
+     "overlap": 0.25,
+     "reprises": 0,
+     "priority": false
+    }
+   ]
+  },
+  {
+   "companyId": "anthropic",
+   "name": "Anthropic",
+   "candidates": [
+    {
+     "date": "2026-10-21 13:00",
+     "media": "BlogNT",
+     "title": "OpenAI levée de fonds : 30 Md$ à 1 400 Md$ avant l'IPO d'Anthropic",
+     "site": "https://www.blog-nouvelles-technologies.fr",
+     "overlap": 0.33,
+     "reprises": 0,
+     "priority": true
+    },
+    {
+     "date": "2026-10-22 04:15",
+     "media": "Stéphane Larue News",
+     "title": "Claude Duet : Anthropic lance un agent IA proactif, absent de France",
+     "site": "https://stephanelarue.com",
+     "overlap": 0.14,
+     "reprises": 18,
+     "priority": false
+    },
+    {
+     "date": "2026-10-22 02:11",
+     "media": "조선일보",
+     "title": "Anthropic CEO Defends AI Race as Safety Strategy",
+     "site": "https://www.chosun.com",
+     "overlap": 0.2,
+     "reprises": 4,
+     "priority": false
+    },
+    {
+     "date": "2026-10-21 20:18",
+     "media": "Zonebourse Suisse",
+     "title": "Anthropic dévoile l’application d’agent d’intelligence artificielle (IA) Claude Duet",
+     "site": "https://ch.zonebourse.com",
+     "overlap": 0.14,
+     "reprises": 3,
+     "priority": false
+    },
+    {
+     "date": "2026-10-21 02:11",
+     "media": "디지털투데이",
+     "title": "Google former CEO Eric Schmidt held about 1 percent stake in Anthropic, report",
+     "site": "https://www.digitaltoday.co.kr",
+     "overlap": 0.1,
+     "reprises": 2,
+     "priority": false
+    },
+    {
+     "date": "2026-10-21 12:00",
+     "media": "Dealroom",
+     "title": "Anthropic's Dario Amodei answers a safety critic point by point, conceding three mistakes as the company heads for IPO",
+     "site": "https://app.dealroom.co",
+     "overlap": 0.08,
+     "reprises": 2,
+     "priority": false
+    },
+    {
+     "date": "2026-10-22 00:25",
+     "media": "Digital Trends",
+     "title": "Anthropic unveils Claude Duet, its answer to AI agents like Dots",
+     "site": "https://www.digitaltrends.com",
+     "overlap": 0.14,
+     "reprises": 2,
+     "priority": false
+    }
+   ]
+  },
+  {
+   "companyId": "perplexity",
+   "name": "Perplexity",
+   "candidates": [
+    {
+     "date": "2026-10-20 17:45",
+     "media": "Traders Union",
+     "title": "Zachary Perret: Perplexity AI finance tools to launch in Europe and UK",
+     "site": "https://tradersunion.com",
+     "overlap": 0.17,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-10-21 08:08",
+     "media": "Times Now",
+     "title": "Perplexity Launches AI Computer For Mac, Lets Users Complete Tasks Without Internet",
+     "site": "https://www.timesnownews.com",
+     "overlap": 0.22,
+     "reprises": 0,
+     "priority": false
+    }
+   ]
+  },
+  {
+   "companyId": "crusoe",
+   "name": "Crusoe",
+   "candidates": [
+    {
+     "date": "2026-10-21 08:50",
+     "media": "CNBC",
+     "title": "Crusoe CEO: Neoclouds will consolidate into handful of large operators",
+     "site": "https://www.cnbc.com",
+     "overlap": 0.12,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-10-21 20:29",
+     "media": "Crusoe",
+     "title": "Open model lifecycle: Crusoe Managed RL and Managed MLflow",
+     "site": "https://www.crusoe.ai",
+     "overlap": 0.0,
+     "reprises": 0,
+     "priority": false
+    }
+   ]
+  }
+ ]
 }
