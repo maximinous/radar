@@ -1,5 +1,161 @@
 [
  {
+  "id": "erebor-2026-10-21-robinhood-rvi",
+  "companyId": "erebor",
+  "date": "2026-10-21",
+  "title": "Le fonds Robinhood Ventures Fund I investit 30 millions de dollars dans Erebor Bank",
+  "summary": "Le fonds RVI de Robinhood annonce avoir acheté pour 30 millions de dollars d'actions de préférence d'Erebor Bank.",
+  "detail": "Robinhood indique que Robinhood Ventures Fund I a acquis des actions de préférence d'Erebor Bank, National Association, pour 30 millions de dollars. Le communiqué du 21 octobre ne précise pas, dans la partie consultée, la valorisation retenue. Plusieurs médias spécialisés reprennent l'information le jour même.\n\nRVI est un fonds coté qui donne aux particuliers une exposition à des sociétés non cotées.",
+  "impact": "Erebor ajoute un investisseur institutionnel connu du grand public à son capital et gagne en visibilité auprès des particuliers.",
+  "signal": "optimiste",
+  "rationale": "Un nouvel investissement de 30 millions de dollars valide la banque, sans valorisation publiée.",
+  "sources": [
+   {
+    "label": "Robinhood, communiqué, 21/10/2026",
+    "url": "https://robinhood.com/us/en/newsroom/"
+   }
+  ],
+  "addedAt": "2026-10-22T06:15:21Z"
+ },
+ {
+  "id": "deel-2026-10-21-pangaea",
+  "companyId": "deel",
+  "date": "2026-10-21",
+  "title": "Deel lance Pangaea, des modèles d'IA spécialisés pour les RH et la paie",
+  "summary": "Deel présente Pangaea K1 (règles d'emploi) et P1 (paie), intégrés à son assistant Deel AI, ainsi qu'Emet, sa nouvelle activité de données d'entraînement.",
+  "detail": "K1 est un modèle de connaissances adapté d'un modèle de 9 milliards de paramètres, entraîné sur environ 1,2 milliard de jetons de documentation interne. P1, dédié à la paie, s'appuie sur la famille Nemotron de Nvidia avec un entraînement complémentaire d'AI21 Labs.\n\nSur le test EmBench Global Work (601 questions), K1 obtient 70 contre 75 pour le meilleur modèle, avec une réponse médiane en 7,7 secondes contre 14,8 à 28,4 secondes pour quatre modèles mieux notés. Ces résultats sont fournis par Deel. Deel annonce un coût par réponse environ 49 fois plus bas, et son PDG Alex Bouaziz parle de baisses de plus de 90 %.\n\nPangaea est inclus dans les abonnements existants de Deel AI, sans facturation à la question. Emet vend des évaluations et des exemples d'entraînement rédigés par des experts, et Deel dit travailler déjà avec de grands laboratoires d'IA, sans les nommer.",
+  "impact": "Deel réduit son coût de calcul par réponse et ouvre une activité de services de données pour l'IA.",
+  "signal": "optimiste",
+  "rationale": "Des modèles maison moins chers et plus rapides, mais des performances mesurées par Deel seule.",
+  "sources": [
+   {
+    "label": "VentureBeat, 21/10/2026",
+    "url": "https://venturebeat.com/technology/deel-launches-pangaea-ai-models-for-hr-and-payroll-betting-specialists-can-cut-the-cost-of-answers"
+   }
+  ],
+  "addedAt": "2026-10-22T06:15:21Z"
+ },
+ {
+  "id": "anthropic-2026-10-21-claude-duet",
+  "companyId": "anthropic",
+  "date": "2026-10-21",
+  "title": "Anthropic lance Claude Duet, un agent proactif en préversion pour les abonnés américains",
+  "summary": "Anthropic présente Claude Duet, un agent qui surveille les applications connectées et travaille en arrière-plan, face à Muse de Meta et Dots d'OpenAI.",
+  "detail": "Duet fonctionne sur iOS, Android et claude.ai, avec le modèle Opus 5.5, dans une machine virtuelle distante : le travail continue quand l'utilisateur ferme son téléphone ou son ordinateur. Il prépare des briefings, relance des factures impayées, rédige des messages clients, produit des prévisions et crée des applications web. Il s'appuie sur plus de 6 000 connecteurs, dont QuickBooks, Stripe, HubSpot, Docusign, Gusto et Shopify.\n\nL'accès se fait par liste d'attente, réservée aux abonnés Pro et Max aux États-Unis ; Team et Enterprise ne sont pas inclus, et aucune API n'est annoncée. Duet n'est pas facturé à part : il consomme le quota d'usage existant. Il doit obtenir l'accord de l'utilisateur avant tout paiement, envoi, signature ou suppression.",
+  "impact": "Anthropic étend Claude vers un agent grand public toujours actif, qui pousse les abonnés vers des forfaits plus élevés.",
+  "signal": "optimiste",
+  "rationale": "Un nouveau produit sur un segment concurrentiel, encore limité aux États-Unis et en préversion.",
+  "sources": [
+   {
+    "label": "VentureBeat, 21/10/2026",
+    "url": "https://venturebeat.com/technology/anthropics-answer-to-muse-is-here-claude-duet-a-mobile-and-desktop-ai-agent-that-takes-actions-proactively"
+   },
+   {
+    "label": "PYMNTS, 21/10/2026",
+    "url": "https://www.pymnts.com/artificial-intelligence-2/2026/anthropics-new-ai-agent-purchases-business-supplies/"
+   }
+  ],
+  "addedAt": "2026-10-22T06:15:21Z"
+ },
+ {
+  "id": "stripe-2026-10-21-claude-duet-link",
+  "companyId": "stripe",
+  "date": "2026-10-21",
+  "title": "Claude Duet d'Anthropic paie ses achats avec le portefeuille Link de Stripe",
+  "summary": "Le nouvel agent d'Anthropic achète des fournitures pour les entreprises en passant par Link, le portefeuille numérique de Stripe.",
+  "detail": "Selon PYMNTS, Claude Duet confirme l'article avec l'utilisateur, puis Link demande d'approuver la dépense. Le paiement se fait avec une carte virtuelle, ce qui évite de partager le vrai numéro de carte. Duet peut aussi utiliser Shop Pay de Shopify pour régler sur des boutiques en ligne.\n\nStripe figure aussi parmi les connecteurs cités au lancement de Duet.",
+  "impact": "Link devient un moyen de paiement pour agents d'IA, ce qui étend l'usage de Stripe dans le commerce piloté par IA.",
+  "signal": "optimiste",
+  "rationale": "Un nouveau cas d'usage de paiement par agent, avec un partenaire majeur de l'IA.",
+  "sources": [
+   {
+    "label": "PYMNTS, 21/10/2026",
+    "url": "https://www.pymnts.com/artificial-intelligence-2/2026/anthropics-new-ai-agent-purchases-business-supplies/"
+   },
+   {
+    "label": "VentureBeat, 21/10/2026",
+    "url": "https://venturebeat.com/technology/anthropics-answer-to-muse-is-here-claude-duet-a-mobile-and-desktop-ai-agent-that-takes-actions-proactively"
+   }
+  ],
+  "addedAt": "2026-10-22T06:15:21Z"
+ },
+ {
+  "id": "stripe-2026-10-21-collison-microsoft",
+  "companyId": "stripe",
+  "date": "2026-10-21",
+  "title": "Microsoft propose John Collison, cofondateur de Stripe, pour son conseil d'administration",
+  "summary": "Microsoft inscrit John Collison, président de Stripe, parmi ses candidats au conseil, tandis que Reid Hoffman et Hugh Johnston ne se représentent pas.",
+  "detail": "Le document de procuration de Microsoft présente John Collison, 36 ans, cofondateur et président de Stripe depuis 2010. Son mandat commencerait le 8 décembre 2026 s'il est élu à l'assemblée annuelle, sans comité attribué à ce stade.\n\nReid Hoffman et Hugh Johnston, neuf ans de mandat chacun, quittent le conseil en décembre 2026.",
+  "impact": "Le dirigeant de Stripe gagne un siège dans le conseil d'un grand partenaire technologique, ce qui renforce ses liens avec Microsoft.",
+  "signal": "neutre",
+  "rationale": "Une nomination à titre personnel, sans effet direct sur les comptes de Stripe.",
+  "sources": [
+   {
+    "label": "Microsoft, document de procuration (SEC), 21/10/2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000789019/000119312526427849/d61756ddef14a.htm"
+   }
+  ],
+  "addedAt": "2026-10-22T06:15:21Z"
+ },
+ {
+  "id": "anthropic-2026-10-21-hhs-contrat-continuite",
+  "companyId": "anthropic",
+  "date": "2026-10-21",
+  "title": "Le ministère américain de la Santé prévoit un contrat sans appel d'offres avec Anthropic",
+  "summary": "HHS veut attribuer à Anthropic un contrat de continuité de service pour maintenir Claude chez ses agents, selon ExecutiveGov.",
+  "detail": "Selon ExecutiveGov, l'avis publié sur SAM.gov prévoit de maintenir Claude for Enterprise et Claude for Government pour le personnel autorisé du ministère : chat, code, fonctions d'agent et API sécurisée. La valeur n'est pas indiquée et aucune date d'attribution n'est donnée.\n\nL'avis précède l'expiration, le 31 octobre, de l'accord GSA OneGov à un dollar, et HHS prévoit un futur accord-cadre multi-attributaire pour les modèles d'IA de pointe.",
+  "impact": "Anthropic conserve un client public majeur pendant la transition vers un nouvel accord-cadre.",
+  "signal": "optimiste",
+  "rationale": "Un contrat de continuité confirme l'usage de Claude, mais son montant et son calendrier restent inconnus.",
+  "sources": [
+   {
+    "label": "ExecutiveGov, 21/10/2026",
+    "url": "https://www.executivegov.com/articles/hhs-anthropic-claude-ai-contract"
+   }
+  ],
+  "addedAt": "2026-10-22T06:15:21Z"
+ },
+ {
+  "id": "mistral-ai-2026-10-21-nvidia-physics-ai",
+  "companyId": "mistral-ai",
+  "date": "2026-10-21",
+  "title": "Mistral AI et Nvidia s'associent pour accélérer la conception industrielle avec l'IA physique",
+  "summary": "Mistral combine Mistral Large 4 et son IA physique avec les bibliothèques et Omniverse de Nvidia pour l'aéronautique, l'automobile et les semi-conducteurs.",
+  "detail": "Les deux sociétés visent un flux continu entre conception, simulation et entraînement des modèles. Elles prévoient de publier des benchmarks et des jeux de données ouverts pour comparer des modèles de physique et des agents travaillant avec des logiciels d'ingénierie.\n\nSelon The Decoder, Mistral Large 4 compte environ mille milliards de paramètres, a été entraîné sur 3 800 GPU Grace Blackwell en Europe et doit sortir en poids ouverts fin octobre. Mistral vise un gigawatt de capacité de calcul d'ici 2030.",
+  "impact": "Mistral renforce son positionnement dans l'IA industrielle avec le principal fournisseur de puces.",
+  "signal": "optimiste",
+  "rationale": "Un partenariat structurant avec Nvidia dans un secteur qui est un axe stratégique pour Mistral.",
+  "sources": [
+   {
+    "label": "The Decoder, 21/10/2026",
+    "url": "https://the-decoder.com/mistral-and-nvidia-want-to-speed-up-industrial-design-with-physics-ai/"
+   }
+  ],
+  "addedAt": "2026-10-22T06:15:21Z"
+ },
+ {
+  "id": "crusoe-2026-10-21-managed-rl-mlflow",
+  "companyId": "crusoe",
+  "date": "2026-10-21",
+  "title": "Crusoe Cloud présente Managed RL et Managed MLflow pour le cycle de vie des modèles ouverts",
+  "summary": "Crusoe ouvre en préversion privée deux services gérés : un apprentissage par renforcement pour modèles ouverts et un MLflow hébergé.",
+  "detail": "Managed RL permet d'affiner des modèles ouverts avec des retours itératifs et des critères de récompense. L'utilisateur garde la main sur le modèle, les données et la boucle d'entraînement ; Crusoe gère l'infrastructure. Le service propose un SDK Python compatible Tinker et des recettes open source, gratuit pendant la préversion.\n\nManaged MLflow est un service géré pour l'évaluation, le suivi et l'optimisation des applications LLM, avec traçage des appels et une passerelle de routage entre modèles. Il tourne à côté des GPU de Crusoe.",
+  "impact": "Crusoe complète son cloud d'IA avec des outils logiciels, au-delà de la simple capacité de calcul.",
+  "signal": "optimiste",
+  "rationale": "Une montée en gamme logicielle, encore en préversion privée.",
+  "sources": [
+   {
+    "label": "Crusoe, blog, 21/10/2026",
+    "url": "https://www.crusoe.ai/resources/blog"
+   },
+   {
+    "label": "Crusoe, accès anticipé Managed RL",
+    "url": "https://www.crusoe.ai/managed-reinforcement-learning/request"
+   }
+  ],
+  "addedAt": "2026-10-22T06:15:21Z"
+ },
+ {
   "id": "crusoe-2026-10-21-polar-norvege-40mw",
   "companyId": "crusoe",
   "date": "2026-10-21",
