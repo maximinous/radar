@@ -1,5 +1,151 @@
 [
  {
+  "id": "crusoe-2026-10-22-nbsf-700m",
+  "companyId": "crusoe",
+  "date": "2026-10-22",
+  "title": "Crusoe obtient une facilité de 700 millions de dollars de Neuberger pour financer son énergie sur site",
+  "summary": "Neuberger Specialty Finance accorde à Crusoe une facilité de 700 millions de dollars pour acheter des équipements de production d'électricité.",
+  "detail": "Le financement sert à acquérir des générateurs au gaz qui alimentent les centres de données IA de Crusoe directement sur site. Il est garanti par des équipements de production d'électricité récemment commandés. Aucun site précis n'est nommé dans le communiqué.\n\nNeuberger Specialty Finance, créée en 2018, dit avoir investi plus de 16 milliards de dollars depuis sa création. Crusoe rappelle de son côté plus de 6 GW de capacité brute sous contrat et sa Série F de 3,9 milliards de dollars de septembre 2026.",
+  "impact": "Crusoe sécurise de la dette adossée à ses équipements électriques, ce qui accélère la construction de ses usines d'IA sans mobiliser davantage de capital.",
+  "signal": "optimiste",
+  "rationale": "Un financement de 700 millions de dollars adossé à des actifs confirme l'accès de Crusoe à la dette pour tenir son rythme de construction.",
+  "sources": [
+   {
+    "label": "Crusoe, communiqué, 22/10/2026",
+    "url": "https://www.crusoe.ai/resources/newsroom/neuberger-and-crusoe-announce-700-million-facility"
+   }
+  ],
+  "addedAt": "2026-10-23T06:19:50Z"
+ },
+ {
+  "id": "crusoe-2026-10-22-araico-paraguay",
+  "companyId": "crusoe",
+  "date": "2026-10-22",
+  "title": "Crusoe s'associe à Araico pour un cloud d'IA au barrage d'Itaipú, au Paraguay",
+  "summary": "Crusoe prévoit un site de 106 MW de capacité informatique à côté du barrage d'Itaipú, son premier déploiement dédié en Amérique latine.",
+  "detail": "Araico, développeur paraguayen d'énergie et d'infrastructures, pilote le développement local et le site, situé près de la sous-station d'Itaipú. Crusoe gère et exploite le calcul pour Crusoe Cloud. Le projet doit atteindre 106 MW, avec une option d'environ 280 MW à long terme, et une première mise en service à la mi-2027.\n\nLe site s'alimente directement en électricité hydraulique. Aucun montant d'investissement n'est donné ; le sous-secrétaire d'État américain Christopher Landau parle du plus grand investissement privé étranger de l'histoire du Paraguay.",
+  "impact": "Crusoe ouvre une région à énergie renouvelable bon marché pour servir ses clients américains et la demande d'Amérique latine.",
+  "signal": "optimiste",
+  "rationale": "Un premier site latino-américain adossé à une énergie hydraulique abondante, avec un soutien public affiché.",
+  "sources": [
+   {
+    "label": "Crusoe, communiqué, 22/10/2026",
+    "url": "https://www.crusoe.ai/resources/newsroom/crusoe-araico-hydroelectric-ai-infrastructure-partnership"
+   },
+   {
+    "label": "Unite.AI, 22/10/2026",
+    "url": "https://www.unite.ai/crusoe-and-araico-plan-ai-cloud-deployment-at-itaipu-dam-in-paraguay/"
+   }
+  ],
+  "addedAt": "2026-10-23T06:19:50Z"
+ },
+ {
+  "id": "neura-robotics-2026-10-22-robogym-tum",
+  "companyId": "neura-robotics",
+  "date": "2026-10-22",
+  "title": "NEURA Robotics et la TUM ouvrent le RoboGym à Munich",
+  "summary": "Le centre d'entraînement RoboGym ouvre près de l'aéroport de Munich, sur plus de 2 300 m², avec environ 17 millions d'euros investis sur trois ans.",
+  "detail": "Le TUM RoboGym, réalisé avec l'institut MIRMI de l'Université technique de Munich, réunit recherche, entraînement de robots et applications industrielles. NEURA apporte environ 11 millions d'euros sur les 17 prévus. Des partenaires y entraînent des procédés concrets depuis septembre 2026, dans plus de dix secteurs.\n\nMunich lance un réseau international de NEURA Gyms : des sites sont annoncés en Europe, aux États-Unis et en Chine, ainsi qu'un autre avec la RWTH Aachen.",
+  "impact": "NEURA se dote d'une source de données d'entraînement physiques et d'un lieu de démonstration pour ses clients industriels.",
+  "signal": "optimiste",
+  "rationale": "Le centre est ouvert et déjà utilisé, et il sert de modèle à d'autres sites.",
+  "sources": [
+   {
+    "label": "NEURA Robotics, communiqué, 22/10/2026",
+    "url": "https://neura-robotics.com/tum-robogym-munich-4ne1-gen4-launch/"
+   },
+   {
+    "label": "Robotics Tomorrow, 22/10/2026",
+    "url": "https://www.roboticstomorrow.com/news/2026/10/22/a-powerhouse-for-physical-ai-neura-robotics-and-tum-open-robogym-in-munich/27287"
+   }
+  ],
+  "addedAt": "2026-10-23T06:19:50Z"
+ },
+ {
+  "id": "neura-robotics-2026-10-22-4ne1-gen4",
+  "companyId": "neura-robotics",
+  "date": "2026-10-22",
+  "title": "NEURA Robotics dévoile le 4NE1 Gen 4, son humanoïde conçu pour la série",
+  "summary": "Le 4NE1 Gen 4 est 20 % plus léger que son prédécesseur et se prépare à la production en série.",
+  "detail": "Présenté à l'ouverture du RoboGym, le robot a une peau textile noire, des mains plus précises et des membres dotés de réflexes intégrés. Il fonctionne avec Neuron AI, le modèle d'IA physique de NEURA, qui combine vision, toucher, force et son. Les compétences se partagent entre robots via le Neuraverse.\n\nAucun prix, nombre de commandes ni calendrier de production n'est communiqué. Le robot est déjà en service dans les NEURA Gyms.",
+  "impact": "NEURA montre une génération pensée pour la fabrication en série, étape clé avant des livraisons à grande échelle.",
+  "signal": "neutre",
+  "rationale": "Le produit avance, mais sans prix, commandes ni date de production publiés.",
+  "sources": [
+   {
+    "label": "NEURA Robotics, communiqué, 22/10/2026",
+    "url": "https://neura-robotics.com/tum-robogym-munich-4ne1-gen4-launch/"
+   },
+   {
+    "label": "Humanoid Robotics Technology, 22/10/2026",
+    "url": "https://humanoidroboticstechnology.com/industry-news/neura-robotics-unveils-4ne1-gen-4-and-opens-robogym-with-tum/"
+   }
+  ],
+  "addedAt": "2026-10-23T06:19:50Z"
+ },
+ {
+  "id": "polymarket-2026-10-22-licenciement-modabber",
+  "companyId": "polymarket",
+  "date": "2026-10-22",
+  "title": "Polymarket aurait licencié son directeur marketing, proche du PDG Shayne Coplan",
+  "summary": "Selon le New York Post, Matthew Modabber a été écarté après une enquête interne ; Polymarket n'a pas commenté.",
+  "detail": "Le départ de ce directeur marketing, en poste depuis janvier 2024, suivrait une enquête interne sur plusieurs incidents, dont une fausse page web montrant des gains inventés, révélée par le Wall Street Journal en juin. Le New York Post cite des sources anonymes ; les conditions de départ seraient en cours de négociation.\n\nLa CFTC enquête sur ces faits, sans qu'aucune faute ne soit établie. Le conseil aurait jugé que ce dirigeant freinait l'image plus mature voulue avant une éventuelle introduction en bourse.",
+  "impact": "Polymarket écarte un proche du PDG sous pression réglementaire, ce qui renforce sa gouvernance avant une éventuelle cotation.",
+  "signal": "prudent",
+  "rationale": "Information de presse sur sources anonymes, avec une enquête de la CFTC en cours.",
+  "sources": [
+   {
+    "label": "CoinDesk, 23/10/2026 (d'après le New York Post, 22/10/2026)",
+    "url": "https://www.coindesk.com/markets/2026/10/23/polymarket-has-reportedly-fired-its-marketing-chief-also-a-close-friend-of-the-ceo"
+   },
+   {
+    "label": "Prediction News",
+    "url": "https://predictionnews.com/story/polymarket-fires-chief-marketing-officer-after-internal-probe"
+   }
+  ],
+  "addedAt": "2026-10-23T06:19:50Z"
+ },
+ {
+  "id": "kraken-2026-10-22-xstocks-1000",
+  "companyId": "kraken",
+  "date": "2026-10-22",
+  "title": "Kraken annonce plus de 1 000 xStocks, ses actions tokenisées",
+  "summary": "La gamme xStocks de Kraken dépasse 1 000 instruments, contre 131 dans sa FAQ de septembre.",
+  "detail": "Les xStocks sont des jetons émis par Backed Assets (Jersey), adossés 1 pour 1 à l'action sous-jacente et conservés auprès d'établissements dépositaires. Ils donnent une exposition au cours, sans droit de vote ni propriété des titres.\n\nLe service s'adresse aux clients hors États-Unis ; les personnes américaines en sont exclues.",
+  "impact": "Kraken élargit nettement son offre d'actions tokenisées, un axe de croissance face aux courtiers traditionnels et aux plateformes concurrentes.",
+  "signal": "optimiste",
+  "rationale": "La gamme a été multipliée par plus de sept en un mois selon les chiffres de Kraken.",
+  "sources": [
+   {
+    "label": "The Defiant, 22/10/2026",
+    "url": "https://thedefiant.io/news/cefi/kraken-says-its-xstocks-lineup-now-exceeds-1-000"
+   },
+   {
+    "label": "Crypto Briefing, 22/10/2026",
+    "url": "https://cryptobriefing.com/kraken-xstocks-lineup-tops-1000-instruments/"
+   }
+  ],
+  "addedAt": "2026-10-23T06:19:50Z"
+ },
+ {
+  "id": "mistral-ai-2026-10-22-enact-business-angel",
+  "companyId": "mistral-ai",
+  "date": "2026-10-22",
+  "title": "Arthur Mensch, PDG de Mistral AI, soutient la start-up suisse de robotique Enact",
+  "summary": "Enact Intelligence lève 30 millions de dollars en pre-seed, avec Arthur Mensch et Yann LeCun comme business angels.",
+  "detail": "Le tour est mené par Redalpine, Notion Capital et Firstminute Capital. Thomas Wolf, de Hugging Face, est aussi au capital. Enact développe des robots généralistes qui perçoivent la force et le toucher par leurs actionneurs, plutôt que par la seule caméra.\n\nArthur Mensch investit à titre personnel : il s'agit d'un lien avec l'écosystème de l'IA physique, pas d'un investissement de Mistral AI.",
+  "impact": "Le dirigeant de Mistral se positionne sur la robotique, un domaine voisin des modèles que la société développe avec ses partenaires industriels.",
+  "signal": "neutre",
+  "rationale": "Investissement personnel du dirigeant, sans engagement de Mistral AI.",
+  "sources": [
+   {
+    "label": "Tech.eu, 22/10/2026",
+    "url": "https://tech.eu/2026/10/22/mistral-boss-and-yann-lecun-back-swiss-robotics-startup-enact-in-30m-pre-seed-round/"
+   }
+  ],
+  "addedAt": "2026-10-23T06:19:50Z"
+ },
+ {
   "id": "stripe-2026-10-21-treasury-agents",
   "companyId": "stripe",
   "date": "2026-10-21",
