@@ -1,25 +1,10 @@
 {
- "generatedAt": "2026-10-22T20:10:07Z",
+ "generatedAt": "2026-10-23T05:54:39Z",
  "windowHours": 48,
- "headlinesRead": 972,
- "count": 31,
- "priorityCount": 5,
+ "headlinesRead": 975,
+ "count": 32,
+ "priorityCount": 6,
  "companies": [
-  {
-   "companyId": "together-ai",
-   "name": "Together AI",
-   "candidates": [
-    {
-     "date": "2026-10-22 01:02",
-     "media": "Stocktwits",
-     "title": "IBM Lands $240M Together AI Deal To Build Nvidia-Powered Neocloud Cluster",
-     "site": "https://stocktwits.com",
-     "overlap": 0.0,
-     "reprises": 1,
-     "priority": false
-    }
-   ]
-  },
   {
    "companyId": "mistral-ai",
    "name": "Mistral AI",
@@ -41,6 +26,15 @@
      "overlap": 0.33,
      "reprises": 0,
      "priority": false
+    },
+    {
+     "date": "2026-10-21 15:51",
+     "media": "HPCwire",
+     "title": "CERN Partners With Mistral to Build a New Kind of AI for Physics",
+     "site": "https://www.hpcwire.com",
+     "overlap": 0.2,
+     "reprises": 0,
+     "priority": false
     }
    ]
   },
@@ -49,7 +43,7 @@
    "name": "Deel",
    "candidates": [
     {
-     "date": "2026-10-22 17:19",
+     "date": "2026-10-22 18:01",
      "media": "CPA Practice Advisor",
      "title": "Deel Launches AI Lab and LLMs",
      "site": "https://www.cpapracticeadvisor.com",
@@ -112,11 +106,11 @@
      "priority": false
     },
     {
-     "date": "2026-10-20 23:01",
-     "media": "Sportcal",
-     "title": "AbbVie continues sports push with McLaren; Mercedes and Stripe partner",
-     "site": "https://www.sportcal.com",
-     "overlap": 0.29,
+     "date": "2026-10-23 03:32",
+     "media": "StreetInsider",
+     "title": "RouteStack.ai by Custom Travel Solutions Expands to Deliver Native Stripe ACP Integration",
+     "site": "https://www.streetinsider.com",
+     "overlap": 0.11,
      "reprises": 0,
      "priority": false
     }
@@ -127,12 +121,21 @@
    "name": "Kraken",
    "candidates": [
     {
-     "date": "2026-10-20 21:47",
-     "media": "CoinMarketCap",
-     "title": "Payward Closes Bitnomial Acquisition, Gains Full US Derivatives Licenses",
-     "site": "https://coinmarketcap.com",
-     "overlap": 0.12,
-     "reprises": 2,
+     "date": "2026-10-22 22:01",
+     "media": "StreetInsider",
+     "title": "Crypto News: Kraken Parent Agrees to Buy Saldo Bank as Remittix’s $33M Raise Sharpens Its Crypto-to-Bank Pitch",
+     "site": "https://www.streetinsider.com",
+     "overlap": 0,
+     "reprises": 1,
+     "priority": true
+    },
+    {
+     "date": "2026-10-23 01:04",
+     "media": "OneSafe",
+     "title": "Kraken Buys a Bank: What Crypto Banking Means Now",
+     "site": "https://www.onesafe.io",
+     "overlap": 0,
+     "reprises": 1,
      "priority": true
     },
     {
@@ -140,25 +143,16 @@
      "media": "CoinMarketCap",
      "title": "Dash (DASH) Surges 3.03% on Privacy Coin Rotation and Kraken Buy",
      "site": "https://coinmarketcap.com",
-     "overlap": 0.0,
+     "overlap": 0,
      "reprises": 0,
      "priority": true
-    },
-    {
-     "date": "2026-10-21 03:12",
-     "media": "CoinMarketCap",
-     "title": "Kraken Eyes $20B IPO After Raising $800M in Two Months",
-     "site": "https://coinmarketcap.com",
-     "overlap": 0.0,
-     "reprises": 1,
-     "priority": false
     },
     {
      "date": "2026-10-22 05:32",
      "media": "Cowcotland.com",
      "title": "Amateurs d'oreilles de chat, Razer dévoile son nouveau casque Kraken Kitty V3",
      "site": "https://www.cowcotland.com",
-     "overlap": 0.0,
+     "overlap": 0,
      "reprises": 0,
      "priority": false
     },
@@ -167,7 +161,16 @@
      "media": "Yahoo Finance",
      "title": "Snappy Kraken Introduces Office Hub, Bringing a Missing Layer of Marketing Administration to Wealth Management Firms",
      "site": "https://finance.yahoo.com",
-     "overlap": 0.0,
+     "overlap": 0,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-10-22 20:06",
+     "media": "Coinfomania",
+     "title": "Kraken Launches ChatGPT Integration for Account Queries",
+     "site": "https://coinfomania.com",
+     "overlap": 0,
      "reprises": 0,
      "priority": false
     }
@@ -178,20 +181,20 @@
    "name": "Polymarket",
    "candidates": [
     {
-     "date": "2026-10-22 18:27",
-     "media": "Reuters",
-     "title": "Polymarket, Kalshi expand political donations as firms face state, federal scrutiny",
-     "site": "https://www.reuters.com",
-     "overlap": 0.11,
-     "reprises": 4,
-     "priority": false
-    },
-    {
      "date": "2026-10-21 10:46",
      "media": "Yahoo Finance",
      "title": "ICE-Backed Polymarket CEO Used Company Money for Private Jets, Rent, Bloomberg Reports",
      "site": "https://finance.yahoo.com",
      "overlap": 0.27,
+     "reprises": 2,
+     "priority": false
+    },
+    {
+     "date": "2026-10-23 03:54",
+     "media": "Hindustan Times",
+     "title": "Matthew Modabber: Polymarket top executive's firing reportedly angered CEO and school friend Shayne Coplan | Hindustan Times",
+     "site": "https://www.hindustantimes.com",
+     "overlap": 0.21,
      "reprises": 2,
      "priority": false
     },
@@ -205,21 +208,21 @@
      "priority": false
     },
     {
-     "date": "2026-10-20 23:45",
-     "media": "SILive.com",
-     "title": "Polymarket code “SILIVE” launches $25 referral promo for 76ers-Knicks",
-     "site": "https://www.silive.com",
-     "overlap": 0.14,
-     "reprises": 0,
+     "date": "2026-10-22 23:18",
+     "media": "New York Post",
+     "title": "Exclusive | Polymarket fires top executive who was closely allied with CEO Shayne Coplan: sources",
+     "site": "https://nypost.com",
+     "overlap": 0.25,
+     "reprises": 1,
      "priority": false
     },
     {
-     "date": "2026-10-21 00:18",
-     "media": "Yahoo Sports",
-     "title": "Dillon Brooks Roasting LeBron James’ 76ers Move And Polymarket Deal In New Kalshi Ad Goes Viral",
-     "site": "https://sports.yahoo.com",
-     "overlap": 0.18,
-     "reprises": 0,
+     "date": "2026-10-23 05:40",
+     "media": "Cryptonews.net",
+     "title": "Polymarket has reportedly fired its marketing chief, also a close friend of the CEO",
+     "site": "https://cryptonews.net",
+     "overlap": 0.11,
+     "reprises": 1,
      "priority": false
     },
     {
@@ -256,12 +259,12 @@
      "priority": true
     },
     {
-     "date": "2026-10-22 14:09",
-     "media": "Android Headlines",
-     "title": "Anthropic Launches Claude Duet to Handle Your Work Before You Ask",
-     "site": "https://www.androidheadlines.com",
-     "overlap": 0.22,
-     "reprises": 4,
+     "date": "2026-10-23 03:51",
+     "media": "digitimes",
+     "title": "Anthropic launches Claude Duet to automate cross-app tasks",
+     "site": "https://www.digitimes.com",
+     "overlap": 0.29,
+     "reprises": 5,
      "priority": false
     },
     {
@@ -274,38 +277,38 @@
      "priority": false
     },
     {
+     "date": "2026-10-21 09:03",
+     "media": "Axios",
+     "title": "Why Anthropic can't afford to delay its IPO",
+     "site": "https://www.axios.com",
+     "overlap": 0.2,
+     "reprises": 1,
+     "priority": false
+    },
+    {
      "date": "2026-10-21 23:20",
      "media": "Billionaires.Africa",
      "title": "American AI billionaire Dario Amodei's Anthropic posts $16.3 billion first-half revenue",
      "site": "https://www.billionaires.africa",
      "overlap": 0.25,
-     "reprises": 2,
-     "priority": false
-    },
-    {
-     "date": "2026-10-22 16:48",
-     "media": "The Globe and Mail",
-     "title": "Could Anthropic's Compute Spend Outpace Its Revenue Growth?",
-     "site": "https://www.theglobeandmail.com",
-     "overlap": 0.17,
-     "reprises": 2,
-     "priority": false
-    },
-    {
-     "date": "2026-10-22 07:07",
-     "media": "TradingView",
-     "title": "Anthropic IPO Faces New Hurdle As NYC Comptroller Urges Delay: Claude Parent's Market Debut Odds Slide",
-     "site": "https://www.tradingview.com",
-     "overlap": 0.15,
      "reprises": 1,
      "priority": false
     },
     {
-     "date": "2026-10-22 16:29",
-     "media": "Reuters",
-     "title": "Anthropic IPO stands alone as AI market jitters sideline others",
-     "site": "https://www.reuters.com",
-     "overlap": 0.14,
+     "date": "2026-10-22 17:10",
+     "media": "The Motley Fool",
+     "title": "Could Anthropic's Compute Spend Outpace Its Revenue Growth?",
+     "site": "https://www.fool.com",
+     "overlap": 0.17,
+     "reprises": 1,
+     "priority": false
+    },
+    {
+     "date": "2026-10-22 17:40",
+     "media": "Génération NT",
+     "title": "Open Source : Claude réduit la surface d'attaque et aide OpenSSH",
+     "site": "https://www.generation-nt.com",
+     "overlap": 0.12,
      "reprises": 1,
      "priority": false
     }
@@ -336,7 +339,7 @@
      "title": "Crusoe and NBSF Announce $700M AI Factory Power Facility",
      "site": "https://www.crusoe.ai",
      "overlap": 0.0,
-     "reprises": 3,
+     "reprises": 2,
      "priority": false
     }
    ]
@@ -351,7 +354,7 @@
      "title": "Fluidstack open house set for Oct. 28 in Wytheville",
      "site": "https://journalnow.com",
      "overlap": 0,
-     "reprises": 1,
+     "reprises": 2,
      "priority": false
     }
    ]
