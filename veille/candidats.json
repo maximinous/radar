@@ -1,23 +1,14 @@
 {
- "generatedAt": "2026-10-23T05:54:39Z",
+ "generatedAt": "2026-10-23T11:55:00Z",
  "windowHours": 48,
- "headlinesRead": 975,
- "count": 32,
+ "headlinesRead": 867,
+ "count": 29,
  "priorityCount": 6,
  "companies": [
   {
    "companyId": "mistral-ai",
    "name": "Mistral AI",
    "candidates": [
-    {
-     "date": "2026-10-22 13:16",
-     "media": "news.lavx.hu",
-     "title": "Mistral CEO and Yann LeCun back Swiss robotics startup Enact in $30 million pre-seed round",
-     "site": "https://news.lavx.hu",
-     "overlap": 0.08,
-     "reprises": 1,
-     "priority": false
-    },
     {
      "date": "2026-10-21 12:04",
      "media": "Brief IA",
@@ -63,23 +54,8 @@
      "title": "Robinhood’s Retail Fund Buys $30 Million Stake in Erebor Bank, Co-Founded by Palmer Luckey",
      "site": "https://www.benzinga.com",
      "overlap": 0.33,
-     "reprises": 3,
+     "reprises": 4,
      "priority": true
-    }
-   ]
-  },
-  {
-   "companyId": "neura-robotics",
-   "name": "Neura Robotics",
-   "candidates": [
-    {
-     "date": "2026-10-22 14:25",
-     "media": "Informationsdienst Wissenschaft",
-     "title": "Making robots smarter: New TUM RoboGym robotics center opens in collaboration with NEURA",
-     "site": "https://idw-online.de",
-     "overlap": 0.0,
-     "reprises": 2,
-     "priority": false
     }
    ]
   },
@@ -106,7 +82,7 @@
      "priority": false
     },
     {
-     "date": "2026-10-23 03:32",
+     "date": "2026-10-23 04:40",
      "media": "StreetInsider",
      "title": "RouteStack.ai by Custom Travel Solutions Expands to Deliver Native Stripe ACP Integration",
      "site": "https://www.streetinsider.com",
@@ -125,7 +101,7 @@
      "media": "StreetInsider",
      "title": "Crypto News: Kraken Parent Agrees to Buy Saldo Bank as Remittix’s $33M Raise Sharpens Its Crypto-to-Bank Pitch",
      "site": "https://www.streetinsider.com",
-     "overlap": 0,
+     "overlap": 0.17,
      "reprises": 1,
      "priority": true
     },
@@ -134,7 +110,7 @@
      "media": "OneSafe",
      "title": "Kraken Buys a Bank: What Crypto Banking Means Now",
      "site": "https://www.onesafe.io",
-     "overlap": 0,
+     "overlap": 0.29,
      "reprises": 1,
      "priority": true
     },
@@ -143,17 +119,26 @@
      "media": "CoinMarketCap",
      "title": "Dash (DASH) Surges 3.03% on Privacy Coin Rotation and Kraken Buy",
      "site": "https://coinmarketcap.com",
-     "overlap": 0,
+     "overlap": 0.0,
      "reprises": 0,
      "priority": true
     },
     {
-     "date": "2026-10-22 05:32",
-     "media": "Cowcotland.com",
-     "title": "Amateurs d'oreilles de chat, Razer dévoile son nouveau casque Kraken Kitty V3",
-     "site": "https://www.cowcotland.com",
-     "overlap": 0,
-     "reprises": 0,
+     "date": "2026-10-23 04:00",
+     "media": "CoinMarketCap",
+     "title": "Kraken Launches ChatGPT App With Read-Only Account Access",
+     "site": "https://coinmarketcap.com",
+     "overlap": 0.0,
+     "reprises": 1,
+     "priority": false
+    },
+    {
+     "date": "2026-10-23 08:57",
+     "media": "Fintech Singapore",
+     "title": "Payward Secures Initial Approval for Kraken Kazakhstan Expansion",
+     "site": "https://fintechnews.sg",
+     "overlap": 0.0,
+     "reprises": 1,
      "priority": false
     },
     {
@@ -161,16 +146,25 @@
      "media": "Yahoo Finance",
      "title": "Snappy Kraken Introduces Office Hub, Bringing a Missing Layer of Marketing Administration to Wealth Management Firms",
      "site": "https://finance.yahoo.com",
-     "overlap": 0,
+     "overlap": 0.0,
      "reprises": 0,
      "priority": false
     },
     {
-     "date": "2026-10-22 20:06",
-     "media": "Coinfomania",
-     "title": "Kraken Launches ChatGPT Integration for Account Queries",
-     "site": "https://coinfomania.com",
-     "overlap": 0,
+     "date": "2026-10-23 05:07",
+     "media": "TOKENPOST",
+     "title": "Kraken Opens Three NEXO Token Trading Pairs Across Its Platforms",
+     "site": "https://www.tokenpost.com",
+     "overlap": 0.12,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-10-23 05:11",
+     "media": "TOKENPOST",
+     "title": "Dormant Address Sends 3,000 Ether Valued at $7.23 Million to Kraken",
+     "site": "https://www.tokenpost.com",
+     "overlap": 0.14,
      "reprises": 0,
      "priority": false
     }
@@ -181,46 +175,10 @@
    "name": "Polymarket",
    "candidates": [
     {
-     "date": "2026-10-21 10:46",
-     "media": "Yahoo Finance",
-     "title": "ICE-Backed Polymarket CEO Used Company Money for Private Jets, Rent, Bloomberg Reports",
-     "site": "https://finance.yahoo.com",
-     "overlap": 0.27,
-     "reprises": 2,
-     "priority": false
-    },
-    {
-     "date": "2026-10-23 03:54",
-     "media": "Hindustan Times",
-     "title": "Matthew Modabber: Polymarket top executive's firing reportedly angered CEO and school friend Shayne Coplan | Hindustan Times",
-     "site": "https://www.hindustantimes.com",
-     "overlap": 0.21,
-     "reprises": 2,
-     "priority": false
-    },
-    {
-     "date": "2026-10-21 09:20",
-     "media": "Inshorts",
-     "title": "Polymarket CEO used company funds for private jets, future investors uncover 'theft' | Thiel told Coplan to appoint a COO but he hasn't | Inshorts",
-     "site": "https://inshorts.com",
-     "overlap": 0.17,
-     "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-10-22 23:18",
-     "media": "New York Post",
-     "title": "Exclusive | Polymarket fires top executive who was closely allied with CEO Shayne Coplan: sources",
-     "site": "https://nypost.com",
-     "overlap": 0.25,
-     "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-10-23 05:40",
-     "media": "Cryptonews.net",
-     "title": "Polymarket has reportedly fired its marketing chief, also a close friend of the CEO",
-     "site": "https://cryptonews.net",
+     "date": "2026-10-22 18:27",
+     "media": "Reuters",
+     "title": "Polymarket, Kalshi expand political donations as firms face state, federal scrutiny",
+     "site": "https://www.reuters.com",
      "overlap": 0.11,
      "reprises": 1,
      "priority": false
@@ -231,6 +189,24 @@
      "title": "Dragonfly Partner Disputes Private-Jet Claim About Polymarket CEO",
      "site": "https://www.tokenpost.com",
      "overlap": 0.25,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-10-21 18:12",
+     "media": "Crypto Briefing",
+     "title": "Polymarket reportedly eyes $21B valuation as investors push for a COO",
+     "site": "https://cryptobriefing.com",
+     "overlap": 0.29,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-10-23 05:11",
+     "media": "Traders Union",
+     "title": "Polymarket dismisses marketing chief as governance scrutiny grows ahead of possible IPO",
+     "site": "https://tradersunion.com",
+     "overlap": 0.22,
      "reprises": 0,
      "priority": false
     }
@@ -264,34 +240,16 @@
      "title": "Anthropic launches Claude Duet to automate cross-app tasks",
      "site": "https://www.digitimes.com",
      "overlap": 0.29,
-     "reprises": 5,
+     "reprises": 4,
      "priority": false
     },
     {
-     "date": "2026-10-22 11:10",
-     "media": "PYMNTS.com",
-     "title": "Anthropic Could File IPO Paperwork as Soon as Friday",
-     "site": "https://www.pymnts.com",
-     "overlap": 0.17,
-     "reprises": 3,
-     "priority": false
-    },
-    {
-     "date": "2026-10-21 09:03",
-     "media": "Axios",
-     "title": "Why Anthropic can't afford to delay its IPO",
-     "site": "https://www.axios.com",
-     "overlap": 0.2,
-     "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-10-21 23:20",
-     "media": "Billionaires.Africa",
-     "title": "American AI billionaire Dario Amodei's Anthropic posts $16.3 billion first-half revenue",
-     "site": "https://www.billionaires.africa",
-     "overlap": 0.25,
-     "reprises": 1,
+     "date": "2026-10-23 07:09",
+     "media": "Pasquale Pillitteri",
+     "title": "Agent Skills, Anthropic annonce le don du standard à la Linux Foundation",
+     "site": "https://pasqualepillitteri.it",
+     "overlap": 0.29,
+     "reprises": 2,
      "priority": false
     },
     {
@@ -311,6 +269,24 @@
      "overlap": 0.12,
      "reprises": 1,
      "priority": false
+    },
+    {
+     "date": "2026-10-21 13:14",
+     "media": "Firstpost",
+     "title": "Anthropic CEO Dario Amodei defends AI safety record against critics, says firm must stay in ‘race to the to...",
+     "site": "https://www.firstpost.com",
+     "overlap": 0.08,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-10-21 13:53",
+     "media": "Yahoo Finance",
+     "title": "Anthropic to publicly file for IPO as early as Friday, sources say",
+     "site": "https://finance.yahoo.com",
+     "overlap": 0.14,
+     "reprises": 0,
+     "priority": false
     }
    ]
   },
@@ -319,27 +295,12 @@
    "name": "Perplexity",
    "candidates": [
     {
-     "date": "2026-10-21 08:08",
-     "media": "Times Now",
-     "title": "Perplexity Launches AI Computer For Mac, Lets Users Complete Tasks Without Internet",
-     "site": "https://www.timesnownews.com",
-     "overlap": 0.22,
+     "date": "2026-10-22 04:55",
+     "media": "TechJuice",
+     "title": "Canva and Perplexity Partner for AI-Powered Design Creation",
+     "site": "https://www.techjuice.pk",
+     "overlap": 0.2,
      "reprises": 0,
-     "priority": false
-    }
-   ]
-  },
-  {
-   "companyId": "crusoe",
-   "name": "Crusoe",
-   "candidates": [
-    {
-     "date": "2026-10-22 15:02",
-     "media": "Crusoe",
-     "title": "Crusoe and NBSF Announce $700M AI Factory Power Facility",
-     "site": "https://www.crusoe.ai",
-     "overlap": 0.0,
-     "reprises": 2,
      "priority": false
     }
    ]
