@@ -1,5 +1,85 @@
 [
  {
+  "id": "anthropic-2026-10-23-hg-consultancy-europe",
+  "companyId": "anthropic",
+  "date": "2026-10-23",
+  "title": "Anthropic et Hg prépareraient un cabinet de conseil en IA pour les entreprises européennes",
+  "summary": "Selon le Financial Times, Anthropic et le fonds Hg vont créer une société de conseil indépendante qui placera des consultants et ingénieurs IA chez des entreprises européennes.",
+  "detail": "L'information vient du Financial Times, qui cite des sources proches du dossier. Anthropic apporterait du capital de son bilan, Hg investirait via ses fonds, dont HgCapital Trust. La structure aurait des pôles à Londres et Berlin et un lancement est visé d'ici la fin 2026.\n\nAnthropic travaille avec des sociétés du portefeuille de Hg depuis 2024. Ni Anthropic ni Hg n'ont, à notre connaissance, détaillé publiquement le montage : les modalités restent à confirmer.",
+  "impact": "Anthropic étend son déploiement en entreprise vers le service, avec un relais local pour faire adopter Claude par des groupes européens.",
+  "signal": "optimiste",
+  "rationale": "Un canal de distribution dédié à l'Europe renforce l'adoption de Claude en entreprise, même si le montage n'est pas confirmé officiellement.",
+  "sources": [
+   {
+    "label": "Crypto Briefing, reprise du Financial Times, 23/10/2026",
+    "url": "https://cryptobriefing.com/anthropic-partners-with-hg-to-launch-european-ai-consultancy/"
+   },
+   {
+    "label": "AI Weekly, 23/10/2026",
+    "url": "https://aiweekly.co/alerts/anthropic-teams-with-hg-to-launch-european-ai-consultancy"
+   },
+   {
+    "label": "Breaking The News, 23/10/2026",
+    "url": "https://breakingthenews.net/Article/Anthropic-Hg-said-to-launch-European-AI-consultancy/67386284"
+   }
+  ],
+  "addedAt": "2026-10-23T12:26:31Z"
+ },
+ {
+  "id": "kraken-2026-10-23-kazakhstan-afsa",
+  "companyId": "kraken",
+  "date": "2026-10-23",
+  "title": "Payward (Kraken) obtient un accord de principe de l'AFSA au Kazakhstan",
+  "summary": "La maison mère de Kraken a reçu l'accord de principe de l'Astana Financial Services Authority pour sa filiale Payward Kazakhstan.",
+  "detail": "L'accord ne vaut pas licence complète : la filiale doit encore obtenir la licence du centre financier international d'Astana (AIFC) et n'a pas donné de calendrier. Une fois autorisée, elle prévoit une plateforme de négociation d'actifs numériques, de la conservation et des services d'investissement, avec un accès aux carnets d'ordres mondiaux de Payward.\n\nLe co-CEO Dave Ripley a salué un processus constructif et rigoureux avec les équipes de l'AFSA et de l'AIFC.",
+  "impact": "Kraken avance dans son plan d'opérations locales régulées dans les grands centres financiers, ici en Asie centrale.",
+  "signal": "optimiste",
+  "rationale": "Une étape réglementaire franchie ouvre un nouveau marché, mais la licence complète reste à obtenir.",
+  "sources": [
+   {
+    "label": "Fintech News Singapore, 23/10/2026",
+    "url": "https://fintechnews.sg/139567/fintechkazakhstan/kraken-kazakhstan-payward-afsa-approval/"
+   }
+  ],
+  "addedAt": "2026-10-23T12:26:31Z"
+ },
+ {
+  "id": "anthropic-2026-10-22-agent-skills-aaif",
+  "companyId": "anthropic",
+  "date": "2026-10-22",
+  "title": "Anthropic confie le standard Agent Skills à l'Agentic AI Foundation",
+  "summary": "Anthropic transfère le standard ouvert Agent Skills, ainsi que son nom, son logo et son domaine, à l'Agentic AI Foundation, rattachée à la Linux Foundation.",
+  "detail": "Anthropic indique que plus de 70 plateformes d'agents ont adopté le standard depuis décembre 2025, dont ChatGPT, Cursor, GitHub Copilot et VS Code. Environ 1 million de skills ont été publiés et près de 280 millions installés.\n\nLa maintenance sera assurée par des ingénieurs d'Anthropic, Google, OpenAI et d'autres à titre individuel, avec David Soria Parra et Mahesh Murag comme mainteneurs principaux. Une feuille de route prévoit des versions numérotées, un processus de proposition et des consignes de sécurité.",
+  "impact": "Anthropic consolide un standard d'agents adopté par ses concurrents, comme avec MCP, au prix de la cession de son contrôle.",
+  "signal": "neutre",
+  "rationale": "Le geste renforce l'écosystème autour de Claude mais Anthropic abandonne la gouvernance du standard.",
+  "sources": [
+   {
+    "label": "Anthropic, 22/10/2026",
+    "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"
+   }
+  ],
+  "addedAt": "2026-10-23T12:26:31Z"
+ },
+ {
+  "id": "anthropic-2026-10-22-verification-formelle-123-bibliotheques",
+  "companyId": "anthropic",
+  "date": "2026-10-22",
+  "title": "Anthropic : Claude produit des preuves formelles pour 123 bibliothèques open source",
+  "summary": "Avec Theorem, Anthropic annonce que Claude a produit des preuves vérifiées par machine pour 239 points d'entrée de tests de fuzzing dans 123 bibliothèques.",
+  "detail": "Chaque test de fuzzing devient une spécification formelle vérifiée avec l'outil Rocq. Environ 180 millions de lignes de preuve ont passé le vérificateur et des centaines de bugs ont été trouvés, dont un CVE de libexpat redécouvert. La propriété prouvée : pour des entrées de moins de 64 Mo, les programmes se terminent normalement, sans erreur mémoire.\n\nAnthropic précise les limites : les preuves ne rendent pas les bibliothèques exemptes de bugs et ne couvrent que des binaires RISC-V monothread liés à musl.",
+  "impact": "Claude gagne en crédibilité sur la sécurité du logiciel, avec un programme d'accès gratuit via Theorem pour des projets open source.",
+  "signal": "optimiste",
+  "rationale": "Une démonstration technique chiffrée et assortie de limites explicites, qui valorise les capacités de Claude.",
+  "sources": [
+   {
+    "label": "Unite.AI, 22/10/2026",
+    "url": "https://www.unite.ai/anthropic-says-claude-proved-security-properties-across-123-libraries/"
+   }
+  ],
+  "addedAt": "2026-10-23T12:26:31Z"
+ },
+ {
   "id": "crusoe-2026-10-22-nbsf-700m",
   "companyId": "crusoe",
   "date": "2026-10-22",
