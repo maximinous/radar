@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-10-26T17:28:13Z",
+ "generatedAt": "2026-10-26T20:11:06Z",
  "windowHours": 48,
- "headlinesRead": 664,
+ "headlinesRead": 702,
  "count": 21,
- "priorityCount": 3,
+ "priorityCount": 2,
  "companies": [
   {
    "companyId": "prometheus",
@@ -73,12 +73,12 @@
      "priority": false
     },
     {
-     "date": "2026-10-24 19:24",
-     "media": "CoinMarketCap",
-     "title": "Kraken Parent Payward Partners With GTN To Expand xStocks Beyond US Markets",
-     "site": "https://coinmarketcap.com",
-     "overlap": 0.12,
-     "reprises": 1,
+     "date": "2026-10-26 19:25",
+     "media": "Pluang",
+     "title": "Payward aims to launch CFTC-regulated onchain p...",
+     "site": "https://pluang.com",
+     "overlap": 0.17,
+     "reprises": 2,
      "priority": false
     },
     {
@@ -86,6 +86,15 @@
      "media": "CoinMarketCap",
      "title": "Exchange News: Kraken Revenue Climbs 18% to $412M Despite Adjusted EBITDA Decline in Q2",
      "site": "https://coinmarketcap.com",
+     "overlap": 0.11,
+     "reprises": 1,
+     "priority": false
+    },
+    {
+     "date": "2026-10-26 18:19",
+     "media": "Crypto Briefing",
+     "title": "Hyperliquid unveils HIP-3* to support regulated US perpetual futures through Payward",
+     "site": "https://cryptobriefing.com",
      "overlap": 0.11,
      "reprises": 1,
      "priority": false
@@ -106,21 +115,21 @@
    "name": "Polymarket",
    "candidates": [
     {
-     "date": "2026-10-26 16:58",
-     "media": "Legal Sports Report",
-     "title": "NBA Partners With Kalshi, Polymarket, Signs CFTC MOU",
-     "site": "https://www.legalsportsreport.com",
+     "date": "2026-10-26 18:22",
+     "media": "RG.org",
+     "title": "NBA Signs CFTC MOU, Partners With Kalshi and Polymarket",
+     "site": "https://rg.org",
      "overlap": 0.17,
-     "reprises": 10,
+     "reprises": 14,
      "priority": false
     },
     {
-     "date": "2026-10-26 14:02",
-     "media": "Times Record News",
+     "date": "2026-10-26 18:12",
+     "media": "The Providence Journal",
      "title": "Polymarket Sign-Up Bonus Code SBWIRE: Deposit $10, Get $25 (October 26)",
-     "site": "https://www.timesrecordnews.com",
+     "site": "https://www.providencejournal.com",
      "overlap": 0.29,
-     "reprises": 4,
+     "reprises": 1,
      "priority": false
     },
     {
@@ -129,15 +138,6 @@
      "title": "NFL Polymarket promo code “SILIVE” extends $25 Chiefs-Seahawks and Magic-Knicks deal",
      "site": "https://www.silive.com",
      "overlap": 0.1,
-     "reprises": 0,
-     "priority": false
-    },
-    {
-     "date": "2026-10-26 04:44",
-     "media": "TOKENPOST",
-     "title": "Polymarket Odds Put Predict.fun Token Launch Before Oct. 31 at 22%",
-     "site": "https://www.tokenpost.com",
-     "overlap": 0.12,
      "reprises": 0,
      "priority": false
     },
@@ -152,9 +152,9 @@
     },
     {
      "date": "2026-10-26 11:00",
-     "media": "Proactive financial news",
+     "media": "Yahoo Finance UK",
      "title": "Polymarket traders cool on $2 trillion Anthropic IPO, with odds of a $2 trillion debut slipping to 42%",
-     "site": "https://www.proactiveinvestors.com",
+     "site": "https://uk.finance.yahoo.com",
      "overlap": 0.12,
      "reprises": 0,
      "priority": false
@@ -166,21 +166,39 @@
    "name": "Anthropic",
    "candidates": [
     {
-     "date": "2026-10-26 14:57",
-     "media": "Kiplinger",
-     "title": "Anthropic IPO: Should You Buy ANT Stock?",
-     "site": "https://www.kiplinger.com",
-     "overlap": 0.17,
-     "reprises": 0,
-     "priority": true
+     "date": "2026-10-26 19:28",
+     "media": "WAFF",
+     "title": "Anthropic files for potentially biggest IPO ever as CEO warns of AI risk to humanity",
+     "site": "https://www.waff.com",
+     "overlap": 0.11,
+     "reprises": 19,
+     "priority": false
     },
     {
-     "date": "2026-10-26 17:01",
-     "media": "NPR",
-     "title": "AI giant Anthropic files for an IPO that could break records",
-     "site": "https://www.npr.org",
+     "date": "2026-10-26 19:32",
+     "media": "NBC News",
+     "title": "6 key takeaways from Anthropic’s IPO filing",
+     "site": "https://www.nbcnews.com",
+     "overlap": 0.25,
+     "reprises": 19,
+     "priority": false
+    },
+    {
+     "date": "2026-10-26 14:56",
+     "media": "New York Post",
+     "title": "Anthropic files for blockbuster IPO that could value AI giant at $2 trillion",
+     "site": "https://nypost.com",
+     "overlap": 0.12,
+     "reprises": 3,
+     "priority": false
+    },
+    {
+     "date": "2026-10-26 13:24",
+     "media": "Boursorama",
+     "title": "Le parcours d'Anthropic, de start-up spécialisée dans l'IA à introduction en bourse qui a marqué le secteur",
+     "site": "https://www.boursorama.com",
      "overlap": 0.14,
-     "reprises": 8,
+     "reprises": 2,
      "priority": false
     },
     {
@@ -189,43 +207,31 @@
      "title": "Anthropic CEO Dario Amodei received $17.96 million ahead of IPO",
      "site": "https://www.newsbytesapp.com",
      "overlap": 0.29,
-     "reprises": 4,
+     "reprises": 2,
      "priority": false
     },
     {
-     "date": "2026-10-26 17:04",
-     "media": "Forbes",
-     "title": "Anthropic's IPO: What Its S-1 Reveals About The AI Boom",
-     "site": "https://www.forbes.com",
+     "date": "2026-10-26 17:44",
+     "media": "L'Agefi",
+     "title": "Anthropic en dévoile un peu plus sur son introduction en Bourse",
+     "site": "https://www.agefi.fr",
      "overlap": 0.2,
-     "reprises": 4,
+     "reprises": 2,
      "priority": false
-    },
+    }
+   ]
+  },
+  {
+   "companyId": "perplexity",
+   "name": "Perplexity",
+   "candidates": [
     {
-     "date": "2026-10-26 14:49",
-     "media": "Boursorama",
-     "title": "IPO Anthropic : zoom sur la croissance fulgurante et la spirale des coûts de ce leader de l'IA",
-     "site": "https://www.boursorama.com",
-     "overlap": 0.14,
-     "reprises": 3,
-     "priority": false
-    },
-    {
-     "date": "2026-10-26 17:00",
-     "media": "Al Jazeera",
-     "title": "Anthropic’s IPO filing shows explosive growth, risks and staggering costs",
-     "site": "https://www.aljazeera.com",
-     "overlap": 0.12,
-     "reprises": 3,
-     "priority": false
-    },
-    {
-     "date": "2026-10-26 17:00",
-     "media": "CBC",
-     "title": "Anthropic files for potentially biggest IPO ever, even as CEO warns of AI risks to humanity",
-     "site": "https://www.cbc.ca",
-     "overlap": 0.1,
-     "reprises": 3,
+     "date": "2026-10-26 08:35",
+     "media": "آي-فون إسلام",
+     "title": "Perplexity launches health platform with Apple Health… Your smart doctor now knows you well!",
+     "site": "https://iphoneislam.com",
+     "overlap": 0.09,
+     "reprises": 1,
      "priority": false
     }
    ]
