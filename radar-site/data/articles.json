@@ -1,5 +1,31 @@
 [
  {
+  "id": "starcloud-2026-10-26-dunamu-partners-extension",
+  "companyId": "starcloud",
+  "date": "2026-10-26",
+  "title": "Dunamu & Partners rejoint l'extension de série A de 250 millions de dollars de Starcloud",
+  "summary": "Le fonds Dunamu & Partners, filiale d'investissement de l'opérateur d'échange crypto coréen Dunamu, annonce sa participation au tour de Starcloud, valorisé 2,3 milliards de dollars après investissement.",
+  "detail": "Selon MoneyToday et Seoul Economic Daily, le tour atteint 250 millions de dollars (environ 331 milliards de wons) et est mené par Manhattan West Ventures. Nvidia, Cisco Investments, Benchmark et EQT y participent aussi. Dunamu & Partners en est le seul investisseur coréen.\n\nStarcloud a levé 450 millions de dollars au total depuis sa création. Les fonds doivent financer une ligne de production pour le satellite Starcloud-3 et l'extension de la capacité de fabrication. L'extension de série A avait été annoncée en août ; la participation de Dunamu est révélée ce 26 octobre.",
+  "impact": "Un nouvel investisseur stratégique asiatique entre au capital et la société dispose de moyens pour industrialiser ses satellites de centres de données en orbite.",
+  "signal": "optimiste",
+  "rationale": "Le tour est confirmé par deux médias, il consolide le financement et la production de la prochaine génération de satellites.",
+  "sources": [
+   {
+    "label": "MoneyToday, 26/10/2026",
+    "url": "https://www.mt.co.kr/en/future/2026/10/26/2026102609264544096"
+   },
+   {
+    "label": "Seoul Economic Daily, 26/10/2026",
+    "url": "https://en.sedaily.com/signal/article/dunamu-unit-joins-250-million-round-for-us-space-data"
+   },
+   {
+    "label": "Via Satellite, 21/08/2026",
+    "url": "https://www.satellitetoday.com/finance/2026/08/21/starcloud-adds-250m-to-series-a-at-a-2-3b-valuation/"
+   }
+  ],
+  "addedAt": "2026-10-26T12:13:16Z"
+ },
+ {
   "id": "anthropic-2026-10-25-claude-donnees-georgie",
   "companyId": "anthropic",
   "date": "2026-10-25",
