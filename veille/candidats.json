@@ -1,45 +1,21 @@
 {
- "generatedAt": "2026-10-23T20:05:20Z",
+ "generatedAt": "2026-10-26T05:56:53Z",
  "windowHours": 48,
- "headlinesRead": 952,
- "count": 27,
- "priorityCount": 4,
+ "headlinesRead": 548,
+ "count": 21,
+ "priorityCount": 0,
  "companies": [
   {
-   "companyId": "mistral-ai",
-   "name": "Mistral AI",
+   "companyId": "figure-ai",
+   "name": "Figure AI",
    "candidates": [
     {
-     "date": "2026-10-23 15:29",
-     "media": "Pasquale Pillitteri",
-     "title": "Mistral launches Timestral, an AI that forecasts numbers without a GPU",
-     "site": "https://pasqualepillitteri.it",
-     "overlap": 0.29,
-     "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-10-23 16:18",
-     "media": "Pasquale Pillitteri",
-     "title": "Mistral lance Timestral, l'IA qui prévoit les chiffres sans GPU",
-     "site": "https://pasqualepillitteri.it",
-     "overlap": 0.33,
-     "reprises": 1,
-     "priority": false
-    }
-   ]
-  },
-  {
-   "companyId": "deel",
-   "name": "Deel",
-   "candidates": [
-    {
-     "date": "2026-10-22 18:01",
-     "media": "CPA Practice Advisor",
-     "title": "Deel Launches AI Lab and LLMs",
-     "site": "https://www.cpapracticeadvisor.com",
-     "overlap": 0.33,
-     "reprises": 1,
+     "date": "2026-10-24 06:41",
+     "media": "小豆島町",
+     "title": "action figure ai generator online free no sign up",
+     "site": "https://www.town.shodoshima.lg.jp",
+     "overlap": 0,
+     "reprises": 0,
      "priority": false
     }
    ]
@@ -49,21 +25,27 @@
    "name": "Stripe",
    "candidates": [
     {
-     "date": "2026-10-21 21:55",
-     "media": "GeekWire",
-     "title": "Microsoft taps Stripe co-founder John Collison for its board as two longtime directors depart",
-     "site": "https://www.geekwire.com",
-     "overlap": 0.3,
-     "reprises": 2,
+     "date": "2026-10-24 10:34",
+     "media": "Pluang",
+     "title": "Stripe and Plasma to launch stablecoin payment cards in 100+ countries by 2027",
+     "site": "https://pluang.com",
+     "overlap": 0.25,
+     "reprises": 1,
      "priority": false
-    },
+    }
+   ]
+  },
+  {
+   "companyId": "starcloud",
+   "name": "Starcloud",
+   "candidates": [
     {
-     "date": "2026-10-23 04:40",
-     "media": "StreetInsider",
-     "title": "RouteStack.ai by Custom Travel Solutions Expands to Deliver Native Stripe ACP Integration",
-     "site": "https://www.streetinsider.com",
-     "overlap": 0.11,
-     "reprises": 0,
+     "date": "2026-10-26 05:49",
+     "media": "KED Global",
+     "title": "Dunamu & Partners, only Korean firm to invest in $2.3 bn US space data center startup Starcloud",
+     "site": "https://www.kedglobal.com",
+     "overlap": 0,
+     "reprises": 4,
      "priority": false
     }
    ]
@@ -73,65 +55,56 @@
    "name": "Kraken",
    "candidates": [
     {
-     "date": "2026-10-22 22:01",
-     "media": "StreetInsider",
-     "title": "Crypto News: Kraken Parent Agrees to Buy Saldo Bank as Remittix’s $33M Raise Sharpens Its Crypto-to-Bank Pitch",
-     "site": "https://www.streetinsider.com",
-     "overlap": 0.17,
-     "reprises": 1,
-     "priority": true
+     "date": "2026-10-25 12:15",
+     "media": "CryptoRank",
+     "title": "Kraken Co-CEO Admits Monero Checks Went Too Far, XMR Stays Listed",
+     "site": "https://cryptorank.io",
+     "overlap": 0.1,
+     "reprises": 4,
+     "priority": false
     },
     {
-     "date": "2026-10-23 01:04",
-     "media": "OneSafe",
-     "title": "Kraken Buys a Bank: What Crypto Banking Means Now",
-     "site": "https://www.onesafe.io",
-     "overlap": 0.29,
-     "reprises": 1,
-     "priority": true
+     "date": "2026-10-24 23:30",
+     "media": "TronWeekly",
+     "title": "Kraken Withdraws Monero Inquiry Emails After Co-CEO Criticism, Keeps XMR Listed",
+     "site": "https://www.tronweekly.com",
+     "overlap": 0.1,
+     "reprises": 3,
+     "priority": false
     },
     {
-     "date": "2026-10-22 03:22",
-     "media": "CoinMarketCap",
-     "title": "Dash (DASH) Surges 3.03% on Privacy Coin Rotation and Kraken Buy",
-     "site": "https://coinmarketcap.com",
+     "date": "2026-10-25 18:13",
+     "media": "Pluang",
+     "title": "Kraken's parent Payward gets preliminary approval to expand trading and custody in Kazakhstan.",
+     "site": "https://pluang.com",
+     "overlap": 0.33,
+     "reprises": 3,
+     "priority": false
+    },
+    {
+     "date": "2026-10-24 12:32",
+     "media": "Hokanews",
+     "title": "Kraken Withdraws Monero Customer Questionnaires and Confirms XMR Will Remain Listed",
+     "site": "https://www.hokanews.com",
      "overlap": 0.0,
-     "reprises": 0,
-     "priority": true
-    },
-    {
-     "date": "2026-10-23 04:00",
-     "media": "CoinMarketCap",
-     "title": "Kraken Launches ChatGPT App With Read-Only Account Access",
-     "site": "https://coinmarketcap.com",
-     "overlap": 0.14,
      "reprises": 1,
      "priority": false
     },
     {
-     "date": "2026-10-22 13:08",
-     "media": "Yahoo Finance",
-     "title": "Snappy Kraken Introduces Office Hub, Bringing a Missing Layer of Marketing Administration to Wealth Management Firms",
-     "site": "https://finance.yahoo.com",
-     "overlap": 0.0,
-     "reprises": 0,
-     "priority": false
-    },
-    {
-     "date": "2026-10-23 05:07",
-     "media": "TOKENPOST",
-     "title": "Kraken Opens Three NEXO Token Trading Pairs Across Its Platforms",
-     "site": "https://www.tokenpost.com",
+     "date": "2026-10-24 19:24",
+     "media": "CoinMarketCap",
+     "title": "Kraken Parent Payward Partners With GTN To Expand xStocks Beyond US Markets",
+     "site": "https://coinmarketcap.com",
      "overlap": 0.12,
-     "reprises": 0,
+     "reprises": 1,
      "priority": false
     },
     {
-     "date": "2026-10-23 05:11",
+     "date": "2026-10-25 18:17",
      "media": "TOKENPOST",
-     "title": "Dormant Address Sends 3,000 Ether Valued at $7.23 Million to Kraken",
+     "title": "Kraken Opens SFI Trading as Saffron Vaults Target Potential Uniswap Fees",
      "site": "https://www.tokenpost.com",
-     "overlap": 0.14,
+     "overlap": 0.0,
      "reprises": 0,
      "priority": false
     }
@@ -142,47 +115,56 @@
    "name": "Polymarket",
    "candidates": [
     {
-     "date": "2026-10-22 18:27",
-     "media": "Reuters",
-     "title": "Polymarket, Kalshi expand political donations as firms face state, federal scrutiny",
-     "site": "https://www.reuters.com",
-     "overlap": 0.11,
-     "reprises": 3,
+     "date": "2026-10-25 14:35",
+     "media": "USA Today",
+     "title": "Polymarket Sign-Up Bonus Code SBWIRE: Deposit $10, Get $25 (October 25)",
+     "site": "https://www.usatoday.com",
+     "overlap": 0.29,
+     "reprises": 6,
      "priority": false
     },
     {
-     "date": "2026-10-22 09:47",
-     "media": "CoinMarketCap",
-     "title": "Polymarket Seeks $400M Raise at $15B Valuation",
-     "site": "https://coinmarketcap.com",
+     "date": "2026-10-24 17:37",
+     "media": "ABC News - Breaking News, Latest News and Videos",
+     "title": "Polymarket removes contract allowing wagers on fate of Cornell students accused of sexual assault",
+     "site": "https://abcnews.com",
+     "overlap": 0.2,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-10-24 23:45",
+     "media": "Cleveland.com",
+     "title": "Polymarket referral code “CLEVE” launches $25 bonus in OH for Nets-Cavaliers tonight",
+     "site": "https://www.cleveland.com",
      "overlap": 0.0,
      "reprises": 0,
      "priority": false
     },
     {
-     "date": "2026-10-23 01:10",
+     "date": "2026-10-24 23:45",
      "media": "SILive.com",
-     "title": "NFL Polymarket promo code “SILIVE” extends $25 Patriots-Bears deal",
+     "title": "Polymarket code “SILIVE” launches $25 referral promo for World Series Game 2",
      "site": "https://www.silive.com",
-     "overlap": 0.12,
+     "overlap": 0.0,
      "reprises": 0,
      "priority": false
     },
     {
-     "date": "2026-10-23 13:12",
-     "media": "Action Network",
-     "title": "Polymarket Sign Up Bonus: Promo Code ACTION for World Series",
-     "site": "https://www.actionnetwork.com",
-     "overlap": 0.14,
+     "date": "2026-10-25 01:10",
+     "media": "SILive.com",
+     "title": "College football Polymarket promo code “SILIVE” updates $25 Ole Miss-Texas deal",
+     "site": "https://www.silive.com",
+     "overlap": 0.0,
      "reprises": 0,
      "priority": false
     },
     {
-     "date": "2026-10-23 15:25",
-     "media": "Morris County NJ News | Daily Record",
-     "title": "Polymarket Sign-Up Bonus Code SBWIRE: Deposit $10, Get $25 (October 23)",
-     "site": "https://www.dailyrecord.com",
-     "overlap": 0.29,
+     "date": "2026-10-26 01:10",
+     "media": "SILive.com",
+     "title": "NFL Polymarket promo code “SILIVE” extends $25 Chiefs-Seahawks and Magic-Knicks deal",
+     "site": "https://www.silive.com",
+     "overlap": 0.1,
      "reprises": 0,
      "priority": false
     }
@@ -193,111 +175,57 @@
    "name": "Anthropic",
    "candidates": [
     {
-     "date": "2026-10-23 10:40",
-     "media": "CTech",
-     "title": "Anthropic’s $2 trillion IPO question: How much growth can investors buy?",
-     "site": "https://www.calcalistech.com",
+     "date": "2026-10-25 21:51",
+     "media": "New York Daily News",
+     "title": "Owners of Elvis Presley’s music sue Anthropic over un-permissioned AI use",
+     "site": "https://www.nydailynews.com",
+     "overlap": 0.0,
+     "reprises": 7,
+     "priority": false
+    },
+    {
+     "date": "2026-10-25 23:11",
+     "media": "Happy Mag",
+     "title": "Elvis Presley’s Estate Sues AI Company Anthropic -",
+     "site": "https://happymag.tv",
+     "overlap": 0.0,
+     "reprises": 2,
+     "priority": false
+    },
+    {
+     "date": "2026-10-26 00:40",
+     "media": "매일경제",
+     "title": "Anthropic, an artificial intelligence (AI) company, is facing a copyright lawsuit over allegations t..",
+     "site": "https://www.mk.co.kr",
+     "overlap": 0.25,
+     "reprises": 2,
+     "priority": false
+    },
+    {
+     "date": "2026-10-24 19:29",
+     "media": "Pasquale Pillitteri",
+     "title": "Anthropic dévoile pourquoi Mythos 5 a attaqué de vraies personnes lors du test de l'AISI",
+     "site": "https://pasqualepillitteri.it",
      "overlap": 0.11,
      "reprises": 1,
-     "priority": true
-    },
-    {
-     "date": "2026-10-23 16:03",
-     "media": "The Manila Times",
-     "title": "Alloy joins Anthropic's Claude Partner Network",
-     "site": "https://www.manilatimes.net",
-     "overlap": 0.2,
-     "reprises": 4,
      "priority": false
     },
     {
-     "date": "2026-10-23 03:51",
-     "media": "digitimes",
-     "title": "Anthropic launches Claude Duet to automate cross-app tasks",
-     "site": "https://www.digitimes.com",
-     "overlap": 0.29,
-     "reprises": 2,
-     "priority": false
-    },
-    {
-     "date": "2026-10-22 17:40",
-     "media": "Génération NT",
-     "title": "Open Source : Claude réduit la surface d'attaque et aide OpenSSH",
-     "site": "https://www.generation-nt.com",
-     "overlap": 0.38,
+     "date": "2026-10-24 21:01",
+     "media": "Howl.Link",
+     "title": "Anthropic CEO Dario Amodei eyes $2T valuation in upcoming IPO",
+     "site": "https://t.co",
+     "overlap": 0.14,
      "reprises": 1,
      "priority": false
     },
     {
-     "date": "2026-10-23 08:20",
-     "media": "Yahoo Finance",
-     "title": "Alphabet's Google Cloud Announces General Availability of Anthropic-Managed Deployment Option for Claude Models",
-     "site": "https://finance.yahoo.com",
-     "overlap": 0.18,
+     "date": "2026-10-25 02:59",
+     "media": "NeoTeo",
+     "title": "Selon Anthropic, Claude a repéré 493 problèmes de surface d’attaque open source",
+     "site": "https://www.neoteo.com",
+     "overlap": 0.33,
      "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-10-21 23:20",
-     "media": "Billionaires.Africa",
-     "title": "American AI billionaire Dario Amodei's Anthropic posts $16.3 billion first-half revenue",
-     "site": "https://www.billionaires.africa",
-     "overlap": 0.25,
-     "reprises": 0,
-     "priority": false
-    },
-    {
-     "date": "2026-10-22 00:25",
-     "media": "BigGo Finance",
-     "title": "Anthropic CEO Says Company Held Back a Frontier Model for Four Months in Response to Safety Criticism",
-     "site": "https://finance.biggo.com",
-     "overlap": 0.08,
-     "reprises": 0,
-     "priority": false
-    }
-   ]
-  },
-  {
-   "companyId": "perplexity",
-   "name": "Perplexity",
-   "candidates": [
-    {
-     "date": "2026-10-22 05:05",
-     "media": "TechJuice",
-     "title": "Canva and Perplexity Partner for AI-Powered Design Creation",
-     "site": "https://www.techjuice.pk",
-     "overlap": 0.2,
-     "reprises": 0,
-     "priority": false
-    }
-   ]
-  },
-  {
-   "companyId": "crusoe",
-   "name": "Crusoe",
-   "candidates": [
-    {
-     "date": "2026-10-23 12:32",
-     "media": "AI Magazine",
-     "title": "Crusoe: Building AI Factories at a US$30.9bn Valuation",
-     "site": "https://aimagazine.com",
-     "overlap": 0.0,
-     "reprises": 3,
-     "priority": false
-    }
-   ]
-  },
-  {
-   "companyId": "fluidstack",
-   "name": "Fluidstack",
-   "candidates": [
-    {
-     "date": "2026-10-22 05:00",
-     "media": "Winston-Salem Journal",
-     "title": "Fluidstack open house set for Oct. 28 in Wytheville",
-     "site": "https://journalnow.com",
-     "overlap": 0,
-     "reprises": 2,
      "priority": false
     }
    ]
