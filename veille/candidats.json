@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-10-26T20:11:06Z",
+ "generatedAt": "2026-10-27T10:42:30Z",
  "windowHours": 48,
- "headlinesRead": 702,
- "count": 21,
- "priorityCount": 2,
+ "headlinesRead": 819,
+ "count": 27,
+ "priorityCount": 4,
  "companies": [
   {
    "companyId": "prometheus",
@@ -25,12 +25,27 @@
    "name": "Together AI",
    "candidates": [
     {
-     "date": "2026-10-26 14:46",
+     "date": "2026-10-26 14:48",
      "media": "AI Magazine",
      "title": "Together AI: Open-Source AI Cloud Hits US$8.3bn Valuation",
      "site": "https://aimagazine.com",
      "overlap": 0,
      "reprises": 2,
+     "priority": false
+    }
+   ]
+  },
+  {
+   "companyId": "deel",
+   "name": "Deel",
+   "candidates": [
+    {
+     "date": "2026-10-27 03:14",
+     "media": "디지털투데이",
+     "title": "Deel unveils Pangaea LLM suite for global workforce operations and Emet AI research lab",
+     "site": "https://www.digitaltoday.co.kr",
+     "overlap": 0.3,
+     "reprises": 0,
      "priority": false
     }
    ]
@@ -47,6 +62,33 @@
      "overlap": 0.09,
      "reprises": 0,
      "priority": true
+    },
+    {
+     "date": "2026-10-27 04:32",
+     "media": "CoinMarketCap",
+     "title": "Meta Plans Stablecoin Integration, Eyeing Stripe as Key Partner",
+     "site": "https://coinmarketcap.com",
+     "overlap": 0.0,
+     "reprises": 2,
+     "priority": false
+    },
+    {
+     "date": "2026-10-26 05:35",
+     "media": "Fintech Singapore",
+     "title": "Mercedes F1 Team Taps Stripe for Multiyear Global Payments Partnership",
+     "site": "https://fintechnews.sg",
+     "overlap": 0.0,
+     "reprises": 1,
+     "priority": false
+    },
+    {
+     "date": "2026-10-26 20:05",
+     "media": "Traders Union",
+     "title": "Matt Huang: Instinct launch uses stablecoins on Tempo and Stripe Link for seamless payments",
+     "site": "https://tradersunion.com",
+     "overlap": 0.1,
+     "reprises": 1,
+     "priority": false
     }
    ]
   },
@@ -59,9 +101,18 @@
      "media": "CoinMarketCap",
      "title": "Payward Closes Bitnomial Acquisition, Gains Full US Derivatives Licenses",
      "site": "https://coinmarketcap.com",
-     "overlap": 0.25,
+     "overlap": 0.38,
      "reprises": 2,
      "priority": true
+    },
+    {
+     "date": "2026-10-27 05:47",
+     "media": "www.tmgm.com",
+     "title": "Kraken’s parent plans Hyperliquid launch for regulated US perpetual futures",
+     "site": "https://www.tmgm.com",
+     "overlap": 0.0,
+     "reprises": 8,
+     "priority": false
     },
     {
      "date": "2026-10-25 18:13",
@@ -69,33 +120,24 @@
      "title": "Kraken's parent Payward gets preliminary approval to expand trading and custody in Kazakhstan.",
      "site": "https://pluang.com",
      "overlap": 0.33,
-     "reprises": 3,
+     "reprises": 1,
      "priority": false
     },
     {
-     "date": "2026-10-26 19:25",
-     "media": "Pluang",
-     "title": "Payward aims to launch CFTC-regulated onchain p...",
-     "site": "https://pluang.com",
-     "overlap": 0.17,
-     "reprises": 2,
-     "priority": false
-    },
-    {
-     "date": "2026-10-25 09:38",
-     "media": "CoinMarketCap",
-     "title": "Exchange News: Kraken Revenue Climbs 18% to $412M Despite Adjusted EBITDA Decline in Q2",
-     "site": "https://coinmarketcap.com",
+     "date": "2026-10-26 20:50",
+     "media": "Traders Union",
+     "title": "ANTHROPICx pre-IPO perpetual futures debut with 10x leverage at Kraken Exchange",
+     "site": "https://tradersunion.com",
      "overlap": 0.11,
      "reprises": 1,
      "priority": false
     },
     {
-     "date": "2026-10-26 18:19",
-     "media": "Crypto Briefing",
-     "title": "Hyperliquid unveils HIP-3* to support regulated US perpetual futures through Payward",
-     "site": "https://cryptobriefing.com",
-     "overlap": 0.11,
+     "date": "2026-10-26 22:35",
+     "media": "Pluang",
+     "title": "Payward aims to launch first CFTC-regulated per...",
+     "site": "https://pluang.com",
+     "overlap": 0.14,
      "reprises": 1,
      "priority": false
     },
@@ -115,47 +157,47 @@
    "name": "Polymarket",
    "candidates": [
     {
-     "date": "2026-10-26 18:22",
-     "media": "RG.org",
-     "title": "NBA Signs CFTC MOU, Partners With Kalshi and Polymarket",
-     "site": "https://rg.org",
-     "overlap": 0.17,
-     "reprises": 14,
+     "date": "2026-10-26 23:22",
+     "media": "NewsCord",
+     "title": "NBA Names Kalshi And Polymarket Preferred Prediction Exchanges, Signs CFTC MOU: how 18 outlets framed it",
+     "site": "https://newscord.org",
+     "overlap": 0.33,
+     "reprises": 12,
      "priority": false
     },
     {
-     "date": "2026-10-26 18:12",
-     "media": "The Providence Journal",
+     "date": "2026-10-26 21:55",
+     "media": "Lancaster Eagle-Gazette",
      "title": "Polymarket Sign-Up Bonus Code SBWIRE: Deposit $10, Get $25 (October 26)",
-     "site": "https://www.providencejournal.com",
-     "overlap": 0.29,
+     "site": "https://www.lancastereaglegazette.com",
+     "overlap": 0.0,
+     "reprises": 3,
+     "priority": false
+    },
+    {
+     "date": "2026-10-27 01:10",
+     "media": "SILive.com",
+     "title": "NFL Polymarket promo code “SILIVE” renews $25 Cowboys-Eagles deal",
+     "site": "https://www.silive.com",
+     "overlap": 0.12,
      "reprises": 1,
      "priority": false
     },
     {
-     "date": "2026-10-26 01:10",
-     "media": "SILive.com",
-     "title": "NFL Polymarket promo code “SILIVE” extends $25 Chiefs-Seahawks and Magic-Knicks deal",
-     "site": "https://www.silive.com",
-     "overlap": 0.1,
-     "reprises": 0,
-     "priority": false
-    },
-    {
-     "date": "2026-10-26 07:22",
+     "date": "2026-10-26 02:55",
      "media": "CoinMarketCap",
-     "title": "Polymarket Eyes Japan Expansion, Appoints Local Representative, Says Bloomberg",
+     "title": "Polymarket Opens Private-Market Bets as SEC Pauses Prediction Market ETFs",
      "site": "https://coinmarketcap.com",
-     "overlap": 0.12,
+     "overlap": 0.25,
      "reprises": 0,
      "priority": false
     },
     {
-     "date": "2026-10-26 11:00",
-     "media": "Yahoo Finance UK",
-     "title": "Polymarket traders cool on $2 trillion Anthropic IPO, with odds of a $2 trillion debut slipping to 42%",
-     "site": "https://uk.finance.yahoo.com",
-     "overlap": 0.12,
+     "date": "2026-10-26 11:30",
+     "media": "Techiexpert.com",
+     "title": "Polymarket Fires Chief Marketing Officer Following Investigation Into Fake Ads and Influencer Payments",
+     "site": "https://techiexpert.com",
+     "overlap": 0.36,
      "reprises": 0,
      "priority": false
     }
@@ -166,56 +208,74 @@
    "name": "Anthropic",
    "candidates": [
     {
-     "date": "2026-10-26 19:28",
-     "media": "WAFF",
-     "title": "Anthropic files for potentially biggest IPO ever as CEO warns of AI risk to humanity",
-     "site": "https://www.waff.com",
-     "overlap": 0.11,
-     "reprises": 19,
+     "date": "2026-10-27 10:42",
+     "media": "The Motley Fool",
+     "title": "I Asked Anthropic's Own AI Model Whether I Should Buy the IPO. Claude's Answer Shocked Me.",
+     "site": "https://www.fool.com",
+     "overlap": 0.3,
+     "reprises": 1,
+     "priority": true
+    },
+    {
+     "date": "2026-10-27 10:13",
+     "media": "Fortune",
+     "title": "A good buy or ‘the most ridiculous IPO of 2026’: Anthropic’s debut will be a referendum on AI",
+     "site": "https://fortune.com",
+     "overlap": 0.22,
+     "reprises": 0,
+     "priority": true
+    },
+    {
+     "date": "2026-10-26 23:49",
+     "media": "NewsNation",
+     "title": "Anthropic files for potentially the biggest IPO ever as CEO warns of risk to humanity from AI",
+     "site": "https://www.newsnationnow.com",
+     "overlap": 0.22,
+     "reprises": 5,
      "priority": false
     },
     {
-     "date": "2026-10-26 19:32",
-     "media": "NBC News",
-     "title": "6 key takeaways from Anthropic’s IPO filing",
-     "site": "https://www.nbcnews.com",
-     "overlap": 0.25,
-     "reprises": 19,
-     "priority": false
-    },
-    {
-     "date": "2026-10-26 14:56",
-     "media": "New York Post",
-     "title": "Anthropic files for blockbuster IPO that could value AI giant at $2 trillion",
-     "site": "https://nypost.com",
+     "date": "2026-10-26 20:32",
+     "media": "Coin Academy",
+     "title": "Anthropic : OKX ouvre le trading pré-IPO du créateur de Claude en Europe",
+     "site": "https://coinacademy.fr",
      "overlap": 0.12,
+     "reprises": 3,
+     "priority": false
+    },
+    {
+     "date": "2026-10-27 02:49",
+     "media": "lecourrier.vn",
+     "title": "Croissance météorique et risques en pagaille, Anthropic lève le voile avant son entrée en Bourse",
+     "site": "https://lecourrier.vn",
+     "overlap": 0.22,
+     "reprises": 3,
+     "priority": false
+    },
+    {
+     "date": "2026-10-27 05:17",
+     "media": "Livemint",
+     "title": "IPO: Meet the five Anthropic co-founders who own more shares than CEO Dario Amodei as the AI firm prepares for its offer",
+     "site": "https://www.livemint.com",
+     "overlap": 0.13,
      "reprises": 3,
      "priority": false
     },
     {
      "date": "2026-10-26 13:24",
      "media": "Boursorama",
-     "title": "Le parcours d'Anthropic, de start-up spécialisée dans l'IA à introduction en bourse qui a marqué le secteur",
+     "title": "CHRONOLOGIE-Le parcours d'Anthropic, de start-up spécialisée dans l'IA à introduction en bourse qui a marqué l",
      "site": "https://www.boursorama.com",
-     "overlap": 0.14,
-     "reprises": 2,
-     "priority": false
-    },
-    {
-     "date": "2026-10-26 16:59",
-     "media": "NewsBytes",
-     "title": "Anthropic CEO Dario Amodei received $17.96 million ahead of IPO",
-     "site": "https://www.newsbytesapp.com",
      "overlap": 0.29,
      "reprises": 2,
      "priority": false
     },
     {
-     "date": "2026-10-26 17:44",
-     "media": "L'Agefi",
-     "title": "Anthropic en dévoile un peu plus sur son introduction en Bourse",
-     "site": "https://www.agefi.fr",
-     "overlap": 0.2,
+     "date": "2026-10-26 19:19",
+     "media": "Boursorama",
+     "title": "Introduction en bourse d'Anthropic : zoom sur la croissance fulgurante et la spirale des coûts de ce leader de",
+     "site": "https://www.boursorama.com",
+     "overlap": 0.38,
      "reprises": 2,
      "priority": false
     }
@@ -226,11 +286,11 @@
    "name": "Perplexity",
    "candidates": [
     {
-     "date": "2026-10-26 08:35",
+     "date": "2026-10-26 18:33",
      "media": "آي-فون إسلام",
      "title": "Perplexity launches health platform with Apple Health… Your smart doctor now knows you well!",
      "site": "https://iphoneislam.com",
-     "overlap": 0.09,
+     "overlap": 0,
      "reprises": 1,
      "priority": false
     }
