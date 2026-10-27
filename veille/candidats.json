@@ -1,25 +1,10 @@
 {
- "generatedAt": "2026-10-27T10:42:30Z",
+ "generatedAt": "2026-10-27T16:44:51Z",
  "windowHours": 48,
- "headlinesRead": 819,
- "count": 27,
- "priorityCount": 4,
+ "headlinesRead": 833,
+ "count": 26,
+ "priorityCount": 3,
  "companies": [
-  {
-   "companyId": "prometheus",
-   "name": "Prometheus",
-   "candidates": [
-    {
-     "date": "2026-10-25 16:00",
-     "media": "Unisba Media",
-     "title": "Prometheus CO-CEO Jeff Bezos: AI Will Result In Labor Scarcity, Will Raise Standard Of Living Food (diGKu7qxv3)",
-     "site": "https://media.unisba.ac.id",
-     "overlap": 0,
-     "reprises": 0,
-     "priority": false
-    }
-   ]
-  },
   {
    "companyId": "together-ai",
    "name": "Together AI",
@@ -46,6 +31,21 @@
      "site": "https://www.digitaltoday.co.kr",
      "overlap": 0.3,
      "reprises": 0,
+     "priority": false
+    }
+   ]
+  },
+  {
+   "companyId": "neura-robotics",
+   "name": "Neura Robotics",
+   "candidates": [
+    {
+     "date": "2026-10-27 11:25",
+     "media": "Tech Times",
+     "title": "NEURA Robotics Launches Gen 4 Humanoid: Each Arm Makes Its Own Millisecond Decisions",
+     "site": "https://www.techtimes.com",
+     "overlap": 0.33,
+     "reprises": 2,
      "priority": false
     }
    ]
@@ -149,6 +149,15 @@
      "overlap": 0.0,
      "reprises": 0,
      "priority": false
+    },
+    {
+     "date": "2026-10-27 13:00",
+     "media": "www.thestreet.com",
+     "title": "Nasdaq Listing, Kraken Exit, Eight-Figure Revenue: Blockchain Founders Fund Named Best Early-Stage Blockchain VC",
+     "site": "https://www.thestreet.com",
+     "overlap": 0.08,
+     "reprises": 0,
+     "priority": false
     }
    ]
   },
@@ -157,47 +166,38 @@
    "name": "Polymarket",
    "candidates": [
     {
-     "date": "2026-10-26 23:22",
-     "media": "NewsCord",
-     "title": "NBA Names Kalshi And Polymarket Preferred Prediction Exchanges, Signs CFTC MOU: how 18 outlets framed it",
-     "site": "https://newscord.org",
-     "overlap": 0.33,
-     "reprises": 12,
-     "priority": false
-    },
-    {
-     "date": "2026-10-26 21:55",
-     "media": "Lancaster Eagle-Gazette",
-     "title": "Polymarket Sign-Up Bonus Code SBWIRE: Deposit $10, Get $25 (October 26)",
-     "site": "https://www.lancastereaglegazette.com",
-     "overlap": 0.0,
-     "reprises": 3,
-     "priority": false
-    },
-    {
-     "date": "2026-10-27 01:10",
-     "media": "SILive.com",
-     "title": "NFL Polymarket promo code “SILIVE” renews $25 Cowboys-Eagles deal",
-     "site": "https://www.silive.com",
-     "overlap": 0.12,
-     "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-10-26 02:55",
-     "media": "CoinMarketCap",
-     "title": "Polymarket Opens Private-Market Bets as SEC Pauses Prediction Market ETFs",
-     "site": "https://coinmarketcap.com",
-     "overlap": 0.25,
-     "reprises": 0,
-     "priority": false
-    },
-    {
      "date": "2026-10-26 11:30",
      "media": "Techiexpert.com",
      "title": "Polymarket Fires Chief Marketing Officer Following Investigation Into Fake Ads and Influencer Payments",
      "site": "https://techiexpert.com",
      "overlap": 0.36,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-10-27 13:19",
+     "media": "PR Newswire",
+     "title": "Polymarket Unveils Advanced Election Market Surveillance Ahead of U.S. Midterms",
+     "site": "https://www.prnewswire.com",
+     "overlap": 0.14,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-10-27 13:32",
+     "media": "The Gleaner",
+     "title": "Polymarket Sign-Up Bonus Code SBWIRE: Deposit $10, Get $25 (October 27)",
+     "site": "https://www.thegleaner.com",
+     "overlap": 0.14,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-10-27 16:08",
+     "media": "openPR.com",
+     "title": "Polymarket Strategy Tips: Prediction Alpha Bot Launches",
+     "site": "https://www.openpr.com",
+     "overlap": 0.17,
      "reprises": 0,
      "priority": false
     }
@@ -208,16 +208,7 @@
    "name": "Anthropic",
    "candidates": [
     {
-     "date": "2026-10-27 10:42",
-     "media": "The Motley Fool",
-     "title": "I Asked Anthropic's Own AI Model Whether I Should Buy the IPO. Claude's Answer Shocked Me.",
-     "site": "https://www.fool.com",
-     "overlap": 0.3,
-     "reprises": 1,
-     "priority": true
-    },
-    {
-     "date": "2026-10-27 10:13",
+     "date": "2026-10-27 10:38",
      "media": "Fortune",
      "title": "A good buy or ‘the most ridiculous IPO of 2026’: Anthropic’s debut will be a referendum on AI",
      "site": "https://fortune.com",
@@ -226,21 +217,12 @@
      "priority": true
     },
     {
-     "date": "2026-10-26 23:49",
-     "media": "NewsNation",
-     "title": "Anthropic files for potentially the biggest IPO ever as CEO warns of risk to humanity from AI",
-     "site": "https://www.newsnationnow.com",
-     "overlap": 0.22,
-     "reprises": 5,
-     "priority": false
-    },
-    {
-     "date": "2026-10-26 20:32",
-     "media": "Coin Academy",
-     "title": "Anthropic : OKX ouvre le trading pré-IPO du créateur de Claude en Europe",
-     "site": "https://coinacademy.fr",
-     "overlap": 0.12,
-     "reprises": 3,
+     "date": "2026-10-27 10:00",
+     "media": "Tom's Hardware",
+     "title": "Anthropic prepares for potential $2 trillion IPO valuation after reporting billions in revenue — company warns AI could pose ‘catastrophic existential risks to humanity’",
+     "site": "https://www.tomshardware.com",
+     "overlap": 0.18,
+     "reprises": 4,
      "priority": false
     },
     {
@@ -276,6 +258,15 @@
      "title": "Introduction en bourse d'Anthropic : zoom sur la croissance fulgurante et la spirale des coûts de ce leader de",
      "site": "https://www.boursorama.com",
      "overlap": 0.38,
+     "reprises": 2,
+     "priority": false
+    },
+    {
+     "date": "2026-10-26 20:32",
+     "media": "Coin Academy",
+     "title": "Anthropic : OKX ouvre le trading pré-IPO du créateur de Claude en Europe",
+     "site": "https://coinacademy.fr",
+     "overlap": 0.12,
      "reprises": 2,
      "priority": false
     }
