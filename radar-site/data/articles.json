@@ -1,5 +1,27 @@
 [
  {
+  "id": "polymarket-2026-10-27-ballon-dor-paris-suspects",
+  "companyId": "polymarket",
+  "date": "2026-10-27",
+  "title": "Ballon d'Or : des paris suspects sur Polymarket avaient anticipé le top 5 exact",
+  "summary": "Une enquête d'UpsideMedia, reprise par Foot Mercato et Numerama, relève 264 000 dollars misés par des comptes récents sur le classement exact du Ballon d'Or 2026, ensuite confirmé. Aucune preuve de fuite n'est établie.",
+  "detail": "Selon Foot Mercato, qui s'appuie sur UpsideMedia, douze comptes Polymarket, peut-être contrôlés par une seule personne, ont engagé 264 000 dollars sur les marchés du Ballon d'Or. Ils ont été créés entre le 1er et le 20 octobre, sept n'ont fait aucun autre pari et six ont misé quinze minutes après leur création.\n\nLe scénario joué (Kane, Mbappé, Yamal, Rodri, Messi) correspond au classement dévoilé lors de la cérémonie du 26 octobre. La probabilité d'un Yamal devant Mbappé est passée de 80 à 90 % à 28 % entre le début et le 22 octobre, sans annonce publique. Foot Mercato précise qu'aucun élément ne prouve la circulation d'informations confidentielles et ne mentionne aucune réaction de Polymarket, qui ne demande pas l'identité des parieurs.",
+  "impact": "Nouvelle affaire de délit d'initié présumé sur la plateforme, qui renforce la pression sur ses contrôles d'intégrité au moment où elle signe des accords avec la NBA.",
+  "signal": "prudent",
+  "rationale": "Les soupçons d'initiés répétés fragilisent la réputation de la plateforme, même si aucune faute n'est prouvée.",
+  "sources": [
+   {
+    "label": "Foot Mercato, 27/10/2026",
+    "url": "https://www.footmercato.net/a6753211150283729584-plusieurs-paris-suspects-sur-le-classement-precis-du-ballon-dor"
+   },
+   {
+    "label": "Numerama via Titres Presse, 27/10/2026",
+    "url": "https://www.titrespresse.com/26694372603/polymarket-kane-mbappe"
+   }
+  ],
+  "addedAt": "2026-10-27T12:24:28Z"
+ },
+ {
   "id": "anthropic-2026-10-26-s1-public",
   "companyId": "anthropic",
   "date": "2026-10-26",
