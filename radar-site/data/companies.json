@@ -1150,14 +1150,14 @@
    },
    {
     "label": "Résultats du premier semestre 2026",
-    "value": "16,3 milliards de dollars de revenus, perte nette de 80,7 milliards dont environ 72 milliards de charge comptable (projet de prospectus, non publié par la société)",
-    "date": "2026-10-20",
-    "status": "presse",
+    "value": "16,3 milliards de dollars de revenus, perte nette de 80,7 milliards dont l'essentiel en charges comptables (S-1 public)",
+    "date": "2026-10-26",
+    "status": "officielle",
     "source": {
-     "label": "Wall Street Journal via Crypto Briefing, 20/10/2026",
-     "url": "https://cryptobriefing.com/anthropic-ipo-draft-revenue-net-loss/"
+     "label": "SEC, S-1 d'Anthropic, 26/10/2026",
+     "url": "https://www.sec.gov/Archives/edgar/data/0002130357/000162828026067168/anthropicpbc-sx1.htm"
     },
-    "articleId": "anthropic-2026-10-20-s1-actualise"
+    "articleId": "anthropic-2026-10-26-s1-public"
    }
   ],
   "newsQuery": "\"Anthropic\" (Claude OR Amodei OR AI)",

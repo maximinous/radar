@@ -1,5 +1,205 @@
 [
  {
+  "id": "anthropic-2026-10-26-s1-public",
+  "companyId": "anthropic",
+  "date": "2026-10-26",
+  "title": "Anthropic dépose publiquement son dossier d'introduction en Bourse et vise le Nasdaq sous le sigle ANT",
+  "summary": "Anthropic a rendu public son formulaire S-1 auprès de la SEC pour introduire ses actions de classe A au Nasdaq sous le sigle ANT. Le nombre d'actions et la fourchette de prix ne sont pas encore fixés.",
+  "detail": "Goldman Sachs et Morgan Stanley figurent comme contacts pour le prospectus préliminaire. Le dossier indique 16,3 milliards de dollars de revenus au premier semestre 2026, contre 4,6 milliards sur toute l'année 2025, et 9 milliards de dollars de dépenses d'infrastructure d'IA sur la période. Le deuxième trimestre affiche 11,6 milliards de revenus et un résultat d'exploitation positif de 974 millions de dollars, après une perte d'exploitation de 1,7 milliard au premier.\n\nLa perte nette atteint 80,7 milliards de dollars au premier semestre, en grande partie à cause de charges comptables. Environ un cinquième des revenus vient de deux clients. L'effectif est d'environ 5 300 personnes au 30 septembre 2026. Le prospectus décrit aussi des scénarios où les modèles causeraient des dommages réels, au-delà de ce que la société pourrait indemniser, et signale le risque de réglementation plus restrictive. La valorisation visée n'est pas dans le dossier : la presse évoque 1 500 à 2 000 milliards de dollars.",
+  "impact": "Le dépôt public lance le calendrier de l'introduction en Bourse et donne pour la première fois des chiffres officiels : croissance très rapide des revenus, retour à un résultat d'exploitation positif au deuxième trimestre, mais engagements de calcul massifs et forte concentration client.",
+  "signal": "neutre",
+  "rationale": "La croissance et le résultat d'exploitation du T2 sont solides, mais la perte nette, les engagements de calcul et les risques déclarés pèsent sur le tableau.",
+  "sources": [
+   {
+    "label": "Anthropic, annonce du dépôt du S-1, 26/10/2026",
+    "url": "https://www.anthropic.com/news/s1-sec"
+   },
+   {
+    "label": "SEC, formulaire S-1 d'Anthropic, 26/10/2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/0002130357/000162828026067168/anthropicpbc-sx1.htm"
+   },
+   {
+    "label": "Yahoo Finance, 26/10/2026",
+    "url": "https://finance.yahoo.com/technology/article/anthropic-publicly-files-ipo-prospectus-noting-strong-revenue-growth-and-massive-spending-131807138.html"
+   },
+   {
+    "label": "Yahoo Finance, suivi en direct, 26/10/2026",
+    "url": "https://finance.yahoo.com/technology/live/anthropic-ipo-live-updates-frontier-ai-lab-discloses-revenue-and-risks-in-highly-anticipated-s-1-filing-141702607.html"
+   }
+  ],
+  "addedAt": "2026-10-27T06:15:25Z"
+ },
+ {
+  "id": "anthropic-2026-10-26-broadcom-63-milliards",
+  "companyId": "anthropic",
+  "date": "2026-10-26",
+  "title": "Bank of America, Blackstone, Citi et Morgan Stanley engagent 63 milliards de dollars pour financer les puces Broadcom d'Anthropic",
+  "summary": "Quatre établissements s'engagent à financer 63 milliards de dollars de puces et d'équipements réseau Broadcom, qu'une société ad hoc louera à Anthropic. Les livraisons doivent commencer en 2027.",
+  "detail": "Selon Reuters, la partie de premier rang représente environ 43,5 milliards de dollars, soit 69 % du total, arrangée par Bank of America, Citi et Morgan Stanley. Blackstone fournit seule la partie de second rang. Broadcom apporte un soutien à la valeur résiduelle à hauteur de la partie de premier rang.\n\nLa structure s'inscrit dans l'accord de capacité de calcul déjà annoncé entre Broadcom et Anthropic. Moody's juge Broadcom très solide mais prévient que le risque augmenterait si plusieurs opérations de ce type s'enchaînaient. L'annonce vient d'un communiqué commun des sociétés, sans déclaration séparée d'Anthropic.",
+  "impact": "Le financement sécurise une part importante des puces d'Anthropic pour 2027 sans alourdir directement son bilan, puisque le matériel est loué par une structure dédiée.",
+  "signal": "optimiste",
+  "rationale": "Des engagements fermes de grandes banques lèvent l'incertitude sur le financement des puces, même si l'ampleur de la dette suppose une croissance soutenue.",
+  "sources": [
+   {
+    "label": "Reuters, repris par KSL, 26/10/2026",
+    "url": "https://www.ksl.com/article/51641301/wall-st-banks-blackstone-line-up-63-billion-to-finance-broadcom-ai-chips-for-anthropic"
+   },
+   {
+    "label": "Yahoo Finance, 26/10/2026",
+    "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-secures-63-billion-banks-205926176.html"
+   },
+   {
+    "label": "Benzinga, 27/10/2026",
+    "url": "https://www.benzinga.com/markets/tech/26/10/62608696/broadcom-anthropic-63-billion-financing-banks-blackstone-ai-chips"
+   }
+  ],
+  "addedAt": "2026-10-27T06:15:25Z"
+ },
+ {
+  "id": "anthropic-2026-10-26-ftc-temoignage",
+  "companyId": "anthropic",
+  "date": "2026-10-26",
+  "title": "La FTC exige que des dirigeants d'Anthropic témoignent dans son enquête sur les risques pour les consommateurs",
+  "summary": "Un porte-parole de la FTC a confirmé que l'agence demande à des dirigeants d'Anthropic de témoigner dans son enquête sur les préjudices aux consommateurs. Des responsables d'autres sociétés d'IA ont reçu des demandes similaires.",
+  "detail": "Les dirigeants concernés ne sont pas nommés. La demande suit d'environ deux semaines les demandes d'informations de 50 pages envoyées à Anthropic et OpenAI, qui portaient sur les incidents de sécurité, les garde-fous, le marketing et les politiques de confidentialité. L'enquête vise d'éventuelles pratiques déloyales ou trompeuses.\n\nAnthropic n'a pas fait de déclaration directe. Son dossier d'introduction en Bourse, déposé le même jour, prévient que l'enquête pourrait entraîner des coûts importants et des changements dans la conception des modèles.",
+  "impact": "L'enquête s'intensifie au moment où la société prépare son introduction en Bourse, ce qui ajoute un risque réglementaire que les investisseurs devront évaluer.",
+  "signal": "prudent",
+  "rationale": "Une obligation de témoigner marque un cran de plus dans une procédure dont l'issue et le coût restent inconnus.",
+  "sources": [
+   {
+    "label": "The Hill, 26/10/2026",
+    "url": "https://thehill.com/policy/technology/6173134-ftc-demands-anthropic-ai-testimony/"
+   },
+   {
+    "label": "Yahoo News, 26/10/2026",
+    "url": "https://www.yahoo.com/news/politics/articles/ftc-demanding-anthropic-execs-testify-180004444.html"
+   }
+  ],
+  "addedAt": "2026-10-27T06:15:25Z"
+ },
+ {
+  "id": "anthropic-2026-10-26-engagements-calcul",
+  "companyId": "anthropic",
+  "date": "2026-10-26",
+  "title": "Le dossier d'Anthropic révèle ses engagements de calcul : au moins 114,5 milliards chez Google, 110 chez Amazon et 44,9 chez Microsoft",
+  "summary": "Le S-1 détaille des engagements minimaux de dépenses de cloud et de puces auprès de Google, Amazon et Microsoft, auxquels s'ajoutent jusqu'à 120,5 milliards de dollars chez SpaceX selon la presse.",
+  "detail": "Selon l'analyse du S-1 par PPC Land, l'engagement chez Google Cloud est d'au moins 114,5 milliards de dollars entre avril 2026 et juillet 2033, celui chez Amazon d'au moins 110 milliards entre mai 2026 et avril 2036, et celui chez Microsoft Azure d'au moins 44,9 milliards entre novembre 2026 et mai 2033. Le contrat Microsoft est passé de 30 milliards en novembre 2025 à 44,9 milliards après des avenants. Ces engagements sont dus quelle que soit l'utilisation.\n\nDes médias dont Yahoo Finance rapportent aussi un accord avec SpaceX pouvant atteindre 120,5 milliards de dollars jusqu'en 2029, soit environ 3,1 milliards par mois une fois toute la capacité livrée, attendue en décembre 2026. Les chiffres totaux varient selon les sources et le dossier laisse le total général en blanc.",
+  "impact": "Ces chiffres montrent l'ampleur des besoins de calcul d'Anthropic et sa dépendance à plusieurs fournisseurs, avec des dépenses fixes de plusieurs centaines de milliards de dollars sur dix ans.",
+  "signal": "neutre",
+  "rationale": "Des capacités garanties soutiennent la croissance, mais les engagements non résiliables pèseraient lourd si la demande ralentissait.",
+  "sources": [
+   {
+    "label": "PPC Land, analyse du S-1, 26/10/2026",
+    "url": "https://ppc.land/amazon-google-and-microsoft-hold-269bn-of-anthropic-compute-contracts/"
+   },
+   {
+    "label": "SEC, formulaire S-1 d'Anthropic, 26/10/2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/0002130357/000162828026067168/anthropicpbc-sx1.htm"
+   },
+   {
+    "label": "Yahoo Finance, suivi en direct, 26/10/2026",
+    "url": "https://finance.yahoo.com/technology/live/anthropic-ipo-live-updates-frontier-ai-lab-discloses-revenue-and-risks-in-highly-anticipated-s-1-filing-141702607.html"
+   }
+  ],
+  "addedAt": "2026-10-27T06:15:25Z"
+ },
+ {
+  "id": "anthropic-2026-10-26-anthropic-direct",
+  "companyId": "anthropic",
+  "date": "2026-10-26",
+  "title": "Anthropic Direct : Anthropic achète ses accélérateurs et les exploite dans des centres de données loués",
+  "summary": "Dans son dossier d'introduction en Bourse, Anthropic décrit un modèle hybride appelé Anthropic Direct, où elle achète des accélérateurs d'IA et les exploite dans des centres de données loués, en plus du cloud.",
+  "detail": "La société s'attend à ce que cette approche représente une part croissante de ses investissements de calcul. Elle permet aussi de compléter, en période de forte demande, des accords de cloud de courte durée avec une capacité propre moins chère. Yahoo Finance indique qu'Anthropic reste très liée à AWS, avec plus de 100 milliards de dollars engagés sur dix ans.\n\nDes médias évoquent des discussions avec Stream Data Centers, contrôlé par Apollo, pour jusqu'à 1 GW de capacité, mais ces discussions restent préliminaires.",
+  "impact": "Le modèle réduit la dépendance d'Anthropic aux grands fournisseurs de cloud et peut baisser son coût de calcul à long terme.",
+  "signal": "optimiste",
+  "rationale": "Un contrôle accru de l'infrastructure améliore la flexibilité et les coûts, sous réserve d'exécution et de financement.",
+  "sources": [
+   {
+    "label": "Yahoo Finance, suivi en direct du S-1, 26/10/2026",
+    "url": "https://finance.yahoo.com/technology/live/anthropic-ipo-live-updates-frontier-ai-lab-discloses-revenue-and-risks-in-highly-anticipated-s-1-filing-141702607.html"
+   },
+   {
+    "label": "Yahoo Finance via AOL, 26/10/2026",
+    "url": "https://www.aol.com/articles/anthropic-leasing-data-centers-reduce-173843000.html"
+   }
+  ],
+  "addedAt": "2026-10-27T06:15:25Z"
+ },
+ {
+  "id": "anthropic-2026-10-26-nonprofits-plugin",
+  "companyId": "anthropic",
+  "date": "2026-10-26",
+  "title": "Anthropic lance un plugin Claude pour les associations et étend son programme Claude Corps",
+  "summary": "Anthropic présente un plugin Claude for Nonprofits conçu avec une trentaine d'associations et annonce l'extension de Claude Corps, qui place des chargés de mission dans des organisations à but non lucratif.",
+  "detail": "Environ 25 000 associations utilisent déjà Claude for Nonprofits, selon Anthropic, et la plupart sont de petite taille. Le programme Claude Corps proposera aussi des consultants pour des projets courts, en partenariat avec Taproot Foundation. L'annonce intervient le jour du dépôt du S-1, et rappelle l'engagement de placer 5 % des actions dans un fonds d'intérêt public, soumis à l'approbation des actionnaires.",
+  "impact": "L'initiative renforce l'image sociale d'Anthropic à l'approche de son introduction en Bourse et élargit l'usage de Claude dans le secteur associatif.",
+  "signal": "neutre",
+  "rationale": "Un geste utile mais de taille limitée par rapport aux enjeux financiers et réglementaires du moment.",
+  "sources": [
+   {
+    "label": "Associated Press, repris par ABC News, 26/10/2026",
+    "url": "https://abcnews.com/Technology/wireStory/anthropic-expands-ai-support-nonprofits-files-sell-shares-137579321"
+   },
+   {
+    "label": "Associated Press, repris par le Houston Chronicle, 26/10/2026",
+    "url": "https://www.houstonchronicle.com/business/article/anthropic-expands-ai-support-for-nonprofits-as-it-22495084.php"
+   }
+  ],
+  "addedAt": "2026-10-27T06:15:25Z"
+ },
+ {
+  "id": "kraken-2026-10-26-options-eea",
+  "companyId": "kraken",
+  "date": "2026-10-26",
+  "title": "Kraken lance les options sur bitcoin et ether pour les clients de l'Espace économique européen",
+  "summary": "Les clients éligibles de l'EEE peuvent négocier des options sur BTC et ETH sur Kraken Pro, depuis leur compte Dérivés existant. Les contrats passent par un système de demande de cotation.",
+  "detail": "Il s'agit d'options de style européen, réglées en dollars, avec des échéances hebdomadaires, mensuelles, trimestrielles et semestrielles, et jusqu'à cinq jambes par ordre. Elles partagent le compte et les garanties des contrats à terme, avec marge de portefeuille par défaut et plus de 30 devises acceptées. Les clients doivent d'abord remplir un questionnaire et passer une évaluation d'adéquation.\n\nLe service est fourni par Payward Europe Digital Solutions (CY), autorisée par la CySEC à Chypre, tandis que les actifs sont conservés par Payward Europe Solutions sous le régime MiCA.",
+  "impact": "Kraken complète son offre de dérivés réglementés en Europe, après les contrats à terme lancés en 2025, et vise une clientèle plus active.",
+  "signal": "optimiste",
+  "rationale": "Un nouveau produit réglementé élargit l'offre et les sources de revenus en Europe, avec un accès encore restreint aux clients éligibles.",
+  "sources": [
+   {
+    "label": "Kraken, blog, 26/10/2026",
+    "url": "https://blog.kraken.com/product/kraken-derivatives/options-now-available-in-the-eea"
+   },
+   {
+    "label": "Finance Magnates, 26/10/2026",
+    "url": "https://www.financemagnates.com/cryptocurrency/exchange/kraken-brings-btc-and-eth-options-to-eea-under-cyprus-licence/"
+   }
+  ],
+  "addedAt": "2026-10-27T06:15:25Z"
+ },
+ {
+  "id": "polymarket-2026-10-26-nba-partenaire",
+  "companyId": "polymarket",
+  "date": "2026-10-26",
+  "title": "La NBA désigne Polymarket et Kalshi comme plateformes de prédiction privilégiées",
+  "summary": "La NBA signe des accords avec Polymarket et Kalshi, ainsi qu'un protocole d'accord sur l'intégrité avec la CFTC. Les deux plateformes accèdent aux données officielles et aux marques de la ligue.",
+  "detail": "Les accords interdisent au personnel de la ligue et des équipes de négocier des contrats sur les matchs de la NBA, prévoient un partage d'informations sur les transactions suspectes et laissent à la ligue le droit de limiter les types de marchés. Le protocole avec la CFTC est un accord non contraignant de partage d'informations, salué par son président Michael Selig. La NBA suit la MLB et la NHL.\n\nSelon la presse, la ligue élargit aussi sa relation avec DraftKings aux marchés de prédiction.",
+  "impact": "Un partenariat officiel avec une grande ligue américaine renforce la légitimité de Polymarket et son accès aux données sportives, dans un contexte de bras de fer avec plusieurs États.",
+  "signal": "optimiste",
+  "rationale": "Le soutien d'une ligue majeure et d'un régulateur fédéral est un appui clair, même si le cadre juridique reste contesté dans plusieurs États.",
+  "sources": [
+   {
+    "label": "Bleacher Report, 26/10/2026",
+    "url": "https://bleacherreport.com/articles/25520446-integrity-details-announced-nba-kalshi-and-polymarket-agree-deals"
+   },
+   {
+    "label": "The Hill, 26/10/2026",
+    "url": "https://thehill.com/policy/technology/6173329-nba-partners-kalshi-polymarket/"
+   },
+   {
+    "label": "Bloomberg, 26/10/2026",
+    "url": "https://www.bloomberg.com/news/articles/2026-10-26/nba-reaches-deal-with-prediction-markets-kalshi-and-polymarket"
+   },
+   {
+    "label": "ESPN, 26/10/2026",
+    "url": "https://www.espn.com/nba/story/_/id/50280364/nba-prediction-markets-kalshi-polymarket-partnership"
+   }
+  ],
+  "addedAt": "2026-10-27T06:15:25Z"
+ },
+ {
   "id": "starcloud-2026-10-26-dunamu-partners-extension",
   "companyId": "starcloud",
   "date": "2026-10-26",
@@ -4381,7 +4581,7 @@
   "date": "2026-09-16",
   "title": "Payward veut ouvrir les contrats perpétuels onchain de Hyperliquid aux clients américains",
   "summary": "Payward, maison mère de Kraken, prévoit de proposer aux clients américains des contrats perpétuels onchain sur Hyperliquid. Le projet s'appuie sur Bitnomial et NinjaTrader et reste soumis à l'aval des régulateurs.",
-  "detail": "Les marchés seraient lancés via le dispositif HIP-3 de Hyperliquid, qui permet de déployer des marchés perpétuels avec accès restreint. Bitnomial, bourse et chambre de compensation régulées par la CFTC, créerait et compenserait les contrats. NinjaTrader Clearing porterait les comptes clients.\n\nSeuls les comptes validés par NinjaTrader et Bitnomial pourraient négocier. Payward n'a donné ni date de lancement, ni grille tarifaire, ni volume attendu. Le groupe revendique 6,6 millions de comptes financés au 30 juin 2026.",
+  "detail": "Les marchés seraient lancés via le dispositif HIP-3 de Hyperliquid, qui permet de déployer des marchés perpétuels avec accès restreint. Bitnomial, bourse et chambre de compensation régulées par la CFTC, créerait et compenserait les contrats. NinjaTrader Clearing porterait les comptes clients.\n\nSeuls les comptes validés par NinjaTrader et Bitnomial pourraient négocier. Payward n'a donné ni date de lancement, ni grille tarifaire, ni volume attendu. Le groupe revendique 6,6 millions de comptes financés au 30 juin 2026.\n\nLe 26 octobre 2026, Hyperliquid a désigné Payward comme son premier déployeur de marchés HIP-3 régulés par la CFTC. Le projet reste soumis à l'approbation des régulateurs, sans date de lancement ni actifs précisés.",
   "impact": "Kraken capitalise sur ses rachats de Bitnomial et NinjaTrader pour se positionner en premier acteur régulé américain sur les perpétuels onchain.",
   "signal": "optimiste",
   "rationale": "Nouveau produit à fort potentiel sur un marché américain encore fermé, mais sans calendrier et soumis à approbation.",
@@ -4393,6 +4593,10 @@
    {
     "label": "CoinDesk, 16 septembre 2026",
     "url": "https://www.coindesk.com/markets/2026/09/16/payward-plans-to-offer-u-s-clients-onchain-perpetual-futures-on-hyperliquid"
+   },
+   {
+    "label": "The Block, 26/10/2026",
+    "url": "https://www.theblock.co/news/markets/2026-10-26-hyperliquid-payward-kraken-cftc-regulated-hip-3-deployer-431787"
    }
   ],
   "addedAt": "2026-09-26T06:19:46Z"
