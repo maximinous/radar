@@ -1,5 +1,81 @@
 [
  {
+  "id": "anthropic-2026-10-27-gsa-onegov-40",
+  "companyId": "anthropic",
+  "date": "2026-10-27",
+  "title": "Anthropic et la GSA : 40 % de remise sur Claude pour l'État fédéral et les collectivités",
+  "summary": "Anthropic signe avec la GSA un accord élargi qui offre 40 % de remise sur Claude Enterprise, Claude for Government et l'API, aux agences fédérales comme aux États et collectivités locales.",
+  "detail": "La remise s'applique à tous les produits, en achat direct et, dans les prochains mois, via les fournisseurs cloud, et les agences peuvent acheter par le contrat Multiple Award Schedule de la GSA. Il n'y a pas de minimum d'achat.\n\nAnthropic dit compter environ 500 organisations publiques américaines clientes, un nombre hebdomadaire d'utilisateurs de Claude for Government multiplié par 8 environ depuis février et un usage multiplié par 20 en un an dans les agences civiles fédérales. Claude for Government dispose de l'autorisation FedRAMP High depuis le 30 septembre. L'éditeur estime l'économie pour les administrations à 1 milliard de dollars.",
+  "impact": "L'accord ouvre les achats publics à tous les niveaux de gouvernement, avec un prix attractif et sans engagement, ce qui soutient la croissance du chiffre d'affaires public d'Anthropic.",
+  "signal": "optimiste",
+  "rationale": "Un canal d'achat public simplifié et une adoption déjà en forte hausse renforcent la traction d'Anthropic dans le secteur public.",
+  "sources": [
+   {
+    "label": "Anthropic, 27/10/2026",
+    "url": "https://www.anthropic.com/news/expanding-partnership-gsa"
+   }
+  ],
+  "addedAt": "2026-10-28T06:17:20Z"
+ },
+ {
+  "id": "anthropic-2026-10-27-drug-development-mithril",
+  "companyId": "anthropic",
+  "date": "2026-10-27",
+  "title": "Anthropic détaille ses premiers résultats en développement de médicaments et rachète Mithril Medicine",
+  "summary": "Avec six développeurs de médicaments, Anthropic présente des résultats précoces, surtout précliniques, obtenus avec Claude. Elle annonce aussi avoir acquis Mithril Medicine, une société qui vise deux formes rares de dystrophie musculaire.",
+  "detail": "Chez Enveda, Claude a relu 1 061 pages de documents de fabrication, retrouvé les 11 problèmes repérés par les relecteurs humains et signalé sept autres, avec un temps de relecture réduit de 89 %. Chez BigHat, environ 1 010 variantes d'anticorps ont été testées en dix semaines et les meilleures se lient plus de dix fois plus fortement. Bristol Myers Squibb utilise Claude pour évaluer des plans d'essais cliniques, avec une collaboration prévue pour s'étendre en 2027. The Column Group lance Pleiades, une société qui s'appuiera sur Claude.\n\nMithril Medicine, société d'un seul salarié, a mené son projet jusqu'à des résultats prometteurs chez la souris en moins de 18 mois, avec Claude pour piloter contrats, logistique et expériences dans 11 laboratoires externes. Un candidat pourrait entrer en essais humains dès fin 2028 si les résultats se confirment.",
+  "impact": "Anthropic étend Claude vers les sciences de la vie et franchit un pas en tant qu'opérateur, avec un premier programme interne de médicament.",
+  "signal": "neutre",
+  "rationale": "Les résultats sont précoces et précliniques, et l'entrée dans le développement de médicaments reste à prouver.",
+  "sources": [
+   {
+    "label": "Anthropic, 27/10/2026",
+    "url": "https://www.anthropic.com/research/early-progress-drug-development"
+   }
+  ],
+  "addedAt": "2026-10-28T06:17:20Z"
+ },
+ {
+  "id": "polymarket-2026-10-27-cftc-reglement-2022",
+  "companyId": "polymarket",
+  "date": "2026-10-27",
+  "title": "Reuters : la CFTC enquête de nouveau sur le respect de l'accord de 2022 par Polymarket",
+  "summary": "Selon Reuters, qui cite deux sources, la CFTC cherche à savoir si Polymarket a respecté l'accord de 2022 lui imposant d'écarter les utilisateurs américains de sa plateforme offshore.",
+  "detail": "Les enquêteurs examineraient la façon dont Polymarket localise ses utilisateurs, sa publicité aux États-Unis et l'inscription des clients sur sa plateforme américaine. Reuters indique que ce volet s'inscrit dans une enquête plus large ouverte plus tôt en 2026, jusque-là non rapportée.\n\nEn 2022, Polymarket avait réglé des poursuites de la CFTC sur des options binaires non enregistrées, avec 1,4 million de dollars d'amende. Les enquêtes de la CFTC et du ministère de la Justice avaient été closes sans poursuite en juillet 2025. Polymarket, la CFTC et le ministère ont refusé de commenter, et une enquête n'établit pas en soi une faute.",
+  "impact": "Un nouveau risque réglementaire pèse sur Polymarket au moment où elle développe sa plateforme américaine régulée.",
+  "signal": "prudent",
+  "rationale": "Une enquête fédérale rouverte sur un accord existant crée un risque de sanction et de contrainte sur l'accès des utilisateurs.",
+  "sources": [
+   {
+    "label": "Unchained, reprise de Reuters, 27/10/2026",
+    "url": "https://unchainedcrypto.com/polymarket-faces-renewed-cftc-probe-over-whether-it-broke-2022-settlement-report/"
+   },
+   {
+    "label": "CNBC, 27/10/2026",
+    "url": "https://www.cnbc.com/2026/10/27/cftc-probes-polymarket-over-2022-settlement.html"
+   }
+  ],
+  "addedAt": "2026-10-28T06:17:20Z"
+ },
+ {
+  "id": "shield-ai-2026-10-27-x-bat-raytheon-rf",
+  "companyId": "shield-ai",
+  "date": "2026-10-27",
+  "title": "Shield AI et Raytheon (RTX) s'accordent pour équiper le X-BAT de radar et de guerre électronique",
+  "summary": "Shield AI annonce un accord avec Raytheon, filiale de RTX, pour intégrer un ensemble de systèmes radar et de guerre électronique au chasseur autonome X-BAT.",
+  "detail": "La presse spécialisée relaie une annonce de Shield AI datée du 27 octobre 2026. Les termes, le montant et le calendrier ne sont pas publics, et la formule employée (systèmes de mission radiofréquence) ne précise pas la liste exacte des équipements.\n\nLe X-BAT, dévoilé en octobre 2025, est un chasseur sans pilote à décollage vertical, conçu pour porter un radar multimode et une suite de guerre électronique. Shield AI prévoit ses premiers vols d'essai en 2026.",
+  "impact": "Un fournisseur de rang mondial pour les capteurs du X-BAT renforce la crédibilité du programme avant ses essais en vol.",
+  "signal": "optimiste",
+  "rationale": "Le partenariat avec RTX consolide le programme phare de Shield AI, même si les termes restent non divulgués.",
+  "sources": [
+   {
+    "label": "Military Magazine (milmag.pl), 27/10/2026",
+    "url": "https://milmag.pl/rtx-dostarczy-systemy-radarowe-i-walki-radioelektronicznej-dla-x-bat/"
+   }
+  ],
+  "addedAt": "2026-10-28T06:17:20Z"
+ },
+ {
   "id": "polymarket-2026-10-27-ballon-dor-paris-suspects",
   "companyId": "polymarket",
   "date": "2026-10-27",
