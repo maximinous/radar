@@ -1,25 +1,10 @@
 {
- "generatedAt": "2026-10-28T11:26:49Z",
+ "generatedAt": "2026-10-28T23:32:52Z",
  "windowHours": 48,
- "headlinesRead": 883,
- "count": 28,
- "priorityCount": 2,
+ "headlinesRead": 878,
+ "count": 37,
+ "priorityCount": 4,
  "companies": [
-  {
-   "companyId": "together-ai",
-   "name": "Together AI",
-   "candidates": [
-    {
-     "date": "2026-10-26 14:48",
-     "media": "AI Magazine",
-     "title": "Together AI: Open-Source AI Cloud Hits US$8.3bn Valuation",
-     "site": "https://aimagazine.com",
-     "overlap": 0,
-     "reprises": 2,
-     "priority": false
-    }
-   ]
-  },
   {
    "companyId": "mistral-ai",
    "name": "Mistral AI",
@@ -88,30 +73,57 @@
    "name": "Stripe",
    "candidates": [
     {
+     "date": "2026-10-28 10:45",
+     "media": "FourWeekMBA",
+     "title": "Stripe Lets AI Agents Buy on a Budget as Purchases Grow 38x",
+     "site": "https://fourweekmba.com",
+     "overlap": 0.14,
+     "reprises": 0,
+     "priority": true
+    },
+    {
+     "date": "2026-10-28 14:11",
+     "media": "Small Business Trends",
+     "title": "Stripe Enhances Support for Small Businesses with Parafin Acquisition",
+     "site": "https://smallbiztrends.com",
+     "overlap": 0.0,
+     "reprises": 0,
+     "priority": true
+    },
+    {
      "date": "2026-10-27 04:32",
      "media": "CoinMarketCap",
      "title": "Meta Plans Stablecoin Integration, Eyeing Stripe as Key Partner",
      "site": "https://coinmarketcap.com",
-     "overlap": 0,
+     "overlap": 0.14,
      "reprises": 2,
      "priority": false
     },
     {
-     "date": "2026-10-28 07:33",
-     "media": "Crypto News",
-     "title": "Stripe launches free instant B2B payments through business handles",
-     "site": "https://crypto.news",
-     "overlap": 0,
+     "date": "2026-10-28 13:44",
+     "media": "Pluang",
+     "title": "Stripe adds support for Open USD stablecoin acr...",
+     "site": "https://pluang.com",
+     "overlap": 0.17,
      "reprises": 2,
      "priority": false
     },
     {
-     "date": "2026-10-26 20:05",
-     "media": "Traders Union",
-     "title": "Matt Huang: Instinct launch uses stablecoins on Tempo and Stripe Link for seamless payments",
-     "site": "https://tradersunion.com",
-     "overlap": 0,
+     "date": "2026-10-28 16:58",
+     "media": "PaymentsJournal",
+     "title": "Stripe Unveils B2B Payments that Mirror the P2P Experience",
+     "site": "https://www.paymentsjournal.com",
+     "overlap": 0.14,
      "reprises": 1,
+     "priority": false
+    },
+    {
+     "date": "2026-10-28 16:44",
+     "media": "StreetInsider",
+     "title": "IPX Announces Integration with Bridge, a Stripe Company, to Power Fiat On- and Off-Ramps on Its Tokenized IP Platform",
+     "site": "https://www.streetinsider.com",
+     "overlap": 0.0,
+     "reprises": 0,
      "priority": false
     }
    ]
@@ -130,29 +142,11 @@
      "priority": false
     },
     {
-     "date": "2026-10-26 22:35",
-     "media": "Pluang",
-     "title": "Payward aims to launch first CFTC-regulated per...",
-     "site": "https://pluang.com",
-     "overlap": 0.14,
-     "reprises": 3,
-     "priority": false
-    },
-    {
      "date": "2026-10-27 20:15",
      "media": "CryptoRank",
      "title": "Hyperliquid Unveils HIP-3 Upgrade as Kraken Parent Eyes Regulated US Futures",
      "site": "https://cryptorank.io",
      "overlap": 0.0,
-     "reprises": 3,
-     "priority": false
-    },
-    {
-     "date": "2026-10-26 20:50",
-     "media": "Traders Union",
-     "title": "ANTHROPICx pre-IPO perpetual futures debut with 10x leverage at Kraken Exchange",
-     "site": "https://tradersunion.com",
-     "overlap": 0.11,
      "reprises": 1,
      "priority": false
     },
@@ -164,6 +158,33 @@
      "overlap": 0.08,
      "reprises": 0,
      "priority": false
+    },
+    {
+     "date": "2026-10-28 05:26",
+     "media": "TOKENPOST",
+     "title": "Kazakhstan and Kraken Sign Digital-Finance Cooperation Pact",
+     "site": "https://www.tokenpost.com",
+     "overlap": 0.33,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-10-28 14:41",
+     "media": "U.Today",
+     "title": "Coinbase Launches Ripple USD, Challenging Kraken's Market Hold",
+     "site": "https://u.today",
+     "overlap": 0.14,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-10-28 18:35",
+     "media": "The Crypto Times",
+     "title": "Circle Says Kraken’s USDC AUC Grew 30% Since September 2025 Partnership",
+     "site": "https://www.cryptotimes.io",
+     "overlap": 0.22,
+     "reprises": 0,
+     "priority": false
     }
    ]
   },
@@ -172,20 +193,56 @@
    "name": "Polymarket",
    "candidates": [
     {
-     "date": "2026-10-28 11:06",
-     "media": "The Motley Fool",
-     "title": "Is Polymarket About to Launch a Crypto Token? Before You Buy It, This Is What You Need to Know.",
-     "site": "https://www.fool.com",
-     "overlap": 0.0,
-     "reprises": 0,
-     "priority": true
+     "date": "2026-10-28 15:31",
+     "media": "PressReader",
+     "title": "Polymarket US trade-nix probe",
+     "site": "https://www.pressreader.com",
+     "overlap": 0.33,
+     "reprises": 1,
+     "priority": false
     },
     {
-     "date": "2026-10-26 11:30",
-     "media": "Techiexpert.com",
-     "title": "Polymarket Fires Chief Marketing Officer Following Investigation Into Fake Ads and Influencer Payments",
-     "site": "https://techiexpert.com",
-     "overlap": 0.36,
+     "date": "2026-10-28 16:50",
+     "media": "MeidasTouch News",
+     "title": "Brazil Orders Election Interference Probe Into Vance Donor Network, Polymarket and Meta",
+     "site": "https://meidasnews.com",
+     "overlap": 0.2,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-10-28 21:15",
+     "media": "Syracuse.com",
+     "title": "New Polymarket promo code “CUSE” launches $25 referral promo in time for 76ers-Pacers on Wednesday",
+     "site": "https://www.syracuse.com",
+     "overlap": 0.11,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-10-28 21:15",
+     "media": "SILive.com",
+     "title": "Polymarket promo code “SILIVE” launches new $25 bonus for Knicks-Bulls game tonight in CA, FL and TX",
+     "site": "https://www.silive.com",
+     "overlap": 0.11,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-10-28 21:26",
+     "media": "Sportsbook Wire",
+     "title": "Polymarket Sign-Up Bonus Code SBWIRE Deposit $10, Get $25 (October 28)",
+     "site": "https://sportsbookwire.usatoday.com",
+     "overlap": 0.14,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-10-28 21:38",
+     "media": "Bitcoin News",
+     "title": "CFTC Revives Polymarket Probe as VPN Insider Case Heads to Trial: Reuters",
+     "site": "https://news.bitcoin.com",
+     "overlap": 0.33,
      "reprises": 0,
      "priority": false
     }
@@ -196,30 +253,48 @@
    "name": "Anthropic",
    "candidates": [
     {
-     "date": "2026-10-28 05:43",
-     "media": "The Motley Fool",
-     "title": "Anthropic's First-Half Revenue Rose 1,300%. Should You Buy the Stock When It Starts Trading?",
-     "site": "https://www.fool.com",
-     "overlap": 0.17,
+     "date": "2026-10-28 11:44",
+     "media": "The Next Web",
+     "title": "Anthropic buys a one-person biotech and starts its own drug programmes",
+     "site": "https://thenextweb.com",
+     "overlap": 0.25,
      "reprises": 0,
      "priority": true
     },
     {
-     "date": "2026-10-27 21:42",
-     "media": "Martin Cid Magazine",
-     "title": "Anthropic IPO Filing Puts CEO Dario Amodei’s ‘No Hedge on Earth’ Rule to the Test",
-     "site": "https://www.martincid.com",
-     "overlap": 0.2,
+     "date": "2026-10-28 20:04",
+     "media": "FourWeekMBA",
+     "title": "Anthropic Launches Reports to Show What Claude Spending Buys",
+     "site": "https://fourweekmba.com",
+     "overlap": 0.14,
+     "reprises": 0,
+     "priority": true
+    },
+    {
+     "date": "2026-10-28 20:58",
+     "media": "CFO Dive",
+     "title": "Sen. Warren probes AI safety, market risks in Anthropic IPO",
+     "site": "https://www.cfodive.com",
+     "overlap": 0.29,
      "reprises": 5,
      "priority": false
     },
     {
-     "date": "2026-10-28 05:00",
-     "media": "Financial Times",
-     "title": "Anthropic’s seven founders tighten grip ahead of blockbuster IPO",
-     "site": "https://www.ft.com",
-     "overlap": 0.14,
-     "reprises": 4,
+     "date": "2026-10-27 10:50",
+     "media": "Boursorama",
+     "title": "Qui contrôle l'IA puissante ? Anthropic a un plan pour l'avenir, bien après le départ de ses dirigeants",
+     "site": "https://www.boursorama.com",
+     "overlap": 0.25,
+     "reprises": 2,
+     "priority": false
+    },
+    {
+     "date": "2026-10-28 21:55",
+     "media": "The Loadstar",
+     "title": "Damodaran: The Prospectus Arrives: My (but not the) Anthropic IPO Valuation!",
+     "site": "https://theloadstar.com",
+     "overlap": 0.29,
+     "reprises": 2,
      "priority": false
     },
     {
@@ -228,34 +303,25 @@
      "title": "Croissance météorique et risques en pagaille, Anthropic lève le voile avant son entrée en Bourse",
      "site": "https://mobile.telquel.ma",
      "overlap": 0.22,
-     "reprises": 3,
+     "reprises": 1,
      "priority": false
     },
     {
-     "date": "2026-10-27 23:56",
-     "media": "KFOX",
-     "title": "Anthropic IPO filing warns AI could pose catastrophic, existential risks if misused",
-     "site": "https://kfoxtv.com",
-     "overlap": 0.33,
-     "reprises": 3,
+     "date": "2026-10-27 10:24",
+     "media": "Jamaica Gleaner",
+     "title": "Anthropic files potentially biggest IPO ever, CEO warns of risk to humanity from AI",
+     "site": "http://jamaica-gleaner.com",
+     "overlap": 0.22,
+     "reprises": 1,
      "priority": false
     },
     {
-     "date": "2026-10-26 13:24",
-     "media": "Boursorama",
-     "title": "CHRONOLOGIE-Le parcours d'Anthropic, de start-up spécialisée dans l'IA à introduction en bourse qui a marqué l",
-     "site": "https://www.boursorama.com",
-     "overlap": 0.29,
-     "reprises": 2,
-     "priority": false
-    },
-    {
-     "date": "2026-10-26 20:32",
-     "media": "Coin Academy",
-     "title": "Anthropic : OKX ouvre le trading pré-IPO du créateur de Claude en Europe",
-     "site": "https://coinacademy.fr",
-     "overlap": 0.12,
-     "reprises": 2,
+     "date": "2026-10-27 11:24",
+     "media": "JDN",
+     "title": "Clients tricheurs, jet privé, fourmis : 11 infos à retenir (ou pas) sur l'IPO d'Anthropic, par Claude",
+     "site": "https://www.journaldunet.com",
+     "overlap": 0.3,
+     "reprises": 1,
      "priority": false
     }
    ]
@@ -264,6 +330,15 @@
    "companyId": "perplexity",
    "name": "Perplexity",
    "candidates": [
+    {
+     "date": "2026-10-28 19:27",
+     "media": "The Economic Times",
+     "title": "Aravind Srinivas looked up to Google CEO Sundar Pichai before building Perplexity AI; how an unexpected de",
+     "site": "https://m.economictimes.com",
+     "overlap": 0,
+     "reprises": 2,
+     "priority": false
+    },
     {
      "date": "2026-10-27 18:25",
      "media": "آي-فون إسلام",
@@ -285,7 +360,7 @@
      "title": "CoreWeave shares rebound as Crusoe CEO calls selloffs exaggerated",
      "site": "https://cryptobriefing.com",
      "overlap": 0.0,
-     "reprises": 14,
+     "reprises": 15,
      "priority": false
     },
     {
@@ -298,21 +373,21 @@
      "priority": false
     },
     {
-     "date": "2026-10-27 17:02",
-     "media": "Yahoo Finance",
-     "title": "Crusoe CEO on AI Energy Demand and Building in Texas",
-     "site": "https://finance.yahoo.com",
-     "overlap": 0.2,
-     "reprises": 1,
-     "priority": false
-    },
-    {
      "date": "2026-10-27 18:37",
      "media": "Crypto Briefing",
      "title": "Crusoe CEO dismisses neocloud selloff concerns, backs CoreWeave’s resilience",
      "site": "https://cryptobriefing.com",
      "overlap": 0.0,
      "reprises": 1,
+     "priority": false
+    },
+    {
+     "date": "2026-10-27 17:04",
+     "media": "Bloomberg.com",
+     "title": "Watch Crusoe CEO on AI Energy Demand and Building in Texas",
+     "site": "https://www.bloomberg.com",
+     "overlap": 0.17,
+     "reprises": 0,
      "priority": false
     }
    ]
