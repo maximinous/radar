@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-10-27T23:12:05Z",
+ "generatedAt": "2026-10-28T11:26:49Z",
  "windowHours": 48,
- "headlinesRead": 958,
- "count": 29,
- "priorityCount": 3,
+ "headlinesRead": 883,
+ "count": 28,
+ "priorityCount": 2,
  "companies": [
   {
    "companyId": "together-ai",
@@ -21,6 +21,39 @@
    ]
   },
   {
+   "companyId": "mistral-ai",
+   "name": "Mistral AI",
+   "candidates": [
+    {
+     "date": "2026-10-28 04:00",
+     "media": "Courrier international",
+     "title": "Mistral signe-t-il la fin de la course au modèle de pointe made in Europe ?",
+     "site": "https://www.courrierinternational.com",
+     "overlap": 0.0,
+     "reprises": 2,
+     "priority": false
+    },
+    {
+     "date": "2026-10-27 19:26",
+     "media": "Dealroom",
+     "title": "Sovereign AI, GPU fleets and an IPO in the next few years: Mensch on Mistral's vertical-integration bet",
+     "site": "https://app.dealroom.co",
+     "overlap": 0.09,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-10-27 19:28",
+     "media": "Pulse 2.0",
+     "title": "Cloudera Expands Enterprise AI Ecosystem With Mistral AI, VAST Data, Neo4j, And Cartesia",
+     "site": "https://pulse2.com",
+     "overlap": 0.12,
+     "reprises": 0,
+     "priority": false
+    }
+   ]
+  },
+  {
    "companyId": "deel",
    "name": "Deel",
    "candidates": [
@@ -29,7 +62,7 @@
      "media": "디지털투데이",
      "title": "Deel unveils Pangaea LLM suite for global workforce operations and Emet AI research lab",
      "site": "https://www.digitaltoday.co.kr",
-     "overlap": 0.3,
+     "overlap": 0,
      "reprises": 0,
      "priority": false
     }
@@ -55,30 +88,21 @@
    "name": "Stripe",
    "candidates": [
     {
-     "date": "2026-10-26 12:24",
-     "media": "Hokanews",
-     "title": "New York Man Sentenced to 51 Months for Fraud Scheme That Used Stripe Payments to Buy Bitcoin",
-     "site": "https://www.hokanews.com",
-     "overlap": 0.09,
-     "reprises": 0,
-     "priority": true
-    },
-    {
      "date": "2026-10-27 04:32",
      "media": "CoinMarketCap",
      "title": "Meta Plans Stablecoin Integration, Eyeing Stripe as Key Partner",
      "site": "https://coinmarketcap.com",
-     "overlap": 0.0,
+     "overlap": 0,
      "reprises": 2,
      "priority": false
     },
     {
-     "date": "2026-10-26 05:35",
-     "media": "Fintech Singapore",
-     "title": "Mercedes F1 Team Taps Stripe for Multiyear Global Payments Partnership",
-     "site": "https://fintechnews.sg",
-     "overlap": 0.0,
-     "reprises": 1,
+     "date": "2026-10-28 07:33",
+     "media": "Crypto News",
+     "title": "Stripe launches free instant B2B payments through business handles",
+     "site": "https://crypto.news",
+     "overlap": 0,
+     "reprises": 2,
      "priority": false
     },
     {
@@ -86,7 +110,7 @@
      "media": "Traders Union",
      "title": "Matt Huang: Instinct launch uses stablecoins on Tempo and Stripe Link for seamless payments",
      "site": "https://tradersunion.com",
-     "overlap": 0.1,
+     "overlap": 0,
      "reprises": 1,
      "priority": false
     }
@@ -97,21 +121,12 @@
    "name": "Kraken",
    "candidates": [
     {
-     "date": "2026-10-26 11:10",
-     "media": "CoinMarketCap",
-     "title": "Payward Closes Bitnomial Acquisition, Gains Full US Derivatives Licenses",
-     "site": "https://coinmarketcap.com",
-     "overlap": 0.38,
-     "reprises": 2,
-     "priority": true
-    },
-    {
-     "date": "2026-10-27 20:15",
-     "media": "CryptoRank",
-     "title": "Hyperliquid Unveils HIP-3 Upgrade as Kraken Parent Eyes Regulated US Futures",
-     "site": "https://cryptorank.io",
-     "overlap": 0.0,
-     "reprises": 8,
+     "date": "2026-10-28 07:35",
+     "media": "Pluang",
+     "title": "Hyperliquid's HYPE token rises 4.8% as Kraken's parent plans US regulated perpetuals market launch",
+     "site": "https://pluang.com",
+     "overlap": 0.1,
+     "reprises": 5,
      "priority": false
     },
     {
@@ -120,6 +135,15 @@
      "title": "Payward aims to launch first CFTC-regulated per...",
      "site": "https://pluang.com",
      "overlap": 0.14,
+     "reprises": 3,
+     "priority": false
+    },
+    {
+     "date": "2026-10-27 20:15",
+     "media": "CryptoRank",
+     "title": "Hyperliquid Unveils HIP-3 Upgrade as Kraken Parent Eyes Regulated US Futures",
+     "site": "https://cryptorank.io",
+     "overlap": 0.0,
      "reprises": 3,
      "priority": false
     },
@@ -148,40 +172,13 @@
    "name": "Polymarket",
    "candidates": [
     {
-     "date": "2026-10-27 17:23",
-     "media": "Zonebourse Suisse",
-     "title": "Une agence américaine enquête de nouveau pour déterminer si Polymarket a enfreint l’accord conclu en 2022, selon des sources",
-     "site": "https://ch.zonebourse.com",
-     "overlap": 0.27,
-     "reprises": 4,
-     "priority": false
-    },
-    {
-     "date": "2026-10-27 19:49",
-     "media": "The Crypto Times",
-     "title": "CFTC Reopens Polymarket Probe Over Possible Breach of US User Ban Deal",
-     "site": "https://www.cryptotimes.io",
-     "overlap": 0.22,
-     "reprises": 2,
-     "priority": false
-    },
-    {
-     "date": "2026-10-27 20:57",
-     "media": "New York Post",
-     "title": "Feds probe whether Polymarket violated 2022 deal to block US traders: report",
-     "site": "https://nypost.com",
-     "overlap": 0.22,
-     "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-10-27 21:01",
-     "media": "CNBC",
-     "title": "Polymarket faces renewed CFTC probe over U.S. access to offshore platform",
-     "site": "https://www.cnbc.com",
-     "overlap": 0.25,
-     "reprises": 1,
-     "priority": false
+     "date": "2026-10-28 11:06",
+     "media": "The Motley Fool",
+     "title": "Is Polymarket About to Launch a Crypto Token? Before You Buy It, This Is What You Need to Know.",
+     "site": "https://www.fool.com",
+     "overlap": 0.0,
+     "reprises": 0,
+     "priority": true
     },
     {
      "date": "2026-10-26 11:30",
@@ -189,15 +186,6 @@
      "title": "Polymarket Fires Chief Marketing Officer Following Investigation Into Fake Ads and Influencer Payments",
      "site": "https://techiexpert.com",
      "overlap": 0.36,
-     "reprises": 0,
-     "priority": false
-    },
-    {
-     "date": "2026-10-27 16:45",
-     "media": "OregonLive.com",
-     "title": "NBA Polymarket promo code “OREGON” launches $25 bonus for Tuesday night",
-     "site": "https://www.oregonlive.com",
-     "overlap": 0.12,
      "reprises": 0,
      "priority": false
     }
@@ -208,22 +196,13 @@
    "name": "Anthropic",
    "candidates": [
     {
-     "date": "2026-10-27 10:38",
-     "media": "Fortune",
-     "title": "A good buy or ‘the most ridiculous IPO of 2026’: Anthropic’s debut will be a referendum on AI",
-     "site": "https://fortune.com",
-     "overlap": 0.22,
+     "date": "2026-10-28 05:43",
+     "media": "The Motley Fool",
+     "title": "Anthropic's First-Half Revenue Rose 1,300%. Should You Buy the Stock When It Starts Trading?",
+     "site": "https://www.fool.com",
+     "overlap": 0.17,
      "reprises": 0,
      "priority": true
-    },
-    {
-     "date": "2026-10-27 21:16",
-     "media": "Bloomberg.com",
-     "title": "Watch Catastrophe, Rogue AI and Other Anthropic IPO Risks",
-     "site": "https://www.bloomberg.com",
-     "overlap": 0.33,
-     "reprises": 7,
-     "priority": false
     },
     {
      "date": "2026-10-27 21:42",
@@ -231,23 +210,32 @@
      "title": "Anthropic IPO Filing Puts CEO Dario Amodei’s ‘No Hedge on Earth’ Rule to the Test",
      "site": "https://www.martincid.com",
      "overlap": 0.2,
-     "reprises": 6,
+     "reprises": 5,
      "priority": false
     },
     {
-     "date": "2026-10-27 02:49",
-     "media": "lecourrier.vn",
+     "date": "2026-10-28 05:00",
+     "media": "Financial Times",
+     "title": "Anthropic’s seven founders tighten grip ahead of blockbuster IPO",
+     "site": "https://www.ft.com",
+     "overlap": 0.14,
+     "reprises": 4,
+     "priority": false
+    },
+    {
+     "date": "2026-10-27 09:25",
+     "media": "Telquel.ma",
      "title": "Croissance météorique et risques en pagaille, Anthropic lève le voile avant son entrée en Bourse",
-     "site": "https://lecourrier.vn",
+     "site": "https://mobile.telquel.ma",
      "overlap": 0.22,
      "reprises": 3,
      "priority": false
     },
     {
-     "date": "2026-10-27 17:00",
-     "media": "Bloomberg.com",
-     "title": "Live Q&A: What Anthropic’s IPO Reveals About the AI Boom",
-     "site": "https://www.bloomberg.com",
+     "date": "2026-10-27 23:56",
+     "media": "KFOX",
+     "title": "Anthropic IPO filing warns AI could pose catastrophic, existential risks if misused",
+     "site": "https://kfoxtv.com",
      "overlap": 0.33,
      "reprises": 3,
      "priority": false
@@ -262,11 +250,11 @@
      "priority": false
     },
     {
-     "date": "2026-10-26 19:19",
-     "media": "Boursorama",
-     "title": "Introduction en bourse d'Anthropic : zoom sur la croissance fulgurante et la spirale des coûts de ce leader de",
-     "site": "https://www.boursorama.com",
-     "overlap": 0.38,
+     "date": "2026-10-26 20:32",
+     "media": "Coin Academy",
+     "title": "Anthropic : OKX ouvre le trading pré-IPO du créateur de Claude en Europe",
+     "site": "https://coinacademy.fr",
+     "overlap": 0.12,
      "reprises": 2,
      "priority": false
     }
@@ -277,7 +265,7 @@
    "name": "Perplexity",
    "candidates": [
     {
-     "date": "2026-10-26 18:33",
+     "date": "2026-10-27 18:25",
      "media": "آي-فون إسلام",
      "title": "Perplexity launches health platform with Apple Health… Your smart doctor now knows you well!",
      "site": "https://iphoneislam.com",
@@ -297,7 +285,16 @@
      "title": "CoreWeave shares rebound as Crusoe CEO calls selloffs exaggerated",
      "site": "https://cryptobriefing.com",
      "overlap": 0.0,
-     "reprises": 12,
+     "reprises": 14,
+     "priority": false
+    },
+    {
+     "date": "2026-10-27 18:40",
+     "media": "Briefs Finance",
+     "title": "Crusoe CEO Calls Neocloud Selloff \"Overblown\" After Big Fundraise",
+     "site": "https://www.briefs.co",
+     "overlap": 0.0,
+     "reprises": 4,
      "priority": false
     },
     {
@@ -306,7 +303,7 @@
      "title": "Crusoe CEO on AI Energy Demand and Building in Texas",
      "site": "https://finance.yahoo.com",
      "overlap": 0.2,
-     "reprises": 2,
+     "reprises": 1,
      "priority": false
     },
     {
@@ -315,7 +312,7 @@
      "title": "Crusoe CEO dismisses neocloud selloff concerns, backs CoreWeave’s resilience",
      "site": "https://cryptobriefing.com",
      "overlap": 0.0,
-     "reprises": 2,
+     "reprises": 1,
      "priority": false
     }
    ]
