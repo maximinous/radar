@@ -1,5 +1,81 @@
 [
  {
+  "id": "shield-ai-2026-10-28-rbat-qatar-usv",
+  "companyId": "shield-ai",
+  "date": "2026-10-28",
+  "title": "Shield AI et Rheinmetall Barzan signent un protocole pour l'autonomie des drones de surface du Qatar",
+  "summary": "Shield AI et RBAT, coentreprise de Barzan Holdings et Rheinmetall, vont étudier l'intégration du logiciel Hivemind dans des navires de surface sans équipage qatariens.",
+  "detail": "Le protocole d'accord (MoU) a été signé lors du deuxième jour de Milipol Qatar 2026 et publié le 28 octobre depuis Doha. Il porte sur l'intégration de Hivemind dans les solutions maritimes autonomes conçues au Qatar, pour permettre des opérations coordonnées de plusieurs navires.\n\nLes cas d'usage visés sont la sécurité côtière et la protection des infrastructures critiques. Le texte est exploratoire : aucun calendrier ni jalon n'est annoncé.",
+  "impact": "Ouvre à Hivemind le marché maritime du Golfe et un partenaire local, après les démonstrations de coordination de navires menées au Royaume-Uni.",
+  "signal": "optimiste",
+  "rationale": "Nouveau partenaire industriel et nouveau pays pour Hivemind, mais l'accord reste un protocole sans engagement chiffré.",
+  "sources": [
+   {
+    "label": "Shield AI, communiqué, 28/10/2026",
+    "url": "https://shield.ai/shield-ai-and-rheinmetall-barzan-advanced-technologies-to-advance-autonomy-for-isr-on-qatari-unmanned-surface-vessels-usvs/"
+   }
+  ],
+  "addedAt": "2026-10-28T12:23:57Z"
+ },
+ {
+  "id": "anthropic-2026-10-28-cathedral-agents-ia",
+  "companyId": "anthropic",
+  "date": "2026-10-28",
+  "title": "Des agents IA de la start-up Cathedral accèdent à des systèmes internes d'Anthropic",
+  "summary": "Pendant le programme de bug bounty d'Anthropic, Cathedral a atteint des systèmes de ventes, RH et IT via des logiciels tiers, selon un rapport relayé par le Washington Post.",
+  "detail": "Anthropic dit que l'accès a touché un ensemble limité de données : coordonnées de clients et partenaires et données de comptes. Elle affirme que les journaux de conversation de Claude, le code source et les poids des modèles n'ont pas été exposés. Cathedral évoque des transcriptions de réunions, des salaires et des messages Slack.\n\nLes deux parties divergent sur la durée : moins de douze heures selon Cathedral, plusieurs jours selon Anthropic, qui parle aussi de divulgation incomplète et de dépassement des règles du programme. Anthropic a coupé les accès concernés, désactivé les logiciels tiers et prévenu les autorités fédérales américaines.",
+  "impact": "Un incident de sécurité publié alors que l'entreprise prépare son introduction en Bourse, qui alimente les questions sur ses risques opérationnels.",
+  "signal": "prudent",
+  "rationale": "Intrusion confirmée par Anthropic, même si elle en conteste l'ampleur et la méthode.",
+  "sources": [
+   {
+    "label": "The Decoder, 28/10/2026",
+    "url": "https://the-decoder.com/ai-agents-hacked-anthropic-maker-of-arguably-the-most-capable-ai-models-for-cyberdefense/"
+   }
+  ],
+  "addedAt": "2026-10-28T12:23:57Z"
+ },
+ {
+  "id": "stripe-2026-10-27-stripe-pay-b2b",
+  "companyId": "stripe",
+  "date": "2026-10-27",
+  "title": "Stripe lance Stripe Pay, des virements instantanés et gratuits entre entreprises",
+  "summary": "Stripe permet d'envoyer de l'argent à une autre entreprise via son identifiant de profil Stripe, sans frais de transfert, depuis le Dashboard et la ligne de commande.",
+  "detail": "Annoncé le 27 octobre, le plug-in Stripe Pay identifie le destinataire par un identifiant public (de type @nom) ou un identifiant réseau de profil. L'expéditeur doit disposer d'un compte financier approvisionné et le destinataire d'un compte financier lié à son profil Stripe. Un annuaire d'entreprises permet de retrouver un destinataire, avec vérification avant paiement.\n\nUn mode d'essai valide le virement sans déplacer d'argent, et l'outil prend en charge des flux authentifiés pour des agents logiciels. Patrick Collison a écrit sur X que les paiements de compte à compte seraient plus importants que ceux de personne à personne. Stripe ne publie ni volumes ni règlement en stablecoins pour ce service.",
+  "impact": "Étend Stripe vers les paiements entre entreprises hors cartes, en s'appuyant sur son réseau de profils et ses comptes financiers.",
+  "signal": "optimiste",
+  "rationale": "Nouveau produit gratuit qui exploite la base de comptes Stripe, mais sans chiffres d'usage.",
+  "sources": [
+   {
+    "label": "Stripe, documentation de la commande pay, 27/10/2026",
+    "url": "https://docs.stripe.com/cli/pay"
+   },
+   {
+    "label": "crypto.news, 28/10/2026",
+    "url": "https://crypto.news/stripe-pay-free-instant-b2b-transfers-stablecoins/"
+   }
+  ],
+  "addedAt": "2026-10-28T12:23:57Z"
+ },
+ {
+  "id": "polymarket-2026-10-27-marches-5-minutes-us",
+  "companyId": "polymarket",
+  "date": "2026-10-27",
+  "title": "Polymarket lance des marchés à cinq minutes sur BTC, ETH, SOL et XRP dans son app américaine",
+  "summary": "Polymarket ajoute à son application américaine des contrats haut/bas sur cinq minutes pour quatre cryptomonnaies.",
+  "detail": "Annoncés le 27 octobre, les contrats se règlent à 1 dollar si le prix finit au-dessus (ou en dessous) sur la fenêtre de cinq minutes, avec jusqu'à 288 fenêtres par jour et par actif. Les cours de résolution viennent de CF Benchmarks et les frais de taker s'ajoutent à l'écart acheteur vendeur.\n\nLe 15 octobre, l'app américaine avait déjà ajouté des marchés de 15 minutes, horaires et quotidiens sur ETH, SOL et XRP. Les marchés de cinq minutes sur Bitcoin existaient depuis février sur la plateforme internationale.",
+  "impact": "Rapproche l'offre américaine de Polymarket de celle de Kalshi sur les contrats crypto de très court terme.",
+  "signal": "neutre",
+  "rationale": "Élargissement de l'offre produit sans chiffre de volume, dans un contexte réglementaire sous surveillance.",
+  "sources": [
+   {
+    "label": "FinanceFeeds, 28/10/2026",
+    "url": "https://financefeeds.com/polymarket-launches-five-minute-btc-eth-sol-and-xrp-prediction-markets-on-us-app/"
+   }
+  ],
+  "addedAt": "2026-10-28T12:23:57Z"
+ },
+ {
   "id": "anthropic-2026-10-27-gsa-onegov-40",
   "companyId": "anthropic",
   "date": "2026-10-27",
