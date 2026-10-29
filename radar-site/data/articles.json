@@ -1,5 +1,181 @@
 [
  {
+  "id": "polymarket-2026-10-28-michigan-sports",
+  "companyId": "polymarket",
+  "date": "2026-10-28",
+  "title": "Polymarket US cesse ses contrats sportifs au Michigan après un accord avec le régulateur",
+  "summary": "Le régulateur du jeu du Michigan annonce que Polymarket US n'offrira plus de contrats d'événements sportifs à ses résidents et clôturera les positions ouvertes d'ici le 25 novembre.",
+  "detail": "L'accord prend la forme d'une stipulation approuvée par le tribunal fédéral du district ouest du Michigan. En échange, l'État ne poursuivra pas Polymarket US tant qu'elle respecte les termes. Les positions sportives encore ouvertes doivent être fermées à la fin de la journée du 25 novembre.\n\nPolymarket avait attaqué l'État en justice en mars 2026 et avait perdu ses demandes de mesure d'urgence, puis d'injonction préliminaire en juin. Son appel reste en cours. Coinbase et Robinhood avaient déjà conclu des accords semblables, et le régulateur a obtenu une injonction contre Kalshi.",
+  "impact": "Polymarket perd un État sur le segment des paris sportifs, le plus actif de sa plateforme américaine, et le front judiciaire sur le droit des États à réguler ces contrats reste ouvert.",
+  "signal": "prudent",
+  "rationale": "Un recul face à un régulateur d'État limite l'accès au marché sportif américain, même si l'accord suspend le litige sans le trancher.",
+  "sources": [
+   {
+    "label": "Michigan Gaming Control Board, communiqué, 28/10/2026",
+    "url": "https://www.michigan.gov/mgcb/news/2026/10/28/polymarket-backs-down-in-michigan"
+   },
+   {
+    "label": "The Detroit News, 28/10/2026",
+    "url": "https://www.detroitnews.com/story/news/politics/2026/10/28/polymarket-agrees-stop-offering-michigan-sports-contracts/92476599007/"
+   },
+   {
+    "label": "SBC Americas, 28/10/2026",
+    "url": "https://sbcamericas.com/2026/10/28/polymarket-pulls-sports-michigan/"
+   }
+  ],
+  "addedAt": "2026-10-29T06:15:09Z"
+ },
+ {
+  "id": "kraken-2026-10-28-176-paires-synthetiques",
+  "companyId": "kraken",
+  "date": "2026-10-28",
+  "title": "Kraken remplace 176 paires natives par des marchés synthétiques début novembre",
+  "summary": "Kraken va supprimer 176 paires de trading natives et annuler les ordres ouverts, en les remplaçant par des marchés synthétiques adossés à des pools de liquidité existants.",
+  "detail": "Les paires concernées passent en mode annulation seule le 6 novembre à 14h00 UTC. Les ordres restants sont annulés entre le 6 et le 9 novembre, et les marchés de remplacement sont listés d'ici la fin du 9 novembre. Les soldes ne sont pas touchés.\n\nSelon Kraken, les marchés synthétiques peuvent offrir des écarts plus serrés sur les paires peu liquides, et plus de 10 000 paires synthétiques existent déjà sur Kraken Pro. En contrepartie, tous les ordres paient des frais taker, et les exécutions partielles et les ordres post-only disparaissent.",
+  "impact": "Kraken simplifie son offre et mutualise la liquidité, au prix d'une perte de certains outils pour les traders actifs.",
+  "signal": "neutre",
+  "rationale": "Le changement vise l'efficacité sur les marchés peu liquides mais dégrade les conditions de frais pour une partie des clients.",
+  "sources": [
+   {
+    "label": "Kraken, avis de support",
+    "url": "https://support.kraken.com/articles/native-pairs-moving-to-sythetic-pairs"
+   },
+   {
+    "label": "CryptoSlate, 28/10/2026",
+    "url": "https://cryptoslate.com/kraken-to-cancel-orders-across-176-crypto-markets-in-sweeping-trading-overhaul/"
+   },
+   {
+    "label": "The Defiant, 28/10/2026",
+    "url": "https://thedefiant.io/news/cefi/kraken-to-cancel-orders-on-176-pairs-in-synthetic-trading-shift"
+   }
+  ],
+  "addedAt": "2026-10-29T06:15:09Z"
+ },
+ {
+  "id": "kraken-2026-10-28-circle-usdc-eurc",
+  "companyId": "kraken",
+  "date": "2026-10-28",
+  "title": "Circle : les actifs USDC conservés chez Kraken progressent de 30 % depuis septembre 2025",
+  "summary": "Circle publie des chiffres sur son partenariat avec Kraken : +30 % d'USDC en conservation, près d'un milliard d'EURC échangés et 350 millions d'USDC placés dans les coffres DeFi Earn.",
+  "detail": "Les données viennent d'une étude de cas et d'un message de Circle datés du 28 octobre. Le partenariat avait été annoncé le 17 septembre 2025. Les 350 millions d'USDC ont été déposés dans les coffres DeFi Earn de Kraken depuis leur lancement en janvier 2026.\n\nCes chiffres sont ceux de Circle et n'ont pas été vérifiés de façon indépendante. Les médias divergent sur l'unité du chiffre EURC (dollars ou jetons).",
+  "impact": "Les stablecoins régulés deviennent un moteur d'usage mesurable pour Kraken, en particulier en Europe avec l'EURC.",
+  "signal": "optimiste",
+  "rationale": "La croissance des dépôts et des volumes sur les stablecoins appuie l'offre européenne de Kraken, avec des chiffres fournis par le partenaire.",
+  "sources": [
+   {
+    "label": "crypto.news, reprise de Circle, 28/10/2026",
+    "url": "https://crypto.news/circle-kraken-usdc-custody-growth-eurc-trading/"
+   },
+   {
+    "label": "The Crypto Times, 29/10/2026",
+    "url": "https://www.cryptotimes.io/2026/10/29/circle-says-krakens-usdc-auc-grew-30-since-september-2025-partnership/"
+   }
+  ],
+  "addedAt": "2026-10-29T06:15:09Z"
+ },
+ {
+  "id": "shield-ai-2026-10-28-leonardo-proteus",
+  "companyId": "shield-ai",
+  "date": "2026-10-28",
+  "title": "Leonardo choisit Hivemind de Shield AI pour l'autonomie de son hélicoptère sans pilote Proteus",
+  "summary": "Leonardo utilisera le kit de développement Hivemind pour renforcer l'autonomie de Proteus, son drone à voilure tournante, et ouvre la voie à une collaboration plus large.",
+  "detail": "Grâce au SDK Hivemind, les ingénieurs de Leonardo pourront écrire leurs propres logiciels d'autonomie de mission, pour de nouveaux systèmes comme pour des systèmes existants. Les usages visés sont la lutte anti-sous-marine, le renseignement et la logistique en environnement contesté.\n\nProteus emporte environ une tonne de charge utile et a volé pour la première fois en janvier 2026 avec une autonomie conçue par Leonardo. Chaque partenaire conserve la propriété de ce qu'il développe. Aucun montant n'est communiqué.",
+  "impact": "Hivemind entre sur une plateforme d'hélicoptère de premier plan en Europe et conforte sa position de couche logicielle neutre, après Airbus aux États-Unis.",
+  "signal": "optimiste",
+  "rationale": "Un grand industriel européen adopte Hivemind, mais l'accord ne chiffre ni volume ni calendrier de déploiement.",
+  "sources": [
+   {
+    "label": "Shield AI, communiqué, 28/10/2026",
+    "url": "https://shield.ai/leonardo-selects-shield-to-further-its-rotary-wing-autonomy-development/"
+   },
+   {
+    "label": "Aviation Week, 28/10/2026",
+    "url": "https://aviationweek.com/defense/aircraft-propulsion/leonardo-integrate-shield-ais-hivemind-proteus-autonomous-copter"
+   }
+  ],
+  "addedAt": "2026-10-29T06:15:09Z"
+ },
+ {
+  "id": "anthropic-2026-10-28-ai-for-science-20-partenaires",
+  "companyId": "anthropic",
+  "date": "2026-10-28",
+  "title": "Anthropic étend AI for Science à 20 fondations, institutions et projets de recherche",
+  "summary": "Le programme de crédits Claude gratuits, lancé en mai 2025, s'ouvre à des organismes comme la NSF, la Simons Foundation, le Wellcome Sanger Institute ou l'EMBL.",
+  "detail": "Les fondations redistribuent les crédits à des chercheurs, les institutions les utilisent en interne et certains projets, comme gnomAD, en reçoivent directement. Anthropic indique que des centaines de projets sont déjà soutenus.\n\nL'annonce présente aussi le Model Hardware Standard, une spécification développée avec HHMI Janelia pour que des agents d'IA pilotent des instruments de laboratoire en sécurité. Elle est en préversion de recherche. Le montant des crédits par partenaire n'est pas publié.",
+  "impact": "Anthropic ancre Claude dans des institutions scientifiques de référence et prépare l'usage d'agents dans les laboratoires.",
+  "signal": "optimiste",
+  "rationale": "Des partenaires institutionnels de premier rang renforcent la crédibilité scientifique de Claude, sans impact financier chiffré.",
+  "sources": [
+   {
+    "label": "Anthropic, 28/10/2026",
+    "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions"
+   }
+  ],
+  "addedAt": "2026-10-29T06:15:09Z"
+ },
+ {
+  "id": "anthropic-2026-10-28-warren-lettre-ipo",
+  "companyId": "anthropic",
+  "date": "2026-10-28",
+  "title": "La sénatrice Warren interroge Dario Amodei sur les risques de l'introduction en bourse d'Anthropic",
+  "summary": "Dans une lettre, Elizabeth Warren demande à Anthropic comment elle gère les risques décrits dans son dossier d'enregistrement, avec une réponse attendue pour le 3 novembre.",
+  "detail": "La sénatrice demande si Dario Amodei juge que les modèles de l'entreprise sont une menace existentielle, quelles garanties existent contre les cyberattaques autonomes et les armes biologiques, et comment la mission d'intérêt public se concilie avec les devoirs fiduciaires. Elle évoque aussi l'exposition des épargnants via les fonds indiciels.\n\nSelon CFO Dive, Anthropic a déclaré 16,3 milliards de dollars de revenus au premier semestre 2026 et une perte nette d'environ 81 milliards. L'entreprise n'avait pas répondu publiquement au moment des articles.",
+  "impact": "Un examen politique s'ajoute au calendrier de l'introduction en bourse, sans pouvoir contraignant à ce stade.",
+  "signal": "prudent",
+  "rationale": "Une pression parlementaire sur les risques peut compliquer la communication autour de l'IPO, même si une lettre n'a pas de force légale.",
+  "sources": [
+   {
+    "label": "CFO Dive, 28/10/2026",
+    "url": "https://www.cfodive.com/news/sen-warren-probes-ai-safety-market-risks-anthropic-ipo/873076/"
+   },
+   {
+    "label": "Spectrum News, 28/10/2026",
+    "url": "https://spectrumlocalnews.com/us/snplus/technology/2026/10/28/sen--elizabeth-warren-anthropic-ipo-letter"
+   }
+  ],
+  "addedAt": "2026-10-29T06:15:09Z"
+ },
+ {
+  "id": "anthropic-2026-10-28-lettre-newsom-tribunaux",
+  "companyId": "anthropic",
+  "date": "2026-10-28",
+  "title": "Anthropic propose à la Californie que des tribunaux puissent bloquer les modèles d'IA à risque",
+  "summary": "Dans une lettre du 15 octobre au gouverneur Newsom révélée le 28, Anthropic souhaite qu'une autorité puisse saisir un juge pour bloquer un modèle présentant un risque sérieux.",
+  "detail": "La lettre répond au panel d'experts réuni par le gouverneur en septembre. Anthropic défend des mesures ciblées, comme désactiver un agent problématique ou couper l'accès d'un client, plutôt que des interrupteurs d'arrêt total, qui donneraient selon elle un faux sentiment de sécurité.\n\nIl s'agit d'une recommandation de politique publique et non d'une loi. Reuters a rapporté l'information le 28 octobre et Anthropic a confirmé l'authenticité du courrier.",
+  "impact": "Anthropic prend position sur le cadre de régulation de l'IA le plus suivi aux États-Unis, à l'approche de son introduction en bourse.",
+  "signal": "neutre",
+  "rationale": "La prise de position clarifie la doctrine de l'entreprise sans effet réglementaire immédiat.",
+  "sources": [
+   {
+    "label": "Reuters, reprise par KFGO, 28/10/2026",
+    "url": "https://kfgo.com/2026/10/28/anthropic-tells-california-governor-courts-should-be-able-to-block-risky-ai-models/"
+   }
+  ],
+  "addedAt": "2026-10-29T06:15:09Z"
+ },
+ {
+  "id": "fluidstack-2026-10-28-wythe-portes-ouvertes",
+  "companyId": "fluidstack",
+  "date": "2026-10-28",
+  "title": "Fluidstack présente son campus de Progress Park à Wythe County, face à des riverains critiques",
+  "summary": "Fluidstack a tenu sa première réunion publique sur son projet de centre de données en Virginie, un site de 99 acres avec environ 75 emplois permanents prévus.",
+  "detail": "Le format était celui d'une foire d'information, de 18h à 19h30 au Wytheville Meeting Center. Selon le résumé du comté, le projet mobilise environ 1 000 emplois de chantier au pic, un refroidissement en circuit fermé et une mise en service prévue fin 2027. Fluidstack dit financer ses propres coûts d'électricité, payer l'intégralité des taxes foncières dès le premier jour et respecter les règles de bruit du parc.\n\nLe groupe Preserve Wythe juge la consultation tardive, car le terrain est déjà nivelé, et réclame un zonage à l'échelle du comté. Fluidstack n'a pas nommé l'utilisateur final du site.",
+  "impact": "Le projet avance sur le plan industriel mais fait face à une opposition locale qui pourrait peser sur les futures règles d'implantation.",
+  "signal": "neutre",
+  "rationale": "Le chantier progresse mais l'acceptabilité locale reste fragile, avec une demande de zonage qui pourrait compliquer d'autres sites.",
+  "sources": [
+   {
+    "label": "WDBJ7, 29/10/2026",
+    "url": "https://www.wdbj7.com/2026/10/29/fluidstack-hosts-open-house-wythe-county-data-center-protesters-voice-frustration/"
+   },
+   {
+    "label": "WSLS, 28/10/2026",
+    "url": "https://www.wsls.com/news/local/2026/10/28/wythe-data-center-open-house/"
+   }
+  ],
+  "addedAt": "2026-10-29T06:15:09Z"
+ },
+ {
   "id": "shield-ai-2026-10-28-rbat-qatar-usv",
   "companyId": "shield-ai",
   "date": "2026-10-28",
