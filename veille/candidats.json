@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-28T23:32:52Z",
+ "generatedAt": "2026-10-29T11:37:11Z",
  "windowHours": 48,
- "headlinesRead": 878,
- "count": 37,
+ "headlinesRead": 820,
+ "count": 36,
  "priorityCount": 4,
  "companies": [
   {
@@ -14,17 +14,8 @@
      "media": "Courrier international",
      "title": "Mistral signe-t-il la fin de la course au modèle de pointe made in Europe ?",
      "site": "https://www.courrierinternational.com",
-     "overlap": 0.0,
+     "overlap": 0,
      "reprises": 2,
-     "priority": false
-    },
-    {
-     "date": "2026-10-27 19:26",
-     "media": "Dealroom",
-     "title": "Sovereign AI, GPU fleets and an IPO in the next few years: Mensch on Mistral's vertical-integration bet",
-     "site": "https://app.dealroom.co",
-     "overlap": 0.09,
-     "reprises": 0,
      "priority": false
     },
     {
@@ -32,21 +23,6 @@
      "media": "Pulse 2.0",
      "title": "Cloudera Expands Enterprise AI Ecosystem With Mistral AI, VAST Data, Neo4j, And Cartesia",
      "site": "https://pulse2.com",
-     "overlap": 0.12,
-     "reprises": 0,
-     "priority": false
-    }
-   ]
-  },
-  {
-   "companyId": "deel",
-   "name": "Deel",
-   "candidates": [
-    {
-     "date": "2026-10-27 03:14",
-     "media": "디지털투데이",
-     "title": "Deel unveils Pangaea LLM suite for global workforce operations and Emet AI research lab",
-     "site": "https://www.digitaltoday.co.kr",
      "overlap": 0,
      "reprises": 0,
      "priority": false
@@ -58,12 +34,12 @@
    "name": "Neura Robotics",
    "candidates": [
     {
-     "date": "2026-10-27 11:25",
-     "media": "Tech Times",
-     "title": "NEURA Robotics Launches Gen 4 Humanoid: Each Arm Makes Its Own Millisecond Decisions",
-     "site": "https://www.techtimes.com",
-     "overlap": 0.33,
-     "reprises": 2,
+     "date": "2026-10-28 19:09",
+     "media": "Robotics & Automation News",
+     "title": "Neura Robotics and TUM open €17 million RoboGym and unveil new humanoid",
+     "site": "https://roboticsandautomationnews.com",
+     "overlap": 0,
+     "reprises": 3,
      "priority": false
     }
    ]
@@ -73,12 +49,12 @@
    "name": "Stripe",
    "candidates": [
     {
-     "date": "2026-10-28 10:45",
-     "media": "FourWeekMBA",
-     "title": "Stripe Lets AI Agents Buy on a Budget as Purchases Grow 38x",
-     "site": "https://fourweekmba.com",
-     "overlap": 0.14,
-     "reprises": 0,
+     "date": "2026-10-28 22:00",
+     "media": "CoinMarketCap",
+     "title": "Stripe Acquires Valora Team To Expand Stablecoin Push",
+     "site": "https://coinmarketcap.com",
+     "overlap": 0.17,
+     "reprises": 3,
      "priority": true
     },
     {
@@ -89,15 +65,6 @@
      "overlap": 0.0,
      "reprises": 0,
      "priority": true
-    },
-    {
-     "date": "2026-10-27 04:32",
-     "media": "CoinMarketCap",
-     "title": "Meta Plans Stablecoin Integration, Eyeing Stripe as Key Partner",
-     "site": "https://coinmarketcap.com",
-     "overlap": 0.14,
-     "reprises": 2,
-     "priority": false
     },
     {
      "date": "2026-10-28 13:44",
@@ -116,14 +83,20 @@
      "overlap": 0.14,
      "reprises": 1,
      "priority": false
-    },
+    }
+   ]
+  },
+  {
+   "companyId": "lovable",
+   "name": "Lovable",
+   "candidates": [
     {
-     "date": "2026-10-28 16:44",
-     "media": "StreetInsider",
-     "title": "IPX Announces Integration with Bridge, a Stripe Company, to Power Fiat On- and Off-Ramps on Its Tokenized IP Platform",
-     "site": "https://www.streetinsider.com",
-     "overlap": 0.0,
-     "reprises": 0,
+     "date": "2026-10-29 10:53",
+     "media": "Dealroom",
+     "title": "Lovable opens London hub, targets 100 staff after $400M raise",
+     "site": "https://app.dealroom.co",
+     "overlap": 0,
+     "reprises": 1,
      "priority": false
     }
    ]
@@ -133,20 +106,20 @@
    "name": "Kraken",
    "candidates": [
     {
-     "date": "2026-10-28 07:35",
-     "media": "Pluang",
-     "title": "Hyperliquid's HYPE token rises 4.8% as Kraken's parent plans US regulated perpetuals market launch",
-     "site": "https://pluang.com",
-     "overlap": 0.1,
-     "reprises": 5,
-     "priority": false
-    },
-    {
      "date": "2026-10-27 20:15",
      "media": "CryptoRank",
      "title": "Hyperliquid Unveils HIP-3 Upgrade as Kraken Parent Eyes Regulated US Futures",
      "site": "https://cryptorank.io",
      "overlap": 0.0,
+     "reprises": 1,
+     "priority": false
+    },
+    {
+     "date": "2026-10-28 07:35",
+     "media": "Pluang",
+     "title": "Hyperliquid's HYPE token rises 4.8% as Kraken's parent plans US regulated perpetuals market launch",
+     "site": "https://pluang.com",
+     "overlap": 0.1,
      "reprises": 1,
      "priority": false
     },
@@ -178,11 +151,11 @@
      "priority": false
     },
     {
-     "date": "2026-10-28 18:35",
-     "media": "The Crypto Times",
-     "title": "Circle Says Kraken’s USDC AUC Grew 30% Since September 2025 Partnership",
-     "site": "https://www.cryptotimes.io",
-     "overlap": 0.22,
+     "date": "2026-10-28 21:41",
+     "media": "Kohen Avocats",
+     "title": "Kraken est-il fiable en cas de faillite ? Cryptos, euros, staking et récompenses Opt-in : ce qui protège un client en France",
+     "site": "https://kohenavocats.fr",
+     "overlap": 0.25,
      "reprises": 0,
      "priority": false
     }
@@ -193,21 +166,30 @@
    "name": "Polymarket",
    "candidates": [
     {
+     "date": "2026-10-28 11:42",
+     "media": "The Motley Fool",
+     "title": "Is Polymarket About to Launch a Crypto Token? Before You Buy It, This Is What You Need to Know.",
+     "site": "https://www.fool.com",
+     "overlap": 0.18,
+     "reprises": 1,
+     "priority": true
+    },
+    {
      "date": "2026-10-28 15:31",
      "media": "PressReader",
      "title": "Polymarket US trade-nix probe",
      "site": "https://www.pressreader.com",
      "overlap": 0.33,
-     "reprises": 1,
+     "reprises": 2,
      "priority": false
     },
     {
-     "date": "2026-10-28 16:50",
-     "media": "MeidasTouch News",
-     "title": "Brazil Orders Election Interference Probe Into Vance Donor Network, Polymarket and Meta",
-     "site": "https://meidasnews.com",
-     "overlap": 0.2,
-     "reprises": 0,
+     "date": "2026-10-28 13:32",
+     "media": "Tallahassee Democrat",
+     "title": "Polymarket Sign-Up Bonus Code SBWIRE Deposit $10, Get $25 (October 28)",
+     "site": "https://www.tallahassee.com",
+     "overlap": 0.14,
+     "reprises": 1,
      "priority": false
     },
     {
@@ -216,32 +198,47 @@
      "title": "New Polymarket promo code “CUSE” launches $25 referral promo in time for 76ers-Pacers on Wednesday",
      "site": "https://www.syracuse.com",
      "overlap": 0.11,
-     "reprises": 0,
+     "reprises": 1,
      "priority": false
     },
     {
-     "date": "2026-10-28 21:15",
+     "date": "2026-10-29 01:10",
      "media": "SILive.com",
-     "title": "Polymarket promo code “SILIVE” launches new $25 bonus for Knicks-Bulls game tonight in CA, FL and TX",
+     "title": "NBA Polymarket promo code “SILIVE” extends $25 Knicks-Bulls deal",
      "site": "https://www.silive.com",
-     "overlap": 0.11,
-     "reprises": 0,
+     "overlap": 0.25,
+     "reprises": 1,
      "priority": false
     },
     {
-     "date": "2026-10-28 21:26",
-     "media": "Sportsbook Wire",
-     "title": "Polymarket Sign-Up Bonus Code SBWIRE Deposit $10, Get $25 (October 28)",
-     "site": "https://sportsbookwire.usatoday.com",
-     "overlap": 0.14,
-     "reprises": 0,
+     "date": "2026-10-29 07:35",
+     "media": "ReadWrite",
+     "title": "Kalshi and Polymarket US sue Missouri and Louisiana as CFTC takes Utah to court",
+     "site": "https://readwrite.com",
+     "overlap": 0.25,
+     "reprises": 1,
      "priority": false
     },
     {
-     "date": "2026-10-28 21:38",
-     "media": "Bitcoin News",
-     "title": "CFTC Revives Polymarket Probe as VPN Insider Case Heads to Trial: Reuters",
-     "site": "https://news.bitcoin.com",
+     "date": "2026-10-28 05:02",
+     "media": "Yahoo Finance",
+     "title": "The Soldier, VPN and $400K Test To CFTC's Reach as Polymarket Probe Returns",
+     "site": "https://finance.yahoo.com",
+     "overlap": 0.25,
+     "reprises": 0,
+     "priority": false
+    }
+   ]
+  },
+  {
+   "companyId": "shield-ai",
+   "name": "Shield AI",
+   "candidates": [
+    {
+     "date": "2026-10-29 10:29",
+     "media": "The Defense Post",
+     "title": "Qatar Eyes AI-Controlled Naval Drones With Shield AI Deal",
+     "site": "https://thedefensepost.com",
      "overlap": 0.33,
      "reprises": 0,
      "priority": false
@@ -262,30 +259,48 @@
      "priority": true
     },
     {
-     "date": "2026-10-28 20:04",
-     "media": "FourWeekMBA",
-     "title": "Anthropic Launches Reports to Show What Claude Spending Buys",
-     "site": "https://fourweekmba.com",
-     "overlap": 0.14,
-     "reprises": 0,
-     "priority": true
-    },
-    {
-     "date": "2026-10-28 20:58",
-     "media": "CFO Dive",
-     "title": "Sen. Warren probes AI safety, market risks in Anthropic IPO",
-     "site": "https://www.cfodive.com",
-     "overlap": 0.29,
-     "reprises": 5,
+     "date": "2026-10-29 10:01",
+     "media": "The Times of India",
+     "title": "After waning wall street against OpenAI and Anthropic IPOs; America’s biggest investor Michael Burry now says Anthropic’s IPO filing changes nothing about his AI warning, here’s why",
+     "site": "https://timesofindia.indiatimes.com",
+     "overlap": 0.13,
+     "reprises": 2,
      "priority": false
     },
     {
-     "date": "2026-10-27 10:50",
-     "media": "Boursorama",
-     "title": "Qui contrôle l'IA puissante ? Anthropic a un plan pour l'avenir, bien après le départ de ses dirigeants",
-     "site": "https://www.boursorama.com",
+     "date": "2026-10-27 17:59",
+     "media": "Business AM",
+     "title": "Les documents relatifs à l'introduction en bourse montrent comment Anthropic développe son écosystème d'IA afin d'accroître la fidélité et les dépenses de ses clients",
+     "site": "https://fr.businessam.be",
+     "overlap": 0.38,
+     "reprises": 1,
+     "priority": false
+    },
+    {
+     "date": "2026-10-27 21:31",
+     "media": "Ars Technica",
+     "title": "Anthropic IPO warns its AI could blackmail people, become sentient, end humanity",
+     "site": "https://arstechnica.com",
+     "overlap": 0.11,
+     "reprises": 1,
+     "priority": false
+    },
+    {
+     "date": "2026-10-28 17:28",
+     "media": "The EDU Ledger",
+     "title": "Stanford authors sue Anthropic over use of copyrighted books to train AI",
+     "site": "https://www.theeduledger.com",
      "overlap": 0.25,
-     "reprises": 2,
+     "reprises": 1,
+     "priority": false
+    },
+    {
+     "date": "2026-10-28 21:28",
+     "media": "Beinsure",
+     "title": "Anthropic IPO exposes major AI insurance coverage gaps and liability risks",
+     "site": "https://beinsure.com",
+     "overlap": 0.38,
+     "reprises": 1,
      "priority": false
     },
     {
@@ -294,33 +309,6 @@
      "title": "Damodaran: The Prospectus Arrives: My (but not the) Anthropic IPO Valuation!",
      "site": "https://theloadstar.com",
      "overlap": 0.29,
-     "reprises": 2,
-     "priority": false
-    },
-    {
-     "date": "2026-10-27 09:25",
-     "media": "Telquel.ma",
-     "title": "Croissance météorique et risques en pagaille, Anthropic lève le voile avant son entrée en Bourse",
-     "site": "https://mobile.telquel.ma",
-     "overlap": 0.22,
-     "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-10-27 10:24",
-     "media": "Jamaica Gleaner",
-     "title": "Anthropic files potentially biggest IPO ever, CEO warns of risk to humanity from AI",
-     "site": "http://jamaica-gleaner.com",
-     "overlap": 0.22,
-     "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-10-27 11:24",
-     "media": "JDN",
-     "title": "Clients tricheurs, jet privé, fourmis : 11 infos à retenir (ou pas) sur l'IPO d'Anthropic, par Claude",
-     "site": "https://www.journaldunet.com",
-     "overlap": 0.3,
      "reprises": 1,
      "priority": false
     }
@@ -347,6 +335,15 @@
      "overlap": 0,
      "reprises": 1,
      "priority": false
+    },
+    {
+     "date": "2026-10-29 08:15",
+     "media": "SecurityBrief UK",
+     "title": "Perplexity partners Valarian on sovereign AI search",
+     "site": "https://securitybrief.co.uk",
+     "overlap": 0,
+     "reprises": 1,
+     "priority": false
     }
    ]
   },
@@ -359,8 +356,8 @@
      "media": "Crypto Briefing",
      "title": "CoreWeave shares rebound as Crusoe CEO calls selloffs exaggerated",
      "site": "https://cryptobriefing.com",
-     "overlap": 0.0,
-     "reprises": 15,
+     "overlap": 0,
+     "reprises": 16,
      "priority": false
     },
     {
@@ -368,17 +365,8 @@
      "media": "Briefs Finance",
      "title": "Crusoe CEO Calls Neocloud Selloff \"Overblown\" After Big Fundraise",
      "site": "https://www.briefs.co",
-     "overlap": 0.0,
+     "overlap": 0,
      "reprises": 4,
-     "priority": false
-    },
-    {
-     "date": "2026-10-27 18:37",
-     "media": "Crypto Briefing",
-     "title": "Crusoe CEO dismisses neocloud selloff concerns, backs CoreWeave’s resilience",
-     "site": "https://cryptobriefing.com",
-     "overlap": 0.0,
-     "reprises": 1,
      "priority": false
     },
     {
@@ -386,8 +374,17 @@
      "media": "Bloomberg.com",
      "title": "Watch Crusoe CEO on AI Energy Demand and Building in Texas",
      "site": "https://www.bloomberg.com",
-     "overlap": 0.17,
-     "reprises": 0,
+     "overlap": 0,
+     "reprises": 1,
+     "priority": false
+    },
+    {
+     "date": "2026-10-27 18:37",
+     "media": "Crypto Briefing",
+     "title": "Crusoe CEO dismisses neocloud selloff concerns, backs CoreWeave’s resilience",
+     "site": "https://cryptobriefing.com",
+     "overlap": 0,
+     "reprises": 1,
      "priority": false
     }
    ]
