@@ -1,5 +1,81 @@
 [
  {
+  "id": "kraken-2026-10-29-prop-matieres-premieres",
+  "companyId": "kraken",
+  "date": "2026-10-29",
+  "title": "Kraken Prop ajoute l'or, l'argent, le pétrole et le cuivre et divise sa commission par deux",
+  "summary": "Kraken Prop ouvre six matières premières à son offre de comptes financés et ramène la commission des marchés hors crypto de 4 à 2 points de base par côté.",
+  "detail": "Le lancement couvre l'or, l'argent, le pétrole WTI et Brent, le cuivre et le gaz naturel. La baisse de commission vaut aussi pour l'indice S&P 500 et XYZ100, et s'applique aux comptes d'évaluation et aux comptes financés déjà ouverts, sauf pour la formule Lite.\n\nLes comptes financés montent à 200 000 dollars, sans règle de régularité ni limite de temps, avec jusqu'à 90 % de partage des profits. L'offre repose sur des signaux de trading simulés. Elle est disponible partout où Kraken Prop est proposé, sauf aux Émirats arabes unis.",
+  "impact": "Kraken élargit l'offre de son activité de comptes de trading financés au-delà de la crypto et cherche à attirer des traders de matières premières par des frais réduits.",
+  "signal": "optimiste",
+  "rationale": "Une extension de gamme avec une baisse de frais vise à gagner des utilisateurs, même si le revenu par transaction diminue.",
+  "sources": [
+   {
+    "label": "Blog Kraken, 29/10/2026",
+    "url": "https://blog.kraken.com/product/prop/commodities-are-now-live-at-half-the-commission"
+   }
+  ],
+  "addedAt": "2026-10-29T12:31:22Z"
+ },
+ {
+  "id": "kraken-2026-10-29-usdg-arbitrum",
+  "companyId": "kraken",
+  "date": "2026-10-29",
+  "title": "Kraken ouvre les dépôts et retraits de USDG sur Arbitrum One",
+  "summary": "Kraken prend en charge les dépôts et retraits du stablecoin USDG sur le réseau Arbitrum One, sans passer par un pont.",
+  "detail": "USDG est un stablecoin adossé au dollar émis par Paxos et remboursable un pour un. Sur Arbitrum One, il est émis nativement sous forme de jeton ERC-20, donc les transferts se règlent directement. Kraken prévient que les dépôts faits sur un mauvais réseau seront perdus et que des restrictions géographiques peuvent s'appliquer. Le trading de USDG était déjà actif sur la plateforme.",
+  "impact": "Les clients de Kraken peuvent déplacer USDG plus facilement entre la plateforme et l'écosystème Ethereum de seconde couche, ce qui soutient l'usage du stablecoin.",
+  "signal": "neutre",
+  "rationale": "Un ajout technique utile mais de portée limitée pour l'activité de la plateforme.",
+  "sources": [
+   {
+    "label": "Blog Kraken, 29/10/2026",
+    "url": "https://blog.kraken.com/product/new-features/usdg-deposits-and-withdrawals-now-available-on-arbitrum-one"
+   }
+  ],
+  "addedAt": "2026-10-29T12:31:22Z"
+ },
+ {
+  "id": "lovable-2026-10-29-bureau-londres",
+  "companyId": "lovable",
+  "date": "2026-10-29",
+  "title": "Lovable ouvre son premier bureau à Londres avec 70 personnes",
+  "summary": "Lovable annonce un bureau à Londres, son deuxième pôle d'ingénierie et de produit après Stockholm, avec 70 salariés et un objectif de 100 d'ici la fin de l'année.",
+  "detail": "Le site accueille des équipes d'ingénierie, de produit et de design, ainsi que la recherche en IA, la sécurité, l'infrastructure, la vente, le marketing et la finance. Des ingénieurs déployés chez les clients entreprises y travaillent aussi, tout comme le personnel de Radish AI, une startup rachetée par Lovable. Le Royaume-Uni est son troisième marché par nombre d'abonnés payants.\n\nLovable avait levé 400 millions de dollars en août à une valorisation de 13,3 milliards de dollars, avec Menlo Ventures et le Scaleup Europe Fund.",
+  "impact": "Londres donne à Lovable un accès à un vivier de talents et un point d'appui sur un marché clé, après sa dernière levée.",
+  "signal": "optimiste",
+  "rationale": "L'expansion géographique et les recrutements prolongent la croissance financée par la levée d'août.",
+  "sources": [
+   {
+    "label": "The Next Web, 29/10/2026",
+    "url": "https://thenextweb.com/news/lovable-opens-its-first-london-office"
+   }
+  ],
+  "addedAt": "2026-10-29T12:31:22Z"
+ },
+ {
+  "id": "polymarket-2026-10-28-plainte-louisiane",
+  "companyId": "polymarket",
+  "date": "2026-10-28",
+  "title": "Polymarket US attaque en justice la Louisiane sur les contrats d'événements",
+  "summary": "Polymarket US, via QCX LLC, a déposé le 27 octobre une plainte fédérale contre le procureur général et le régulateur du jeu de Louisiane.",
+  "detail": "La plainte, déposée au tribunal fédéral du district est de Louisiane, vise la procureure Liz Murrill, le président du conseil du jeu Chris Hebert et la directrice de la division des jeux Dawn Himel. Polymarket soutient que la loi sur les échanges de matières premières (CEA) prime sur l'action de l'État et que celle-ci viole la clause de commerce.\n\nElle conteste un avis du 5 décembre 2025 qui qualifie de jeu illégal les contrats sportifs. Elle juge aussi une licence locale de paris sportifs inaccessible, car les 20 licences vont d'abord aux exploitants locaux. Kalshi a déposé une plainte voisine le 23 octobre.",
+  "impact": "Polymarket poursuit sa stratégie de contentieux contre les États pour défendre l'accès à son marché américain, après ses recours dans l'Ohio, le Massachusetts et à New York.",
+  "signal": "prudent",
+  "rationale": "Un nouveau front judiciaire reflète la pression des États, et l'issue reste incertaine.",
+  "sources": [
+   {
+    "label": "Regulatory Gaming (rg.org), 28/10/2026",
+    "url": "https://rg.org/news/prediction-markets/polymarket-kalshi-nadex-sue-louisiana-missouri-utah-prediction-markets"
+   },
+   {
+    "label": "Law360, 28/10/2026",
+    "url": "https://www.law360.com/securities/articles/2543534"
+   }
+  ],
+  "addedAt": "2026-10-29T12:31:22Z"
+ },
+ {
   "id": "polymarket-2026-10-28-michigan-sports",
   "companyId": "polymarket",
   "date": "2026-10-28",
@@ -210,6 +286,24 @@
    }
   ],
   "addedAt": "2026-10-28T12:23:57Z"
+ },
+ {
+  "id": "anthropic-2026-10-27-chaines-attaque-navigateurs",
+  "companyId": "anthropic",
+  "date": "2026-10-27",
+  "title": "Anthropic publie cinq chaînes d'attaque trouvées par un modèle interne dans Chrome, Safari, Android, Windows et Linux",
+  "summary": "L'équipe Frontier Red Team d'Anthropic décrit des failles critiques découvertes et exploitées par un modèle de recherche interne non publié, toutes signalées aux éditeurs concernés.",
+  "detail": "Les cinq chaînes visent Chrome (exécution de code à distance en un clic), Safari (lecture de l'historique et des cookies), le verrouillage d'un Pixel 9, le noyau Windows (plantage à distance via QUIC, CVE-2026-33096) et le noyau Linux (exécution à distance sans interaction, avec accès root en environ 53 minutes). Chrome 156 a corrigé 62 failles, dont 13 évasions de bac à sable, selon Anthropic.\n\nLes failles ont été remontées à Google, Apple, Microsoft et aux mainteneurs de Linux, avec un délai de 90 jours pour corriger, puis 45 jours avant de détailler davantage. Les presses française et anglophone (Clubic, Business Standard) ont repris l'étude le 29 octobre.",
+  "impact": "Anthropic démontre les capacités offensives et défensives de ses modèles en cybersécurité, ce qui nourrit à la fois son argument sur la sécurité et le débat sur les risques.",
+  "signal": "neutre",
+  "rationale": "La démonstration valorise la technologie mais confirme aussi un risque d'usage malveillant.",
+  "sources": [
+   {
+    "label": "Anthropic, 27/10/2026",
+    "url": "https://anthropic.com/research/discovering-vulnerabilities-with-claude"
+   }
+  ],
+  "addedAt": "2026-10-29T12:31:22Z"
  },
  {
   "id": "stripe-2026-10-27-stripe-pay-b2b",
