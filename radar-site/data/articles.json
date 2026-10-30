@@ -22,12 +22,30 @@
   "addedAt": "2026-10-30T06:17:47Z"
  },
  {
+  "id": "fluidstack-2026-10-29-situational-awareness-40-milliards",
+  "companyId": "fluidstack",
+  "date": "2026-10-29",
+  "title": "Situational Awareness viserait une valorisation de 40 milliards de dollars pour Fluidstack, un cofondateur conteste",
+  "summary": "Selon Bloomberg, le fonds de Leopold Aschenbrenner cherche des capitaux pour participer à un nouveau tour de Fluidstack valorisé environ 40 milliards de dollars, soit près du double de la valorisation précédente.",
+  "detail": "D'après le relais de Hedgeweek, Situational Awareness propose à ses clients existants de co-investir à ses côtés dans Fluidstack. Le fonds avait mené en janvier une série A de 830 millions de dollars à 7,5 milliards de dollars. Un cofondateur de Fluidstack a contesté le récit de Bloomberg, sans que le détail de sa réponse soit précisé.\n\nLe fonds a frôlé la faillite plus tôt dans l'année après des appels de marge et a cédé l'essentiel de son portefeuille coté à Citadel avec décote. Il avait envisagé de vendre des participations privées, dont Fluidstack. Les investisseurs scrutent par ailleurs l'endettement des \"néoclouds\", alors que Fluidstack s'appuie sur un engagement d'Anthropic de 50 milliards de dollars pour des centres de données américains.",
+  "impact": "Si le tour se concrétisait à ce niveau, il confirmerait l'appétit des investisseurs pour les constructeurs de centres de données IA adossés à Anthropic, mais l'information reste une négociation non confirmée par la société.",
+  "signal": "neutre",
+  "rationale": "Une valorisation très élevée est évoquée, mais elle provient d'un seul récit de presse, contesté par un cofondateur, et d'un fonds fragilisé.",
+  "sources": [
+   {
+    "label": "Hedgeweek, d'après Bloomberg, 29/10/2026",
+    "url": "https://hedgeweek.com/news/situational-awareness-targets-40bn-fluidstack-valuation-months-after-near-collapse"
+   }
+  ],
+  "addedAt": "2026-10-30T12:14:21Z"
+ },
+ {
   "id": "polymarket-2026-10-29-faille-debugbear",
   "companyId": "polymarket",
   "date": "2026-10-29",
   "title": "Polymarket suspend ses échanges une heure après le piratage d'un prestataire tiers et rembourse les victimes",
   "summary": "Un script malveillant hébergé chez un prestataire de suivi de performance web a vidé des portefeuilles d'utilisateurs de Polymarket.com. La plateforme a coupé les échanges environ une heure, puis les a rétablis.",
-  "detail": "Polymarket a indiqué qu'un de ses prestataires tiers avait été compromis. BleepingComputer, avec Hudson Rock, identifie DebugBear, dont le script était servi depuis son CDN, et DebugBear confirme un incident de sécurité. Environ 2,5 millions de dollars ont été retracés vers un portefeuille de l'attaquant, sans que Polymarket précise le montant volé ni le nombre de comptes touchés.\n\nLe mode annulation seule a été activé vers 14h05 (heure de New York), l'arrêt des échanges annoncé à 14h37, et l'incident déclaré résolu à 15h05. Polymarket dit avoir alerté les autorités et rembourser intégralement les traders touchés. Le problème concerne la plateforme internationale.",
+  "detail": "Polymarket a indiqué qu'un de ses prestataires tiers avait été compromis. BleepingComputer, avec Hudson Rock, identifie DebugBear, dont le script était servi depuis son CDN, et DebugBear confirme un incident de sécurité. Selon le Wall Street Journal repris par Newser, au moins 2,6 millions de dollars ont été retirés à plus de 700 portefeuilles. The Record cite plus de 2,1 millions de dollars tracés vers un seul compte. Polymarket ne précise pas officiellement le montant volé.\n\nLe mode annulation seule a été activé vers 14h05 (heure de New York), l'arrêt des échanges annoncé à 14h37, et l'incident déclaré résolu à 15h05. Polymarket dit avoir saisi les autorités (la justice britannique selon le WSJ) et rembourser intégralement les traders touchés. Selon Newser, les pertes inférieures à 10 000 dollars sont remboursées vendredi, les plus élevées exigent la signature d'un formulaire de décharge. Le problème concerne la plateforme internationale.",
   "impact": "L'incident ébranle la confiance dans la sécurité de l'interface de Polymarket, mais la prise en charge des remboursements limite l'effet financier pour les utilisateurs.",
   "signal": "prudent",
   "rationale": "Une faille de chaîne d'approvisionnement avec fonds volés et arrêt des échanges est un risque opérationnel et de réputation, même si les victimes sont indemnisées.",
@@ -35,6 +53,14 @@
    {
     "label": "BleepingComputer, 29/10/2026",
     "url": "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/"
+   },
+   {
+    "label": "Newser, d'après le WSJ, 30/10/2026",
+    "url": "https://www.newser.com/story/399074/hackers-drain-26m-from-polymarket-users.html"
+   },
+   {
+    "label": "The Record, 30/10/2026",
+    "url": "https://therecord.media/polymarket-confirms-cyberattack-third-party"
    }
   ],
   "addedAt": "2026-10-30T06:17:47Z"

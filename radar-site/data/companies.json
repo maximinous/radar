@@ -1407,8 +1407,20 @@
    "\"Fluidstack\" TeraWulf OR Cipher OR Google",
    "\"Gary Wu\" OR \"César Maklary\" Fluidstack"
   ],
-  "lastRound": "fluidstack-2026-09-03-levee-jane-street",
+  "lastRound": "fluidstack-2026-10-29-situational-awareness-40-milliards",
   "valuations": [
+   {
+    "amount": "environ 40 milliards de dollars",
+    "value": 40,
+    "currency": "USD",
+    "round": "Nouveau tour en discussion, mené par Situational Awareness (montant non précisé, contesté par un cofondateur)",
+    "date": "2026-10-29",
+    "status": "presse",
+    "source": {
+     "label": "Hedgeweek, d'après Bloomberg, 29/10/2026",
+     "url": "https://hedgeweek.com/news/situational-awareness-targets-40bn-fluidstack-valuation-months-after-near-collapse"
+    }
+   },
    {
     "amount": "18 milliards de dollars",
     "value": 18,
