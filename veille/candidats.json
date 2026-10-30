@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-10-30T11:28:27Z",
+ "generatedAt": "2026-10-30T23:13:16Z",
  "windowHours": 48,
- "headlinesRead": 909,
- "count": 43,
- "priorityCount": 6,
+ "headlinesRead": 922,
+ "count": 34,
+ "priorityCount": 3,
  "companies": [
   {
    "companyId": "together-ai",
@@ -26,7 +26,7 @@
    "candidates": [
     {
      "date": "2026-10-30 08:09",
-     "media": "IT Social",
+     "media": "it social",
      "title": "Mistral ouvre les poids de Large 4 et fait de l’hébergement chez le client son argument de souveraineté",
      "site": "https://itsocial.fr",
      "overlap": 0.22,
@@ -34,21 +34,12 @@
      "priority": false
     },
     {
-     "date": "2026-10-30 11:01",
+     "date": "2026-10-30 23:01",
      "media": "ZDNET",
      "title": "Mistral's Le Chonk is now a top open model for coding, ranking alongside Codex GPT-6.1 Terra",
      "site": "https://www.zdnet.com",
      "overlap": 0.27,
-     "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-10-30 11:03",
-     "media": "CSO Online",
-     "title": "Mistral open-sources AI model despite warning it could aid cyberattacks",
-     "site": "https://www.csoonline.com",
-     "overlap": 0.25,
-     "reprises": 1,
+     "reprises": 2,
      "priority": false
     },
     {
@@ -77,20 +68,29 @@
      "overlap": 0.38,
      "reprises": 0,
      "priority": false
+    },
+    {
+     "date": "2026-10-30 11:05",
+     "media": "CSO Online",
+     "title": "Mistral open-sources AI model despite warning it could aid cyberattacks",
+     "site": "https://www.csoonline.com",
+     "overlap": 0.25,
+     "reprises": 0,
+     "priority": false
     }
    ]
   },
   {
-   "companyId": "neura-robotics",
-   "name": "Neura Robotics",
+   "companyId": "deel",
+   "name": "Deel",
    "candidates": [
     {
-     "date": "2026-10-28 19:09",
-     "media": "Robotics & Automation News",
-     "title": "Neura Robotics and TUM open €17 million RoboGym and unveil new humanoid",
-     "site": "https://roboticsandautomationnews.com",
+     "date": "2026-10-30 17:30",
+     "media": "CPA Practice Advisor",
+     "title": "Deel Unveils Workforce Security Solution",
+     "site": "https://www.cpapracticeadvisor.com",
      "overlap": 0,
-     "reprises": 3,
+     "reprises": 2,
      "priority": false
     }
    ]
@@ -100,57 +100,12 @@
    "name": "Stripe",
    "candidates": [
     {
-     "date": "2026-10-28 22:00",
-     "media": "CoinMarketCap",
-     "title": "Stripe Acquires Valora Team To Expand Stablecoin Push",
-     "site": "https://coinmarketcap.com",
-     "overlap": 0.17,
-     "reprises": 3,
-     "priority": true
-    },
-    {
-     "date": "2026-10-28 14:11",
-     "media": "Small Business Trends",
-     "title": "Stripe Enhances Support for Small Businesses with Parafin Acquisition",
-     "site": "https://smallbiztrends.com",
-     "overlap": 0.0,
-     "reprises": 0,
-     "priority": true
-    },
-    {
-     "date": "2026-10-28 13:44",
-     "media": "Pluang",
-     "title": "Stripe adds support for Open USD stablecoin acr...",
-     "site": "https://pluang.com",
-     "overlap": 0.17,
-     "reprises": 4,
-     "priority": false
-    },
-    {
      "date": "2026-10-29 16:14",
      "media": "Crypto Briefing",
      "title": "IPX taps Stripe’s Bridge to move IP revenue between bank accounts and USDC",
      "site": "https://cryptobriefing.com",
      "overlap": 0.0,
      "reprises": 2,
-     "priority": false
-    },
-    {
-     "date": "2026-10-28 16:58",
-     "media": "PaymentsJournal",
-     "title": "Stripe Unveils B2B Payments that Mirror the P2P Experience",
-     "site": "https://www.paymentsjournal.com",
-     "overlap": 0.14,
-     "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-10-28 16:44",
-     "media": "StreetInsider",
-     "title": "IPX Announces Integration with Bridge, a Stripe Company, to Power Fiat On- and Off-Ramps on Its Tokenized IP Platform",
-     "site": "https://www.streetinsider.com",
-     "overlap": 0.0,
-     "reprises": 0,
      "priority": false
     }
    ]
@@ -169,21 +124,21 @@
      "priority": false
     },
     {
-     "date": "2026-10-29 15:56",
-     "media": "Tech Funding News",
-     "title": "Lovable opens a London hub: Can the $13.3B unicorn hire more talent than Cursor, OpenAI, and Anthropic?",
-     "site": "https://techfundingnews.com",
-     "overlap": 0.17,
-     "reprises": 1,
-     "priority": false
-    },
-    {
      "date": "2026-10-29 17:05",
      "media": "AI Magazine",
      "title": "Lovable: Europe’s Vibe Coding Platform Crosses US$600m ARR",
      "site": "https://aimagazine.com",
      "overlap": 0.14,
      "reprises": 1,
+     "priority": false
+    },
+    {
+     "date": "2026-10-29 15:56",
+     "media": "Tech Funding News",
+     "title": "Lovable opens a London hub: Can the $13.3B unicorn hire more talent than Cursor, OpenAI, and Anthropic?",
+     "site": "https://techfundingnews.com",
+     "overlap": 0.17,
+     "reprises": 0,
      "priority": false
     }
    ]
@@ -192,24 +147,6 @@
    "companyId": "kraken",
    "name": "Kraken",
    "candidates": [
-    {
-     "date": "2026-10-28 14:41",
-     "media": "U.Today",
-     "title": "Coinbase Launches Ripple USD, Challenging Kraken's Market Hold",
-     "site": "https://u.today",
-     "overlap": 0.14,
-     "reprises": 0,
-     "priority": false
-    },
-    {
-     "date": "2026-10-28 21:41",
-     "media": "Kohen Avocats",
-     "title": "Kraken est-il fiable en cas de faillite ? Cryptos, euros, staking et récompenses Opt-in : ce qui protège un client en France",
-     "site": "https://kohenavocats.fr",
-     "overlap": 0.25,
-     "reprises": 0,
-     "priority": false
-    },
     {
      "date": "2026-10-29 05:50",
      "media": "Coin Gabbar",
@@ -227,6 +164,15 @@
      "overlap": 0.25,
      "reprises": 0,
      "priority": false
+    },
+    {
+     "date": "2026-10-30 16:06",
+     "media": "Tekedia",
+     "title": "Binance and Kraken Expand Their Cryptocurrency Market Strategies",
+     "site": "https://www.tekedia.com",
+     "overlap": 0.33,
+     "reprises": 0,
+     "priority": false
     }
    ]
   },
@@ -240,51 +186,33 @@
      "title": "Élections en Israël : Polymarket enquête sur des paris suspects en faveur de Benjamin Netanyahou",
      "site": "https://www.i24news.tv",
      "overlap": 0.38,
-     "reprises": 5,
+     "reprises": 7,
      "priority": false
     },
     {
-     "date": "2026-10-29 21:07",
-     "media": "Fortune",
-     "title": "Polymarket launches 15-minute 'Up or Down' contracts for the price of gold, plans to add stock and forex",
-     "site": "https://fortune.com",
-     "overlap": 0.3,
+     "date": "2026-10-30 21:00",
+     "media": "TradingView",
+     "title": "Chainlink: Polymarket expands oracle partnership beyond crypto - 30 Oct 2026",
+     "site": "https://www.tradingview.com",
+     "overlap": 0.25,
      "reprises": 1,
      "priority": false
     },
     {
-     "date": "2026-10-28 15:31",
-     "media": "PressReader",
-     "title": "Polymarket US trade-nix probe",
-     "site": "https://www.pressreader.com",
-     "overlap": 0.33,
+     "date": "2026-10-30 16:45",
+     "media": "OregonLive.com",
+     "title": "NBA Polymarket promo code “OREGON” launches $25 bonus for Friday night",
+     "site": "https://www.oregonlive.com",
+     "overlap": 0.12,
      "reprises": 0,
      "priority": false
     },
     {
-     "date": "2026-10-29 21:35",
-     "media": "USA Today",
-     "title": "Polymarket Sign-Up Bonus Code SBWIRE Deposit $10, Get $25 (October 29)",
-     "site": "https://www.usatoday.com",
+     "date": "2026-10-30 21:02",
+     "media": "The Daily Advertiser | Lafayette, Louisiana",
+     "title": "Polymarket Sign-Up Bonus Code SBWIRE Deposit $10, Get $25 (October 30)",
+     "site": "https://www.theadvertiser.com",
      "overlap": 0.29,
-     "reprises": 0,
-     "priority": false
-    },
-    {
-     "date": "2026-10-29 22:00",
-     "media": "PR Newswire",
-     "title": "Polymarket Deepens Partnership With Chainlink as Official Oracle for High-Speed Up/Down Markets and Launches Gold and Silver Trading",
-     "site": "https://www.prnewswire.com",
-     "overlap": 0.23,
-     "reprises": 0,
-     "priority": false
-    },
-    {
-     "date": "2026-10-30 03:01",
-     "media": "Yahoo Finance",
-     "title": "Polymarket and Kalshi Get a Rival as DraftKings CEO Sees ‘Extraordinary’ Upside",
-     "site": "https://finance.yahoo.com",
-     "overlap": 0.25,
      "reprises": 0,
      "priority": false
     }
@@ -310,21 +238,12 @@
    "name": "Anthropic",
    "candidates": [
     {
-     "date": "2026-10-30 08:30",
-     "media": "The Motley Fool",
-     "title": "The Smartest AI Stock to Buy on Anthropic's IPO Filing Isn't Anthropic",
-     "site": "https://www.fool.com",
-     "overlap": 0.33,
-     "reprises": 2,
-     "priority": true
-    },
-    {
-     "date": "2026-10-28 11:44",
-     "media": "The Next Web",
-     "title": "Anthropic buys a one-person biotech and starts its own drug programmes",
-     "site": "https://thenextweb.com",
-     "overlap": 0.25,
-     "reprises": 0,
+     "date": "2026-10-30 22:11",
+     "media": "bloomingbit",
+     "title": "Anthropic IPO Nears as Investors Sell AI Stocks to Buy More AI?",
+     "site": "https://en.bloomingbit.io",
+     "overlap": 0.29,
+     "reprises": 1,
      "priority": true
     },
     {
@@ -337,13 +256,40 @@
      "priority": true
     },
     {
-     "date": "2026-10-29 21:00",
-     "media": "Realnoe vremya",
-     "title": "SpaceX and Tesla merger, Anthropic AI lawyers: technology news",
-     "site": "https://realnoevremya.com",
-     "overlap": 0.33,
+     "date": "2026-10-30 11:10",
+     "media": "Money.ca",
+     "title": "Anthropic's US$100B IPO: Can Canadians buy?",
+     "site": "https://money.ca",
+     "overlap": 0.2,
      "reprises": 0,
      "priority": true
+    },
+    {
+     "date": "2026-10-30 12:44",
+     "media": "The Motley Fool",
+     "title": "Dario Amodei Predicted at Davos in January 2025 That AI Could Surpass Humans \"at Almost Everything\" Within 2 to 3 Years. As Anthropic Prepares for Its $2 Trillion IPO, Is That Timeline Still on Track?",
+     "site": "https://www.fool.com",
+     "overlap": 0.15,
+     "reprises": 3,
+     "priority": false
+    },
+    {
+     "date": "2026-10-30 15:27",
+     "media": "Fortune",
+     "title": "Anthropic’s IPO filing spends 69,800 words on AI’s risks to investors and says little about the risks to the rest of us",
+     "site": "https://fortune.com",
+     "overlap": 0.36,
+     "reprises": 3,
+     "priority": false
+    },
+    {
+     "date": "2026-10-30 17:32",
+     "media": "Business Insider",
+     "title": "Want to invest in Anthropic before its IPO? These 5 funds offer exposure to the AI giant.",
+     "site": "https://www.businessinsider.com",
+     "overlap": 0.22,
+     "reprises": 2,
+     "priority": false
     },
     {
      "date": "2026-10-29 01:43",
@@ -351,7 +297,7 @@
      "title": "Anthropic lance des outils de coûts pour Claude Enterprise face aux doutes persistants sur le ROI de l'IA",
      "site": "https://www.cryptopolitan.com",
      "overlap": 0.22,
-     "reprises": 3,
+     "reprises": 1,
      "priority": false
     },
     {
@@ -371,33 +317,6 @@
      "overlap": 0.29,
      "reprises": 1,
      "priority": false
-    },
-    {
-     "date": "2026-10-29 16:26",
-     "media": "Pasquale Pillitteri",
-     "title": "Anthropic lance les smart reports de Claude, qui comptent les chats hors sujet",
-     "site": "https://pasqualepillitteri.it",
-     "overlap": 0.25,
-     "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-10-30 07:53",
-     "media": "tech-insider.org",
-     "title": "phData Funding: 300+ Experts, Anthropic Joins [2026]",
-     "site": "https://tech-insider.org",
-     "overlap": 0.33,
-     "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-10-30 09:16",
-     "media": "The Recursive",
-     "title": "What Anthropic’s IPO Really Means for Europe",
-     "site": "https://www.therecursive.com",
-     "overlap": 0.2,
-     "reprises": 1,
-     "priority": false
     }
    ]
   },
@@ -406,19 +325,19 @@
    "name": "Perplexity",
    "candidates": [
     {
-     "date": "2026-10-28 19:27",
-     "media": "The Economic Times",
-     "title": "Aravind Srinivas looked up to Google CEO Sundar Pichai before building Perplexity AI; how an unexpected de",
-     "site": "https://m.economictimes.com",
-     "overlap": 0,
-     "reprises": 2,
-     "priority": false
-    },
-    {
      "date": "2026-10-29 08:15",
      "media": "SecurityBrief UK",
      "title": "Perplexity partners Valarian on sovereign AI search",
      "site": "https://securitybrief.co.uk",
+     "overlap": 0,
+     "reprises": 1,
+     "priority": false
+    },
+    {
+     "date": "2026-10-29 13:21",
+     "media": "آي-فون إسلام",
+     "title": "Perplexity launches health platform with Apple Health… Your smart doctor now knows you well!",
+     "site": "https://iphoneislam.com",
      "overlap": 0,
      "reprises": 1,
      "priority": false
@@ -437,6 +356,15 @@
      "overlap": 0,
      "reprises": 8,
      "priority": false
+    },
+    {
+     "date": "2026-10-30 17:24",
+     "media": "Dealroom",
+     "title": "Crusoe's CEO on scaling an 'AI super major'",
+     "site": "https://app.dealroom.co",
+     "overlap": 0,
+     "reprises": 3,
+     "priority": false
     }
    ]
   },
@@ -445,21 +373,12 @@
    "name": "Fluidstack",
    "candidates": [
     {
-     "date": "2026-10-29 16:21",
-     "media": "Yahoo Finance",
-     "title": "Aschenbrenner seeks Fluidstack investment at $40 billion valuation - Bloomberg",
-     "site": "https://finance.yahoo.com",
-     "overlap": 0.0,
-     "reprises": 3,
-     "priority": false
-    },
-    {
      "date": "2026-10-29 20:06",
      "media": "FourWeekMBA",
      "title": "Fluidstack Round Pitched at $40B, 5.3x Its January Valuation",
      "site": "https://fourweekmba.com",
-     "overlap": 0.0,
-     "reprises": 2,
+     "overlap": 0.2,
+     "reprises": 1,
      "priority": false
     }
    ]
