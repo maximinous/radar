@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-10-29T23:35:32Z",
+ "generatedAt": "2026-10-30T11:28:27Z",
  "windowHours": 48,
- "headlinesRead": 900,
- "count": 38,
- "priorityCount": 3,
+ "headlinesRead": 909,
+ "count": 43,
+ "priorityCount": 6,
  "companies": [
   {
    "companyId": "together-ai",
@@ -25,57 +25,57 @@
    "name": "Mistral AI",
    "candidates": [
     {
-     "date": "2026-10-29 19:44",
-     "media": "Crypto Briefing",
-     "title": "Mistral AI releases Large 4, an open-weight model built for cybersecurity",
-     "site": "https://cryptobriefing.com",
-     "overlap": 0,
-     "reprises": 9,
-     "priority": false
-    },
-    {
-     "date": "2026-10-29 19:51",
-     "media": "Investing.com",
-     "title": "Orange unit signs deal to Mistral’s latest AI cybersecurity model By Reuters",
-     "site": "https://www.investing.com",
-     "overlap": 0,
-     "reprises": 3,
-     "priority": false
-    },
-    {
-     "date": "2026-10-28 04:00",
-     "media": "Courrier international",
-     "title": "Mistral signe-t-il la fin de la course au modèle de pointe made in Europe ?",
-     "site": "https://www.courrierinternational.com",
-     "overlap": 0,
+     "date": "2026-10-30 08:09",
+     "media": "IT Social",
+     "title": "Mistral ouvre les poids de Large 4 et fait de l’hébergement chez le client son argument de souveraineté",
+     "site": "https://itsocial.fr",
+     "overlap": 0.22,
      "reprises": 2,
      "priority": false
     },
     {
-     "date": "2026-10-29 15:57",
-     "media": "Clubic",
-     "title": "Le modèle français Mistral Large 4 passe en open source et rivalise avec les meilleurs modèles chinois en code",
-     "site": "https://www.clubic.com",
-     "overlap": 0,
-     "reprises": 2,
-     "priority": false
-    },
-    {
-     "date": "2026-10-29 14:34",
-     "media": "Next INpact",
-     "title": "[MàJ] Mistral lance la version finale de Large 4 et publie ses poids ouverts",
-     "site": "https://next.ink",
-     "overlap": 0,
+     "date": "2026-10-30 11:01",
+     "media": "ZDNET",
+     "title": "Mistral's Le Chonk is now a top open model for coding, ranking alongside Codex GPT-6.1 Terra",
+     "site": "https://www.zdnet.com",
+     "overlap": 0.27,
      "reprises": 1,
      "priority": false
     },
     {
-     "date": "2026-10-29 15:26",
-     "media": "Mezha.net",
-     "title": "Mistral says Le Chonk leads open-weight AI in coding and cybersecurity",
-     "site": "https://mezha.net",
-     "overlap": 0,
+     "date": "2026-10-30 11:03",
+     "media": "CSO Online",
+     "title": "Mistral open-sources AI model despite warning it could aid cyberattacks",
+     "site": "https://www.csoonline.com",
+     "overlap": 0.25,
      "reprises": 1,
+     "priority": false
+    },
+    {
+     "date": "2026-10-29 14:00",
+     "media": "WIRED",
+     "title": "Mistral Says Its AI Model ‘Le Chonk’ Has Leapfrogged China in the Open-Weight Race",
+     "site": "https://www.wired.com",
+     "overlap": 0.33,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-10-29 15:25",
+     "media": "lefilia.fr",
+     "title": "Mistral, basé à Paris, lance « Le Chonk », un modèle de code performant qui reste globalement derrière la Chine",
+     "site": "https://www.lefilia.fr",
+     "overlap": 0.36,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-10-30 01:49",
+     "media": "Cryptopolitan",
+     "title": "Mistral ouvre les poids de Large 4 pour défier l'IA cyber des États-Unis et de la Chine",
+     "site": "https://www.cryptopolitan.com",
+     "overlap": 0.38,
+     "reprises": 0,
      "priority": false
     }
    ]
@@ -127,6 +127,15 @@
      "priority": false
     },
     {
+     "date": "2026-10-29 16:14",
+     "media": "Crypto Briefing",
+     "title": "IPX taps Stripe’s Bridge to move IP revenue between bank accounts and USDC",
+     "site": "https://cryptobriefing.com",
+     "overlap": 0.0,
+     "reprises": 2,
+     "priority": false
+    },
+    {
      "date": "2026-10-28 16:58",
      "media": "PaymentsJournal",
      "title": "Stripe Unveils B2B Payments that Mirror the P2P Experience",
@@ -136,10 +145,10 @@
      "priority": false
     },
     {
-     "date": "2026-10-29 16:14",
-     "media": "Crypto Briefing",
-     "title": "IPX taps Stripe’s Bridge to move IP revenue between bank accounts and USDC",
-     "site": "https://cryptobriefing.com",
+     "date": "2026-10-28 16:44",
+     "media": "StreetInsider",
+     "title": "IPX Announces Integration with Bridge, a Stripe Company, to Power Fiat On- and Off-Ramps on Its Tokenized IP Platform",
+     "site": "https://www.streetinsider.com",
      "overlap": 0.0,
      "reprises": 0,
      "priority": false
@@ -184,29 +193,20 @@
    "name": "Kraken",
    "candidates": [
     {
-     "date": "2026-10-28 05:26",
-     "media": "TOKENPOST",
-     "title": "Kazakhstan and Kraken Sign Digital-Finance Cooperation Pact",
-     "site": "https://www.tokenpost.com",
-     "overlap": 0.33,
-     "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-10-28 07:35",
-     "media": "Pluang",
-     "title": "Hyperliquid's HYPE token rises 4.8% as Kraken's parent plans US regulated perpetuals market launch",
-     "site": "https://pluang.com",
-     "overlap": 0.1,
-     "reprises": 1,
-     "priority": false
-    },
-    {
      "date": "2026-10-28 14:41",
      "media": "U.Today",
      "title": "Coinbase Launches Ripple USD, Challenging Kraken's Market Hold",
      "site": "https://u.today",
      "overlap": 0.14,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-10-28 21:41",
+     "media": "Kohen Avocats",
+     "title": "Kraken est-il fiable en cas de faillite ? Cryptos, euros, staking et récompenses Opt-in : ce qui protège un client en France",
+     "site": "https://kohenavocats.fr",
+     "overlap": 0.25,
      "reprises": 0,
      "priority": false
     },
@@ -218,6 +218,15 @@
      "overlap": 0.0,
      "reprises": 0,
      "priority": false
+    },
+    {
+     "date": "2026-10-30 08:36",
+     "media": "CoinMarketCap",
+     "title": "Kraken Refuses To Pay Extortion Demand Over Stolen Client Data",
+     "site": "https://coinmarketcap.com",
+     "overlap": 0.25,
+     "reprises": 0,
+     "priority": false
     }
    ]
   },
@@ -225,6 +234,24 @@
    "companyId": "polymarket",
    "name": "Polymarket",
    "candidates": [
+    {
+     "date": "2026-10-30 07:11",
+     "media": "i24NEWS",
+     "title": "Élections en Israël : Polymarket enquête sur des paris suspects en faveur de Benjamin Netanyahou",
+     "site": "https://www.i24news.tv",
+     "overlap": 0.38,
+     "reprises": 5,
+     "priority": false
+    },
+    {
+     "date": "2026-10-29 21:07",
+     "media": "Fortune",
+     "title": "Polymarket launches 15-minute 'Up or Down' contracts for the price of gold, plans to add stock and forex",
+     "site": "https://fortune.com",
+     "overlap": 0.3,
+     "reprises": 1,
+     "priority": false
+    },
     {
      "date": "2026-10-28 15:31",
      "media": "PressReader",
@@ -235,38 +262,29 @@
      "priority": false
     },
     {
-     "date": "2026-10-29 15:41",
-     "media": "Quartz en Français",
-     "title": "Polymarket enquête sur des paris suspects concernant l'élection en Israël pour délit d'initié.",
-     "site": "https://fr.qz.com",
-     "overlap": 0.38,
-     "reprises": 0,
-     "priority": false
-    },
-    {
-     "date": "2026-10-29 18:38",
-     "media": "Ventura County Star",
+     "date": "2026-10-29 21:35",
+     "media": "USA Today",
      "title": "Polymarket Sign-Up Bonus Code SBWIRE Deposit $10, Get $25 (October 29)",
-     "site": "https://www.vcstar.com",
+     "site": "https://www.usatoday.com",
      "overlap": 0.29,
      "reprises": 0,
      "priority": false
     },
     {
-     "date": "2026-10-29 21:07",
-     "media": "Fortune",
-     "title": "Polymarket launches 15-minute 'Up or Down' contracts for the price of gold, plans to add stock and forex",
-     "site": "https://fortune.com",
-     "overlap": 0.3,
+     "date": "2026-10-29 22:00",
+     "media": "PR Newswire",
+     "title": "Polymarket Deepens Partnership With Chainlink as Official Oracle for High-Speed Up/Down Markets and Launches Gold and Silver Trading",
+     "site": "https://www.prnewswire.com",
+     "overlap": 0.23,
      "reprises": 0,
      "priority": false
     },
     {
-     "date": "2026-10-29 22:45",
-     "media": "AL.com",
-     "title": "New Polymarket Promo Code AL25BONUS launches $25 bonus for NBA slate + TNF tonight (10/29)",
-     "site": "https://www.al.com",
-     "overlap": 0.11,
+     "date": "2026-10-30 03:01",
+     "media": "Yahoo Finance",
+     "title": "Polymarket and Kalshi Get a Rival as DraftKings CEO Sees ‘Extraordinary’ Upside",
+     "site": "https://finance.yahoo.com",
+     "overlap": 0.25,
      "reprises": 0,
      "priority": false
     }
@@ -282,7 +300,7 @@
      "title": "Qatar Eyes AI-Controlled Naval Drones With Shield AI Deal",
      "site": "https://thedefensepost.com",
      "overlap": 0.33,
-     "reprises": 3,
+     "reprises": 2,
      "priority": false
     }
    ]
@@ -291,6 +309,15 @@
    "companyId": "anthropic",
    "name": "Anthropic",
    "candidates": [
+    {
+     "date": "2026-10-30 08:30",
+     "media": "The Motley Fool",
+     "title": "The Smartest AI Stock to Buy on Anthropic's IPO Filing Isn't Anthropic",
+     "site": "https://www.fool.com",
+     "overlap": 0.33,
+     "reprises": 2,
+     "priority": true
+    },
     {
      "date": "2026-10-28 11:44",
      "media": "The Next Web",
@@ -301,30 +328,30 @@
      "priority": true
     },
     {
-     "date": "2026-10-29 12:15",
-     "media": "NewsBytes",
-     "title": "Anthropic CEO Dario Amodei pledges 80% equity to charity",
-     "site": "https://www.newsbytesapp.com",
+     "date": "2026-10-29 15:40",
+     "media": "The Times",
+     "title": "How UK investors can buy shares in Anthropic’s ‘$1.75tn’ float",
+     "site": "https://www.thetimes.com",
+     "overlap": 0.14,
+     "reprises": 0,
+     "priority": true
+    },
+    {
+     "date": "2026-10-29 21:00",
+     "media": "Realnoe vremya",
+     "title": "SpaceX and Tesla merger, Anthropic AI lawyers: technology news",
+     "site": "https://realnoevremya.com",
      "overlap": 0.33,
+     "reprises": 0,
+     "priority": true
+    },
+    {
+     "date": "2026-10-29 01:43",
+     "media": "Cryptopolitan",
+     "title": "Anthropic lance des outils de coûts pour Claude Enterprise face aux doutes persistants sur le ROI de l'IA",
+     "site": "https://www.cryptopolitan.com",
+     "overlap": 0.22,
      "reprises": 3,
-     "priority": false
-    },
-    {
-     "date": "2026-10-28 15:49",
-     "media": "ABC News - Breaking News, Latest News and Videos",
-     "title": "Exclusive: Anthropic CEO calls for stronger regulation of AI",
-     "site": "https://abcnews.com",
-     "overlap": 0.2,
-     "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-10-28 19:11",
-     "media": "Brief IA",
-     "title": "Anthropic lance trois outils pour suivre le ROI de l’IA",
-     "site": "https://www.briefia.fr",
-     "overlap": 0.2,
-     "reprises": 1,
      "priority": false
     },
     {
@@ -332,6 +359,15 @@
      "media": "BDM",
      "title": "Claude Enterprise : Anthropic lance des rapports pour mesurer ce que l’IA apporte aux équipes",
      "site": "https://www.blogdumoderateur.com",
+     "overlap": 0.29,
+     "reprises": 1,
+     "priority": false
+    },
+    {
+     "date": "2026-10-29 11:30",
+     "media": "CNBC",
+     "title": "Anthropic CEO Dario Amodei charts a new direction for tech philanthropy",
+     "site": "https://www.cnbc.com",
      "overlap": 0.29,
      "reprises": 1,
      "priority": false
@@ -346,11 +382,20 @@
      "priority": false
     },
     {
-     "date": "2026-10-29 17:20",
-     "media": "The Motley Fool",
-     "title": "Neocloud Stocks Have Sunk by More Than 30% This Month. What Does That Mean for Anthropic's IPO?",
-     "site": "https://www.fool.com",
-     "overlap": 0.08,
+     "date": "2026-10-30 07:53",
+     "media": "tech-insider.org",
+     "title": "phData Funding: 300+ Experts, Anthropic Joins [2026]",
+     "site": "https://tech-insider.org",
+     "overlap": 0.33,
+     "reprises": 1,
+     "priority": false
+    },
+    {
+     "date": "2026-10-30 09:16",
+     "media": "The Recursive",
+     "title": "What Anthropic’s IPO Really Means for Europe",
+     "site": "https://www.therecursive.com",
+     "overlap": 0.2,
      "reprises": 1,
      "priority": false
     }
@@ -400,11 +445,11 @@
    "name": "Fluidstack",
    "candidates": [
     {
-     "date": "2026-10-29 18:14",
-     "media": "Investing.com",
-     "title": "Aschenbrenner seeks Fluidstack investment at $40 billion valuation - Bloomberg By Investing.com",
-     "site": "https://www.investing.com",
-     "overlap": 0.14,
+     "date": "2026-10-29 16:21",
+     "media": "Yahoo Finance",
+     "title": "Aschenbrenner seeks Fluidstack investment at $40 billion valuation - Bloomberg",
+     "site": "https://finance.yahoo.com",
+     "overlap": 0.0,
      "reprises": 3,
      "priority": false
     },
