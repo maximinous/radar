@@ -1,5 +1,81 @@
 [
  {
+  "id": "kraken-2026-10-30-panne-une-heure",
+  "companyId": "kraken",
+  "date": "2026-10-30",
+  "title": "Kraken rétablit ses échanges après une panne d'environ une heure",
+  "summary": "Des problèmes de connectivité et de passage d'ordres ont touché le site, l'application et les API de Kraken de 02h42 à 03h42 UTC.",
+  "detail": "Selon le suivi de statut de Kraken et crypto.news, l'incident a affecté le site, l'application, les API REST et WebSocket, ainsi que les transferts entre plateformes de dérivés. Les médias décrivent un impact sur le spot et les dérivés, tandis que la liste officielle des services touchés cite surtout les dérivés.\n\nKraken n'a donné ni cause technique, ni nombre de comptes ou d'ordres touchés.",
+  "impact": "Une panne d'une heure pèse sur la fiabilité perçue de la plateforme, sans conséquence financière annoncée.",
+  "signal": "prudent",
+  "rationale": "Interruption d'un service de trading sans cause expliquée, mais brève et résolue.",
+  "sources": [
+   {
+    "label": "Statut Kraken, 30/10/2026",
+    "url": "https://status.kraken.com/"
+   },
+   {
+    "label": "crypto.news, 30/10/2026",
+    "url": "https://crypto.news/kraken-trading-outage-resolved/"
+   }
+  ],
+  "addedAt": "2026-10-30T06:17:47Z"
+ },
+ {
+  "id": "polymarket-2026-10-29-faille-debugbear",
+  "companyId": "polymarket",
+  "date": "2026-10-29",
+  "title": "Polymarket suspend ses échanges une heure après le piratage d'un prestataire tiers et rembourse les victimes",
+  "summary": "Un script malveillant hébergé chez un prestataire de suivi de performance web a vidé des portefeuilles d'utilisateurs de Polymarket.com. La plateforme a coupé les échanges environ une heure, puis les a rétablis.",
+  "detail": "Polymarket a indiqué qu'un de ses prestataires tiers avait été compromis. BleepingComputer, avec Hudson Rock, identifie DebugBear, dont le script était servi depuis son CDN, et DebugBear confirme un incident de sécurité. Environ 2,5 millions de dollars ont été retracés vers un portefeuille de l'attaquant, sans que Polymarket précise le montant volé ni le nombre de comptes touchés.\n\nLe mode annulation seule a été activé vers 14h05 (heure de New York), l'arrêt des échanges annoncé à 14h37, et l'incident déclaré résolu à 15h05. Polymarket dit avoir alerté les autorités et rembourser intégralement les traders touchés. Le problème concerne la plateforme internationale.",
+  "impact": "L'incident ébranle la confiance dans la sécurité de l'interface de Polymarket, mais la prise en charge des remboursements limite l'effet financier pour les utilisateurs.",
+  "signal": "prudent",
+  "rationale": "Une faille de chaîne d'approvisionnement avec fonds volés et arrêt des échanges est un risque opérationnel et de réputation, même si les victimes sont indemnisées.",
+  "sources": [
+   {
+    "label": "BleepingComputer, 29/10/2026",
+    "url": "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/"
+   }
+  ],
+  "addedAt": "2026-10-30T06:17:47Z"
+ },
+ {
+  "id": "mistral-ai-2026-10-29-large-4-poids-ouverts",
+  "companyId": "mistral-ai",
+  "date": "2026-10-29",
+  "title": "Mistral AI publie les poids ouverts de Mistral Large 4, son modèle de 1 000 milliards de paramètres",
+  "summary": "Mistral rend téléchargeable Mistral Large 4, surnommé Le Chonk, sur Hugging Face et via son API, en visant le code agentique et la cybersécurité.",
+  "detail": "Le modèle compte environ mille milliards de paramètres et avait été présenté début octobre. Selon TechCrunch, ses performances sont comparables à celles du modèle ouvert chinois GLM-5.3, avec 47 % de jetons en moins par tâche.\n\nMistral affirme qu'il devance les autres modèles ouverts sur le code agentique d'après l'indice Coding Agent d'Artificial Analysis. Entreprises et administrations peuvent le déployer sur leurs propres infrastructures. TechCrunch ne donne ni le nom de la licence ni de tarif.",
+  "impact": "L'ouverture des poids renforce l'argument de souveraineté de Mistral face aux modèles chinois et américains et élargit son audience chez les entreprises qui veulent héberger leurs modèles.",
+  "signal": "optimiste",
+  "rationale": "Un modèle phare ouvert, annoncé au niveau des meilleurs modèles ouverts selon la société, consolide la position technique de Mistral.",
+  "sources": [
+   {
+    "label": "TechCrunch, 29/10/2026",
+    "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/"
+   }
+  ],
+  "addedAt": "2026-10-30T06:17:47Z"
+ },
+ {
+  "id": "mistral-ai-2026-10-29-orange-cyberdefense",
+  "companyId": "mistral-ai",
+  "date": "2026-10-29",
+  "title": "Orange Cyberdefense rejoint le programme partenaire de Mistral Large 4 pour ses services de cybersécurité",
+  "summary": "Orange Cyberdefense devient le premier prestataire européen de sécurité managée du programme de design partners de Mistral Large 4.",
+  "detail": "Selon The Next Web, Orange Cyberdefense utilisera une version du modèle orientée cybersécurité pour les tests d'intrusion, les audits techniques, l'analyse de chemins d'attaque et l'investigation après incident, afin d'accélérer la réponse aux attaques.\n\nLes modèles tourneront sur des machines des centres de données européens de Mistral. Le déploiement vise d'abord les clients entreprises et le secteur public. Les conditions financières ne sont pas publiques.",
+  "impact": "Le partenariat donne à Mistral une référence de grand compte dans la cybersécurité, le domaine mis en avant pour Large 4.",
+  "signal": "optimiste",
+  "rationale": "Un acteur européen reconnu intègre le modèle dans des services commerciaux, ce qui valide son usage en production.",
+  "sources": [
+   {
+    "label": "The Next Web, 29/10/2026",
+    "url": "https://thenextweb.com/news/orange-cyberdefense-mistral-large-4-design-partner"
+   }
+  ],
+  "addedAt": "2026-10-30T06:17:47Z"
+ },
+ {
   "id": "kraken-2026-10-29-prop-matieres-premieres",
   "companyId": "kraken",
   "date": "2026-10-29",
