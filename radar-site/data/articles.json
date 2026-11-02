@@ -1,5 +1,85 @@
 [
  {
+  "id": "anthropic-2026-10-30-jeux-existants",
+  "companyId": "anthropic",
+  "date": "2026-10-30",
+  "title": "Anthropic confirme avoir orienté Claude Code pour qu'il ne recrée plus un jeu vidéo existant",
+  "summary": "Anthropic a mis à jour Opus 5.5 pour que Claude Code évite de reproduire le jeu précis d'un tiers. Les jeux originaux et les jeux de genre restent permis.",
+  "detail": "Selon Game Developer, la règle est apparue vers le 27 octobre dans Claude Code sous un identifiant interne. Elle interdit de construire la copie d'un jeu existant précis, même renommée ou présentée comme originale. Anthropic a confirmé la mise à jour, en expliquant que l'usage de Claude pour enfreindre la propriété intellectuelle contredit sa politique d'utilisation. L'entreprise dit qu'elle ajustera la règle pour trouver le bon équilibre.\n\nLe média relève que le dispositif freinera surtout les copieurs peu sophistiqués et que des modèles à poids ouverts sans ces restrictions restent disponibles.",
+  "impact": "Anthropic réduit son exposition juridique sur la propriété intellectuelle, au prix de frictions possibles pour des développeurs légitimes.",
+  "signal": "neutre",
+  "rationale": "Mesure de conformité ciblée, sans effet chiffré connu sur l'activité, avec un risque de frictions côté utilisateurs.",
+  "sources": [
+   {
+    "label": "Game Developer, 30/10/2026",
+    "url": "https://www.gamedeveloper.com/programming/anthropic-appears-to-have-ordered-ai-tool-claude-to-stop-remaking-video-games"
+   },
+   {
+    "label": "Crypto Briefing, 31/10/2026",
+    "url": "https://cryptobriefing.com/anthropic-claude-code-blocks-video-game-clones/"
+   }
+  ],
+  "addedAt": "2026-11-02T06:19:54Z"
+ },
+ {
+  "id": "anthropic-2026-10-30-extension-cursor-piratee",
+  "companyId": "anthropic",
+  "date": "2026-10-30",
+  "title": "Une fausse version de l'extension Claude Code, diffusée via la boutique de Cursor, a exposé jusqu'à 5 000 développeurs",
+  "summary": "Une version piégée de l'extension Claude Code est restée environ 11 heures sur la boutique d'extensions de Cursor. Elle installait une porte dérobée SSH.",
+  "detail": "Selon BleepingComputer, la version 2.1.313 était disponible le 29 octobre, de 2h27 à 13h35 heure du Pacifique. Un chargeur JavaScript malveillant ajouté au fichier principal collectait des informations système, ajoutait une clé SSH contrôlée par l'attaquant et assurait la persistance. Des erreurs de code ont empêché l'activation de SSH dans de nombreux cas.\n\nCursor a retiré l'extension, suspendu sa boutique, changé ses clés d'accès et fait couper le serveur de l'attaquant. Cursor indique qu'Anthropic n'a pas créé cette version et que la distribution officielle n'est pas touchée. Jusqu'à 5 000 développeurs sont concernés.",
+  "impact": "Le nom d'Anthropic est exploité dans une attaque de chaîne d'approvisionnement, ce qui expose l'entreprise à un risque de réputation sans que ses propres systèmes soient en cause.",
+  "signal": "neutre",
+  "rationale": "Les systèmes d'Anthropic ne sont pas compromis selon Cursor, mais l'incident touche un produit à forte diffusion chez les développeurs.",
+  "sources": [
+   {
+    "label": "BleepingComputer, 30/10/2026",
+    "url": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/"
+   },
+   {
+    "label": "YourStory, 30/10/2026",
+    "url": "https://yourstory.com/ai-story/cursor-warns-of-malicious-extension-affecting-up-to-5000-users"
+   }
+  ],
+  "addedAt": "2026-11-02T06:19:54Z"
+ },
+ {
+  "id": "anthropic-2026-10-30-blackstone-notation-junk",
+  "companyId": "anthropic",
+  "date": "2026-10-30",
+  "title": "Selon le FT, Blackstone prévient qu'Anthropic pourrait n'obtenir qu'une note spéculative après son introduction en Bourse",
+  "summary": "Blackstone aurait averti les investisseurs du financement de 63 milliards de dollars que la note d'Anthropic pourrait rester sous la catégorie investissement.",
+  "detail": "Le Financial Times rapporte que Blackstone, investisseur principal du financement des puces d'Anthropic, s'attend à une note de type double B, haut de la catégorie spéculative, après l'introduction en Bourse. Blackstone tablait auparavant sur une note investment grade d'ici la fin de l'année. Il s'agit d'une anticipation rapportée par la presse et non d'une décision d'agence de notation. Ni Anthropic ni Blackstone n'ont commenté, selon les reprises.",
+  "impact": "Une note spéculative réduirait le nombre d'investisseurs autorisés à financer Anthropic et pourrait renchérir sa dette, alors que ses engagements de calcul sont très élevés.",
+  "signal": "prudent",
+  "rationale": "Une note sous investment grade renchérirait le financement d'un plan d'investissement très lourd.",
+  "sources": [
+   {
+    "label": "Financial Times, repris par investinglive, 30/10/2026",
+    "url": "https://investinglive.com/stocks/anthropic-may-not-secure-investment-grade-rating-after-ipo-ft-reports/"
+   }
+  ],
+  "addedAt": "2026-11-02T06:19:54Z"
+ },
+ {
+  "id": "stripe-2026-10-30-onepay-bridge-usdc",
+  "companyId": "stripe",
+  "date": "2026-10-30",
+  "title": "OnePay, soutenu par Walmart, accepte les dépôts en USDC sur Bridge, la plateforme de Stripe",
+  "summary": "Des clients américains sélectionnés de OnePay peuvent déposer des USDC directement sur leur compte courant. Bridge, filiale de Stripe, gère la conversion et la conformité.",
+  "detail": "Selon Crypto Briefing, les clients génèrent une adresse de dépôt dans l'application, y envoient des USDC, qui sont convertis en dollars et crédités sur OnePay Checking. Aucun frais de conversion n'est appliqué au lancement. Les dépôts sont acceptés depuis 12 blockchains, dont Tempo, Base, Solana et Ethereum.\n\nBridge, plateforme de Stripe, réalise les contrôles de conformité, gère les adresses de dépôt et convertit les USDC.",
+  "impact": "Un client grand public adossé à Walmart utilise l'infrastructure de stablecoins de Stripe, ce qui étend l'usage de Bridge au-delà des paiements d'entreprises.",
+  "signal": "optimiste",
+  "rationale": "Un nouveau cas d'usage grand public pour l'infrastructure stablecoin de Stripe, avec un partenaire de grande taille.",
+  "sources": [
+   {
+    "label": "Crypto Briefing, 30/10/2026",
+    "url": "https://cryptobriefing.com/onepay-usdc-deposits-checking-accounts/"
+   }
+  ],
+  "addedAt": "2026-11-02T06:19:54Z"
+ },
+ {
   "id": "kraken-2026-10-30-panne-une-heure",
   "companyId": "kraken",
   "date": "2026-10-30",
@@ -45,7 +125,7 @@
   "date": "2026-10-29",
   "title": "Polymarket suspend ses échanges une heure après le piratage d'un prestataire tiers et rembourse les victimes",
   "summary": "Un script malveillant hébergé chez un prestataire de suivi de performance web a vidé des portefeuilles d'utilisateurs de Polymarket.com. La plateforme a coupé les échanges environ une heure, puis les a rétablis.",
-  "detail": "Polymarket a indiqué qu'un de ses prestataires tiers avait été compromis. BleepingComputer, avec Hudson Rock, identifie DebugBear, dont le script était servi depuis son CDN, et DebugBear confirme un incident de sécurité. Selon le Wall Street Journal repris par Newser, au moins 2,6 millions de dollars ont été retirés à plus de 700 portefeuilles. The Record cite plus de 2,1 millions de dollars tracés vers un seul compte. Polymarket ne précise pas officiellement le montant volé.\n\nLe mode annulation seule a été activé vers 14h05 (heure de New York), l'arrêt des échanges annoncé à 14h37, et l'incident déclaré résolu à 15h05. Polymarket dit avoir saisi les autorités (la justice britannique selon le WSJ) et rembourser intégralement les traders touchés. Selon Newser, les pertes inférieures à 10 000 dollars sont remboursées vendredi, les plus élevées exigent la signature d'un formulaire de décharge. Le problème concerne la plateforme internationale.",
+  "detail": "Polymarket a indiqué qu'un de ses prestataires tiers avait été compromis. BleepingComputer, avec Hudson Rock, identifie DebugBear, dont le script était servi depuis son CDN, et DebugBear confirme un incident de sécurité. Selon le Wall Street Journal repris par Newser, au moins 2,6 millions de dollars ont été retirés à plus de 700 portefeuilles. The Record cite plus de 2,1 millions de dollars tracés vers un seul compte. Polymarket ne précise pas officiellement le montant volé.\n\nLe mode annulation seule a été activé vers 14h05 (heure de New York), l'arrêt des échanges annoncé à 14h37, et l'incident déclaré résolu à 15h05. Polymarket dit avoir saisi les autorités (la justice britannique selon le WSJ) et rembourser intégralement les traders touchés. Selon Newser, les pertes inférieures à 10 000 dollars sont remboursées vendredi, les plus élevées exigent la signature d'un formulaire de décharge. Le problème concerne la plateforme internationale.\n\nSuite publiée le 30/10 par Bankless : Polymarket annonce 3,9 millions de dollars de remboursements. Les vols atteignent 2,7 millions de dollars sur 726 portefeuilles, et 1,19 million de dollars s'y ajoutent pour environ 5 500 portefeuilles touchés par la pause des échanges. Vendredi matin, 689 des 726 portefeuilles étaient remboursés. Des utilisateurs critiquent l'accord de décharge exigé des plus gros lésés.",
   "impact": "L'incident ébranle la confiance dans la sécurité de l'interface de Polymarket, mais la prise en charge des remboursements limite l'effet financier pour les utilisateurs.",
   "signal": "prudent",
   "rationale": "Une faille de chaîne d'approvisionnement avec fonds volés et arrêt des échanges est un risque opérationnel et de réputation, même si les victimes sont indemnisées.",
@@ -61,6 +141,10 @@
    {
     "label": "The Record, 30/10/2026",
     "url": "https://therecord.media/polymarket-confirms-cyberattack-third-party"
+   },
+   {
+    "label": "Bankless, 30/10/2026",
+    "url": "https://www.bankless.com/read/news/polymarket-sends-3-9m-back-to-traders-after-vendor-script-drain"
    }
   ],
   "addedAt": "2026-10-30T06:17:47Z"
