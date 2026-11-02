@@ -1,5 +1,23 @@
 [
  {
+  "id": "anthropic-2026-11-02-vente-japon-3-5-milliards",
+  "companyId": "anthropic",
+  "date": "2026-11-02",
+  "title": "Anthropic prévoit de vendre jusqu'à 3,5 milliards de dollars d'actions à des investisseurs japonais lors de son introduction en Bourse",
+  "summary": "Selon Reuters, un dépôt réglementaire montre qu'Anthropic compte placer au Japon jusqu'à 552,9 milliards de yens d'actions, soit environ 3,5 milliards de dollars, dans le cadre de son introduction en Bourse américaine.",
+  "detail": "Les nouvelles actions proposées aux investisseurs japonais serviront à financer le fonds de roulement, les dépenses d'exploitation et les investissements. Le dépôt ne précise ni la taille totale de l'opération ni la valorisation, et aucune date d'introduction n'est indiquée. Reuters rappelle que les investisseurs japonais avaient obtenu 2,2 milliards de dollars d'actions sur les 75 milliards levés lors de l'introduction de SpaceX en juin, et que certains investisseurs évoquent une valorisation d'environ 1 500 milliards de dollars pour Anthropic.",
+  "impact": "Une tranche dédiée au Japon élargit la base d'investisseurs de l'introduction en Bourse et montre l'importance du marché japonais pour Anthropic.",
+  "signal": "optimiste",
+  "rationale": "Un placement de 3,5 milliards de dollars auprès d'investisseurs japonais témoigne d'une demande internationale attendue pour l'opération.",
+  "sources": [
+   {
+    "label": "Reuters via KFGO, 02/11/2026",
+    "url": "https://kfgo.com/2026/11/02/anthropic-plans-to-sell-3-5-billion-of-shares-to-japan-investors-in-ipo-filing-shows/"
+   }
+  ],
+  "addedAt": "2026-11-02T12:25:06Z"
+ },
+ {
   "id": "anthropic-2026-10-30-jeux-existants",
   "companyId": "anthropic",
   "date": "2026-10-30",
