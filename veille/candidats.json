@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-02T13:39:58Z",
+ "generatedAt": "2026-11-03T01:47:26Z",
  "windowHours": 48,
- "headlinesRead": 581,
- "count": 28,
+ "headlinesRead": 779,
+ "count": 29,
  "priorityCount": 6,
  "companies": [
   {
@@ -39,14 +39,14 @@
    ]
   },
   {
-   "companyId": "neura-robotics",
-   "name": "Neura Robotics",
+   "companyId": "erebor",
+   "name": "Erebor Bank",
    "candidates": [
     {
-     "date": "2026-11-01 01:23",
-     "media": "Softonic",
-     "title": "Neura opens a ‘robogym’ for humanoid robots: training for real-world work",
-     "site": "https://en.softonic.com",
+     "date": "2026-11-02 16:03",
+     "media": "OneBullEx",
+     "title": "SBI Commits $100 Million To Erebor For US Blockchain Settlement Expansion",
+     "site": "https://www.onebullex.com",
      "overlap": 0,
      "reprises": 0,
      "priority": false
@@ -63,7 +63,7 @@
      "title": "Hyperliquid Nears $1B Revenue; Stripe Bought Bridge [2026]",
      "site": "https://shattered.io",
      "overlap": 0.33,
-     "reprises": 5,
+     "reprises": 2,
      "priority": true
     },
     {
@@ -76,20 +76,20 @@
      "priority": true
     },
     {
-     "date": "2026-10-31 22:23",
-     "media": "FourWeekMBA",
-     "title": "Stripe CEO Lets Users Rewrite His Apps: 150 Changes in Days",
-     "site": "https://fourweekmba.com",
-     "overlap": 0.0,
-     "reprises": 1,
-     "priority": false
-    },
-    {
      "date": "2026-11-02 09:50",
      "media": "The Paypers",
      "title": "ServiceNow launches AI governance alliance with Stripe and OpenAI",
      "site": "https://thepaypers.com",
-     "overlap": 0.2,
+     "overlap": 0.0,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-11-02 10:21",
+     "media": "IBS Intelligence",
+     "title": "Stripe launches Stripe Pay for B2B transfers in USD, GBP and USDC",
+     "site": "https://ibsintelligence.com",
+     "overlap": 0.14,
      "reprises": 0,
      "priority": false
     }
@@ -99,15 +99,6 @@
    "companyId": "starcloud",
    "name": "Starcloud",
    "candidates": [
-    {
-     "date": "2026-10-31 15:25",
-     "media": "finance.biggo.com",
-     "title": "Nvidia GPUs in Orbit: Inside Starcloud’s $2B Factory｜Sourcery",
-     "site": "https://finance.biggo.com",
-     "overlap": 0,
-     "reprises": 2,
-     "priority": false
-    },
     {
      "date": "2026-11-02 01:12",
      "media": "www.tokenpost.com",
@@ -148,11 +139,11 @@
      "priority": true
     },
     {
-     "date": "2026-10-31 18:29",
-     "media": "CryptoTicker.io",
-     "title": "Buy Kaspa: KAS at Bitvavo, Kraken and Bitpanda",
-     "site": "https://cryptoticker.io",
-     "overlap": 0.0,
+     "date": "2026-11-02 16:51",
+     "media": "Blockchain News",
+     "title": "BitMNR: Tom Lee Buys 5,000 ETH via Kraken",
+     "site": "https://blockchain.news",
+     "overlap": 0.14,
      "reprises": 0,
      "priority": true
     },
@@ -163,15 +154,6 @@
      "site": "https://www.ad-hoc-news.de",
      "overlap": 0.22,
      "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-10-31 23:29",
-     "media": "CryptoRank",
-     "title": "Kraken's xStocks Passes $1 Billion in Assets as Tokenized Equities Expand Globally",
-     "site": "https://cryptorank.io",
-     "overlap": 0.12,
-     "reprises": 0,
      "priority": false
     },
     {
@@ -199,11 +181,47 @@
    "name": "Polymarket",
    "candidates": [
     {
+     "date": "2026-11-02 22:32",
+     "media": "Star-Gazette",
+     "title": "Polymarket Sign-Up Bonus Code SBWIRE Deposit $10, Get $25 for November",
+     "site": "https://www.stargazette.com",
+     "overlap": 0.14,
+     "reprises": 3,
+     "priority": false
+    },
+    {
+     "date": "2026-11-02 15:59",
+     "media": "CoinMarketCap",
+     "title": "Prediction Markets News: Kalshi, Polymarket Push Multi-Billion Raise as Legal Pressure Escalates",
+     "site": "https://coinmarketcap.com",
+     "overlap": 0.36,
+     "reprises": 1,
+     "priority": false
+    },
+    {
      "date": "2026-11-01 23:41",
      "media": "WBFF",
      "title": "SUN: Kalshi, Polymarket users trade $1.1M on Maryland elections, despite betting ban",
      "site": "https://foxbaltimore.com",
      "overlap": 0.22,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-11-02 02:54",
+     "media": "OregonLive.com",
+     "title": "Polymarket launches new $25 referral code “OREGON” for Eagles-Commanders live NFL odds",
+     "site": "https://www.oregonlive.com",
+     "overlap": 0.0,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-11-02 22:15",
+     "media": "SILive.com",
+     "title": "Polymarket promo code “SILIVE” launches new $25 bonus for Bears-Seahawks game tonight in CA, FL and TX",
+     "site": "https://www.silive.com",
+     "overlap": 0.0,
      "reprises": 0,
      "priority": false
     }
@@ -214,66 +232,66 @@
    "name": "Anthropic",
    "candidates": [
     {
-     "date": "2026-11-02 02:30",
-     "media": "The Motley Fool",
-     "title": "Forget Anthropic, This Is the Best AI Investment to Buy and Hold",
-     "site": "https://www.fool.com",
-     "overlap": 0.17,
+     "date": "2026-11-03 01:34",
+     "media": "PYMNTS.com",
+     "title": "Anthropic Buys One-Person Biotech to Prove Claude Can Make Drugs",
+     "site": "https://www.pymnts.com",
+     "overlap": 0.11,
      "reprises": 0,
      "priority": true
     },
     {
-     "date": "2026-11-02 05:01",
-     "media": "The Daily Upside",
-     "title": "Broadcom Emerges as Anthropic IPO’s Big Winner",
-     "site": "https://www.thedailyupside.com",
-     "overlap": 0.2,
+     "date": "2026-11-02 15:58",
+     "media": "Fortune",
+     "title": "Anthropic’s growth slowed and costs jumped in the third quarter, updated IPO filing shows",
+     "site": "https://fortune.com",
+     "overlap": 0.3,
+     "reprises": 3,
+     "priority": false
+    },
+    {
+     "date": "2026-11-02 19:33",
+     "media": "Pèse sur start",
+     "title": "Anthropic a réalisé un chiffre d'affaires de 17 milliards de dollars au troisième trimestre",
+     "site": "https://www.pesesurstart.com",
+     "overlap": 0.29,
+     "reprises": 3,
+     "priority": false
+    },
+    {
+     "date": "2026-11-02 23:19",
+     "media": "SiliconANGLE",
+     "title": "Anthropic’s quarterly revenue jumps to $17B, losses grow ahead of IPO",
+     "site": "https://siliconangle.com",
+     "overlap": 0.25,
+     "reprises": 3,
+     "priority": false
+    },
+    {
+     "date": "2026-11-02 23:40",
+     "media": "Yahoo Finance",
+     "title": "Anthropic Just Released Updated Numbers Ahead of Its Nov. IPO. Revenue Growth Slowed Sharply.",
+     "site": "https://finance.yahoo.com",
+     "overlap": 0.18,
      "reprises": 2,
      "priority": false
     },
     {
-     "date": "2026-11-01 14:15",
-     "media": "Fortune",
-     "title": "Anthropic’s $2T IPO could create millionaires—but it’s asking candidates what they’d do if stock hit zero",
-     "site": "https://fortune.com",
-     "overlap": 0.25,
+     "date": "2026-11-03 00:56",
+     "media": "Firstpost",
+     "title": "Anthropic's revenue growth slows as $900 billion computing commitments expose new risks",
+     "site": "https://www.firstpost.com",
+     "overlap": 0.33,
+     "reprises": 2,
+     "priority": false
+    },
+    {
+     "date": "2026-11-02 08:27",
+     "media": "Vietnam.vn",
+     "title": "Claude se lance dans le domaine juridique ; quelles carrières vise l’IA ?",
+     "site": "https://www.vietnam.vn",
+     "overlap": 0.29,
      "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-11-02 08:59",
-     "media": "The Times of India",
-     "title": "As IPO nears, Claude-maker Anthropic is set to make hundreds of employees millionaires; and it is worryin",
-     "site": "https://timesofindia.indiatimes.com",
-     "overlap": 0.2,
-     "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-11-02 09:07",
-     "media": "Business Insider",
-     "title": "Anthropic's IPO Is Also a Landmark Event for Ants",
-     "site": "https://www.businessinsider.com",
-     "overlap": 0.2,
-     "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-10-31 16:28",
-     "media": "Yahoo Finance",
-     "title": "Anthropic IPO: 1,300% Growth, $16.3 Billion in Revenue, and an $80.7 Billion Loss. Here Are the Numbers to Watch.",
-     "site": "https://finance.yahoo.com",
-     "overlap": 0.2,
-     "reprises": 0,
-     "priority": false
-    },
-    {
-     "date": "2026-10-31 17:41",
-     "media": "Martin Cid Magazine",
-     "title": "Elon Musk Answers Vegetarian AI CEOs OpenAI CEO Sam Altman, Alphabet CEO Sundar Pichai and Anthropic CEO Dario Amodei With Steak and Eggs",
-     "site": "https://www.martincid.com",
-     "overlap": 0.12,
-     "reprises": 0,
      "priority": false
     }
    ]
@@ -283,7 +301,7 @@
    "name": "Perplexity",
    "candidates": [
     {
-     "date": "2026-11-01 10:50",
+     "date": "2026-11-01 17:15",
      "media": "آي-فون إسلام",
      "title": "Perplexity launches health platform with Apple Health… Your smart doctor now knows you well!",
      "site": "https://iphoneislam.com",
@@ -298,21 +316,6 @@
      "site": "https://www.ad-hoc-news.de",
      "overlap": 0,
      "reprises": 1,
-     "priority": false
-    }
-   ]
-  },
-  {
-   "companyId": "crusoe",
-   "name": "Crusoe",
-   "candidates": [
-    {
-     "date": "2026-10-31 17:11",
-     "media": "Stocktwits",
-     "title": "AMD Mirrors Nvidia Strategy With $300M Crusoe Backstop Deal: Report",
-     "site": "https://stocktwits.com",
-     "overlap": 0,
-     "reprises": 3,
      "priority": false
     }
    ]
