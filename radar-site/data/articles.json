@@ -1,5 +1,93 @@
 [
  {
+  "id": "erebor-2026-11-02-sbi-100-millions",
+  "companyId": "erebor",
+  "date": "2026-11-02",
+  "title": "Le japonais SBI Holdings prévoit d'investir 100 millions de dollars dans Erebor Bank",
+  "summary": "SBI Holdings annonce un investissement prévu de 100 millions de dollars dans Erebor Bank, la banque numérique américaine cofondée par Palmer Luckey.",
+  "detail": "Selon le Nikkei, le groupe financier japonais passerait par une filiale aux États-Unis. Il dit vouloir acquérir une expertise en banque numérique et étudier des règlements sur blockchain. SBI indique aussi qu'il explorera une collaboration large avec Erebor.\n\nLe projet est annoncé, pas finalisé, et le Nikkei ne précise pas la part du capital visée. Ledger Insights rappelle qu'Erebor a ouvert en février 2026 et que ses dépôts de banques étrangères restaient limités à 36 millions de dollars en septembre.",
+  "impact": "Erebor gagne un investisseur stratégique actif dans les stablecoins, qui peut devenir client pour ses services de paiement en dollars.",
+  "signal": "optimiste",
+  "rationale": "Un investisseur financier majeur s'engage et ouvre une piste commerciale à l'international, même si l'opération n'est pas encore bouclée.",
+  "sources": [
+   {
+    "label": "Nikkei Asia, 3 novembre 2026",
+    "url": "https://asia.nikkei.com/Business/Finance/Japan-s-SBI-to-invest-in-US-digital-bank-Erebor-eyeing-blockchain-settlements"
+   },
+   {
+    "label": "Ledger Insights, 2 novembre 2026",
+    "url": "https://www.ledgerinsights.com/sbi-invests-100m-in-erebor-the-thiel-backed-stablecoin-bank/"
+   }
+  ],
+  "addedAt": "2026-11-03T06:11:41Z"
+ },
+ {
+  "id": "anthropic-2026-11-02-s1-maj-t3",
+  "companyId": "anthropic",
+  "date": "2026-11-02",
+  "title": "Le dossier d'introduction d'Anthropic mis à jour : 17 milliards de dollars de revenu au T3, 895 milliards d'engagements",
+  "summary": "Le dossier révisé montre un revenu d'environ 17 milliards de dollars au troisième trimestre, une perte opérationnelle de 567 millions et des engagements de dépenses d'environ 895 milliards.",
+  "detail": "Selon l'AFP reprise par Tech Xplore, le revenu trimestriel a progressé de plus de 1 100 % sur un an, mais la croissance ralentit. La perte nette atteint 23,3 milliards de dollars, surtout à cause de charges comptables sans sortie de trésorerie liées à la hausse de valorisation. La perte opérationnelle de 567 millions vient de capacités de calcul achetées plus cher à court terme.\n\nLes engagements de dépenses, principalement du calcul, s'élèvent à environ 895 milliards de dollars, dont 70 milliards échus avant septembre 2027. L'entreprise viserait environ 100 milliards de dollars levés pour une valorisation de 1 500 à 2 000 milliards.",
+  "impact": "Les chiffres audités donnent aux investisseurs une base pour fixer le prix de l'introduction, au moment où ils jugent la croissance en ralentissement.",
+  "signal": "neutre",
+  "rationale": "Revenu très élevé mais perte opérationnelle et engagements de calcul considérables, avec une croissance qui ralentit.",
+  "sources": [
+   {
+    "label": "Tech Xplore (AFP), 2 novembre 2026",
+    "url": "https://techxplore.com/news/2026-11-anthropic-revenue-surged-ipo.html"
+   },
+   {
+    "label": "Indian Television, 3 novembre 2026",
+    "url": "https://indiantelevision.com"
+   }
+  ],
+  "addedAt": "2026-11-03T06:11:41Z"
+ },
+ {
+  "id": "anthropic-2026-11-02-flashprove",
+  "companyId": "anthropic",
+  "date": "2026-11-02",
+  "title": "Anthropic publie FlashProve, un prototype de preuve cryptographique d'inférence",
+  "summary": "Anthropic présente FlashProve, un prototype open source qui prouve par zkSNARK qu'une réponse vient bien d'un modèle précis.",
+  "detail": "Le système cible Llama 4 Maverick, un modèle de 400 milliards de paramètres en 4 bits. Les poids restent cachés, mais pas l'architecture. Générer la preuve coûte 70 à 95 fois le temps GPU de l'exécution du modèle, avec environ 19 Mo par requête de 1 024 tokens et 17 secondes de vérification sur CPU.\n\nIl s'agit d'un travail de recherche, pas d'un produit commercial.",
+  "impact": "Une preuve vérifiable de l'origine des réponses pourrait servir aux usages où la confiance dans le modèle utilisé est exigée, mais le surcoût reste très élevé.",
+  "signal": "neutre",
+  "rationale": "Avancée technique intéressante, limitée par un coût de calcul de 70 à 95 fois supérieur.",
+  "sources": [
+   {
+    "label": "Anthropic, novembre 2026",
+    "url": "https://www.anthropic.com/research/provable-inference"
+   },
+   {
+    "label": "Unite.AI, 2 novembre 2026",
+    "url": "https://www.unite.ai"
+   }
+  ],
+  "addedAt": "2026-11-03T06:11:41Z"
+ },
+ {
+  "id": "anthropic-2026-11-02-fils-de-messages-beta",
+  "companyId": "anthropic",
+  "date": "2026-11-02",
+  "title": "Anthropic lance en bêta les fils de messages dans l'API Messages",
+  "summary": "Les applications n'envoient plus que les nouveaux messages après la première requête, ce qui réduit la latence des agents.",
+  "detail": "Selon Unite.AI, le délai médian avant le premier jeton baisse d'environ 35 % pour des requêtes de 500 000 à 1 million de tokens. Les fils sont activés par défaut pour la plupart des utilisateurs de Claude Code. La consommation de tokens, les tarifs et les limites de débit ne changent pas.\n\nLes fils expirent cinq minutes après la dernière requête, et ne sont pas éligibles à la rétention zéro ni à HIPAA.",
+  "impact": "Les agents de programmation et d'usage d'ordinateur de longue durée répondent plus vite sans coût supplémentaire.",
+  "signal": "optimiste",
+  "rationale": "Gain de latence mesuré, sans hausse de prix, pour les usages d'agents.",
+  "sources": [
+   {
+    "label": "Unite.AI, 2 novembre 2026",
+    "url": "https://www.unite.ai/anthropic-launches-message-threads-beta-for-long-running-agents/"
+   },
+   {
+    "label": "The Next Web, 2 novembre 2026",
+    "url": "https://thenextweb.com"
+   }
+  ],
+  "addedAt": "2026-11-03T06:11:41Z"
+ },
+ {
   "id": "anthropic-2026-11-02-vente-japon-3-5-milliards",
   "companyId": "anthropic",
   "date": "2026-11-02",
