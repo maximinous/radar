@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-11-03T01:47:26Z",
+ "generatedAt": "2026-11-03T12:53:12Z",
  "windowHours": 48,
- "headlinesRead": 779,
- "count": 29,
- "priorityCount": 6,
+ "headlinesRead": 853,
+ "count": 36,
+ "priorityCount": 7,
  "companies": [
   {
    "companyId": "mistral-ai",
@@ -19,15 +19,6 @@
      "priority": false
     },
     {
-     "date": "2026-11-01 11:20",
-     "media": "EmarketerZ",
-     "title": "Partenariat entre le ministère des Armées et Mistral AI : quels impacts sur la défense française ?",
-     "site": "https://www.emarketerz.fr",
-     "overlap": 0.25,
-     "reprises": 0,
-     "priority": false
-    },
-    {
      "date": "2026-11-02 06:25",
      "media": "Menow",
      "title": "Mistral ouvre les poids de Large 4 : ce que cela change, et la condition à connaître",
@@ -35,19 +26,31 @@
      "overlap": 0.29,
      "reprises": 0,
      "priority": false
-    }
-   ]
-  },
-  {
-   "companyId": "erebor",
-   "name": "Erebor Bank",
-   "candidates": [
+    },
     {
-     "date": "2026-11-02 16:03",
-     "media": "OneBullEx",
-     "title": "SBI Commits $100 Million To Erebor For US Blockchain Settlement Expansion",
-     "site": "https://www.onebullex.com",
-     "overlap": 0,
+     "date": "2026-11-02 18:36",
+     "media": "POLITICO.eu",
+     "title": "Mistral CEO: Europe faces ‘complete trap’ without frontier AI",
+     "site": "https://www.politico.eu",
+     "overlap": 0.14,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-11-03 09:33",
+     "media": "qz.com",
+     "title": "Mistral launches open-weight AI model ML4 to rival top systems",
+     "site": "https://qz.com",
+     "overlap": 0.25,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-11-03 10:05",
+     "media": "Les Echos",
+     "title": "Partenariat entre Mistral AI et le CERN : l'IA à la rescousse de la physique des particules",
+     "site": "https://www.lesechos.fr",
+     "overlap": 0.33,
      "reprises": 0,
      "priority": false
     }
@@ -58,7 +61,7 @@
    "name": "Stripe",
    "candidates": [
     {
-     "date": "2026-11-02 12:49",
+     "date": "2026-11-02 12:51",
      "media": "shattered.io",
      "title": "Hyperliquid Nears $1B Revenue; Stripe Bought Bridge [2026]",
      "site": "https://shattered.io",
@@ -120,8 +123,26 @@
      "title": "Lovable Investor Creandum Raises $750M, Up 34% on Last Fund",
      "site": "https://fourweekmba.com",
      "overlap": 0.17,
-     "reprises": 2,
+     "reprises": 3,
      "priority": true
+    },
+    {
+     "date": "2026-11-03 05:00",
+     "media": "CNBC",
+     "title": "Lovable CEO says AI is collapsing barriers to starting a business",
+     "site": "https://www.cnbc.com",
+     "overlap": 0.17,
+     "reprises": 1,
+     "priority": false
+    },
+    {
+     "date": "2026-11-03 10:45",
+     "media": "Tech.eu",
+     "title": "Ex-Phoenix Court partner launches $17M debut solo fund to discover next Lovable",
+     "site": "https://tech.eu",
+     "overlap": 0.2,
+     "reprises": 0,
+     "priority": false
     }
    ]
   },
@@ -148,13 +169,13 @@
      "priority": true
     },
     {
-     "date": "2026-11-02 12:05",
-     "media": "ad-hoc-news.de",
-     "title": "Wells Fargo stock weighs potential Payward crypto liquidity deal",
-     "site": "https://www.ad-hoc-news.de",
-     "overlap": 0.22,
-     "reprises": 1,
-     "priority": false
+     "date": "2026-11-02 23:53",
+     "media": "www.tokenpost.com",
+     "title": "BitMine Buys 5,000 Ether (ETH) From Kraken in a Deal Valued at About $11.37 Million",
+     "site": "https://www.tokenpost.com",
+     "overlap": 0.11,
+     "reprises": 0,
+     "priority": true
     },
     {
      "date": "2026-11-01 14:30",
@@ -173,6 +194,24 @@
      "overlap": 0.0,
      "reprises": 0,
      "priority": false
+    },
+    {
+     "date": "2026-11-02 12:05",
+     "media": "ad-hoc-news.de",
+     "title": "Wells Fargo stock weighs potential Payward crypto liquidity deal",
+     "site": "https://www.ad-hoc-news.de",
+     "overlap": 0.22,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-11-03 05:43",
+     "media": "Pluang",
+     "title": "Crypto options trading launches in Germany via Kraken Pro with MiFID licence and strict assessments.",
+     "site": "https://pluang.com",
+     "overlap": 0.27,
+     "reprises": 0,
+     "priority": false
     }
    ]
   },
@@ -181,48 +220,63 @@
    "name": "Polymarket",
    "candidates": [
     {
-     "date": "2026-11-02 22:32",
-     "media": "Star-Gazette",
-     "title": "Polymarket Sign-Up Bonus Code SBWIRE Deposit $10, Get $25 for November",
-     "site": "https://www.stargazette.com",
-     "overlap": 0.14,
-     "reprises": 3,
-     "priority": false
-    },
-    {
-     "date": "2026-11-02 15:59",
+     "date": "2026-11-02 01:09",
      "media": "CoinMarketCap",
      "title": "Prediction Markets News: Kalshi, Polymarket Push Multi-Billion Raise as Legal Pressure Escalates",
      "site": "https://coinmarketcap.com",
      "overlap": 0.36,
-     "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-11-01 23:41",
-     "media": "WBFF",
-     "title": "SUN: Kalshi, Polymarket users trade $1.1M on Maryland elections, despite betting ban",
-     "site": "https://foxbaltimore.com",
-     "overlap": 0.22,
      "reprises": 0,
      "priority": false
     },
     {
-     "date": "2026-11-02 02:54",
-     "media": "OregonLive.com",
-     "title": "Polymarket launches new $25 referral code “OREGON” for Eagles-Commanders live NFL odds",
-     "site": "https://www.oregonlive.com",
-     "overlap": 0.0,
+     "date": "2026-11-02 22:32",
+     "media": "Tallahassee Democrat",
+     "title": "Polymarket Sign-Up Bonus Code SBWIRE Deposit $10, Get $25 for November",
+     "site": "https://www.tallahassee.com",
+     "overlap": 0.14,
      "reprises": 0,
      "priority": false
     },
     {
-     "date": "2026-11-02 22:15",
+     "date": "2026-11-02 22:39",
+     "media": "Financial Regulation News",
+     "title": "Sens. Warren, Curtis probe Kalshi and Polymarket on election-related prediction markets",
+     "site": "https://financialregnews.com",
+     "overlap": 0.33,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-11-03 02:10",
      "media": "SILive.com",
-     "title": "Polymarket promo code “SILIVE” launches new $25 bonus for Bears-Seahawks game tonight in CA, FL and TX",
+     "title": "NFL Polymarket promo code “SILIVE” extends $25 Bears-Seahawks deal",
      "site": "https://www.silive.com",
      "overlap": 0.0,
      "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-11-03 08:36",
+     "media": "FinanceFeeds",
+     "title": "Polymarket Launches 24/7 Anthropic Perpetual Futures Trading With Up to 10x Leverage",
+     "site": "https://financefeeds.com",
+     "overlap": 0.14,
+     "reprises": 0,
+     "priority": false
+    }
+   ]
+  },
+  {
+   "companyId": "shield-ai",
+   "name": "Shield AI",
+   "candidates": [
+    {
+     "date": "2026-11-03 12:08",
+     "media": "Bloomberg",
+     "title": "Shield AI CEO Says Planning At Least $1 Billion Raise, More M&A",
+     "site": "https://www.bloomberg.com",
+     "overlap": 0.0,
+     "reprises": 1,
      "priority": false
     }
    ]
@@ -232,7 +286,7 @@
    "name": "Anthropic",
    "candidates": [
     {
-     "date": "2026-11-03 01:34",
+     "date": "2026-11-03 01:45",
      "media": "PYMNTS.com",
      "title": "Anthropic Buys One-Person Biotech to Prove Claude Can Make Drugs",
      "site": "https://www.pymnts.com",
@@ -241,47 +295,47 @@
      "priority": true
     },
     {
-     "date": "2026-11-02 15:58",
-     "media": "Fortune",
-     "title": "Anthropic’s growth slowed and costs jumped in the third quarter, updated IPO filing shows",
-     "site": "https://fortune.com",
-     "overlap": 0.3,
-     "reprises": 3,
-     "priority": false
-    },
-    {
-     "date": "2026-11-02 19:33",
-     "media": "Pèse sur start",
-     "title": "Anthropic a réalisé un chiffre d'affaires de 17 milliards de dollars au troisième trimestre",
-     "site": "https://www.pesesurstart.com",
-     "overlap": 0.29,
-     "reprises": 3,
-     "priority": false
-    },
-    {
-     "date": "2026-11-02 23:19",
-     "media": "SiliconANGLE",
-     "title": "Anthropic’s quarterly revenue jumps to $17B, losses grow ahead of IPO",
-     "site": "https://siliconangle.com",
+     "date": "2026-11-03 09:30",
+     "media": "Ecran Mobile",
+     "title": "Anthropic : prospectus IPO amendé, 33,2 Md$ sur 9 mois",
+     "site": "https://www.ecranmobile.fr",
      "overlap": 0.25,
+     "reprises": 7,
+     "priority": false
+    },
+    {
+     "date": "2026-11-03 00:47",
+     "media": "HIT Consultant",
+     "title": "athenahealth Launches athenaPatient MCP to Bridge Official Patient Records into Anthropic’s Claude",
+     "site": "https://hitconsultant.net",
+     "overlap": 0.22,
+     "reprises": 4,
+     "priority": false
+    },
+    {
+     "date": "2026-11-03 09:12",
+     "media": "Türkiye Today",
+     "title": "Anthropic reports $17 billion in quarterly revenue, up 12-fold",
+     "site": "https://www.turkiyetoday.com",
+     "overlap": 0.2,
      "reprises": 3,
      "priority": false
     },
     {
-     "date": "2026-11-02 23:40",
-     "media": "Yahoo Finance",
-     "title": "Anthropic Just Released Updated Numbers Ahead of Its Nov. IPO. Revenue Growth Slowed Sharply.",
-     "site": "https://finance.yahoo.com",
-     "overlap": 0.18,
-     "reprises": 2,
+     "date": "2026-11-03 10:53",
+     "media": "Clubic",
+     "title": "Avant son entrée en Bourse, le créateur de Claude lance une mise en garde troublante sur l'IA",
+     "site": "https://www.clubic.com",
+     "overlap": 0.33,
+     "reprises": 3,
      "priority": false
     },
     {
-     "date": "2026-11-03 00:56",
-     "media": "Firstpost",
-     "title": "Anthropic's revenue growth slows as $900 billion computing commitments expose new risks",
-     "site": "https://www.firstpost.com",
-     "overlap": 0.33,
+     "date": "2026-11-03 05:41",
+     "media": "Seeking Alpha",
+     "title": "Anthropic investors urge caution on IPO pricing, target $1.5T-$1.6T valuation - WSJ",
+     "site": "https://seekingalpha.com",
+     "overlap": 0.25,
      "reprises": 2,
      "priority": false
     },
@@ -316,6 +370,15 @@
      "site": "https://www.ad-hoc-news.de",
      "overlap": 0,
      "reprises": 1,
+     "priority": false
+    },
+    {
+     "date": "2026-11-02 09:10",
+     "media": "NeoTeo",
+     "title": "IREN a annoncé un accord d’accès à Blackwell Ultra pour Perplexity Computer",
+     "site": "https://www.neoteo.com",
+     "overlap": 0,
+     "reprises": 0,
      "priority": false
     }
    ]
