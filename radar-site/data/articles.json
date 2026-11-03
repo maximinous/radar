@@ -1,5 +1,53 @@
 [
  {
+  "id": "lovable-2026-11-03-crowdstrike-falcon-shield",
+  "companyId": "lovable",
+  "date": "2026-11-03",
+  "title": "CrowdStrike intègre les espaces de travail Lovable à Falcon Shield",
+  "summary": "CrowdStrike et Lovable annoncent une intégration qui permet aux équipes de sécurité de repérer les applications créées avec Lovable et leurs risques depuis Falcon Shield.",
+  "detail": "L'intégration remonte dans l'inventaire SaaS de Falcon Shield les membres des espaces de travail, les propriétaires de projets et les applications publiées. Elle signale les applications accessibles publiquement, les projets contenant des secrets, les analyses de sécurité absentes ou anciennes, les collaborateurs externes et les connexions à des services tiers.\n\nElle s'appuie sur les données de l'espace de travail et sur les résultats du Lovable Security Center. Igor Andriushchenko, responsable de la sécurité chez Lovable, indique qu'elle étend la visibilité de sécurité à cette nouvelle génération d'applications. L'annonce a été faite le 3 novembre 2026.",
+  "impact": "Répond à une objection fréquente des grands comptes sur la sécurité des applications générées par IA, et facilite l'adoption de Lovable en entreprise.",
+  "signal": "optimiste",
+  "rationale": "Un éditeur de sécurité majeur outille l'usage de Lovable en entreprise, ce qui lève un frein à l'adoption.",
+  "sources": [
+   {
+    "label": "CrowdStrike, communiqué, 03/11/2026",
+    "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-and-lovable-secure-next-generation-ai-built"
+   },
+   {
+    "label": "Investing News (reprise du communiqué), 03/11/2026",
+    "url": "https://investingnews.com/crowdstrike-and-lovable-secure-the-next-generation-of-ai-built-applications/"
+   },
+   {
+    "label": "Börsvärlden, 03/11/2026",
+    "url": "https://borsvarlden.com/artiklar/crowdstrike-och-lovable-inleder-samarbete-kring-sakerhet-for-ai-utvecklade-appar"
+   }
+  ],
+  "addedAt": "2026-11-03T12:14:37Z"
+ },
+ {
+  "id": "kraken-2026-11-03-eurcv-societe-generale",
+  "companyId": "kraken",
+  "date": "2026-11-03",
+  "title": "Kraken référence l'EURCV, le stablecoin euro de Société Générale",
+  "summary": "Kraken ajoute l'EURCV, émis par SG-FORGE, filiale de Société Générale. La banque y assurera elle-même la liquidité en tant que teneur de marché.",
+  "detail": "Selon les partenaires, c'est le premier stablecoin en euros d'une filiale de grande banque européenne proposé sur Kraken. Société Générale affichera en continu des prix d'achat et de vente. L'EURCV, lancé en 2023, pèse environ 194 millions de dollars de capitalisation.\n\nUne utilisation comme garantie sur les produits dérivés de Kraken, y compris avec effet de levier, est prévue ensuite. Le jeton est déjà disponible sur Bitvavo.",
+  "impact": "Renforce l'offre en euros de Kraken et son positionnement réglementé en Europe, avec une grande banque comme contrepartie de liquidité.",
+  "signal": "optimiste",
+  "rationale": "Un partenariat avec une grande banque européenne élargit l'offre et la liquidité en euros.",
+  "sources": [
+   {
+    "label": "Boursorama, 03/11/2026",
+    "url": "https://www.boursorama.com/bourse/actualites/kraken-accueille-l-eurcv-le-stablecoin-euro-de-societe-generale-9b7dbce17a37b1afe1a9eb1839e25412"
+   },
+   {
+    "label": "Cryptoast, 03/11/2026",
+    "url": "https://cryptoast.fr/stablecoin-euro-eurcv-societe-generale-kraken/"
+   }
+  ],
+  "addedAt": "2026-11-03T12:14:37Z"
+ },
+ {
   "id": "erebor-2026-11-02-sbi-100-millions",
   "companyId": "erebor",
   "date": "2026-11-02",
