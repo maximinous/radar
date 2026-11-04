@@ -1,5 +1,71 @@
 [
  {
+  "id": "shield-ai-2026-11-03-levee-1-milliard-x-bat",
+  "companyId": "shield-ai",
+  "date": "2026-11-03",
+  "title": "Shield AI prévoit de lever plus d'un milliard de dollars pour produire le X-BAT",
+  "summary": "Le PDG Gary Steele annonce à Bloomberg que Shield AI va lever au moins 1 milliard de dollars, probablement début 2027, pour financer la production de son avion de combat autonome X-BAT.",
+  "detail": "Gary Steele s'est exprimé le 3 novembre 2026 au salon Bloomberg Tech à Londres, où il a présenté une maquette du X-BAT, un appareil à décollage vertical qui n'a pas besoin de piste. Selon le compte rendu de Bloomberg, la levée doit intervenir au début de l'année prochaine.\n\nLe dirigeant dit aussi que l'entreprise cherche d'autres acquisitions, après le rachat récent d'Aechelon Technology, éditeur de logiciels de simulation tactique. Shield AI emploie environ 30 personnes en Ukraine et dit avoir contourné les restrictions récentes de connexion Starlink. Elle avait levé 2 milliards de dollars en mars 2026 sur la base d'une valorisation de 12,7 milliards.",
+  "impact": "Un nouveau tour d'un milliard financerait le passage du X-BAT du prototype à la production, et soutiendrait une stratégie de croissance par acquisitions.",
+  "signal": "optimiste",
+  "rationale": "L'entreprise annonce un nouveau financement important et des rachats à venir, mais il s'agit d'une intention, pas d'un tour bouclé.",
+  "sources": [
+   {
+    "label": "Bloomberg, 03/11/2026",
+    "url": "https://www.bloomberg.com/news/articles/2026-11-03/shield-ai-ceo-says-planning-at-least-1-billion-raise-more-m-a"
+   },
+   {
+    "label": "Investing.com (reprise de Bloomberg), 03/11/2026",
+    "url": "https://www.investing.com/news/stock-market-news/shield-ai-plans-1-billion-raise-further-deals--bloomberg-4995472"
+   },
+   {
+    "label": "StreetInsider (reprise de Bloomberg), 03/11/2026",
+    "url": "https://www.streetinsider.com/General+News/Shield+AI+plans+$1+billion+raise,+further+deals+-+Bloomberg/27278888.html"
+   }
+  ],
+  "addedAt": "2026-11-04T06:14:27Z"
+ },
+ {
+  "id": "shield-ai-2026-11-03-x-bat-premier-prototype",
+  "companyId": "shield-ai",
+  "date": "2026-11-03",
+  "title": "Shield AI termine l'assemblage du premier prototype du X-BAT",
+  "summary": "Shield AI a fini d'assembler le premier prototype de son avion de combat autonome X-BAT, à décollage et atterrissage verticaux, avant les essais en vol.",
+  "detail": "Selon FlightGlobal, l'appareil monomoteur a été assemblé à Frisco, au Texas, puis transféré au Kansas pour les essais. L'entreprise prévoit de construire trois prototypes pour la campagne d'essais.\n\nLe lancement se fait sur rail. Shield AI visait jusqu'ici un premier vol vertical fin 2026 ou début 2027.",
+  "impact": "Le prototype physique marque le passage de la maquette aux essais réels, étape clé avant la production que doit financer la levée annoncée.",
+  "signal": "optimiste",
+  "rationale": "Le calendrier de construction annoncé est tenu, ce qui réduit le risque de retard du programme.",
+  "sources": [
+   {
+    "label": "FlightGlobal, 03/11/2026",
+    "url": "https://www.flightglobal.com/defence/2026/11/shield-ai-completes-assembly-of-first-x-bat-prototype/"
+   },
+   {
+    "label": "Aviation Week, 16/09/2026 (calendrier prévu)",
+    "url": "https://aviationweek.com/defense/aircraft-propulsion/video-shield-ai-details-progress-x-bat-full-scale-prototype"
+   }
+  ],
+  "addedAt": "2026-11-04T06:14:27Z"
+ },
+ {
+  "id": "kraken-2026-11-03-vol-133-millions-comptes-restreints",
+  "companyId": "kraken",
+  "date": "2026-11-03",
+  "title": "Vol présumé de 133 millions de dollars : Kraken restreint des comptes par où ont transité les fonds",
+  "summary": "Selon l'enquêteur ZachXBT et Ledger Insights, une grande partie des fonds d'un vol présumé visant une institution financière européenne est sortie par des comptes Kraken. La plateforme dit qu'elle n'est pas à l'origine de l'incident.",
+  "detail": "Sur 108 millions de dollars d'USDC déplacés les 1er et 2 novembre, 102 millions proviennent de comptes Kraken, le reste de Crypto.com et d'OKX, d'après le traçage de Ledger Insights. ZachXBT estime la perte à plus de 133 millions de dollars et la victime n'est pas confirmée.\n\nKraken indique que l'incident n'a pas commencé sur sa plateforme, qu'aucun compte client n'a été piraté, qu'elle a restreint les comptes concernés et qu'elle travaille avec les forces de l'ordre.",
+  "impact": "L'affaire expose Kraken à un risque de conformité et de réputation, alors que la société prépare son introduction en Bourse.",
+  "signal": "prudent",
+  "rationale": "La plateforme n'est pas mise en cause directement, mais le passage de fonds volés par ses comptes est un point de vigilance réglementaire.",
+  "sources": [
+   {
+    "label": "Ledger Insights, 03/11/2026",
+    "url": "https://www.ledgerinsights.com/eu-institutions-suspected-133m-theft-was-via-ordinary-exchange-withdrawals-mostly-at-kraken/"
+   }
+  ],
+  "addedAt": "2026-11-04T06:14:27Z"
+ },
+ {
   "id": "lovable-2026-11-03-crowdstrike-falcon-shield",
   "companyId": "lovable",
   "date": "2026-11-03",
