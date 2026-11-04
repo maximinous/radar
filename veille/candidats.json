@@ -1,10 +1,25 @@
 {
- "generatedAt": "2026-11-03T12:53:12Z",
+ "generatedAt": "2026-11-04T00:12:00Z",
  "windowHours": 48,
- "headlinesRead": 853,
- "count": 36,
- "priorityCount": 7,
+ "headlinesRead": 1000,
+ "count": 43,
+ "priorityCount": 6,
  "companies": [
+  {
+   "companyId": "figure-ai",
+   "name": "Figure AI",
+   "candidates": [
+    {
+     "date": "2026-11-03 23:45",
+     "media": "The Gadgeteer",
+     "title": "Figure 03 humanoids walk out of a factory that’s still far from full",
+     "site": "https://the-gadgeteer.com",
+     "overlap": 0,
+     "reprises": 1,
+     "priority": false
+    }
+   ]
+  },
   {
    "companyId": "mistral-ai",
    "name": "Mistral AI",
@@ -57,6 +72,21 @@
    ]
   },
   {
+   "companyId": "deel",
+   "name": "Deel",
+   "candidates": [
+    {
+     "date": "2026-11-03 12:54",
+     "media": "FF News",
+     "title": "Penfold and Deel Launch Embedded Workplace Pensions to Streamline UK Payroll and HR",
+     "site": "https://ffnews.com",
+     "overlap": 0,
+     "reprises": 1,
+     "priority": false
+    }
+   ]
+  },
+  {
    "companyId": "stripe",
    "name": "Stripe",
    "candidates": [
@@ -67,15 +97,6 @@
      "site": "https://shattered.io",
      "overlap": 0.33,
      "reprises": 2,
-     "priority": true
-    },
-    {
-     "date": "2026-11-02 05:29",
-     "media": "深潮TechFlow",
-     "title": "Hyperliquid Generates $1 Billion in Annual Revenue, Stripe Makes a Massive Acquisition: Is the Crypto Industry Moving T…",
-     "site": "https://www.techflowpost.com",
-     "overlap": 0.18,
-     "reprises": 1,
      "priority": true
     },
     {
@@ -104,7 +125,7 @@
    "candidates": [
     {
      "date": "2026-11-02 01:12",
-     "media": "www.tokenpost.com",
+     "media": "TOKENPOST",
      "title": "Starcloud May Mine Bitcoin in Orbit as First Space ASICs Could Launch in January",
      "site": "https://www.tokenpost.com",
      "overlap": 0,
@@ -127,20 +148,29 @@
      "priority": true
     },
     {
-     "date": "2026-11-03 05:00",
-     "media": "CNBC",
-     "title": "Lovable CEO says AI is collapsing barriers to starting a business",
-     "site": "https://www.cnbc.com",
-     "overlap": 0.17,
+     "date": "2026-11-03 14:54",
+     "media": "Startup Fortune",
+     "title": "Lovable AI Apps Left Passport and Payment Data Open to Anyone",
+     "site": "https://startupfortune.com",
+     "overlap": 0.0,
      "reprises": 1,
      "priority": false
     },
     {
-     "date": "2026-11-03 10:45",
+     "date": "2026-11-03 10:50",
      "media": "Tech.eu",
      "title": "Ex-Phoenix Court partner launches $17M debut solo fund to discover next Lovable",
      "site": "https://tech.eu",
      "overlap": 0.2,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-11-03 18:03",
+     "media": "CNBC",
+     "title": "Lovable CEO says AI is collapsing barriers to starting a business",
+     "site": "https://www.cnbc.com",
+     "overlap": 0.17,
      "reprises": 0,
      "priority": false
     }
@@ -155,8 +185,8 @@
      "media": "Pluang",
      "title": "Crypto address buys 15,216 ETH for $34.69M USDC at $2,279 each using Kraken funds",
      "site": "https://pluang.com",
-     "overlap": 0.18,
-     "reprises": 1,
+     "overlap": 0.09,
+     "reprises": 0,
      "priority": true
     },
     {
@@ -169,21 +199,12 @@
      "priority": true
     },
     {
-     "date": "2026-11-02 23:53",
-     "media": "www.tokenpost.com",
-     "title": "BitMine Buys 5,000 Ether (ETH) From Kraken in a Deal Valued at About $11.37 Million",
-     "site": "https://www.tokenpost.com",
-     "overlap": 0.11,
-     "reprises": 0,
-     "priority": true
-    },
-    {
-     "date": "2026-11-01 14:30",
-     "media": "TOKENPOST",
-     "title": "Kraken Transfer of 799 Bitcoin (BTC) Valued at About $62.33 Million",
-     "site": "https://www.tokenpost.com",
-     "overlap": 0.14,
-     "reprises": 0,
+     "date": "2026-11-03 14:13",
+     "media": "Cryptonews.net",
+     "title": "Hyperliquid Attracts Wall Street as ICE and Kraken Parent Plan US Expansion",
+     "site": "https://cryptonews.net",
+     "overlap": 0.0,
+     "reprises": 1,
      "priority": false
     },
     {
@@ -196,20 +217,20 @@
      "priority": false
     },
     {
-     "date": "2026-11-02 12:05",
-     "media": "ad-hoc-news.de",
-     "title": "Wells Fargo stock weighs potential Payward crypto liquidity deal",
-     "site": "https://www.ad-hoc-news.de",
-     "overlap": 0.22,
-     "reprises": 0,
-     "priority": false
-    },
-    {
      "date": "2026-11-03 05:43",
      "media": "Pluang",
      "title": "Crypto options trading launches in Germany via Kraken Pro with MiFID licence and strict assessments.",
      "site": "https://pluang.com",
-     "overlap": 0.27,
+     "overlap": 0.18,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-11-03 13:27",
+     "media": "ad-hoc-news.de",
+     "title": "Wells Fargo stock weighs potential Payward crypto liquidity deal",
+     "site": "https://www.ad-hoc-news.de",
+     "overlap": 0.22,
      "reprises": 0,
      "priority": false
     }
@@ -220,20 +241,20 @@
    "name": "Polymarket",
    "candidates": [
     {
+     "date": "2026-11-03 22:32",
+     "media": "IndyStar",
+     "title": "Polymarket Sign-Up Bonus Code SBWIRE | Deposit $10, Get $25 for Midterms, NFL & More",
+     "site": "https://www.indystar.com",
+     "overlap": 0.0,
+     "reprises": 1,
+     "priority": false
+    },
+    {
      "date": "2026-11-02 01:09",
      "media": "CoinMarketCap",
      "title": "Prediction Markets News: Kalshi, Polymarket Push Multi-Billion Raise as Legal Pressure Escalates",
      "site": "https://coinmarketcap.com",
-     "overlap": 0.36,
-     "reprises": 0,
-     "priority": false
-    },
-    {
-     "date": "2026-11-02 22:32",
-     "media": "Tallahassee Democrat",
-     "title": "Polymarket Sign-Up Bonus Code SBWIRE Deposit $10, Get $25 for November",
-     "site": "https://www.tallahassee.com",
-     "overlap": 0.14,
+     "overlap": 0.09,
      "reprises": 0,
      "priority": false
     },
@@ -242,25 +263,16 @@
      "media": "Financial Regulation News",
      "title": "Sens. Warren, Curtis probe Kalshi and Polymarket on election-related prediction markets",
      "site": "https://financialregnews.com",
-     "overlap": 0.33,
-     "reprises": 0,
-     "priority": false
-    },
-    {
-     "date": "2026-11-03 02:10",
-     "media": "SILive.com",
-     "title": "NFL Polymarket promo code “SILIVE” extends $25 Bears-Seahawks deal",
-     "site": "https://www.silive.com",
      "overlap": 0.0,
      "reprises": 0,
      "priority": false
     },
     {
-     "date": "2026-11-03 08:36",
+     "date": "2026-11-03 11:10",
      "media": "FinanceFeeds",
-     "title": "Polymarket Launches 24/7 Anthropic Perpetual Futures Trading With Up to 10x Leverage",
+     "title": "Polymarket lance le trading 24/7 de contrats à terme perpétuels sur Anthropic avec un effet de levier jusqu’à 10x",
      "site": "https://financefeeds.com",
-     "overlap": 0.14,
+     "overlap": 0.1,
      "reprises": 0,
      "priority": false
     }
@@ -271,12 +283,66 @@
    "name": "Shield AI",
    "candidates": [
     {
+     "date": "2026-11-03 13:52",
+     "media": "TipRanks",
+     "title": "AI Pilots Startup Shield AI Looking to Raise $1B to Fund New Fighter Jet",
+     "site": "https://www.tipranks.com",
+     "overlap": 0,
+     "reprises": 2,
+     "priority": true
+    },
+    {
+     "date": "2026-11-03 14:28",
+     "media": "Investing.com France",
+     "title": "Shield AI prévoit une levée de fonds d’1 milliard $ et de nouvelles acquisitions",
+     "site": "https://fr.investing.com",
+     "overlap": 0,
+     "reprises": 1,
+     "priority": true
+    },
+    {
+     "date": "2026-11-03 18:36",
+     "media": "StreetInsider",
+     "title": "Shield AI plans $1 billion raise, further deals - Bloomberg",
+     "site": "https://www.streetinsider.com",
+     "overlap": 0,
+     "reprises": 2,
+     "priority": false
+    },
+    {
+     "date": "2026-11-03 12:54",
+     "media": "TradingView",
+     "title": "Le directeur général de Shield AI annonce son intention de lever au moins 1 milliard de dollars - Bloomberg News",
+     "site": "https://fr.tradingview.com",
+     "overlap": 0,
+     "reprises": 1,
+     "priority": false
+    },
+    {
+     "date": "2026-11-03 15:01",
+     "media": "https://renseignementeconomique.fr/",
+     "title": "Shield AI prépare une levée de plus d’un milliard de dollars pour son avion autonome",
+     "site": "https://renseignementeconomique.fr",
+     "overlap": 0,
+     "reprises": 1,
+     "priority": false
+    },
+    {
      "date": "2026-11-03 12:08",
-     "media": "Bloomberg",
+     "media": "Bloomberg.com",
      "title": "Shield AI CEO Says Planning At Least $1 Billion Raise, More M&A",
      "site": "https://www.bloomberg.com",
-     "overlap": 0.0,
-     "reprises": 1,
+     "overlap": 0,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-11-03 12:54",
+     "media": "TradingView",
+     "title": "CEO Shield AI prevede raccolta di almeno 1 miliardo di dollari - Bloomberg News",
+     "site": "https://www.tradingview.com",
+     "overlap": 0,
+     "reprises": 0,
      "priority": false
     }
    ]
@@ -286,39 +352,21 @@
    "name": "Anthropic",
    "candidates": [
     {
-     "date": "2026-11-03 01:45",
-     "media": "PYMNTS.com",
-     "title": "Anthropic Buys One-Person Biotech to Prove Claude Can Make Drugs",
-     "site": "https://www.pymnts.com",
-     "overlap": 0.11,
-     "reprises": 0,
-     "priority": true
-    },
-    {
      "date": "2026-11-03 09:30",
      "media": "Ecran Mobile",
      "title": "Anthropic : prospectus IPO amendé, 33,2 Md$ sur 9 mois",
      "site": "https://www.ecranmobile.fr",
      "overlap": 0.25,
-     "reprises": 7,
+     "reprises": 5,
      "priority": false
     },
     {
-     "date": "2026-11-03 00:47",
-     "media": "HIT Consultant",
-     "title": "athenahealth Launches athenaPatient MCP to Bridge Official Patient Records into Anthropic’s Claude",
-     "site": "https://hitconsultant.net",
-     "overlap": 0.22,
+     "date": "2026-11-02 18:51",
+     "media": "The Economic Times",
+     "title": "Anthropic revenue jumps 1,100% ahead of IPO as AI spending commitments near $900 billion",
+     "site": "https://m.economictimes.com",
+     "overlap": 0.3,
      "reprises": 4,
-     "priority": false
-    },
-    {
-     "date": "2026-11-03 09:12",
-     "media": "Türkiye Today",
-     "title": "Anthropic reports $17 billion in quarterly revenue, up 12-fold",
-     "site": "https://www.turkiyetoday.com",
-     "overlap": 0.2,
-     "reprises": 3,
      "priority": false
     },
     {
@@ -331,20 +379,29 @@
      "priority": false
     },
     {
-     "date": "2026-11-03 05:41",
-     "media": "Seeking Alpha",
-     "title": "Anthropic investors urge caution on IPO pricing, target $1.5T-$1.6T valuation - WSJ",
-     "site": "https://seekingalpha.com",
-     "overlap": 0.25,
+     "date": "2026-11-02 22:18",
+     "media": "Financial News London",
+     "title": "Anthropic Investors Push for Cautious Valuation Closer to $1.5 Trillion",
+     "site": "https://www.fnlondon.com",
+     "overlap": 0.17,
      "reprises": 2,
      "priority": false
     },
     {
-     "date": "2026-11-02 08:27",
-     "media": "Vietnam.vn",
-     "title": "Claude se lance dans le domaine juridique ; quelles carrières vise l’IA ?",
-     "site": "https://www.vietnam.vn",
+     "date": "2026-11-03 15:53",
+     "media": "Healthcare IT News",
+     "title": "Athenahealth launches server to connect patient records to Anthropic's Claude",
+     "site": "https://www.healthcareitnews.com",
      "overlap": 0.29,
+     "reprises": 2,
+     "priority": false
+    },
+    {
+     "date": "2026-11-03 11:04",
+     "media": "Fortune",
+     "title": "Anthropic’s third-quarter results mean IPO math and history are not on its side, analysts say",
+     "site": "https://fortune.com",
+     "overlap": 0.17,
      "reprises": 1,
      "priority": false
     }
@@ -355,15 +412,6 @@
    "name": "Perplexity",
    "candidates": [
     {
-     "date": "2026-11-01 17:15",
-     "media": "آي-فون إسلام",
-     "title": "Perplexity launches health platform with Apple Health… Your smart doctor now knows you well!",
-     "site": "https://iphoneislam.com",
-     "overlap": 0,
-     "reprises": 1,
-     "priority": false
-    },
-    {
      "date": "2026-11-02 13:02",
      "media": "ad-hoc-news.de",
      "title": "IREN's Perplexity Deal Puts Real Workloads Behind the GPUs — November 5 Will Say What They Earn",
@@ -373,10 +421,37 @@
      "priority": false
     },
     {
+     "date": "2026-11-03 08:29",
+     "media": "آي-فون إسلام",
+     "title": "Perplexity launches health platform with Apple Health… Your smart doctor now knows you well!",
+     "site": "https://iphoneislam.com",
+     "overlap": 0,
+     "reprises": 1,
+     "priority": false
+    },
+    {
+     "date": "2026-11-03 13:34",
+     "media": "Crypto Briefing",
+     "title": "Perplexity defends AI agent in Amazon lawsuit over shopping access",
+     "site": "https://cryptobriefing.com",
+     "overlap": 0,
+     "reprises": 1,
+     "priority": false
+    },
+    {
      "date": "2026-11-02 09:10",
      "media": "NeoTeo",
      "title": "IREN a annoncé un accord d’accès à Blackwell Ultra pour Perplexity Computer",
      "site": "https://www.neoteo.com",
+     "overlap": 0,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-11-03 15:56",
+     "media": "Yahoo Finance",
+     "title": "Perplexity CEO Aravind Srinivas at Money20-20 USA- We’re Your Life’s CFO",
+     "site": "https://finance.yahoo.com",
      "overlap": 0,
      "reprises": 0,
      "priority": false
