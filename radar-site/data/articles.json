@@ -1,5 +1,27 @@
 [
  {
+  "id": "neura-robotics-2026-11-05-eon-enviam-physical-ai",
+  "companyId": "neura-robotics",
+  "date": "2026-11-05",
+  "title": "NEURA Robotics s'associe à E.ON et enviaM pour des robots dans les réseaux électriques",
+  "summary": "E.ON, le groupe enviaM et NEURA Robotics lancent un partenariat pour développer de l'IA physique destinée aux infrastructures énergétiques critiques.",
+  "detail": "Les robots humanoïdes doivent aider aux inspections, à la surveillance d'installations comme les postes électriques et aux tâches pénibles, répétitives ou dangereuses. Les compétences seront d'abord entraînées au TUM RoboGym, le centre d'entraînement ouvert en octobre 2026 par NEURA et l'université technique de Munich à l'aéroport de Munich. Mitnetz Strom, filiale réseau d'enviaM, sera le partenaire pilote pour tester les usages en exploitation réelle.\n\nLes premiers retours d'expérience en conditions réelles sont attendus en 2027. E.ON et enviaM gardent la maîtrise de leurs données et des compétences entraînées. Le modèle d'IA multimodal Neuron de NEURA, qui combine vision 3D, toucher, ouïe et langage, est au coeur du projet.",
+  "impact": "NEURA obtient deux grands énergéticiens allemands comme partenaires pour un cas d'usage industriel concret, ce qui renforce sa plateforme Neuraverse et son centre RoboGym.",
+  "signal": "optimiste",
+  "rationale": "Partenariat avec des clients de poids et un site pilote identifié, mais sans calendrier de déploiement avant 2027 ni montant annoncé.",
+  "sources": [
+   {
+    "label": "E.ON, communiqué sur Presseportal, 05/11/2026",
+    "url": "https://www.presseportal.de/pm/108695/6384531"
+   },
+   {
+    "label": "The AI Insider, 05/11/2026",
+    "url": "https://theaiinsider.tech/2026/11/05/neura-robotics-partners-with-e-on-enviam-to-develop-robots-for-power-grid-operations/"
+   }
+  ],
+  "addedAt": "2026-11-05T12:15:04Z"
+ },
+ {
   "id": "anthropic-2026-11-05-licence-ap-elections",
   "companyId": "anthropic",
   "date": "2026-11-05",
@@ -16,6 +38,76 @@
    }
   ],
   "addedAt": "2026-11-05T06:12:03Z"
+ },
+ {
+  "id": "stripe-2026-11-04-paiements-stablecoins-160-marches",
+  "companyId": "stripe",
+  "date": "2026-11-04",
+  "title": "Stripe permet aux entreprises américaines de payer en stablecoins vers des portefeuilles dans plus de 160 marchés",
+  "summary": "Via Global Payouts, des entreprises américaines peuvent envoyer des USDC ou des OUSD vers des portefeuilles crypto dans plus de 160 marchés, en préversion publique.",
+  "detail": "Selon la presse spécialisée, le service est financé depuis les soldes Stripe Treasury en dollars ou en USDC, et Stripe gère la conversion. Les frais publiés sont de 0,50 dollar par transaction plus 0,5 % du montant, contre 25 dollars pour un virement SWIFT, selon FinanceFeeds. Les entreprises basées à New York sont exclues pour l'instant.\n\nLes USDC circulent sur neuf réseaux, dont Base, Ethereum, Solana et Tempo, et les OUSD sur un nombre plus réduit. La documentation de Stripe indique par ailleurs que les paiements en stablecoins pour les plateformes Connect restent en préversion privée.",
+  "impact": "Stripe étend son offre de stablecoins du paiement entrant vers les versements, ce qui concurrence les virements internationaux classiques.",
+  "signal": "optimiste",
+  "rationale": "Nouveau produit de versement à tarif public sur un grand nombre de marchés, encore en préversion et limité aux émetteurs américains hors New York.",
+  "sources": [
+   {
+    "label": "The Defiant, 04/11/2026",
+    "url": "https://thedefiant.io/converge/tradfi-and-fintech/stripe-lets-us-businesses-send-stablecoins-to-wallets-in-160-plus-markets"
+   },
+   {
+    "label": "Crypto Briefing, 04/11/2026",
+    "url": "https://cryptobriefing.com/stripe-stablecoin-payouts-crypto-wallets/"
+   },
+   {
+    "label": "FinanceFeeds, 05/11/2026",
+    "url": "https://financefeeds.com/stripe-enables-stablecoin-payouts-to-crypto-wallets-across-more-than-160-markets/"
+   }
+  ],
+  "addedAt": "2026-11-05T12:15:04Z"
+ },
+ {
+  "id": "stripe-2026-11-04-pine-labs-singapour",
+  "companyId": "stripe",
+  "date": "2026-11-04",
+  "title": "Pine Labs et Stripe unifient paiements en ligne et en magasin pour les commerçants de Singapour",
+  "summary": "Pine Labs et Stripe lancent à Singapour une solution de commerce unifié qui regroupe sur une seule plateforme les paiements en ligne et en boutique.",
+  "detail": "Stripe gère les paiements en ligne et Pine Labs les paiements en magasin, avec ses terminaux et ses outils d'engagement : paiement en plusieurs fois, paiement par points, promotions financées par le commerçant. Les détaillants obtiennent une vue consolidée des transactions et peuvent accepter cartes, codes QR et paiements sans contact. La solution sera ouverte aux commerçants éligibles en novembre 2026.\n\nLes deux sociétés prévoient de l'étendre à d'autres marchés d'Asie du Sud-Est en 2027.",
+  "impact": "Stripe gagne un partenaire pour le paiement physique à Singapour, un terrain où il est surtout présent en ligne.",
+  "signal": "optimiste",
+  "rationale": "Partenariat commercial concret avec calendrier d'extension, sans chiffres de volume.",
+  "sources": [
+   {
+    "label": "The Paypers, 04/11/2026",
+    "url": "https://thepaypers.com/payments/news/pine-labs-and-stripe-launch-unified-commerce-solution-in-singapore"
+   }
+  ],
+  "addedAt": "2026-11-05T12:15:04Z"
+ },
+ {
+  "id": "anthropic-2026-11-04-riot-corsicana-28-milliards",
+  "companyId": "anthropic",
+  "date": "2026-11-04",
+  "title": "Riot Platforms signe un bail de 28 milliards de dollars sur le site de Corsicana, la presse y voit Anthropic",
+  "summary": "Riot Platforms annonce un bail de 15 ans pour 910 MW sur tout son campus de Corsicana (Texas), avec un « laboratoire d'IA de pointe » que la presse identifie comme Anthropic.",
+  "detail": "Riot chiffre le contrat à environ 28 milliards de dollars sur la durée initiale, soit environ 1,8 milliard de dollars de loyer annuel moyen, et environ 54 milliards avec les deux options de prolongation de cinq ans. Le bail a été signé le 28 octobre et est entré en vigueur le 4 novembre. Riot et son locataire ne nomment pas Anthropic dans le communiqué, qui parle d'un « leading Frontier AI Lab » ; des médias comme Crypto Briefing et FourWeekMBA désignent Anthropic comme locataire, et FourWeekMBA affirme que le 10-Q le nomme, ce que l'extrait consulté ne montre pas.\n\nLe bail couvre 910 MW en trois phases, la première de 400 MW visée pour septembre 2027. Riot finance 2 millions de dollars par MW de charge informatique pour le site et l'électricité, le reste étant remboursé au locataire par phases. Riot loue déjà 191 MW à Rockdale au même laboratoire, selon le 10-Q.",
+  "impact": "Si le locataire est bien Anthropic, ce bail ajoute près d'un gigawatt de capacité de calcul à ses engagements d'infrastructure avant son introduction en Bourse.",
+  "signal": "optimiste",
+  "rationale": "Capacité massive sécurisée sur 15 ans, mais l'identité du locataire repose sur la presse et non sur le communiqué de Riot.",
+  "sources": [
+   {
+    "label": "Riot Platforms, communiqué des résultats du T3 (SEC), 04/11/2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001167419/000110465926122368/riot-ex99d1.htm"
+   },
+   {
+    "label": "Riot Platforms, formulaire 10-Q (SEC), 04/11/2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001167419/000110465926122417/riot-20260930x10q.htm"
+   },
+   {
+    "label": "Crypto Briefing, 05/11/2026",
+    "url": "https://cryptobriefing.com/riot-leases-entire-corsicana-campus-to-anthropic-for-ai/"
+   }
+  ],
+  "addedAt": "2026-11-05T12:15:04Z"
  },
  {
   "id": "together-ai-2026-11-04-together-compiler",
