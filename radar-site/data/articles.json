@@ -1,5 +1,79 @@
 [
  {
+  "id": "shield-ai-2026-11-05-rachat-echodyne-serie-h",
+  "companyId": "shield-ai",
+  "date": "2026-11-05",
+  "title": "Shield AI rachète Echodyne pour 5,3 milliards de dollars et lève 2,5 milliards à 28,8 milliards de valorisation",
+  "summary": "Shield AI annonce l'acquisition du fabricant de radars Echodyne pour 5,3 milliards de dollars, financée par une levée de 2,5 milliards incluant une série H qui valorise la société 28,8 milliards.",
+  "detail": "Le prix comprend 4,8 milliards de dollars à la clôture et jusqu'à 500 millions supplémentaires si Echodyne atteint des objectifs de performance. La clôture est attendue début 2027. Echodyne, spécialiste des radars logiciels et de la lutte anti-drones, deviendra une unité de la division systèmes de mission de Shield AI. Son PDG, Eben Frankenberg, reste en poste, et aucune suppression d'emploi n'est prévue.\n\nSelon Bloomberg et l'annonce de Shield AI sur X, le financement de 2,5 milliards comprend 1 milliard de dollars de série H, avec Blackstone en capital structuré (1 milliard) et JPMorgan en dette (500 millions). La valorisation de 28,8 milliards de dollars est plus que le double des 12,7 milliards de mars 2026.",
+  "impact": "Shield AI ajoute des radars et une capacité industrielle à son offre de pilote IA et de drones, et obtient des moyens financiers très supérieurs à son tour précédent.",
+  "signal": "optimiste",
+  "rationale": "Acquisition structurante financée par un tour majeur, mais l'opération n'est pas encore bouclée et son intégration reste à faire.",
+  "sources": [
+   {
+    "label": "Breaking Defense, 05/11/2026",
+    "url": "https://breakingdefense.com/2026/11/shield-ai-acquires-radar-firm-echodyne-in-5-3b-deal/"
+   },
+   {
+    "label": "Communiqué Shield sur PR Newswire, 05/11/2026",
+    "url": "https://www.prnewswire.com/news-releases/shield-to-acquire-echodyne-in-a-transaction-valued-at-5-3-billion-and-raise-2-5-billion-at-a-28-8-billion-valuation"
+   },
+   {
+    "label": "Bloomberg, 05/11/2026",
+    "url": "https://www.bloomberg.com/news/articles/2026-11-05/shield-ai-to-hit-28-8-billion-value-with-5-3-billion-radar-acquisition"
+   }
+  ],
+  "addedAt": "2026-11-05T19:19:57Z"
+ },
+ {
+  "id": "mistral-ai-2026-11-05-rachat-skiplabs",
+  "companyId": "mistral-ai",
+  "date": "2026-11-05",
+  "title": "Mistral AI rachète SkipLabs et crée une équipe « Language »",
+  "summary": "Mistral AI acquiert la startup française SkipLabs, spécialisée dans la génération de code par IA plus rapide et plus fiable. C'est sa cinquième acquisition de 2026.",
+  "detail": "SkipLabs, fondée il y a six ans par l'ancien ingénieur de Meta Julien Verlaguet, est implantée à Paris et à Londres. Ses ingénieurs et scientifiques rejoignent l'équipe de Guillaume Lample, directeur scientifique et cofondateur de Mistral, au sein d'une nouvelle équipe baptisée « Language ». Le montant n'a pas été communiqué.\n\nLes quatre précédentes acquisitions de l'année sont Koyeb (février), Emmi AI (mai), Pimento (septembre) et New Material (octobre).",
+  "impact": "Mistral renforce ses compétences en code généré par IA, au service de ses outils comme Vibe, et poursuit sa stratégie de rachats d'équipes.",
+  "signal": "optimiste",
+  "rationale": "Rachat d'une équipe spécialisée qui complète une offre code en développement, sans impact financier divulgué.",
+  "sources": [
+   {
+    "label": "L'Usine Digitale, 05/11/2026",
+    "url": "https://www.usine-digitale.fr/intelligence-artificielle/mistral-ai/mistral-ai-annonce-lacquisition-de-skiplabs-et-la-creation-dune-nouvelle-equipe-language.X6Z6HJEPUFBUHH43VVWE5FYYFU.html"
+   },
+   {
+    "label": "Maddyness, 05/11/2026",
+    "url": "https://www.maddyness.com/2026/11/05/mistral-ai-soffre-une-cinquieme-acquisition-depuis-le-debut-de-lannee/"
+   },
+   {
+    "label": "Dealroom, 05/11/2026",
+    "url": "https://dealroom.co/news/170004-mistral-ai-buys-skiplabs-in-its-fifth-acquisition-of-2026/"
+   }
+  ],
+  "addedAt": "2026-11-05T19:19:57Z"
+ },
+ {
+  "id": "kraken-2026-11-05-payward-achete-tokens-aave",
+  "companyId": "kraken",
+  "date": "2026-11-05",
+  "title": "Payward, maison mère de Kraken, achète des tokens AAVE et se rapproche d'Aave",
+  "summary": "Un fonds affilié à Payward et ses clients ont acheté des tokens AAVE sur le marché secondaire. Payward et Aave évoquent un partenariat pour étendre le prêt onchain.",
+  "detail": "Les achats passent par Digital Asset Special Investments I, LP, fonds affilié à Payward, et par ses clients de gestion d'actifs. Le montant n'est pas divulgué et Payward n'exclut pas d'acheter davantage. Gurpreet Oberoi, de Payward Asset Management and Institutional, parle d'une conviction de long terme dans le crédit onchain et la DeFi.\n\nLe fondateur d'Aave, Stani Kulechov, présente l'opération comme une étape stratégique pour toucher de nouveaux utilisateurs particuliers et institutionnels. En juin, il avait démenti une information de CoinDesk sur un projet d'achat de 15 % d'Aave par Payward à 385 millions de dollars. Cette fois, il s'agit uniquement de tokens, sans participation au capital.",
+  "impact": "Payward prend une position dans la DeFi et pourrait élargir l'accès de ses clients au prêt onchain.",
+  "signal": "neutre",
+  "rationale": "Pari stratégique sur la DeFi, mais d'un montant inconnu et sans accord commercial détaillé.",
+  "sources": [
+   {
+    "label": "The Block, 05/11/2026",
+    "url": "https://www.theblock.co/news/business/2026-11-05-payward-affiliated-fund-clients-buy-aave-token-stake-secondary-market-aave-says-434798"
+   },
+   {
+    "label": "CoinDesk, 05/11/2026",
+    "url": "https://www.coindesk.com/business/2026/11/05/kraken-parent-payward-and-its-clients-buy-aave-tokens-in-defi-investment-push"
+   }
+  ],
+  "addedAt": "2026-11-05T19:19:57Z"
+ },
+ {
   "id": "neura-robotics-2026-11-05-eon-enviam-physical-ai",
   "companyId": "neura-robotics",
   "date": "2026-11-05",

@@ -961,8 +961,20 @@
   "order": 14,
   "sector": "Défense et autonomie",
   "website": "https://shield.ai/",
-  "lastRound": "shield-ai-2026-11-03-levee-1-milliard-x-bat",
+  "lastRound": "shield-ai-2026-11-05-rachat-echodyne-serie-h",
   "valuations": [
+   {
+    "amount": "28,8 milliards de dollars",
+    "value": 28.8,
+    "currency": "USD",
+    "round": "Série H de 1 milliard, dans une levée de 2,5 milliards liée au rachat d'Echodyne",
+    "date": "2026-11-05",
+    "status": "officielle",
+    "source": {
+     "label": "Shield sur X, 05/11/2026",
+     "url": "https://x.com/shieldaitech/status/2118380348861993113"
+    }
+   },
    {
     "amount": "au moins 20 milliards de dollars",
     "value": 20,
