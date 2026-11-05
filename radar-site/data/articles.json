@@ -7044,6 +7044,32 @@
   "addedAt": "2026-10-16T00:38:24Z"
  },
  {
+  "id": "havoc-ai-2026-05-13-serie-a",
+  "companyId": "havoc-ai",
+  "date": "2026-05-13",
+  "title": "Havoc lève 100 millions de dollars en série A, Devin Nunes prend la présidence du conseil",
+  "summary": "Le spécialiste des drones navals autonomes boucle une série A de 100 millions de dollars, portant ses fonds levés à plus de 200 millions depuis sa création en 2024.",
+  "detail": "Les nouveaux investisseurs comprennent SAIC, Clear Street et Cobalt Capital, aux côtés de B Capital, Lockheed Martin, Taiwania Capital et UP.Partners. L'ancien élu républicain Devin Nunes rejoint le conseil comme président. La valorisation n'est pas publiée ; selon Forbes, le CEO Paul Lwin juge l'estimation de PitchBook, environ 784 millions de dollars, un peu élevée.\n\nHavoc a livré plus de 30 véhicules au département américain de la Défense et compte environ 200 salariés, deux fois plus qu'un an plus tôt.",
+  "impact": "Havoc se donne les moyens de passer de quelques dizaines à des milliers de bateaux autonomes, alors que la Navy prévoit de grandes flottes de drones de surface.",
+  "signal": "optimiste",
+  "rationale": "Levée importante, investisseurs industriels de la défense et clients publics déjà en place.",
+  "sources": [
+   {
+    "label": "The Robot Report, mai 2026",
+    "url": "https://www.therobotreport.com/havoc-raises-100m-unify-defense-autonomy-land-sea-air/"
+   },
+   {
+    "label": "Forbes, 12 mai 2026",
+    "url": "https://www.forbes.com/sites/monicahunter-hart/2026/05/12/meet-the-former-burmese-refugee-vying-to-be-the-us-militarys-go-to-drone-guy/"
+   },
+   {
+    "label": "FinSMEs, mai 2026",
+    "url": "https://www.finsmes.com/2026/05/havoc-ai-raises-100m-in-series-a-funding.html"
+   }
+  ],
+  "addedAt": "2026-11-05T19:17:24Z"
+ },
+ {
   "addedAt": "2026-09-22T08:00:00Z",
   "companyId": "apollo-research",
   "date": "2026-05-13",
@@ -7506,6 +7532,28 @@
    }
   ],
   "addedAt": "2026-10-12T21:14:04Z"
+ },
+ {
+  "id": "havoc-ai-2025-10-09-levee-85m",
+  "companyId": "havoc-ai",
+  "date": "2025-10-09",
+  "title": "HavocAI lève 85 millions de dollars pour vendre ses bateaux autonomes à l'armée américaine",
+  "summary": "Moins de deux ans après sa création, HavocAI boucle un tour de 85 millions de dollars avec B Capital, In-Q-Tel et Lockheed Martin.",
+  "detail": "La Navy a acheté une douzaine de bateaux Rampage de 14 pieds, à environ 100 000 dollars l'unité, et la société en exploite une vingtaine d'autres pour l'Army, la Navy et l'unité d'innovation du Pentagone. Le constructeur Metal Shark intègre son logiciel à ses navires. La valorisation n'est pas communiquée.",
+  "impact": "HavocAI se finance pour passer à la production en série de drones navals.",
+  "signal": "optimiste",
+  "rationale": "Levée importante soutenue par des investisseurs de la défense et du renseignement.",
+  "sources": [
+   {
+    "label": "Fortune, 9 oct. 2025",
+    "url": "https://fortune.com/2025/10/09/havocai-85-million-autonomous-vessels-funding/"
+   },
+   {
+    "label": "PR Newswire, oct. 2025",
+    "url": "https://www.prnewswire.com/news-releases/havocai-adds-85m-in-new-capital-to-scale-proven-autonomy-capabilities-302580282.html"
+   }
+  ],
+  "addedAt": "2026-11-05T19:17:24Z"
  },
  {
   "id": "fluidstack-2025-09-25-cipher-barber-lake-initial",
