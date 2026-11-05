@@ -1513,5 +1513,84 @@
     }
    }
   ]
+ },
+ {
+  "id": "havoc-ai",
+  "name": "Havoc AI",
+  "sector": "Défense autonome",
+  "order": 19,
+  "oneLiner": "Logiciel d'autonomie collaborative et drones navals pour la défense américaine.",
+  "description": "Fondée en janvier 2024 dans le Rhode Island par deux anciens officiers de l'US Navy, Havoc conçoit un logiciel qui permet à un seul opérateur de piloter des flottes de drones en mer, dans les airs et au sol, et fabrique ses propres bateaux autonomes Rampage. Elle travaille avec la Navy, l'Army et l'unité d'innovation du Pentagone, ainsi qu'avec Lockheed Martin, Leidos et SAIC.",
+  "hq": "East Providence, Rhode Island (bureaux à Austin et San Diego)",
+  "founded": "2024",
+  "leaders": "Paul Lwin (cofondateur et CEO), Joe Turner (cofondateur et COO) ; Devin Nunes, président du conseil d'administration",
+  "website": "https://www.havocai.com/",
+  "newsQuery": "\"HavocAI\" OR \"Havoc AI\" OR \"Paul Lwin\"",
+  "newsQueriesExtra": [
+   "\"Havoc\" autonomous boats OR vessels OR drones",
+   "\"Havoc\" Rampage OR autonomy Navy",
+   "\"Havoc\" défense drones navals OR autonome",
+   "\"Havoc\" Taiwan OR CSBC OR Army maritime drones"
+  ],
+  "lastRound": "havoc-ai-2026-05-13-serie-a",
+  "valuations": [
+   {
+    "amount": "environ 780 millions de dollars (estimation PitchBook)",
+    "value": 0.784,
+    "currency": "USD",
+    "round": "Série A de 100 millions de dollars",
+    "date": "2026-05-12",
+    "status": "presse",
+    "source": {
+     "label": "Forbes, 12 mai 2026",
+     "url": "https://www.forbes.com/sites/monicahunter-hart/2026/05/12/meet-the-former-burmese-refugee-vying-to-be-the-us-militarys-go-to-drone-guy/"
+    }
+   }
+  ],
+  "valuationNote": "La société ne publie pas sa valorisation ; son CEO juge l'estimation de PitchBook « un peu élevée ».",
+  "metrics": [
+   {
+    "label": "Total levé",
+    "value": "plus de 200 millions de dollars depuis 2024",
+    "date": "2026-05-13",
+    "status": "presse",
+    "source": {
+     "label": "The Robot Report, mai 2026",
+     "url": "https://www.therobotreport.com/havoc-raises-100m-unify-defense-autonomy-land-sea-air/"
+    },
+    "articleId": "havoc-ai-2026-05-13-serie-a"
+   },
+   {
+    "label": "Salariés",
+    "value": "environ 200, deux fois plus qu'un an plus tôt",
+    "date": "2026-05-13",
+    "status": "presse",
+    "source": {
+     "label": "The Robot Report, mai 2026",
+     "url": "https://www.therobotreport.com/havoc-raises-100m-unify-defense-autonomy-land-sea-air/"
+    }
+   },
+   {
+    "label": "Livraisons",
+    "value": "plus de 30 véhicules autonomes livrés au département américain de la Défense",
+    "date": "2026-05-13",
+    "status": "presse",
+    "source": {
+     "label": "The Robot Report, mai 2026",
+     "url": "https://www.therobotreport.com/havoc-raises-100m-unify-defense-autonomy-land-sea-air/"
+    }
+   },
+   {
+    "label": "Investisseurs principaux",
+    "value": "B Capital, Lockheed Martin, In-Q-Tel, UP.Partners, Scout Ventures, Outlander, Taiwania Capital, SAIC",
+    "date": "2026-05-13",
+    "status": "presse",
+    "source": {
+     "label": "The Robot Report, mai 2026",
+     "url": "https://www.therobotreport.com/havoc-raises-100m-unify-defense-autonomy-land-sea-air/"
+    },
+    "articleId": "havoc-ai-2026-05-13-serie-a"
+   }
+  ]
  }
 ]
