@@ -542,6 +542,24 @@
   "addedAt": "2026-10-30T06:17:47Z"
  },
  {
+  "id": "havoc-ai-2026-10-29-mature-taiwan",
+  "companyId": "havoc-ai",
+  "date": "2026-10-29",
+  "title": "Havoc expose avec CSBC au salon MATURE Taiwan et tient une conférence commune à Tainan",
+  "summary": "Havoc partage le stand du chantier naval taïwanais CSBC au salon MATURE Taiwan, du 2 au 5 novembre à Tainan, avec des démonstrations virtuelles de son autonomie collaborative.",
+  "detail": "Le CEO Paul Lwin et le président de CSBC, Kun-Tsung Tsai, tiennent une conférence de presse commune le 3 novembre. Selon le communiqué, CSBC a évalué une douzaine d'entreprises américaines et européennes pendant plus de six mois avant de choisir Havoc. Aucun nouvel accord ni montant n'est annoncé.",
+  "impact": "Havoc s'affiche comme partenaire de référence de Taïwan pour les drones navals produits localement.",
+  "signal": "neutre",
+  "rationale": "Présence commerciale sans nouveau contrat.",
+  "sources": [
+   {
+    "label": "Havoc, communiqué, 29 oct. 2026",
+    "url": "https://www.prnewswire.com/news-releases/havoc-to-join-csbc-corporation-taiwan-at-mature-taiwan-2026-302923137.html"
+   }
+  ],
+  "addedAt": "2026-11-05T19:20:44Z"
+ },
+ {
   "id": "fluidstack-2026-10-29-situational-awareness-40-milliards",
   "companyId": "fluidstack",
   "date": "2026-10-29",
@@ -3034,6 +3052,24 @@
    }
   ],
   "addedAt": "2026-10-13T06:25:23Z"
+ },
+ {
+  "id": "havoc-ai-2026-10-12-sbir-army",
+  "companyId": "havoc-ai",
+  "date": "2026-10-12",
+  "title": "Havoc décroche un contrat SBIR de phase III de l'Army Applications Laboratory",
+  "summary": "Le laboratoire d'innovation de l'US Army attribue à Havoc un contrat de phase III pour développer son autonomie collaborative au service du ravitaillement des soldats.",
+  "detail": "Le contrat porte sur la coordination de plateformes aériennes et terrestres pour livrer du ravitaillement en première ligne. Le besoin a été exprimé par la 1re division de cavalerie lors des exercices Pegasus Charge. Le montant et la durée ne sont pas publiés.\n\nUne phase III permet à l'armée de passer des commandes de production sans nouvel appel d'offres.",
+  "impact": "Havoc obtient un cadre contractuel qui facilite les achats futurs de l'Army, au-delà du seul domaine naval.",
+  "signal": "optimiste",
+  "rationale": "Contrat public structurant, même sans montant connu.",
+  "sources": [
+   {
+    "label": "Havoc, communiqué, 12 oct. 2026",
+    "url": "https://www.prnewswire.com/news-releases/havoc-awarded-sbir-phase-iii-contract-by-army-applications-laboratory-for-multi-domain-mission-collaborative-autonomy-302905244.html"
+   }
+  ],
+  "addedAt": "2026-11-05T19:20:44Z"
  },
  {
   "id": "anthropic-2026-10-12-auto-replication-iot",
@@ -6044,6 +6080,32 @@
   "title": "Shield AI discute d'une levée à au moins 20 milliards de dollars de valorisation"
  },
  {
+  "id": "havoc-ai-2026-09-10-csbc-taiwan",
+  "companyId": "havoc-ai",
+  "date": "2026-09-10",
+  "title": "Havoc s'allie au chantier naval taïwanais CSBC pour produire des drones de surface à Taïwan",
+  "summary": "Havoc et CSBC signent un partenariat de coproduction sous licence de navires de surface autonomes pour la sécurité maritime de Taïwan.",
+  "detail": "CSBC apporte la construction et le maintien en condition, Havoc son logiciel d'autonomie. L'accord s'inscrit dans la loi de défense américaine 2026, qui prévoit un programme commun avec Taïwan sur les drones. Les types de navires ne sont pas précisés.\n\nLe Wall Street Journal a décrit le 13 octobre l'afflux de start-up américaines de défense, dont Havoc, à Taïwan pour produire des drones sans composants chinois.",
+  "impact": "Havoc ouvre un premier débouché international de production, adossé à une politique américaine de soutien à Taïwan.",
+  "signal": "optimiste",
+  "rationale": "Partenariat industriel avec un grand chantier public, sans montant publié.",
+  "sources": [
+   {
+    "label": "Havoc, communiqué, 10 sept. 2026",
+    "url": "https://www.prnewswire.com/news-releases/havoc-and-csbc-corporation-taiwan-announce-strategic-partnership-to-field-autonomous-surface-vessels-in-taiwan-302875580.html"
+   },
+   {
+    "label": "Janes, 14 sept. 2026",
+    "url": "https://www.janes.com/defence-intelligence-insights/defence-news/industry/havoc-partners-with-taiwans-csbc-to-co-produce-autonomous-surface-vessels"
+   },
+   {
+    "label": "Focus Taiwan, 11 sept. 2026",
+    "url": "https://focustaiwan.tw/business/202609110016"
+   }
+  ],
+  "addedAt": "2026-11-05T19:20:44Z"
+ },
+ {
   "id": "fluidstack-2026-09-10-pentagone-pret",
   "companyId": "fluidstack",
   "date": "2026-09-10",
@@ -6347,6 +6409,24 @@
   ],
   "summary": "LeBron James a annoncé un partenariat avec Polymarket. C'est le premier joueur NBA à signer un accord individuel avec la plateforme.",
   "title": "LeBron James devient ambassadeur de Polymarket"
+ },
+ {
+  "id": "havoc-ai-2026-09-03-rune-tyros",
+  "companyId": "havoc-ai",
+  "date": "2026-09-03",
+  "title": "Havoc et Rune Technologies relient drones autonomes et planification logistique de l'Army",
+  "summary": "Havoc intègre ses aéronefs autonomes au logiciel de logistique TyrOS de Rune Technologies pour ravitailler des unités même sans réseau fiable.",
+  "detail": "Les deux sociétés disent avoir réalisé le 16 août, lors de l'exercice Pegasus Charge III à Fort Hood, une première mission complète de ravitaillement autonome en conditions opérationnelles. Rune vient de remporter un contrat d'accès à TyrOS pour l'ensemble de l'Army.",
+  "impact": "Havoc s'insère dans les outils logistiques déjà achetés par l'Army.",
+  "signal": "optimiste",
+  "rationale": "Intégration testée sur le terrain avec un fournisseur déjà sous contrat.",
+  "sources": [
+   {
+    "label": "Havoc, communiqué, 3 sept. 2026",
+    "url": "https://www.prnewswire.com/news-releases/havoc-and-rune-technologies-announce-integration-to-deliver-autonomous-logistics-at-the-edge-302868949.html"
+   }
+  ],
+  "addedAt": "2026-11-05T19:20:44Z"
  },
  {
   "id": "fluidstack-2026-09-03-harlingen-drainage",
@@ -6854,6 +6934,24 @@
   "title": "Affaire d'espionnage avec Rippling : le procès et l'enquête pénale se poursuivent"
  },
  {
+  "id": "havoc-ai-2026-07-10-newsweek",
+  "companyId": "havoc-ai",
+  "date": "2026-07-10",
+  "title": "Havoc figure au classement Newsweek des meilleurs employeurs parmi les start-up américaines",
+  "summary": "Havoc est citée dans le palmarès 2026 de Newsweek des start-up américaines où il fait bon travailler.",
+  "detail": "La société a doublé ses effectifs en un an, à environ 200 personnes au printemps, et recrute d'anciens militaires et ingénieurs.",
+  "impact": "Un atout de recrutement dans un secteur où les profils techniques sont très disputés.",
+  "signal": "neutre",
+  "rationale": "Distinction sans effet direct sur l'activité.",
+  "sources": [
+   {
+    "label": "Havoc, communiqué, 10 juil. 2026",
+    "url": "https://www.prnewswire.com/news-releases/havoc-named-to-newsweeks-americas-greatest-startup-workplaces-2026-302822398.html"
+   }
+  ],
+  "addedAt": "2026-11-05T19:20:44Z"
+ },
+ {
   "addedAt": "2026-09-22T08:00:00Z",
   "companyId": "figure-ai",
   "date": "2026-07-08",
@@ -7008,6 +7106,24 @@
   "companyId": "fluidstack"
  },
  {
+  "id": "havoc-ai-2026-06-23-rimpac",
+  "companyId": "havoc-ai",
+  "date": "2026-06-23",
+  "title": "Havoc démontre le ravitaillement autonome de navires alliés à l'exercice RIMPAC 2026",
+  "summary": "Havoc participe à RIMPAC, le plus grand exercice naval du Pacifique, avec des drones de surface qui ravitaillent des navires américains et alliés.",
+  "detail": "La démonstration, présentée comme une première opération logistique autonome multinationale, s'inscrit dans une expérimentation de l'École navale de Monterey. L'exercice réunit 31 pays du 24 juin au 31 juillet.",
+  "impact": "Havoc montre ses systèmes devant la Navy et ses alliés, des clients potentiels.",
+  "signal": "optimiste",
+  "rationale": "Visibilité opérationnelle de premier plan.",
+  "sources": [
+   {
+    "label": "Havoc, communiqué, 23 juin 2026",
+    "url": "https://www.prnewswire.com/news-releases/havoc-to-demonstrate-autonomous-systems-alongside-us-and-allied-forces-at-rimpac-2026-302806729.html"
+   }
+  ],
+  "addedAt": "2026-11-05T19:20:44Z"
+ },
+ {
   "addedAt": "2026-09-22T08:00:00Z",
   "companyId": "prometheus",
   "date": "2026-06-23",
@@ -7028,6 +7144,50 @@
   ],
   "summary": "Bezos et Bajaj refusent de détailler le véhicule qui rachèterait des usines pour nourrir Prometheus en données. Aucun rachat n'est encore nommé.",
   "title": "Holding industrielle à 100 milliards : le projet reste flou"
+ },
+ {
+  "id": "havoc-ai-2026-06-22-salaknib-army",
+  "companyId": "havoc-ai",
+  "date": "2026-06-22",
+  "title": "L'US Army utilise les drones Rampage de Havoc pour escorter un navire aux Philippines",
+  "summary": "Lors de l'exercice Salaknib, des soldats de la 25e division d'infanterie ont déployé les bateaux autonomes Rampage de Havoc pour protéger un navire logistique de l'Army.",
+  "detail": "Le 10 juin, dans la baie de Casiguran au nord-est de Luçon, les drones ont escorté un navire transportant des véhicules et des soldats philippins sur plus de 400 km. Selon Seapower, six Rampage achetés comme prototypes ont aussi, lors de Balikatan, poursuivi un bateau menaçant, leurs données passant par un routeur de SAIC compatible avec les liaisons Link 16.\n\nThe War Zone a de nouveau cité ces essais le 21 octobre.",
+  "impact": "Havoc est l'un des rares fournisseurs de drones de surface déjà utilisés par l'Army en exercice réel dans le Pacifique.",
+  "signal": "optimiste",
+  "rationale": "Emploi opérationnel par l'armée américaine.",
+  "sources": [
+   {
+    "label": "Military Times, 22 juin 2026",
+    "url": "https://www.militarytimes.com/news/your-military/2026/06/22/us-army-tests-autonomous-boats-during-philippine-exercise/"
+   },
+   {
+    "label": "Seapower, 14 juil. 2026",
+    "url": "https://seapowermagazine.org/havocai-usvs-with-saic-routers-escort-army-ship-in-exercises/"
+   },
+   {
+    "label": "The War Zone, 21 oct. 2026",
+    "url": "https://www.twz.com/sea/how-the-u-s-armys-navy-aims-to-go-more-autonomous-with-its-vessels-in-the-pacific"
+   }
+  ],
+  "addedAt": "2026-11-05T19:20:44Z"
+ },
+ {
+  "id": "havoc-ai-2026-06-15-azak",
+  "companyId": "havoc-ai",
+  "date": "2026-06-15",
+  "title": "Havoc et AZAK s'associent pour produire des robots terrestres autonomes anti-drones",
+  "summary": "Havoc signe un protocole d'accord avec AZAK, fabricant de véhicules terrestres sans pilote, pour produire de petits systèmes autonomes.",
+  "detail": "La première plateforme, assemblée en moins de 48 heures lors de l'opération Jailbreak de l'US Army, associe le châssis à roues motorisées d'AZAK et le logiciel de Havoc pour détecter et neutraliser des essaims de drones. Les partenaires visent aussi la logistique et la sécurité de périmètre.",
+  "impact": "Havoc étend son logiciel au domaine terrestre avec un partenaire industriel.",
+  "signal": "optimiste",
+  "rationale": "Nouveau produit testé avec l'Army, au stade du protocole d'accord.",
+  "sources": [
+   {
+    "label": "Havoc, communiqué, 15 juin 2026",
+    "url": "https://www.prnewswire.com/news-releases/havoc-and-azak-sign-memorandum-of-understanding-to-produce-high-mobility-autonomous-ground-systems-302799890.html"
+   }
+  ],
+  "addedAt": "2026-11-05T19:20:44Z"
  },
  {
   "addedAt": "2026-09-22T08:00:00Z",
@@ -7118,32 +7278,6 @@
   "addedAt": "2026-10-16T00:38:24Z"
  },
  {
-  "id": "havoc-ai-2026-05-13-serie-a",
-  "companyId": "havoc-ai",
-  "date": "2026-05-13",
-  "title": "Havoc lève 100 millions de dollars en série A, Devin Nunes prend la présidence du conseil",
-  "summary": "Le spécialiste des drones navals autonomes boucle une série A de 100 millions de dollars, portant ses fonds levés à plus de 200 millions depuis sa création en 2024.",
-  "detail": "Les nouveaux investisseurs comprennent SAIC, Clear Street et Cobalt Capital, aux côtés de B Capital, Lockheed Martin, Taiwania Capital et UP.Partners. L'ancien élu républicain Devin Nunes rejoint le conseil comme président. La valorisation n'est pas publiée ; selon Forbes, le CEO Paul Lwin juge l'estimation de PitchBook, environ 784 millions de dollars, un peu élevée.\n\nHavoc a livré plus de 30 véhicules au département américain de la Défense et compte environ 200 salariés, deux fois plus qu'un an plus tôt.",
-  "impact": "Havoc se donne les moyens de passer de quelques dizaines à des milliers de bateaux autonomes, alors que la Navy prévoit de grandes flottes de drones de surface.",
-  "signal": "optimiste",
-  "rationale": "Levée importante, investisseurs industriels de la défense et clients publics déjà en place.",
-  "sources": [
-   {
-    "label": "The Robot Report, mai 2026",
-    "url": "https://www.therobotreport.com/havoc-raises-100m-unify-defense-autonomy-land-sea-air/"
-   },
-   {
-    "label": "Forbes, 12 mai 2026",
-    "url": "https://www.forbes.com/sites/monicahunter-hart/2026/05/12/meet-the-former-burmese-refugee-vying-to-be-the-us-militarys-go-to-drone-guy/"
-   },
-   {
-    "label": "FinSMEs, mai 2026",
-    "url": "https://www.finsmes.com/2026/05/havoc-ai-raises-100m-in-series-a-funding.html"
-   }
-  ],
-  "addedAt": "2026-11-05T19:17:24Z"
- },
- {
   "addedAt": "2026-09-22T08:00:00Z",
   "companyId": "apollo-research",
   "date": "2026-05-13",
@@ -7160,6 +7294,36 @@
   ],
   "summary": "Une équipe dédiée développe un outil de surveillance des agents de code, pensé pour la production.",
   "title": "Apollo ouvre San Francisco et construit Watcher, son premier produit"
+ },
+ {
+  "id": "havoc-ai-2026-05-13-serie-a",
+  "companyId": "havoc-ai",
+  "date": "2026-05-12",
+  "title": "Havoc lève 100 millions de dollars en série A, Devin Nunes prend la présidence du conseil",
+  "summary": "Le spécialiste des drones navals autonomes boucle une série A de 100 millions de dollars, portant ses fonds levés à plus de 200 millions depuis sa création en 2024.",
+  "detail": "Les nouveaux investisseurs comprennent SAIC, Clear Street et Cobalt Capital, aux côtés de B Capital, Lockheed Martin, Taiwania Capital et UP.Partners. L'ancien élu républicain Devin Nunes rejoint le conseil comme président. La valorisation n'est pas publiée ; selon Forbes, le CEO Paul Lwin juge l'estimation de PitchBook, environ 784 millions de dollars, un peu élevée.\n\nHavoc a livré plus de 30 véhicules au département américain de la Défense et compte environ 200 salariés, deux fois plus qu'un an plus tôt.",
+  "impact": "Havoc se donne les moyens de passer de quelques dizaines à des milliers de bateaux autonomes, alors que la Navy prévoit de grandes flottes de drones de surface.",
+  "signal": "optimiste",
+  "rationale": "Levée importante, investisseurs industriels de la défense et clients publics déjà en place.",
+  "sources": [
+   {
+    "label": "Havoc, communiqué, 12 mai 2026",
+    "url": "https://www.prnewswire.com/news-releases/havoc-raises-100m-series-a-to-power-the-future-of-all-domain-collaborative-autonomy-302769697.html"
+   },
+   {
+    "label": "The Robot Report, mai 2026",
+    "url": "https://www.therobotreport.com/havoc-raises-100m-unify-defense-autonomy-land-sea-air/"
+   },
+   {
+    "label": "Forbes, 12 mai 2026",
+    "url": "https://www.forbes.com/sites/monicahunter-hart/2026/05/12/meet-the-former-burmese-refugee-vying-to-be-the-us-militarys-go-to-drone-guy/"
+   },
+   {
+    "label": "FinSMEs, mai 2026",
+    "url": "https://www.finsmes.com/2026/05/havoc-ai-raises-100m-in-series-a-funding.html"
+   }
+  ],
+  "addedAt": "2026-11-05T19:17:24Z"
  },
  {
   "id": "fluidstack-2026-04-27-hut8-obligations",
@@ -7292,6 +7456,24 @@
   ],
   "addedAt": "2026-10-12T21:33:20Z",
   "companyId": "fluidstack"
+ },
+ {
+  "id": "havoc-ai-2026-03-11-mavrik-teleo",
+  "companyId": "havoc-ai",
+  "date": "2026-03-11",
+  "title": "Havoc rachète Mavrik et Teleo pour étendre son autonomie aux airs et au sol",
+  "summary": "Havoc acquiert Mavrik, fabricant de drones lourds de Long Beach, et Teleo, éditeur à Palo Alto d'un logiciel qui pilote à distance des engins de chantier.",
+  "detail": "Mavrik apporte des drones de groupes 1 et 3 pour la logistique et les secours, Teleo un logiciel qui permet à un seul opérateur de superviser plusieurs gros véhicules. Les conditions ne sont pas publiées.\n\nHavoc veut offrir un seul système pour commander des engins autonomes sur mer, dans les airs et au sol.",
+  "impact": "Havoc passe d'un spécialiste des drones navals à une plateforme multi-domaines, et accède à des marchés civils.",
+  "signal": "optimiste",
+  "rationale": "Deux acquisitions qui élargissent l'offre, sans montant connu.",
+  "sources": [
+   {
+    "label": "Havoc, communiqué, 11 mars 2026",
+    "url": "https://www.prnewswire.com/news-releases/havoc-advances-all-domain-collaborative-autonomy-through-acquisitions-of-mavrik-and-teleo-302711100.html"
+   }
+  ],
+  "addedAt": "2026-11-05T19:20:44Z"
  },
  {
   "id": "perplexity-2026-03-10-amazon-injonction",
