@@ -1,21 +1,21 @@
 {
- "generatedAt": "2026-11-04T13:06:30Z",
+ "generatedAt": "2026-11-05T00:31:41Z",
  "windowHours": 48,
- "headlinesRead": 1036,
- "count": 41,
- "priorityCount": 7,
+ "headlinesRead": 921,
+ "count": 46,
+ "priorityCount": 5,
  "companies": [
   {
    "companyId": "together-ai",
    "name": "Together AI",
    "candidates": [
     {
-     "date": "2026-11-04 13:00",
-     "media": "Yahoo Finance",
-     "title": "Together AI Launches Together Compiler for Continual Optimization of Open Source AI Models",
-     "site": "https://finance.yahoo.com",
+     "date": "2026-11-04 15:17",
+     "media": "blockchain.news",
+     "title": "Together AI Dévoile un Compilateur pour l'Optimisation Continue de l'Inférence AI",
+     "site": "https://blockchain.news",
      "overlap": 0,
-     "reprises": 1,
+     "reprises": 9,
      "priority": false
     }
    ]
@@ -40,11 +40,11 @@
    "name": "Mistral AI",
    "candidates": [
     {
-     "date": "2026-11-02 18:36",
-     "media": "POLITICO.eu",
-     "title": "Mistral CEO: Europe faces ‘complete trap’ without frontier AI",
-     "site": "https://www.politico.eu",
-     "overlap": 0.14,
+     "date": "2026-11-03 09:31",
+     "media": "The Cryptonomist",
+     "title": "Mistral Large 4 AI Model Advances Open-Weight Coding Benchmarks",
+     "site": "https://en.cryptonomist.ch",
+     "overlap": 0,
      "reprises": 0,
      "priority": false
     },
@@ -53,7 +53,7 @@
      "media": "qz.com",
      "title": "Mistral launches open-weight AI model ML4 to rival top systems",
      "site": "https://qz.com",
-     "overlap": 0.25,
+     "overlap": 0,
      "reprises": 0,
      "priority": false
     },
@@ -62,7 +62,7 @@
      "media": "Les Echos",
      "title": "Partenariat entre Mistral AI et le CERN : l'IA à la rescousse de la physique des particules",
      "site": "https://www.lesechos.fr",
-     "overlap": 0.33,
+     "overlap": 0,
      "reprises": 0,
      "priority": false
     }
@@ -80,6 +80,15 @@
      "overlap": 0,
      "reprises": 1,
      "priority": false
+    },
+    {
+     "date": "2026-11-04 19:15",
+     "media": "SecurityBrief New Zealand",
+     "title": "Deel launches security tool to spot fake remote hires",
+     "site": "https://securitybrief.co.nz",
+     "overlap": 0,
+     "reprises": 1,
+     "priority": false
     }
    ]
   },
@@ -87,6 +96,24 @@
    "companyId": "stripe",
    "name": "Stripe",
    "candidates": [
+    {
+     "date": "2026-11-04 21:37",
+     "media": "The Cryptonomist",
+     "title": "Stripe Stablecoin Payouts Expand USDC Crypto Payments Globally",
+     "site": "https://en.cryptonomist.ch",
+     "overlap": 0.29,
+     "reprises": 4,
+     "priority": false
+    },
+    {
+     "date": "2026-11-04 20:59",
+     "media": "bloomingbit",
+     "title": "Stripe Expands Stablecoin Payouts for US Businesses to More Than 160 Markets",
+     "site": "https://en.bloomingbit.io",
+     "overlap": 0.0,
+     "reprises": 1,
+     "priority": false
+    },
     {
      "date": "2026-11-04 10:07",
      "media": "Inc42",
@@ -113,6 +140,15 @@
      "overlap": 0.0,
      "reprises": 0,
      "priority": false
+    },
+    {
+     "date": "2026-11-04 14:09",
+     "media": "Analytics Insight",
+     "title": "Pine Labs-Stripe Deal: One Platform for All Retail Payments",
+     "site": "https://www.analyticsinsight.net",
+     "overlap": 0.0,
+     "reprises": 0,
+     "priority": false
     }
    ]
   },
@@ -134,7 +170,7 @@
      "media": "Tech.eu",
      "title": "Ex-Phoenix Court partner launches $17M debut solo fund to discover next Lovable",
      "site": "https://tech.eu",
-     "overlap": 0.2,
+     "overlap": 0.1,
      "reprises": 0,
      "priority": false
     },
@@ -159,7 +195,7 @@
      "title": "Payward Closes Bitnomial Acquisition, Gains Full US Derivatives Licenses",
      "site": "https://coinmarketcap.com",
      "overlap": 0.12,
-     "reprises": 1,
+     "reprises": 2,
      "priority": true
     },
     {
@@ -168,7 +204,7 @@
      "title": "Kraken Parent Payward Buys Hong Kong's Reap in $600M Stablecoin Deal",
      "site": "https://coinmarketcap.com",
      "overlap": 0.11,
-     "reprises": 0,
+     "reprises": 1,
      "priority": true
     },
     {
@@ -185,6 +221,15 @@
      "media": "Coinfomania",
      "title": "Kraken’s Upcoming IPO Announcement Could Reshape Market",
      "site": "https://coinfomania.com",
+     "overlap": 0.0,
+     "reprises": 1,
+     "priority": false
+    },
+    {
+     "date": "2026-11-04 08:49",
+     "media": "CoinMarketCap",
+     "title": "Kraken Parent Payward and Franklin Templeton Partner on Tokenized Assets",
+     "site": "https://coinmarketcap.com",
      "overlap": 0.0,
      "reprises": 1,
      "priority": false
@@ -215,15 +260,6 @@
      "overlap": 0.12,
      "reprises": 0,
      "priority": false
-    },
-    {
-     "date": "2026-11-04 08:49",
-     "media": "CoinMarketCap",
-     "title": "Kraken Parent Payward and Franklin Templeton Partner on Tokenized Assets",
-     "site": "https://coinmarketcap.com",
-     "overlap": 0.0,
-     "reprises": 0,
-     "priority": false
     }
    ]
   },
@@ -232,30 +268,12 @@
    "name": "Polymarket",
    "candidates": [
     {
-     "date": "2026-11-03 22:32",
-     "media": "The Tennessean",
-     "title": "Polymarket Sign-Up Bonus Code SBWIRE | Deposit $10, Get $25 for Midterms, NFL & More",
-     "site": "https://www.tennessean.com",
-     "overlap": 0.0,
-     "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-11-04 00:45",
-     "media": "MassLive",
-     "title": "Polymarket launches $25 promo code “MASS” for Election Night and college basketball",
-     "site": "https://www.masslive.com",
-     "overlap": 0.0,
-     "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-11-02 22:39",
-     "media": "Financial Regulation News",
-     "title": "Sens. Warren, Curtis probe Kalshi and Polymarket on election-related prediction markets",
-     "site": "https://financialregnews.com",
-     "overlap": 0.0,
-     "reprises": 0,
+     "date": "2026-11-04 17:45",
+     "media": "OregonLive.com",
+     "title": "NBA Polymarket promo code “OREGON” launches $25 bonus for Wednesday night",
+     "site": "https://www.oregonlive.com",
+     "overlap": 0,
+     "reprises": 2,
      "priority": false
     },
     {
@@ -263,16 +281,43 @@
      "media": "SILive.com",
      "title": "Polymarket code “SILIVE” launches $25 referral promo for Oilers-Devils",
      "site": "https://www.silive.com",
-     "overlap": 0.0,
+     "overlap": 0,
      "reprises": 0,
      "priority": false
     },
     {
-     "date": "2026-11-04 08:26",
-     "media": "CoinMarketCap",
-     "title": "Kalshi and Polymarket Race To Launch Crypto Perps",
-     "site": "https://coinmarketcap.com",
-     "overlap": 0.2,
+     "date": "2026-11-04 15:55",
+     "media": "Goal.com",
+     "title": "La police française enquête sur des soupçons de délit d’initié après que des paris sur Polymarket ont prédit avec exactitude les cinq premiers du Ballon d’Or",
+     "site": "https://www.goal.com",
+     "overlap": 0,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-11-04 17:45",
+     "media": "The Cool Down",
+     "title": "Former regulator now advises Polymarket, touts 'social benefit' of prediction markets",
+     "site": "https://www.thecooldown.com",
+     "overlap": 0,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-11-04 21:58",
+     "media": "Yahoo Finance",
+     "title": "Flutter CEO Dan Taylor: Here's how prediction markets like Kalshi and Polymarket are disrupting FanDuel",
+     "site": "https://finance.yahoo.com",
+     "overlap": 0,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-11-04 22:58",
+     "media": "BlueRidgeNow.com",
+     "title": "Polymarket Sign-Up Bonus Code SBWIRE | Deposit $10, Get $25 for NFL, Politics & More",
+     "site": "https://www.blueridgenow.com",
+     "overlap": 0,
      "reprises": 0,
      "priority": false
     }
@@ -292,12 +337,21 @@
      "priority": true
     },
     {
-     "date": "2026-11-04 13:03",
-     "media": "Raksha Anirveda",
-     "title": "Shield AI Unveils Runway-Free X-BAT Drone",
-     "site": "https://raksha-anirveda.com",
-     "overlap": 0.2,
-     "reprises": 1,
+     "date": "2026-11-04 16:26",
+     "media": "GeekWire",
+     "title": "First X-BAT fighter jet prototype unveiled as Shield AI preps Seattle area factory for 2027 launch",
+     "site": "https://www.geekwire.com",
+     "overlap": 0.33,
+     "reprises": 5,
+     "priority": false
+    },
+    {
+     "date": "2026-11-04 15:52",
+     "media": "EurAsian Times",
+     "title": "Like an AI-Piloted F-35B! U.S. Firm Unveils X-BAT ‘Fighter Drone’ That Can Fly From Islands, Ships & Dirt Strips",
+     "site": "https://www.eurasiantimes.com",
+     "overlap": 0.07,
+     "reprises": 3,
      "priority": false
     }
    ]
@@ -307,48 +361,66 @@
    "name": "Anthropic",
    "candidates": [
     {
-     "date": "2026-11-04 01:43",
-     "media": "Yahoo Finance",
-     "title": "Should You Buy Alphabet Stock After Anthropic Raised Its Google Commitment to $121 Billion?",
-     "site": "https://finance.yahoo.com",
-     "overlap": 0.18,
-     "reprises": 1,
+     "date": "2026-11-04 09:36",
+     "media": "The Globe and Mail",
+     "title": "3 Artificial Intelligence (AI) Stocks That Are Better and Safer Buys Than Anthropic",
+     "site": "https://www.theglobeandmail.com",
+     "overlap": 0.11,
+     "reprises": 2,
      "priority": true
     },
     {
-     "date": "2026-11-04 02:30",
-     "media": "Yahoo Finance",
-     "title": "Anthropic S-1: Record Growth, but is the IPO a Buy?",
-     "site": "https://finance.yahoo.com",
+     "date": "2026-11-04 19:29",
+     "media": "AOL.com",
+     "title": "Should You Buy Anthropic's IPO on Day 1?",
+     "site": "https://www.aol.com",
      "overlap": 0.2,
      "reprises": 0,
      "priority": true
     },
     {
-     "date": "2026-11-04 03:46",
-     "media": "FourWeekMBA",
-     "title": "Sony Music Publishing et Warner Chappell poursuivent Anthropic en justice concernant l'acquisition de données d'entraînement — et la théorie juridique est au cœur de l'histoire",
-     "site": "https://fourweekmba.com",
-     "overlap": 0.13,
-     "reprises": 0,
-     "priority": true
-    },
-    {
-     "date": "2026-11-04 09:00",
-     "media": "The Motley Fool",
-     "title": "3 Artificial Intelligence (AI) Stocks That Are Better and Safer Buys Than Anthropic",
-     "site": "https://www.fool.com",
-     "overlap": 0.11,
-     "reprises": 0,
-     "priority": true
-    },
-    {
-     "date": "2026-11-03 09:30",
-     "media": "Ecran Mobile",
-     "title": "Anthropic : prospectus IPO amendé, 33,2 Md$ sur 9 mois",
-     "site": "https://www.ecranmobile.fr",
+     "date": "2026-11-04 05:16",
+     "media": "news.lavx.hu",
+     "title": "Anthropic loses Claude Code product leader Cat Wu ahead of IPO",
+     "site": "https://news.lavx.hu",
      "overlap": 0.25,
-     "reprises": 4,
+     "reprises": 5,
+     "priority": false
+    },
+    {
+     "date": "2026-11-04 16:27",
+     "media": "CarbonCredits.com",
+     "title": "Anthropic’s New IPO Filing Puts AI and Data Center’s Energy and Emissions in Focus",
+     "site": "https://carboncredits.com",
+     "overlap": 0.25,
+     "reprises": 3,
+     "priority": false
+    },
+    {
+     "date": "2026-11-04 08:00",
+     "media": "NerdWallet",
+     "title": "What to Know Ahead of Anthropic’s IPO (NASDAQ: ANT)",
+     "site": "https://www.nerdwallet.com",
+     "overlap": 0.17,
+     "reprises": 2,
+     "priority": false
+    },
+    {
+     "date": "2026-11-04 10:25",
+     "media": "BigGo Finance",
+     "title": "Anthropic Pitches Claude as Chip Designer to IPO Investors as $1.5 Trillion Debut Looms",
+     "site": "https://finance.biggo.com",
+     "overlap": 0.22,
+     "reprises": 2,
+     "priority": false
+    },
+    {
+     "date": "2026-11-03 09:15",
+     "media": "Zonebourse",
+     "title": "CrowdStrike annonce l’intégration de Falcon Guardian à Claude Cowork d’Anthropic",
+     "site": "https://www.zonebourse.com",
+     "overlap": 0.14,
+     "reprises": 1,
      "priority": false
     },
     {
@@ -357,43 +429,7 @@
      "title": "Avant son entrée en Bourse, le créateur de Claude lance une mise en garde troublante sur l'IA",
      "site": "https://www.clubic.com",
      "overlap": 0.33,
-     "reprises": 3,
-     "priority": false
-    },
-    {
-     "date": "2026-11-03 15:53",
-     "media": "Healthcare IT News",
-     "title": "Athenahealth launches server to connect patient records to Anthropic's Claude",
-     "site": "https://www.healthcareitnews.com",
-     "overlap": 0.29,
-     "reprises": 3,
-     "priority": false
-    },
-    {
-     "date": "2026-11-02 16:31",
-     "media": "Financial Times",
-     "title": "Anthropic reveals $900bn AI spending commitments ahead of IPO",
-     "site": "https://www.ft.com",
-     "overlap": 0.17,
-     "reprises": 2,
-     "priority": false
-    },
-    {
-     "date": "2026-11-02 22:18",
-     "media": "WSJ",
-     "title": "Anthropic Investors Push for Cautious Valuation Closer to $1.5 Trillion",
-     "site": "https://www.wsj.com",
-     "overlap": 0.17,
-     "reprises": 2,
-     "priority": false
-    },
-    {
-     "date": "2026-11-03 17:43",
-     "media": "Yahoo Finance",
-     "title": "Everything you need to know ahead of Anthropic's IPO",
-     "site": "https://finance.yahoo.com",
-     "overlap": 0.17,
-     "reprises": 2,
+     "reprises": 1,
      "priority": false
     }
    ]
@@ -412,7 +448,7 @@
      "priority": false
     },
     {
-     "date": "2026-11-03 08:29",
+     "date": "2026-11-04 14:19",
      "media": "آي-فون إسلام",
      "title": "Perplexity launches health platform with Apple Health… Your smart doctor now knows you well!",
      "site": "https://iphoneislam.com",
@@ -425,6 +461,15 @@
      "media": "Yahoo Finance",
      "title": "Perplexity CEO Aravind Srinivas at Money20-20 USA- We’re Your Life’s CFO",
      "site": "https://finance.yahoo.com",
+     "overlap": 0,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-11-04 18:56",
+     "media": "FourWeekMBA",
+     "title": "Perplexity Says Its Agent Got 3.5x Ad Revenue on 2.1x Spend",
+     "site": "https://fourweekmba.com",
      "overlap": 0,
      "reprises": 0,
      "priority": false
