@@ -1,5 +1,59 @@
 [
  {
+  "id": "anthropic-2026-11-05-licence-ap-elections",
+  "companyId": "anthropic",
+  "date": "2026-11-05",
+  "title": "Anthropic signe sa première licence avec un éditeur de presse, l'AP, pour les élections",
+  "summary": "Selon Adweek, Anthropic paie pour la première fois un éditeur de presse numérique afin d'utiliser ses contenus : l'Associated Press fournira les données électorales à Claude.",
+  "detail": "Adweek décrit l'accord comme la première licence de contenu payée par Anthropic à un éditeur. Il porte sur la couverture des élections américaines. Les montants et la durée ne sont pas précisés dans l'article consulté.",
+  "impact": "Claude pourra s'appuyer sur des résultats électoraux d'une agence reconnue, et l'accord marque un virage vers la rémunération des contenus de presse.",
+  "signal": "optimiste",
+  "rationale": "Partenariat qui améliore la fiabilité des réponses sur un sujet sensible, sans détail financier connu.",
+  "sources": [
+   {
+    "label": "Adweek, 05/11/2026",
+    "url": "https://www.adweek.com/media/anthropic-first-licensing-deal-ap-election-coverage/"
+   }
+  ],
+  "addedAt": "2026-11-05T06:12:03Z"
+ },
+ {
+  "id": "together-ai-2026-11-04-together-compiler",
+  "companyId": "together-ai",
+  "date": "2026-11-04",
+  "title": "Together AI lance Together Compiler, une compilation continue de l'inférence",
+  "summary": "Together AI présente Together Compiler, des agents qui réoptimisent en continu l'inférence des modèles ouverts, et le concept d'inférence polymorphe.",
+  "detail": "Selon l'article de recherche publié le 4 novembre 2026, Together Compiler utilise des agents et des moteurs persistants pour optimiser un modèle ouvert en moins de 24 heures, avec un débit allant jusqu'à 3,7 fois supérieur, et ajuste ensuite la configuration quand le trafic change.\n\nUn second billet, \"From Static to Polymorphic Inference\", présente la logique d'ensemble : l'inférence s'adapte aux modèles, au trafic et aux puces utilisés, au lieu d'être réglée une fois pour toutes. Les chiffres de performance viennent de l'entreprise.",
+  "impact": "Un gain de débit sans intervention humaine peut réduire le coût par requête et renforcer l'offre d'inférence de Together face aux autres clouds d'IA.",
+  "signal": "optimiste",
+  "rationale": "Nouveau produit à l'argument technique clair, mais les gains annoncés sont publiés par la société elle-même.",
+  "sources": [
+   {
+    "label": "Together AI, Together Compiler, 04/11/2026",
+    "url": "https://www.together.ai/blog"
+   }
+  ],
+  "addedAt": "2026-11-05T06:12:03Z"
+ },
+ {
+  "id": "perplexity-2026-11-04-decisions-api-web-grounding",
+  "companyId": "perplexity",
+  "date": "2026-11-04",
+  "title": "Perplexity ajoute la recherche web en direct à son API Decisions",
+  "summary": "Perplexity propose un mode \"web grounding\" pour son API Decisions : des recherches web sont lancées avant que le modèle ne renvoie ses probabilités.",
+  "detail": "Annoncé le 4 novembre 2026, le mode s'active avec le paramètre mode=web_grounding. Jusqu'à 10 recherches tournent en parallèle, avec une limite d'une seconde par recherche et de trois secondes au total. Sur 328 affirmations vrai ou faux, Perplexity indique que la précision passe de 56,4 % à 97,3 %, pour une latence médiane de 139 à 366 ms.\n\nChaque recherche coûte 0,001 dollar, et les sources retrouvées sont facturées comme des jetons d'entrée. Ces résultats sont ceux de Perplexity.",
+  "impact": "Le produit gagne en fiabilité pour les usages de décision automatisée, au prix d'un peu de latence, et élargit l'offre développeurs de Perplexity.",
+  "signal": "optimiste",
+  "rationale": "Amélioration de précision annoncée importante, mais mesurée par la société sur son propre test.",
+  "sources": [
+   {
+    "label": "Unite.AI, 04/11/2026",
+    "url": "https://www.unite.ai/perplexity-adds-live-web-grounding-to-its-decisions-api/"
+   }
+  ],
+  "addedAt": "2026-11-05T06:12:03Z"
+ },
+ {
   "id": "shield-ai-2026-11-03-levee-1-milliard-x-bat",
   "companyId": "shield-ai",
   "date": "2026-11-03",
