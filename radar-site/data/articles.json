@@ -1,5 +1,49 @@
 [
  {
+  "id": "anthropic-2026-11-05-claude-personal-finance",
+  "companyId": "anthropic",
+  "date": "2026-11-05",
+  "title": "Anthropic lance en bêta Claude Personal Finance, un accès en lecture seule aux comptes bancaires",
+  "summary": "Anthropic ouvre en bêta aux États-Unis une fonction qui relie les comptes bancaires des abonnés à Claude via Plaid, sans pouvoir y déplacer d'argent.",
+  "detail": "La bêta est réservée à certains abonnés américains des formules Pro, Max et Ultra. Les comptes sont liés par Plaid : Claude ne voit jamais le mot de passe bancaire et ne peut ni déplacer, ni gérer, ni investir de l'argent. Jusqu'à 16 banques peuvent être reliées et Claude analyse jusqu'à deux ans de transactions.\n\nLa fonction explique les dépenses du mois, repère doublons et frais, et produit graphiques et tableaux de bord. Anthropic affirme qu'il n'y a ni publicité ni recommandation sponsorisée, que les échanges du hub ne servent pas à l'entraînement et que la société ne propose pas de cartes, prêts ou comptes d'épargne. Elle parle d'une « première étape » et explore des collaborations avec des professionnels agréés. OpenAI a lancé une fonction comparable en mai.",
+  "impact": "Anthropic étend Claude vers un usage grand public récurrent et sensible, au moment où l'entreprise prépare son introduction en Bourse.",
+  "signal": "optimiste",
+  "rationale": "Nouveau cas d'usage grand public sans publicité, mais le déploiement reste une bêta limitée aux États-Unis et expose à des risques de confidentialité.",
+  "sources": [
+   {
+    "label": "The Next Web, 05/11/2026",
+    "url": "https://thenextweb.com/news/anthropic-claude-personal-finance-plaid-read-only-beta"
+   },
+   {
+    "label": "Android Authority, 05/11/2026",
+    "url": "https://www.androidauthority.com/claude-personal-finance-launch-3732213/"
+   }
+  ],
+  "addedAt": "2026-11-06T06:19:05Z"
+ },
+ {
+  "id": "perplexity-2026-11-05-teammates",
+  "companyId": "perplexity",
+  "date": "2026-11-05",
+  "title": "Perplexity lance Teammates, des agents IA permanents pour le travail, réservés aux abonnés Max",
+  "summary": "Perplexity présente Teammates, des agents personnels qui prennent en charge un travail continu à partir d'un objectif général, d'abord sur le web pour les abonnés Max à 200 dollars par mois.",
+  "detail": "Selon Digital Trends, les Teammates s'appuient sur les Projects, la Memory, les Skills, les connecteurs et les sessions passées de Perplexity. Chacun travaille dans son propre environnement et l'utilisateur peut examiner son travail, reprendre la main ou le réorienter. On peut les ajouter à un canal Slack pour leur confier des tâches.\n\nPerplexity cite le tri de bugs, les boucles de QA, la surveillance de sécurité, l'analyse de données et la gestion de tests A/B. Les versions mobile et desktop sont annoncées pour bientôt. Aravind Srinivas présente le produit comme une première étape vers des agents personnels pour le travail.",
+  "impact": "Perplexity prolonge Computer vers des agents persistants et renforce son offre Max face à OpenAI, Microsoft et Anthropic.",
+  "signal": "optimiste",
+  "rationale": "Produit stratégique qui valorise l'abonnement le plus cher, mais le marché est très concurrentiel et le prix limite l'audience.",
+  "sources": [
+   {
+    "label": "Digital Trends, 05/11/2026",
+    "url": "https://www.digitaltrends.com/cool-tech/perplexitys-new-ai-coworkers-can-take-over-your-workload-but-they-dont-come-cheap/"
+   },
+   {
+    "label": "The Verge via UA.NEWS, 05/11/2026",
+    "url": "https://ua.news/en/dovkolo-svitu/perplexity-zapustila-shi-agentiv-teammates-dlia-robochikh-zavdan-the-verge"
+   }
+  ],
+  "addedAt": "2026-11-06T06:19:05Z"
+ },
+ {
   "id": "shield-ai-2026-11-05-rachat-echodyne-serie-h",
   "companyId": "shield-ai",
   "date": "2026-11-05",
