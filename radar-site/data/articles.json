@@ -1,5 +1,27 @@
 [
  {
+  "id": "anthropic-2026-11-06-ipo-valorisation-chute-nasdaq",
+  "companyId": "anthropic",
+  "date": "2026-11-06",
+  "title": "La chute du Nasdaq fait douter de l'introduction en Bourse d'Anthropic et de sa valorisation de 1 500 milliards de dollars",
+  "summary": "Après un recul d'environ 6 % du Nasdaq jeudi, la presse financière évoque un report ou une forte baisse de la valorisation visée pour l'IPO d'Anthropic.",
+  "detail": "Selon City AM, qui s'appuie sur le Wall Street Journal, trois grands investisseurs pressentis pour l'opération jugent que la valorisation devra baisser, l'un d'eux évoquant environ 1 000 milliards de dollars. Anthropic visait jusqu'ici 1 500 milliards, après 965 milliards en mai.\n\nLe média rappelle que l'entreprise annonce plus de 33 milliards de dollars de revenu sur les neuf premiers mois de 2026, avec une croissance ralentie entre le deuxième et le troisième trimestre, et plus de 800 milliards de dollars d'engagements de calcul. La présentation aux investisseurs était attendue la semaine du 9 novembre, mais ce calendrier pourrait glisser si la correction se prolonge, selon PitchBook. Dès le 2 novembre, le WSJ indiquait que des investisseurs poussaient pour 1 500 à 1 600 milliards de dollars.",
+  "impact": "Une valorisation d'introduction plus basse ou un report réduirait les fonds levés et le calendrier de cotation d'Anthropic, sans changer ses revenus déjà publiés.",
+  "signal": "prudent",
+  "rationale": "Le contexte de marché dégradé menace le prix et la date de l'IPO, d'après des investisseurs cités par le WSJ, non confirmés par Anthropic.",
+  "sources": [
+   {
+    "label": "City AM, 06/11/2026",
+    "url": "https://www.cityam.com/anthropics-1-5-trillion-ipo-in-doubt-as-ai-sell-off-spooks-investors/"
+   },
+   {
+    "label": "investingLive (reprise du WSJ), 02/11/2026",
+    "url": "https://investinglive.com/stocks/wsj-anthropic-ipo-investors-push-for-lower-1-5-trillion-valuation-after-tech-selloff/"
+   }
+  ],
+  "addedAt": "2026-11-06T12:20:04Z"
+ },
+ {
   "id": "anthropic-2026-11-05-claude-personal-finance",
   "companyId": "anthropic",
   "date": "2026-11-05",
