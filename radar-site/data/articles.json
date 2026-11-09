@@ -300,6 +300,28 @@
   "addedAt": "2026-11-05T06:12:03Z"
  },
  {
+  "id": "varda-2026-11-05-retour-w8",
+  "companyId": "varda",
+  "date": "2026-11-05",
+  "title": "Varda récupère sa capsule W-8 en Australie alors que trois de ses engins volaient en même temps",
+  "summary": "La capsule W-8 s'est posée sur le site de Koonibba (Australie-Méridionale) après 35 jours en orbite. C'est la septième rentrée réussie de Varda depuis 2024.",
+  "detail": "Lancée le 1er octobre avec W-9, la capsule embarquait des capteurs à fibre optique de Canopy Aerospace & Defense pour mesurer la chaleur sur le bouclier thermique, et des matériaux de protection financés par un programme public d'essais hypersoniques. Pendant la descente, Varda pilotait trois véhicules à la fois : W-7 et W-9 restent en orbite. La rentrée a été opérée avec Southern Launch.",
+  "impact": "Varda montre qu'elle peut enchaîner les missions, condition pour rentabiliser son modèle de fabrication en orbite.",
+  "signal": "optimiste",
+  "rationale": "Mission réussie et première opération à plusieurs véhicules.",
+  "sources": [
+   {
+    "label": "Varda, communiqué, 5 nov. 2026",
+    "url": "https://www.prnewswire.com/news-releases/vardas-w-8-capsule-returns-safely-from-orbit-as-three-vehicles-operate-in-space-302931173.html"
+   },
+   {
+    "label": "Australian Defence Magazine, 6 nov. 2026",
+    "url": "https://www.australiandefence.com.au/defence/cyber-space/southern-launch-leads-varda-w-8-capsule-re-entry"
+   }
+  ],
+  "addedAt": "2026-11-09T19:27:05Z"
+ },
+ {
   "id": "stripe-2026-11-04-paiements-stablecoins-160-marches",
   "companyId": "stripe",
   "date": "2026-11-04",
@@ -2274,6 +2296,54 @@
   "addedAt": "2026-10-20T12:20:37Z"
  },
  {
+  "id": "varda-2026-10-20-w7-medicament-cancer",
+  "companyId": "varda",
+  "date": "2026-10-20",
+  "title": "Varda lance W-7 pour cristalliser en orbite un candidat médicament contre le cancer",
+  "summary": "La capsule W-7 est partie de Cap Canaveral sur une fusée SpaceX. Elle doit tester si l'apesanteur produit des cristaux plus solubles d'un composé anticancéreux de type PROTAC.",
+  "detail": "Un médicament plus soluble est mieux absorbé par l'organisme. Le composé et son propriétaire ne sont pas nommés. Les cristaux reviendront sur Terre pour analyse. C'est le troisième lancement de Varda en octobre et le quatrième de 2026.",
+  "impact": "Varda passe des démonstrations techniques à des essais sur de vrais candidats médicaments, son marché cible.",
+  "signal": "optimiste",
+  "rationale": "Première mission dédiée à un médicament anticancéreux.",
+  "sources": [
+   {
+    "label": "Varda, communiqué, 20 oct. 2026",
+    "url": "https://www.prnewswire.com/news-releases/varda-space-industries-launches-w-7-to-study-cancer-drug-crystallization-in-orbit-302914014.html"
+   },
+   {
+    "label": "Axios, 20 oct. 2026",
+    "url": "https://www.axios.com/2026/10/20/cancer-drugs-space-varda"
+   }
+  ],
+  "addedAt": "2026-11-09T19:27:05Z"
+ },
+ {
+  "id": "varda-2026-10-20-spacex-starfall",
+  "companyId": "varda",
+  "date": "2026-10-20",
+  "title": "SpaceX fait voler sa propre capsule de retour Starfall sur la même fusée que Varda",
+  "summary": "SpaceX a lancé pour la deuxième fois Starfall, une capsule de retour sans équipage destinée à la recherche en apesanteur et à la fabrication en orbite, sur la même mission que la capsule W-7 de Varda.",
+  "detail": "Starfall avait fait son premier vol en juin 2026. SpaceX communique peu sur le projet, mais il vise le même marché que Varda : ramener sur Terre des produits fabriqués en orbite. Redwire a déjà réservé une mission Starfall pour ses recherches pharmaceutiques. Varda dépend de SpaceX pour tous ses lancements.",
+  "impact": "Un concurrent qui contrôle aussi ses propres fusées pourrait peser sur les prix et sur l'accès de Varda à l'orbite.",
+  "signal": "prudent",
+  "rationale": "Arrivée possible d'un concurrent de très grande taille, qui est aussi le lanceur de Varda.",
+  "sources": [
+   {
+    "label": "Spaceflight Now, 18 oct. 2026",
+    "url": "https://spaceflightnow.com/2026/10/18/live-coverage-spacex-to-launch-starfall-reentry-capsule-31-customer-payloads-on-bandwagon-5-rideshare-mission/"
+   },
+   {
+    "label": "Space.com",
+    "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starfall-return-capsule-launch-bandwagon-5-rideshare-mission"
+   },
+   {
+    "label": "Gizmodo",
+    "url": "https://gizmodo.com/spacexs-next-big-business-could-be-building-stuff-in-space-2000766931"
+   }
+  ],
+  "addedAt": "2026-11-09T19:27:05Z"
+ },
+ {
   "id": "anthropic-2026-10-19-nscale-second-contrat",
   "companyId": "anthropic",
   "date": "2026-10-19",
@@ -3240,6 +3310,24 @@
   "addedAt": "2026-10-13T06:25:23Z"
  },
  {
+  "id": "varda-2026-10-13-cadence-lancements",
+  "companyId": "varda",
+  "date": "2026-10-13",
+  "title": "Varda vise sept lancements l'an prochain et recrute massivement",
+  "summary": "Avec deux capsules en orbite et une troisième sur le point de partir, Varda prévoit sept autres missions l'année suivante.",
+  "detail": "La société affirme disposer des capitaux nécessaires après sa Série D et mène une grosse campagne de recrutement. Le principal défi des prochains mois sera de monter en cadence sans incident.",
+  "impact": "La hausse du nombre de vols conditionne les revenus, chaque mission étant facturée à des clients pharmaceutiques ou militaires.",
+  "signal": "neutre",
+  "rationale": "Plan de croissance annoncé, encore à exécuter.",
+  "sources": [
+   {
+    "label": "Space.com, 13 oct. 2026",
+    "url": "https://space.com/space-exploration/launches-spacecraft/2-spacecraft-in-orbit-and-8-more-coming-soon-varda-has-big-plans-for-in-space-manufacturing"
+   }
+  ],
+  "addedAt": "2026-11-09T19:27:05Z"
+ },
+ {
   "id": "havoc-ai-2026-10-12-sbir-army",
   "companyId": "havoc-ai",
   "date": "2026-10-12",
@@ -4134,6 +4222,28 @@
   "addedAt": "2026-10-06T08:38:05Z"
  },
  {
+  "id": "varda-2026-10-01-double-lancement",
+  "companyId": "varda",
+  "date": "2026-10-01",
+  "title": "Varda envoie deux capsules en orbite sur la même fusée, une première",
+  "summary": "Les capsules W-8 et W-9 sont parties ensemble de Vandenberg sur la mission SpaceX Transporter-18. Selon Varda, c'est la première fois que deux véhicules de rentrée commerciaux sont lancés simultanément.",
+  "detail": "W-8 porte des capteurs de Canopy Aerospace & Defense et des matériaux financés notamment par le laboratoire de recherche de l'US Air Force (programme Prometheus). W-9 teste un système de navigation pour le vol hypersonique, financé par un programme public, et des tuiles de bouclier thermique du chimiste Syensqo.",
+  "impact": "Les clients défense, qui paient les essais hypersoniques, assurent une part importante de l'activité en attendant les contrats pharmaceutiques.",
+  "signal": "optimiste",
+  "rationale": "Première technique et plusieurs clients payants.",
+  "sources": [
+   {
+    "label": "Varda, communiqué, 1er oct. 2026",
+    "url": "https://www.prnewswire.com/news-releases/varda-space-industries-launches-two-vehicles-to-orbit-at-the-same-time-302896502.html"
+   },
+   {
+    "label": "Payload, 30 sept. 2026",
+    "url": "https://payloadspace.com/varda-raises-251m-series-d/"
+   }
+  ],
+  "addedAt": "2026-11-09T19:27:05Z"
+ },
+ {
   "id": "anthropic-2026-09-30-enquete-ftc",
   "companyId": "anthropic",
   "date": "2026-09-30",
@@ -4398,6 +4508,32 @@
    }
   ],
   "addedAt": "2026-09-30T15:46:23Z"
+ },
+ {
+  "id": "varda-2026-09-30-serie-d",
+  "companyId": "varda",
+  "date": "2026-09-30",
+  "title": "Varda lève 251 millions de dollars à 1,6 milliard de valorisation",
+  "summary": "La Série D est menée par Lux Capital et Natural Capital, avec Founders Fund, Khosla Ventures, Caffeinated Capital et General Catalyst. Varda a levé près de 600 millions de dollars au total.",
+  "detail": "La valorisation de 1,6 milliard de dollars a été communiquée à Reuters ; la Série C de juillet 2025 (187 millions) avait été levée à une valorisation non publiée. L'argent doit servir à augmenter le nombre de missions et à développer les partenariats pharmaceutiques. Varda a réussi six rentrées depuis 2023 et en prévoit plus d'une douzaine d'ici 2028.",
+  "impact": "Varda devient une licorne et finance sa montée en cadence pour plusieurs années.",
+  "signal": "optimiste",
+  "rationale": "Levée importante et valorisation multipliée par trois environ par rapport à 2023.",
+  "sources": [
+   {
+    "label": "Reuters, 30 sept. 2026",
+    "url": "https://www.reuters.com/legal/transactional/varda-raises-250-million-16-billion-valuation-scale-orbital-drug-manufacturing-2026-09-30/"
+   },
+   {
+    "label": "Payload, 30 sept. 2026",
+    "url": "https://payloadspace.com/varda-raises-251m-series-d/"
+   },
+   {
+    "label": "Fierce Pharma, 30 sept. 2026",
+    "url": "https://www.fiercepharma.com/pharma/varda-brings-home-251m-series-d-fuel-space-based-drug-manufacturing"
+   }
+  ],
+  "addedAt": "2026-11-09T19:27:05Z"
  },
  {
   "id": "perplexity-2026-09-29-amd-ryzen-ai-max",
@@ -7438,6 +7574,28 @@
   "addedAt": "2026-10-09T12:52:23Z"
  },
  {
+  "id": "varda-2026-05-20-retour-w6",
+  "companyId": "varda",
+  "date": "2026-05-20",
+  "title": "La capsule W-6 de Varda revient en Australie avec des équipements de la NASA",
+  "summary": "W-6 s'est posée à Koonibba, en Australie-Méridionale, avec des expériences de la NASA et d'autres agences américaines sur les boucliers thermiques. C'est la quatrième capsule posée sur ce site en un peu plus d'un an.",
+  "detail": "La mission validait aussi la navigation autonome de la capsule. La rentrée a été gérée de bout en bout par la société australienne Southern Launch.",
+  "impact": "Les vols pour la NASA et la défense financent la mise au point de la capsule.",
+  "signal": "neutre",
+  "rationale": "Mission réussie, sans contrat nouveau annoncé.",
+  "sources": [
+   {
+    "label": "Gouvernement d'Australie-Méridionale, mai 2026",
+    "url": "https://sasic.sa.gov.au/media/space-capsule-returns-to-sa/"
+   },
+   {
+    "label": "Australian Defence Magazine",
+    "url": "https://www.australiandefence.com.au/defence/cyber-space/southern-launch-aids-varda-w-6-capsule-re-entry"
+   }
+  ],
+  "addedAt": "2026-11-09T19:27:05Z"
+ },
+ {
   "id": "mistral-ai-2026-05-19-emmi-ai",
   "companyId": "mistral-ai",
   "date": "2026-05-19",
@@ -7480,6 +7638,32 @@
   ],
   "summary": "Une équipe dédiée développe un outil de surveillance des agents de code, pensé pour la production.",
   "title": "Apollo ouvre San Francisco et construit Watcher, son premier produit"
+ },
+ {
+  "id": "varda-2026-05-13-united-therapeutics",
+  "companyId": "varda",
+  "date": "2026-05-13",
+  "title": "Varda signe son premier grand client pharmaceutique, United Therapeutics",
+  "summary": "United Therapeutics va payer Varda pour cristalliser en orbite des médicaments contre des maladies pulmonaires rares, sur plusieurs missions.",
+  "detail": "L'objectif est de trouver de nouvelles formes cristallines plus stables ou mieux absorbées. Les montants et les molécules ne sont pas publiés. Selon Varda, c'est la première fois qu'un grand groupe coté finance sur ses propres fonds, et non avec la NASA, un produit fabriqué en apesanteur. Un premier vol pourrait avoir lieu début 2027.",
+  "impact": "Premier signe que le marché pharmaceutique visé par Varda est prêt à payer.",
+  "signal": "optimiste",
+  "rationale": "Premier contrat commercial avec un groupe pharmaceutique coté.",
+  "sources": [
+   {
+    "label": "SpaceNews, 13 mai 2026",
+    "url": "https://spacenews.com/varda-to-collaborate-with-united-therapeutics-on-microgravity-drug-research/"
+   },
+   {
+    "label": "MIT Technology Review, 13 mai 2026",
+    "url": "https://www.technologyreview.com/2026/05/13/1137153/varda-united-therapeutics-drug-manufacturing-in-space/"
+   },
+   {
+    "label": "Bloomberg, 13 mai 2026",
+    "url": "https://www.bloomberg.com/news/articles/2026-05-13/thiel-backed-varda-to-take-drugs-to-space-for-microgravity-test"
+   }
+  ],
+  "addedAt": "2026-11-09T19:27:05Z"
  },
  {
   "id": "havoc-ai-2026-05-13-serie-a",
@@ -7702,6 +7886,28 @@
   "addedAt": "2026-10-12T21:14:41Z"
  },
  {
+  "id": "varda-2026-03-04-site-mattel",
+  "companyId": "varda",
+  "date": "2026-03-04",
+  "title": "Varda reprend l'ancien centre de recherche de Mattel à El Segundo",
+  "summary": "Varda loue un campus d'environ 205 000 pieds carrés (près de 19 000 m²) qui abritait la R&D des jouets Mattel, pour augmenter sa production de capsules.",
+  "detail": "Le site, construit en 1940 pour l'aviation, s'ajoute au siège actuel d'environ 60 000 pieds carrés. Mattel doit le quitter dans l'année.",
+  "impact": "Le site permet de produire beaucoup plus de capsules, condition pour tenir la cadence de vols visée.",
+  "signal": "optimiste",
+  "rationale": "Forte hausse de la capacité industrielle.",
+  "sources": [
+   {
+    "label": "Los Angeles Times, 4 mars 2026",
+    "url": "https://www.latimes.com/business/story/2026-03-04/startup-varda-space-industries-snags-former-mattel-plant-in-el-segundo"
+   },
+   {
+    "label": "Commercial Observer, mars 2026",
+    "url": "https://commercialobserver.com/2026/03/varda-space-industries-aerospace-lease/"
+   }
+  ],
+  "addedAt": "2026-11-09T19:27:05Z"
+ },
+ {
   "id": "perplexity-2026-02-22-samsung-galaxy-s26",
   "companyId": "perplexity",
   "date": "2026-02-22",
@@ -7784,6 +7990,42 @@
    }
   ],
   "addedAt": "2026-10-16T00:38:24Z"
+ },
+ {
+  "id": "varda-2026-01-29-retour-w5-navy",
+  "companyId": "varda",
+  "date": "2026-01-29",
+  "title": "Varda récupère sa capsule W-5, chargée d'une expérience pour l'US Navy",
+  "summary": "W-5, lancée en novembre 2025, s'est posée en Australie-Méridionale avec une expérience de l'US Navy financée par le laboratoire de recherche de l'Air Force.",
+  "detail": "C'est le premier atterrissage de Varda en 2026. Chaque rentrée sert aussi d'essai de vol hypersonique pour l'armée américaine.",
+  "impact": "Confirme la demande militaire pour les essais hypersoniques, principale source de revenus actuelle.",
+  "signal": "neutre",
+  "rationale": "Mission réussie, dans la continuité des précédentes.",
+  "sources": [
+   {
+    "label": "Aviation Week, 29 janv. 2026",
+    "url": "https://aviationweek.com/space/operations-safety/varda-completes-first-landing-reentry-capsule-26"
+   }
+  ],
+  "addedAt": "2026-11-09T19:27:05Z"
+ },
+ {
+  "id": "varda-2026-01-22-mach-tb",
+  "companyId": "varda",
+  "date": "2026-01-22",
+  "title": "Le Pentagone retient Varda pour son banc d'essai hypersonique MACH-TB 2.0",
+  "summary": "Varda et Stratolaunch sont sélectionnés comme fournisseurs de vols réutilisables et récupérables pour le programme MACH-TB 2.0 du ministère américain de la Défense.",
+  "detail": "Le programme vise 50 essais de vol hypersonique par an. Le montant attribué à Varda n'est pas publié.",
+  "impact": "Place Varda dans la filière des essais hypersoniques du Pentagone, un débouché récurrent.",
+  "signal": "optimiste",
+  "rationale": "Sélection dans un programme pluriannuel de la défense.",
+  "sources": [
+   {
+    "label": "Defense Daily, 22 janv. 2026",
+    "url": "https://www.defensedaily.com/stratolaunch-varda-space-selected-as-launch-providers-for-hypersonic-test-bed/advanced-transformational-technology/"
+   }
+  ],
+  "addedAt": "2026-11-09T19:27:05Z"
  },
  {
   "addedAt": "2026-09-22T08:00:00Z",

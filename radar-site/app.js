@@ -335,20 +335,22 @@ if (location.protocol === 'http:' && location.hostname !== 'localhost') {
   // Courbe de valorisation : une seule série (pas de légende de série), points pleins = officielle, creux = presse.
   function valuationChart(c, opts){
     const pts = vals(c).filter(v=>typeof v.value==='number').reverse();
-    if(pts.length<2) return null;
+    if(!pts.length) return null;
+    const single = pts.length===1; // un seul point connu : on le centre, sans trait
     const W = 640, H = 230, L = 52, R = 18, T = 26, B = 30;
     const t = v=>Date.parse(v.date);
     const t0 = t(pts[0]), t1 = t(pts[pts.length-1]), span = Math.max(t1-t0, 1);
     const top = niceMax(Math.max(...pts.map(v=>v.value))*1.08);
-    const x = v=> L + (t(v)-t0)/span*(W-L-R);
+    const x = v=> single ? (L+W-R)/2 : L + (t(v)-t0)/span*(W-L-R);
     const y = val=> T + (1-val/top)*(H-T-B);
     const unit = pts[0].currency==='EUR' ? ' Md€' : ' Md$';
     const g = sv('svg',{viewBox:'0 0 '+W+' '+H,class:'vchart',role:'img','aria-label':'Historique de valorisation de '+c.name});
     for(let i=0;i<=4;i++){ const val = top*i/4, yy = y(val);
       g.append(sv('line',{x1:L,x2:W-R,y1:yy,y2:yy,class:i?'grid':'base'}),
-        sv('text',{x:L-8,y:yy+4,'text-anchor':'end',class:'ax'}, String(Math.round(val*10)/10).replace('.',',')+(i===4?unit:''))); }
+        sv('text',{x:L-8,y:yy+4,'text-anchor':'end',class:'ax'}, String(Math.round(val*(top<2?100:10))/(top<2?100:10)).replace('.',',')+(i===4?unit:''))); }
     const y0 = new Date(t0).getFullYear(), y1 = new Date(t1).getFullYear();
-    for(let yr=y0; yr<=y1; yr++){ const tt = Date.UTC(yr,0,1); if(tt<t0-1 || tt>t1+1) continue;
+    if(single) g.append(sv('text',{x:x(pts[0]),y:H-B+18,'text-anchor':'middle',class:'ax'},fmtDate(pts[0])));
+    else for(let yr=y0; yr<=y1; yr++){ const tt = Date.UTC(yr,0,1); if(tt<t0-1 || tt>t1+1) continue;
       const xx = L + (tt-t0)/span*(W-L-R); g.append(sv('line',{x1:xx,x2:xx,y1:H-B,y2:H-B+5,class:'base'}), sv('text',{x:xx,y:H-B+18,'text-anchor':'middle',class:'ax'},String(yr))); }
     for(let i=1;i<pts.length;i++) g.append(sv('line',{x1:x(pts[i-1]),y1:y(pts[i-1].value),x2:x(pts[i]),y2:y(pts[i].value),class:'ln'+(pts[i].status==='presse'?' dash':'')}));
     const maxI = pts.reduce((m,v,i)=>v.value>pts[m].value?i:m,0);
