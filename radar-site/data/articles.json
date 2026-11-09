@@ -1,5 +1,49 @@
 [
  {
+  "id": "anthropic-2026-11-09-fuite-comptes-coree",
+  "companyId": "anthropic",
+  "date": "2026-11-09",
+  "title": "Anthropic signale à la Corée du Sud une fuite touchant une centaine de comptes d'entreprises Claude",
+  "summary": "Anthropic a prévenu le régulateur coréen de la protection des données que des informations d'environ 100 comptes d'entreprises coréennes de Claude ont été exposées lors de l'intrusion liée à Cathedral.",
+  "detail": "Selon le Seoul Economic Daily, Anthropic a notifié la commission coréenne de protection des données personnelles (PIPC) le 31 octobre. Les données concernées seraient des identifiants de compte et d'organisation, des noms, des adresses e-mail et des formules d'abonnement. Une porte-parole d'Anthropic a indiqué sur X, le 8 novembre, que les requêtes, les réponses de Claude et les données de paiement n'ont pas été touchées.\n\nLa PIPC mène un examen préliminaire avant une éventuelle enquête formelle. Anthropic dit avoir coupé les systèmes concernés le jour même et corrigé la faille avec l'éditeur du logiciel tiers. L'intrusion initiale, attribuée à la start-up de sécurité Cathedral, avait été rapportée par le Washington Post le 26 octobre.",
+  "impact": "L'incident prend une dimension réglementaire hors des États-Unis, au moment où l'entreprise prépare son introduction en Bourse.",
+  "signal": "prudent",
+  "rationale": "Fuite de données clients confirmée par Anthropic et examen en cours d'un régulateur, même si les contenus des échanges et les paiements sont épargnés.",
+  "sources": [
+   {
+    "label": "Seoul Economic Daily, 09/11/2026",
+    "url": "https://en.sedaily.com/international/2026/11/09/data-breach-at-anthropics-claude-hits-over-100-korean"
+   },
+   {
+    "label": "PANews, citant Yonhap, 09/11/2026",
+    "url": "https://panews.io/articles/01a1bff3-8014-7266-bbd6-f086c11d61e0"
+   }
+  ],
+  "addedAt": "2026-11-09T12:22:16Z"
+ },
+ {
+  "id": "mistral-ai-2026-11-09-droit-auteur-niche-19-novembre",
+  "companyId": "mistral-ai",
+  "date": "2026-11-09",
+  "title": "Droit d'auteur et IA : Mistral monte au front avant l'examen de la loi Darcos le 19 novembre",
+  "summary": "Arthur Mensch s'oppose à la proposition de loi sur la présomption d'utilisation des œuvres par les IA, tandis que la sénatrice Laure Darcos reproche à Mistral de ne pas avoir signé de licences.",
+  "detail": "Adoptée à l'unanimité par le Sénat, la proposition de loi présume qu'une œuvre protégée a servi à entraîner un modèle dès qu'un indice le rend plausible, à l'éditeur du modèle de prouver le contraire. Les députés socialistes l'ont inscrite à leur niche parlementaire du 19 novembre. Le 8 novembre, Arthur Mensch a publié sur LinkedIn une position contre le texte et propose plutôt une contribution assise sur le chiffre d'affaires des fournisseurs d'IA actifs en Europe, destinée à un fonds pour la création.\n\nL'AFNUM, qui compte Google, Nvidia et Microsoft, dénonce aussi le texte. Laure Darcos répond que Mistral n'a pas signé de licences avec les secteurs culturels et cite plus de 160 procès aux États-Unis. Selon Le Monde, cité par Next.ink, un amendement de compromis pourrait permettre l'adoption en excluant Mistral.",
+  "impact": "Le texte pourrait imposer à Mistral une charge de preuve sur ses données d'entraînement et un risque juridique en France, son marché d'origine.",
+  "signal": "neutre",
+  "rationale": "Issue incertaine : adoption possible ou nouveau blocage, avec un compromis qui pourrait exclure Mistral.",
+  "sources": [
+   {
+    "label": "Next.ink, 09/11/2026",
+    "url": "https://next.ink/266327/ia-et-droit-dauteur-mistral-et-les-industriels-du-numerique-accentuent-le-lobbying/"
+   },
+   {
+    "label": "ZDNET France, 09/11/2026",
+    "url": "https://www.zdnet.fr/actualites/"
+   }
+  ],
+  "addedAt": "2026-11-09T12:22:16Z"
+ },
+ {
   "id": "anthropic-2026-11-08-generateurs-gaz-onepwr-3-4-milliards",
   "companyId": "anthropic",
   "date": "2026-11-08",
