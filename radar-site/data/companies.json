@@ -1605,5 +1605,85 @@
     "articleId": "havoc-ai-2026-05-13-serie-a"
    }
   ]
+ },
+ {
+  "id": "varda",
+  "name": "Varda Space Industries",
+  "sector": "Fabrication spatiale",
+  "order": 20,
+  "oneLiner": "Capsules qui fabriquent des médicaments en apesanteur puis reviennent sur Terre, et bancs d'essai hypersoniques pour la défense.",
+  "description": "Fondée fin 2020 à El Segundo (Californie) et incubée par Founders Fund, Varda envoie en orbite basse de petites capsules W qui cristallisent des molécules pharmaceutiques en microgravité, puis les ramène sur Terre. Chaque rentrée atmosphérique sert aussi de vol d'essai hypersonique pour l'US Air Force. Elle a réussi six rentrées depuis 2023, atterrit surtout à Koonibba (Australie-Méridionale) et travaille avec United Therapeutics.",
+  "hq": "El Segundo, Californie",
+  "founded": "2020",
+  "leaders": "Will Bruey (cofondateur et CEO), Delian Asparouhov (cofondateur et président)",
+  "website": "https://www.varda.com/",
+  "valuations": [
+   {
+    "amount": "1,6 milliard de dollars",
+    "value": 1.6,
+    "currency": "USD",
+    "round": "Série D de 251 millions de dollars (Lux Capital, Natural Capital)",
+    "date": "2026-09-30",
+    "status": "officielle",
+    "source": {
+     "label": "Reuters, 30 sept. 2026",
+     "url": "https://www.reuters.com/legal/transactional/varda-raises-250-million-16-billion-valuation-scale-orbital-drug-manufacturing-2026-09-30/"
+    }
+   },
+   {
+    "amount": "environ 500 millions de dollars (post-money)",
+    "value": 0.5,
+    "currency": "USD",
+    "round": "Tranche de 25 millions de dollars, selon des documents consultés par TechCrunch",
+    "date": "2023-05-17",
+    "status": "presse",
+    "source": {
+     "label": "TechCrunch, 17 mai 2023",
+     "url": "https://techcrunch.com/2023/05/17/varda-space-raising-new-tranche-of-funding-at-500m-post-money-valuation/"
+    }
+   }
+  ],
+  "valuationNote": "La Série C de juillet 2025 (187 millions de dollars) a été levée à une valorisation non communiquée.",
+  "metrics": [
+   {
+    "label": "Total levé",
+    "value": "environ 600 millions de dollars depuis 2020",
+    "date": "2026-09-30",
+    "status": "officielle",
+    "source": {
+     "label": "Payload, 30 sept. 2026",
+     "url": "https://payloadspace.com/varda-raises-251m-series-d/"
+    }
+   },
+   {
+    "label": "Rentrées réussies",
+    "value": "6 depuis 2023, plus d'une douzaine prévues d'ici 2028",
+    "date": "2026-09-30",
+    "status": "officielle",
+    "source": {
+     "label": "Payload, 30 sept. 2026",
+     "url": "https://payloadspace.com/varda-raises-251m-series-d/"
+    }
+   },
+   {
+    "label": "Investisseurs principaux",
+    "value": "Lux Capital, Natural Capital, Founders Fund, Khosla Ventures, Caffeinated Capital, General Catalyst",
+    "date": "2026-09-30",
+    "status": "officielle",
+    "source": {
+     "label": "Payload, 30 sept. 2026",
+     "url": "https://payloadspace.com/varda-raises-251m-series-d/"
+    }
+   }
+  ],
+  "newsQuery": "\"Varda Space\" OR \"Varda Space Industries\" OR \"Will Bruey\"",
+  "newsQueriesExtra": [
+   "Varda capsule reentry OR W-7 OR W-8 OR W-9",
+   "Varda microgravity drug OR pharmaceutical orbit",
+   "Varda hypersonic Air Force reentry",
+   "\"Varda\" capsule spatiale médicaments",
+   "\"Delian Asparouhov\" Varda"
+  ],
+  "lastRound": "varda-2026-09-30-serie-d"
  }
 ]
