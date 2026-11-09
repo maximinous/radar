@@ -1,87 +1,30 @@
 {
- "generatedAt": "2026-11-06T23:48:56Z",
+ "generatedAt": "2026-11-09T14:04:04Z",
  "windowHours": 48,
- "headlinesRead": 963,
- "count": 37,
- "priorityCount": 7,
+ "headlinesRead": 597,
+ "count": 21,
+ "priorityCount": 2,
  "companies": [
-  {
-   "companyId": "figure-ai",
-   "name": "Figure AI",
-   "candidates": [
-    {
-     "date": "2026-11-06 23:39",
-     "media": "Forbes",
-     "title": "Figure CEO Brett Adcock: Every Major Announcement From Company Meeting",
-     "site": "https://www.forbes.com",
-     "overlap": 0,
-     "reprises": 1,
-     "priority": false
-    }
-   ]
-  },
   {
    "companyId": "mistral-ai",
    "name": "Mistral AI",
    "candidates": [
     {
-     "date": "2026-11-06 17:41",
-     "media": "Pasquale Pillitteri",
-     "title": "Mistral Studio lance ses agents gérés et ses apps on-premises",
-     "site": "https://pasqualepillitteri.it",
-     "overlap": 0.0,
-     "reprises": 2,
-     "priority": false
-    },
-    {
-     "date": "2026-11-06 07:24",
-     "media": "trendingtopics.eu",
-     "title": "Mira Murati’s Inkling 2 Overtakes Mistral as the Top Open-Weight Model Outside China",
-     "site": "https://www.trendingtopics.eu",
-     "overlap": 0.0,
+     "date": "2026-11-09 08:27",
+     "media": "Presse-citron",
+     "title": "Mistral fait une nouvelle acquisition pour mieux concurrencer ChatGPT et Claude dans le domaine du codage",
+     "site": "https://www.presse-citron.net",
+     "overlap": 0.22,
      "reprises": 1,
-     "priority": false
+     "priority": true
     },
     {
-     "date": "2026-11-06 16:00",
-     "media": "Le Café du Geek",
-     "title": "Mistral Large 4 s'ouvre à tous, Orange en fait une arme cyber",
-     "site": "https://lecafedugeek.fr",
-     "overlap": 0.0,
+     "date": "2026-11-08 05:49",
+     "media": "Fello AI",
+     "title": "Mistral Large 4 (Le Chonk): Open Weights, License, Price and Benchmarks",
+     "site": "https://felloai.com",
+     "overlap": 0.14,
      "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-11-06 10:15",
-     "media": "L'Usine Digitale",
-     "title": "Cloud de confiance : S3NS ouvre des services managés d’IA sur son offre Premi3ns, avec les modèles de Mistral et de Google",
-     "site": "https://www.usine-digitale.fr",
-     "overlap": 0.0,
-     "reprises": 0,
-     "priority": false
-    },
-    {
-     "date": "2026-11-06 17:15",
-     "media": "Menow",
-     "title": "Mistral donne des tâches à ses agents IA : voici comment l’un d’eux enquête sur une panne",
-     "site": "https://www.menow.fr",
-     "overlap": 0.0,
-     "reprises": 0,
-     "priority": false
-    }
-   ]
-  },
-  {
-   "companyId": "deel",
-   "name": "Deel",
-   "candidates": [
-    {
-     "date": "2026-11-05 20:00",
-     "media": "Seoul Economic Daily",
-     "title": "Deel Launches AI Tool to Catch Fake Job Applicants",
-     "site": "https://en.sedaily.com",
-     "overlap": 0,
-     "reprises": 0,
      "priority": false
     }
    ]
@@ -91,12 +34,30 @@
    "name": "Stripe",
    "candidates": [
     {
-     "date": "2026-11-05 15:31",
-     "media": "Tech.eu",
-     "title": "UK Sovereign AI fund and Stripe CEO back Potential Sciences in multi-million-dollar raise",
-     "site": "https://tech.eu",
-     "overlap": 0.1,
+     "date": "2026-11-08 22:38",
+     "media": "BBN Times",
+     "title": "Patrick Collison, Stripe CEO: Net Worth and Leadership",
+     "site": "https://www.bbntimes.com",
+     "overlap": 0.0,
      "reprises": 1,
+     "priority": false
+    },
+    {
+     "date": "2026-11-08 15:42",
+     "media": "Blockonomi",
+     "title": "Ripple Partners With Stripe-Owned Privy: Can XRP Price Reclaim $2?",
+     "site": "https://blockonomi.com",
+     "overlap": 0.0,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-11-08 22:56",
+     "media": "The Portugal News",
+     "title": "Stripe expands its artificial intelligence partnerships",
+     "site": "https://www.theportugalnews.com",
+     "overlap": 0.0,
+     "reprises": 0,
      "priority": false
     }
    ]
@@ -106,65 +67,29 @@
    "name": "Kraken",
    "candidates": [
     {
-     "date": "2026-11-06 21:22",
-     "media": "Big News Network.com",
-     "title": "Next Crypto to Make You Rich: Kraken's Parent Buys AAVE 27% Below October as Smart Money Backs Pepeto",
-     "site": "https://www.bignewsnetwork.com",
-     "overlap": 0.14,
-     "reprises": 5,
-     "priority": true
-    },
-    {
-     "date": "2026-11-05 03:54",
-     "media": "CoinMarketCap",
-     "title": "Payward Closes Bitnomial Acquisition, Gains Full US Derivatives Licenses",
-     "site": "https://coinmarketcap.com",
-     "overlap": 0.12,
-     "reprises": 2,
-     "priority": true
-    },
-    {
-     "date": "2026-11-06 17:36",
-     "media": "Coinpaper",
-     "title": "Kraken-Linked Investment Fund Acquires AAVE After Earlier $385M Deal Talks",
-     "site": "https://coinpaper.com",
-     "overlap": 0.3,
-     "reprises": 1,
-     "priority": true
-    },
-    {
-     "date": "2026-11-05 05:48",
+     "date": "2026-11-08 03:39",
      "media": "TOKENPOST",
-     "title": "Kraken's IPO Post Draws Attention as Details Remain Unavailable",
+     "title": "Pump.fun Moves 68,260 SOL Valued at About $6.15 Million to Kraken",
      "site": "https://www.tokenpost.com",
-     "overlap": 0.0,
-     "reprises": 1,
+     "overlap": 0.12,
+     "reprises": 0,
      "priority": false
     },
     {
-     "date": "2026-11-05 11:48",
-     "media": "CoinMarketCap",
-     "title": "Kraken Parent Payward Partners With GTN To Expand xStocks Beyond US Markets",
-     "site": "https://coinmarketcap.com",
-     "overlap": 0.38,
-     "reprises": 1,
+     "date": "2026-11-08 16:20",
+     "media": "TOKENPOST",
+     "title": "Bitcoin may be leaving its mildest bear market, Kraken co-CEO says",
+     "site": "https://www.tokenpost.com",
+     "overlap": 0.25,
+     "reprises": 0,
      "priority": false
     },
     {
-     "date": "2026-11-06 14:53",
-     "media": "Kraken Blog",
-     "title": "Kraken and MEXC expand partnership to support clients in France",
-     "site": "https://blog.kraken.com",
-     "overlap": 0.17,
-     "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-11-06 00:15",
-     "media": "InvestX",
-     "title": "Kraken annonce l'arrivée prochaine de la société derrière Claude",
-     "site": "https://investx.fr",
-     "overlap": 0.17,
+     "date": "2026-11-09 12:00",
+     "media": "Yahoo Finance",
+     "title": "Portland General Electric Selects Kraken to Deliver Greater Value for Customers and Lower Operating Costs",
+     "site": "https://finance.yahoo.com",
+     "overlap": 0.09,
      "reprises": 0,
      "priority": false
     }
@@ -175,37 +100,28 @@
    "name": "Polymarket",
    "candidates": [
     {
-     "date": "2026-11-06 02:59",
-     "media": "OregonLive.com",
-     "title": "Polymarket launches new $25 referral code “OREGON” for Jaguars-Ravens NFL",
-     "site": "https://www.oregonlive.com",
+     "date": "2026-11-09 02:36",
+     "media": "SILive.com",
+     "title": "NFL Polymarket promo code “SILIVE” renews $25 Buccaneers-Bears deal",
+     "site": "https://www.silive.com",
      "overlap": 0,
      "reprises": 1,
      "priority": false
     },
     {
-     "date": "2026-11-05 09:58",
-     "media": "Yahoo Finance",
-     "title": "Flutter CEO Dan Taylor: Here's how prediction markets like Kalshi and Polymarket are disrupting FanDuel",
-     "site": "https://finance.yahoo.com",
+     "date": "2026-11-09 00:45",
+     "media": "Cleveland.com",
+     "title": "Polymarket referral code “CLEVE” launches $25 bonus for Buccaneers-Bears tonight",
+     "site": "https://www.cleveland.com",
      "overlap": 0,
      "reprises": 0,
      "priority": false
     },
     {
-     "date": "2026-11-05 14:45",
-     "media": "Syracuse.com",
-     "title": "Polymarket launches $25 promo code “CUSE” for NFL and NBA tonight",
-     "site": "https://www.syracuse.com",
-     "overlap": 0,
-     "reprises": 0,
-     "priority": false
-    },
-    {
-     "date": "2026-11-06 01:46",
-     "media": "The Sports Geek",
-     "title": "French Police Probe Polymarket Bets on Exact Ballon d’Or Top Five",
-     "site": "https://www.thesportsgeek.com",
+     "date": "2026-11-09 01:03",
+     "media": "The Star Press",
+     "title": "Polymarket Sign-Up Bonus Code SBWIRE | Get $25 for NFL Week 9, Politics & More",
+     "site": "https://www.thestarpress.com",
      "overlap": 0,
      "reprises": 0,
      "priority": false
@@ -217,48 +133,12 @@
    "name": "Shield AI",
    "candidates": [
     {
-     "date": "2026-11-05 17:47",
+     "date": "2026-11-07 16:07",
      "media": "GeekWire",
-     "title": "Shield AI to buy Bill Gates-backed radar maker Echodyne in $5.3B deal, doubling down on Seattle area",
+     "title": "Voters reject AI data centers, Shield AI's $5.3B Echodyne deal, and a Seattle startup's rare double exit",
      "site": "https://www.geekwire.com",
-     "overlap": 0.33,
-     "reprises": 5,
-     "priority": true
-    },
-    {
-     "date": "2026-11-06 01:13",
-     "media": "SiliconANGLE",
-     "title": "Autonomous combat drone maker Shield AI buys radar startup Echodyne for $5.3B",
-     "site": "https://siliconangle.com",
-     "overlap": 0.38,
-     "reprises": 3,
-     "priority": true
-    },
-    {
-     "date": "2026-11-05 01:45",
-     "media": "EurAsian Times",
-     "title": "U.S. Firm Unveils X-BAT ‘Fighter Drone’ That Can Fly From Islands, Ships & Dirt Strips. More on XBAT VTOL",
-     "site": "https://www.eurasiantimes.com",
-     "overlap": 0.13,
-     "reprises": 2,
-     "priority": false
-    },
-    {
-     "date": "2026-11-06 20:54",
-     "media": "FOX 13 Seattle",
-     "title": "Defense tech company Shield AI expands in WA for new stealth fighter",
-     "site": "https://www.fox13seattle.com",
-     "overlap": 0.17,
+     "overlap": 0.27,
      "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-11-06 21:41",
-     "media": "Benzinga",
-     "title": "Defense Tech Startup Shield AI Soars To $28.8B Valuation, Up 127% Since March",
-     "site": "https://www.benzinga.com",
-     "overlap": 0.25,
-     "reprises": 0,
      "priority": false
     }
    ]
@@ -268,54 +148,63 @@
    "name": "Anthropic",
    "candidates": [
     {
-     "date": "2026-11-06 17:09",
-     "media": "The New York Times",
-     "title": "What Shaped Anthropic CEO Dario Amodei’s Thinking on A.I.",
-     "site": "https://www.nytimes.com",
-     "overlap": 0.0,
-     "reprises": 5,
-     "priority": false
+     "date": "2026-11-08 21:18",
+     "media": "FourWeekMBA",
+     "title": "AI Daily: Anthropic Buys 1.7GW as Nvidia Board Opens Probe",
+     "site": "https://fourweekmba.com",
+     "overlap": 0.14,
+     "reprises": 0,
+     "priority": true
     },
     {
-     "date": "2026-11-06 00:39",
-     "media": "New York Post",
-     "title": "Anthropic’s IPO timing threatened by AI backlash, historic tech rout",
-     "site": "https://nypost.com",
-     "overlap": 0.29,
-     "reprises": 2,
-     "priority": false
-    },
-    {
-     "date": "2026-11-06 15:42",
-     "media": "CNBC",
-     "title": "Anthropic IPO announcement odds drop on Kalshi following midterms and AI sell-off",
-     "site": "https://www.cnbc.com",
+     "date": "2026-11-09 13:45",
+     "media": "Tom's Hardware",
+     "title": "Anthropic skips six-year waitlist with massive $3.4 billion gas turbine generator deal — firm takes over OnePWR's orders, secures 1.7GW of capacity to power AI data centers",
+     "site": "https://www.tomshardware.com",
      "overlap": 0.33,
+     "reprises": 15,
+     "priority": false
+    },
+    {
+     "date": "2026-11-08 16:23",
+     "media": "Yahoo Finance",
+     "title": "Anthropic’s $1.5 Trillion IPO Could Expose the Biggest Risk Facing the AI Boom",
+     "site": "https://finance.yahoo.com",
+     "overlap": 0.25,
+     "reprises": 3,
+     "priority": false
+    },
+    {
+     "date": "2026-11-09 11:52",
+     "media": "Yahoo",
+     "title": "Did Trump Want Anthropic CEO Dario Amodei Jailed? The Clues Are Adding Up",
+     "site": "https://www.yahoo.com",
+     "overlap": 0.0,
+     "reprises": 3,
+     "priority": false
+    },
+    {
+     "date": "2026-11-09 04:25",
+     "media": "Morningstar Australia",
+     "title": "What a wobby AI trade could mean for Anthropic's IPO",
+     "site": "https://www.morningstar.com.au",
+     "overlap": 0.17,
      "reprises": 2,
      "priority": false
     },
     {
-     "date": "2026-11-06 21:21",
-     "media": "https://tech-insider.org/",
-     "title": "Anthropic IPO Tokens Shut Out US Buyers: 4 Regions [2026]",
-     "site": "https://tech-insider.org",
-     "overlap": 0.29,
+     "date": "2026-11-09 08:26",
+     "media": "AOL.com",
+     "title": "\"About to wipe out the jobs\": Megyn Kelly reacts after Anthropic CEO Dario Amodei answers what a kid finishing high school should do",
+     "site": "https://www.aol.com",
+     "overlap": 0.06,
      "reprises": 2,
      "priority": false
     },
     {
-     "date": "2026-11-06 22:20",
-     "media": "Benzinga France",
-     "title": "« Anthropic va poursuivre son projet d’introduction en Bourse, visant une valorisation de 1 500 milliards de dollars ; le créateur de Claude entend être coté avant Thanksgiving malgré une sévère chute des valeurs technologiques » — Financial Times",
-     "site": "https://fr.benzinga.com",
-     "overlap": 0.35,
-     "reprises": 2,
-     "priority": false
-    },
-    {
-     "date": "2026-11-06 17:21",
+     "date": "2026-11-08 09:29",
      "media": "Pasquale Pillitteri",
-     "title": "Claude dévoile la première structure 3D d'un vault procaryote",
+     "title": "Un professeur de Chicago dévoile que Claude a effacé un an de ses cours",
      "site": "https://pasqualepillitteri.it",
      "overlap": 0.33,
      "reprises": 1,
@@ -328,71 +217,20 @@
    "name": "Perplexity",
    "candidates": [
     {
-     "date": "2026-11-06 14:39",
-     "media": "Technetbook",
-     "title": "Perplexity Teammates Launches Autonomous AI Agents for Enterprise Workflows",
-     "site": "https://www.technetbooks.com",
-     "overlap": 0.33,
-     "reprises": 12,
-     "priority": false
-    },
-    {
-     "date": "2026-11-05 17:16",
-     "media": "FourWeekMBA",
-     "title": "Perplexity Launches Teammates for $167-a-Month Max Users",
-     "site": "https://fourweekmba.com",
-     "overlap": 0.33,
-     "reprises": 0,
-     "priority": false
-    },
-    {
-     "date": "2026-11-06 19:30",
-     "media": "Analytics Insight",
-     "title": "Perplexity Expands AI Computer With New Team-Based Agent Features",
-     "site": "https://www.analyticsinsight.net",
-     "overlap": 0.17,
-     "reprises": 0,
-     "priority": false
-    }
-   ]
-  },
-  {
-   "companyId": "crusoe",
-   "name": "Crusoe",
-   "candidates": [
-    {
-     "date": "2026-11-06 20:27",
-     "media": "Zonebourse",
-     "title": "Google rachète un site à Crusoe pour son centre de données de 17 milliards de dollars au Wyoming",
-     "site": "https://www.zonebourse.com",
-     "overlap": 0,
-     "reprises": 2,
-     "priority": true
-    },
-    {
-     "date": "2026-11-06 23:28",
-     "media": "Securities.io",
-     "title": "Google Buys Crusoe’s Southeast Wyoming Data Center Site",
-     "site": "https://www.securities.io",
-     "overlap": 0,
-     "reprises": 0,
-     "priority": true
-    },
-    {
-     "date": "2026-11-05 11:33",
-     "media": "Sequoia Capital",
-     "title": "Crusoe CEO Chase Lochmiller: Turning Stranded Energy Into Intelligence",
-     "site": "https://sequoiacap.com",
-     "overlap": 0,
+     "date": "2026-11-09 08:34",
+     "media": "آي-فون إسلام",
+     "title": "Perplexity launches health platform with Apple Health… Your smart doctor now knows you well!",
+     "site": "https://iphoneislam.com",
+     "overlap": 0.09,
      "reprises": 1,
      "priority": false
     },
     {
-     "date": "2026-11-05 18:01",
-     "media": "ET Datacenters",
-     "title": "Crusoe unveils 3.5 MW modular data centre for Nvidia AI racks",
-     "site": "https://datacenters.economictimes.indiatimes.com",
-     "overlap": 0,
+     "date": "2026-11-08 14:28",
+     "media": "Pulse 2.0",
+     "title": "Perplexity Launches Teammates AI Agents To Manage Complex Projects And Automate Ongoing Business Workflows",
+     "site": "https://pulse2.com",
+     "overlap": 0.3,
      "reprises": 0,
      "priority": false
     }
