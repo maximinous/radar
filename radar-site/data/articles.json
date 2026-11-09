@@ -1,5 +1,81 @@
 [
  {
+  "id": "anthropic-2026-11-08-generateurs-gaz-onepwr-3-4-milliards",
+  "companyId": "anthropic",
+  "date": "2026-11-08",
+  "title": "Anthropic achèterait 1,7 GW de générateurs au gaz pour 3,4 milliards de dollars, selon le FT",
+  "summary": "Selon le Financial Times, Anthropic s'est engagé fin septembre auprès de OnePWR Solutions pour 1,7 gigawatt de générateurs destinés à ses centres de données.",
+  "detail": "D'après Investing.com, qui relaie le FT et une personne proche du dossier, OnePWR, basée à San Antonio, avait commandé ces générateurs à Caterpillar environ deux ans plus tôt mais manquait de fonds. Anthropic a repris ces commandes. Le contrat inclut aussi des capacités d'ingénierie et de construction pour l'installation.\n\nAnthropic n'a pas racheté OnePWR. Ce serait le plus gros achat connu d'équipements de production d'électricité par un laboratoire d'IA. Anthropic n'a pas confirmé officiellement l'information.",
+  "impact": "Anthropic sécurise une source d'électricité dédiée pour ses futurs centres de données, un des principaux goulots d'étranglement de son expansion.",
+  "signal": "neutre",
+  "rationale": "L'accès garanti à l'énergie soutient la croissance, mais l'engagement de 3,4 milliards s'ajoute à de lourds engagements de calcul, selon une information de presse non confirmée.",
+  "sources": [
+   {
+    "label": "Investing.com (reprise du FT), 08/11/2026",
+    "url": "https://www.investing.com/news/stock-market-news/anthropic-reportedly-strikes-34-billion-deal-for-gasfired-power-at-data-centres-5010208"
+   }
+  ],
+  "addedAt": "2026-11-09T06:18:38Z"
+ },
+ {
+  "id": "crusoe-2026-11-06-wyoming-vendu-google",
+  "companyId": "crusoe",
+  "date": "2026-11-06",
+  "title": "Crusoe vend à Google son projet de centre de données du Wyoming, resté inachevé",
+  "summary": "Google reprend le développement du site du sud-est du Wyoming que Crusoe préparait avec Tallgrass, et annonce y investir 17 milliards de dollars. Le prix payé à Crusoe n'est pas publié.",
+  "detail": "Selon TechCrunch, Google s'était dit préoccupé par le coût et le calendrier du projet sous la direction de Crusoe, après avoir tenté sans succès d'en devenir client. Crusoe a confirmé la vente le vendredi 6 novembre dans une mise à jour de sa page d'actualités intitulée « Wyoming Data Center Campus Update ».\n\nLe projet avait été annoncé l'an dernier avec Tallgrass, société d'infrastructure soutenue par Blackstone, avec un objectif initial de 10 gigawatts à terme. Bloomberg avait rapporté la vente en juin. Crusoe, valorisée 30,9 milliards de dollars et qui a levé 3,9 milliards en septembre, poursuit d'autres projets avec Google, dont un centre de données près d'Amarillo, au Texas.",
+  "impact": "Crusoe se désengage d'un projet coûteux et en retard, ce qui libère des ressources pour ses autres chantiers, mais perd un campus géant annoncé comme phare.",
+  "signal": "neutre",
+  "rationale": "La cession allège un projet difficile à financer, mais elle signale aussi des difficultés d'exécution, sans prix publié.",
+  "sources": [
+   {
+    "label": "Crusoe, actualités, 06/11/2026",
+    "url": "https://www.crusoe.ai/resources/newsroom"
+   },
+   {
+    "label": "TechCrunch, 06/11/2026",
+    "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/"
+   }
+  ],
+  "addedAt": "2026-11-09T06:18:38Z"
+ },
+ {
+  "id": "kraken-2026-11-06-mexc-france-transition",
+  "companyId": "kraken",
+  "date": "2026-11-06",
+  "title": "MEXC oriente ses clients français vers Kraken avant de fermer son service en France",
+  "summary": "MEXC, qui cesse de servir la France, renvoie ses clients éligibles vers Kraken, comme il l'avait déjà fait pour les Pays-Bas.",
+  "detail": "Selon Finance Magnates, MEXC avait annoncé le 28 octobre qu'il arrêterait progressivement de servir les utilisateurs liés à la France. Les restrictions démarrent le 18 novembre par groupes, et les retraits via MEXC ferment le 5 mars 2027. Kraken sert la France via Payward Europe Solutions Limited, agréée MiCA en Irlande et référencée par l'AMF.\n\nLe renvoi ne transfère rien automatiquement : chaque client doit ouvrir un compte Kraken, passer le contrôle KYC et déplacer lui-même ses actifs.",
+  "impact": "Kraken peut capter une partie des clients français d'un concurrent qui quitte le marché.",
+  "signal": "optimiste",
+  "rationale": "Un flux de nouveaux clients est possible, mais rien n'est transféré automatiquement et le volume reste inconnu.",
+  "sources": [
+   {
+    "label": "Finance Magnates, 06/11/2026",
+    "url": "https://www.financemagnates.com/cryptocurrency/exchange/mexc-refers-french-clients-to-kraken-as-its-eu-retreat-widens/"
+   }
+  ],
+  "addedAt": "2026-11-09T06:18:38Z"
+ },
+ {
+  "id": "kraken-2026-11-06-antx-ipo-anthropic-xstocks",
+  "companyId": "kraken",
+  "date": "2026-11-06",
+  "title": "Kraken prépare ANTx, un accès tokenisé à l'introduction en Bourse d'Anthropic, hors États-Unis",
+  "summary": "Kraken affiche une page « Opening soon » pour manifester son intérêt à l'IPO d'Anthropic via un token xStocks, fermé aux clients américains.",
+  "detail": "La page de Kraken indique que le produit, ANTx, passe par les xStocks, des titres tokenisés non enregistrés auprès de la SEC. Les clients américains ne peuvent pas y souscrire, mais pourront acheter l'action cotée dès le premier jour via Kraken Securities. Aucune date de fenêtre de souscription n'est donnée.\n\nKraken précise qu'il ne s'agit pas d'un produit pré-IPO et que l'attribution dépend des banques de l'opération. Anthropic n'a pas commenté.",
+  "impact": "Kraken se positionne sur l'une des plus grosses IPO attendues et étend son offre de produits tokenisés à ses clients hors États-Unis.",
+  "signal": "optimiste",
+  "rationale": "Le produit peut attirer du volume, mais il reste conditionné à une IPO dont le calendrier est incertain.",
+  "sources": [
+   {
+    "label": "Kraken, page Anthropic IPO, consultée le 09/11/2026",
+    "url": "https://www.kraken.com/ipo/anthropic"
+   }
+  ],
+  "addedAt": "2026-11-09T06:18:38Z"
+ },
+ {
   "id": "anthropic-2026-11-06-ipo-valorisation-chute-nasdaq",
   "companyId": "anthropic",
   "date": "2026-11-06",
