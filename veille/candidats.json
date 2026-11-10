@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-11-10T02:23:38Z",
+ "generatedAt": "2026-11-10T13:36:59Z",
  "windowHours": 48,
- "headlinesRead": 721,
- "count": 30,
- "priorityCount": 7,
+ "headlinesRead": 799,
+ "count": 34,
+ "priorityCount": 6,
  "companies": [
   {
    "companyId": "mistral-ai",
@@ -19,16 +19,16 @@
      "priority": true
     },
     {
-     "date": "2026-11-08 05:49",
-     "media": "Fello AI",
-     "title": "Mistral Large 4 (Le Chonk): Open Weights, License, Price and Benchmarks",
-     "site": "https://felloai.com",
-     "overlap": 0.14,
-     "reprises": 1,
+     "date": "2026-11-10 10:42",
+     "media": "Clubic",
+     "title": "Orange lance une appli gratuite pour utiliser Claude, Gemini, GPT et Mistral, même si vous n’êtes pas client",
+     "site": "https://www.clubic.com",
+     "overlap": 0.15,
+     "reprises": 2,
      "priority": false
     },
     {
-     "date": "2026-11-09 16:58",
+     "date": "2026-11-10 07:18",
      "media": "TIKR.com",
      "title": "Mistral CEO Pushes Back: Energy Is “Not the Bottleneck” for AI Compute. Here’s What Is.",
      "site": "https://www.tikr.com",
@@ -70,6 +70,15 @@
      "priority": false
     },
     {
+     "date": "2026-11-10 07:24",
+     "media": "FinanceFeeds",
+     "title": "Stripe, miPlata Launch Stablecoin Visa Card Built in 5 Weeks",
+     "site": "https://financefeeds.com",
+     "overlap": 0.14,
+     "reprises": 1,
+     "priority": false
+    },
+    {
      "date": "2026-11-08 15:42",
      "media": "Blockonomi",
      "title": "Ripple Partners With Stripe-Owned Privy: Can XRP Price Reclaim $2?",
@@ -90,26 +99,20 @@
    ]
   },
   {
-   "companyId": "lovable",
-   "name": "Lovable",
-   "candidates": [
-    {
-     "date": "2026-11-09 20:53",
-     "media": "BusinessCloud",
-     "title": "Lovable buys London team behind agentic startup Radish AI",
-     "site": "https://businesscloud.co.uk",
-     "overlap": 0,
-     "reprises": 0,
-     "priority": true
-    }
-   ]
-  },
-  {
    "companyId": "kraken",
    "name": "Kraken",
    "candidates": [
     {
-     "date": "2026-11-10 00:22",
+     "date": "2026-11-10 08:18",
+     "media": "CoinMarketCap",
+     "title": "Payward Closes Bitnomial Acquisition, Gains Full US Derivatives Licenses",
+     "site": "https://coinmarketcap.com",
+     "overlap": 0.12,
+     "reprises": 2,
+     "priority": true
+    },
+    {
+     "date": "2026-11-10 00:29",
      "media": "StreetInsider",
      "title": "BTC, ETH or Crypto Yield? A Payward Fund and Its Clients Buy AAVE as Remittix Earn Opens Pools From Aave, Morpho and Fluid",
      "site": "https://www.streetinsider.com",
@@ -123,16 +126,16 @@
      "title": "Kraken CEO says bitcoin bear market nearing end, most gradual correction",
      "site": "https://www.digitaltoday.co.kr",
      "overlap": 0.2,
-     "reprises": 2,
+     "reprises": 1,
      "priority": false
     },
     {
-     "date": "2026-11-08 03:39",
-     "media": "TOKENPOST",
-     "title": "Pump.fun Moves 68,260 SOL Valued at About $6.15 Million to Kraken",
-     "site": "https://www.tokenpost.com",
+     "date": "2026-11-10 07:35",
+     "media": "Crypto News",
+     "title": "Coinbase, Kalshi, Kraken parent back CFTC in stock perps lawsuit",
+     "site": "https://crypto.news",
      "overlap": 0.12,
-     "reprises": 0,
+     "reprises": 1,
      "priority": false
     },
     {
@@ -143,6 +146,15 @@
      "overlap": 0.09,
      "reprises": 0,
      "priority": false
+    },
+    {
+     "date": "2026-11-10 08:13",
+     "media": "Hokanews",
+     "title": "Dubai Crypto Industry Reaches 60 Licensed Companies as Bybit, Kraken and Standard Chartered Expand",
+     "site": "https://www.hokanews.com",
+     "overlap": 0.1,
+     "reprises": 0,
+     "priority": false
     }
    ]
   },
@@ -151,29 +163,47 @@
    "name": "Polymarket",
    "candidates": [
     {
+     "date": "2026-11-10 13:29",
+     "media": "Quartz",
+     "title": "Polymarket says its annualized revenue has topped $1.8 billion",
+     "site": "https://qz.com",
+     "overlap": 0.0,
+     "reprises": 4,
+     "priority": false
+    },
+    {
      "date": "2026-11-10 00:45",
      "media": "OregonLive.com",
      "title": "New $25 Polymarket promo code “OREGON” launches for Bills-Vikings MNF",
      "site": "https://www.oregonlive.com",
-     "overlap": 0,
-     "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-11-09 21:25",
-     "media": "TOKENPOST",
-     "title": "Polymarket Lists Contract on 黄仁勋 Resignation or Removal Announcement by Dec. 31",
-     "site": "https://www.tokenpost.com",
-     "overlap": 0,
+     "overlap": 0.0,
      "reprises": 0,
      "priority": false
     },
     {
-     "date": "2026-11-09 22:50",
-     "media": "Argus Leader",
-     "title": "Polymarket Sign-Up Bonus Code SBWIRE | Get $25 for NFL, NBA, Politics & More",
-     "site": "https://www.argusleader.com",
-     "overlap": 0,
+     "date": "2026-11-10 13:14",
+     "media": "Pluang",
+     "title": "Polymarket's annualized revenue tops $1.8B amid U.S. exchange growth and sports event volume surge",
+     "site": "https://pluang.com",
+     "overlap": 0.2,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-11-10 13:20",
+     "media": "NewsBytes",
+     "title": "Polymarket posts $1.8B annualized revenue after US launch in May",
+     "site": "https://www.newsbytesapp.com",
+     "overlap": 0.0,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-11-10 13:32",
+     "media": "Quartz en Français",
+     "title": "Polymarket indique que son chiffre d'affaires annualisé a dépassé 1,8 milliard de dollars.",
+     "site": "https://fr.qz.com",
+     "overlap": 0.0,
      "reprises": 0,
      "priority": false
     }
@@ -189,7 +219,7 @@
      "title": "Shield AI to Buy Kirkland Radar Maker Echodyne in $5.3B Deal, No Jobs Moving",
      "site": "https://hoodline.com",
      "overlap": 0.38,
-     "reprises": 1,
+     "reprises": 2,
      "priority": true
     },
     {
@@ -222,70 +252,61 @@
      "title": "Anthropic joins AI’s natural gas frenzy, buys $3.4B worth of turbines",
      "site": "https://techcrunch.com",
      "overlap": 0.0,
-     "reprises": 1,
-     "priority": true
-    },
-    {
-     "date": "2026-11-10 01:43",
-     "media": "Bloomberg.com",
-     "title": "Anthropic Seeks to Raise $69.3 Billion Via Its IPO, Report Says",
-     "site": "https://www.bloomberg.com",
-     "overlap": 0.29,
      "reprises": 0,
      "priority": true
     },
     {
-     "date": "2026-11-10 00:58",
-     "media": "The News International",
-     "title": "Anthropic launches Claude Fable 5.2 and Mythos 5.2 for tough technical tasks",
-     "site": "https://www.thenews.com.pk",
+     "date": "2026-11-10 13:12",
+     "media": "CoinGape",
+     "title": "Anthropic Targets Over $1 Trillion Valuation in Upcoming IPO Amid AI Market Volatility",
+     "site": "https://coingape.com",
+     "overlap": 0.33,
+     "reprises": 9,
+     "priority": false
+    },
+    {
+     "date": "2026-11-10 13:17",
+     "media": "ABC News - Breaking News, Latest News and Videos",
+     "title": "Anthropic seeks $70 to $78 a share in new IPO filing",
+     "site": "https://abcnews.com",
+     "overlap": 0.25,
+     "reprises": 7,
+     "priority": false
+    },
+    {
+     "date": "2026-11-10 09:32",
+     "media": "Journal du Geek",
+     "title": "Cette IA a créé un tout nouveau système d’exploitation en 8 jours : Anthropic lance Claude Fable et Mythos 5.2 pour mieux dominer l’intelligence artificielle",
+     "site": "https://www.journaldugeek.com",
      "overlap": 0.29,
-     "reprises": 11,
+     "reprises": 6,
      "priority": false
     },
     {
-     "date": "2026-11-09 19:32",
-     "media": "Fortuneo",
-     "title": "Anthropic lance deux modèles d'IA avancés avant une introduction en Bourse majeure...",
-     "site": "https://bourse.fortuneo.fr",
-     "overlap": 0.25,
-     "reprises": 5,
-     "priority": false
-    },
-    {
-     "date": "2026-11-09 21:34",
-     "media": "World Is Small",
-     "title": "Claude Fable 5.2 et Mythos 5.2 : Anthropic dévoile deux IA plus rapides et performantes",
-     "site": "https://worldissmall.fr",
-     "overlap": 0.25,
-     "reprises": 5,
-     "priority": false
-    },
-    {
-     "date": "2026-11-09 13:45",
-     "media": "Tom's Hardware",
-     "title": "Anthropic skips six-year waitlist with massive $3.4 billion gas turbine generator deal — firm takes over OnePWR's orders, secures 1.7GW of capacity to power AI data centers",
-     "site": "https://www.tomshardware.com",
+     "date": "2026-11-10 10:13",
+     "media": "CyberSecurityNews",
+     "title": "Anthropic Launches Claude Mythos 5.2, Scoring 76.3% on Cybersecurity Benchmark to Identify 0-Day Flaws",
+     "site": "https://cybersecuritynews.com",
      "overlap": 0.33,
      "reprises": 4,
      "priority": false
     },
     {
-     "date": "2026-11-09 21:22",
-     "media": "The Information",
-     "title": "Anthropic Releases New Frontier Models as IPO Nears",
-     "site": "https://www.theinformation.com",
-     "overlap": 0.2,
-     "reprises": 3,
+     "date": "2026-11-10 12:59",
+     "media": "Quartz",
+     "title": "Anthropic is planning a live-streamed IPO event with Amodei and Dimon",
+     "site": "https://qz.com",
+     "overlap": 0.14,
+     "reprises": 4,
      "priority": false
     },
     {
-     "date": "2026-11-09 21:52",
-     "media": "Startup Fortune",
-     "title": "Meta Launches Muse Ember, Its Smallest AI Model, on the Day Anthropic Unveiled Fable 5.2 and Mythos 5.2",
-     "site": "https://startupfortune.com",
-     "overlap": 0.1,
-     "reprises": 3,
+     "date": "2026-11-10 13:02",
+     "media": "Quartz en Français",
+     "title": "Anthropic prévoit une diffusion en direct de son introduction en bourse avec Dario Amodei, Jamie Dimon.",
+     "site": "https://fr.qz.com",
+     "overlap": 0.22,
+     "reprises": 4,
      "priority": false
     }
    ]
@@ -295,7 +316,7 @@
    "name": "Perplexity",
    "candidates": [
     {
-     "date": "2026-11-09 17:56",
+     "date": "2026-11-09 08:34",
      "media": "آي-فون إسلام",
      "title": "Perplexity launches health platform with Apple Health… Your smart doctor now knows you well!",
      "site": "https://iphoneislam.com",
@@ -309,6 +330,15 @@
      "title": "Perplexity Launches Teammates AI Agents To Manage Complex Projects And Automate Ongoing Business Workflows",
      "site": "https://pulse2.com",
      "overlap": 0.3,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-11-10 01:06",
+     "media": "CryptoRank",
+     "title": "Perplexity Ships Its Search Agent’s Sandbox as Open Source — and the Sandbox Layer Just Got Another Entrant",
+     "site": "https://cryptorank.io",
+     "overlap": 0.09,
      "reprises": 0,
      "priority": false
     }
