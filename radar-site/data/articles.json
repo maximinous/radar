@@ -1,5 +1,53 @@
 [
  {
+  "id": "anthropic-2026-11-10-ipo-fourchette-70-78",
+  "companyId": "anthropic",
+  "date": "2026-11-10",
+  "title": "Anthropic vise jusqu'à 64,4 milliards de dollars en Bourse, avec une fourchette de 70 à 78 dollars par action",
+  "summary": "Le dernier projet de prospectus, vu par Reuters, fixe une fourchette indicative de 70 à 78 dollars pour 825 millions d'actions, soit jusqu'à 64,4 milliards de dollars levés.",
+  "detail": "Selon Reuters, la valorisation visée irait jusqu'à environ 1 020 milliards de dollars, contre 1 500 milliards évoqués plus tôt et 965 milliards au dernier tour privé. Anthropic et certains investisseurs vendraient des titres, et la cotation se ferait au Nasdaq sous le symbole ANT.\n\nUn placement privé distinct de 26 milliards de dollars est prévu auprès d'investisseurs de référence dont Google, Nvidia et AMD, ce qui porterait le total jusqu'à 90,4 milliards. Des administrateurs ont indiqué vouloir acheter jusqu'à 303 millions de dollars de titres. Le revenu du troisième trimestre ressort à 16,96 milliards de dollars. Anthropic n'a pas commenté ; la date de cotation n'est pas précisée. Des médias ont aussi rapporté qu'une version des conditions avait été envoyée par erreur à des banques puis retirée.",
+  "impact": "La fourchette donne le calendrier et l'ampleur de l'une des plus grosses introductions en Bourse, à une valorisation nettement sous les ambitions initiales.",
+  "signal": "neutre",
+  "rationale": "Une levée géante et des investisseurs de référence de poids, mais une valorisation visée en recul dans un marché tendu, selon Reuters et sans commentaire de la société.",
+  "sources": [
+   {
+    "label": "Reuters via Investing.com, 10/11/2026",
+    "url": "https://www.investing.com/news/stock-market-news/exclusiveanthropic-ipo-to-raise-as-much-as-644-billion-latest-draft-prospectus-shows-5014665"
+   },
+   {
+    "label": "Reuters via Lufkin Daily News, 10/11/2026",
+    "url": "https://lufkindailynews.com/news_reuters/business/anthropic-ipo-to-raise-up-to-64-4-billion-as-ai-boom-faces-growing-scrutiny/article_84186764-e804-5f5d-ae55-4fd6a8a166dc.html"
+   }
+  ],
+  "addedAt": "2026-11-10T12:16:23Z"
+ },
+ {
+  "id": "polymarket-2026-11-10-plainte-missouri",
+  "companyId": "polymarket",
+  "date": "2026-11-10",
+  "title": "Polymarket US attaque le Missouri en justice fédérale contre l'interdiction de ses contrats sportifs",
+  "summary": "Polymarket US, comme Robinhood, a déposé le 9 novembre une plainte devant un tribunal fédéral de Saint-Louis pour empêcher le Missouri d'appliquer ses lois sur les paris sportifs à ses contrats.",
+  "detail": "Les plaintes visent la procureure générale Catherine Hanaway et des responsables de la commission des jeux du Missouri. Elles font suite aux mises en demeure de septembre, qui exigeaient d'arrêter les contrats sportifs ou d'obtenir une licence d'État. Crypto.com, Novig, Kalshi et Underdog avaient déjà saisi la justice.\n\nSelon RG.org, Polymarket invoque la primauté du droit fédéral et la clause de commerce, en contestant notamment l'exigence de serveurs situés dans l'État. Polymarket US avait déjà poursuivi la Louisiane le 27 octobre. Détails tirés de la presse spécialisée, la plainte n'ayant pas été consultée.",
+  "impact": "Polymarket défend en justice son cadre fédéral face aux États, un enjeu central pour ses paris sportifs aux États-Unis.",
+  "signal": "neutre",
+  "rationale": "Offensive judiciaire assumée, mais l'issue dépend des tribunaux et aucune décision n'est connue.",
+  "sources": [
+   {
+    "label": "RG.org, 10/11/2026",
+    "url": "https://rg.org/news/prediction-markets/polymarket-us-qcx-sues-missouri-hanaway-commerce-clause-event-contracts"
+   },
+   {
+    "label": "Prediction News, 10/11/2026",
+    "url": "https://predictionnews.com/story/polymarket-us-files-lawsuit-against-hanaway-in-missouri-federal-court"
+   },
+   {
+    "label": "The PM Pulse, 10/11/2026",
+    "url": "https://pmpulse.substack.com/p/the-pm-pulse-085"
+   }
+  ],
+  "addedAt": "2026-11-10T12:16:23Z"
+ },
+ {
   "id": "anthropic-2026-11-10-mythos-cisco-ibm",
   "companyId": "anthropic",
   "date": "2026-11-10",
