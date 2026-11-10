@@ -1,5 +1,85 @@
 [
  {
+  "id": "anthropic-2026-11-10-mythos-cisco-ibm",
+  "companyId": "anthropic",
+  "date": "2026-11-10",
+  "title": "Cisco et IBM intègrent Mythos d'Anthropic dans leurs outils de sécurité",
+  "summary": "Cisco et IBM annoncent le 10 novembre que leurs clients pourront utiliser les capacités de Mythos via leurs produits de sécurité, sans accès direct au modèle.",
+  "detail": "Cisco l'a annoncé lors d'un événement à Melbourne : Mythos sera appelable depuis les outils de red teaming de sa suite AI Defense, sans surcoût dans le cadre des licences existantes. IBM a suivi quelques heures plus tard en l'intégrant à Concert, son outil d'analyse des risques applicatifs, pour repérer des failles que les scanners classiques manquent et proposer des correctifs soumis à validation des développeurs.\n\nSelon The Register, la responsable de l'IA appliquée d'Anthropic pour l'Asie-Pacifique, Natalie Mead, juge la demande forte et n'a pas dit si d'autres accords similaires existent.",
+  "impact": "Mythos gagne deux canaux de distribution chez de grands éditeurs de sécurité, sans que le modèle quitte le contrôle d'Anthropic.",
+  "signal": "optimiste",
+  "rationale": "Deux acteurs majeurs de la cybersécurité d'entreprise adoptent Mythos le même jour, ce qui élargit ses débouchés.",
+  "sources": [
+   {
+    "label": "The Register, 10/11/2026",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/10/anthropics-super-bug-finding-mythos-model-is-going-into-cisco-and-ibm-products/5308616"
+   }
+  ],
+  "addedAt": "2026-11-10T06:17:57Z"
+ },
+ {
+  "id": "anthropic-2026-11-09-fable-mythos-5-2",
+  "companyId": "anthropic",
+  "date": "2026-11-09",
+  "title": "Anthropic lance Claude Fable 5.2 et Mythos 5.2, plus rapides et moins chers",
+  "summary": "Anthropic publie Fable 5.2, ouvert à tous, et Mythos 5.2, réservé à des organisations vérifiées, avec des scores de codage en nette hausse et un prix de 8 dollars par million de jetons en entrée.",
+  "detail": "Les deux modèles reposent sur les mêmes bases. Fable 5.2 inclut des garde-fous renforcés en cybersécurité et en biologie ; Mythos 5.2 est moins restreint et passe par des programmes de vérification. La génération est jusqu'à 30 % plus rapide que la version 5.1, au tarif de 8 dollars en entrée et 40 dollars en sortie par million de jetons. Un mode rapide, jusqu'à 2,5 fois plus véloce, coûte le double.\n\nSur les tests publiés par Anthropic, Fable 5.2 atteint 49,1 % à FrontierCode 2.0 contre 32,4 % pour Fable 5.1, et 69,9 % à FrontierSWE v2 contre 56,3 %. Le modèle est disponible sur AWS, Google Cloud et Azure. Anthropic précise que ses garde-fous bloquent environ 55 % de requêtes en moins qu'avant.",
+  "impact": "Anthropic renforce son avance annoncée en codage et en agents, tout en baissant le prix par rapport à la version précédente, à quelques jours de son introduction en Bourse attendue.",
+  "signal": "optimiste",
+  "rationale": "Performances en hausse, prix en baisse et large disponibilité chez les clouds, selon les chiffres publiés par Anthropic.",
+  "sources": [
+   {
+    "label": "Anthropic, 09/11/2026",
+    "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+   },
+   {
+    "label": "The New Stack, 09/11/2026",
+    "url": "https://thenewstack.io/anthropic-fable-coding-upgrade/"
+   }
+  ],
+  "addedAt": "2026-11-10T06:17:57Z"
+ },
+ {
+  "id": "lovable-2026-11-09-rachat-radish-ai",
+  "companyId": "lovable",
+  "date": "2026-11-09",
+  "title": "Lovable rachète l'équipe londonienne de Radish AI, spécialiste de l'infrastructure d'agents",
+  "summary": "Lovable reprend l'équipe de Radish AI pour développer des agents destinés aux entreprises depuis son nouveau bureau de Londres. Le prix n'est pas communiqué.",
+  "detail": "Radish AI propose une plateforme pour construire, déployer et faire évoluer des agents IA complexes, avec confidentialité et sécurité intégrées. Nirman Gupta, ancien responsable d'ingénierie chez Meta, dirigera l'ingénierie des agents pour entreprises. Ish Singh et Adrian Zgorzałek rejoignent aussi Lovable.\n\nL'équipe sera répartie entre les bureaux de Stockholm et de Londres, ce dernier ayant ouvert fin octobre.",
+  "impact": "Lovable étoffe son équipe d'ingénierie et sa technologie d'agents, au-delà de la génération d'applications.",
+  "signal": "optimiste",
+  "rationale": "Un recrutement par rachat d'équipe renforce l'expansion de Lovable à Londres et son offre pour les entreprises.",
+  "sources": [
+   {
+    "label": "BusinessCloud, 09/11/2026",
+    "url": "https://businesscloud.co.uk/news/lovable-buys-london-team-behind-agentic-startup-radish-ai/"
+   }
+  ],
+  "addedAt": "2026-11-10T06:17:57Z"
+ },
+ {
+  "id": "shield-ai-2026-11-09-hivemind-deux-fq-44a",
+  "companyId": "shield-ai",
+  "date": "2026-11-09",
+  "title": "Hivemind de Shield AI pilote deux drones FQ-44A en manœuvres de combat aérien",
+  "summary": "Shield AI annonce que son logiciel Hivemind a fait voler deux drones de combat FQ-44A en formation, avec manœuvres au-delà de la portée visuelle, une première pour le programme CCA.",
+  "detail": "Le vol a eu lieu le 26 octobre sur le Nevada Test and Training Range. Les deux appareils, construits par Anduril, ont affronté une menace virtuelle sans pilote à bord, un opérateur au sol donnant seulement des consignes de haut niveau. Un essai précédent, le 8 octobre à Edwards, avait vu un pilote de F-22 diriger un FQ-44 via Hivemind.\n\nShield AI prévoit des essais plus complexes avec des équipes plus grandes et la réaffectation d'appareils en vol, puis des tirs réels sans date annoncée.",
+  "impact": "Hivemind consolide son rôle de logiciel d'autonomie de mission du programme CCA de l'US Air Force.",
+  "signal": "optimiste",
+  "rationale": "Premier vol coordonné de plusieurs CCA sous Hivemind, rapporté par Air & Space Forces Magazine d'après Shield AI.",
+  "sources": [
+   {
+    "label": "Air & Space Forces Magazine, 09/11/2026",
+    "url": "https://www.airandspaceforces.com/cca-drones-fly-air-combat-maneuvers-autonomy-software/"
+   },
+   {
+    "label": "Shield AI, 09/11/2026",
+    "url": "https://shield.ai"
+   }
+  ],
+  "addedAt": "2026-11-10T06:17:57Z"
+ },
+ {
   "id": "anthropic-2026-11-09-fuite-comptes-coree",
   "companyId": "anthropic",
   "date": "2026-11-09",
@@ -140,6 +220,28 @@
    }
   ],
   "addedAt": "2026-11-06T12:20:04Z"
+ },
+ {
+  "id": "varda-2026-11-05-retour-w8",
+  "companyId": "varda",
+  "date": "2026-11-05",
+  "title": "Varda récupère sa capsule W-8 en Australie alors que trois de ses engins volaient en même temps",
+  "summary": "La capsule W-8 s'est posée sur le site de Koonibba (Australie-Méridionale) après 35 jours en orbite. C'est la septième rentrée réussie de Varda depuis 2024.",
+  "detail": "Lancée le 1er octobre avec W-9, la capsule embarquait des capteurs à fibre optique de Canopy Aerospace & Defense pour mesurer la chaleur sur le bouclier thermique, et des matériaux de protection financés par un programme public d'essais hypersoniques. Pendant la descente, Varda pilotait trois véhicules à la fois : W-7 et W-9 restent en orbite. La rentrée a été opérée avec Southern Launch.",
+  "impact": "Varda montre qu'elle peut enchaîner les missions, condition pour rentabiliser son modèle de fabrication en orbite.",
+  "signal": "optimiste",
+  "rationale": "Mission réussie et première opération à plusieurs véhicules.",
+  "sources": [
+   {
+    "label": "Varda, communiqué, 5 nov. 2026",
+    "url": "https://www.prnewswire.com/news-releases/vardas-w-8-capsule-returns-safely-from-orbit-as-three-vehicles-operate-in-space-302931173.html"
+   },
+   {
+    "label": "Australian Defence Magazine, 6 nov. 2026",
+    "url": "https://www.australiandefence.com.au/defence/cyber-space/southern-launch-leads-varda-w-8-capsule-re-entry"
+   }
+  ],
+  "addedAt": "2026-11-09T19:27:05Z"
  },
  {
   "id": "anthropic-2026-11-05-claude-personal-finance",
@@ -298,28 +400,6 @@
    }
   ],
   "addedAt": "2026-11-05T06:12:03Z"
- },
- {
-  "id": "varda-2026-11-05-retour-w8",
-  "companyId": "varda",
-  "date": "2026-11-05",
-  "title": "Varda récupère sa capsule W-8 en Australie alors que trois de ses engins volaient en même temps",
-  "summary": "La capsule W-8 s'est posée sur le site de Koonibba (Australie-Méridionale) après 35 jours en orbite. C'est la septième rentrée réussie de Varda depuis 2024.",
-  "detail": "Lancée le 1er octobre avec W-9, la capsule embarquait des capteurs à fibre optique de Canopy Aerospace & Defense pour mesurer la chaleur sur le bouclier thermique, et des matériaux de protection financés par un programme public d'essais hypersoniques. Pendant la descente, Varda pilotait trois véhicules à la fois : W-7 et W-9 restent en orbite. La rentrée a été opérée avec Southern Launch.",
-  "impact": "Varda montre qu'elle peut enchaîner les missions, condition pour rentabiliser son modèle de fabrication en orbite.",
-  "signal": "optimiste",
-  "rationale": "Mission réussie et première opération à plusieurs véhicules.",
-  "sources": [
-   {
-    "label": "Varda, communiqué, 5 nov. 2026",
-    "url": "https://www.prnewswire.com/news-releases/vardas-w-8-capsule-returns-safely-from-orbit-as-three-vehicles-operate-in-space-302931173.html"
-   },
-   {
-    "label": "Australian Defence Magazine, 6 nov. 2026",
-    "url": "https://www.australiandefence.com.au/defence/cyber-space/southern-launch-leads-varda-w-8-capsule-re-entry"
-   }
-  ],
-  "addedAt": "2026-11-09T19:27:05Z"
  },
  {
   "id": "stripe-2026-11-04-paiements-stablecoins-160-marches",
@@ -2062,6 +2142,54 @@
   "addedAt": "2026-10-21T12:20:23Z"
  },
  {
+  "id": "varda-2026-10-20-w7-medicament-cancer",
+  "companyId": "varda",
+  "date": "2026-10-20",
+  "title": "Varda lance W-7 pour cristalliser en orbite un candidat médicament contre le cancer",
+  "summary": "La capsule W-7 est partie de Cap Canaveral sur une fusée SpaceX. Elle doit tester si l'apesanteur produit des cristaux plus solubles d'un composé anticancéreux de type PROTAC.",
+  "detail": "Un médicament plus soluble est mieux absorbé par l'organisme. Le composé et son propriétaire ne sont pas nommés. Les cristaux reviendront sur Terre pour analyse. C'est le troisième lancement de Varda en octobre et le quatrième de 2026.",
+  "impact": "Varda passe des démonstrations techniques à des essais sur de vrais candidats médicaments, son marché cible.",
+  "signal": "optimiste",
+  "rationale": "Première mission dédiée à un médicament anticancéreux.",
+  "sources": [
+   {
+    "label": "Varda, communiqué, 20 oct. 2026",
+    "url": "https://www.prnewswire.com/news-releases/varda-space-industries-launches-w-7-to-study-cancer-drug-crystallization-in-orbit-302914014.html"
+   },
+   {
+    "label": "Axios, 20 oct. 2026",
+    "url": "https://www.axios.com/2026/10/20/cancer-drugs-space-varda"
+   }
+  ],
+  "addedAt": "2026-11-09T19:27:05Z"
+ },
+ {
+  "id": "varda-2026-10-20-spacex-starfall",
+  "companyId": "varda",
+  "date": "2026-10-20",
+  "title": "SpaceX fait voler sa propre capsule de retour Starfall sur la même fusée que Varda",
+  "summary": "SpaceX a lancé pour la deuxième fois Starfall, une capsule de retour sans équipage destinée à la recherche en apesanteur et à la fabrication en orbite, sur la même mission que la capsule W-7 de Varda.",
+  "detail": "Starfall avait fait son premier vol en juin 2026. SpaceX communique peu sur le projet, mais il vise le même marché que Varda : ramener sur Terre des produits fabriqués en orbite. Redwire a déjà réservé une mission Starfall pour ses recherches pharmaceutiques. Varda dépend de SpaceX pour tous ses lancements.",
+  "impact": "Un concurrent qui contrôle aussi ses propres fusées pourrait peser sur les prix et sur l'accès de Varda à l'orbite.",
+  "signal": "prudent",
+  "rationale": "Arrivée possible d'un concurrent de très grande taille, qui est aussi le lanceur de Varda.",
+  "sources": [
+   {
+    "label": "Spaceflight Now, 18 oct. 2026",
+    "url": "https://spaceflightnow.com/2026/10/18/live-coverage-spacex-to-launch-starfall-reentry-capsule-31-customer-payloads-on-bandwagon-5-rideshare-mission/"
+   },
+   {
+    "label": "Space.com",
+    "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starfall-return-capsule-launch-bandwagon-5-rideshare-mission"
+   },
+   {
+    "label": "Gizmodo",
+    "url": "https://gizmodo.com/spacexs-next-big-business-could-be-building-stuff-in-space-2000766931"
+   }
+  ],
+  "addedAt": "2026-11-09T19:27:05Z"
+ },
+ {
   "id": "perplexity-2026-10-20-computer-local-mac",
   "companyId": "perplexity",
   "date": "2026-10-20",
@@ -2294,54 +2422,6 @@
    }
   ],
   "addedAt": "2026-10-20T12:20:37Z"
- },
- {
-  "id": "varda-2026-10-20-w7-medicament-cancer",
-  "companyId": "varda",
-  "date": "2026-10-20",
-  "title": "Varda lance W-7 pour cristalliser en orbite un candidat médicament contre le cancer",
-  "summary": "La capsule W-7 est partie de Cap Canaveral sur une fusée SpaceX. Elle doit tester si l'apesanteur produit des cristaux plus solubles d'un composé anticancéreux de type PROTAC.",
-  "detail": "Un médicament plus soluble est mieux absorbé par l'organisme. Le composé et son propriétaire ne sont pas nommés. Les cristaux reviendront sur Terre pour analyse. C'est le troisième lancement de Varda en octobre et le quatrième de 2026.",
-  "impact": "Varda passe des démonstrations techniques à des essais sur de vrais candidats médicaments, son marché cible.",
-  "signal": "optimiste",
-  "rationale": "Première mission dédiée à un médicament anticancéreux.",
-  "sources": [
-   {
-    "label": "Varda, communiqué, 20 oct. 2026",
-    "url": "https://www.prnewswire.com/news-releases/varda-space-industries-launches-w-7-to-study-cancer-drug-crystallization-in-orbit-302914014.html"
-   },
-   {
-    "label": "Axios, 20 oct. 2026",
-    "url": "https://www.axios.com/2026/10/20/cancer-drugs-space-varda"
-   }
-  ],
-  "addedAt": "2026-11-09T19:27:05Z"
- },
- {
-  "id": "varda-2026-10-20-spacex-starfall",
-  "companyId": "varda",
-  "date": "2026-10-20",
-  "title": "SpaceX fait voler sa propre capsule de retour Starfall sur la même fusée que Varda",
-  "summary": "SpaceX a lancé pour la deuxième fois Starfall, une capsule de retour sans équipage destinée à la recherche en apesanteur et à la fabrication en orbite, sur la même mission que la capsule W-7 de Varda.",
-  "detail": "Starfall avait fait son premier vol en juin 2026. SpaceX communique peu sur le projet, mais il vise le même marché que Varda : ramener sur Terre des produits fabriqués en orbite. Redwire a déjà réservé une mission Starfall pour ses recherches pharmaceutiques. Varda dépend de SpaceX pour tous ses lancements.",
-  "impact": "Un concurrent qui contrôle aussi ses propres fusées pourrait peser sur les prix et sur l'accès de Varda à l'orbite.",
-  "signal": "prudent",
-  "rationale": "Arrivée possible d'un concurrent de très grande taille, qui est aussi le lanceur de Varda.",
-  "sources": [
-   {
-    "label": "Spaceflight Now, 18 oct. 2026",
-    "url": "https://spaceflightnow.com/2026/10/18/live-coverage-spacex-to-launch-starfall-reentry-capsule-31-customer-payloads-on-bandwagon-5-rideshare-mission/"
-   },
-   {
-    "label": "Space.com",
-    "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starfall-return-capsule-launch-bandwagon-5-rideshare-mission"
-   },
-   {
-    "label": "Gizmodo",
-    "url": "https://gizmodo.com/spacexs-next-big-business-could-be-building-stuff-in-space-2000766931"
-   }
-  ],
-  "addedAt": "2026-11-09T19:27:05Z"
  },
  {
   "id": "anthropic-2026-10-19-nscale-second-contrat",
@@ -3176,6 +3256,24 @@
   "addedAt": "2026-10-14T12:24:57Z"
  },
  {
+  "id": "varda-2026-10-13-cadence-lancements",
+  "companyId": "varda",
+  "date": "2026-10-13",
+  "title": "Varda vise sept lancements l'an prochain et recrute massivement",
+  "summary": "Avec deux capsules en orbite et une troisième sur le point de partir, Varda prévoit sept autres missions l'année suivante.",
+  "detail": "La société affirme disposer des capitaux nécessaires après sa Série D et mène une grosse campagne de recrutement. Le principal défi des prochains mois sera de monter en cadence sans incident.",
+  "impact": "La hausse du nombre de vols conditionne les revenus, chaque mission étant facturée à des clients pharmaceutiques ou militaires.",
+  "signal": "neutre",
+  "rationale": "Plan de croissance annoncé, encore à exécuter.",
+  "sources": [
+   {
+    "label": "Space.com, 13 oct. 2026",
+    "url": "https://space.com/space-exploration/launches-spacecraft/2-spacecraft-in-orbit-and-8-more-coming-soon-varda-has-big-plans-for-in-space-manufacturing"
+   }
+  ],
+  "addedAt": "2026-11-09T19:27:05Z"
+ },
+ {
   "id": "anthropic-2026-10-13-scion-source-control",
   "companyId": "anthropic",
   "date": "2026-10-13",
@@ -3308,24 +3406,6 @@
    }
   ],
   "addedAt": "2026-10-13T06:25:23Z"
- },
- {
-  "id": "varda-2026-10-13-cadence-lancements",
-  "companyId": "varda",
-  "date": "2026-10-13",
-  "title": "Varda vise sept lancements l'an prochain et recrute massivement",
-  "summary": "Avec deux capsules en orbite et une troisième sur le point de partir, Varda prévoit sept autres missions l'année suivante.",
-  "detail": "La société affirme disposer des capitaux nécessaires après sa Série D et mène une grosse campagne de recrutement. Le principal défi des prochains mois sera de monter en cadence sans incident.",
-  "impact": "La hausse du nombre de vols conditionne les revenus, chaque mission étant facturée à des clients pharmaceutiques ou militaires.",
-  "signal": "neutre",
-  "rationale": "Plan de croissance annoncé, encore à exécuter.",
-  "sources": [
-   {
-    "label": "Space.com, 13 oct. 2026",
-    "url": "https://space.com/space-exploration/launches-spacecraft/2-spacecraft-in-orbit-and-8-more-coming-soon-varda-has-big-plans-for-in-space-manufacturing"
-   }
-  ],
-  "addedAt": "2026-11-09T19:27:05Z"
  },
  {
   "id": "havoc-ai-2026-10-12-sbir-army",
@@ -4146,6 +4226,28 @@
   "addedAt": "2026-10-02T06:20:37Z"
  },
  {
+  "id": "varda-2026-10-01-double-lancement",
+  "companyId": "varda",
+  "date": "2026-10-01",
+  "title": "Varda envoie deux capsules en orbite sur la même fusée, une première",
+  "summary": "Les capsules W-8 et W-9 sont parties ensemble de Vandenberg sur la mission SpaceX Transporter-18. Selon Varda, c'est la première fois que deux véhicules de rentrée commerciaux sont lancés simultanément.",
+  "detail": "W-8 porte des capteurs de Canopy Aerospace & Defense et des matériaux financés notamment par le laboratoire de recherche de l'US Air Force (programme Prometheus). W-9 teste un système de navigation pour le vol hypersonique, financé par un programme public, et des tuiles de bouclier thermique du chimiste Syensqo.",
+  "impact": "Les clients défense, qui paient les essais hypersoniques, assurent une part importante de l'activité en attendant les contrats pharmaceutiques.",
+  "signal": "optimiste",
+  "rationale": "Première technique et plusieurs clients payants.",
+  "sources": [
+   {
+    "label": "Varda, communiqué, 1er oct. 2026",
+    "url": "https://www.prnewswire.com/news-releases/varda-space-industries-launches-two-vehicles-to-orbit-at-the-same-time-302896502.html"
+   },
+   {
+    "label": "Payload, 30 sept. 2026",
+    "url": "https://payloadspace.com/varda-raises-251m-series-d/"
+   }
+  ],
+  "addedAt": "2026-11-09T19:27:05Z"
+ },
+ {
   "id": "perplexity-2026-10-01-american-express",
   "companyId": "perplexity",
   "date": "2026-10-01",
@@ -4222,23 +4324,27 @@
   "addedAt": "2026-10-06T08:38:05Z"
  },
  {
-  "id": "varda-2026-10-01-double-lancement",
+  "id": "varda-2026-09-30-serie-d",
   "companyId": "varda",
-  "date": "2026-10-01",
-  "title": "Varda envoie deux capsules en orbite sur la même fusée, une première",
-  "summary": "Les capsules W-8 et W-9 sont parties ensemble de Vandenberg sur la mission SpaceX Transporter-18. Selon Varda, c'est la première fois que deux véhicules de rentrée commerciaux sont lancés simultanément.",
-  "detail": "W-8 porte des capteurs de Canopy Aerospace & Defense et des matériaux financés notamment par le laboratoire de recherche de l'US Air Force (programme Prometheus). W-9 teste un système de navigation pour le vol hypersonique, financé par un programme public, et des tuiles de bouclier thermique du chimiste Syensqo.",
-  "impact": "Les clients défense, qui paient les essais hypersoniques, assurent une part importante de l'activité en attendant les contrats pharmaceutiques.",
+  "date": "2026-09-30",
+  "title": "Varda lève 251 millions de dollars à 1,6 milliard de valorisation",
+  "summary": "La Série D est menée par Lux Capital et Natural Capital, avec Founders Fund, Khosla Ventures, Caffeinated Capital et General Catalyst. Varda a levé près de 600 millions de dollars au total.",
+  "detail": "La valorisation de 1,6 milliard de dollars a été communiquée à Reuters ; la Série C de juillet 2025 (187 millions) avait été levée à une valorisation non publiée. L'argent doit servir à augmenter le nombre de missions et à développer les partenariats pharmaceutiques. Varda a réussi six rentrées depuis 2023 et en prévoit plus d'une douzaine d'ici 2028.",
+  "impact": "Varda devient une licorne et finance sa montée en cadence pour plusieurs années.",
   "signal": "optimiste",
-  "rationale": "Première technique et plusieurs clients payants.",
+  "rationale": "Levée importante et valorisation multipliée par trois environ par rapport à 2023.",
   "sources": [
    {
-    "label": "Varda, communiqué, 1er oct. 2026",
-    "url": "https://www.prnewswire.com/news-releases/varda-space-industries-launches-two-vehicles-to-orbit-at-the-same-time-302896502.html"
+    "label": "Reuters, 30 sept. 2026",
+    "url": "https://www.reuters.com/legal/transactional/varda-raises-250-million-16-billion-valuation-scale-orbital-drug-manufacturing-2026-09-30/"
    },
    {
     "label": "Payload, 30 sept. 2026",
     "url": "https://payloadspace.com/varda-raises-251m-series-d/"
+   },
+   {
+    "label": "Fierce Pharma, 30 sept. 2026",
+    "url": "https://www.fiercepharma.com/pharma/varda-brings-home-251m-series-d-fuel-space-based-drug-manufacturing"
    }
   ],
   "addedAt": "2026-11-09T19:27:05Z"
@@ -4508,32 +4614,6 @@
    }
   ],
   "addedAt": "2026-09-30T15:46:23Z"
- },
- {
-  "id": "varda-2026-09-30-serie-d",
-  "companyId": "varda",
-  "date": "2026-09-30",
-  "title": "Varda lève 251 millions de dollars à 1,6 milliard de valorisation",
-  "summary": "La Série D est menée par Lux Capital et Natural Capital, avec Founders Fund, Khosla Ventures, Caffeinated Capital et General Catalyst. Varda a levé près de 600 millions de dollars au total.",
-  "detail": "La valorisation de 1,6 milliard de dollars a été communiquée à Reuters ; la Série C de juillet 2025 (187 millions) avait été levée à une valorisation non publiée. L'argent doit servir à augmenter le nombre de missions et à développer les partenariats pharmaceutiques. Varda a réussi six rentrées depuis 2023 et en prévoit plus d'une douzaine d'ici 2028.",
-  "impact": "Varda devient une licorne et finance sa montée en cadence pour plusieurs années.",
-  "signal": "optimiste",
-  "rationale": "Levée importante et valorisation multipliée par trois environ par rapport à 2023.",
-  "sources": [
-   {
-    "label": "Reuters, 30 sept. 2026",
-    "url": "https://www.reuters.com/legal/transactional/varda-raises-250-million-16-billion-valuation-scale-orbital-drug-manufacturing-2026-09-30/"
-   },
-   {
-    "label": "Payload, 30 sept. 2026",
-    "url": "https://payloadspace.com/varda-raises-251m-series-d/"
-   },
-   {
-    "label": "Fierce Pharma, 30 sept. 2026",
-    "url": "https://www.fiercepharma.com/pharma/varda-brings-home-251m-series-d-fuel-space-based-drug-manufacturing"
-   }
-  ],
-  "addedAt": "2026-11-09T19:27:05Z"
  },
  {
   "id": "perplexity-2026-09-29-amd-ryzen-ai-max",
@@ -7622,24 +7702,6 @@
   "addedAt": "2026-10-16T00:38:24Z"
  },
  {
-  "addedAt": "2026-09-22T08:00:00Z",
-  "companyId": "apollo-research",
-  "date": "2026-05-13",
-  "detail": "Apollo Research a ouvert un bureau à San Francisco et recrute. Une équipe « monitoring », divisée en recherche et produit, développe Watcher, un outil qui détecte les dérives des agents de code : fuite de secrets, actions hors périmètre, jusqu'aux comportements de « scheming ».",
-  "id": "apollo-2026-05-13-watcher",
-  "impact": "C'est le passage d'un modèle de recherche et d'évaluation à un produit logiciel vendable à grande échelle, ce qui ouvre une source de revenus récurrents.",
-  "rationale": "Diversification commerciale cohérente avec la demande du marché.",
-  "signal": "optimiste",
-  "sources": [
-   {
-    "label": "Apollo Research, mise à jour de mai 2026",
-    "url": "https://www.apolloresearch.ai/blog/apollo-update-may-2026/"
-   }
-  ],
-  "summary": "Une équipe dédiée développe un outil de surveillance des agents de code, pensé pour la production.",
-  "title": "Apollo ouvre San Francisco et construit Watcher, son premier produit"
- },
- {
   "id": "varda-2026-05-13-united-therapeutics",
   "companyId": "varda",
   "date": "2026-05-13",
@@ -7664,6 +7726,24 @@
    }
   ],
   "addedAt": "2026-11-09T19:27:05Z"
+ },
+ {
+  "addedAt": "2026-09-22T08:00:00Z",
+  "companyId": "apollo-research",
+  "date": "2026-05-13",
+  "detail": "Apollo Research a ouvert un bureau à San Francisco et recrute. Une équipe « monitoring », divisée en recherche et produit, développe Watcher, un outil qui détecte les dérives des agents de code : fuite de secrets, actions hors périmètre, jusqu'aux comportements de « scheming ».",
+  "id": "apollo-2026-05-13-watcher",
+  "impact": "C'est le passage d'un modèle de recherche et d'évaluation à un produit logiciel vendable à grande échelle, ce qui ouvre une source de revenus récurrents.",
+  "rationale": "Diversification commerciale cohérente avec la demande du marché.",
+  "signal": "optimiste",
+  "sources": [
+   {
+    "label": "Apollo Research, mise à jour de mai 2026",
+    "url": "https://www.apolloresearch.ai/blog/apollo-update-may-2026/"
+   }
+  ],
+  "summary": "Une équipe dédiée développe un outil de surveillance des agents de code, pensé pour la production.",
+  "title": "Apollo ouvre San Francisco et construit Watcher, son premier produit"
  },
  {
   "id": "havoc-ai-2026-05-13-serie-a",
