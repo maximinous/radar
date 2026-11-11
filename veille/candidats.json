@@ -1,45 +1,21 @@
 {
- "generatedAt": "2026-11-11T00:14:51Z",
+ "generatedAt": "2026-11-11T12:49:57Z",
  "windowHours": 48,
- "headlinesRead": 924,
- "count": 36,
- "priorityCount": 6,
+ "headlinesRead": 854,
+ "count": 27,
+ "priorityCount": 4,
  "companies": [
-  {
-   "companyId": "together-ai",
-   "name": "Together AI",
-   "candidates": [
-    {
-     "date": "2026-11-10 16:19",
-     "media": "TipRanks",
-     "title": "Rackspace, Together AI announce multiyear strategic AI infrastructure agreement",
-     "site": "https://www.tipranks.com",
-     "overlap": 0,
-     "reprises": 6,
-     "priority": false
-    }
-   ]
-  },
   {
    "companyId": "mistral-ai",
    "name": "Mistral AI",
    "candidates": [
     {
-     "date": "2026-11-09 08:27",
-     "media": "Presse-citron",
-     "title": "Mistral fait une nouvelle acquisition pour mieux concurrencer ChatGPT et Claude dans le domaine du codage",
-     "site": "https://www.presse-citron.net",
-     "overlap": 0.22,
+     "date": "2026-11-09 18:13",
+     "media": "BigGo Finance",
+     "title": "Mistral CEO Arthur Mensch: 1,000 GPUs per Customer and the 2030 Energy Wall Facing AI",
+     "site": "https://finance.biggo.com",
+     "overlap": 0.18,
      "reprises": 1,
-     "priority": true
-    },
-    {
-     "date": "2026-11-10 15:09",
-     "media": "JustGeek",
-     "title": "Orange lance une appli gratuite qui réunit ChatGPT, Claude, Gemini et Mistral",
-     "site": "https://www.justgeek.fr",
-     "overlap": 0.0,
-     "reprises": 3,
      "priority": false
     },
     {
@@ -56,16 +32,7 @@
      "media": "finance.biggo.com",
      "title": "Mistral CEO: Why OpenAI & Anthropic Will Come for Your Business | Are Chinese Models Truly Safe?｜20VC",
      "site": "https://finance.biggo.com",
-     "overlap": 0.07,
-     "reprises": 0,
-     "priority": false
-    },
-    {
-     "date": "2026-11-09 18:08",
-     "media": "BigGo Finance",
-     "title": "Mistral CEO Arthur Mensch: 1,000 GPUs per Customer and the 2030 Energy Wall Facing AI",
-     "site": "https://finance.biggo.com",
-     "overlap": 0.18,
+     "overlap": 0.21,
      "reprises": 0,
      "priority": false
     }
@@ -80,7 +47,7 @@
      "media": "CoinMarketCap",
      "title": "Meta Plans Stablecoin Integration, Eyeing Stripe as Key Partner",
      "site": "https://coinmarketcap.com",
-     "overlap": 0,
+     "overlap": 0.0,
      "reprises": 2,
      "priority": false
     },
@@ -89,7 +56,7 @@
      "media": "FinanceFeeds",
      "title": "Stripe, miPlata Launch Stablecoin Visa Card Built in 5 Weeks",
      "site": "https://financefeeds.com",
-     "overlap": 0,
+     "overlap": 0.0,
      "reprises": 1,
      "priority": false
     },
@@ -98,7 +65,7 @@
      "media": "FourWeekMBA",
      "title": "Stripe Closes OpenRouter Deal, Owning a 790T-Token Router",
      "site": "https://fourweekmba.com",
-     "overlap": 0,
+     "overlap": 0.0,
      "reprises": 1,
      "priority": false
     },
@@ -107,7 +74,7 @@
      "media": "Crowdfund Insider",
      "title": "Stablecoin Purchases Reach Galaxy Devices Via Samsung And Stripe Partnership",
      "site": "https://www.crowdfundinsider.com",
-     "overlap": 0,
+     "overlap": 0.0,
      "reprises": 0,
      "priority": false
     }
@@ -136,6 +103,15 @@
      "priority": true
     },
     {
+     "date": "2026-11-11 11:57",
+     "media": "WSJ",
+     "title": "Exclusive | Nasdaq-Backed Payward Launches Tokenized Versions of European Stocks",
+     "site": "https://www.wsj.com",
+     "overlap": 0.33,
+     "reprises": 5,
+     "priority": false
+    },
+    {
      "date": "2026-11-10 18:26",
      "media": "Pluang",
      "title": "Kraken launches BTC and ETH options trading in Europe under MiFID license.",
@@ -145,20 +121,11 @@
      "priority": false
     },
     {
-     "date": "2026-11-10 07:35",
-     "media": "Crypto News",
-     "title": "Coinbase, Kalshi, Kraken parent back CFTC in stock perps lawsuit",
-     "site": "https://crypto.news",
-     "overlap": 0.12,
-     "reprises": 1,
-     "priority": false
-    },
-    {
      "date": "2026-11-10 09:33",
      "media": "CoinMarketCap",
      "title": "Kraken Reports 114% Revenue Jump in Q3 Results",
      "site": "https://coinmarketcap.com",
-     "overlap": 0.0,
+     "overlap": 0.2,
      "reprises": 1,
      "priority": false
     },
@@ -172,20 +139,20 @@
      "priority": false
     },
     {
-     "date": "2026-11-09 12:00",
-     "media": "Yahoo Finance",
-     "title": "Portland General Electric Selects Kraken to Deliver Greater Value for Customers and Lower Operating Costs",
-     "site": "https://finance.yahoo.com",
-     "overlap": 0.09,
-     "reprises": 0,
-     "priority": false
-    },
-    {
      "date": "2026-11-10 08:13",
      "media": "Hokanews",
      "title": "Dubai Crypto Industry Reaches 60 Licensed Companies as Bybit, Kraken and Standard Chartered Expand",
      "site": "https://www.hokanews.com",
      "overlap": 0.1,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-11-10 15:55",
+     "media": "Traders Union",
+     "title": "Kraken Exchange launches automated bank deposits with no fees for U.S. users",
+     "site": "https://tradersunion.com",
+     "overlap": 0.29,
      "reprises": 0,
      "priority": false
     }
@@ -196,56 +163,11 @@
    "name": "Polymarket",
    "candidates": [
     {
-     "date": "2026-11-10 20:44",
-     "media": "FinanceFeeds",
-     "title": "Polymarket Revenue Tops $1.8 Billion as US Trading Activity More Than Triples",
-     "site": "https://financefeeds.com",
-     "overlap": 0.0,
-     "reprises": 4,
-     "priority": false
-    },
-    {
-     "date": "2026-11-10 16:14",
-     "media": "MLQ.ai",
-     "title": "Polymarket says its annualized revenue has nearly doubled since June as U.S. exchange volume tops $14 billion",
-     "site": "https://mlq.ai",
-     "overlap": 0.0,
-     "reprises": 3,
-     "priority": false
-    },
-    {
      "date": "2026-11-09 15:00",
      "media": "TradingView",
      "title": "Polymarket Expands Chainlink-Powered 15-Minute Markets to Gold and Silver",
      "site": "https://fr.tradingview.com",
      "overlap": 0.14,
-     "reprises": 0,
-     "priority": false
-    },
-    {
-     "date": "2026-11-10 13:32",
-     "media": "Quartz en Français",
-     "title": "Le chiffre d'affaires annualisé de Polymarket a dépassé 1,8 milliard de dollars.",
-     "site": "https://fr.qz.com",
-     "overlap": 0.0,
-     "reprises": 0,
-     "priority": false
-    },
-    {
-     "date": "2026-11-10 16:46",
-     "media": "The Crypto Times",
-     "title": "Polymarket Revenue Hits $1.8B as Sports Trading Surges",
-     "site": "https://www.cryptotimes.io",
-     "overlap": 0.2,
-     "reprises": 0,
-     "priority": false
-    },
-    {
-     "date": "2026-11-10 17:20",
-     "media": "DeFi Rate",
-     "title": "Polymarket and OG Sue Arkansas Over Gambling Enforcement",
-     "site": "https://defirate.com",
-     "overlap": 0.0,
      "reprises": 0,
      "priority": false
     }
@@ -265,15 +187,6 @@
      "priority": true
     },
     {
-     "date": "2026-11-09 11:38",
-     "media": "remio",
-     "title": "L’acquisition d’Echodyne par Shield AI étend son activité de défense au-delà des aéronefs autonomes",
-     "site": "https://www.remio.ai",
-     "overlap": 0.38,
-     "reprises": 0,
-     "priority": true
-    },
-    {
      "date": "2026-11-09 15:43",
      "media": "AI Insider",
      "title": "Defense Physical AI Roundup: Shield AI Strikes $5.3B Echodyne Deal as Axon Puts $1.2B Into Skydio",
@@ -289,22 +202,13 @@
    "name": "Anthropic",
    "candidates": [
     {
-     "date": "2026-11-10 19:46",
-     "media": "Inc.com",
-     "title": "Anthropic Could Raise $14 Billion More Than SpaceX. The Hard Part Comes After the IPO",
-     "site": "https://www.inc.com",
-     "overlap": 0.27,
+     "date": "2026-11-11 09:00",
+     "media": "The Business Journals",
+     "title": "Anthropic prices IPO that could raise $100B in historic offering",
+     "site": "https://www.bizjournals.com",
+     "overlap": 0.25,
      "reprises": 0,
      "priority": true
-    },
-    {
-     "date": "2026-11-10 20:21",
-     "media": "The Washington Post",
-     "title": "Anthropic targets a company value of more than $1 trillion in its IPO",
-     "site": "https://www.washingtonpost.com",
-     "overlap": 0.29,
-     "reprises": 7,
-     "priority": false
     },
     {
      "date": "2026-11-10 09:32",
@@ -312,24 +216,15 @@
      "title": "Cette IA a créé un tout nouveau système d’exploitation en 8 jours : Anthropic lance Claude Fable et Mythos 5.2 pour mieux dominer l’intelligence artificielle",
      "site": "https://www.journaldugeek.com",
      "overlap": 0.29,
-     "reprises": 5,
+     "reprises": 6,
      "priority": false
     },
     {
-     "date": "2026-11-10 22:37",
-     "media": "Bloomberg.com",
-     "title": "What to Know About the Anthropic IPO",
-     "site": "https://www.bloomberg.com",
-     "overlap": 0.25,
-     "reprises": 5,
-     "priority": false
-    },
-    {
-     "date": "2026-11-10 23:45",
-     "media": "Fortune",
-     "title": "Anthropic's lower-than-expected IPO valuation might not top SpaceX, but it's a 'smart' strategy, experts say",
-     "site": "https://fortune.com",
-     "overlap": 0.21,
+     "date": "2026-11-11 11:00",
+     "media": "NDTV Profit",
+     "title": "Cancer, Alzheimer’s To Be Cured In 10 Years? Anthropic CEO Dario Amodei Makes Big AI Claim",
+     "site": "https://www.ndtvprofit.com",
+     "overlap": 0.0,
      "reprises": 5,
      "priority": false
     },
@@ -343,12 +238,30 @@
      "priority": false
     },
     {
-     "date": "2026-11-10 19:32",
-     "media": "Zonebourse Suisse",
-     "title": "Anthropic lance des outils d’IA pour le travail, dont Claude Sheets",
-     "site": "https://ch.zonebourse.com",
-     "overlap": 0.33,
+     "date": "2026-11-11 12:00",
+     "media": "Brave New Coin",
+     "title": "Anthropic IPO: $70–$78 Range Sets Up $64B Offering",
+     "site": "https://bravenewcoin.com",
+     "overlap": 0.2,
      "reprises": 4,
+     "priority": false
+    },
+    {
+     "date": "2026-11-11 10:46",
+     "media": "Technology Org",
+     "title": "Anthropic IPO Range of $70 to $78 Values the Claude Maker at Up to $1.4 Trillion",
+     "site": "https://www.technology.org",
+     "overlap": 0.33,
+     "reprises": 3,
+     "priority": false
+    },
+    {
+     "date": "2026-11-11 11:14",
+     "media": "Yahoo Finance",
+     "title": "Microsoft Stock Falls as Anthropic Takes Aim at Office Work With New Claude Tools",
+     "site": "https://finance.yahoo.com",
+     "overlap": 0.33,
+     "reprises": 3,
      "priority": false
     }
    ]
