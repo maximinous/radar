@@ -1,5 +1,23 @@
 [
  {
+  "id": "kraken-2026-11-11-xstocks-200-actions-europeennes",
+  "companyId": "kraken",
+  "date": "2026-11-11",
+  "title": "Payward, maison mère de Kraken, ajoute plus de 200 actions britanniques et européennes tokenisées à xStocks",
+  "summary": "Les xStocks passent la barre des 1 500 actifs, avec plus de 200 titres cotés au Royaume-Uni et en Europe, et dépassent 1,1 milliard de dollars d'actifs.",
+  "detail": "Selon The Block, chaque jeton est adossé 1 pour 1 à l'action sous-jacente, détenue chez un conservateur réglementé. GTN fournit le courtage et la conservation pour ces nouvelles lignes, négociables sur Kraken et sur les plateformes de l'alliance xStocks, sur Solana, Ethereum, TON, Ink et X Layer.\n\nLes actifs xStocks dépassent 1,1 milliard de dollars, pour plus de 45 milliards de dollars de volume cumulé et plus de 550 000 détenteurs uniques. Payward annonce des centaines d'actions cotées à Hong Kong d'ici quelques semaines. L'offre reste fermée aux investisseurs britanniques, aux États-Unis et aux personnes américaines.",
+  "impact": "Kraken élargit nettement son catalogue d'actions tokenisées vers l'Europe et prépare l'Asie, un levier de volumes hors des États-Unis.",
+  "signal": "optimiste",
+  "rationale": "Gamme élargie et chiffres de traction en hausse (volume et détenteurs) selon la presse spécialisée, mais accès restreint par la réglementation.",
+  "sources": [
+   {
+    "label": "The Block, 11/11/2026",
+    "url": "https://www.theblock.co/news/business/2026-11-11-kraken-parent-payward-adds-200-tokenized-uk-and-european-equities-to-xstocks-offering-437837"
+   }
+  ],
+  "addedAt": "2026-11-11T12:16:01Z"
+ },
+ {
   "id": "together-ai-2026-11-10-rackspace-gb300",
   "companyId": "together-ai",
   "date": "2026-11-10",
