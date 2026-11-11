@@ -935,6 +935,17 @@
   ],
   "metrics": [
    {
+    "label": "Revenu annualisé",
+    "value": "plus de 1,8 milliard de dollars (contre plus d'un milliard en juin)",
+    "date": "2026-11-10",
+    "status": "officielle",
+    "source": {
+     "label": "CNBC, 10/11/2026",
+     "url": "https://www.cnbc.com/2026/11/10/polymarket-annualized-revenue-us-growth.html"
+    },
+    "articleId": "polymarket-2026-11-10-revenu-1-8-milliard"
+   },
+   {
     "label": "Investisseurs principaux",
     "value": "ICE (jusqu'à 2 milliards de dollars) ; 1789 Capital, Founders Fund, D.E. Shaw, G Squared",
     "date": "2025-10-07",

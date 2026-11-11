@@ -1,5 +1,235 @@
 [
  {
+  "id": "together-ai-2026-11-10-rackspace-gb300",
+  "companyId": "together-ai",
+  "date": "2026-11-10",
+  "title": "Together AI signe avec Rackspace un accord pluriannuel pour des systèmes Nvidia GB300 dédiés",
+  "summary": "Rackspace fournirait et exploiterait des systèmes Nvidia GB300 NVL72 dédiés aux charges d'inférence de Together AI, avec un déploiement prévu en 2027.",
+  "detail": "Rackspace gérerait l'énergie, le refroidissement liquide, le réseau et le stockage. Together AI ferait tourner sa plateforme cloud gérée par-dessus. Le communiqué qualifie l'accord de contraignant mais le soumet à la conclusion d'un financement, que Rackspace n'a pas encore bouclé, et à la disponibilité des sites, de l'énergie et du matériel. Le communiqué ne donne pas de montant ; un média spécialisé avance 380 millions de dollars.\n\nUne lettre d'intention non contraignante prévoit aussi d'étudier des offres communes pour les entreprises (données, conformité).",
+  "impact": "Together AI sécurise de la capacité d'inférence dédiée pour 2027 sans la construire elle-même, et ouvre une voie vers les grands comptes.",
+  "signal": "optimiste",
+  "rationale": "Capacité nouvelle et canal entreprises, mais l'accord dépend d'un financement non finalisé.",
+  "sources": [
+   {
+    "label": "Communiqué Rackspace et Together AI (GlobeNewswire via Manila Times), 10/11/2026",
+    "url": "https://www.manilatimes.net/2026/11/10/tmt-newswire/globenewswire/rackspace-and-together-ai-announce-strategic-agreement-to-support-enterprise-ai-inference/2466475"
+   },
+   {
+    "label": "Converge Digest, 10/11/2026",
+    "url": "https://convergedigest.com/rackspace-together-ai-gb300-nvl72-spectrum-x-380m-2027/"
+   }
+  ],
+  "addedAt": "2026-11-11T06:18:57Z"
+ },
+ {
+  "id": "shield-ai-2026-11-10-matt-ofilos-cfo",
+  "companyId": "shield-ai",
+  "date": "2026-11-10",
+  "title": "Shield AI nomme Matt Ofilos directeur financier, ancien CFO de Parsons",
+  "summary": "Shield AI annonce l'arrivée de Matt Ofilos comme directeur financier, au moment où l'entreprise prépare une forte expansion.",
+  "detail": "Matt Ofilos était CFO de Parsons depuis 2022, après être passé par la direction financière du secteur public mondial d'AWS et près de vingt ans chez Raytheon. Shield le présente comme un dirigeant habitué aux organisations complexes de défense. Le communiqué ne dit pas qui occupait le poste avant lui.",
+  "impact": "Un profil de grande entreprise de défense à la tête de la finance, après le rachat d'Echodyne et la levée annoncés le 5 novembre.",
+  "signal": "optimiste",
+  "rationale": "Recrutement de poids qui accompagne le changement d'échelle de l'entreprise.",
+  "sources": [
+   {
+    "label": "Shield AI, 10/11/2026",
+    "url": "https://shield.ai/shield-names-matt-ofilos-chief-financial-officer/"
+   }
+  ],
+  "addedAt": "2026-11-11T06:18:57Z"
+ },
+ {
+  "id": "shield-ai-2026-11-10-nspa-vbat-grece",
+  "companyId": "shield-ai",
+  "date": "2026-11-10",
+  "title": "Shield AI reçoit une commande de V-BAT supplémentaires de l'OTAN (NSPA) pour la Grèce",
+  "summary": "L'agence NSPA de l'OTAN commande pour l'armée de terre et la marine grecques des V-BAT supplémentaires, avec pièces, formation et soutien.",
+  "detail": "La commande passe par le partenariat NSPA sur les systèmes aériens sans pilote. Shield ne donne ni quantité, ni montant, ni calendrier de livraison. La Grèce utilise déjà le V-BAT pour le renseignement sur terre et en mer, notamment en mer Égée. Shield a ouvert un bureau à Athènes et multiplie les accords locaux (GEK TERNA, ALTUS LSA, EFA GROUP).",
+  "impact": "Le V-BAT s'installe dans les deux armes grecques, avec des revenus de soutien sur la durée.",
+  "signal": "optimiste",
+  "rationale": "Nouvelle commande d'un client OTAN déjà utilisateur, même si le montant reste inconnu.",
+  "sources": [
+   {
+    "label": "Shield AI, 10/11/2026",
+    "url": "https://shield.ai/shield-receives-nspa-order-for-additional-v-bats-for-hellenic-army-and-navy/"
+   }
+  ],
+  "addedAt": "2026-11-11T06:18:57Z"
+ },
+ {
+  "id": "polymarket-2026-11-10-revenu-1-8-milliard",
+  "companyId": "polymarket",
+  "date": "2026-11-10",
+  "title": "Polymarket annonce plus de 1,8 milliard de dollars de revenu annualisé",
+  "summary": "Polymarket dit à CNBC que son revenu annualisé dépasse 1,8 milliard de dollars, contre plus d'un milliard en juin.",
+  "detail": "Le volume de la bourse américaine a dépassé 14,5 milliards de dollars en octobre, contre environ 4 milliards en juin, selon TickerTracker. La croissance vient de la Coupe du monde et de la saison NFL, et les contrats combinés, proches des paris combinés, représentaient plus de 70 % du volume dimanche. CNBC rappelle un tour d'un milliard de dollars en cours à 21 milliards de valorisation et une enquête large de la CFTC sur la publicité et sur le respect d'un accord de 2022.",
+  "impact": "La traction presque double depuis juin renforce la position de Polymarket face à Kalshi, au moment où les régulateurs resserrent la pression.",
+  "signal": "optimiste",
+  "rationale": "Croissance forte et chiffrée par la société, mais c'est un taux annualisé et l'enquête de la CFTC reste ouverte.",
+  "sources": [
+   {
+    "label": "CNBC, 10/11/2026",
+    "url": "https://www.cnbc.com/2026/11/10/polymarket-annualized-revenue-us-growth.html"
+   },
+   {
+    "label": "Quartz, 10/11/2026",
+    "url": "https://qz.com/polymarket-annualized-revenue-billion-us-exchange-111026"
+   }
+  ],
+  "addedAt": "2026-11-11T06:18:57Z"
+ },
+ {
+  "id": "stripe-2026-11-10-hsbc-tap-to-pay",
+  "companyId": "stripe",
+  "date": "2026-11-10",
+  "title": "Stripe équipe HSBC UK d'un Tap to Pay pour les petites entreprises",
+  "summary": "HSBC UK lance, avec la technologie de Stripe, une fonction qui permet aux petites entreprises d'encaisser sans lecteur de carte.",
+  "detail": "Les clients professionnels éligibles prennent des paiements sans contact sur un smartphone compatible, depuis l'application Business Banking de HSBC. L'annonce ne donne ni date de lancement, ni liste de téléphones, ni tarifs. Stripe avait déjà un accord similaire avec Lloyds au Royaume-Uni.",
+  "impact": "Une deuxième grande banque britannique distribue la brique d'encaissement de Stripe.",
+  "signal": "optimiste",
+  "rationale": "Nouveau client bancaire de poids, sans chiffres de volumes.",
+  "sources": [
+   {
+    "label": "Stripe, 10/11/2026",
+    "url": "https://stripe.com/newsroom/news/stripehsbc-power-tap-to-pay-for-uk-small-businesses"
+   }
+  ],
+  "addedAt": "2026-11-11T06:18:57Z"
+ },
+ {
+  "id": "fluidstack-2026-11-10-wythe-construction",
+  "companyId": "fluidstack",
+  "date": "2026-11-10",
+  "title": "Fluidstack lance la construction de son campus de 99 acres à Wythe County, en Virginie",
+  "summary": "Fluidstack a commencé les travaux de son campus de centres de données sur 99 acres à Progress Park.",
+  "detail": "Le comté chiffre l'investissement à plus d'un milliard de dollars. L'essentiel du campus doit être achevé fin 2027, avec une mise en service par phases, environ 1 000 emplois de chantier au pic et 75 postes permanents. La puissance n'est pas communiquée. Le refroidissement en circuit fermé demande un remplissage initial d'environ 400 000 gallons d'eau. Des riverains contestent l'eau, le bruit et le calendrier de concertation.",
+  "impact": "Un site de plus passe de la préparation au chantier, ce qui soutient les capacités annoncées pour 2027.",
+  "signal": "optimiste",
+  "rationale": "Chantier lancé avec un calendrier précis, malgré l'opposition locale.",
+  "sources": [
+   {
+    "label": "Data Center Dynamics, 10/11/2026",
+    "url": "https://www.datacenterdynamics.com/en/news/fluidstack-begins-construction-of-99-acre-data-center-campus-in-wythe-county-virginia/"
+   },
+   {
+    "label": "MLQ.ai, 10/11/2026",
+    "url": "https://mlq.ai/news/fluidstack-begins-construction-on-a-99-acre-ai-data-center-campus-in-wythe-county-virginia/"
+   }
+  ],
+  "addedAt": "2026-11-11T06:18:57Z"
+ },
+ {
+  "id": "kraken-2026-11-10-amicus-cftc-perpetuels",
+  "companyId": "kraken",
+  "date": "2026-11-10",
+  "title": "Payward, maison mère de Kraken, soutient la CFTC dans le procès sur les perpétuels sur actions",
+  "summary": "Payward, avec Coinbase, Kalshi, DRW, Jump Trading et Paradigm, demande à déposer un mémoire d'amicus curiae pour défendre la CFTC.",
+  "detail": "Le recours de la Capital Markets Alliance veut annuler l'autorisation par la CFTC des contrats perpétuels sur actions, qu'il assimile à des swaps sur titres. Les six sociétés plaident devant le tribunal fédéral du district sud de New York que la loi permet ces contrats. Selon The Block, les demandes déposées en septembre par Coinbase, Kalshi et Payward ont été réputées approuvées le 2 novembre. Un média cité indique qu'un juge a estimé que la CFTC avait probablement excédé ses pouvoirs, ce que je n'ai pas vérifié.",
+  "impact": "Kraken défend son futur marché de dérivés américains, dont dépend son développement après le rachat de Bitnomial.",
+  "signal": "neutre",
+  "rationale": "Position affichée aux côtés de grands acteurs, mais l'issue judiciaire est incertaine.",
+  "sources": [
+   {
+    "label": "The Block, 10/11/2026",
+    "url": "https://www.theblock.co/news/regulation/2026-11-10-coinbase-kalshi-payward-back-cftc-perps-436971"
+   },
+   {
+    "label": "Crypto News, 10/11/2026",
+    "url": "https://crypto.news/coinbase-kalshi-cftc-stock-perpetuals-lawsuit/"
+   }
+  ],
+  "addedAt": "2026-11-11T06:18:57Z"
+ },
+ {
+  "id": "mistral-ai-2026-11-10-orange-ias",
+  "companyId": "mistral-ai",
+  "date": "2026-11-10",
+  "title": "Orange intègre Mistral à Orange IAs, avec Claude, Gemini et GPT",
+  "summary": "Orange annonce Orange IAs, un service qui réunit des modèles de Mistral, Anthropic, Google et OpenAI dans ses nouvelles applications.",
+  "detail": "Orange IAs sera disponible le 19 novembre dans les applications Orange et Sosh. Une offre gratuite « Découverte » est ouverte à tous, clients ou non, et une offre Plus à 10 euros par mois est réservée aux clients Orange et Sosh. Orange ne nomme pas les versions ; la presse a cité Mistral Large 4 lors de premiers essais, sans confirmation d'Orange.",
+  "impact": "Mistral gagne une vitrine auprès du grand public français, mais au milieu de ses concurrents américains.",
+  "signal": "optimiste",
+  "rationale": "Distribution large pour Mistral, sans exclusivité ni chiffre.",
+  "sources": [
+   {
+    "label": "Communiqué Orange, 10/11/2026",
+    "url": "https://www.orange.com/en/press-release/orange-launches-two-orange-and-sosh-super-apps-open-to-all-featuring-a-new-ai-service-519122"
+   },
+   {
+    "label": "Clubic, 10/11/2026",
+    "url": "https://www.clubic.com/actualite-638581-orange-lance-une-appli-gratuite-pour-utiliser-claude-gemini-gpt-et-mistral-meme-si-vous-n-etes-pas-client.html"
+   }
+  ],
+  "addedAt": "2026-11-11T06:18:57Z"
+ },
+ {
+  "id": "anthropic-2026-11-10-orange-ias",
+  "companyId": "anthropic",
+  "date": "2026-11-10",
+  "title": "Claude fait partie d'Orange IAs, le service d'IA multimodèle d'Orange",
+  "summary": "Orange lance Orange IAs, où Claude côtoie Gemini, GPT et Mistral dans les applications Orange et Sosh.",
+  "detail": "Le service arrive le 19 novembre, avec une offre gratuite ouverte à tous et une offre Plus à 10 euros par mois pour les clients Orange et Sosh. Orange ne précise pas quelle version de Claude est utilisée.",
+  "impact": "Claude gagne un canal de distribution auprès d'un opérateur majeur en France.",
+  "signal": "optimiste",
+  "rationale": "Nouvelle distribution grand public, mais Claude y est en concurrence directe avec ses rivaux.",
+  "sources": [
+   {
+    "label": "Communiqué Orange, 10/11/2026",
+    "url": "https://www.orange.com/en/press-release/orange-launches-two-orange-and-sosh-super-apps-open-to-all-featuring-a-new-ai-service-519122"
+   },
+   {
+    "label": "Clubic, 10/11/2026",
+    "url": "https://www.clubic.com/actualite-638581-orange-lance-une-appli-gratuite-pour-utiliser-claude-gemini-gpt-et-mistral-meme-si-vous-n-etes-pas-client.html"
+   }
+  ],
+  "addedAt": "2026-11-11T06:18:57Z"
+ },
+ {
+  "id": "anthropic-2026-11-10-claude-sheets-whiteboards",
+  "companyId": "anthropic",
+  "date": "2026-11-10",
+  "title": "Anthropic lance Claude Sheets et Whiteboards en bêta, et ouvre Claude Data à tous",
+  "summary": "Anthropic ajoute un tableur et un tableau blanc partagés avec Claude, et rend Claude Data (ex Dashboards) disponible à tous.",
+  "detail": "Sheets produit des classeurs à plusieurs onglets avec formules et menus déroulants à partir d'une consigne, et les équipes peuvent éditer avec Claude. La bêta couvre tous les forfaits payants ; sur Enterprise, Sheets et Whiteboards sont désactivés par défaut et Claude Data s'active par défaut le 19 novembre. Anthropic reconnaît des fonctions encore simples et propose l'export en .xlsx ou CSV. Anthropic prévoit aussi un aperçu de Meetings. Selon MLQ.ai, l'action Microsoft a reculé d'environ 3 % après l'annonce.",
+  "impact": "Anthropic s'attaque aux suites bureautiques de Microsoft et de Google, en pleine préparation de son introduction en Bourse.",
+  "signal": "optimiste",
+  "rationale": "Élargissement produit vers la bureautique, mais le tableur reste basique.",
+  "sources": [
+   {
+    "label": "Anthropic (Claude), 10/11/2026",
+    "url": "https://claude.com/resources/articles/sheets-whiteboards-data"
+   },
+   {
+    "label": "MLQ.ai, 10/11/2026",
+    "url": "https://mlq.ai/news/anthropic-launches-claude-sheets-and-meetings-in-a-push-into-office-software-as-microsoft-shares-fall/"
+   }
+  ],
+  "addedAt": "2026-11-11T06:18:57Z"
+ },
+ {
+  "id": "perplexity-2026-11-10-gemini-4-carbon-computer",
+  "companyId": "perplexity",
+  "date": "2026-11-10",
+  "title": "Perplexity ouvre Gemini 4 Carbon dans Computer aux abonnés Pro et Max",
+  "summary": "Perplexity ajoute le modèle Gemini 4 Carbon de Google à Perplexity Computer pour les abonnés Pro et Max.",
+  "detail": "Aravind Srinivas avait annoncé le 30 octobre des premières évaluations, avec un record sur le test WANDR. Selon Perplexity, Carbon obtient 0,857 à 5,86 dollars par tâche, contre 0,851 à 14,51 dollars pour Claude Fable 5.2. Ce sont des chiffres de Perplexity. L'accès via la recherche standard reste limité aux abonnés Max.",
+  "impact": "Perplexity propose un modèle plus performant et moins coûteux sur son agent phare, ce qui améliore sa marge et son offre.",
+  "signal": "optimiste",
+  "rationale": "Gain de qualité et de coût annoncé, mais fondé sur un test maison.",
+  "sources": [
+   {
+    "label": "Crypto Briefing, 10/11/2026",
+    "url": "https://cryptobriefing.com/perplexity-computer-gemini-4-carbon/"
+   },
+   {
+    "label": "Aravind Srinivas sur X",
+    "url": "https://x.com/AravSrinivas/status/2116263856628703247"
+   }
+  ],
+  "addedAt": "2026-11-11T06:18:57Z"
+ },
+ {
   "id": "anthropic-2026-11-10-ipo-fourchette-70-78",
   "companyId": "anthropic",
   "date": "2026-11-10",
