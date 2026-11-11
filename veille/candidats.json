@@ -1,10 +1,25 @@
 {
- "generatedAt": "2026-11-10T13:36:59Z",
+ "generatedAt": "2026-11-11T00:14:51Z",
  "windowHours": 48,
- "headlinesRead": 799,
- "count": 34,
+ "headlinesRead": 924,
+ "count": 36,
  "priorityCount": 6,
  "companies": [
+  {
+   "companyId": "together-ai",
+   "name": "Together AI",
+   "candidates": [
+    {
+     "date": "2026-11-10 16:19",
+     "media": "TipRanks",
+     "title": "Rackspace, Together AI announce multiyear strategic AI infrastructure agreement",
+     "site": "https://www.tipranks.com",
+     "overlap": 0,
+     "reprises": 6,
+     "priority": false
+    }
+   ]
+  },
   {
    "companyId": "mistral-ai",
    "name": "Mistral AI",
@@ -19,12 +34,12 @@
      "priority": true
     },
     {
-     "date": "2026-11-10 10:42",
-     "media": "Clubic",
-     "title": "Orange lance une appli gratuite pour utiliser Claude, Gemini, GPT et Mistral, même si vous n’êtes pas client",
-     "site": "https://www.clubic.com",
-     "overlap": 0.15,
-     "reprises": 2,
+     "date": "2026-11-10 15:09",
+     "media": "JustGeek",
+     "title": "Orange lance une appli gratuite qui réunit ChatGPT, Claude, Gemini et Mistral",
+     "site": "https://www.justgeek.fr",
+     "overlap": 0.0,
+     "reprises": 3,
      "priority": false
     },
     {
@@ -61,12 +76,12 @@
    "name": "Stripe",
    "candidates": [
     {
-     "date": "2026-11-08 22:38",
-     "media": "BBN Times",
-     "title": "Patrick Collison, Stripe CEO: Net Worth and Leadership",
-     "site": "https://www.bbntimes.com",
-     "overlap": 0.0,
-     "reprises": 1,
+     "date": "2026-11-10 10:37",
+     "media": "CoinMarketCap",
+     "title": "Meta Plans Stablecoin Integration, Eyeing Stripe as Key Partner",
+     "site": "https://coinmarketcap.com",
+     "overlap": 0,
+     "reprises": 2,
      "priority": false
     },
     {
@@ -74,25 +89,25 @@
      "media": "FinanceFeeds",
      "title": "Stripe, miPlata Launch Stablecoin Visa Card Built in 5 Weeks",
      "site": "https://financefeeds.com",
-     "overlap": 0.14,
+     "overlap": 0,
      "reprises": 1,
      "priority": false
     },
     {
-     "date": "2026-11-08 15:42",
-     "media": "Blockonomi",
-     "title": "Ripple Partners With Stripe-Owned Privy: Can XRP Price Reclaim $2?",
-     "site": "https://blockonomi.com",
-     "overlap": 0.0,
-     "reprises": 0,
+     "date": "2026-11-10 22:41",
+     "media": "FourWeekMBA",
+     "title": "Stripe Closes OpenRouter Deal, Owning a 790T-Token Router",
+     "site": "https://fourweekmba.com",
+     "overlap": 0,
+     "reprises": 1,
      "priority": false
     },
     {
-     "date": "2026-11-08 23:56",
-     "media": "The Portugal News",
-     "title": "Stripe expands its artificial intelligence partnerships",
-     "site": "https://www.theportugalnews.com",
-     "overlap": 0.0,
+     "date": "2026-11-10 05:43",
+     "media": "Crowdfund Insider",
+     "title": "Stablecoin Purchases Reach Galaxy Devices Via Samsung And Stripe Partnership",
+     "site": "https://www.crowdfundinsider.com",
+     "overlap": 0,
      "reprises": 0,
      "priority": false
     }
@@ -121,12 +136,12 @@
      "priority": true
     },
     {
-     "date": "2026-11-10 01:24",
-     "media": "디지털투데이",
-     "title": "Kraken CEO says bitcoin bear market nearing end, most gradual correction",
-     "site": "https://www.digitaltoday.co.kr",
-     "overlap": 0.2,
-     "reprises": 1,
+     "date": "2026-11-10 18:26",
+     "media": "Pluang",
+     "title": "Kraken launches BTC and ETH options trading in Europe under MiFID license.",
+     "site": "https://pluang.com",
+     "overlap": 0.11,
+     "reprises": 2,
      "priority": false
     },
     {
@@ -135,6 +150,24 @@
      "title": "Coinbase, Kalshi, Kraken parent back CFTC in stock perps lawsuit",
      "site": "https://crypto.news",
      "overlap": 0.12,
+     "reprises": 1,
+     "priority": false
+    },
+    {
+     "date": "2026-11-10 09:33",
+     "media": "CoinMarketCap",
+     "title": "Kraken Reports 114% Revenue Jump in Q3 Results",
+     "site": "https://coinmarketcap.com",
+     "overlap": 0.0,
+     "reprises": 1,
+     "priority": false
+    },
+    {
+     "date": "2026-11-10 12:33",
+     "media": "TOKENPOST",
+     "title": "Kraken Co-CEO Dave Ripley Says Bitcoin (BTC) May Be Leaving Bear Market",
+     "site": "https://www.tokenpost.com",
+     "overlap": 0.2,
      "reprises": 1,
      "priority": false
     },
@@ -163,46 +196,55 @@
    "name": "Polymarket",
    "candidates": [
     {
-     "date": "2026-11-10 13:29",
-     "media": "Quartz",
-     "title": "Polymarket says its annualized revenue has topped $1.8 billion",
-     "site": "https://qz.com",
+     "date": "2026-11-10 20:44",
+     "media": "FinanceFeeds",
+     "title": "Polymarket Revenue Tops $1.8 Billion as US Trading Activity More Than Triples",
+     "site": "https://financefeeds.com",
      "overlap": 0.0,
      "reprises": 4,
      "priority": false
     },
     {
-     "date": "2026-11-10 00:45",
-     "media": "OregonLive.com",
-     "title": "New $25 Polymarket promo code “OREGON” launches for Bills-Vikings MNF",
-     "site": "https://www.oregonlive.com",
+     "date": "2026-11-10 16:14",
+     "media": "MLQ.ai",
+     "title": "Polymarket says its annualized revenue has nearly doubled since June as U.S. exchange volume tops $14 billion",
+     "site": "https://mlq.ai",
      "overlap": 0.0,
-     "reprises": 0,
+     "reprises": 3,
      "priority": false
     },
     {
-     "date": "2026-11-10 13:14",
-     "media": "Pluang",
-     "title": "Polymarket's annualized revenue tops $1.8B amid U.S. exchange growth and sports event volume surge",
-     "site": "https://pluang.com",
-     "overlap": 0.2,
-     "reprises": 0,
-     "priority": false
-    },
-    {
-     "date": "2026-11-10 13:20",
-     "media": "NewsBytes",
-     "title": "Polymarket posts $1.8B annualized revenue after US launch in May",
-     "site": "https://www.newsbytesapp.com",
-     "overlap": 0.0,
+     "date": "2026-11-09 15:00",
+     "media": "TradingView",
+     "title": "Polymarket Expands Chainlink-Powered 15-Minute Markets to Gold and Silver",
+     "site": "https://fr.tradingview.com",
+     "overlap": 0.14,
      "reprises": 0,
      "priority": false
     },
     {
      "date": "2026-11-10 13:32",
      "media": "Quartz en Français",
-     "title": "Polymarket indique que son chiffre d'affaires annualisé a dépassé 1,8 milliard de dollars.",
+     "title": "Le chiffre d'affaires annualisé de Polymarket a dépassé 1,8 milliard de dollars.",
      "site": "https://fr.qz.com",
+     "overlap": 0.0,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-11-10 16:46",
+     "media": "The Crypto Times",
+     "title": "Polymarket Revenue Hits $1.8B as Sports Trading Surges",
+     "site": "https://www.cryptotimes.io",
+     "overlap": 0.2,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-11-10 17:20",
+     "media": "DeFi Rate",
+     "title": "Polymarket and OG Sue Arkansas Over Gambling Enforcement",
+     "site": "https://defirate.com",
      "overlap": 0.0,
      "reprises": 0,
      "priority": false
@@ -219,7 +261,7 @@
      "title": "Shield AI to Buy Kirkland Radar Maker Echodyne in $5.3B Deal, No Jobs Moving",
      "site": "https://hoodline.com",
      "overlap": 0.38,
-     "reprises": 2,
+     "reprises": 1,
      "priority": true
     },
     {
@@ -247,29 +289,20 @@
    "name": "Anthropic",
    "candidates": [
     {
-     "date": "2026-11-09 16:56",
-     "media": "TechCrunch",
-     "title": "Anthropic joins AI’s natural gas frenzy, buys $3.4B worth of turbines",
-     "site": "https://techcrunch.com",
-     "overlap": 0.0,
+     "date": "2026-11-10 19:46",
+     "media": "Inc.com",
+     "title": "Anthropic Could Raise $14 Billion More Than SpaceX. The Hard Part Comes After the IPO",
+     "site": "https://www.inc.com",
+     "overlap": 0.27,
      "reprises": 0,
      "priority": true
     },
     {
-     "date": "2026-11-10 13:12",
-     "media": "CoinGape",
-     "title": "Anthropic Targets Over $1 Trillion Valuation in Upcoming IPO Amid AI Market Volatility",
-     "site": "https://coingape.com",
-     "overlap": 0.33,
-     "reprises": 9,
-     "priority": false
-    },
-    {
-     "date": "2026-11-10 13:17",
-     "media": "ABC News - Breaking News, Latest News and Videos",
-     "title": "Anthropic seeks $70 to $78 a share in new IPO filing",
-     "site": "https://abcnews.com",
-     "overlap": 0.25,
+     "date": "2026-11-10 20:21",
+     "media": "The Washington Post",
+     "title": "Anthropic targets a company value of more than $1 trillion in its IPO",
+     "site": "https://www.washingtonpost.com",
+     "overlap": 0.29,
      "reprises": 7,
      "priority": false
     },
@@ -279,16 +312,25 @@
      "title": "Cette IA a créé un tout nouveau système d’exploitation en 8 jours : Anthropic lance Claude Fable et Mythos 5.2 pour mieux dominer l’intelligence artificielle",
      "site": "https://www.journaldugeek.com",
      "overlap": 0.29,
-     "reprises": 6,
+     "reprises": 5,
      "priority": false
     },
     {
-     "date": "2026-11-10 10:13",
-     "media": "CyberSecurityNews",
-     "title": "Anthropic Launches Claude Mythos 5.2, Scoring 76.3% on Cybersecurity Benchmark to Identify 0-Day Flaws",
-     "site": "https://cybersecuritynews.com",
-     "overlap": 0.33,
-     "reprises": 4,
+     "date": "2026-11-10 22:37",
+     "media": "Bloomberg.com",
+     "title": "What to Know About the Anthropic IPO",
+     "site": "https://www.bloomberg.com",
+     "overlap": 0.25,
+     "reprises": 5,
+     "priority": false
+    },
+    {
+     "date": "2026-11-10 23:45",
+     "media": "Fortune",
+     "title": "Anthropic's lower-than-expected IPO valuation might not top SpaceX, but it's a 'smart' strategy, experts say",
+     "site": "https://fortune.com",
+     "overlap": 0.21,
+     "reprises": 5,
      "priority": false
     },
     {
@@ -301,11 +343,11 @@
      "priority": false
     },
     {
-     "date": "2026-11-10 13:02",
-     "media": "Quartz en Français",
-     "title": "Anthropic prévoit une diffusion en direct de son introduction en bourse avec Dario Amodei, Jamie Dimon.",
-     "site": "https://fr.qz.com",
-     "overlap": 0.22,
+     "date": "2026-11-10 19:32",
+     "media": "Zonebourse Suisse",
+     "title": "Anthropic lance des outils d’IA pour le travail, dont Claude Sheets",
+     "site": "https://ch.zonebourse.com",
+     "overlap": 0.33,
      "reprises": 4,
      "priority": false
     }
@@ -316,21 +358,12 @@
    "name": "Perplexity",
    "candidates": [
     {
-     "date": "2026-11-09 08:34",
+     "date": "2026-11-09 17:56",
      "media": "آي-فون إسلام",
      "title": "Perplexity launches health platform with Apple Health… Your smart doctor now knows you well!",
      "site": "https://iphoneislam.com",
      "overlap": 0.09,
      "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-11-08 14:28",
-     "media": "Pulse 2.0",
-     "title": "Perplexity Launches Teammates AI Agents To Manage Complex Projects And Automate Ongoing Business Workflows",
-     "site": "https://pulse2.com",
-     "overlap": 0.3,
-     "reprises": 0,
      "priority": false
     },
     {
@@ -340,21 +373,6 @@
      "site": "https://cryptorank.io",
      "overlap": 0.09,
      "reprises": 0,
-     "priority": false
-    }
-   ]
-  },
-  {
-   "companyId": "varda",
-   "name": "Varda Space Industries",
-   "candidates": [
-    {
-     "date": "2026-11-08 15:38",
-     "media": "조선일보",
-     "title": "Varda Launches Spacecraft for Space-Based Drug Experiments",
-     "site": "https://www.chosun.com",
-     "overlap": 0.25,
-     "reprises": 2,
      "priority": false
     }
    ]
