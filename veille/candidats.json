@@ -1,22 +1,37 @@
 {
- "generatedAt": "2026-11-11T12:49:57Z",
+ "generatedAt": "2026-11-12T01:40:30Z",
  "windowHours": 48,
- "headlinesRead": 854,
- "count": 27,
- "priorityCount": 4,
+ "headlinesRead": 930,
+ "count": 29,
+ "priorityCount": 7,
  "companies": [
+  {
+   "companyId": "prometheus",
+   "name": "Prometheus",
+   "candidates": [
+    {
+     "date": "2026-11-11 18:56",
+     "media": "Unisba Media",
+     "title": "FULL DISCUSSION: Jeff Bezos Unveils Prometheus AI, Predicts Space Computing Will Transform The World Kampala (2RzdSdTDAN)",
+     "site": "https://media.unisba.ac.id",
+     "overlap": 0,
+     "reprises": 0,
+     "priority": false
+    }
+   ]
+  },
   {
    "companyId": "mistral-ai",
    "name": "Mistral AI",
    "candidates": [
     {
-     "date": "2026-11-09 18:13",
-     "media": "BigGo Finance",
-     "title": "Mistral CEO Arthur Mensch: 1,000 GPUs per Customer and the 2030 Energy Wall Facing AI",
-     "site": "https://finance.biggo.com",
-     "overlap": 0.18,
+     "date": "2026-11-10 10:06",
+     "media": "EmarketerZ",
+     "title": "Acquisition de la startup SkipLabs par Mistral : une nouvelle étape pour dominer le codage IA ?",
+     "site": "https://www.emarketerz.fr",
+     "overlap": 0.14,
      "reprises": 1,
-     "priority": false
+     "priority": true
     },
     {
      "date": "2026-11-10 07:18",
@@ -24,15 +39,6 @@
      "title": "Mistral CEO Pushes Back: Energy Is “Not the Bottleneck” for AI Compute. Here’s What Is.",
      "site": "https://www.tikr.com",
      "overlap": 0.0,
-     "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-11-09 15:35",
-     "media": "finance.biggo.com",
-     "title": "Mistral CEO: Why OpenAI & Anthropic Will Come for Your Business | Are Chinese Models Truly Safe?｜20VC",
-     "site": "https://finance.biggo.com",
-     "overlap": 0.21,
      "reprises": 0,
      "priority": false
     }
@@ -42,6 +48,24 @@
    "companyId": "stripe",
    "name": "Stripe",
    "candidates": [
+    {
+     "date": "2026-11-11 18:59",
+     "media": "TOKENPOST",
+     "title": "Stripe Completes OpenRouter Acquisition, Adding Platform Used by More Than 10 Million",
+     "site": "https://www.tokenpost.com",
+     "overlap": 0.0,
+     "reprises": 1,
+     "priority": true
+    },
+    {
+     "date": "2026-11-11 13:54",
+     "media": "Glitchwire",
+     "title": "Stripe Closes $7.5 Billion OpenRouter Acquisition as AI Token Traffic Hits Record",
+     "site": "https://glitchwire.com",
+     "overlap": 0.0,
+     "reprises": 0,
+     "priority": true
+    },
     {
      "date": "2026-11-10 10:37",
      "media": "CoinMarketCap",
@@ -61,20 +85,29 @@
      "priority": false
     },
     {
-     "date": "2026-11-10 22:41",
-     "media": "FourWeekMBA",
-     "title": "Stripe Closes OpenRouter Deal, Owning a 790T-Token Router",
-     "site": "https://fourweekmba.com",
-     "overlap": 0.0,
-     "reprises": 1,
-     "priority": false
-    },
-    {
      "date": "2026-11-10 05:43",
      "media": "Crowdfund Insider",
      "title": "Stablecoin Purchases Reach Galaxy Devices Via Samsung And Stripe Partnership",
      "site": "https://www.crowdfundinsider.com",
      "overlap": 0.0,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-11-10 22:41",
+     "media": "FourWeekMBA",
+     "title": "Stripe Closes OpenRouter Deal, Owning a 790T-Token Router",
+     "site": "https://fourweekmba.com",
+     "overlap": 0.0,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-11-11 12:52",
+     "media": "Hospitality Net",
+     "title": "UrVenue Expands Stripe Integration to Bring Modern Payment Technology to Resorts and Hospitality",
+     "site": "https://www.hospitalitynet.org",
+     "overlap": 0.11,
      "reprises": 0,
      "priority": false
     }
@@ -94,30 +127,21 @@
      "priority": true
     },
     {
-     "date": "2026-11-10 00:29",
-     "media": "StreetInsider",
-     "title": "BTC, ETH or Crypto Yield? A Payward Fund and Its Clients Buy AAVE as Remittix Earn Opens Pools From Aave, Morpho and Fluid",
-     "site": "https://www.streetinsider.com",
-     "overlap": 0.33,
-     "reprises": 0,
-     "priority": true
-    },
-    {
-     "date": "2026-11-11 11:57",
-     "media": "WSJ",
-     "title": "Exclusive | Nasdaq-Backed Payward Launches Tokenized Versions of European Stocks",
-     "site": "https://www.wsj.com",
-     "overlap": 0.33,
-     "reprises": 5,
+     "date": "2026-11-11 17:30",
+     "media": "unchainedcrypto.com",
+     "title": "Kraken Parent Expands Beyond US Names With Over 200 UK and EU Stocks",
+     "site": "https://unchainedcrypto.com",
+     "overlap": 0.29,
+     "reprises": 6,
      "priority": false
     },
     {
-     "date": "2026-11-10 18:26",
-     "media": "Pluang",
-     "title": "Kraken launches BTC and ETH options trading in Europe under MiFID license.",
-     "site": "https://pluang.com",
-     "overlap": 0.11,
-     "reprises": 2,
+     "date": "2026-11-11 17:30",
+     "media": "Yahoo Finance",
+     "title": "Kraken-backed tokenized trading expands to UK and EU-listed stocks",
+     "site": "https://finance.yahoo.com",
+     "overlap": 0.33,
+     "reprises": 4,
      "priority": false
     },
     {
@@ -130,11 +154,11 @@
      "priority": false
     },
     {
-     "date": "2026-11-10 12:33",
-     "media": "TOKENPOST",
-     "title": "Kraken Co-CEO Dave Ripley Says Bitcoin (BTC) May Be Leaving Bear Market",
-     "site": "https://www.tokenpost.com",
-     "overlap": 0.2,
+     "date": "2026-11-10 18:26",
+     "media": "Pluang",
+     "title": "Kraken launches BTC and ETH options trading in Europe under MiFID license.",
+     "site": "https://pluang.com",
+     "overlap": 0.11,
      "reprises": 1,
      "priority": false
     },
@@ -148,11 +172,11 @@
      "priority": false
     },
     {
-     "date": "2026-11-10 15:55",
-     "media": "Traders Union",
-     "title": "Kraken Exchange launches automated bank deposits with no fees for U.S. users",
-     "site": "https://tradersunion.com",
-     "overlap": 0.29,
+     "date": "2026-11-10 12:33",
+     "media": "TOKENPOST",
+     "title": "Kraken Co-CEO Dave Ripley Says Bitcoin (BTC) May Be Leaving Bear Market",
+     "site": "https://www.tokenpost.com",
+     "overlap": 0.1,
      "reprises": 0,
      "priority": false
     }
@@ -163,11 +187,29 @@
    "name": "Polymarket",
    "candidates": [
     {
-     "date": "2026-11-09 15:00",
-     "media": "TradingView",
-     "title": "Polymarket Expands Chainlink-Powered 15-Minute Markets to Gold and Silver",
-     "site": "https://fr.tradingview.com",
-     "overlap": 0.14,
+     "date": "2026-11-11 18:41",
+     "media": "Benzinga",
+     "title": "Polymarket Cuts Staff as $1.8B Revenue Fuels IPO Push - Intercontinental Exchange (NYSE:ICE)",
+     "site": "https://www.benzinga.com",
+     "overlap": 0.2,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-11-11 21:48",
+     "media": "Siskiyou Daily News",
+     "title": "Polymarket Sign-Up Bonus Code SBWIRE | Get $25 for NFL, NBA, Politics & More",
+     "site": "https://www.siskiyoudaily.com",
+     "overlap": 0.11,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-11-12 00:11",
+     "media": "Startup Fortune",
+     "title": "Polymarket Bets 75% That Jensen Huang Will Be Out as Nvidia CEO Before the Year Ends",
+     "site": "https://startupfortune.com",
+     "overlap": 0.0,
      "reprises": 0,
      "priority": false
     }
@@ -178,22 +220,13 @@
    "name": "Shield AI",
    "candidates": [
     {
-     "date": "2026-11-09 19:47",
-     "media": "Hoodline",
-     "title": "Shield AI to Buy Kirkland Radar Maker Echodyne in $5.3B Deal, No Jobs Moving",
-     "site": "https://hoodline.com",
-     "overlap": 0.38,
-     "reprises": 1,
-     "priority": true
-    },
-    {
-     "date": "2026-11-09 15:43",
-     "media": "AI Insider",
-     "title": "Defense Physical AI Roundup: Shield AI Strikes $5.3B Echodyne Deal as Axon Puts $1.2B Into Skydio",
-     "site": "https://theaiinsider.tech",
-     "overlap": 0.3,
+     "date": "2026-11-11 10:20",
+     "media": "Militär Aktuell",
+     "title": "Billion-Dollar Acquisition: Shield AI Buys Radar Specialist Echodyne",
+     "site": "https://militaeraktuell.at",
+     "overlap": 0.0,
      "reprises": 0,
-     "priority": false
+     "priority": true
     }
    ]
   },
@@ -202,11 +235,20 @@
    "name": "Anthropic",
    "candidates": [
     {
-     "date": "2026-11-11 09:00",
-     "media": "The Business Journals",
-     "title": "Anthropic prices IPO that could raise $100B in historic offering",
-     "site": "https://www.bizjournals.com",
+     "date": "2026-11-11 21:51",
+     "media": "Yahoo Finance",
+     "title": "Anthropic's IPO Is Just 1 Week Away. Should You Buy the Stock?",
+     "site": "https://finance.yahoo.com",
      "overlap": 0.25,
+     "reprises": 0,
+     "priority": true
+    },
+    {
+     "date": "2026-11-11 23:30",
+     "media": "CNBC",
+     "title": "Jim Cramer: This is the bet you're making if you buy the Anthropic IPO",
+     "site": "https://www.cnbc.com",
+     "overlap": 0.12,
      "reprises": 0,
      "priority": true
     },
@@ -216,16 +258,16 @@
      "title": "Cette IA a créé un tout nouveau système d’exploitation en 8 jours : Anthropic lance Claude Fable et Mythos 5.2 pour mieux dominer l’intelligence artificielle",
      "site": "https://www.journaldugeek.com",
      "overlap": 0.29,
-     "reprises": 6,
+     "reprises": 4,
      "priority": false
     },
     {
-     "date": "2026-11-11 11:00",
-     "media": "NDTV Profit",
-     "title": "Cancer, Alzheimer’s To Be Cured In 10 Years? Anthropic CEO Dario Amodei Makes Big AI Claim",
-     "site": "https://www.ndtvprofit.com",
-     "overlap": 0.0,
-     "reprises": 5,
+     "date": "2026-11-11 10:22",
+     "media": "Mashable",
+     "title": "Anthropic announces Claude Fable 5.2 and Mythos 5.2. They'e already solved black hole physics problems.",
+     "site": "https://mashable.com",
+     "overlap": 0.27,
+     "reprises": 4,
      "priority": false
     },
     {
@@ -234,58 +276,34 @@
      "title": "Anthropic is planning a live-streamed IPO event with Amodei and Dimon",
      "site": "https://qz.com",
      "overlap": 0.14,
-     "reprises": 4,
+     "reprises": 3,
      "priority": false
     },
     {
-     "date": "2026-11-11 12:00",
-     "media": "Brave New Coin",
-     "title": "Anthropic IPO: $70–$78 Range Sets Up $64B Offering",
-     "site": "https://bravenewcoin.com",
-     "overlap": 0.2,
-     "reprises": 4,
-     "priority": false
-    },
-    {
-     "date": "2026-11-11 10:46",
-     "media": "Technology Org",
-     "title": "Anthropic IPO Range of $70 to $78 Values the Claude Maker at Up to $1.4 Trillion",
-     "site": "https://www.technology.org",
+     "date": "2026-11-11 14:39",
+     "media": "DW.com",
+     "title": "Anthropic seeks $1.3 trillion valuation amid AI bubble fears",
+     "site": "https://www.dw.com",
      "overlap": 0.33,
      "reprises": 3,
      "priority": false
     },
     {
-     "date": "2026-11-11 11:14",
-     "media": "Yahoo Finance",
-     "title": "Microsoft Stock Falls as Anthropic Takes Aim at Office Work With New Claude Tools",
-     "site": "https://finance.yahoo.com",
-     "overlap": 0.33,
+     "date": "2026-11-11 15:10",
+     "media": "The Times of India",
+     "title": "'Cancer will be history in 10 years': Anthropic CEO Dario Amodei's big AI-powered promise",
+     "site": "https://timesofindia.indiatimes.com",
+     "overlap": 0.1,
      "reprises": 3,
-     "priority": false
-    }
-   ]
-  },
-  {
-   "companyId": "perplexity",
-   "name": "Perplexity",
-   "candidates": [
-    {
-     "date": "2026-11-09 17:56",
-     "media": "آي-فون إسلام",
-     "title": "Perplexity launches health platform with Apple Health… Your smart doctor now knows you well!",
-     "site": "https://iphoneislam.com",
-     "overlap": 0.09,
-     "reprises": 1,
      "priority": false
     },
     {
-     "date": "2026-11-10 01:06",
-     "media": "CryptoRank",
-     "title": "Perplexity Ships Its Search Agent’s Sandbox as Open Source — and the Sandbox Layer Just Got Another Entrant",
-     "site": "https://cryptorank.io",
-     "overlap": 0.09,
-     "reprises": 0,
+     "date": "2026-11-10 13:02",
+     "media": "Quartz en Français",
+     "title": "Anthropic prévoit une diffusion en direct de son introduction en bourse avec Dario Amodei, Jamie Dimon.",
+     "site": "https://fr.qz.com",
+     "overlap": 0.22,
+     "reprises": 2,
      "priority": false
     }
    ]
