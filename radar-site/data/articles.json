@@ -1,5 +1,93 @@
 [
  {
+  "id": "polymarket-2026-11-11-licenciements-reorganisation",
+  "companyId": "polymarket",
+  "date": "2026-11-11",
+  "title": "Polymarket confirme des licenciements et la fin de contrats de prestataires dans une réorganisation",
+  "summary": "La plateforme de marchés prédictifs reconnaît avoir réorganisé ses équipes, avec des départs de salariés et la rupture de contrats de prestataires.",
+  "detail": "Selon Fox Business, qui reprend Reuters, un e-mail mettant fin aux contrats de prestataires au 4 novembre circulait sur X, et Polymarket a confirmé son authenticité. Plus de la moitié des personnes touchées sont des prestataires, mais des salariés à temps plein partent aussi, surtout dans le marketing, l'expérience client et l'ingénierie, selon une source proche du dossier.\n\nLa société dément le chiffre de 30 % de l'effectif, sans donner le sien. Elle parle d'une réorganisation avec de nouveaux dirigeants pour préparer la prochaine phase de croissance. Kalshi aurait dépassé Polymarket en volume mensuel, d'après Reuters.",
+  "impact": "La société recentre ses équipes autour de sa nouvelle direction, dans un contexte de forte concurrence avec Kalshi.",
+  "signal": "prudent",
+  "rationale": "Les réductions d'effectifs et le recul face à Kalshi signalent une tension, même si la société présente le mouvement comme une réorganisation de croissance.",
+  "sources": [
+   {
+    "label": "Fox Business, 11/11/2026",
+    "url": "https://www.foxbusiness.com/economy/polymarket-confirms-layoffs-prediction-market-giant-undergoes-major-restructuring"
+   },
+   {
+    "label": "Reuters via MarketScreener, 11/11/2026",
+    "url": "https://www.marketscreener.com/news/polymarket-cuts-jobs-contracts-as-prediction-market-competition-heats-up-ce785edbd089f127"
+   }
+  ],
+  "addedAt": "2026-11-12T06:13:47Z"
+ },
+ {
+  "id": "anthropic-2026-11-11-ipo-sursouscrit",
+  "companyId": "anthropic",
+  "date": "2026-11-11",
+  "title": "L'introduction en Bourse d'Anthropic serait déjà souscrite plusieurs fois, selon Bloomberg",
+  "summary": "Au deuxième jour du roadshow, la demande dépasserait plusieurs fois les titres proposés, pour une opération visant jusqu'à 90 milliards de dollars.",
+  "detail": "Selon Bloomberg, relayé par investingLive, des intentions d'achat de grande taille suffiraient à ancrer l'ensemble de l'offre. Le dépôt SEC prévoit 825 millions d'actions de classe A (environ 801 millions émises par Anthropic), à 70 à 78 dollars, soit une valorisation d'environ 1 400 milliards de dollars au plafond. Business Today ajoute que le prix serait fixé le 18 novembre, pour une cotation le 19 sur le Nasdaq sous le symbole ANT.\n\nAMD, Broadcom, Google, Micron, Microsoft, Nvidia et TSMC se sont engagés sur 26 milliards de dollars d'actions de classe N via un placement privé. Le total approcherait 90 milliards de dollars, au-dessus du record de SpaceX en juin. Bloomberg et le Financial Times indiquent que les banques pourraient viser plus de 1 500 milliards. Dario Amodei doit participer vendredi à un événement en direct avec Jamie Dimon.",
+  "impact": "Une forte demande renforce les chances d'un prix en haut de fourchette et d'un financement record pour l'effort de calcul d'Anthropic.",
+  "signal": "optimiste",
+  "rationale": "La sursouscription rapportée par Bloomberg et l'appui d'investisseurs de référence soutiennent l'opération, qui reste soumise au marché jusqu'à la fixation du prix.",
+  "sources": [
+   {
+    "label": "Bloomberg via investingLive, 11/11/2026",
+    "url": "https://investinglive.com/stocks/anthropic-ipo-oversubscribed-several-times-ahead-of-record-90-billion-listing/"
+   },
+   {
+    "label": "Business Today, 12/11/2026",
+    "url": "https://www.businesstoday.in/markets/ipo-corner/story/anthropics-record-breaking-90-billion-ipo-is-already-oversubscribed-several-times-over-566945-2026-11-12"
+   }
+  ],
+  "addedAt": "2026-11-12T06:13:47Z"
+ },
+ {
+  "id": "anthropic-2026-11-11-tsmc-500-millions",
+  "companyId": "anthropic",
+  "date": "2026-11-11",
+  "title": "TSMC approuve jusqu'à 500 millions de dollars d'achat d'actions Anthropic au prix de l'introduction en Bourse",
+  "summary": "Le conseil de TSMC autorise jusqu'à 1 milliard de dollars au total, dont jusqu'à 500 millions pour Anthropic et 500 millions pour OpenAI.",
+  "detail": "Selon Investing.com, la part Anthropic prendrait la forme d'actions achetées au prix de l'introduction en Bourse, fixé dans une fourchette de 70 à 78 dollars. L'achat dépend de la fixation du prix de l'offre. TSMC, principal fabricant des puces avancées utilisées par les laboratoires d'IA, fait aussi partie des acheteurs du placement privé de classe N cités par Bloomberg.\n\nL'action TSMC a gagné plus de 4 % mercredi, après des ventes d'octobre en hausse de 60 % sur un an.",
+  "impact": "Un fournisseur clé de puces devient actionnaire, ce qui resserre le lien d'Anthropic avec sa chaîne d'approvisionnement.",
+  "signal": "optimiste",
+  "rationale": "L'engagement d'un fournisseur majeur apporte capitaux et alignement industriel, sous réserve de la fixation du prix de l'offre.",
+  "sources": [
+   {
+    "label": "Investing.com, 11/11/2026",
+    "url": "https://www.investing.com/news/stock-market-news/tsmc-board-approves-1-bln--investment-in-anthropic-openai-shares-rise-93CH-5017730"
+   },
+   {
+    "label": "Bloomberg via investingLive, 11/11/2026",
+    "url": "https://investinglive.com/stocks/anthropic-ipo-oversubscribed-several-times-ahead-of-record-90-billion-listing/"
+   }
+  ],
+  "addedAt": "2026-11-12T06:13:47Z"
+ },
+ {
+  "id": "shield-ai-2026-11-11-newton-hangar-bail",
+  "companyId": "shield-ai",
+  "date": "2026-11-11",
+  "title": "Newton avance sur un second hangar pour Shield AI à l'aéroport, en attendant le vote du conseil",
+  "summary": "La ville de Newton, au Kansas, poursuit l'examen d'un second hangar de maintenance pour l'avion de chasse piloté par IA de Shield AI.",
+  "detail": "Selon KWCH, Shield AI loue déjà un hangar à l'aéroport de Newton et veut en ajouter un pour l'entretien et la réparation de l'appareil. Le hangar et le bail doivent encore passer devant le conseil municipal, en coordination avec le comté. La directrice municipale Daniela Rivas a dit qu'il restait beaucoup à faire en deux semaines.\n\nLe projet suscite des dizaines de questions d'habitants. En juillet, la ville avait examiné un hangar d'environ 30 000 pieds carrés loué à Shield AI pour sept ans, selon son bulletin municipal.",
+  "impact": "Un site de maintenance sur place prépare le soutien du X-BAT à Newton, désigné site d'essais en vol et de soutien.",
+  "signal": "neutre",
+  "rationale": "Le projet avance, mais il dépend encore d'un vote local et de l'inquiétude exprimée par des habitants.",
+  "sources": [
+   {
+    "label": "KWCH, 11/11/2026",
+    "url": "https://www.kwch.com/2026/11/12/newton-officials-move-forward-with-plans-shield-airport-expansion/"
+   },
+   {
+    "label": "Ville de Newton, 29/07/2026",
+    "url": "https://www.newtonkansas.com/Departments/Communications/News-and-Announcements/The-Rundown-%E2%80%93-City-reviews-possible-Shield-AI-expansion-project"
+   }
+  ],
+  "addedAt": "2026-11-12T06:13:47Z"
+ },
+ {
   "id": "kraken-2026-11-11-xstocks-200-actions-europeennes",
   "companyId": "kraken",
   "date": "2026-11-11",
@@ -16,6 +104,32 @@
    }
   ],
   "addedAt": "2026-11-11T12:16:01Z"
+ },
+ {
+  "id": "stripe-2026-11-10-openrouter-rachat-finalise",
+  "companyId": "stripe",
+  "date": "2026-11-10",
+  "title": "Stripe finalise le rachat d'OpenRouter, la passerelle de routage de modèles d'IA",
+  "summary": "Stripe annonce avoir bouclé l'acquisition d'OpenRouter, plateforme utilisée par plus de 10 millions de développeurs et d'entreprises.",
+  "detail": "Selon DEV Community, Stripe a annoncé la clôture sur X le 10 novembre 2026, près de trois mois après l'accord du 19 août. OpenRouter devient une filiale de Stripe, mais son nom, son produit, sa feuille de route et sa mission ne changent pas, et la société promet que le routage reste neutre vis-à-vis des fournisseurs de modèles.\n\nAucun prix n'est confirmé par les deux sociétés. La presse avance entre 7 et 8 milliards de dollars : le New York Times parle de 7,5 milliards, Axios de plus de 8 milliards, majoritairement en actions. OpenRouter valait environ 1,3 milliard de dollars lors de son dernier tour, selon Bloomberg.",
+  "impact": "Stripe ajoute à ses paiements une couche de routage et de facturation à l'usage pour les jetons d'IA, au cœur des paiements entre agents et modèles.",
+  "signal": "optimiste",
+  "rationale": "La clôture sécurise une acquisition stratégique pour l'IA, même si le prix reste non confirmé et sa lecture presse varie.",
+  "sources": [
+   {
+    "label": "TokenPost, 11/11/2026",
+    "url": "https://www.tokenpost.com/news/business/54341"
+   },
+   {
+    "label": "DEV Community, 11/11/2026",
+    "url": "https://dev.to/paullovelace/stripe-now-owns-openrouter-what-it-means-for-your-model-routing-57j7"
+   },
+   {
+    "label": "The Next Web, annonce de l'accord, 19/08/2026",
+    "url": "https://thenextweb.com/news/stripe-openrouter-acquisition-confirmed"
+   }
+  ],
+  "addedAt": "2026-11-12T06:13:47Z"
  },
  {
   "id": "together-ai-2026-11-10-rackspace-gb300",
