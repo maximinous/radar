@@ -1,5 +1,23 @@
 [
  {
+  "id": "kraken-2026-11-12-depots-ach-recurrents",
+  "companyId": "kraken",
+  "date": "2026-11-12",
+  "title": "Kraken lance les dépôts bancaires récurrents aux États-Unis",
+  "summary": "Kraken permet aux clients américains de programmer des virements ACH automatiques vers leur compte, sans frais de dépôt.",
+  "detail": "Les dépôts peuvent être quotidiens, hebdomadaires, bimensuels ou mensuels, en dollars, depuis un compte bancaire relié via Plaid, sur le web et le mobile. Le service est ouvert aux clients américains hors Maine et New York.\n\nLes fonds arrivent sur le solde du compte sans achat automatique d'actifs. Ils peuvent être investis tout de suite et retirés après sept jours. Une échéance doit être annulée au moins trois jours ouvrés avant sa date.",
+  "impact": "Facilite l'alimentation régulière des comptes et favorise la rétention des clients particuliers américains.",
+  "signal": "optimiste",
+  "rationale": "Une amélioration produit concrète qui simplifie le financement des comptes, sans chiffre de traction publié.",
+  "sources": [
+   {
+    "label": "The Paypers, 12/11/2026",
+    "url": "https://thepaypers.com/payments/news/kraken-launches-recurring-ach-deposits-for-customers-in-the-us"
+   }
+  ],
+  "addedAt": "2026-11-12T12:14:25Z"
+ },
+ {
   "id": "polymarket-2026-11-11-licenciements-reorganisation",
   "companyId": "polymarket",
   "date": "2026-11-11",
