@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-11-13T00:41:11Z",
+ "generatedAt": "2026-11-13T13:15:28Z",
  "windowHours": 48,
- "headlinesRead": 894,
- "count": 30,
- "priorityCount": 3,
+ "headlinesRead": 803,
+ "count": 32,
+ "priorityCount": 5,
  "companies": [
   {
    "companyId": "prometheus",
@@ -25,11 +25,35 @@
    "name": "Figure AI",
    "candidates": [
     {
-     "date": "2026-11-13 00:34",
-     "media": "SmartAsset.com",
+     "date": "2026-11-13 01:34",
+     "media": "SmartAsset",
      "title": "Figure AI IPO: Timeline, Valuation, Investment Options",
      "site": "https://smartasset.com",
      "overlap": 0,
+     "reprises": 0,
+     "priority": false
+    }
+   ]
+  },
+  {
+   "companyId": "mistral-ai",
+   "name": "Mistral AI",
+   "candidates": [
+    {
+     "date": "2026-11-13 04:00",
+     "media": "Demócrata",
+     "title": "The EU finds its new technological guru in the CEO of Mistral",
+     "site": "https://www.democrata.es",
+     "overlap": 0.0,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-11-13 06:36",
+     "media": "FourWeekMBA",
+     "title": "EU Leaders Hold First AI Summit With Mistral CEO, Hinton",
+     "site": "https://fourweekmba.com",
+     "overlap": 0.0,
      "reprises": 0,
      "priority": false
     }
@@ -40,6 +64,15 @@
    "name": "Stripe",
    "candidates": [
     {
+     "date": "2026-11-13 03:49",
+     "media": "CoinMarketCap",
+     "title": "Stripe Acquires Valora Team To Expand Stablecoin Push",
+     "site": "https://coinmarketcap.com",
+     "overlap": 0.17,
+     "reprises": 3,
+     "priority": true
+    },
+    {
      "date": "2026-11-11 13:54",
      "media": "Glitchwire",
      "title": "Stripe Closes $7.5 Billion OpenRouter Acquisition as AI Token Traffic Hits Record",
@@ -47,15 +80,6 @@
      "overlap": 0.38,
      "reprises": 0,
      "priority": true
-    },
-    {
-     "date": "2026-11-11 12:52",
-     "media": "Hospitality Net",
-     "title": "UrVenue Expands Stripe Integration to Bring Modern Payment Technology to Resorts and Hospitality",
-     "site": "https://www.hospitalitynet.org",
-     "overlap": 0.11,
-     "reprises": 0,
-     "priority": false
     },
     {
      "date": "2026-11-12 08:19",
@@ -88,48 +112,30 @@
    "name": "Kraken",
    "candidates": [
     {
+     "date": "2026-11-13 07:41",
+     "media": "Coinpedia",
+     "title": "Nakamoto Kraken Loan Extension Buys Time, Not Safety",
+     "site": "https://coinpedia.org",
+     "overlap": 0.14,
+     "reprises": 0,
+     "priority": true
+    },
+    {
      "date": "2026-11-11 17:30",
      "media": "unchainedcrypto.com",
      "title": "Kraken Parent Expands Beyond US Names With Over 200 UK and EU Stocks",
      "site": "https://unchainedcrypto.com",
      "overlap": 0.29,
-     "reprises": 6,
-     "priority": false
-    },
-    {
-     "date": "2026-11-11 17:30",
-     "media": "Yahoo Finance",
-     "title": "Kraken-backed tokenized trading expands to UK and EU-listed stocks",
-     "site": "https://finance.yahoo.com",
-     "overlap": 0.33,
      "reprises": 4,
      "priority": false
     },
     {
-     "date": "2026-11-11 03:01",
-     "media": "ConseilsCrypto.com",
-     "title": "L’échange crypto Kraken ouvre l’accès à l’IPO d’Anthropic via des actions tokenisées (xStocks)",
-     "site": "https://conseilscrypto.com",
-     "overlap": 0.3,
-     "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-11-11 08:44",
-     "media": "Kraken Blog",
-     "title": "The Anthropic Pre-IPO Challenge: compete for $20,000 in ANTHROPICX on Kraken Pro",
-     "site": "https://blog.kraken.com",
-     "overlap": 0.14,
-     "reprises": 0,
-     "priority": false
-    },
-    {
-     "date": "2026-11-11 11:09",
+     "date": "2026-11-13 01:10",
      "media": "Traders Union",
-     "title": "Payward expands xStocks with 200 UK and EU shares as assets top $1.1 billion",
+     "title": "Anthropic IPO access available on Kraken Exchange for select clients",
      "site": "https://tradersunion.com",
-     "overlap": 0.38,
-     "reprises": 0,
+     "overlap": 0.14,
+     "reprises": 1,
      "priority": false
     },
     {
@@ -140,6 +146,33 @@
      "overlap": 0.08,
      "reprises": 0,
      "priority": false
+    },
+    {
+     "date": "2026-11-11 17:30",
+     "media": "Yahoo Finance",
+     "title": "Kraken-backed tokenized trading expands to UK and EU-listed stocks",
+     "site": "https://finance.yahoo.com",
+     "overlap": 0.33,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-11-12 21:25",
+     "media": "Benzinga",
+     "title": "OpenAI, Kraken And Discord: 5 Billion-Dollar Private Companies On Forge Upcoming IPO List",
+     "site": "https://www.benzinga.com",
+     "overlap": 0.1,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-11-13 12:07",
+     "media": "Coinpaper",
+     "title": "Bitcoin Treasury Firm Nakamoto Delays $60M Kraken Loan as BTC Crash Raises Collateral Risks",
+     "site": "https://coinpaper.com",
+     "overlap": 0.25,
+     "reprises": 0,
+     "priority": false
     }
    ]
   },
@@ -148,38 +181,29 @@
    "name": "Polymarket",
    "candidates": [
     {
-     "date": "2026-11-12 23:48",
-     "media": "Blockonomi",
-     "title": "Kalshi Ends Donald Trump Jr Advisory Role After Polymarket Deal",
-     "site": "https://blockonomi.com",
-     "overlap": 0.12,
-     "reprises": 14,
+     "date": "2026-11-12 22:56",
+     "media": "Reuters",
+     "title": "EXCLUSIVE: Kalshi says it ended Donald Trump Jr's advisory contract over Polymarket conflict",
+     "site": "https://www.reuters.com",
+     "overlap": 0.2,
+     "reprises": 4,
      "priority": false
     },
     {
-     "date": "2026-11-12 22:50",
-     "media": "TradingView",
-     "title": "Kalshi affirme avoir mis fin au contrat de conseil de Donald Trump Jr. en raison d'un conflit lié à Polymarket",
-     "site": "https://fr.tradingview.com",
-     "overlap": 0.33,
-     "reprises": 3,
+     "date": "2026-11-13 11:55",
+     "media": "unchainedcrypto.com",
+     "title": "Donald Trump Jr. Leaves Kalshi, Keeps Polymarket Role a Week After Democrats Win Congress",
+     "site": "https://unchainedcrypto.com",
+     "overlap": 0.09,
+     "reprises": 1,
      "priority": false
     },
     {
-     "date": "2026-11-12 19:00",
-     "media": "Pensacola News Journal",
-     "title": "Polymarket Sign-Up Bonus Code SBWIRE | Get $25 for NFL, NBA, Politics & More",
-     "site": "https://www.pnj.com",
-     "overlap": 0.11,
-     "reprises": 0,
-     "priority": false
-    },
-    {
-     "date": "2026-11-12 19:56",
-     "media": "Benzinga",
-     "title": "Donald Trump Jr. Leaves Kalshi as His Firm Backs Polymarket",
-     "site": "https://www.benzinga.com",
-     "overlap": 0.14,
+     "date": "2026-11-12 21:07",
+     "media": "CoinDesk",
+     "title": "Kalshi met fin au contrat consultatif de Donald Trump Jr. en raison de l'investissement de 1789 Capital dans Polymarket",
+     "site": "https://www.coindesk.com",
+     "overlap": 0.27,
      "reprises": 0,
      "priority": false
     }
@@ -190,30 +214,12 @@
    "name": "Shield AI",
    "candidates": [
     {
-     "date": "2026-11-11 10:20",
-     "media": "Militär Aktuell",
-     "title": "Billion-Dollar Acquisition: Shield AI Buys Radar Specialist Echodyne",
-     "site": "https://militaeraktuell.at",
-     "overlap": 0.0,
-     "reprises": 0,
-     "priority": true
-    },
-    {
      "date": "2026-11-12 13:52",
      "media": "Aerospace Global News",
      "title": "Greece Expands Fleet of Runway-Independent V-BAT Surveillance Drones",
      "site": "https://aerospaceglobalnews.com",
      "overlap": 0.12,
      "reprises": 5,
-     "priority": false
-    },
-    {
-     "date": "2026-11-12 01:24",
-     "media": "Securities.io",
-     "title": "NIPPI prendra en charge la réparation et la formation liées au V-BAT au Japon dans le cadre d’un accord avec Shield",
-     "site": "https://www.securities.io",
-     "overlap": 0.3,
-     "reprises": 0,
      "priority": false
     },
     {
@@ -232,29 +238,29 @@
    "name": "Anthropic",
    "candidates": [
     {
-     "date": "2026-11-12 08:50",
-     "media": "The Motley Fool",
-     "title": "Should You Buy Anthropic IPO Stock? Here’s What History Says",
-     "site": "https://www.fool.com",
-     "overlap": 0.22,
+     "date": "2026-11-12 16:09",
+     "media": "Yahoo Finance",
+     "title": "Should you buy Anthropic’s IPO and which UK platforms offer access?",
+     "site": "https://finance.yahoo.com",
+     "overlap": 0.12,
      "reprises": 0,
      "priority": true
     },
     {
-     "date": "2026-11-12 13:11",
-     "media": "Siècle Digital",
-     "title": "Claude lance trois nouveaux outils pour concurrencer directement Microsoft Office et Google Workspace",
-     "site": "https://siecledigital.fr",
-     "overlap": 0.36,
-     "reprises": 8,
-     "priority": false
+     "date": "2026-11-13 12:05",
+     "media": "Trefis",
+     "title": "Anthropic IPO: Buy Day One Or Wait?",
+     "site": "https://www.trefis.com",
+     "overlap": 0.2,
+     "reprises": 0,
+     "priority": true
     },
     {
-     "date": "2026-11-12 16:29",
-     "media": "LinkedIn",
-     "title": "Anthropic CEO Dario Amodei says AI could usher in an 'age of miracles' in medicine, making cancer, Alzheimer’s and heart disease 'relics of the past' in less than 10 years, if the technology is developed and deployed correctly. The bold claim came during an i",
-     "site": "https://www.linkedin.com",
-     "overlap": 0.07,
+     "date": "2026-11-13 02:50",
+     "media": "blockchain.news",
+     "title": "Anthropic Lance la Bêta Privée des Agents Gérants Claude Auto-Hébergés",
+     "site": "https://blockchain.news",
+     "overlap": 0.38,
      "reprises": 8,
      "priority": false
     },
@@ -264,34 +270,43 @@
      "title": "Anthropic CEO predicts AI could help cure major diseases within 10 years",
      "site": "https://americanbazaaronline.com",
      "overlap": 0.0,
-     "reprises": 5,
-     "priority": false
-    },
-    {
-     "date": "2026-11-12 22:14",
-     "media": "Cryptonews.net",
-     "title": "Nonprofits sue OpenAI, Google, Anthropic, Meta and SpaceX AI units to halt frontier AI development",
-     "site": "https://cryptonews.net",
-     "overlap": 0.2,
      "reprises": 4,
      "priority": false
     },
     {
-     "date": "2026-11-11 17:33",
-     "media": "TradingView",
-     "title": "Evercore Plays Down Microsoft 365 Disruption Fears After Anthropic’s Claude Sheets Launch – ‘Not Yet A Substitute For Excel’",
-     "site": "https://fr.tradingview.com",
-     "overlap": 0.27,
+     "date": "2026-11-12 13:11",
+     "media": "Siècle Digital",
+     "title": "Claude lance trois nouveaux outils pour concurrencer directement Microsoft Office et Google Workspace",
+     "site": "https://siecledigital.fr",
+     "overlap": 0.36,
      "reprises": 3,
      "priority": false
     },
     {
-     "date": "2026-11-12 18:15",
-     "media": "Unite.AI",
-     "title": "Anthropic lance Claude for Manufacturing avec 17 compétences de flux de travail",
-     "site": "https://www.unite.ai",
-     "overlap": 0.33,
+     "date": "2026-11-13 12:11",
+     "media": "TheBanker.com",
+     "title": "Nvidia CEO’s exit threatens banks’ $1.5tn Anthropic IPO ambitions",
+     "site": "https://www.thebanker.com",
+     "overlap": 0.25,
      "reprises": 3,
+     "priority": false
+    },
+    {
+     "date": "2026-11-13 11:14",
+     "media": "Yahoo Finance",
+     "title": "Nvidia results, Anthropic IPO pose tests for tumultuous AI trade",
+     "site": "https://finance.yahoo.com",
+     "overlap": 0.29,
+     "reprises": 2,
+     "priority": false
+    },
+    {
+     "date": "2026-11-12 01:05",
+     "media": "TIKR.com",
+     "title": "Anthropic Committed $30 Billion to Azure. Now It’s Coming for Microsoft’s $27.8 Billion Office Cloud",
+     "site": "https://www.tikr.com",
+     "overlap": 0.25,
+     "reprises": 1,
      "priority": false
     }
    ]
@@ -301,11 +316,20 @@
    "name": "Perplexity",
    "candidates": [
     {
-     "date": "2026-11-12 17:56",
-     "media": "NDTV Profit",
-     "title": "Perplexity CEO Praises Jensen Huang: 'Your Grit, Perseverance Should Always Be Remembered'",
-     "site": "https://www.ndtvprofit.com",
-     "overlap": 0.0,
+     "date": "2026-11-13 11:32",
+     "media": "NDTV",
+     "title": "\"33 Years Of Bold Leadership\": Perplexity CEO Praises Jensen Huang's Contribution To Nvidia",
+     "site": "https://www.ndtv.com",
+     "overlap": 0.11,
+     "reprises": 3,
+     "priority": false
+    },
+    {
+     "date": "2026-11-13 06:11",
+     "media": "Pragativadi",
+     "title": "‘Your Grit and Perseverance Should Always Be Remembered’: Perplexity CEO Aravind Srinivas Pays Tribute to Jensen Huang After Nvidia Exit",
+     "site": "https://pragativadi.com",
+     "overlap": 0.12,
      "reprises": 2,
      "priority": false
     },
@@ -325,7 +349,7 @@
    "name": "Crusoe",
    "candidates": [
     {
-     "date": "2026-11-12 18:42",
+     "date": "2026-11-12 14:42",
      "media": "Crowdfund Insider",
      "title": "CoreWeave ($CRWV) Raises Full-Year Guidance as AI Cloud Providers Nebius and Crusoe Navigate Heavy Capex and Financing Risks",
      "site": "https://www.crowdfundinsider.com",
