@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-11-12T13:52:22Z",
+ "generatedAt": "2026-11-13T00:41:11Z",
  "windowHours": 48,
- "headlinesRead": 839,
- "count": 23,
- "priorityCount": 5,
+ "headlinesRead": 894,
+ "count": 30,
+ "priorityCount": 3,
  "companies": [
   {
    "companyId": "prometheus",
@@ -16,6 +16,21 @@
      "site": "https://media.unisba.ac.id",
      "overlap": 0,
      "reprises": 1,
+     "priority": false
+    }
+   ]
+  },
+  {
+   "companyId": "figure-ai",
+   "name": "Figure AI",
+   "candidates": [
+    {
+     "date": "2026-11-13 00:34",
+     "media": "SmartAsset.com",
+     "title": "Figure AI IPO: Timeline, Valuation, Investment Options",
+     "site": "https://smartasset.com",
+     "overlap": 0,
+     "reprises": 0,
      "priority": false
     }
    ]
@@ -54,6 +69,21 @@
    ]
   },
   {
+   "companyId": "lovable",
+   "name": "Lovable",
+   "candidates": [
+    {
+     "date": "2026-11-12 14:12",
+     "media": "The Manila Times",
+     "title": "Every App Can Now Be a Force for Good: Pledge Launches a Charitable Giving Connector on Lovable",
+     "site": "https://www.manilatimes.net",
+     "overlap": 0.0,
+     "reprises": 0,
+     "priority": false
+    }
+   ]
+  },
+  {
    "companyId": "kraken",
    "name": "Kraken",
    "candidates": [
@@ -76,12 +106,21 @@
      "priority": false
     },
     {
-     "date": "2026-11-10 18:26",
-     "media": "Pluang",
-     "title": "Kraken launches BTC and ETH options trading in Europe under MiFID license.",
-     "site": "https://pluang.com",
-     "overlap": 0.11,
+     "date": "2026-11-11 03:01",
+     "media": "ConseilsCrypto.com",
+     "title": "L’échange crypto Kraken ouvre l’accès à l’IPO d’Anthropic via des actions tokenisées (xStocks)",
+     "site": "https://conseilscrypto.com",
+     "overlap": 0.3,
      "reprises": 1,
+     "priority": false
+    },
+    {
+     "date": "2026-11-11 08:44",
+     "media": "Kraken Blog",
+     "title": "The Anthropic Pre-IPO Challenge: compete for $20,000 in ANTHROPICX on Kraken Pro",
+     "site": "https://blog.kraken.com",
+     "overlap": 0.14,
+     "reprises": 0,
      "priority": false
     },
     {
@@ -105,6 +144,48 @@
    ]
   },
   {
+   "companyId": "polymarket",
+   "name": "Polymarket",
+   "candidates": [
+    {
+     "date": "2026-11-12 23:48",
+     "media": "Blockonomi",
+     "title": "Kalshi Ends Donald Trump Jr Advisory Role After Polymarket Deal",
+     "site": "https://blockonomi.com",
+     "overlap": 0.12,
+     "reprises": 14,
+     "priority": false
+    },
+    {
+     "date": "2026-11-12 22:50",
+     "media": "TradingView",
+     "title": "Kalshi affirme avoir mis fin au contrat de conseil de Donald Trump Jr. en raison d'un conflit lié à Polymarket",
+     "site": "https://fr.tradingview.com",
+     "overlap": 0.33,
+     "reprises": 3,
+     "priority": false
+    },
+    {
+     "date": "2026-11-12 19:00",
+     "media": "Pensacola News Journal",
+     "title": "Polymarket Sign-Up Bonus Code SBWIRE | Get $25 for NFL, NBA, Politics & More",
+     "site": "https://www.pnj.com",
+     "overlap": 0.11,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-11-12 19:56",
+     "media": "Benzinga",
+     "title": "Donald Trump Jr. Leaves Kalshi as His Firm Backs Polymarket",
+     "site": "https://www.benzinga.com",
+     "overlap": 0.14,
+     "reprises": 0,
+     "priority": false
+    }
+   ]
+  },
+  {
    "companyId": "shield-ai",
    "name": "Shield AI",
    "candidates": [
@@ -118,12 +199,12 @@
      "priority": true
     },
     {
-     "date": "2026-11-12 05:15",
-     "media": "newsfire.gr",
-     "title": "Greece Expands Military Drone Fleet with Advanced V-BAT Purchase",
-     "site": "https://newsfire.gr",
+     "date": "2026-11-12 13:52",
+     "media": "Aerospace Global News",
+     "title": "Greece Expands Fleet of Runway-Independent V-BAT Surveillance Drones",
+     "site": "https://aerospaceglobalnews.com",
      "overlap": 0.12,
-     "reprises": 1,
+     "reprises": 5,
      "priority": false
     },
     {
@@ -151,29 +232,11 @@
    "name": "Anthropic",
    "candidates": [
     {
-     "date": "2026-11-12 07:16",
-     "media": "Yahoo Finance",
-     "title": "Can’t buy Anthropic’s IPO? Its $12B cloud partner is deeply discounted",
-     "site": "https://finance.yahoo.com",
-     "overlap": 0.12,
-     "reprises": 1,
-     "priority": true
-    },
-    {
-     "date": "2026-11-12 09:14",
-     "media": "The Globe and Mail",
+     "date": "2026-11-12 08:50",
+     "media": "The Motley Fool",
      "title": "Should You Buy Anthropic IPO Stock? Here’s What History Says",
-     "site": "https://www.theglobeandmail.com",
+     "site": "https://www.fool.com",
      "overlap": 0.22,
-     "reprises": 1,
-     "priority": true
-    },
-    {
-     "date": "2026-11-11 23:30",
-     "media": "CNBC",
-     "title": "Jim Cramer: This is the bet you're making if you buy the Anthropic IPO",
-     "site": "https://www.cnbc.com",
-     "overlap": 0.12,
      "reprises": 0,
      "priority": true
     },
@@ -183,52 +246,52 @@
      "title": "Claude lance trois nouveaux outils pour concurrencer directement Microsoft Office et Google Workspace",
      "site": "https://siecledigital.fr",
      "overlap": 0.36,
-     "reprises": 11,
+     "reprises": 8,
      "priority": false
     },
     {
-     "date": "2026-11-12 11:58",
-     "media": "YourStory.com",
-     "title": "AI cancer cure in 10 years? Anthropic CEO’s bold claim",
-     "site": "https://yourstory.com",
+     "date": "2026-11-12 16:29",
+     "media": "LinkedIn",
+     "title": "Anthropic CEO Dario Amodei says AI could usher in an 'age of miracles' in medicine, making cancer, Alzheimer’s and heart disease 'relics of the past' in less than 10 years, if the technology is developed and deployed correctly. The bold claim came during an i",
+     "site": "https://www.linkedin.com",
+     "overlap": 0.07,
+     "reprises": 8,
+     "priority": false
+    },
+    {
+     "date": "2026-11-12 18:04",
+     "media": "The American Bazaar",
+     "title": "Anthropic CEO predicts AI could help cure major diseases within 10 years",
+     "site": "https://americanbazaaronline.com",
      "overlap": 0.0,
-     "reprises": 7,
+     "reprises": 5,
      "priority": false
     },
     {
-     "date": "2026-11-12 12:15",
-     "media": "Scripps News",
-     "title": "Anthropic IPO: What investors should know before buying on day one",
-     "site": "https://www.scrippsnews.com",
-     "overlap": 0.22,
+     "date": "2026-11-12 22:14",
+     "media": "Cryptonews.net",
+     "title": "Nonprofits sue OpenAI, Google, Anthropic, Meta and SpaceX AI units to halt frontier AI development",
+     "site": "https://cryptonews.net",
+     "overlap": 0.2,
+     "reprises": 4,
+     "priority": false
+    },
+    {
+     "date": "2026-11-11 17:33",
+     "media": "TradingView",
+     "title": "Evercore Plays Down Microsoft 365 Disruption Fears After Anthropic’s Claude Sheets Launch – ‘Not Yet A Substitute For Excel’",
+     "site": "https://fr.tradingview.com",
+     "overlap": 0.27,
      "reprises": 3,
      "priority": false
     },
     {
-     "date": "2026-11-12 10:19",
-     "media": "TechSpot",
-     "title": "Anthropic's Dario Amodei uses IPO pitch to promise AI will eliminate cancer and Alzheimer's within a decade",
-     "site": "https://www.techspot.com",
-     "overlap": 0.25,
-     "reprises": 2,
-     "priority": false
-    },
-    {
-     "date": "2026-11-12 11:25",
-     "media": "Trefis",
-     "title": "CoreWeave Stock Jumps 25%: Does The Anthropic IPO Help?",
-     "site": "https://www.trefis.com",
+     "date": "2026-11-12 18:15",
+     "media": "Unite.AI",
+     "title": "Anthropic lance Claude for Manufacturing avec 17 compétences de flux de travail",
+     "site": "https://www.unite.ai",
      "overlap": 0.33,
-     "reprises": 2,
-     "priority": false
-    },
-    {
-     "date": "2026-11-10 17:30",
-     "media": "The Verge",
-     "title": "Anthropic has its own AI-powered office suite now",
-     "site": "https://www.theverge.com",
-     "overlap": 0.33,
-     "reprises": 1,
+     "reprises": 3,
      "priority": false
     }
    ]
@@ -238,12 +301,36 @@
    "name": "Perplexity",
    "candidates": [
     {
+     "date": "2026-11-12 17:56",
+     "media": "NDTV Profit",
+     "title": "Perplexity CEO Praises Jensen Huang: 'Your Grit, Perseverance Should Always Be Remembered'",
+     "site": "https://www.ndtvprofit.com",
+     "overlap": 0.0,
+     "reprises": 2,
+     "priority": false
+    },
+    {
      "date": "2026-11-12 06:00",
      "media": "Moneycontrol.com",
      "title": "Perplexity CEO Aravind Srinivas showcases zombie shooter built using Anthropic's Fable 5.2 AI model",
      "site": "https://www.moneycontrol.com",
      "overlap": 0.36,
      "reprises": 0,
+     "priority": false
+    }
+   ]
+  },
+  {
+   "companyId": "crusoe",
+   "name": "Crusoe",
+   "candidates": [
+    {
+     "date": "2026-11-12 18:42",
+     "media": "Crowdfund Insider",
+     "title": "CoreWeave ($CRWV) Raises Full-Year Guidance as AI Cloud Providers Nebius and Crusoe Navigate Heavy Capex and Financing Risks",
+     "site": "https://www.crowdfundinsider.com",
+     "overlap": 0,
+     "reprises": 1,
      "priority": false
     }
    ]
