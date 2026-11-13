@@ -1,5 +1,23 @@
 [
  {
+  "id": "shield-ai-2026-11-12-nippi-mro-japon",
+  "companyId": "shield-ai",
+  "date": "2026-11-12",
+  "title": "Shield AI confie à NIPPI la maintenance et la formation du V-BAT au Japon",
+  "summary": "Shield AI signe avec NIPPI Corporation un accord de maintenance, réparation et révision du V-BAT au Japon, et ouvre un bureau à Tokyo.",
+  "detail": "NIPPI devient le principal prestataire de maintenance, réparation et formation de Shield AI au Japon. Il apportera un soutien technique directement à la Force maritime d'autodéfense japonaise (JMSDF), cliente du V-BAT, et l'accord pourrait s'étendre à d'autres forces pour de futurs programmes.\n\nShield AI présente ce contrat comme son premier accord de ce type dans un pays client. Sumisho Aero-Systems, qui facilite les achats de la JMSDF, reste un partenaire clé. Le communiqué, daté du 11 novembre sur le site de Shield AI et de Tokyo le 12 novembre, ne donne aucun montant ni nombre d'appareils. Shield AI ouvre aussi un bureau à Tokyo, dirigé par Sunshine Choi.",
+  "impact": "Une capacité de réparation sur place raccourcit les délais, évite de renvoyer les pièces aux États-Unis et ancre le V-BAT dans la durée au Japon.",
+  "signal": "optimiste",
+  "rationale": "Un soutien local pour un client militaire consolide la base installée au Japon, même sans montant publié.",
+  "sources": [
+   {
+    "label": "Shield AI, communiqué, 11-12/11/2026",
+    "url": "https://shield.ai/shield-and-nippi-corporation-to-establish-local-maintenance-and-training-support-for-v-bat-in-japan/"
+   }
+  ],
+  "addedAt": "2026-11-13T06:13:03Z"
+ },
+ {
   "id": "kraken-2026-11-12-depots-ach-recurrents",
   "companyId": "kraken",
   "date": "2026-11-12",
