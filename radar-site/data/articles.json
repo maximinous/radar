@@ -1,5 +1,67 @@
 [
  {
+  "id": "shield-ai-2026-11-13-bengaluru-bureau",
+  "companyId": "shield-ai",
+  "date": "2026-11-13",
+  "title": "Shield AI ouvre un bureau d'ingénierie à Bengaluru pour ses logiciels d'autonomie",
+  "summary": "Shield AI inaugure à Bengaluru son second site en Inde, après New Delhi. Les ingénieurs y développeront et testeront le logiciel Hivemind pour des aéronefs et systèmes de défense indiens.",
+  "detail": "Le bureau est installé au GoodWorks GCC Nexus. Shield AI y recrute dans l'autonomie, le logiciel de vol, la simulation, l'intégration de systèmes et les essais.\n\nL'équipe travaillera avec celle de New Delhi, ouverte en avril 2026, qui gère les relations avec le ministère de la Défense, les armées et l'industrie indienne. La secrétaire à l'IT de l'État du Karnataka a salué un apport à l'écosystème local de R&D. Le directeur général pour l'Inde, Sarjan Shah, a lié l'autonomie des armées indiennes à la maîtrise de la couche logicielle.",
+  "impact": "Renforce l'ancrage de Shield AI en Inde, où elle a été retenue pour des V-BAT avec Hivemind, et lui donne un vivier d'ingénieurs locaux.",
+  "signal": "optimiste",
+  "rationale": "Un second site et des recrutements montrent une expansion concrète sur un marché de défense en croissance.",
+  "sources": [
+   {
+    "label": "Shield AI, 13/11/2026",
+    "url": "https://shield.ai/shield-opens-bengaluru-engineering-office-to-build-autonomy-in-india-for-india/"
+   },
+   {
+    "label": "Analytics India Magazine, 13/11/2026",
+    "url": "https://analyticsindiamag.com/ai-news/shield-ai-opens-bengaluru-engineering-office-to-build-defence-autonomy-software"
+   }
+  ],
+  "addedAt": "2026-11-13T12:15:21Z"
+ },
+ {
+  "id": "polymarket-2026-11-13-louisiane-ordonnance",
+  "companyId": "polymarket",
+  "date": "2026-11-13",
+  "title": "Une juge de Louisiane interdit à Polymarket, Kalshi et d'autres d'offrir des contrats d'événements dans l'État",
+  "summary": "Sur requête de la procureure générale Liz Murrill, un tribunal de Louisiane a rendu une ordonnance de restriction temporaire visant Polymarket et une trentaine d'entités. Une audience sur l'injonction préliminaire est fixée au 30 novembre.",
+  "detail": "L'ordonnance, rendue sans débat contradictoire, interdit d'offrir, de coter ou de régler des contrats d'événements pour des résidents de Louisiane sans licence de jeu de l'État. Elle impose aussi un blocage géographique et interdit de présenter ces offres comme légales. Polymarket est nommée avec notamment Kalshi, Coinbase, Robinhood et Crypto.com.\n\nElle vaut 10 jours sauf prolongation. D'après la presse spécialisée, Kalshi et Polymarket ont saisi la justice fédérale en riposte, ce que le premier article cité ne confirme pas. Les opérateurs soutiennent que ces contrats relèvent de la CFTC.",
+  "impact": "Ajoute un front judiciaire d'État de plus pour Polymarket, qui conteste déjà des interdictions dans plusieurs États.",
+  "signal": "prudent",
+  "rationale": "Une interdiction, même temporaire, limite l'accès à un marché et prolonge l'incertitude réglementaire.",
+  "sources": [
+   {
+    "label": "Crypto Briefing, 13/11/2026",
+    "url": "https://cryptobriefing.com/louisiana-gambling-ban-prediction-markets/"
+   },
+   {
+    "label": "Rapides Parish Journal, 13/11/2026",
+    "url": "https://rapidesparishjournal.com/2026/11/13/louisiana-judge-blocks-kalshi-polymarket-and-other-prediction-markets-as-legal-battle-escalates/"
+   }
+  ],
+  "addedAt": "2026-11-13T12:15:21Z"
+ },
+ {
+  "id": "kraken-2026-11-13-nakamoto-pret-prolonge",
+  "companyId": "kraken",
+  "date": "2026-11-13",
+  "title": "Kraken prolonge de 60 millions de dollars le prêt de Nakamoto, qui lui doit 165 millions",
+  "summary": "Nakamoto, société qui détient des bitcoins, a repoussé au 4 décembre 2027 une échéance de 60 millions d'USDT envers Kraken. Sa dette totale de 165 millions dépasse sa capitalisation.",
+  "detail": "Un avenant signé le 11 novembre, révélé dans un dépôt 8-K le 12, déplace l'échéance du 4 décembre 2026 au 4 décembre 2027. Les 105 millions restants sont dus au 30 juin 2027, donc rien n'est exigible en 2026. Le prêt, garanti uniquement par du bitcoin, avait démarré en décembre 2025 à 210 millions avec 8 % d'intérêt.\n\nSelon CoinDesk, les bitcoins nantis valent environ 126 % de la dette au cours actuel. Avec un titre à 5,79 dollars, la valeur boursière de Nakamoto est d'environ 104 millions.",
+  "impact": "Réduit le risque d'un appel de marge immédiat pour Kraken, qui reste exposée à la baisse du bitcoin sur ce prêt.",
+  "signal": "neutre",
+  "rationale": "Le report évite un défaut à court terme, mais la garantie dépend du cours du bitcoin.",
+  "sources": [
+   {
+    "label": "CoinDesk, 13/11/2026",
+    "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-firm-nakamoto-owes-kraken-usd165-million-more-than-its-entire-market-value"
+   }
+  ],
+  "addedAt": "2026-11-13T12:15:21Z"
+ },
+ {
   "id": "shield-ai-2026-11-12-nippi-mro-japon",
   "companyId": "shield-ai",
   "date": "2026-11-12",
