@@ -1,25 +1,10 @@
 {
- "generatedAt": "2026-11-13T13:15:28Z",
+ "generatedAt": "2026-11-14T00:28:05Z",
  "windowHours": 48,
- "headlinesRead": 803,
- "count": 32,
- "priorityCount": 5,
+ "headlinesRead": 911,
+ "count": 36,
+ "priorityCount": 3,
  "companies": [
-  {
-   "companyId": "prometheus",
-   "name": "Prometheus",
-   "candidates": [
-    {
-     "date": "2026-11-11 18:56",
-     "media": "Unisba Media",
-     "title": "FULL DISCUSSION: Jeff Bezos Unveils Prometheus AI, Predicts Space Computing Will Transform The World Kampala (2RzdSdTDAN)",
-     "site": "https://media.unisba.ac.id",
-     "overlap": 0,
-     "reprises": 1,
-     "priority": false
-    }
-   ]
-  },
   {
    "companyId": "figure-ai",
    "name": "Figure AI",
@@ -40,20 +25,20 @@
    "name": "Mistral AI",
    "candidates": [
     {
-     "date": "2026-11-13 04:00",
-     "media": "Demócrata",
-     "title": "The EU finds its new technological guru in the CEO of Mistral",
-     "site": "https://www.democrata.es",
-     "overlap": 0.0,
-     "reprises": 0,
-     "priority": false
-    },
-    {
      "date": "2026-11-13 06:36",
      "media": "FourWeekMBA",
      "title": "EU Leaders Hold First AI Summit With Mistral CEO, Hinton",
      "site": "https://fourweekmba.com",
      "overlap": 0.0,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-11-13 17:43",
+     "media": "lanouvellerepublique.fr",
+     "title": "Pillage des contenus culturels et de la presse par l’IA : l’Alliance de la presse dénonce le lobbying de Mistral à l’Assemblée",
+     "site": "https://www.lanouvellerepublique.fr",
+     "overlap": 0.38,
      "reprises": 0,
      "priority": false
     }
@@ -69,16 +54,7 @@
      "title": "Stripe Acquires Valora Team To Expand Stablecoin Push",
      "site": "https://coinmarketcap.com",
      "overlap": 0.17,
-     "reprises": 3,
-     "priority": true
-    },
-    {
-     "date": "2026-11-11 13:54",
-     "media": "Glitchwire",
-     "title": "Stripe Closes $7.5 Billion OpenRouter Acquisition as AI Token Traffic Hits Record",
-     "site": "https://glitchwire.com",
-     "overlap": 0.38,
-     "reprises": 0,
+     "reprises": 1,
      "priority": true
     },
     {
@@ -88,6 +64,30 @@
      "site": "https://www.streetinsider.com",
      "overlap": 0.08,
      "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-11-13 19:26",
+     "media": "Trend Hunter",
+     "title": "Integrated Hospitality Payments: UrVenue Expands Digital Payment Options with Stripe",
+     "site": "https://www.trendhunter.com",
+     "overlap": 0.0,
+     "reprises": 0,
+     "priority": false
+    }
+   ]
+  },
+  {
+   "companyId": "starcloud",
+   "name": "Starcloud",
+   "candidates": [
+    {
+     "date": "2026-11-13 21:52",
+     "media": "MLQ.ai",
+     "title": "Office of Space Commerce picks Starcloud, Redwire's SpaceMD and two others for a mission authorization pilot",
+     "site": "https://mlq.ai",
+     "overlap": 0,
+     "reprises": 1,
      "priority": false
     }
    ]
@@ -112,7 +112,7 @@
    "name": "Kraken",
    "candidates": [
     {
-     "date": "2026-11-13 07:41",
+     "date": "2026-11-13 06:43",
      "media": "Coinpedia",
      "title": "Nakamoto Kraken Loan Extension Buys Time, Not Safety",
      "site": "https://coinpedia.org",
@@ -121,12 +121,21 @@
      "priority": true
     },
     {
-     "date": "2026-11-11 17:30",
-     "media": "unchainedcrypto.com",
-     "title": "Kraken Parent Expands Beyond US Names With Over 200 UK and EU Stocks",
-     "site": "https://unchainedcrypto.com",
-     "overlap": 0.29,
-     "reprises": 4,
+     "date": "2026-11-13 15:05",
+     "media": "Bitcoinist.com",
+     "title": "Kraken's Parent Payward Expands Beyond Crypto Trading as Revenue Falls 12%",
+     "site": "https://bitcoinist.com",
+     "overlap": 0.38,
+     "reprises": 8,
+     "priority": false
+    },
+    {
+     "date": "2026-11-13 18:47",
+     "media": "Cryptonews.net",
+     "title": "Hyperliquid leapfrogs Bybit, Kraken and OKX in open interest as Q3 positions grow 80%",
+     "site": "https://cryptonews.net",
+     "overlap": 0.12,
+     "reprises": 2,
      "priority": false
     },
     {
@@ -136,24 +145,6 @@
      "site": "https://tradersunion.com",
      "overlap": 0.14,
      "reprises": 1,
-     "priority": false
-    },
-    {
-     "date": "2026-11-11 14:19",
-     "media": "Coinpaper",
-     "title": "Kraken Tokenizes All 40 DAX Stocks as Deutsche Borse Partnership Brings German Blue Chips Onchain",
-     "site": "https://coinpaper.com",
-     "overlap": 0.08,
-     "reprises": 0,
-     "priority": false
-    },
-    {
-     "date": "2026-11-11 17:30",
-     "media": "Yahoo Finance",
-     "title": "Kraken-backed tokenized trading expands to UK and EU-listed stocks",
-     "site": "https://finance.yahoo.com",
-     "overlap": 0.33,
-     "reprises": 0,
      "priority": false
     },
     {
@@ -173,6 +164,15 @@
      "overlap": 0.25,
      "reprises": 0,
      "priority": false
+    },
+    {
+     "date": "2026-11-13 12:43",
+     "media": "OneBullEx",
+     "title": "Kraken Bitget BigONE Disclose Anthropic IPO Fill Uncertainty After Funds Lock",
+     "site": "https://www.onebullex.com",
+     "overlap": 0.0,
+     "reprises": 0,
+     "priority": false
     }
    ]
   },
@@ -181,29 +181,56 @@
    "name": "Polymarket",
    "candidates": [
     {
-     "date": "2026-11-12 22:56",
-     "media": "Reuters",
-     "title": "EXCLUSIVE: Kalshi says it ended Donald Trump Jr's advisory contract over Polymarket conflict",
-     "site": "https://www.reuters.com",
-     "overlap": 0.2,
-     "reprises": 4,
+     "date": "2026-11-12 22:50",
+     "media": "TradingView",
+     "title": "Kalshi affirme avoir mis fin au contrat de conseil de Donald Trump Jr. en raison d'un conflit lié à Polymarket",
+     "site": "https://fr.tradingview.com",
+     "overlap": 0.33,
+     "reprises": 3,
      "priority": false
     },
     {
-     "date": "2026-11-13 11:55",
-     "media": "unchainedcrypto.com",
-     "title": "Donald Trump Jr. Leaves Kalshi, Keeps Polymarket Role a Week After Democrats Win Congress",
-     "site": "https://unchainedcrypto.com",
-     "overlap": 0.09,
-     "reprises": 1,
+     "date": "2026-11-13 20:19",
+     "media": "UA.NEWS",
+     "title": "Donald Trump Jr. leaves Kalshi after investment in Polymarket — Ars Technica",
+     "site": "https://ua.news",
+     "overlap": 0.12,
+     "reprises": 3,
      "priority": false
     },
     {
-     "date": "2026-11-12 21:07",
-     "media": "CoinDesk",
-     "title": "Kalshi met fin au contrat consultatif de Donald Trump Jr. en raison de l'investissement de 1789 Capital dans Polymarket",
-     "site": "https://www.coindesk.com",
-     "overlap": 0.27,
+     "date": "2026-11-13 14:18",
+     "media": "Yahoo Finance",
+     "title": "Kalshi Ended Donald Trump Jr.’s Advisory Contract Over His Polymarket Role",
+     "site": "https://finance.yahoo.com",
+     "overlap": 0.22,
+     "reprises": 2,
+     "priority": false
+    },
+    {
+     "date": "2026-11-12 02:17",
+     "media": "Bitcoin News",
+     "title": "Polymarket réduit effectifs et prestataires avant son introduction en bourse",
+     "site": "https://news.bitcoin.com",
+     "overlap": 0.33,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-11-13 14:45",
+     "media": "Syracuse.com",
+     "title": "Polymarket launches $25 promo code “CUSE” for college football weekend and NFL Week 10",
+     "site": "https://www.syracuse.com",
+     "overlap": 0.11,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-11-13 15:13",
+     "media": "Front Office Sports",
+     "title": "Asset Class: Polymarket Layoffs",
+     "site": "https://frontofficesports.com",
+     "overlap": 0.33,
      "reprises": 0,
      "priority": false
     }
@@ -219,7 +246,16 @@
      "title": "Greece Expands Fleet of Runway-Independent V-BAT Surveillance Drones",
      "site": "https://aerospaceglobalnews.com",
      "overlap": 0.12,
-     "reprises": 5,
+     "reprises": 3,
+     "priority": false
+    },
+    {
+     "date": "2026-11-13 13:30",
+     "media": "Geoawesome",
+     "title": "Shield AI’s $5.3 Billion Echodyne Deal Puts a Premium on the Sensor Layer of Autonomy",
+     "site": "https://geoawesome.com",
+     "overlap": 0.25,
+     "reprises": 1,
      "priority": false
     },
     {
@@ -238,20 +274,11 @@
    "name": "Anthropic",
    "candidates": [
     {
-     "date": "2026-11-12 16:09",
-     "media": "Yahoo Finance",
-     "title": "Should you buy Anthropic’s IPO and which UK platforms offer access?",
-     "site": "https://finance.yahoo.com",
-     "overlap": 0.12,
-     "reprises": 0,
-     "priority": true
-    },
-    {
-     "date": "2026-11-13 12:05",
-     "media": "Trefis",
-     "title": "Anthropic IPO: Buy Day One Or Wait?",
-     "site": "https://www.trefis.com",
-     "overlap": 0.2,
+     "date": "2026-11-13 22:31",
+     "media": "Unite.AI",
+     "title": "Anthropic IPO Could Raise $64 Billion as Orders Reach Six Times",
+     "site": "https://www.unite.ai",
+     "overlap": 0.38,
      "reprises": 0,
      "priority": true
     },
@@ -261,16 +288,16 @@
      "title": "Anthropic Lance la Bêta Privée des Agents Gérants Claude Auto-Hébergés",
      "site": "https://blockchain.news",
      "overlap": 0.38,
-     "reprises": 8,
+     "reprises": 5,
      "priority": false
     },
     {
-     "date": "2026-11-12 18:04",
-     "media": "The American Bazaar",
-     "title": "Anthropic CEO predicts AI could help cure major diseases within 10 years",
-     "site": "https://americanbazaaronline.com",
-     "overlap": 0.0,
-     "reprises": 4,
+     "date": "2026-11-13 21:42",
+     "media": "Oncodaily",
+     "title": "Anthropic CEO Dario Amodei: Can AI Cure Cancer by 2036?",
+     "site": "https://oncodaily.com",
+     "overlap": 0.29,
+     "reprises": 5,
      "priority": false
     },
     {
@@ -283,30 +310,30 @@
      "priority": false
     },
     {
-     "date": "2026-11-13 12:11",
-     "media": "TheBanker.com",
-     "title": "Nvidia CEO’s exit threatens banks’ $1.5tn Anthropic IPO ambitions",
-     "site": "https://www.thebanker.com",
-     "overlap": 0.25,
+     "date": "2026-11-13 19:02",
+     "media": "Business Insider",
+     "title": "Anthropic CEO Dario Amodei says compute is a 'huge uncertainty' as he pitches IPO",
+     "site": "https://www.businessinsider.com",
+     "overlap": 0.33,
      "reprises": 3,
      "priority": false
     },
     {
-     "date": "2026-11-13 11:14",
-     "media": "Yahoo Finance",
-     "title": "Nvidia results, Anthropic IPO pose tests for tumultuous AI trade",
-     "site": "https://finance.yahoo.com",
-     "overlap": 0.29,
-     "reprises": 2,
+     "date": "2026-11-13 20:16",
+     "media": "Bloomberg",
+     "title": "Anthropic CEO Calls Computing Power ‘Deepest Business Dilemma’",
+     "site": "https://www.bloomberg.com",
+     "overlap": 0.14,
+     "reprises": 3,
      "priority": false
     },
     {
-     "date": "2026-11-12 01:05",
-     "media": "TIKR.com",
-     "title": "Anthropic Committed $30 Billion to Azure. Now It’s Coming for Microsoft’s $27.8 Billion Office Cloud",
-     "site": "https://www.tikr.com",
+     "date": "2026-11-13 17:09",
+     "media": "Virginia Lawyers Weekly",
+     "title": "OpenAI, Google, Anthropic hit with lawsuit seeking halt to frontier AI development",
+     "site": "https://valawyersweekly.com",
      "overlap": 0.25,
-     "reprises": 1,
+     "reprises": 2,
      "priority": false
     }
    ]
@@ -339,6 +366,15 @@
      "title": "Perplexity CEO Aravind Srinivas showcases zombie shooter built using Anthropic's Fable 5.2 AI model",
      "site": "https://www.moneycontrol.com",
      "overlap": 0.36,
+     "reprises": 0,
+     "priority": false
+    },
+    {
+     "date": "2026-11-14 00:03",
+     "media": "iClarified",
+     "title": "Perplexity Launches 'Teammates' AI Agents for Ongoing Projects",
+     "site": "https://www.iclarified.com",
+     "overlap": 0.0,
      "reprises": 0,
      "priority": false
     }
